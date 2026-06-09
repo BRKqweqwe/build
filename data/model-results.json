@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-09T15:00:01.270Z",
+  "schemaVersion": 2,
+  "updatedAt": "2026-06-09T15:02:48.626Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -215,12 +215,12 @@
         "missing": []
       },
       "pandaScoreId": 1517513,
-      "resultWinner": null,
-      "status": "pending",
+      "resultWinner": "Betclic Apogee Esports",
+      "status": "miss",
       "matchStatus": "not_started",
       "startTime": "2026-06-09T11:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Resolved from PandaScore past results. Raw winner: Betclic Apogee Esports.",
       "marketFavorite": "Betclic",
       "marketUnderdog": "AM",
       "marketTeamAProbability": 0.9995,
@@ -237,16 +237,16 @@
       "match": "BIG vs B8",
       "teamA": "BIG",
       "teamB": "B8",
-      "model": "Cal ML",
+      "model": "weighted",
       "modelPick": "BIG",
-      "modelProbability": 0.5080026257393195,
-      "modelTeamAProbability": 0.5080026257393195,
-      "modelTeamBProbability": 0.49199737426068046,
+      "modelProbability": 0.5150647671712072,
+      "modelTeamAProbability": 0.5150647671712072,
+      "modelTeamBProbability": 0.4849352328287928,
       "probabilityForWinner": null,
-      "calibration": "blend",
+      "calibration": "platt",
       "featureCoverage": {
-        "available": 57,
-        "total": 57,
+        "available": 61,
+        "total": 61,
         "ratio": 1,
         "missing": []
       },
@@ -256,7 +256,7 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-09T17:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "B8",
       "marketUnderdog": "BIG",
       "marketTeamAProbability": 0.445,
@@ -265,7 +265,91 @@
       "marketQuestion": "Counter-Strike: BIG vs B8 (BO3) - IEM Cologne Major Stage 2",
       "marketUrl": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
       "marketLiquidity": "513069.8785",
-      "marketVolume": "559113.1436429993"
+      "marketVolume": "559113.1436429993",
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "BIG",
+          "pickTeamId": "7532",
+          "probability": 0.5150647671712072,
+          "teamAProbability": 0.5150647671712072,
+          "teamBProbability": 0.4849352328287928,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "B8",
+          "marketProbability": 0.445,
+          "marketDisagreement": true,
+          "marketEdge": 0.07006476717120719
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "BIG",
+          "pickTeamId": "7532",
+          "probability": 0.5081349682950438,
+          "teamAProbability": 0.5081349682950438,
+          "teamBProbability": 0.4918650317049562,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "B8",
+          "marketProbability": 0.445,
+          "marketDisagreement": true,
+          "marketEdge": 0.06313496829504378
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 2",
+        "eventTier": 1,
+        "status": "not_started",
+        "startTime": "2026-06-09T17:00:00Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 28,
+          "teamB": 16
+        }
+      }
     },
     {
       "id": "2026-06-09-cybershoke-ex-ruby",
@@ -278,7 +362,7 @@
       "modelProbability": 0.5889272860274519,
       "modelTeamAProbability": 0.411072713972548,
       "modelTeamBProbability": 0.5889272860274519,
-      "probabilityForWinner": null,
+      "probabilityForWinner": 0.5889272860274519,
       "calibration": "blend",
       "featureCoverage": {
         "available": 57,
@@ -287,12 +371,12 @@
         "missing": []
       },
       "pandaScoreId": 1517512,
-      "resultWinner": null,
-      "status": "pending",
+      "resultWinner": "ex-RUBY",
+      "status": "hit",
       "matchStatus": "running",
       "startTime": "2026-06-09T08:03:21Z",
       "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: running."
+      "notes": "Pending snapshot before final result. Source status: running. Resolved from PandaScore past results. Raw winner: ex-RUBY."
     },
     {
       "id": "2026-06-09-monte-pain",
@@ -305,7 +389,7 @@
       "modelProbability": 0.5304297166423679,
       "modelTeamAProbability": 0.4695702833576321,
       "modelTeamBProbability": 0.5304297166423679,
-      "probabilityForWinner": null,
+      "probabilityForWinner": 0.4695702833576321,
       "calibration": "blend",
       "featureCoverage": {
         "available": 57,
@@ -314,12 +398,12 @@
         "missing": []
       },
       "pandaScoreId": 1508713,
-      "resultWinner": null,
-      "status": "pending",
+      "resultWinner": "Monte",
+      "status": "miss",
       "matchStatus": "not_started",
       "startTime": "2026-06-09T12:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Resolved from PandaScore past results. Raw winner: Monte.",
       "marketFavorite": "Monte",
       "marketUnderdog": "paiN",
       "marketTeamAProbability": 0.9995,
@@ -336,26 +420,26 @@
       "match": "TYLOO vs Legacy",
       "teamA": "TYLOO",
       "teamB": "Legacy",
-      "model": "Cal ML",
+      "model": "weighted",
       "modelPick": "Legacy",
-      "modelProbability": 0.6231113753607591,
-      "modelTeamAProbability": 0.3768886246392409,
-      "modelTeamBProbability": 0.6231113753607591,
+      "modelProbability": 0.5706183250583861,
+      "modelTeamAProbability": 0.42938167494161394,
+      "modelTeamBProbability": 0.5706183250583861,
       "probabilityForWinner": null,
-      "calibration": "blend",
+      "calibration": "platt",
       "featureCoverage": {
-        "available": 57,
-        "total": 57,
+        "available": 61,
+        "total": 61,
         "ratio": 1,
         "missing": []
       },
       "pandaScoreId": 1508714,
       "resultWinner": null,
       "status": "pending",
-      "matchStatus": "not_started",
-      "startTime": "2026-06-09T14:30:00Z",
+      "matchStatus": "running",
+      "startTime": "2026-06-09T14:30:59Z",
       "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: running.",
       "marketFavorite": "Legacy",
       "marketUnderdog": "TYLOO",
       "marketTeamAProbability": 0.145,
@@ -364,7 +448,83 @@
       "marketQuestion": "Counter-Strike: TYLOO vs Legacy (BO3) - IEM Cologne Major Stage 2",
       "marketUrl": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
       "marketLiquidity": "63590.4325",
-      "marketVolume": "775845.8405739971"
+      "marketVolume": "775845.8405739971",
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Legacy",
+          "pickTeamId": "12468",
+          "probability": 0.5706183250583861,
+          "teamAProbability": 0.42938167494161394,
+          "teamBProbability": 0.5706183250583861,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Legacy",
+          "pickTeamId": "12468",
+          "probability": 0.6229929041321839,
+          "teamAProbability": 0.3770070958678161,
+          "teamBProbability": 0.6229929041321839,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          }
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 2",
+        "eventTier": 1,
+        "status": "running",
+        "startTime": "2026-06-09T14:30:59Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 25,
+          "teamB": 5
+        }
+      }
     },
     {
       "id": "2026-06-09-virtus-pro-oxuji",
@@ -372,26 +532,26 @@
       "match": "Virtus.pro vs Oxuji",
       "teamA": "Virtus.pro",
       "teamB": "Oxuji",
-      "model": "Cal ML",
-      "modelPick": "Oxuji",
-      "modelProbability": 0.5241428050084175,
-      "modelTeamAProbability": 0.4758571949915825,
-      "modelTeamBProbability": 0.5241428050084175,
+      "model": "weighted",
+      "modelPick": "Virtus.pro",
+      "modelProbability": 0.6102755714740848,
+      "modelTeamAProbability": 0.6102755714740848,
+      "modelTeamBProbability": 0.38972442852591516,
       "probabilityForWinner": null,
-      "calibration": "blend",
+      "calibration": "platt",
       "featureCoverage": {
-        "available": 57,
-        "total": 57,
+        "available": 61,
+        "total": 61,
         "ratio": 1,
         "missing": []
       },
       "pandaScoreId": 1519565,
       "resultWinner": null,
       "status": "pending",
-      "matchStatus": "not_started",
-      "startTime": "2026-06-09T14:00:00Z",
-      "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "matchStatus": "running",
+      "startTime": "2026-06-09T14:15:56Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: running.",
       "marketFavorite": "Virtus.pro",
       "marketUnderdog": "Oxuji",
       "marketTeamAProbability": 0.76,
@@ -400,7 +560,83 @@
       "marketQuestion": "Counter-Strike: Virtus.pro vs Oxuji Esports (BO3) - CCT Europe Series 4 Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
       "marketLiquidity": "27790.0262",
-      "marketVolume": "72078.6132620001"
+      "marketVolume": "72078.6132620001",
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Virtus.pro",
+          "pickTeamId": "5378",
+          "probability": 0.6102755714740848,
+          "teamAProbability": 0.6102755714740848,
+          "teamBProbability": 0.38972442852591516,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Oxuji",
+          "pickTeamId": "13553",
+          "probability": 0.5240113582854597,
+          "teamAProbability": 0.4759886417145403,
+          "teamBProbability": 0.5240113582854597,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          }
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "Online",
+        "event": "CCT Europe - Series #4 - Group Stage",
+        "eventTier": 3,
+        "status": "running",
+        "startTime": "2026-06-09T14:15:56Z",
+        "topBucket": "top-50",
+        "ranks": {
+          "teamA": 40,
+          "teamB": 80
+        }
+      }
     }
   ]
 }

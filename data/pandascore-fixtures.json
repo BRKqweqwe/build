@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T10:01:56.547Z",
+  "generatedAt": "2026-06-09T15:01:54.075Z",
   "source": {
     "name": "pandascore",
     "apiBaseUrl": "https://api.pandascore.co",
@@ -7,89 +7,26 @@
     "pages": 3,
     "perPage": 100,
     "maxMatches": 80,
-    "rawMatches": 194,
-    "matches": 19,
-    "mergedMatches": 19,
+    "rawMatches": 187,
+    "matches": 16,
+    "mergedMatches": 16,
     "keptExistingMatches": 0,
     "skipped": {
-      "missingOpponents": 147,
-      "unknownTeams": 28,
+      "missingOpponents": 145,
+      "unknownTeams": 26,
       "rank": 0,
       "duplicate": 0
     }
   },
   "matches": [
     {
-      "id": "pandascore-1517512",
-      "pandaScoreId": 1517512,
-      "startTime": "2026-06-09T08:03:21Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "running",
-      "teamAId": "12380",
-      "teamBId": "13617",
-      "teamAName": "CYBERSHOKE",
-      "teamBName": "ex-RUBY",
-      "rawTeamAName": "CYBERSHOKE Esports",
-      "rawTeamBName": "ex-RUBY",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1517513",
-      "pandaScoreId": 1517513,
-      "startTime": "2026-06-09T11:00:00Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "12916",
-      "teamBId": "13237",
-      "teamAName": "Betclic",
-      "teamBName": "AM",
-      "rawTeamAName": "Betclic Apogee Esports",
-      "rawTeamBName": "AM Gaming",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1508713",
-      "pandaScoreId": 1508713,
-      "startTime": "2026-06-09T12:00:00Z",
-      "event": "IEM - Cologne Major - Stage 2",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "11811",
-      "teamBId": "4773",
-      "teamAName": "Monte",
-      "teamBName": "paiN",
-      "rawTeamAName": "Monte",
-      "rawTeamBName": "paiN",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
       "id": "pandascore-1519565",
       "pandaScoreId": 1519565,
-      "startTime": "2026-06-09T14:00:00Z",
+      "startTime": "2026-06-09T14:15:56Z",
       "event": "CCT Europe - Series #4 - Group Stage",
       "format": "bo3",
       "environment": "Online",
-      "status": "not_started",
+      "status": "running",
       "teamAId": "5378",
       "teamBId": "13553",
       "teamAName": "Virtus.pro",
@@ -106,11 +43,11 @@
     {
       "id": "pandascore-1508714",
       "pandaScoreId": 1508714,
-      "startTime": "2026-06-09T14:30:00Z",
+      "startTime": "2026-06-09T14:30:59Z",
       "event": "IEM - Cologne Major - Stage 2",
       "format": "bo3",
       "environment": "LAN",
-      "status": "not_started",
+      "status": "running",
       "teamAId": "4863",
       "teamBId": "12468",
       "teamAName": "TYLOO",

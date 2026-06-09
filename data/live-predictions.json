@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T15:00:01.933Z",
+  "generatedAt": "2026-06-09T15:02:49.259Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
@@ -9,10 +9,10 @@
     "maxRank": 100
   },
   "summary": {
-    "total": 19,
-    "withMarket": 17,
-    "withHistory": 7,
-    "pendingHistory": 6,
+    "total": 16,
+    "withMarket": 14,
+    "withHistory": 4,
+    "pendingHistory": 3,
     "skipped": {
       "missingTeams": 0,
       "rank": 0
@@ -20,254 +20,35 @@
   },
   "predictions": [
     {
-      "id": "pandascore-1517512",
+      "id": "pandascore-1519565",
       "match": {
-        "id": "pandascore-1517512",
-        "pandaScoreId": 1517512,
-        "startTime": "2026-06-09T08:03:21Z",
-        "event": "NODWIN Clutch Series - Group Stage",
+        "id": "pandascore-1519565",
+        "pandaScoreId": 1519565,
+        "startTime": "2026-06-09T14:15:56Z",
+        "event": "CCT Europe - Series #4 - Group Stage",
         "format": "bo3",
         "environment": "Online",
         "status": "running"
       },
       "teamA": {
-        "id": "12380",
-        "name": "CYBERSHOKE",
-        "hltvRank": 60,
-        "probability": 0.5087253601592764,
-        "baseProbability": 0.4495813640900767
-      },
-      "teamB": {
-        "id": "13617",
-        "name": "ex-RUBY",
-        "hltvRank": 75,
-        "probability": 0.4912746398407236,
-        "baseProbability": 0.5504186359099232
-      },
-      "pick": {
-        "teamId": "12380",
-        "name": "CYBERSHOKE",
-        "probability": 0.5087253601592764,
-        "confidence": 0.26483311227076983
-      },
-      "model": {
-        "type": "logistic-regression-progressive-curriculum",
-        "generatedAt": "2026-06-09T10:58:31.157Z",
-        "calibration": {
-          "type": "platt",
-          "a": 0.6766622221181056,
-          "b": 0.1718359057655359,
-          "calibrationLogLoss": 0.6623200618633371
-        },
-        "featureCoverage": {
-          "available": 61,
-          "total": 61,
-          "ratio": 1,
-          "missing": []
-        },
-        "dataQuality": {
-          "score": 0.94,
-          "label": "Wysoka"
-        }
-      },
-      "market": {
-        "favorite": "CYBERSHOKE",
-        "underdog": "ex-RUBY",
-        "teamAProbability": 0.5,
-        "teamBProbability": 0.5,
-        "favoriteProbability": 0.5,
-        "question": "Map 2 Rounds Handicap: ex-RUBY (-9.5) vs CYBERSHOKE Esports (+9.5)",
-        "url": "https://polymarket.com/event/cs2-cs1-ruby1-2026-06-09",
-        "liquidity": null,
-        "volume": null,
-        "edgeTeamA": 0.008725360159276385,
-        "edgeTeamB": -0.008725360159276385,
-        "edgePick": 0.008725360159276385,
-        "disagreement": false
-      },
-      "history": {
-        "id": "2026-06-09-cybershoke-ex-ruby",
-        "status": "pending",
-        "resultWinner": null,
-        "probabilityForWinner": null
-      }
-    },
-    {
-      "id": "pandascore-1517513",
-      "match": {
-        "id": "pandascore-1517513",
-        "pandaScoreId": 1517513,
-        "startTime": "2026-06-09T11:00:00Z",
-        "event": "NODWIN Clutch Series - Group Stage",
-        "format": "bo3",
-        "environment": "Online",
-        "status": "not_started"
-      },
-      "teamA": {
-        "id": "12916",
-        "name": "Betclic",
-        "hltvRank": 85,
-        "probability": 0.54358918390149,
-        "baseProbability": 0.5010952872339165
-      },
-      "teamB": {
-        "id": "13237",
-        "name": "AM",
-        "hltvRank": 73,
-        "probability": 0.45641081609851,
-        "baseProbability": 0.4989047127660835
-      },
-      "pick": {
-        "teamId": "12916",
-        "name": "Betclic",
-        "probability": 0.54358918390149,
-        "confidence": 0.324101612632533
-      },
-      "model": {
-        "type": "logistic-regression-progressive-curriculum",
-        "generatedAt": "2026-06-09T10:58:31.157Z",
-        "calibration": {
-          "type": "platt",
-          "a": 0.6766622221181056,
-          "b": 0.1718359057655359,
-          "calibrationLogLoss": 0.6623200618633371
-        },
-        "featureCoverage": {
-          "available": 61,
-          "total": 61,
-          "ratio": 1,
-          "missing": []
-        },
-        "dataQuality": {
-          "score": 0.94,
-          "label": "Wysoka"
-        }
-      },
-      "market": {
-        "favorite": "Betclic",
-        "underdog": "AM",
-        "teamAProbability": 0.9995,
-        "teamBProbability": 0.0005,
-        "favoriteProbability": 0.9995,
-        "question": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
-        "url": "https://polymarket.com/event/cs2-bca-am-2026-06-09",
-        "liquidity": "79813.82695",
-        "volume": "26035.16469299999",
-        "edgeTeamA": -0.45591081609851003,
-        "edgeTeamB": 0.45591081609851,
-        "edgePick": -0.45591081609851003,
-        "disagreement": false
-      },
-      "history": {
-        "id": "2026-06-09-betclic-am",
-        "status": "pending",
-        "resultWinner": null,
-        "probabilityForWinner": null
-      }
-    },
-    {
-      "id": "pandascore-1508713",
-      "match": {
-        "id": "pandascore-1508713",
-        "pandaScoreId": 1508713,
-        "startTime": "2026-06-09T12:00:00Z",
-        "event": "IEM - Cologne Major - Stage 2",
-        "format": "bo3",
-        "environment": "LAN",
-        "status": "not_started"
-      },
-      "teamA": {
-        "id": "11811",
-        "name": "Monte",
-        "hltvRank": 21,
-        "probability": 0.5650651090666624,
-        "baseProbability": 0.5331689381301506
-      },
-      "teamB": {
-        "id": "4773",
-        "name": "paiN",
-        "hltvRank": 20,
-        "probability": 0.4349348909333376,
-        "baseProbability": 0.46683106186984935
-      },
-      "pick": {
-        "teamId": "11811",
-        "name": "Monte",
-        "probability": 0.5650651090666624,
-        "confidence": 0.3606106854133261
-      },
-      "model": {
-        "type": "logistic-regression-progressive-curriculum",
-        "generatedAt": "2026-06-09T10:58:31.157Z",
-        "calibration": {
-          "type": "platt",
-          "a": 0.6766622221181056,
-          "b": 0.1718359057655359,
-          "calibrationLogLoss": 0.6623200618633371
-        },
-        "featureCoverage": {
-          "available": 61,
-          "total": 61,
-          "ratio": 1,
-          "missing": []
-        },
-        "dataQuality": {
-          "score": 0.94,
-          "label": "Wysoka"
-        }
-      },
-      "market": {
-        "favorite": "Monte",
-        "underdog": "paiN",
-        "teamAProbability": 0.9995,
-        "teamBProbability": 0.0005,
-        "favoriteProbability": 0.9995,
-        "question": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
-        "url": "https://polymarket.com/event/cs2-mnte-pain-2026-06-09",
-        "liquidity": "653332.53648",
-        "volume": "1439399.8307030029",
-        "edgeTeamA": -0.43443489093333765,
-        "edgeTeamB": 0.4344348909333376,
-        "edgePick": -0.43443489093333765,
-        "disagreement": false
-      },
-      "history": {
-        "id": "2026-06-09-monte-pain",
-        "status": "pending",
-        "resultWinner": null,
-        "probabilityForWinner": null
-      }
-    },
-    {
-      "id": "pandascore-1519565",
-      "match": {
-        "id": "pandascore-1519565",
-        "pandaScoreId": 1519565,
-        "startTime": "2026-06-09T14:00:00Z",
-        "event": "CCT Europe - Series #4 - Group Stage",
-        "format": "bo3",
-        "environment": "Online",
-        "status": "not_started"
-      },
-      "teamA": {
         "id": "5378",
         "name": "Virtus.pro",
         "hltvRank": 40,
-        "probability": 0.6102749231781889,
-        "baseProbability": 0.6008045610979054
+        "probability": 0.6102755751641586,
+        "baseProbability": 0.600805532728517
       },
       "teamB": {
         "id": "13553",
         "name": "Oxuji",
         "hltvRank": 80,
-        "probability": 0.3897250768218111,
-        "baseProbability": 0.39919543890209463
+        "probability": 0.38972442483584135,
+        "baseProbability": 0.399194467271483
       },
       "pick": {
         "teamId": "5378",
         "name": "Virtus.pro",
-        "probability": 0.6102749231781889,
-        "confidence": 0.4374673694029211
+        "probability": 0.6102755751641586,
+        "confidence": 0.4374684777790697
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -299,9 +80,9 @@
         "url": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
         "liquidity": "27790.0262",
         "volume": "72078.6132620001",
-        "edgeTeamA": -0.14972507682181113,
-        "edgeTeamB": 0.14972507682181113,
-        "edgePick": -0.14972507682181113,
+        "edgeTeamA": -0.14972442483584136,
+        "edgeTeamB": 0.14972442483584136,
+        "edgePick": -0.14972442483584136,
         "disagreement": false
       },
       "history": {
@@ -316,31 +97,31 @@
       "match": {
         "id": "pandascore-1508714",
         "pandaScoreId": 1508714,
-        "startTime": "2026-06-09T14:30:00Z",
+        "startTime": "2026-06-09T14:30:59Z",
         "event": "IEM - Cologne Major - Stage 2",
         "format": "bo3",
         "environment": "LAN",
-        "status": "not_started"
+        "status": "running"
       },
       "teamA": {
         "id": "4863",
         "name": "TYLOO",
         "hltvRank": 25,
-        "probability": 0.4293810070799817,
-        "baseProbability": 0.33755461485696403
+        "probability": 0.4293816787429885,
+        "baseProbability": 0.33755552076638473
       },
       "teamB": {
         "id": "12468",
         "name": "Legacy",
         "hltvRank": 5,
-        "probability": 0.5706189929200183,
-        "baseProbability": 0.662445385143036
+        "probability": 0.5706183212570115,
+        "baseProbability": 0.6624444792336153
       },
       "pick": {
         "teamId": "12468",
         "name": "Legacy",
-        "probability": 0.5706189929200183,
-        "confidence": 0.37005228796403106
+        "probability": 0.5706183212570115,
+        "confidence": 0.3700511461369196
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -372,9 +153,9 @@
         "url": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
         "liquidity": "63590.4325",
         "volume": "775845.8405739971",
-        "edgeTeamA": 0.2843810070799817,
-        "edgeTeamB": -0.2843810070799817,
-        "edgePick": -0.2843810070799817,
+        "edgeTeamA": 0.2843816787429885,
+        "edgeTeamB": -0.2843816787429885,
+        "edgePick": -0.2843816787429885,
         "disagreement": false
       },
       "history": {
@@ -399,21 +180,21 @@
         "id": "7532",
         "name": "BIG",
         "hltvRank": 28,
-        "probability": 0.5150640863304158,
-        "baseProbability": 0.4588756051223009
+        "probability": 0.515064771046433,
+        "baseProbability": 0.45887661109249367
       },
       "teamB": {
         "id": "11241",
         "name": "B8",
         "hltvRank": 16,
-        "probability": 0.4849359136695842,
-        "baseProbability": 0.5411243948776991
+        "probability": 0.484935228953567,
+        "baseProbability": 0.5411233889075063
       },
       "pick": {
         "teamId": "7532",
         "name": "BIG",
-        "probability": 0.5150640863304158,
-        "confidence": 0.27560894676170683
+        "probability": 0.515064771046433,
+        "confidence": 0.2756101107789361
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -445,9 +226,9 @@
         "url": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
         "liquidity": "513069.8785",
         "volume": "559113.1436429993",
-        "edgeTeamA": 0.07006408633041578,
-        "edgeTeamB": -0.07006408633041583,
-        "edgePick": 0.07006408633041578,
+        "edgeTeamA": 0.070064771046433,
+        "edgeTeamB": -0.07006477104643305,
+        "edgePick": 0.070064771046433,
         "disagreement": true
       },
       "history": {
@@ -472,21 +253,21 @@
         "id": "10459",
         "name": "ARCRED",
         "hltvRank": 58,
-        "probability": 0.5589367844507284,
-        "baseProbability": 0.5240010069293073
+        "probability": 0.5589374602665405,
+        "baseProbability": 0.5240020174170974
       },
       "teamB": {
         "id": "13518",
         "name": "Acend",
         "hltvRank": 61,
-        "probability": 0.44106321554927164,
-        "baseProbability": 0.4759989930706927
+        "probability": 0.44106253973345955,
+        "baseProbability": 0.4759979825829026
       },
       "pick": {
         "teamId": "10459",
         "name": "ARCRED",
-        "probability": 0.5589367844507284,
-        "confidence": 0.3501925335662382
+        "probability": 0.5589374602665405,
+        "confidence": 0.35019368245311877
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -526,21 +307,21 @@
         "id": "12889",
         "name": "G2 Ares",
         "hltvRank": 88,
-        "probability": 0.5304431859009674,
-        "baseProbability": 0.4815677121187319
+        "probability": 0.5304438686983906,
+        "baseProbability": 0.48156872356401115
       },
       "teamB": {
         "id": "10960",
         "name": "Young Ninjas",
         "hltvRank": 98,
-        "probability": 0.4695568140990326,
-        "baseProbability": 0.5184322878812682
+        "probability": 0.46955613130160945,
+        "baseProbability": 0.5184312764359889
       },
       "pick": {
         "teamId": "12889",
         "name": "G2 Ares",
-        "probability": 0.5304431859009674,
-        "confidence": 0.3017534160316446
+        "probability": 0.5304438686983906,
+        "confidence": 0.3017545767872639
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -572,9 +353,9 @@
         "url": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
         "liquidity": "5981.8235",
         "volume": "107.586602",
-        "edgeTeamA": 0.0904431859009674,
-        "edgeTeamB": -0.09044318590096745,
-        "edgePick": 0.0904431859009674,
+        "edgeTeamA": 0.09044386869839055,
+        "edgeTeamB": -0.0904438686983906,
+        "edgePick": 0.09044386869839055,
         "disagreement": true
       },
       "history": null
@@ -594,21 +375,21 @@
         "id": "13808",
         "name": "Walczaki",
         "hltvRank": 45,
-        "probability": 0.5162767619297708,
-        "baseProbability": 0.4606578940300623
+        "probability": 0.5162774465415971,
+        "baseProbability": 0.4606589005812615
       },
       "teamB": {
         "id": "13814",
         "name": "INOX Division",
         "hltvRank": 75,
-        "probability": 0.4837232380702292,
-        "baseProbability": 0.5393421059699377
+        "probability": 0.48372255345840287,
+        "baseProbability": 0.5393410994187384
       },
       "pick": {
         "teamId": "13808",
         "name": "Walczaki",
-        "probability": 0.5162767619297708,
-        "confidence": 0.27767049528061033
+        "probability": 0.5162774465415971,
+        "confidence": 0.2776716591207151
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -640,9 +421,9 @@
         "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
         "liquidity": "1716.7708",
         "volume": "136.26173400000002",
-        "edgeTeamA": -0.018723238070229242,
-        "edgeTeamB": 0.018723238070229187,
-        "edgePick": -0.018723238070229242,
+        "edgeTeamA": -0.018722553458402902,
+        "edgeTeamB": 0.018722553458402846,
+        "edgePick": -0.018722553458402902,
         "disagreement": false
       },
       "history": null
@@ -662,21 +443,21 @@
         "id": "13501",
         "name": "illwill",
         "hltvRank": 64,
-        "probability": 0.5343013906022651,
-        "baseProbability": 0.48728794416609245
+        "probability": 0.5343020727108205,
+        "baseProbability": 0.48728895632704744
       },
       "teamB": {
         "id": "12889",
         "name": "G2 Ares",
         "hltvRank": 88,
-        "probability": 0.4656986093977349,
-        "baseProbability": 0.5127120558339076
+        "probability": 0.46569792728917947,
+        "baseProbability": 0.5127110436729525
       },
       "pick": {
         "teamId": "13501",
         "name": "illwill",
-        "probability": 0.5343013906022651,
-        "confidence": 0.3083123640238507
+        "probability": 0.5343020727108205,
+        "confidence": 0.3083135236083949
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -708,9 +489,9 @@
         "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
         "liquidity": "3071.9087",
         "volume": "114.51632",
-        "edgeTeamA": -0.07569860939773487,
-        "edgeTeamB": 0.07569860939773487,
-        "edgePick": -0.07569860939773487,
+        "edgeTeamA": -0.07569792728917946,
+        "edgeTeamB": 0.07569792728917946,
+        "edgePick": -0.07569792728917946,
         "disagreement": false
       },
       "history": null
@@ -730,21 +511,21 @@
         "id": "13314",
         "name": "KOLESIE",
         "hltvRank": 86,
-        "probability": 0.5199088133705607,
-        "baseProbability": 0.4660035941924073
+        "probability": 0.5199094976180008,
+        "baseProbability": 0.46600460232584917
       },
       "teamB": {
         "id": "5378",
         "name": "Virtus.pro",
         "hltvRank": 40,
-        "probability": 0.4800911866294393,
-        "baseProbability": 0.5339964058075928
+        "probability": 0.48009050238199924,
+        "baseProbability": 0.5339953976741508
       },
       "pick": {
         "teamId": "13314",
         "name": "KOLESIE",
-        "probability": 0.5199088133705607,
-        "confidence": 0.28384498272995323
+        "probability": 0.5199094976180008,
+        "confidence": 0.2838461459506013
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -776,9 +557,9 @@
         "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11",
         "liquidity": "2554.7186",
         "volume": "27.718607999999996",
-        "edgeTeamA": 0.2449088133705607,
-        "edgeTeamB": -0.2449088133705607,
-        "edgePick": 0.2449088133705607,
+        "edgeTeamA": 0.24490949761800074,
+        "edgeTeamB": -0.24490949761800074,
+        "edgePick": 0.24490949761800074,
         "disagreement": true
       },
       "history": null
@@ -798,21 +579,21 @@
         "id": "12394",
         "name": "BetBoom",
         "hltvRank": 17,
-        "probability": 0.6245289060979543,
-        "baseProbability": 0.6219900548586771
+        "probability": 0.6245295489244834,
+        "baseProbability": 0.6219910073903138
       },
       "teamB": {
         "id": "11737",
         "name": "EYEBALLERS",
         "hltvRank": 36,
-        "probability": 0.3754710939020457,
-        "baseProbability": 0.3780099451413229
+        "probability": 0.3754704510755166,
+        "baseProbability": 0.37800899260968623
       },
       "pick": {
         "teamId": "12394",
         "name": "BetBoom",
-        "probability": 0.6245289060979543,
-        "confidence": 0.4616991403665223
+        "probability": 0.6245295489244834,
+        "confidence": 0.4617002331716218
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -844,9 +625,9 @@
         "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01",
         "liquidity": "12027.8849",
         "volume": "1422.5585500000002",
-        "edgeTeamA": 0.1245289060979543,
-        "edgeTeamB": -0.1245289060979543,
-        "edgePick": 0.1245289060979543,
+        "edgeTeamA": 0.12452954892448342,
+        "edgeTeamB": -0.12452954892448342,
+        "edgePick": 0.12452954892448342,
         "disagreement": false
       },
       "history": null
@@ -866,21 +647,21 @@
         "id": "11241",
         "name": "B8",
         "hltvRank": 16,
-        "probability": 0.6817692504747797,
-        "baseProbability": 0.705170641632197
+        "probability": 0.6817698452381618,
+        "baseProbability": 0.7051714839142486
       },
       "teamB": {
         "id": "4411",
         "name": "Ninjas in Pyjamas",
         "hltvRank": 23,
-        "probability": 0.31823074952522035,
-        "baseProbability": 0.294829358367803
+        "probability": 0.31823015476183825,
+        "baseProbability": 0.29482851608575145
       },
       "pick": {
         "teamId": "11241",
         "name": "B8",
-        "probability": 0.6817692504747797,
-        "confidence": 0.5590077258071253
+        "probability": 0.6817698452381618,
+        "confidence": 0.559008736904875
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -920,21 +701,21 @@
         "id": "9996",
         "name": "9z",
         "hltvRank": 15,
-        "probability": 0.6546952534987279,
-        "baseProbability": 0.6662987789462292
+        "probability": 0.6546958732343272,
+        "baseProbability": 0.6662996797277694
       },
       "teamB": {
         "id": "13355",
         "name": "Nemesis",
         "hltvRank": 34,
-        "probability": 0.3453047465012721,
-        "baseProbability": 0.33370122105377076
+        "probability": 0.3453041267656728,
+        "baseProbability": 0.3337003202722306
       },
       "pick": {
         "teamId": "9996",
         "name": "9z",
-        "probability": 0.6546952534987279,
-        "confidence": 0.5129819309478374
+        "probability": 0.6546958732343272,
+        "confidence": 0.5129829844983562
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -966,9 +747,9 @@
         "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01",
         "liquidity": "10056.5807",
         "volume": "799.733096",
-        "edgeTeamA": 0.14969525349872792,
-        "edgeTeamB": -0.14969525349872792,
-        "edgePick": 0.14969525349872792,
+        "edgeTeamA": 0.1496958732343272,
+        "edgeTeamB": -0.1496958732343272,
+        "edgePick": 0.1496958732343272,
         "disagreement": false
       },
       "history": null
@@ -988,21 +769,21 @@
         "id": "4914",
         "name": "3DMAX",
         "hltvRank": 27,
-        "probability": 0.5755907991408376,
-        "baseProbability": 0.5489305341502655
+        "probability": 0.5755914688108249,
+        "baseProbability": 0.5489315372661181
       },
       "teamB": {
         "id": "12474",
         "name": "Alliance",
         "hltvRank": 30,
-        "probability": 0.42440920085916245,
-        "baseProbability": 0.4510694658497345
+        "probability": 0.4244085311891751,
+        "baseProbability": 0.4510684627338819
       },
       "pick": {
         "teamId": "4914",
         "name": "3DMAX",
-        "probability": 0.5755907991408376,
-        "confidence": 0.3785043585394238
+        "probability": 0.5755914688108249,
+        "confidence": 0.3785054969784023
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1034,9 +815,9 @@
         "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01",
         "liquidity": "12027.71",
         "volume": "409.210874",
-        "edgeTeamA": 0.07059079914083755,
-        "edgeTeamB": -0.07059079914083755,
-        "edgePick": 0.07059079914083755,
+        "edgeTeamA": 0.0705914688108249,
+        "edgeTeamB": -0.0705914688108249,
+        "edgePick": 0.0705914688108249,
         "disagreement": false
       },
       "history": null
@@ -1056,21 +837,21 @@
         "id": "11811",
         "name": "Monte",
         "hltvRank": 21,
-        "probability": 0.5579509167745835,
-        "baseProbability": 0.5225270666705071
+        "probability": 0.5579515929022587,
+        "baseProbability": 0.522528077430098
       },
       "teamB": {
         "id": "9215",
         "name": "MIBR",
         "hltvRank": 18,
-        "probability": 0.4420490832254165,
-        "baseProbability": 0.4774729333294929
+        "probability": 0.4420484070977413,
+        "baseProbability": 0.477471922569902
       },
       "pick": {
         "teamId": "11811",
         "name": "Monte",
-        "probability": 0.5579509167745835,
-        "confidence": 0.348516558516792
+        "probability": 0.5579515929022587,
+        "confidence": 0.3485177079338398
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1102,9 +883,9 @@
         "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01",
         "liquidity": "10618.9175",
         "volume": "866.6514670000001",
-        "edgeTeamA": 0.05795091677458353,
-        "edgeTeamB": -0.05795091677458353,
-        "edgePick": 0.05795091677458353,
+        "edgeTeamA": 0.05795159290225871,
+        "edgeTeamB": -0.05795159290225871,
+        "edgePick": 0.05795159290225871,
         "disagreement": false
       },
       "history": null
@@ -1124,21 +905,21 @@
         "id": "12467",
         "name": "PARIVISION",
         "hltvRank": 14,
-        "probability": 0.5876035325544986,
-        "baseProbability": 0.5669233075829658
+        "probability": 0.5876041968542925,
+        "baseProbability": 0.5669243022597066
       },
       "teamB": {
         "id": "7532",
         "name": "BIG",
         "hltvRank": 28,
-        "probability": 0.4123964674455014,
-        "baseProbability": 0.43307669241703417
+        "probability": 0.41239580314570745,
+        "baseProbability": 0.4330756977402934
       },
       "pick": {
         "teamId": "12467",
         "name": "PARIVISION",
-        "probability": 0.5876035325544986,
-        "confidence": 0.3989260053426476
+        "probability": 0.5876041968542925,
+        "confidence": 0.39892713465229734
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1170,9 +951,9 @@
         "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01",
         "liquidity": "10886.0111",
         "volume": "1305.601685",
-        "edgeTeamA": 0.0826035325544986,
-        "edgeTeamB": -0.0826035325544986,
-        "edgePick": 0.0826035325544986,
+        "edgeTeamA": 0.08260419685429254,
+        "edgeTeamB": -0.08260419685429254,
+        "edgePick": 0.08260419685429254,
         "disagreement": false
       },
       "history": null
@@ -1192,21 +973,21 @@
         "id": "12468",
         "name": "Legacy",
         "hltvRank": 5,
-        "probability": 0.6660754579348223,
-        "baseProbability": 0.6827602209990326
+        "probability": 0.6660760676632739,
+        "baseProbability": 0.6827610985017788
       },
       "teamB": {
         "id": "12376",
         "name": "M80",
         "hltvRank": 25,
-        "probability": 0.33392454206517774,
-        "baseProbability": 0.31723977900096745
+        "probability": 0.3339239323367261,
+        "baseProbability": 0.3172389014982212
       },
       "pick": {
         "teamId": "12468",
         "name": "Legacy",
-        "probability": 0.6660754579348223,
-        "confidence": 0.5323282784891978
+        "probability": 0.6660760676632739,
+        "confidence": 0.5323293150275656
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1238,9 +1019,9 @@
         "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01",
         "liquidity": "76687.1582",
         "volume": "86618.850606",
-        "edgeTeamA": 0.16107545793482225,
-        "edgeTeamB": -0.16107545793482225,
-        "edgePick": 0.16107545793482225,
+        "edgeTeamA": 0.16107606766327387,
+        "edgeTeamB": -0.16107606766327387,
+        "edgePick": 0.16107606766327387,
         "disagreement": false
       },
       "history": {
@@ -1265,21 +1046,21 @@
         "id": "6667",
         "name": "FaZe",
         "hltvRank": 22,
-        "probability": 0.6708612666510071,
-        "baseProbability": 0.6896321190249652
+        "probability": 0.6708618719589814,
+        "baseProbability": 0.689632986160282
       },
       "teamB": {
         "id": "10577",
         "name": "SINNERS",
         "hltvRank": 42,
-        "probability": 0.3291387333489929,
-        "baseProbability": 0.31036788097503476
+        "probability": 0.3291381280410186,
+        "baseProbability": 0.310367013839718
       },
       "pick": {
         "teamId": "6667",
         "name": "FaZe",
-        "probability": 0.6708612666510071,
-        "confidence": 0.540464153306712
+        "probability": 0.6708618719589814,
+        "confidence": 0.5404651823302684
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1311,9 +1092,9 @@
         "url": "https://polymarket.com/event/cs2-faze-sin2-2026-07-01",
         "liquidity": "10890.6794",
         "volume": "730.402241",
-        "edgeTeamA": 0.1758612666510071,
-        "edgeTeamB": -0.1758612666510071,
-        "edgePick": 0.1758612666510071,
+        "edgeTeamA": 0.1758618719589814,
+        "edgeTeamB": -0.1758618719589814,
+        "edgePick": 0.1758618719589814,
         "disagreement": true
       },
       "history": null
