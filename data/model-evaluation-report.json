@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T15:16:40.482Z",
+  "generatedAt": "2026-06-09T15:59:19.956Z",
   "source": {
     "results": "static/data/model-results.json",
     "rows": 13,
     "schemaVersion": 2,
-    "updatedAt": "2026-06-09T15:16:40.201Z"
+    "updatedAt": "2026-06-09T15:59:19.681Z"
   },
   "settings": {
     "primaryModelId": "weighted",
@@ -47,7 +47,7 @@
         "disagreements": 3,
         "disagreementAccuracy": 0.333333,
         "agreementAccuracy": 1,
-        "avgEdge": 0.202162
+        "avgEdge": 0.202167
       }
     }
   },
@@ -328,7 +328,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.063141
+        "avgEdge": 0.06316
       },
       "byConfidence": [
         {
@@ -349,7 +349,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.063141
+            "avgEdge": 0.06316
           }
         },
         {
@@ -393,7 +393,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.063141
+            "avgEdge": 0.06316
           }
         }
       ],
@@ -416,7 +416,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.063141
+            "avgEdge": 0.06316
           }
         },
         {
@@ -460,7 +460,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.063141
+            "avgEdge": 0.06316
           }
         },
         {
@@ -586,7 +586,7 @@
         "disagreements": 1,
         "disagreementAccuracy": 1,
         "agreementAccuracy": null,
-        "avgEdge": 0.070068
+        "avgEdge": 0.070079
       },
       "byConfidence": [
         {
@@ -607,7 +607,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.070068
+            "avgEdge": 0.070079
           }
         },
         {
@@ -693,7 +693,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.070068
+            "avgEdge": 0.070079
           }
         },
         {
@@ -737,7 +737,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.070068
+            "avgEdge": 0.070079
           }
         },
         {
@@ -802,7 +802,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.070068
+            "avgEdge": 0.070079
           }
         },
         {
@@ -993,7 +993,7 @@
         "disagreements": 2,
         "disagreementAccuracy": 0,
         "agreementAccuracy": null,
-        "avgEdge": 0.309803
+        "avgEdge": 0.30981
       }
     }
   ],
@@ -1010,11 +1010,11 @@
         "modelA": "weighted",
         "modelAPick": "Virtus.pro",
         "modelAStatus": "pending",
-        "modelAProbability": 0.6102788117280886,
+        "modelAProbability": 0.6102887851187895,
         "modelB": "champion",
         "modelBPick": "Oxuji",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5240052842335607,
+        "modelBProbability": 0.5239865883319047,
         "resolved": false,
         "winner": null
       }
@@ -1027,10 +1027,10 @@
       "match": "BIG vs B8",
       "modelId": "weighted",
       "pick": "BIG",
-      "probability": 0.5150681700116536,
+      "probability": 0.5150786438932523,
       "marketFavorite": "B8",
       "marketDisagreement": true,
-      "marketEdge": 0.07006817001165361
+      "marketEdge": 0.0700786438932523
     },
     {
       "matchId": "2026-06-09-big-b8",
@@ -1038,10 +1038,10 @@
       "match": "BIG vs B8",
       "modelId": "champion",
       "pick": "BIG",
-      "probability": 0.5081410835730701,
+      "probability": 0.5081599063087643,
       "marketFavorite": "B8",
       "marketDisagreement": true,
-      "marketEdge": 0.06314108357307008
+      "marketEdge": 0.06315990630876428
     },
     {
       "matchId": "2026-06-09-tyloo-legacy",
@@ -1049,7 +1049,7 @@
       "match": "TYLOO vs Legacy",
       "modelId": "weighted",
       "pick": "Legacy",
-      "probability": 0.5706149870630027,
+      "probability": 0.5706047127244316,
       "marketFavorite": "Legacy",
       "marketDisagreement": false,
       "marketEdge": null
@@ -1060,7 +1060,7 @@
       "match": "TYLOO vs Legacy",
       "modelId": "champion",
       "pick": "Legacy",
-      "probability": 0.622987429228161,
+      "probability": 0.6229705772263886,
       "marketFavorite": "Legacy",
       "marketDisagreement": false,
       "marketEdge": null
@@ -1071,7 +1071,7 @@
       "match": "Virtus.pro vs Oxuji",
       "modelId": "weighted",
       "pick": "Virtus.pro",
-      "probability": 0.6102788117280886,
+      "probability": 0.6102887851187895,
       "marketFavorite": "Virtus.pro",
       "marketDisagreement": false,
       "marketEdge": null
@@ -1082,7 +1082,7 @@
       "match": "Virtus.pro vs Oxuji",
       "modelId": "champion",
       "pick": "Oxuji",
-      "probability": 0.5240052842335607,
+      "probability": 0.5239865883319047,
       "marketFavorite": "Virtus.pro",
       "marketDisagreement": false,
       "marketEdge": null
