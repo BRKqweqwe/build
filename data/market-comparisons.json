@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T15:02:44.602Z",
+  "generatedAt": "2026-06-09T15:16:36.861Z",
   "source": {
     "name": "polymarket-gamma-public-search",
     "baseUrl": "https://gamma-api.polymarket.com",
@@ -23,9 +23,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 81424.0617,
-          "volume": 78247.27714200008,
-          "openInterest": 71477.860082,
+          "liquidity": 76733.8725,
+          "volume": 85282.2543420001,
+          "openInterest": 74689.43415599999,
           "url": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
           "searchQuery": "Virtus.pro Oxuji",
           "matchId": "pandascore-1519565",
@@ -59,16 +59,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27790.0262",
-              "volume": "72078.6132620001",
+              "liquidity": "26251.9434",
+              "volume": "72571.7973150001",
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.76
+                  "price": 0.73
                 },
                 {
                   "outcome": "Oxuji Esports",
-                  "price": 0.24
+                  "price": 0.27
                 }
               ]
             },
@@ -79,16 +79,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "225.0795",
-              "volume": "1868.201217",
+              "liquidity": "374.6757",
+              "volume": "1903.201217",
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.5
+                  "price": 0.51
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.5
+                  "price": 0.49
                 }
               ]
             },
@@ -99,16 +99,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "150.3024",
-              "volume": "2887.625696000001",
+              "liquidity": "116.1797",
+              "volume": "2892.625696000001",
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.585
+                  "price": 0.4
                 },
                 {
                   "outcome": "Oxuji Esports",
-                  "price": 0.415
+                  "price": 0.6
                 }
               ]
             },
@@ -139,7 +139,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1485.9798",
+              "liquidity": "4343.6998",
               "volume": null,
               "outcomes": [
                 {
@@ -159,7 +159,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "7976.7598",
+              "liquidity": "13047.2598",
               "volume": "12.222221000000001",
               "outcomes": [
                 {
@@ -169,6 +169,26 @@
                 {
                   "outcome": "Under",
                   "price": 0.51
+                }
+              ]
+            },
+            {
+              "id": "2479308",
+              "question": "Map 1 Total Rounds: Over/Under 30.5",
+              "slug": "cs2-vp-oxuji-2026-06-09-game1-round-total-30pt5",
+              "active": true,
+              "closed": false,
+              "enableOrderBook": true,
+              "liquidity": "0",
+              "volume": "0",
+              "outcomes": [
+                {
+                  "outcome": "Over",
+                  "price": null
+                },
+                {
+                  "outcome": "Under",
+                  "price": null
                 }
               ]
             },
@@ -239,16 +259,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "14883.3427",
-              "volume": "6256.623596999998",
+              "liquidity": "21313.7559",
+              "volume": "7189.106865999997",
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.595
+                  "price": 0.645
                 },
                 {
                   "outcome": "Oxuji Esports",
-                  "price": 0.405
+                  "price": 0.355
                 }
               ]
             },
@@ -259,16 +279,36 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "18404.0255",
+              "liquidity": "24903.3709",
               "volume": "2178.9683489999998",
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.705
+                  "price": 0.665
                 },
                 {
                   "outcome": "Oxuji Esports",
-                  "price": 0.295
+                  "price": 0.335
+                }
+              ]
+            },
+            {
+              "id": "2479283",
+              "question": "Map 1 Total Rounds: Over/Under 27.5",
+              "slug": "cs2-vp-oxuji-2026-06-09-game1-round-total-27pt5",
+              "active": true,
+              "closed": false,
+              "enableOrderBook": true,
+              "liquidity": null,
+              "volume": null,
+              "outcomes": [
+                {
+                  "outcome": "Over",
+                  "price": 0.5
+                },
+                {
+                  "outcome": "Under",
+                  "price": 0.5
                 }
               ]
             },
@@ -299,7 +339,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4344.7798",
+              "liquidity": "7011.1798",
               "volume": null,
               "outcomes": [
                 {
@@ -319,7 +359,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1470.9798",
+              "liquidity": "1802.5398",
               "volume": null,
               "outcomes": [
                 {
@@ -346,9 +386,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 81424.0617,
-        "volume": 78247.27714200008,
-        "openInterest": 71477.860082,
+        "liquidity": 76733.8725,
+        "volume": 85282.2543420001,
+        "openInterest": 74689.43415599999,
         "url": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
         "searchQuery": "Virtus.pro Oxuji",
         "matchId": "pandascore-1519565",
@@ -382,16 +422,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "27790.0262",
-            "volume": "72078.6132620001",
+            "liquidity": "26251.9434",
+            "volume": "72571.7973150001",
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.76
+                "price": 0.73
               },
               {
                 "outcome": "Oxuji Esports",
-                "price": 0.24
+                "price": 0.27
               }
             ]
           },
@@ -402,16 +442,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "225.0795",
-            "volume": "1868.201217",
+            "liquidity": "374.6757",
+            "volume": "1903.201217",
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.5
+                "price": 0.51
               },
               {
                 "outcome": "Under",
-                "price": 0.5
+                "price": 0.49
               }
             ]
           },
@@ -422,16 +462,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "150.3024",
-            "volume": "2887.625696000001",
+            "liquidity": "116.1797",
+            "volume": "2892.625696000001",
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.585
+                "price": 0.4
               },
               {
                 "outcome": "Oxuji Esports",
-                "price": 0.415
+                "price": 0.6
               }
             ]
           },
@@ -462,7 +502,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1485.9798",
+            "liquidity": "4343.6998",
             "volume": null,
             "outcomes": [
               {
@@ -482,7 +522,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "7976.7598",
+            "liquidity": "13047.2598",
             "volume": "12.222221000000001",
             "outcomes": [
               {
@@ -492,6 +532,26 @@
               {
                 "outcome": "Under",
                 "price": 0.51
+              }
+            ]
+          },
+          {
+            "id": "2479308",
+            "question": "Map 1 Total Rounds: Over/Under 30.5",
+            "slug": "cs2-vp-oxuji-2026-06-09-game1-round-total-30pt5",
+            "active": true,
+            "closed": false,
+            "enableOrderBook": true,
+            "liquidity": "0",
+            "volume": "0",
+            "outcomes": [
+              {
+                "outcome": "Over",
+                "price": null
+              },
+              {
+                "outcome": "Under",
+                "price": null
               }
             ]
           },
@@ -562,16 +622,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "14883.3427",
-            "volume": "6256.623596999998",
+            "liquidity": "21313.7559",
+            "volume": "7189.106865999997",
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.595
+                "price": 0.645
               },
               {
                 "outcome": "Oxuji Esports",
-                "price": 0.405
+                "price": 0.355
               }
             ]
           },
@@ -582,16 +642,36 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "18404.0255",
+            "liquidity": "24903.3709",
             "volume": "2178.9683489999998",
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.705
+                "price": 0.665
               },
               {
                 "outcome": "Oxuji Esports",
-                "price": 0.295
+                "price": 0.335
+              }
+            ]
+          },
+          {
+            "id": "2479283",
+            "question": "Map 1 Total Rounds: Over/Under 27.5",
+            "slug": "cs2-vp-oxuji-2026-06-09-game1-round-total-27pt5",
+            "active": true,
+            "closed": false,
+            "enableOrderBook": true,
+            "liquidity": null,
+            "volume": null,
+            "outcomes": [
+              {
+                "outcome": "Over",
+                "price": 0.5
+              },
+              {
+                "outcome": "Under",
+                "price": 0.5
               }
             ]
           },
@@ -622,7 +702,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "4344.7798",
+            "liquidity": "7011.1798",
             "volume": null,
             "outcomes": [
               {
@@ -642,7 +722,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1470.9798",
+            "liquidity": "1802.5398",
             "volume": null,
             "outcomes": [
               {
@@ -664,16 +744,16 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "27790.0262",
-        "volume": "72078.6132620001",
+        "liquidity": "26251.9434",
+        "volume": "72571.7973150001",
         "outcomes": [
           {
             "outcome": "Virtus.pro",
-            "price": 0.76
+            "price": 0.73
           },
           {
             "outcome": "Oxuji Esports",
-            "price": 0.24
+            "price": 0.27
           }
         ],
         "eventId": "574335",
@@ -699,9 +779,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 227885.0323,
-          "volume": 1206492.4084379978,
-          "openInterest": 1170007.048288,
+          "liquidity": 286189.6145,
+          "volume": 1379113.4039519972,
+          "openInterest": 1237583.5925130001,
           "url": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
           "searchQuery": "TYLOO Legacy",
           "matchId": "pandascore-1508714",
@@ -715,8 +795,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "75941.8743",
-              "volume": "24126.103473999996",
+              "liquidity": "86701.2165",
+              "volume": "28354.217452999997",
               "outcomes": [
                 {
                   "outcome": "TYLOO",
@@ -735,16 +815,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "232.4407",
+              "liquidity": "244.2925",
               "volume": "750",
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.285
+                  "price": 0.27
                 },
                 {
                   "outcome": "TYLOO",
-                  "price": 0.715
+                  "price": 0.73
                 }
               ]
             },
@@ -775,16 +855,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": null,
-              "volume": null,
+              "liquidity": "0.49",
+              "volume": "49",
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.5
+                  "price": 0.495
                 },
                 {
                   "outcome": "TYLOO",
-                  "price": 0.5
+                  "price": 0.505
                 }
               ]
             },
@@ -815,16 +895,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "43879.2955",
-              "volume": "254620.67161799982",
+              "liquidity": "50858.8983",
+              "volume": "289093.602975",
               "outcomes": [
                 {
                   "outcome": "TYLOO",
-                  "price": 0.105
+                  "price": 0.155
                 },
                 {
                   "outcome": "Legacy",
-                  "price": 0.895
+                  "price": 0.845
                 }
               ]
             },
@@ -835,16 +915,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "63590.4325",
-              "volume": "775845.8405739971",
+              "liquidity": "53320.6234",
+              "volume": "788242.8409029973",
               "outcomes": [
                 {
                   "outcome": "TYLOO",
-                  "price": 0.145
+                  "price": 0.18
                 },
                 {
                   "outcome": "Legacy",
-                  "price": 0.855
+                  "price": 0.82
                 }
               ]
             },
@@ -855,8 +935,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32321.0379",
-              "volume": "5598.052774000002",
+              "liquidity": "42262.0352",
+              "volume": "5638.490868000002",
               "outcomes": [
                 {
                   "outcome": "Over",
@@ -875,16 +955,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "37165.2473",
-              "volume": "311373.3752820003",
+              "liquidity": "36809.4301",
+              "volume": "313378.70918800036",
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.59
+                  "price": 0.585
                 },
                 {
                   "outcome": "TYLOO",
-                  "price": 0.41
+                  "price": 0.415
                 }
               ]
             },
@@ -895,16 +975,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2.0694",
+              "liquidity": "1.9132",
               "volume": "311.0832",
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.5
+                  "price": 0.505
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.5
+                  "price": 0.495
                 }
               ]
             },
@@ -915,16 +995,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1.7796",
+              "liquidity": "1.8684",
               "volume": "878.426775",
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.5
+                  "price": 0.505
                 },
                 {
                   "outcome": "TYLOO",
-                  "price": 0.5
+                  "price": 0.495
                 }
               ]
             },
@@ -935,16 +1015,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4061.7363",
+              "liquidity": "9465.2979",
               "volume": "4196.398169",
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.7
+                  "price": 0.45
                 },
                 {
                   "outcome": "TYLOO",
-                  "price": 0.3
+                  "price": 0.55
                 }
               ]
             },
@@ -955,16 +1035,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1439.5143",
-              "volume": "82.099997",
+              "liquidity": "2139.9242",
+              "volume": "144.589997",
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.72
+                  "price": 0.465
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.28
+                  "price": 0.535
                 }
               ]
             },
@@ -975,7 +1055,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "14076.919",
+              "liquidity": "14300.6563",
               "volume": "1331.352089",
               "outcomes": [
                 {
@@ -995,16 +1075,36 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "13475.6878",
+              "liquidity": "14078.5798",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.48
+                  "price": 0.485
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.52
+                  "price": 0.515
+                }
+              ]
+            },
+            {
+              "id": "2479284",
+              "question": "Map 1 Total Rounds: Over/Under 18.5",
+              "slug": "cs2-tyloo-lgc-2026-06-09-game1-round-total-18pt5",
+              "active": true,
+              "closed": false,
+              "enableOrderBook": true,
+              "liquidity": null,
+              "volume": null,
+              "outcomes": [
+                {
+                  "outcome": "Over",
+                  "price": 0.5
+                },
+                {
+                  "outcome": "Under",
+                  "price": 0.5
                 }
               ]
             }
@@ -1021,9 +1121,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 1501323.20845,
-          "volume": 14294078.911984958,
-          "openInterest": 696206.9566660001,
+          "liquidity": 1439626.7491,
+          "volume": 14355914.636041958,
+          "openInterest": 703424.824788,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-winner",
           "searchQuery": "TYLOO Legacy",
           "matchId": "pandascore-1508714",
@@ -1037,7 +1137,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "87029.25066",
+              "liquidity": "88961.00144",
               "volume": "389806.151301998",
               "outcomes": [
                 {
@@ -1057,7 +1157,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "97528.30126",
+              "liquidity": "100535.82455",
               "volume": "417929.8757479976",
               "outcomes": [
                 {
@@ -1097,7 +1197,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44769.53111",
+              "liquidity": "48215.16558",
               "volume": "535686.8383299978",
               "outcomes": [
                 {
@@ -1177,7 +1277,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32221.43882",
+              "liquidity": "32170.57992",
               "volume": "552215.6674859988",
               "outcomes": [
                 {
@@ -1197,7 +1297,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "70910.68149",
+              "liquidity": "71091.49012",
               "volume": "523588.6377879973",
               "outcomes": [
                 {
@@ -1357,16 +1457,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "28270.39977",
+              "liquidity": "30826.52701",
               "volume": "450135.68352799746",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.023
+                  "price": 0.0215
                 },
                 {
                   "outcome": "No",
-                  "price": 0.977
+                  "price": 0.9785
                 }
               ]
             },
@@ -1377,7 +1477,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "45946.28105",
+              "liquidity": "47491.16745",
               "volume": "362238.7561489975",
               "outcomes": [
                 {
@@ -1397,16 +1497,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "40340.42017",
+              "liquidity": "41711.64297",
               "volume": "407350.3750339969",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0065
+                  "price": 0.007
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9935
+                  "price": 0.993
                 }
               ]
             },
@@ -1417,16 +1517,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "71367.90667",
-              "volume": "464502.6614069979",
+              "liquidity": "71474.89921",
+              "volume": "464567.5514069979",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0875
+                  "price": 0.088
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9125
+                  "price": 0.912
                 }
               ]
             },
@@ -1437,7 +1537,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "67669.20888",
+              "liquidity": "67280.36161",
               "volume": "394372.2837009974",
               "outcomes": [
                 {
@@ -1477,7 +1577,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39833.45215",
+              "liquidity": "39117.89735",
               "volume": "500643.33510799706",
               "outcomes": [
                 {
@@ -1517,8 +1617,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "65056.7347",
-              "volume": "574261.653437996",
+              "liquidity": "65240.0905",
+              "volume": "574285.743437996",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -1537,16 +1637,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57717.68802",
-              "volume": "426260.94393499783",
+              "liquidity": "53928.79118",
+              "volume": "435615.7339349978",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0105
+                  "price": 0.0115
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9895
+                  "price": 0.9885
                 }
               ]
             },
@@ -1557,7 +1657,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42092.80897",
+              "liquidity": "45053.25817",
               "volume": "424986.96213299764",
               "outcomes": [
                 {
@@ -1577,7 +1677,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "122051.08876",
+              "liquidity": "121762.52531",
               "volume": "393325.9001709988",
               "outcomes": [
                 {
@@ -1597,8 +1697,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "206003.5264",
-              "volume": "1302958.2570400017",
+              "liquidity": "220886.1149",
+              "volume": "1302968.0609600018",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -1617,7 +1717,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "108088.93286",
+              "liquidity": "108928.57674",
               "volume": "401929.8887929977",
               "outcomes": [
                 {
@@ -1637,7 +1737,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99977.1384",
+              "liquidity": "100132.8971",
               "volume": "468971.99642999773",
               "outcomes": [
                 {
@@ -1657,7 +1757,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99679.22179",
+              "liquidity": "101572.17736",
               "volume": "403831.00929099723",
               "outcomes": [
                 {
@@ -1703,9 +1803,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 120810.09996,
+          "liquidity": 119567.25006,
           "volume": 128116.603228,
-          "openInterest": 56960.62398099998,
+          "openInterest": 56960.623983,
           "url": "https://polymarket.com/event/iem-cologne-2026-qualify-to-playoffs",
           "searchQuery": "TYLOO Legacy",
           "matchId": "pandascore-1508714",
@@ -1719,7 +1819,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11892.7876",
+              "liquidity": "11892.472",
               "volume": "1025.5811220000003",
               "outcomes": [
                 {
@@ -1799,7 +1899,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2325.8047",
+              "liquidity": "2406.5847",
               "volume": "1634.3200800000002",
               "outcomes": [
                 {
@@ -1819,16 +1919,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11738.044",
+              "liquidity": "11737.3116",
               "volume": "17753.454446000003",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.165
+                  "price": 0.175
                 },
                 {
                   "outcome": "No",
-                  "price": 0.835
+                  "price": 0.825
                 }
               ]
             },
@@ -1839,7 +1939,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1738.9856",
+              "liquidity": "1739.3356",
               "volume": "1475.148867",
               "outcomes": [
                 {
@@ -1859,7 +1959,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4343.9959",
+              "liquidity": "4244.9935",
               "volume": "993.011998",
               "outcomes": [
                 {
@@ -1879,16 +1979,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1319.9083",
+              "liquidity": "1342.9021",
               "volume": "694.060476",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.45
+                  "price": 0.44
                 },
                 {
                   "outcome": "No",
-                  "price": 0.55
+                  "price": 0.56
                 }
               ]
             },
@@ -1979,7 +2079,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1570.415",
+              "liquidity": "1172.915",
               "volume": "722.7796800000001",
               "outcomes": [
                 {
@@ -1999,16 +2099,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1361.5299",
+              "liquidity": "1376.8362",
               "volume": "13.414627000000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.56
+                  "price": 0.54
                 },
                 {
                   "outcome": "No",
-                  "price": 0.44
+                  "price": 0.46
                 }
               ]
             },
@@ -2019,16 +2119,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1966.513",
+              "liquidity": "1967.6351",
               "volume": "308.504916",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.48
+                  "price": 0.475
                 },
                 {
                   "outcome": "No",
-                  "price": 0.52
+                  "price": 0.525
                 }
               ]
             },
@@ -2059,7 +2159,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4288.84933",
+              "liquidity": "4248.40587",
               "volume": "27643.823564",
               "outcomes": [
                 {
@@ -2079,16 +2179,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11865.00672",
+              "liquidity": "12426.42238",
               "volume": "3388.1071549999997",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0605
+                  "price": 0.061
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9395
+                  "price": 0.939
                 }
               ]
             },
@@ -2099,7 +2199,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27447.47973",
+              "liquidity": "27962.72973",
               "volume": "18533.880154",
               "outcomes": [
                 {
@@ -2139,16 +2239,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1900.8665",
+              "liquidity": "1924.1862",
               "volume": "1118.956294",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.485
+                  "price": 0.49
                 },
                 {
                   "outcome": "No",
-                  "price": 0.515
+                  "price": 0.51
                 }
               ]
             },
@@ -2239,7 +2339,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3167.9008",
+              "liquidity": "2990.346",
               "volume": "1474.671736",
               "outcomes": [
                 {
@@ -2279,16 +2379,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3846.00881",
+              "liquidity": "4823.88897",
               "volume": "1098.2704760000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.969
+                  "price": 0.9695
                 },
                 {
                   "outcome": "No",
-                  "price": 0.031
+                  "price": 0.0305
                 }
               ]
             },
@@ -2299,7 +2399,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "24337.18329",
+              "liquidity": "24470.02732",
               "volume": "3989.082782",
               "outcomes": [
                 {
@@ -2319,16 +2419,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1171.0289",
+              "liquidity": "1173.8948",
               "volume": "145.96498299999996",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.355
+                  "price": 0.36
                 },
                 {
                   "outcome": "No",
-                  "price": 0.645
+                  "price": 0.64
                 }
               ]
             },
@@ -2339,7 +2439,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "954.5737",
+              "liquidity": "953.6734",
               "volume": "15.715446",
               "outcomes": [
                 {
@@ -3672,9 +3772,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 227885.0323,
-        "volume": 1206492.4084379978,
-        "openInterest": 1170007.048288,
+        "liquidity": 286189.6145,
+        "volume": 1379113.4039519972,
+        "openInterest": 1237583.5925130001,
         "url": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
         "searchQuery": "TYLOO Legacy",
         "matchId": "pandascore-1508714",
@@ -3688,8 +3788,8 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "75941.8743",
-            "volume": "24126.103473999996",
+            "liquidity": "86701.2165",
+            "volume": "28354.217452999997",
             "outcomes": [
               {
                 "outcome": "TYLOO",
@@ -3708,16 +3808,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "232.4407",
+            "liquidity": "244.2925",
             "volume": "750",
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.285
+                "price": 0.27
               },
               {
                 "outcome": "TYLOO",
-                "price": 0.715
+                "price": 0.73
               }
             ]
           },
@@ -3748,16 +3848,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": null,
-            "volume": null,
+            "liquidity": "0.49",
+            "volume": "49",
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.5
+                "price": 0.495
               },
               {
                 "outcome": "TYLOO",
-                "price": 0.5
+                "price": 0.505
               }
             ]
           },
@@ -3788,16 +3888,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "43879.2955",
-            "volume": "254620.67161799982",
+            "liquidity": "50858.8983",
+            "volume": "289093.602975",
             "outcomes": [
               {
                 "outcome": "TYLOO",
-                "price": 0.105
+                "price": 0.155
               },
               {
                 "outcome": "Legacy",
-                "price": 0.895
+                "price": 0.845
               }
             ]
           },
@@ -3808,16 +3908,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "63590.4325",
-            "volume": "775845.8405739971",
+            "liquidity": "53320.6234",
+            "volume": "788242.8409029973",
             "outcomes": [
               {
                 "outcome": "TYLOO",
-                "price": 0.145
+                "price": 0.18
               },
               {
                 "outcome": "Legacy",
-                "price": 0.855
+                "price": 0.82
               }
             ]
           },
@@ -3828,8 +3928,8 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "32321.0379",
-            "volume": "5598.052774000002",
+            "liquidity": "42262.0352",
+            "volume": "5638.490868000002",
             "outcomes": [
               {
                 "outcome": "Over",
@@ -3848,16 +3948,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "37165.2473",
-            "volume": "311373.3752820003",
+            "liquidity": "36809.4301",
+            "volume": "313378.70918800036",
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.59
+                "price": 0.585
               },
               {
                 "outcome": "TYLOO",
-                "price": 0.41
+                "price": 0.415
               }
             ]
           },
@@ -3868,16 +3968,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "2.0694",
+            "liquidity": "1.9132",
             "volume": "311.0832",
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.5
+                "price": 0.505
               },
               {
                 "outcome": "Under",
-                "price": 0.5
+                "price": 0.495
               }
             ]
           },
@@ -3888,16 +3988,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1.7796",
+            "liquidity": "1.8684",
             "volume": "878.426775",
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.5
+                "price": 0.505
               },
               {
                 "outcome": "TYLOO",
-                "price": 0.5
+                "price": 0.495
               }
             ]
           },
@@ -3908,16 +4008,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "4061.7363",
+            "liquidity": "9465.2979",
             "volume": "4196.398169",
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.7
+                "price": 0.45
               },
               {
                 "outcome": "TYLOO",
-                "price": 0.3
+                "price": 0.55
               }
             ]
           },
@@ -3928,16 +4028,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1439.5143",
-            "volume": "82.099997",
+            "liquidity": "2139.9242",
+            "volume": "144.589997",
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.72
+                "price": 0.465
               },
               {
                 "outcome": "Under",
-                "price": 0.28
+                "price": 0.535
               }
             ]
           },
@@ -3948,7 +4048,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "14076.919",
+            "liquidity": "14300.6563",
             "volume": "1331.352089",
             "outcomes": [
               {
@@ -3968,16 +4068,36 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "13475.6878",
+            "liquidity": "14078.5798",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.48
+                "price": 0.485
               },
               {
                 "outcome": "Under",
-                "price": 0.52
+                "price": 0.515
+              }
+            ]
+          },
+          {
+            "id": "2479284",
+            "question": "Map 1 Total Rounds: Over/Under 18.5",
+            "slug": "cs2-tyloo-lgc-2026-06-09-game1-round-total-18pt5",
+            "active": true,
+            "closed": false,
+            "enableOrderBook": true,
+            "liquidity": null,
+            "volume": null,
+            "outcomes": [
+              {
+                "outcome": "Over",
+                "price": 0.5
+              },
+              {
+                "outcome": "Under",
+                "price": 0.5
               }
             ]
           }
@@ -3990,16 +4110,16 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "63590.4325",
-        "volume": "775845.8405739971",
+        "liquidity": "53320.6234",
+        "volume": "788242.8409029973",
         "outcomes": [
           {
             "outcome": "TYLOO",
-            "price": 0.145
+            "price": 0.18
           },
           {
             "outcome": "Legacy",
-            "price": 0.855
+            "price": 0.82
           }
         ],
         "eventId": "573740",
@@ -4025,9 +4145,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 699276.2781,
-          "volume": 590516.7744619993,
-          "openInterest": 550748.6563020002,
+          "liquidity": 754774.9598,
+          "volume": 594283.5704709992,
+          "openInterest": 555497.592798,
           "url": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
           "searchQuery": "BIG B8",
           "matchId": "pandascore-1508715",
@@ -4041,16 +4161,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "38677.8366",
-              "volume": "2747.88",
+              "liquidity": "37505.1563",
+              "volume": "3345.919214",
               "outcomes": [
                 {
                   "outcome": "BIG",
-                  "price": 0.495
+                  "price": 0.5
                 },
                 {
                   "outcome": "B8",
-                  "price": 0.505
+                  "price": 0.5
                 }
               ]
             },
@@ -4061,7 +4181,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "665.8659",
+              "liquidity": "664.8374",
               "volume": "300",
               "outcomes": [
                 {
@@ -4081,16 +4201,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39295.0207",
-              "volume": "4710.622605",
+              "liquidity": "58934.4417",
+              "volume": "5504.590351",
               "outcomes": [
                 {
                   "outcome": "BIG",
-                  "price": 0.445
+                  "price": 0.435
                 },
                 {
                   "outcome": "B8",
-                  "price": 0.555
+                  "price": 0.565
                 }
               ]
             },
@@ -4101,8 +4221,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "513069.8785",
-              "volume": "559113.1436429993",
+              "liquidity": "562392.4169",
+              "volume": "562472.8588719992",
               "outcomes": [
                 {
                   "outcome": "BIG",
@@ -4121,7 +4241,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "41727.383",
+              "liquidity": "39840.2446",
               "volume": "2100.0024329999997",
               "outcomes": [
                 {
@@ -4141,16 +4261,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44509.4122",
-              "volume": "21423.370538999985",
+              "liquidity": "44744.9325",
+              "volume": "22237.210178999987",
               "outcomes": [
                 {
                   "outcome": "B8",
-                  "price": 0.305
+                  "price": 0.315
                 },
                 {
                   "outcome": "BIG",
-                  "price": 0.695
+                  "price": 0.685
                 }
               ]
             },
@@ -4161,7 +4281,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "13159.6739",
+              "liquidity": "13146.6455",
               "volume": "13.725489",
               "outcomes": [
                 {
@@ -4181,7 +4301,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "17953.1415",
+              "liquidity": "18029.3354",
               "volume": "3027.504525",
               "outcomes": [
                 {
@@ -4201,7 +4321,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "20919.2288",
+              "liquidity": "20925.1088",
               "volume": null,
               "outcomes": [
                 {
@@ -4221,7 +4341,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3463.1472",
+              "liquidity": "3432.8472",
               "volume": null,
               "outcomes": [
                 {
@@ -4241,7 +4361,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10710.6664",
+              "liquidity": "10454.8715",
               "volume": "847.3212369999999",
               "outcomes": [
                 {
@@ -4261,7 +4381,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10594.5648",
+              "liquidity": "9855.9048",
               "volume": null,
               "outcomes": [
                 {
@@ -4287,9 +4407,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 1501323.20845,
-          "volume": 14294078.911984958,
-          "openInterest": 696206.9566660001,
+          "liquidity": 1439626.7491,
+          "volume": 14355914.636041958,
+          "openInterest": 703424.824788,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-winner",
           "searchQuery": "BIG B8",
           "matchId": "pandascore-1508715",
@@ -4303,7 +4423,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "87029.25066",
+              "liquidity": "88961.00144",
               "volume": "389806.151301998",
               "outcomes": [
                 {
@@ -4323,7 +4443,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "97528.30126",
+              "liquidity": "100535.82455",
               "volume": "417929.8757479976",
               "outcomes": [
                 {
@@ -4363,7 +4483,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44769.53111",
+              "liquidity": "48215.16558",
               "volume": "535686.8383299978",
               "outcomes": [
                 {
@@ -4443,7 +4563,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32221.43882",
+              "liquidity": "32170.57992",
               "volume": "552215.6674859988",
               "outcomes": [
                 {
@@ -4463,7 +4583,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "70910.68149",
+              "liquidity": "71091.49012",
               "volume": "523588.6377879973",
               "outcomes": [
                 {
@@ -4623,16 +4743,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "28270.39977",
+              "liquidity": "30826.52701",
               "volume": "450135.68352799746",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.023
+                  "price": 0.0215
                 },
                 {
                   "outcome": "No",
-                  "price": 0.977
+                  "price": 0.9785
                 }
               ]
             },
@@ -4643,7 +4763,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "45946.28105",
+              "liquidity": "47491.16745",
               "volume": "362238.7561489975",
               "outcomes": [
                 {
@@ -4663,16 +4783,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "40340.42017",
+              "liquidity": "41711.64297",
               "volume": "407350.3750339969",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0065
+                  "price": 0.007
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9935
+                  "price": 0.993
                 }
               ]
             },
@@ -4683,16 +4803,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "71367.90667",
-              "volume": "464502.6614069979",
+              "liquidity": "71474.89921",
+              "volume": "464567.5514069979",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0875
+                  "price": 0.088
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9125
+                  "price": 0.912
                 }
               ]
             },
@@ -4703,7 +4823,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "67669.20888",
+              "liquidity": "67280.36161",
               "volume": "394372.2837009974",
               "outcomes": [
                 {
@@ -4743,7 +4863,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39833.45215",
+              "liquidity": "39117.89735",
               "volume": "500643.33510799706",
               "outcomes": [
                 {
@@ -4783,8 +4903,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "65056.7347",
-              "volume": "574261.653437996",
+              "liquidity": "65240.0905",
+              "volume": "574285.743437996",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -4803,16 +4923,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57717.68802",
-              "volume": "426260.94393499783",
+              "liquidity": "53928.79118",
+              "volume": "435615.7339349978",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0105
+                  "price": 0.0115
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9895
+                  "price": 0.9885
                 }
               ]
             },
@@ -4823,7 +4943,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42092.80897",
+              "liquidity": "45053.25817",
               "volume": "424986.96213299764",
               "outcomes": [
                 {
@@ -4843,7 +4963,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "122051.08876",
+              "liquidity": "121762.52531",
               "volume": "393325.9001709988",
               "outcomes": [
                 {
@@ -4863,8 +4983,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "206003.5264",
-              "volume": "1302958.2570400017",
+              "liquidity": "220886.1149",
+              "volume": "1302968.0609600018",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -4883,7 +5003,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "108088.93286",
+              "liquidity": "108928.57674",
               "volume": "401929.8887929977",
               "outcomes": [
                 {
@@ -4903,7 +5023,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99977.1384",
+              "liquidity": "100132.8971",
               "volume": "468971.99642999773",
               "outcomes": [
                 {
@@ -4923,7 +5043,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99679.22179",
+              "liquidity": "101572.17736",
               "volume": "403831.00929099723",
               "outcomes": [
                 {
@@ -4969,9 +5089,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 51189.57315,
+          "liquidity": 53448.21157,
           "volume": 78465.98987500001,
-          "openInterest": 16647.489146,
+          "openInterest": 15403.609150999999,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-qualify-to-stage-3",
           "searchQuery": "BIG B8",
           "matchId": "pandascore-1508715",
@@ -5065,7 +5185,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "5645.51375",
+              "liquidity": "5403.46517",
               "volume": "3974.458499",
               "outcomes": [
                 {
@@ -5105,7 +5225,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "6742.06951",
+              "liquidity": "6610.34472",
               "volume": "8625.401438000003",
               "outcomes": [
                 {
@@ -5125,16 +5245,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "153.7066",
+              "liquidity": "51.7976",
               "volume": "4725.741532000002",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.605
+                  "price": 0.525
                 },
                 {
                   "outcome": "No",
-                  "price": 0.395
+                  "price": 0.475
                 }
               ]
             },
@@ -5165,7 +5285,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "20696.55862",
+              "liquidity": "21944.04871",
               "volume": "10175.936998000003",
               "outcomes": [
                 {
@@ -5225,7 +5345,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "20586.8461",
+              "liquidity": "21268.9426",
               "volume": "7229.856379000003",
               "outcomes": [
                 {
@@ -5291,9 +5411,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 120810.09996,
+          "liquidity": 119567.25006,
           "volume": 128116.603228,
-          "openInterest": 56960.62398099998,
+          "openInterest": 56960.623983,
           "url": "https://polymarket.com/event/iem-cologne-2026-qualify-to-playoffs",
           "searchQuery": "BIG B8",
           "matchId": "pandascore-1508715",
@@ -5307,7 +5427,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11892.7876",
+              "liquidity": "11892.472",
               "volume": "1025.5811220000003",
               "outcomes": [
                 {
@@ -5387,7 +5507,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2325.8047",
+              "liquidity": "2406.5847",
               "volume": "1634.3200800000002",
               "outcomes": [
                 {
@@ -5407,16 +5527,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11738.044",
+              "liquidity": "11737.3116",
               "volume": "17753.454446000003",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.165
+                  "price": 0.175
                 },
                 {
                   "outcome": "No",
-                  "price": 0.835
+                  "price": 0.825
                 }
               ]
             },
@@ -5427,7 +5547,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1738.9856",
+              "liquidity": "1739.3356",
               "volume": "1475.148867",
               "outcomes": [
                 {
@@ -5447,7 +5567,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4343.9959",
+              "liquidity": "4244.9935",
               "volume": "993.011998",
               "outcomes": [
                 {
@@ -5467,16 +5587,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1319.9083",
+              "liquidity": "1342.9021",
               "volume": "694.060476",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.45
+                  "price": 0.44
                 },
                 {
                   "outcome": "No",
-                  "price": 0.55
+                  "price": 0.56
                 }
               ]
             },
@@ -5567,7 +5687,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1570.415",
+              "liquidity": "1172.915",
               "volume": "722.7796800000001",
               "outcomes": [
                 {
@@ -5587,16 +5707,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1361.5299",
+              "liquidity": "1376.8362",
               "volume": "13.414627000000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.56
+                  "price": 0.54
                 },
                 {
                   "outcome": "No",
-                  "price": 0.44
+                  "price": 0.46
                 }
               ]
             },
@@ -5607,16 +5727,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1966.513",
+              "liquidity": "1967.6351",
               "volume": "308.504916",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.48
+                  "price": 0.475
                 },
                 {
                   "outcome": "No",
-                  "price": 0.52
+                  "price": 0.525
                 }
               ]
             },
@@ -5647,7 +5767,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4288.84933",
+              "liquidity": "4248.40587",
               "volume": "27643.823564",
               "outcomes": [
                 {
@@ -5667,16 +5787,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11865.00672",
+              "liquidity": "12426.42238",
               "volume": "3388.1071549999997",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0605
+                  "price": 0.061
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9395
+                  "price": 0.939
                 }
               ]
             },
@@ -5687,7 +5807,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27447.47973",
+              "liquidity": "27962.72973",
               "volume": "18533.880154",
               "outcomes": [
                 {
@@ -5727,16 +5847,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1900.8665",
+              "liquidity": "1924.1862",
               "volume": "1118.956294",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.485
+                  "price": 0.49
                 },
                 {
                   "outcome": "No",
-                  "price": 0.515
+                  "price": 0.51
                 }
               ]
             },
@@ -5827,7 +5947,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3167.9008",
+              "liquidity": "2990.346",
               "volume": "1474.671736",
               "outcomes": [
                 {
@@ -5867,16 +5987,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3846.00881",
+              "liquidity": "4823.88897",
               "volume": "1098.2704760000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.969
+                  "price": 0.9695
                 },
                 {
                   "outcome": "No",
-                  "price": 0.031
+                  "price": 0.0305
                 }
               ]
             },
@@ -5887,7 +6007,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "24337.18329",
+              "liquidity": "24470.02732",
               "volume": "3989.082782",
               "outcomes": [
                 {
@@ -5907,16 +6027,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1171.0289",
+              "liquidity": "1173.8948",
               "volume": "145.96498299999996",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.355
+                  "price": 0.36
                 },
                 {
                   "outcome": "No",
-                  "price": 0.645
+                  "price": 0.64
                 }
               ]
             },
@@ -5927,7 +6047,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "954.5737",
+              "liquidity": "953.6734",
               "volume": "15.715446",
               "outcomes": [
                 {
@@ -6718,9 +6838,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 699276.2781,
-        "volume": 590516.7744619993,
-        "openInterest": 550748.6563020002,
+        "liquidity": 754774.9598,
+        "volume": 594283.5704709992,
+        "openInterest": 555497.592798,
         "url": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
         "searchQuery": "BIG B8",
         "matchId": "pandascore-1508715",
@@ -6734,16 +6854,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "38677.8366",
-            "volume": "2747.88",
+            "liquidity": "37505.1563",
+            "volume": "3345.919214",
             "outcomes": [
               {
                 "outcome": "BIG",
-                "price": 0.495
+                "price": 0.5
               },
               {
                 "outcome": "B8",
-                "price": 0.505
+                "price": 0.5
               }
             ]
           },
@@ -6754,7 +6874,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "665.8659",
+            "liquidity": "664.8374",
             "volume": "300",
             "outcomes": [
               {
@@ -6774,16 +6894,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "39295.0207",
-            "volume": "4710.622605",
+            "liquidity": "58934.4417",
+            "volume": "5504.590351",
             "outcomes": [
               {
                 "outcome": "BIG",
-                "price": 0.445
+                "price": 0.435
               },
               {
                 "outcome": "B8",
-                "price": 0.555
+                "price": 0.565
               }
             ]
           },
@@ -6794,8 +6914,8 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "513069.8785",
-            "volume": "559113.1436429993",
+            "liquidity": "562392.4169",
+            "volume": "562472.8588719992",
             "outcomes": [
               {
                 "outcome": "BIG",
@@ -6814,7 +6934,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "41727.383",
+            "liquidity": "39840.2446",
             "volume": "2100.0024329999997",
             "outcomes": [
               {
@@ -6834,16 +6954,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "44509.4122",
-            "volume": "21423.370538999985",
+            "liquidity": "44744.9325",
+            "volume": "22237.210178999987",
             "outcomes": [
               {
                 "outcome": "B8",
-                "price": 0.305
+                "price": 0.315
               },
               {
                 "outcome": "BIG",
-                "price": 0.695
+                "price": 0.685
               }
             ]
           },
@@ -6854,7 +6974,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "13159.6739",
+            "liquidity": "13146.6455",
             "volume": "13.725489",
             "outcomes": [
               {
@@ -6874,7 +6994,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "17953.1415",
+            "liquidity": "18029.3354",
             "volume": "3027.504525",
             "outcomes": [
               {
@@ -6894,7 +7014,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "20919.2288",
+            "liquidity": "20925.1088",
             "volume": null,
             "outcomes": [
               {
@@ -6914,7 +7034,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "3463.1472",
+            "liquidity": "3432.8472",
             "volume": null,
             "outcomes": [
               {
@@ -6934,7 +7054,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10710.6664",
+            "liquidity": "10454.8715",
             "volume": "847.3212369999999",
             "outcomes": [
               {
@@ -6954,7 +7074,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10594.5648",
+            "liquidity": "9855.9048",
             "volume": null,
             "outcomes": [
               {
@@ -6976,8 +7096,8 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "513069.8785",
-        "volume": "559113.1436429993",
+        "liquidity": "562392.4169",
+        "volume": "562472.8588719992",
         "outcomes": [
           {
             "outcome": "BIG",
@@ -8792,9 +8912,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 12934.2013,
+          "liquidity": 10095.7817,
           "volume": 313.95168,
-          "openInterest": 308.75167899999997,
+          "openInterest": 308.75167999999996,
           "url": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
           "searchQuery": "G2 Ares Young Ninjas",
           "matchId": "pandascore-1504761",
@@ -8808,7 +8928,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "992.0938",
+              "liquidity": "959.5838",
               "volume": "120",
               "outcomes": [
                 {
@@ -8828,7 +8948,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "961.0389",
+              "liquidity": "974.5492",
               "volume": "86.365078",
               "outcomes": [
                 {
@@ -8848,7 +8968,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "5981.8235",
+              "liquidity": "8269.4753",
               "volume": "107.586602",
               "outcomes": [
                 {
@@ -8868,7 +8988,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "458.0135",
+              "liquidity": "465.5135",
               "volume": null,
               "outcomes": [
                 {
@@ -8888,16 +9008,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1256.5128",
+              "liquidity": "1381.2025",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Young Ninjas",
-                  "price": 0.32
+                  "price": 0.34
                 },
                 {
                   "outcome": "G2 Ares",
-                  "price": 0.68
+                  "price": 0.66
                 }
               ]
             },
@@ -8908,7 +9028,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "377.7",
+              "liquidity": "396.1308",
               "volume": null,
               "outcomes": [
                 {
@@ -8928,7 +9048,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "38.4995",
+              "liquidity": "41.0317",
               "volume": null,
               "outcomes": [
                 {
@@ -8948,16 +9068,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "30.0997",
+              "liquidity": "33.7991",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.495
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.505
+                  "price": 0.5
                 }
               ]
             }
@@ -9097,9 +9217,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 12934.2013,
+        "liquidity": 10095.7817,
         "volume": 313.95168,
-        "openInterest": 308.75167899999997,
+        "openInterest": 308.75167999999996,
         "url": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
         "searchQuery": "G2 Ares Young Ninjas",
         "matchId": "pandascore-1504761",
@@ -9113,7 +9233,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "992.0938",
+            "liquidity": "959.5838",
             "volume": "120",
             "outcomes": [
               {
@@ -9133,7 +9253,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "961.0389",
+            "liquidity": "974.5492",
             "volume": "86.365078",
             "outcomes": [
               {
@@ -9153,7 +9273,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "5981.8235",
+            "liquidity": "8269.4753",
             "volume": "107.586602",
             "outcomes": [
               {
@@ -9173,7 +9293,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "458.0135",
+            "liquidity": "465.5135",
             "volume": null,
             "outcomes": [
               {
@@ -9193,16 +9313,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1256.5128",
+            "liquidity": "1381.2025",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Young Ninjas",
-                "price": 0.32
+                "price": 0.34
               },
               {
                 "outcome": "G2 Ares",
-                "price": 0.68
+                "price": 0.66
               }
             ]
           },
@@ -9213,7 +9333,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "377.7",
+            "liquidity": "396.1308",
             "volume": null,
             "outcomes": [
               {
@@ -9233,7 +9353,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "38.4995",
+            "liquidity": "41.0317",
             "volume": null,
             "outcomes": [
               {
@@ -9253,16 +9373,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "30.0997",
+            "liquidity": "33.7991",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.495
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.505
+                "price": 0.5
               }
             ]
           }
@@ -9275,7 +9395,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "5981.8235",
+        "liquidity": "8269.4753",
         "volume": "107.586602",
         "outcomes": [
           {
@@ -9310,8 +9430,8 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 3040.9978,
-          "volume": 166.091418,
+          "liquidity": 3006.3468,
+          "volume": 211.17391800000001,
           "openInterest": 211.173918,
           "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
           "searchQuery": "Walczaki INOX Division",
@@ -9326,16 +9446,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "41.9998",
+              "liquidity": "80.9991",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Walczaki",
-                  "price": 0.495
+                  "price": 0.345
                 },
                 {
                   "outcome": "INOX Division",
-                  "price": 0.505
+                  "price": 0.655
                 }
               ]
             },
@@ -9346,7 +9466,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1716.7708",
+              "liquidity": "1720.2799",
               "volume": "136.26173400000002",
               "outcomes": [
                 {
@@ -9366,7 +9486,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "386.1433",
+              "liquidity": "385.8365",
               "volume": "74.912184",
               "outcomes": [
                 {
@@ -9386,16 +9506,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "342.1641",
+              "liquidity": "383.2086",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.385
+                  "price": 0.395
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.615
+                  "price": 0.605
                 }
               ]
             },
@@ -9406,7 +9526,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "407.0474",
+              "liquidity": "407.2474",
               "volume": null,
               "outcomes": [
                 {
@@ -9426,7 +9546,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "37.9997",
+              "liquidity": "40.7995",
               "volume": null,
               "outcomes": [
                 {
@@ -9446,16 +9566,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39.4995",
+              "liquidity": "39.8159",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.51
+                  "price": 0.505
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.49
+                  "price": 0.495
                 }
               ]
             },
@@ -9466,16 +9586,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39.4996",
+              "liquidity": "40.8328",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.51
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.49
+                  "price": 0.5
                 }
               ]
             }
@@ -9735,8 +9855,8 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 3040.9978,
-        "volume": 166.091418,
+        "liquidity": 3006.3468,
+        "volume": 211.17391800000001,
         "openInterest": 211.173918,
         "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
         "searchQuery": "Walczaki INOX Division",
@@ -9751,16 +9871,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "41.9998",
+            "liquidity": "80.9991",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Walczaki",
-                "price": 0.495
+                "price": 0.345
               },
               {
                 "outcome": "INOX Division",
-                "price": 0.505
+                "price": 0.655
               }
             ]
           },
@@ -9771,7 +9891,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1716.7708",
+            "liquidity": "1720.2799",
             "volume": "136.26173400000002",
             "outcomes": [
               {
@@ -9791,7 +9911,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "386.1433",
+            "liquidity": "385.8365",
             "volume": "74.912184",
             "outcomes": [
               {
@@ -9811,16 +9931,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "342.1641",
+            "liquidity": "383.2086",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.385
+                "price": 0.395
               },
               {
                 "outcome": "Under",
-                "price": 0.615
+                "price": 0.605
               }
             ]
           },
@@ -9831,7 +9951,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "407.0474",
+            "liquidity": "407.2474",
             "volume": null,
             "outcomes": [
               {
@@ -9851,7 +9971,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "37.9997",
+            "liquidity": "40.7995",
             "volume": null,
             "outcomes": [
               {
@@ -9871,16 +9991,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "39.4995",
+            "liquidity": "39.8159",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.51
+                "price": 0.505
               },
               {
                 "outcome": "Under",
-                "price": 0.49
+                "price": 0.495
               }
             ]
           },
@@ -9891,16 +10011,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "39.4996",
+            "liquidity": "40.8328",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.51
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.49
+                "price": 0.5
               }
             ]
           }
@@ -9913,7 +10033,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "1716.7708",
+        "liquidity": "1720.2799",
         "volume": "136.26173400000002",
         "outcomes": [
           {
@@ -9948,9 +10068,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 7067.7902,
+          "liquidity": 6948.3715,
           "volume": 152.382985,
-          "openInterest": 152.382984,
+          "openInterest": 152.382985,
           "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
           "searchQuery": "illwill G2 Ares",
           "matchId": "pandascore-1519570",
@@ -9964,16 +10084,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "58.3737",
+              "liquidity": "60.6348",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.515
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.485
+                  "price": 0.5
                 }
               ]
             },
@@ -9984,7 +10104,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.5991",
+              "liquidity": "58.8149",
               "volume": null,
               "outcomes": [
                 {
@@ -10004,16 +10124,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "58.3858",
+              "liquidity": "60.6289",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.515
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.485
+                  "price": 0.5
                 }
               ]
             },
@@ -10024,16 +10144,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3071.9087",
+              "liquidity": "3014.7388",
               "volume": "114.51632",
               "outcomes": [
                 {
                   "outcome": "illwill",
-                  "price": 0.61
+                  "price": 0.605
                 },
                 {
                   "outcome": "G2 Ares",
-                  "price": 0.39
+                  "price": 0.395
                 }
               ]
             },
@@ -10044,7 +10164,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "362.0158",
+              "liquidity": "362.1896",
               "volume": null,
               "outcomes": [
                 {
@@ -10064,7 +10184,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "780.3341",
+              "liquidity": "780.1179",
               "volume": null,
               "outcomes": [
                 {
@@ -10084,16 +10204,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1349.0819",
+              "liquidity": "1339.0222",
               "volume": "37.866665",
               "outcomes": [
                 {
                   "outcome": "illwill",
-                  "price": 0.6
+                  "price": 0.59
                 },
                 {
                   "outcome": "G2 Ares",
-                  "price": 0.4
+                  "price": 0.41
                 }
               ]
             },
@@ -10104,7 +10224,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1173.1895",
+              "liquidity": "1165.8284",
               "volume": null,
               "outcomes": [
                 {
@@ -10131,9 +10251,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 7067.7902,
+        "liquidity": 6948.3715,
         "volume": 152.382985,
-        "openInterest": 152.382984,
+        "openInterest": 152.382985,
         "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
         "searchQuery": "illwill G2 Ares",
         "matchId": "pandascore-1519570",
@@ -10147,16 +10267,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "58.3737",
+            "liquidity": "60.6348",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.515
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.485
+                "price": 0.5
               }
             ]
           },
@@ -10167,7 +10287,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.5991",
+            "liquidity": "58.8149",
             "volume": null,
             "outcomes": [
               {
@@ -10187,16 +10307,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "58.3858",
+            "liquidity": "60.6289",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.515
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.485
+                "price": 0.5
               }
             ]
           },
@@ -10207,16 +10327,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "3071.9087",
+            "liquidity": "3014.7388",
             "volume": "114.51632",
             "outcomes": [
               {
                 "outcome": "illwill",
-                "price": 0.61
+                "price": 0.605
               },
               {
                 "outcome": "G2 Ares",
-                "price": 0.39
+                "price": 0.395
               }
             ]
           },
@@ -10227,7 +10347,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "362.0158",
+            "liquidity": "362.1896",
             "volume": null,
             "outcomes": [
               {
@@ -10247,7 +10367,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "780.3341",
+            "liquidity": "780.1179",
             "volume": null,
             "outcomes": [
               {
@@ -10267,16 +10387,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1349.0819",
+            "liquidity": "1339.0222",
             "volume": "37.866665",
             "outcomes": [
               {
                 "outcome": "illwill",
-                "price": 0.6
+                "price": 0.59
               },
               {
                 "outcome": "G2 Ares",
-                "price": 0.4
+                "price": 0.41
               }
             ]
           },
@@ -10287,7 +10407,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1173.1895",
+            "liquidity": "1165.8284",
             "volume": null,
             "outcomes": [
               {
@@ -10309,16 +10429,16 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "3071.9087",
+        "liquidity": "3014.7388",
         "volume": "114.51632",
         "outcomes": [
           {
             "outcome": "illwill",
-            "price": 0.61
+            "price": 0.605
           },
           {
             "outcome": "G2 Ares",
-            "price": 0.39
+            "price": 0.395
           }
         ],
         "eventId": "574338",
@@ -10344,7 +10464,7 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 8225.4172,
+          "liquidity": 7951.493,
           "volume": 182.125653,
           "openInterest": 182.12565299999997,
           "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11",
@@ -10360,16 +10480,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1591.2226",
+              "liquidity": "1642.8587",
               "volume": "106.788",
               "outcomes": [
                 {
                   "outcome": "KOLESIE",
-                  "price": 0.33
+                  "price": 0.335
                 },
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.67
+                  "price": 0.665
                 }
               ]
             },
@@ -10380,7 +10500,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1537.9315",
+              "liquidity": "1534.4712",
               "volume": "47.619045",
               "outcomes": [
                 {
@@ -10400,7 +10520,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2554.7186",
+              "liquidity": "2653.4681",
               "volume": "27.718607999999996",
               "outcomes": [
                 {
@@ -10420,16 +10540,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "985.9978",
+              "liquidity": "810.7855",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.365
+                  "price": 0.45
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.635
+                  "price": 0.55
                 }
               ]
             },
@@ -10440,16 +10560,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "933.3046",
+              "liquidity": "759.8473",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.51
+                  "price": 0.565
                 },
                 {
                   "outcome": "KOLESIE",
-                  "price": 0.49
+                  "price": 0.435
                 }
               ]
             },
@@ -10460,16 +10580,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "58.5781",
+              "liquidity": "58.9995",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.505
+                  "price": 0.495
                 },
                 {
                   "outcome": "KOLESIE",
-                  "price": 0.495
+                  "price": 0.505
                 }
               ]
             },
@@ -10480,16 +10600,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "58.5645",
+              "liquidity": "57.748",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.505
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.495
+                  "price": 0.5
                 }
               ]
             },
@@ -10500,16 +10620,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.9995",
+              "liquidity": "59.9993",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Virtus.pro",
-                  "price": 0.51
+                  "price": 0.5
                 },
                 {
                   "outcome": "KOLESIE",
-                  "price": 0.49
+                  "price": 0.5
                 }
               ]
             },
@@ -10520,16 +10640,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "58.6001",
+              "liquidity": "58.5158",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.515
+                  "price": 0.48
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.485
+                  "price": 0.52
                 }
               ]
             },
@@ -10540,7 +10660,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "59.4996",
+              "liquidity": "61.1581",
               "volume": null,
               "outcomes": [
                 {
@@ -10560,16 +10680,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "53.7611",
+              "liquidity": "66.9862",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.495
+                  "price": 0.51
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.505
+                  "price": 0.49
                 }
               ]
             }
@@ -10587,7 +10707,7 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 8225.4172,
+        "liquidity": 7951.493,
         "volume": 182.125653,
         "openInterest": 182.12565299999997,
         "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11",
@@ -10603,16 +10723,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1591.2226",
+            "liquidity": "1642.8587",
             "volume": "106.788",
             "outcomes": [
               {
                 "outcome": "KOLESIE",
-                "price": 0.33
+                "price": 0.335
               },
               {
                 "outcome": "Virtus.pro",
-                "price": 0.67
+                "price": 0.665
               }
             ]
           },
@@ -10623,7 +10743,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "1537.9315",
+            "liquidity": "1534.4712",
             "volume": "47.619045",
             "outcomes": [
               {
@@ -10643,7 +10763,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "2554.7186",
+            "liquidity": "2653.4681",
             "volume": "27.718607999999996",
             "outcomes": [
               {
@@ -10663,16 +10783,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "985.9978",
+            "liquidity": "810.7855",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.365
+                "price": 0.45
               },
               {
                 "outcome": "Under",
-                "price": 0.635
+                "price": 0.55
               }
             ]
           },
@@ -10683,16 +10803,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "933.3046",
+            "liquidity": "759.8473",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.51
+                "price": 0.565
               },
               {
                 "outcome": "KOLESIE",
-                "price": 0.49
+                "price": 0.435
               }
             ]
           },
@@ -10703,16 +10823,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "58.5781",
+            "liquidity": "58.9995",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.505
+                "price": 0.495
               },
               {
                 "outcome": "KOLESIE",
-                "price": 0.495
+                "price": 0.505
               }
             ]
           },
@@ -10723,16 +10843,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "58.5645",
+            "liquidity": "57.748",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.505
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.495
+                "price": 0.5
               }
             ]
           },
@@ -10743,16 +10863,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.9995",
+            "liquidity": "59.9993",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Virtus.pro",
-                "price": 0.51
+                "price": 0.5
               },
               {
                 "outcome": "KOLESIE",
-                "price": 0.49
+                "price": 0.5
               }
             ]
           },
@@ -10763,16 +10883,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "58.6001",
+            "liquidity": "58.5158",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.515
+                "price": 0.48
               },
               {
                 "outcome": "Under",
-                "price": 0.485
+                "price": 0.52
               }
             ]
           },
@@ -10783,7 +10903,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "59.4996",
+            "liquidity": "61.1581",
             "volume": null,
             "outcomes": [
               {
@@ -10803,16 +10923,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "53.7611",
+            "liquidity": "66.9862",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.495
+                "price": 0.51
               },
               {
                 "outcome": "Under",
-                "price": 0.505
+                "price": 0.49
               }
             ]
           }
@@ -10825,7 +10945,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "2554.7186",
+        "liquidity": "2653.4681",
         "volume": "27.718607999999996",
         "outcomes": [
           {
@@ -10860,9 +10980,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 12211.9534,
-          "volume": 1373.5389440000001,
-          "openInterest": 1373.538944,
+          "liquidity": 12127.8841,
+          "volume": 1422.5585500000002,
+          "openInterest": 1422.55855,
           "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01",
           "searchQuery": "BetBoom EYEBALLERS",
           "matchId": "pandascore-1526528",
@@ -10876,7 +10996,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "12027.8849",
+              "liquidity": "12075.8649",
               "volume": "1422.5585500000002",
               "outcomes": [
                 {
@@ -10896,7 +11016,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "56.9995",
+              "liquidity": "58.9996",
               "volume": null,
               "outcomes": [
                 {
@@ -10916,7 +11036,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42.9997",
+              "liquidity": "46.3189",
               "volume": null,
               "outcomes": [
                 {
@@ -11607,9 +11727,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 12211.9534,
-        "volume": 1373.5389440000001,
-        "openInterest": 1373.538944,
+        "liquidity": 12127.8841,
+        "volume": 1422.5585500000002,
+        "openInterest": 1422.55855,
         "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01",
         "searchQuery": "BetBoom EYEBALLERS",
         "matchId": "pandascore-1526528",
@@ -11623,7 +11743,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "12027.8849",
+            "liquidity": "12075.8649",
             "volume": "1422.5585500000002",
             "outcomes": [
               {
@@ -11643,7 +11763,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "56.9995",
+            "liquidity": "58.9996",
             "volume": null,
             "outcomes": [
               {
@@ -11663,7 +11783,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "42.9997",
+            "liquidity": "46.3189",
             "volume": null,
             "outcomes": [
               {
@@ -11685,7 +11805,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "12027.8849",
+        "liquidity": "12075.8649",
         "volume": "1422.5585500000002",
         "outcomes": [
           {
@@ -14201,9 +14321,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 10177.0611,
-          "volume": 797.772313,
-          "openInterest": 606.743096,
+          "liquidity": 10171.3797,
+          "volume": 799.733096,
+          "openInterest": 606.743095,
           "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01",
           "searchQuery": "9z Nemesis",
           "matchId": "pandascore-1526526",
@@ -14217,7 +14337,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10056.5807",
+              "liquidity": "9905.8207",
               "volume": "799.733096",
               "outcomes": [
                 {
@@ -14237,7 +14357,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.3994",
+              "liquidity": "59.3992",
               "volume": null,
               "outcomes": [
                 {
@@ -14257,16 +14377,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.3996",
+              "liquidity": "61.7517",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.5
+                  "price": 0.51
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.5
+                  "price": 0.49
                 }
               ]
             }
@@ -14284,9 +14404,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 10177.0611,
-        "volume": 797.772313,
-        "openInterest": 606.743096,
+        "liquidity": 10171.3797,
+        "volume": 799.733096,
+        "openInterest": 606.743095,
         "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01",
         "searchQuery": "9z Nemesis",
         "matchId": "pandascore-1526526",
@@ -14300,7 +14420,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10056.5807",
+            "liquidity": "9905.8207",
             "volume": "799.733096",
             "outcomes": [
               {
@@ -14320,7 +14440,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.3994",
+            "liquidity": "59.3992",
             "volume": null,
             "outcomes": [
               {
@@ -14340,16 +14460,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.3996",
+            "liquidity": "61.7517",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.5
+                "price": 0.51
               },
               {
                 "outcome": "Under",
-                "price": 0.5
+                "price": 0.49
               }
             ]
           }
@@ -14362,7 +14482,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "10056.5807",
+        "liquidity": "9905.8207",
         "volume": "799.733096",
         "outcomes": [
           {
@@ -14397,9 +14517,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 12165.1923,
+          "liquidity": 12164.5588,
           "volume": 409.210874,
-          "openInterest": 244.720874,
+          "openInterest": 244.720873,
           "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01",
           "searchQuery": "3DMAX Alliance",
           "matchId": "pandascore-1526525",
@@ -14413,7 +14533,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "12027.71",
+              "liquidity": "12034.16",
               "volume": "409.210874",
               "outcomes": [
                 {
@@ -14433,7 +14553,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "77.3994",
+              "liquidity": "80.1998",
               "volume": null,
               "outcomes": [
                 {
@@ -14453,7 +14573,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.3994",
+              "liquidity": "60.2328",
               "volume": null,
               "outcomes": [
                 {
@@ -14984,9 +15104,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 12165.1923,
+        "liquidity": 12164.5588,
         "volume": 409.210874,
-        "openInterest": 244.720874,
+        "openInterest": 244.720873,
         "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01",
         "searchQuery": "3DMAX Alliance",
         "matchId": "pandascore-1526525",
@@ -15000,7 +15120,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "12027.71",
+            "liquidity": "12034.16",
             "volume": "409.210874",
             "outcomes": [
               {
@@ -15020,7 +15140,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "77.3994",
+            "liquidity": "80.1998",
             "volume": null,
             "outcomes": [
               {
@@ -15040,7 +15160,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.3994",
+            "liquidity": "60.2328",
             "volume": null,
             "outcomes": [
               {
@@ -15062,7 +15182,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "12027.71",
+        "liquidity": "12034.16",
         "volume": "409.210874",
         "outcomes": [
           {
@@ -15097,7 +15217,7 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 10739.9019,
+          "liquidity": 10578.7365,
           "volume": 866.6514670000001,
           "openInterest": 522.34071,
           "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01",
@@ -15113,7 +15233,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10618.9175",
+              "liquidity": "10570.3773",
               "volume": "866.6514670000001",
               "outcomes": [
                 {
@@ -15133,7 +15253,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57.3994",
+              "liquidity": "59.3996",
               "volume": null,
               "outcomes": [
                 {
@@ -15153,16 +15273,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "55.5396",
+              "liquidity": "57.6055",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.505
+                  "price": 0.49
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.495
+                  "price": 0.51
                 }
               ]
             }
@@ -15179,9 +15299,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 1501323.20845,
-          "volume": 14294078.911984958,
-          "openInterest": 696206.9566660001,
+          "liquidity": 1439626.7491,
+          "volume": 14355914.636041958,
+          "openInterest": 703424.824788,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-winner",
           "searchQuery": "Monte MIBR",
           "matchId": "pandascore-1526524",
@@ -15195,7 +15315,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "87029.25066",
+              "liquidity": "88961.00144",
               "volume": "389806.151301998",
               "outcomes": [
                 {
@@ -15215,7 +15335,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "97528.30126",
+              "liquidity": "100535.82455",
               "volume": "417929.8757479976",
               "outcomes": [
                 {
@@ -15255,7 +15375,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44769.53111",
+              "liquidity": "48215.16558",
               "volume": "535686.8383299978",
               "outcomes": [
                 {
@@ -15335,7 +15455,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32221.43882",
+              "liquidity": "32170.57992",
               "volume": "552215.6674859988",
               "outcomes": [
                 {
@@ -15355,7 +15475,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "70910.68149",
+              "liquidity": "71091.49012",
               "volume": "523588.6377879973",
               "outcomes": [
                 {
@@ -15515,16 +15635,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "28270.39977",
+              "liquidity": "30826.52701",
               "volume": "450135.68352799746",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.023
+                  "price": 0.0215
                 },
                 {
                   "outcome": "No",
-                  "price": 0.977
+                  "price": 0.9785
                 }
               ]
             },
@@ -15535,7 +15655,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "45946.28105",
+              "liquidity": "47491.16745",
               "volume": "362238.7561489975",
               "outcomes": [
                 {
@@ -15555,16 +15675,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "40340.42017",
+              "liquidity": "41711.64297",
               "volume": "407350.3750339969",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0065
+                  "price": 0.007
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9935
+                  "price": 0.993
                 }
               ]
             },
@@ -15575,16 +15695,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "71367.90667",
-              "volume": "464502.6614069979",
+              "liquidity": "71474.89921",
+              "volume": "464567.5514069979",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0875
+                  "price": 0.088
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9125
+                  "price": 0.912
                 }
               ]
             },
@@ -15595,7 +15715,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "67669.20888",
+              "liquidity": "67280.36161",
               "volume": "394372.2837009974",
               "outcomes": [
                 {
@@ -15635,7 +15755,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39833.45215",
+              "liquidity": "39117.89735",
               "volume": "500643.33510799706",
               "outcomes": [
                 {
@@ -15675,8 +15795,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "65056.7347",
-              "volume": "574261.653437996",
+              "liquidity": "65240.0905",
+              "volume": "574285.743437996",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -15695,16 +15815,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57717.68802",
-              "volume": "426260.94393499783",
+              "liquidity": "53928.79118",
+              "volume": "435615.7339349978",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0105
+                  "price": 0.0115
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9895
+                  "price": 0.9885
                 }
               ]
             },
@@ -15715,7 +15835,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42092.80897",
+              "liquidity": "45053.25817",
               "volume": "424986.96213299764",
               "outcomes": [
                 {
@@ -15735,7 +15855,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "122051.08876",
+              "liquidity": "121762.52531",
               "volume": "393325.9001709988",
               "outcomes": [
                 {
@@ -15755,8 +15875,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "206003.5264",
-              "volume": "1302958.2570400017",
+              "liquidity": "220886.1149",
+              "volume": "1302968.0609600018",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -15775,7 +15895,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "108088.93286",
+              "liquidity": "108928.57674",
               "volume": "401929.8887929977",
               "outcomes": [
                 {
@@ -15795,7 +15915,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99977.1384",
+              "liquidity": "100132.8971",
               "volume": "468971.99642999773",
               "outcomes": [
                 {
@@ -15815,7 +15935,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99679.22179",
+              "liquidity": "101572.17736",
               "volume": "403831.00929099723",
               "outcomes": [
                 {
@@ -15861,9 +15981,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 51189.57315,
+          "liquidity": 53448.21157,
           "volume": 78465.98987500001,
-          "openInterest": 16647.489146,
+          "openInterest": 15403.609150999999,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-qualify-to-stage-3",
           "searchQuery": "Monte MIBR",
           "matchId": "pandascore-1526524",
@@ -15957,7 +16077,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "5645.51375",
+              "liquidity": "5403.46517",
               "volume": "3974.458499",
               "outcomes": [
                 {
@@ -15997,7 +16117,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "6742.06951",
+              "liquidity": "6610.34472",
               "volume": "8625.401438000003",
               "outcomes": [
                 {
@@ -16017,16 +16137,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "153.7066",
+              "liquidity": "51.7976",
               "volume": "4725.741532000002",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.605
+                  "price": 0.525
                 },
                 {
                   "outcome": "No",
-                  "price": 0.395
+                  "price": 0.475
                 }
               ]
             },
@@ -16057,7 +16177,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "20696.55862",
+              "liquidity": "21944.04871",
               "volume": "10175.936998000003",
               "outcomes": [
                 {
@@ -16117,7 +16237,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "20586.8461",
+              "liquidity": "21268.9426",
               "volume": "7229.856379000003",
               "outcomes": [
                 {
@@ -16183,9 +16303,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 120810.09996,
+          "liquidity": 119567.25006,
           "volume": 128116.603228,
-          "openInterest": 56960.62398099998,
+          "openInterest": 56960.623983,
           "url": "https://polymarket.com/event/iem-cologne-2026-qualify-to-playoffs",
           "searchQuery": "Monte MIBR",
           "matchId": "pandascore-1526524",
@@ -16199,7 +16319,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11892.7876",
+              "liquidity": "11892.472",
               "volume": "1025.5811220000003",
               "outcomes": [
                 {
@@ -16279,7 +16399,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2325.8047",
+              "liquidity": "2406.5847",
               "volume": "1634.3200800000002",
               "outcomes": [
                 {
@@ -16299,16 +16419,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11738.044",
+              "liquidity": "11737.3116",
               "volume": "17753.454446000003",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.165
+                  "price": 0.175
                 },
                 {
                   "outcome": "No",
-                  "price": 0.835
+                  "price": 0.825
                 }
               ]
             },
@@ -16319,7 +16439,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1738.9856",
+              "liquidity": "1739.3356",
               "volume": "1475.148867",
               "outcomes": [
                 {
@@ -16339,7 +16459,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4343.9959",
+              "liquidity": "4244.9935",
               "volume": "993.011998",
               "outcomes": [
                 {
@@ -16359,16 +16479,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1319.9083",
+              "liquidity": "1342.9021",
               "volume": "694.060476",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.45
+                  "price": 0.44
                 },
                 {
                   "outcome": "No",
-                  "price": 0.55
+                  "price": 0.56
                 }
               ]
             },
@@ -16459,7 +16579,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1570.415",
+              "liquidity": "1172.915",
               "volume": "722.7796800000001",
               "outcomes": [
                 {
@@ -16479,16 +16599,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1361.5299",
+              "liquidity": "1376.8362",
               "volume": "13.414627000000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.56
+                  "price": 0.54
                 },
                 {
                   "outcome": "No",
-                  "price": 0.44
+                  "price": 0.46
                 }
               ]
             },
@@ -16499,16 +16619,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1966.513",
+              "liquidity": "1967.6351",
               "volume": "308.504916",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.48
+                  "price": 0.475
                 },
                 {
                   "outcome": "No",
-                  "price": 0.52
+                  "price": 0.525
                 }
               ]
             },
@@ -16539,7 +16659,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4288.84933",
+              "liquidity": "4248.40587",
               "volume": "27643.823564",
               "outcomes": [
                 {
@@ -16559,16 +16679,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11865.00672",
+              "liquidity": "12426.42238",
               "volume": "3388.1071549999997",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0605
+                  "price": 0.061
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9395
+                  "price": 0.939
                 }
               ]
             },
@@ -16579,7 +16699,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27447.47973",
+              "liquidity": "27962.72973",
               "volume": "18533.880154",
               "outcomes": [
                 {
@@ -16619,16 +16739,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1900.8665",
+              "liquidity": "1924.1862",
               "volume": "1118.956294",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.485
+                  "price": 0.49
                 },
                 {
                   "outcome": "No",
-                  "price": 0.515
+                  "price": 0.51
                 }
               ]
             },
@@ -16719,7 +16839,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3167.9008",
+              "liquidity": "2990.346",
               "volume": "1474.671736",
               "outcomes": [
                 {
@@ -16759,16 +16879,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3846.00881",
+              "liquidity": "4823.88897",
               "volume": "1098.2704760000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.969
+                  "price": 0.9695
                 },
                 {
                   "outcome": "No",
-                  "price": 0.031
+                  "price": 0.0305
                 }
               ]
             },
@@ -16779,7 +16899,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "24337.18329",
+              "liquidity": "24470.02732",
               "volume": "3989.082782",
               "outcomes": [
                 {
@@ -16799,16 +16919,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1171.0289",
+              "liquidity": "1173.8948",
               "volume": "145.96498299999996",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.355
+                  "price": 0.36
                 },
                 {
                   "outcome": "No",
-                  "price": 0.645
+                  "price": 0.64
                 }
               ]
             },
@@ -16819,7 +16939,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "954.5737",
+              "liquidity": "953.6734",
               "volume": "15.715446",
               "outcomes": [
                 {
@@ -17048,7 +17168,7 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 10739.9019,
+        "liquidity": 10578.7365,
         "volume": 866.6514670000001,
         "openInterest": 522.34071,
         "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01",
@@ -17064,7 +17184,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10618.9175",
+            "liquidity": "10570.3773",
             "volume": "866.6514670000001",
             "outcomes": [
               {
@@ -17084,7 +17204,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57.3994",
+            "liquidity": "59.3996",
             "volume": null,
             "outcomes": [
               {
@@ -17104,16 +17224,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "55.5396",
+            "liquidity": "57.6055",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.505
+                "price": 0.49
               },
               {
                 "outcome": "Under",
-                "price": 0.495
+                "price": 0.51
               }
             ]
           }
@@ -17126,7 +17246,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "10618.9175",
+        "liquidity": "10570.3773",
         "volume": "866.6514670000001",
         "outcomes": [
           {
@@ -17161,8 +17281,8 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 11003.3171,
-          "volume": 1272.601685,
+          "liquidity": 10825.791,
+          "volume": 1305.601685,
           "openInterest": 1181.560119,
           "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01",
           "searchQuery": "PARIVISION BIG",
@@ -17177,7 +17297,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10886.0111",
+              "liquidity": "10840.5106",
               "volume": "1305.601685",
               "outcomes": [
                 {
@@ -17197,7 +17317,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57",
+              "liquidity": "59.8805",
               "volume": null,
               "outcomes": [
                 {
@@ -17217,16 +17337,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "43.1597",
+              "liquidity": "56.4925",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.505
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.495
+                  "price": 0.5
                 }
               ]
             }
@@ -17243,9 +17363,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 1501323.20845,
-          "volume": 14294078.911984958,
-          "openInterest": 696206.9566660001,
+          "liquidity": 1439626.7491,
+          "volume": 14355914.636041958,
+          "openInterest": 703424.824788,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-winner",
           "searchQuery": "PARIVISION BIG",
           "matchId": "pandascore-1526523",
@@ -17259,7 +17379,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "87029.25066",
+              "liquidity": "88961.00144",
               "volume": "389806.151301998",
               "outcomes": [
                 {
@@ -17279,7 +17399,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "97528.30126",
+              "liquidity": "100535.82455",
               "volume": "417929.8757479976",
               "outcomes": [
                 {
@@ -17319,7 +17439,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44769.53111",
+              "liquidity": "48215.16558",
               "volume": "535686.8383299978",
               "outcomes": [
                 {
@@ -17399,7 +17519,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32221.43882",
+              "liquidity": "32170.57992",
               "volume": "552215.6674859988",
               "outcomes": [
                 {
@@ -17419,7 +17539,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "70910.68149",
+              "liquidity": "71091.49012",
               "volume": "523588.6377879973",
               "outcomes": [
                 {
@@ -17579,16 +17699,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "28270.39977",
+              "liquidity": "30826.52701",
               "volume": "450135.68352799746",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.023
+                  "price": 0.0215
                 },
                 {
                   "outcome": "No",
-                  "price": 0.977
+                  "price": 0.9785
                 }
               ]
             },
@@ -17599,7 +17719,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "45946.28105",
+              "liquidity": "47491.16745",
               "volume": "362238.7561489975",
               "outcomes": [
                 {
@@ -17619,16 +17739,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "40340.42017",
+              "liquidity": "41711.64297",
               "volume": "407350.3750339969",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0065
+                  "price": 0.007
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9935
+                  "price": 0.993
                 }
               ]
             },
@@ -17639,16 +17759,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "71367.90667",
-              "volume": "464502.6614069979",
+              "liquidity": "71474.89921",
+              "volume": "464567.5514069979",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0875
+                  "price": 0.088
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9125
+                  "price": 0.912
                 }
               ]
             },
@@ -17659,7 +17779,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "67669.20888",
+              "liquidity": "67280.36161",
               "volume": "394372.2837009974",
               "outcomes": [
                 {
@@ -17699,7 +17819,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39833.45215",
+              "liquidity": "39117.89735",
               "volume": "500643.33510799706",
               "outcomes": [
                 {
@@ -17739,8 +17859,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "65056.7347",
-              "volume": "574261.653437996",
+              "liquidity": "65240.0905",
+              "volume": "574285.743437996",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -17759,16 +17879,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57717.68802",
-              "volume": "426260.94393499783",
+              "liquidity": "53928.79118",
+              "volume": "435615.7339349978",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0105
+                  "price": 0.0115
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9895
+                  "price": 0.9885
                 }
               ]
             },
@@ -17779,7 +17899,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42092.80897",
+              "liquidity": "45053.25817",
               "volume": "424986.96213299764",
               "outcomes": [
                 {
@@ -17799,7 +17919,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "122051.08876",
+              "liquidity": "121762.52531",
               "volume": "393325.9001709988",
               "outcomes": [
                 {
@@ -17819,8 +17939,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "206003.5264",
-              "volume": "1302958.2570400017",
+              "liquidity": "220886.1149",
+              "volume": "1302968.0609600018",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -17839,7 +17959,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "108088.93286",
+              "liquidity": "108928.57674",
               "volume": "401929.8887929977",
               "outcomes": [
                 {
@@ -17859,7 +17979,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99977.1384",
+              "liquidity": "100132.8971",
               "volume": "468971.99642999773",
               "outcomes": [
                 {
@@ -17879,7 +17999,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99679.22179",
+              "liquidity": "101572.17736",
               "volume": "403831.00929099723",
               "outcomes": [
                 {
@@ -17925,9 +18045,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 120810.09996,
+          "liquidity": 119567.25006,
           "volume": 128116.603228,
-          "openInterest": 56960.62398099998,
+          "openInterest": 56960.623983,
           "url": "https://polymarket.com/event/iem-cologne-2026-qualify-to-playoffs",
           "searchQuery": "PARIVISION BIG",
           "matchId": "pandascore-1526523",
@@ -17941,7 +18061,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11892.7876",
+              "liquidity": "11892.472",
               "volume": "1025.5811220000003",
               "outcomes": [
                 {
@@ -18021,7 +18141,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2325.8047",
+              "liquidity": "2406.5847",
               "volume": "1634.3200800000002",
               "outcomes": [
                 {
@@ -18041,16 +18161,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11738.044",
+              "liquidity": "11737.3116",
               "volume": "17753.454446000003",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.165
+                  "price": 0.175
                 },
                 {
                   "outcome": "No",
-                  "price": 0.835
+                  "price": 0.825
                 }
               ]
             },
@@ -18061,7 +18181,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1738.9856",
+              "liquidity": "1739.3356",
               "volume": "1475.148867",
               "outcomes": [
                 {
@@ -18081,7 +18201,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4343.9959",
+              "liquidity": "4244.9935",
               "volume": "993.011998",
               "outcomes": [
                 {
@@ -18101,16 +18221,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1319.9083",
+              "liquidity": "1342.9021",
               "volume": "694.060476",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.45
+                  "price": 0.44
                 },
                 {
                   "outcome": "No",
-                  "price": 0.55
+                  "price": 0.56
                 }
               ]
             },
@@ -18201,7 +18321,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1570.415",
+              "liquidity": "1172.915",
               "volume": "722.7796800000001",
               "outcomes": [
                 {
@@ -18221,16 +18341,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1361.5299",
+              "liquidity": "1376.8362",
               "volume": "13.414627000000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.56
+                  "price": 0.54
                 },
                 {
                   "outcome": "No",
-                  "price": 0.44
+                  "price": 0.46
                 }
               ]
             },
@@ -18241,16 +18361,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1966.513",
+              "liquidity": "1967.6351",
               "volume": "308.504916",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.48
+                  "price": 0.475
                 },
                 {
                   "outcome": "No",
-                  "price": 0.52
+                  "price": 0.525
                 }
               ]
             },
@@ -18281,7 +18401,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4288.84933",
+              "liquidity": "4248.40587",
               "volume": "27643.823564",
               "outcomes": [
                 {
@@ -18301,16 +18421,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11865.00672",
+              "liquidity": "12426.42238",
               "volume": "3388.1071549999997",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0605
+                  "price": 0.061
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9395
+                  "price": 0.939
                 }
               ]
             },
@@ -18321,7 +18441,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27447.47973",
+              "liquidity": "27962.72973",
               "volume": "18533.880154",
               "outcomes": [
                 {
@@ -18361,16 +18481,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1900.8665",
+              "liquidity": "1924.1862",
               "volume": "1118.956294",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.485
+                  "price": 0.49
                 },
                 {
                   "outcome": "No",
-                  "price": 0.515
+                  "price": 0.51
                 }
               ]
             },
@@ -18461,7 +18581,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3167.9008",
+              "liquidity": "2990.346",
               "volume": "1474.671736",
               "outcomes": [
                 {
@@ -18501,16 +18621,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3846.00881",
+              "liquidity": "4823.88897",
               "volume": "1098.2704760000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.969
+                  "price": 0.9695
                 },
                 {
                   "outcome": "No",
-                  "price": 0.031
+                  "price": 0.0305
                 }
               ]
             },
@@ -18521,7 +18641,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "24337.18329",
+              "liquidity": "24470.02732",
               "volume": "3989.082782",
               "outcomes": [
                 {
@@ -18541,16 +18661,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1171.0289",
+              "liquidity": "1173.8948",
               "volume": "145.96498299999996",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.355
+                  "price": 0.36
                 },
                 {
                   "outcome": "No",
-                  "price": 0.645
+                  "price": 0.64
                 }
               ]
             },
@@ -18561,7 +18681,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "954.5737",
+              "liquidity": "953.6734",
               "volume": "15.715446",
               "outcomes": [
                 {
@@ -18588,8 +18708,8 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 11003.3171,
-        "volume": 1272.601685,
+        "liquidity": 10825.791,
+        "volume": 1305.601685,
         "openInterest": 1181.560119,
         "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01",
         "searchQuery": "PARIVISION BIG",
@@ -18604,7 +18724,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10886.0111",
+            "liquidity": "10840.5106",
             "volume": "1305.601685",
             "outcomes": [
               {
@@ -18624,7 +18744,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "57",
+            "liquidity": "59.8805",
             "volume": null,
             "outcomes": [
               {
@@ -18644,16 +18764,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "43.1597",
+            "liquidity": "56.4925",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.505
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.495
+                "price": 0.5
               }
             ]
           }
@@ -18666,7 +18786,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "10886.0111",
+        "liquidity": "10840.5106",
         "volume": "1305.601685",
         "outcomes": [
           {
@@ -18701,9 +18821,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 83124.2668,
-          "volume": 80844.20060600001,
-          "openInterest": 15813.194867,
+          "liquidity": 80267.3666,
+          "volume": 86618.850606,
+          "openInterest": 15811.384868,
           "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01",
           "searchQuery": "Legacy M80",
           "matchId": "pandascore-1526522",
@@ -18717,7 +18837,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "76687.1582",
+              "liquidity": "80824.4982",
               "volume": "86618.850606",
               "outcomes": [
                 {
@@ -18737,16 +18857,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2755.509",
+              "liquidity": "5430.3185",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Legacy",
-                  "price": 0.485
+                  "price": 0.505
                 },
                 {
                   "outcome": "M80",
-                  "price": 0.515
+                  "price": 0.495
                 }
               ]
             },
@@ -18757,16 +18877,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "347.6994",
+              "liquidity": "5791.6794",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "Over",
-                  "price": 0.52
+                  "price": 0.5
                 },
                 {
                   "outcome": "Under",
-                  "price": 0.48
+                  "price": 0.5
                 }
               ]
             }
@@ -18783,9 +18903,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 1501323.20845,
-          "volume": 14294078.911984958,
-          "openInterest": 696206.9566660001,
+          "liquidity": 1439626.7491,
+          "volume": 14355914.636041958,
+          "openInterest": 703424.824788,
           "url": "https://polymarket.com/event/iem-cologne-major-2026-winner",
           "searchQuery": "Legacy M80",
           "matchId": "pandascore-1526522",
@@ -18799,7 +18919,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "87029.25066",
+              "liquidity": "88961.00144",
               "volume": "389806.151301998",
               "outcomes": [
                 {
@@ -18819,7 +18939,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "97528.30126",
+              "liquidity": "100535.82455",
               "volume": "417929.8757479976",
               "outcomes": [
                 {
@@ -18859,7 +18979,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "44769.53111",
+              "liquidity": "48215.16558",
               "volume": "535686.8383299978",
               "outcomes": [
                 {
@@ -18939,7 +19059,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "32221.43882",
+              "liquidity": "32170.57992",
               "volume": "552215.6674859988",
               "outcomes": [
                 {
@@ -18959,7 +19079,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "70910.68149",
+              "liquidity": "71091.49012",
               "volume": "523588.6377879973",
               "outcomes": [
                 {
@@ -19119,16 +19239,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "28270.39977",
+              "liquidity": "30826.52701",
               "volume": "450135.68352799746",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.023
+                  "price": 0.0215
                 },
                 {
                   "outcome": "No",
-                  "price": 0.977
+                  "price": 0.9785
                 }
               ]
             },
@@ -19139,7 +19259,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "45946.28105",
+              "liquidity": "47491.16745",
               "volume": "362238.7561489975",
               "outcomes": [
                 {
@@ -19159,16 +19279,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "40340.42017",
+              "liquidity": "41711.64297",
               "volume": "407350.3750339969",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0065
+                  "price": 0.007
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9935
+                  "price": 0.993
                 }
               ]
             },
@@ -19179,16 +19299,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "71367.90667",
-              "volume": "464502.6614069979",
+              "liquidity": "71474.89921",
+              "volume": "464567.5514069979",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0875
+                  "price": 0.088
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9125
+                  "price": 0.912
                 }
               ]
             },
@@ -19199,7 +19319,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "67669.20888",
+              "liquidity": "67280.36161",
               "volume": "394372.2837009974",
               "outcomes": [
                 {
@@ -19239,7 +19359,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "39833.45215",
+              "liquidity": "39117.89735",
               "volume": "500643.33510799706",
               "outcomes": [
                 {
@@ -19279,8 +19399,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "65056.7347",
-              "volume": "574261.653437996",
+              "liquidity": "65240.0905",
+              "volume": "574285.743437996",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -19299,16 +19419,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "57717.68802",
-              "volume": "426260.94393499783",
+              "liquidity": "53928.79118",
+              "volume": "435615.7339349978",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0105
+                  "price": 0.0115
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9895
+                  "price": 0.9885
                 }
               ]
             },
@@ -19319,7 +19439,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "42092.80897",
+              "liquidity": "45053.25817",
               "volume": "424986.96213299764",
               "outcomes": [
                 {
@@ -19339,7 +19459,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "122051.08876",
+              "liquidity": "121762.52531",
               "volume": "393325.9001709988",
               "outcomes": [
                 {
@@ -19359,8 +19479,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "206003.5264",
-              "volume": "1302958.2570400017",
+              "liquidity": "220886.1149",
+              "volume": "1302968.0609600018",
               "outcomes": [
                 {
                   "outcome": "Yes",
@@ -19379,7 +19499,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "108088.93286",
+              "liquidity": "108928.57674",
               "volume": "401929.8887929977",
               "outcomes": [
                 {
@@ -19399,7 +19519,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99977.1384",
+              "liquidity": "100132.8971",
               "volume": "468971.99642999773",
               "outcomes": [
                 {
@@ -19419,7 +19539,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "99679.22179",
+              "liquidity": "101572.17736",
               "volume": "403831.00929099723",
               "outcomes": [
                 {
@@ -19465,9 +19585,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 120810.09996,
+          "liquidity": 119567.25006,
           "volume": 128116.603228,
-          "openInterest": 56960.62398099998,
+          "openInterest": 56960.623983,
           "url": "https://polymarket.com/event/iem-cologne-2026-qualify-to-playoffs",
           "searchQuery": "Legacy M80",
           "matchId": "pandascore-1526522",
@@ -19481,7 +19601,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11892.7876",
+              "liquidity": "11892.472",
               "volume": "1025.5811220000003",
               "outcomes": [
                 {
@@ -19561,7 +19681,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "2325.8047",
+              "liquidity": "2406.5847",
               "volume": "1634.3200800000002",
               "outcomes": [
                 {
@@ -19581,16 +19701,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11738.044",
+              "liquidity": "11737.3116",
               "volume": "17753.454446000003",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.165
+                  "price": 0.175
                 },
                 {
                   "outcome": "No",
-                  "price": 0.835
+                  "price": 0.825
                 }
               ]
             },
@@ -19601,7 +19721,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1738.9856",
+              "liquidity": "1739.3356",
               "volume": "1475.148867",
               "outcomes": [
                 {
@@ -19621,7 +19741,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4343.9959",
+              "liquidity": "4244.9935",
               "volume": "993.011998",
               "outcomes": [
                 {
@@ -19641,16 +19761,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1319.9083",
+              "liquidity": "1342.9021",
               "volume": "694.060476",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.45
+                  "price": 0.44
                 },
                 {
                   "outcome": "No",
-                  "price": 0.55
+                  "price": 0.56
                 }
               ]
             },
@@ -19741,7 +19861,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1570.415",
+              "liquidity": "1172.915",
               "volume": "722.7796800000001",
               "outcomes": [
                 {
@@ -19761,16 +19881,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1361.5299",
+              "liquidity": "1376.8362",
               "volume": "13.414627000000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.56
+                  "price": 0.54
                 },
                 {
                   "outcome": "No",
-                  "price": 0.44
+                  "price": 0.46
                 }
               ]
             },
@@ -19781,16 +19901,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1966.513",
+              "liquidity": "1967.6351",
               "volume": "308.504916",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.48
+                  "price": 0.475
                 },
                 {
                   "outcome": "No",
-                  "price": 0.52
+                  "price": 0.525
                 }
               ]
             },
@@ -19821,7 +19941,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "4288.84933",
+              "liquidity": "4248.40587",
               "volume": "27643.823564",
               "outcomes": [
                 {
@@ -19841,16 +19961,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "11865.00672",
+              "liquidity": "12426.42238",
               "volume": "3388.1071549999997",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.0605
+                  "price": 0.061
                 },
                 {
                   "outcome": "No",
-                  "price": 0.9395
+                  "price": 0.939
                 }
               ]
             },
@@ -19861,7 +19981,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "27447.47973",
+              "liquidity": "27962.72973",
               "volume": "18533.880154",
               "outcomes": [
                 {
@@ -19901,16 +20021,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1900.8665",
+              "liquidity": "1924.1862",
               "volume": "1118.956294",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.485
+                  "price": 0.49
                 },
                 {
                   "outcome": "No",
-                  "price": 0.515
+                  "price": 0.51
                 }
               ]
             },
@@ -20001,7 +20121,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3167.9008",
+              "liquidity": "2990.346",
               "volume": "1474.671736",
               "outcomes": [
                 {
@@ -20041,16 +20161,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "3846.00881",
+              "liquidity": "4823.88897",
               "volume": "1098.2704760000001",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.969
+                  "price": 0.9695
                 },
                 {
                   "outcome": "No",
-                  "price": 0.031
+                  "price": 0.0305
                 }
               ]
             },
@@ -20061,7 +20181,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "24337.18329",
+              "liquidity": "24470.02732",
               "volume": "3989.082782",
               "outcomes": [
                 {
@@ -20081,16 +20201,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "1171.0289",
+              "liquidity": "1173.8948",
               "volume": "145.96498299999996",
               "outcomes": [
                 {
                   "outcome": "Yes",
-                  "price": 0.355
+                  "price": 0.36
                 },
                 {
                   "outcome": "No",
-                  "price": 0.645
+                  "price": 0.64
                 }
               ]
             },
@@ -20101,7 +20221,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "954.5737",
+              "liquidity": "953.6734",
               "volume": "15.715446",
               "outcomes": [
                 {
@@ -20872,9 +20992,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 83124.2668,
-        "volume": 80844.20060600001,
-        "openInterest": 15813.194867,
+        "liquidity": 80267.3666,
+        "volume": 86618.850606,
+        "openInterest": 15811.384868,
         "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01",
         "searchQuery": "Legacy M80",
         "matchId": "pandascore-1526522",
@@ -20888,7 +21008,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "76687.1582",
+            "liquidity": "80824.4982",
             "volume": "86618.850606",
             "outcomes": [
               {
@@ -20908,16 +21028,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "2755.509",
+            "liquidity": "5430.3185",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Legacy",
-                "price": 0.485
+                "price": 0.505
               },
               {
                 "outcome": "M80",
-                "price": 0.515
+                "price": 0.495
               }
             ]
           },
@@ -20928,16 +21048,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "347.6994",
+            "liquidity": "5791.6794",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "Over",
-                "price": 0.52
+                "price": 0.5
               },
               {
                 "outcome": "Under",
-                "price": 0.48
+                "price": 0.5
               }
             ]
           }
@@ -20950,7 +21070,7 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "76687.1582",
+        "liquidity": "80824.4982",
         "volume": "86618.850606",
         "outcomes": [
           {
@@ -20985,9 +21105,9 @@
           "closed": false,
           "archived": false,
           "restricted": true,
-          "liquidity": 10930.4959,
-          "volume": 730.402241,
-          "openInterest": 512.22224,
+          "liquidity": 10815.5165,
+          "volume": 780.402241,
+          "openInterest": 512.222241,
           "url": "https://polymarket.com/event/cs2-faze-sin2-2026-07-01",
           "searchQuery": "FaZe SINNERS",
           "matchId": "pandascore-1526521",
@@ -21001,8 +21121,8 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "10890.6794",
-              "volume": "730.402241",
+              "liquidity": "10872.509",
+              "volume": "780.402241",
               "outcomes": [
                 {
                   "outcome": "FaZe",
@@ -21021,16 +21141,16 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "49.9997",
+              "liquidity": "53.0193",
               "volume": null,
               "outcomes": [
                 {
                   "outcome": "FaZe",
-                  "price": 0.49
+                  "price": 0.495
                 },
                 {
                   "outcome": "Sinners",
-                  "price": 0.51
+                  "price": 0.505
                 }
               ]
             },
@@ -21041,7 +21161,7 @@
               "active": true,
               "closed": false,
               "enableOrderBook": true,
-              "liquidity": "56.9999",
+              "liquidity": "59.8157",
               "volume": null,
               "outcomes": [
                 {
@@ -22356,9 +22476,9 @@
         "closed": false,
         "archived": false,
         "restricted": true,
-        "liquidity": 10930.4959,
-        "volume": 730.402241,
-        "openInterest": 512.22224,
+        "liquidity": 10815.5165,
+        "volume": 780.402241,
+        "openInterest": 512.222241,
         "url": "https://polymarket.com/event/cs2-faze-sin2-2026-07-01",
         "searchQuery": "FaZe SINNERS",
         "matchId": "pandascore-1526521",
@@ -22372,8 +22492,8 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "10890.6794",
-            "volume": "730.402241",
+            "liquidity": "10872.509",
+            "volume": "780.402241",
             "outcomes": [
               {
                 "outcome": "FaZe",
@@ -22392,16 +22512,16 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "49.9997",
+            "liquidity": "53.0193",
             "volume": null,
             "outcomes": [
               {
                 "outcome": "FaZe",
-                "price": 0.49
+                "price": 0.495
               },
               {
                 "outcome": "Sinners",
-                "price": 0.51
+                "price": 0.505
               }
             ]
           },
@@ -22412,7 +22532,7 @@
             "active": true,
             "closed": false,
             "enableOrderBook": true,
-            "liquidity": "56.9999",
+            "liquidity": "59.8157",
             "volume": null,
             "outcomes": [
               {
@@ -22434,8 +22554,8 @@
         "active": true,
         "closed": false,
         "enableOrderBook": true,
-        "liquidity": "10890.6794",
-        "volume": "730.402241",
+        "liquidity": "10872.509",
+        "volume": "780.402241",
         "outcomes": [
           {
             "outcome": "FaZe",
