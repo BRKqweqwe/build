@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T12:51:51.013Z",
+  "generatedAt": "2026-06-09T15:00:01.562Z",
   "source": {
     "results": "static/data/model-results.json",
     "rows": 13,
     "schemaVersion": 1,
-    "updatedAt": "2026-06-09T10:03:15.884Z"
+    "updatedAt": "2026-06-09T15:00:01.270Z"
   },
   "settings": {
     "primaryModelId": "weighted",
@@ -47,7 +47,7 @@
         "disagreements": 1,
         "disagreementAccuracy": 1,
         "agreementAccuracy": 1,
-        "avgEdge": 0.028003
+        "avgEdge": 0.170717
       }
     }
   },
@@ -70,7 +70,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": 1,
-        "avgEdge": 0.028003
+        "avgEdge": 0.170717
       },
       "byConfidence": [
         {
@@ -91,7 +91,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.100858
+            "avgEdge": 0.292358
           }
         },
         {
@@ -112,7 +112,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": -0.070474
+            "avgEdge": 0.206776
           }
         },
         {
@@ -133,7 +133,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": -0.101889
+            "avgEdge": -0.231889
           }
         },
         {
@@ -177,7 +177,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.028003
+            "avgEdge": 0.170717
           }
         }
       ],
@@ -200,7 +200,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.028003
+            "avgEdge": 0.170717
           }
         }
       ],
@@ -223,7 +223,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.028003
+            "avgEdge": 0.170717
           }
         }
       ],
@@ -567,7 +567,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.044452
+        "avgEdge": 0.244252
       }
     }
   ],
@@ -586,9 +586,9 @@
       "modelId": "Cal ML",
       "pick": "AM",
       "probability": 0.5765727591340151,
-      "marketFavorite": "AM",
-      "marketDisagreement": false,
-      "marketEdge": 0.021572759134015018
+      "marketFavorite": "Betclic",
+      "marketDisagreement": true,
+      "marketEdge": 0.5760727591340151
     },
     {
       "matchId": "2026-06-09-big-b8",
@@ -599,7 +599,7 @@
       "probability": 0.5080026257393195,
       "marketFavorite": "B8",
       "marketDisagreement": true,
-      "marketEdge": 0.05300262573931952
+      "marketEdge": 0.06300262573931953
     },
     {
       "matchId": "2026-06-09-cybershoke-ex-ruby",
@@ -621,7 +621,7 @@
       "probability": 0.5304297166423679,
       "marketFavorite": "Monte",
       "marketDisagreement": true,
-      "marketEdge": 0.06542971664236791
+      "marketEdge": 0.529929716642368
     },
     {
       "matchId": "2026-06-09-tyloo-legacy",
@@ -632,7 +632,7 @@
       "probability": 0.6231113753607591,
       "marketFavorite": "Legacy",
       "marketDisagreement": false,
-      "marketEdge": -0.10188862463924087
+      "marketEdge": -0.23188862463924087
     },
     {
       "matchId": "2026-06-09-virtus-pro-oxuji",
@@ -643,7 +643,7 @@
       "probability": 0.5241428050084175,
       "marketFavorite": "Virtus.pro",
       "marketDisagreement": true,
-      "marketEdge": 0.18414280500841745
+      "marketEdge": 0.2841428050084175
     }
   ]
 }

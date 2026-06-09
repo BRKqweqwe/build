@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T10:03:15.884Z",
+  "updatedAt": "2026-06-09T15:00:01.270Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -219,17 +219,17 @@
       "status": "pending",
       "matchStatus": "not_started",
       "startTime": "2026-06-09T11:00:00Z",
-      "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
-      "marketFavorite": "AM",
-      "marketUnderdog": "Betclic",
-      "marketTeamAProbability": 0.445,
-      "marketTeamBProbability": 0.555,
-      "marketFavoriteProbability": 0.555,
+      "marketDisagreement": true,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Betclic",
+      "marketUnderdog": "AM",
+      "marketTeamAProbability": 0.9995,
+      "marketTeamBProbability": 0.0005,
+      "marketFavoriteProbability": 0.9995,
       "marketQuestion": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-bca-am-2026-06-09",
-      "marketLiquidity": "24278.6618",
-      "marketVolume": "519.047324"
+      "marketLiquidity": "79813.82695",
+      "marketVolume": "26035.16469299999"
     },
     {
       "id": "2026-06-09-big-b8",
@@ -256,16 +256,16 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-09T17:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "B8",
       "marketUnderdog": "BIG",
-      "marketTeamAProbability": 0.455,
-      "marketTeamBProbability": 0.545,
-      "marketFavoriteProbability": 0.545,
+      "marketTeamAProbability": 0.445,
+      "marketTeamBProbability": 0.555,
+      "marketFavoriteProbability": 0.555,
       "marketQuestion": "Counter-Strike: BIG vs B8 (BO3) - IEM Cologne Major Stage 2",
       "marketUrl": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
-      "marketLiquidity": "579082.9978",
-      "marketVolume": "283462.10955299943"
+      "marketLiquidity": "513069.8785",
+      "marketVolume": "559113.1436429993"
     },
     {
       "id": "2026-06-09-cybershoke-ex-ruby",
@@ -319,16 +319,16 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-09T12:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "Monte",
       "marketUnderdog": "paiN",
-      "marketTeamAProbability": 0.535,
-      "marketTeamBProbability": 0.465,
-      "marketFavoriteProbability": 0.535,
+      "marketTeamAProbability": 0.9995,
+      "marketTeamBProbability": 0.0005,
+      "marketFavoriteProbability": 0.9995,
       "marketQuestion": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
       "marketUrl": "https://polymarket.com/event/cs2-mnte-pain-2026-06-09",
-      "marketLiquidity": "486166.4729",
-      "marketVolume": "364097.692882"
+      "marketLiquidity": "653332.53648",
+      "marketVolume": "1439399.8307030029"
     },
     {
       "id": "2026-06-09-tyloo-legacy",
@@ -355,16 +355,16 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-09T14:30:00Z",
       "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "Legacy",
       "marketUnderdog": "TYLOO",
-      "marketTeamAProbability": 0.275,
-      "marketTeamBProbability": 0.725,
-      "marketFavoriteProbability": 0.725,
+      "marketTeamAProbability": 0.145,
+      "marketTeamBProbability": 0.855,
+      "marketFavoriteProbability": 0.855,
       "marketQuestion": "Counter-Strike: TYLOO vs Legacy (BO3) - IEM Cologne Major Stage 2",
       "marketUrl": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
-      "marketLiquidity": "421282.2642",
-      "marketVolume": "148239.61583000075"
+      "marketLiquidity": "63590.4325",
+      "marketVolume": "775845.8405739971"
     },
     {
       "id": "2026-06-09-virtus-pro-oxuji",
@@ -391,16 +391,16 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-09T14:00:00Z",
       "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "Virtus.pro",
       "marketUnderdog": "Oxuji",
-      "marketTeamAProbability": 0.66,
-      "marketTeamBProbability": 0.34,
-      "marketFavoriteProbability": 0.66,
+      "marketTeamAProbability": 0.76,
+      "marketTeamBProbability": 0.24,
+      "marketFavoriteProbability": 0.76,
       "marketQuestion": "Counter-Strike: Virtus.pro vs Oxuji Esports (BO3) - CCT Europe Series 4 Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
-      "marketLiquidity": "38382.8394",
-      "marketVolume": "34326.594761999986"
+      "marketLiquidity": "27790.0262",
+      "marketVolume": "72078.6132620001"
     }
   ]
 }

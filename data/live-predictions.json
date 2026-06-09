@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T11:14:14.579Z",
+  "generatedAt": "2026-06-09T15:00:01.933Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
@@ -34,21 +34,21 @@
         "id": "12380",
         "name": "CYBERSHOKE",
         "hltvRank": 60,
-        "probability": 0.5086698893488714,
-        "baseProbability": 0.4495001973223886
+        "probability": 0.5087253601592764,
+        "baseProbability": 0.4495813640900767
       },
       "teamB": {
         "id": "13617",
         "name": "ex-RUBY",
         "hltvRank": 75,
-        "probability": 0.49133011065112864,
-        "baseProbability": 0.5504998026776113
+        "probability": 0.4912746398407236,
+        "baseProbability": 0.5504186359099232
       },
       "pick": {
         "teamId": "12380",
         "name": "CYBERSHOKE",
-        "probability": 0.5086698893488714,
-        "confidence": 0.2647388118930813
+        "probability": 0.5087253601592764,
+        "confidence": 0.26483311227076983
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -71,19 +71,19 @@
         }
       },
       "market": {
-        "favorite": "ex-RUBY",
-        "underdog": "CYBERSHOKE",
-        "teamAProbability": 0.05,
-        "teamBProbability": 0.95,
-        "favoriteProbability": 0.95,
-        "question": "Counter-Strike: CYBERSHOKE Esports vs ex-RUBY (BO3) - NODWIN Clutch Series Group Stage",
+        "favorite": "CYBERSHOKE",
+        "underdog": "ex-RUBY",
+        "teamAProbability": 0.5,
+        "teamBProbability": 0.5,
+        "favoriteProbability": 0.5,
+        "question": "Map 2 Rounds Handicap: ex-RUBY (-9.5) vs CYBERSHOKE Esports (+9.5)",
         "url": "https://polymarket.com/event/cs2-cs1-ruby1-2026-06-09",
-        "liquidity": "30130.1603",
-        "volume": "17506.233770999992",
-        "edgeTeamA": 0.4586698893488714,
-        "edgeTeamB": -0.4586698893488713,
-        "edgePick": 0.4586698893488714,
-        "disagreement": true
+        "liquidity": null,
+        "volume": null,
+        "edgeTeamA": 0.008725360159276385,
+        "edgeTeamB": -0.008725360159276385,
+        "edgePick": 0.008725360159276385,
+        "disagreement": false
       },
       "history": {
         "id": "2026-06-09-cybershoke-ex-ruby",
@@ -107,21 +107,21 @@
         "id": "12916",
         "name": "Betclic",
         "hltvRank": 85,
-        "probability": 0.5435341174818452,
-        "baseProbability": 0.5010132856857585
+        "probability": 0.54358918390149,
+        "baseProbability": 0.5010952872339165
       },
       "teamB": {
         "id": "13237",
         "name": "AM",
         "hltvRank": 73,
-        "probability": 0.4564658825181548,
-        "baseProbability": 0.49898671431424146
+        "probability": 0.45641081609851,
+        "baseProbability": 0.4989047127660835
       },
       "pick": {
         "teamId": "12916",
         "name": "Betclic",
-        "probability": 0.5435341174818452,
-        "confidence": 0.32400799971913685
+        "probability": 0.54358918390149,
+        "confidence": 0.324101612632533
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -144,19 +144,19 @@
         }
       },
       "market": {
-        "favorite": "AM",
-        "underdog": "Betclic",
-        "teamAProbability": 0.445,
-        "teamBProbability": 0.555,
-        "favoriteProbability": 0.555,
+        "favorite": "Betclic",
+        "underdog": "AM",
+        "teamAProbability": 0.9995,
+        "teamBProbability": 0.0005,
+        "favoriteProbability": 0.9995,
         "question": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
         "url": "https://polymarket.com/event/cs2-bca-am-2026-06-09",
-        "liquidity": "24278.6618",
-        "volume": "519.047324",
-        "edgeTeamA": 0.09853411748184521,
-        "edgeTeamB": -0.09853411748184526,
-        "edgePick": 0.09853411748184521,
-        "disagreement": true
+        "liquidity": "79813.82695",
+        "volume": "26035.16469299999",
+        "edgeTeamA": -0.45591081609851003,
+        "edgeTeamB": 0.45591081609851,
+        "edgePick": -0.45591081609851003,
+        "disagreement": false
       },
       "history": {
         "id": "2026-06-09-betclic-am",
@@ -180,21 +180,21 @@
         "id": "11811",
         "name": "Monte",
         "hltvRank": 21,
-        "probability": 0.5650105603024664,
-        "baseProbability": 0.5330872961966688
+        "probability": 0.5650651090666624,
+        "baseProbability": 0.5331689381301506
       },
       "teamB": {
         "id": "4773",
         "name": "paiN",
         "hltvRank": 20,
-        "probability": 0.43498943969753356,
-        "baseProbability": 0.46691270380333116
+        "probability": 0.4349348909333376,
+        "baseProbability": 0.46683106186984935
       },
       "pick": {
         "teamId": "11811",
         "name": "Monte",
-        "probability": 0.5650105603024664,
-        "confidence": 0.36051795251419294
+        "probability": 0.5650651090666624,
+        "confidence": 0.3606106854133261
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -219,16 +219,16 @@
       "market": {
         "favorite": "Monte",
         "underdog": "paiN",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "favoriteProbability": 0.535,
+        "teamAProbability": 0.9995,
+        "teamBProbability": 0.0005,
+        "favoriteProbability": 0.9995,
         "question": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
         "url": "https://polymarket.com/event/cs2-mnte-pain-2026-06-09",
-        "liquidity": "486166.4729",
-        "volume": "364097.692882",
-        "edgeTeamA": 0.030010560302466405,
-        "edgeTeamB": -0.03001056030246646,
-        "edgePick": 0.030010560302466405,
+        "liquidity": "653332.53648",
+        "volume": "1439399.8307030029",
+        "edgeTeamA": -0.43443489093333765,
+        "edgeTeamB": 0.4344348909333376,
+        "edgePick": -0.43443489093333765,
         "disagreement": false
       },
       "history": {
@@ -253,21 +253,21 @@
         "id": "5378",
         "name": "Virtus.pro",
         "hltvRank": 40,
-        "probability": 0.6102221333304233,
-        "baseProbability": 0.6007258896537186
+        "probability": 0.6102749231781889,
+        "baseProbability": 0.6008045610979054
       },
       "teamB": {
         "id": "13553",
         "name": "Oxuji",
         "hltvRank": 80,
-        "probability": 0.3897778666695767,
-        "baseProbability": 0.39927411034628135
+        "probability": 0.3897250768218111,
+        "baseProbability": 0.39919543890209463
       },
       "pick": {
         "teamId": "5378",
         "name": "Virtus.pro",
-        "probability": 0.6102221333304233,
-        "confidence": 0.43737762666171964
+        "probability": 0.6102749231781889,
+        "confidence": 0.4374673694029211
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -292,16 +292,16 @@
       "market": {
         "favorite": "Virtus.pro",
         "underdog": "Oxuji",
-        "teamAProbability": 0.66,
-        "teamBProbability": 0.34,
-        "favoriteProbability": 0.66,
+        "teamAProbability": 0.76,
+        "teamBProbability": 0.24,
+        "favoriteProbability": 0.76,
         "question": "Counter-Strike: Virtus.pro vs Oxuji Esports (BO3) - CCT Europe Series 4 Group Stage",
         "url": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
-        "liquidity": "38382.8394",
-        "volume": "34326.594761999986",
-        "edgeTeamA": -0.04977786666957673,
-        "edgeTeamB": 0.049777866669576676,
-        "edgePick": -0.04977786666957673,
+        "liquidity": "27790.0262",
+        "volume": "72078.6132620001",
+        "edgeTeamA": -0.14972507682181113,
+        "edgeTeamB": 0.14972507682181113,
+        "edgePick": -0.14972507682181113,
         "disagreement": false
       },
       "history": {
@@ -326,21 +326,21 @@
         "id": "4863",
         "name": "TYLOO",
         "hltvRank": 25,
-        "probability": 0.429326627211865,
-        "baseProbability": 0.3374812724835705
+        "probability": 0.4293810070799817,
+        "baseProbability": 0.33755461485696403
       },
       "teamB": {
         "id": "12468",
         "name": "Legacy",
         "hltvRank": 5,
-        "probability": 0.570673372788135,
-        "baseProbability": 0.6625187275164295
+        "probability": 0.5706189929200183,
+        "baseProbability": 0.662445385143036
       },
       "pick": {
         "teamId": "12468",
         "name": "Legacy",
-        "probability": 0.570673372788135,
-        "confidence": 0.37014473373982953
+        "probability": 0.5706189929200183,
+        "confidence": 0.37005228796403106
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -365,16 +365,16 @@
       "market": {
         "favorite": "Legacy",
         "underdog": "TYLOO",
-        "teamAProbability": 0.275,
-        "teamBProbability": 0.725,
-        "favoriteProbability": 0.725,
+        "teamAProbability": 0.145,
+        "teamBProbability": 0.855,
+        "favoriteProbability": 0.855,
         "question": "Counter-Strike: TYLOO vs Legacy (BO3) - IEM Cologne Major Stage 2",
         "url": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
-        "liquidity": "421282.2642",
-        "volume": "148239.61583000075",
-        "edgeTeamA": 0.15432662721186496,
-        "edgeTeamB": -0.15432662721186496,
-        "edgePick": -0.15432662721186496,
+        "liquidity": "63590.4325",
+        "volume": "775845.8405739971",
+        "edgeTeamA": 0.2843810070799817,
+        "edgeTeamB": -0.2843810070799817,
+        "edgePick": -0.2843810070799817,
         "disagreement": false
       },
       "history": {
@@ -399,21 +399,21 @@
         "id": "7532",
         "name": "BIG",
         "hltvRank": 28,
-        "probability": 0.5150086489151372,
-        "baseProbability": 0.45879415904047877
+        "probability": 0.5150640863304158,
+        "baseProbability": 0.4588756051223009
       },
       "teamB": {
         "id": "11241",
         "name": "B8",
         "hltvRank": 16,
-        "probability": 0.4849913510848628,
-        "baseProbability": 0.5412058409595213
+        "probability": 0.4849359136695842,
+        "baseProbability": 0.5411243948776991
       },
       "pick": {
         "teamId": "7532",
         "name": "BIG",
-        "probability": 0.5150086489151372,
-        "confidence": 0.27551470315573323
+        "probability": 0.5150640863304158,
+        "confidence": 0.27560894676170683
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -438,16 +438,16 @@
       "market": {
         "favorite": "B8",
         "underdog": "BIG",
-        "teamAProbability": 0.455,
-        "teamBProbability": 0.545,
-        "favoriteProbability": 0.545,
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "favoriteProbability": 0.555,
         "question": "Counter-Strike: BIG vs B8 (BO3) - IEM Cologne Major Stage 2",
         "url": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
-        "liquidity": "579082.9978",
-        "volume": "283462.10955299943",
-        "edgeTeamA": 0.060008648915137186,
-        "edgeTeamB": -0.06000864891513724,
-        "edgePick": 0.060008648915137186,
+        "liquidity": "513069.8785",
+        "volume": "559113.1436429993",
+        "edgeTeamA": 0.07006408633041578,
+        "edgeTeamB": -0.07006408633041583,
+        "edgePick": 0.07006408633041578,
         "disagreement": true
       },
       "history": {
@@ -472,21 +472,21 @@
         "id": "10459",
         "name": "ARCRED",
         "hltvRank": 58,
-        "probability": 0.5588820670971694,
-        "baseProbability": 0.5239191933273335
+        "probability": 0.5589367844507284,
+        "baseProbability": 0.5240010069293073
       },
       "teamB": {
         "id": "13518",
         "name": "Acend",
         "hltvRank": 61,
-        "probability": 0.44111793290283063,
-        "baseProbability": 0.4760808066726665
+        "probability": 0.44106321554927164,
+        "baseProbability": 0.4759989930706927
       },
       "pick": {
         "teamId": "10459",
         "name": "ARCRED",
-        "probability": 0.5588820670971694,
-        "confidence": 0.3500995140651879
+        "probability": 0.5589367844507284,
+        "confidence": 0.3501925335662382
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -526,21 +526,21 @@
         "id": "12889",
         "name": "G2 Ares",
         "hltvRank": 88,
-        "probability": 0.5303879036318974,
-        "baseProbability": 0.48148582214198765
+        "probability": 0.5304431859009674,
+        "baseProbability": 0.4815677121187319
       },
       "teamB": {
         "id": "10960",
         "name": "Young Ninjas",
         "hltvRank": 98,
-        "probability": 0.46961209636810264,
-        "baseProbability": 0.5185141778580123
+        "probability": 0.4695568140990326,
+        "baseProbability": 0.5184322878812682
       },
       "pick": {
         "teamId": "12889",
         "name": "G2 Ares",
-        "probability": 0.5303879036318974,
-        "confidence": 0.3016594361742255
+        "probability": 0.5304431859009674,
+        "confidence": 0.3017534160316446
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -565,16 +565,16 @@
       "market": {
         "favorite": "Young Ninjas",
         "underdog": "G2 Ares",
-        "teamAProbability": 0.445,
-        "teamBProbability": 0.555,
-        "favoriteProbability": 0.555,
+        "teamAProbability": 0.44,
+        "teamBProbability": 0.56,
+        "favoriteProbability": 0.56,
         "question": "Counter-Strike: G2 Ares vs Young Ninjas (BO3) - European Pro League Series 7 Group C",
         "url": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
-        "liquidity": "2407.0203",
-        "volume": "97.460342",
-        "edgeTeamA": 0.08538790363189735,
-        "edgeTeamB": -0.08538790363189741,
-        "edgePick": 0.08538790363189735,
+        "liquidity": "5981.8235",
+        "volume": "107.586602",
+        "edgeTeamA": 0.0904431859009674,
+        "edgeTeamB": -0.09044318590096745,
+        "edgePick": 0.0904431859009674,
         "disagreement": true
       },
       "history": null
@@ -594,21 +594,21 @@
         "id": "13808",
         "name": "Walczaki",
         "hltvRank": 45,
-        "probability": 0.5162213329351104,
-        "baseProbability": 0.4605764008601642
+        "probability": 0.5162767619297708,
+        "baseProbability": 0.4606578940300623
       },
       "teamB": {
         "id": "13814",
         "name": "INOX Division",
         "hltvRank": 75,
-        "probability": 0.4837786670648896,
-        "baseProbability": 0.5394235991398357
+        "probability": 0.4837232380702292,
+        "baseProbability": 0.5393421059699377
       },
       "pick": {
         "teamId": "13808",
         "name": "Walczaki",
-        "probability": 0.5162213329351104,
-        "confidence": 0.2775762659896877
+        "probability": 0.5162767619297708,
+        "confidence": 0.27767049528061033
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -633,16 +633,16 @@
       "market": {
         "favorite": "Walczaki",
         "underdog": "INOX Division",
-        "teamAProbability": 0.575,
-        "teamBProbability": 0.425,
-        "favoriteProbability": 0.575,
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "favoriteProbability": 0.535,
         "question": "Counter-Strike: Walczaki vs INOX Division (BO3) - NODWIN Clutch Series Group Stage",
         "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
-        "liquidity": "1132.9392",
-        "volume": "19.647492",
-        "edgeTeamA": -0.058778667064889545,
-        "edgeTeamB": 0.0587786670648896,
-        "edgePick": -0.058778667064889545,
+        "liquidity": "1716.7708",
+        "volume": "136.26173400000002",
+        "edgeTeamA": -0.018723238070229242,
+        "edgeTeamB": 0.018723238070229187,
+        "edgePick": -0.018723238070229242,
         "disagreement": false
       },
       "history": null
@@ -662,21 +662,21 @@
         "id": "13501",
         "name": "illwill",
         "hltvRank": 64,
-        "probability": 0.534246163724925,
-        "baseProbability": 0.4872059955943899
+        "probability": 0.5343013906022651,
+        "baseProbability": 0.48728794416609245
       },
       "teamB": {
         "id": "12889",
         "name": "G2 Ares",
         "hltvRank": 88,
-        "probability": 0.46575383627507505,
-        "baseProbability": 0.5127940044056101
+        "probability": 0.4656986093977349,
+        "baseProbability": 0.5127120558339076
       },
       "pick": {
         "teamId": "13501",
         "name": "illwill",
-        "probability": 0.534246163724925,
-        "confidence": 0.3082184783323724
+        "probability": 0.5343013906022651,
+        "confidence": 0.3083123640238507
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -701,16 +701,16 @@
       "market": {
         "favorite": "illwill",
         "underdog": "G2 Ares",
-        "teamAProbability": 0.59,
-        "teamBProbability": 0.41,
-        "favoriteProbability": 0.59,
+        "teamAProbability": 0.61,
+        "teamBProbability": 0.39,
+        "favoriteProbability": 0.61,
         "question": "Counter-Strike: illwill vs G2 Ares (BO3) - CCT Europe Series 4 Group Stage",
         "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
-        "liquidity": "2685.2662",
-        "volume": "35.984854",
-        "edgeTeamA": -0.05575383627507502,
-        "edgeTeamB": 0.055753836275075075,
-        "edgePick": -0.05575383627507502,
+        "liquidity": "3071.9087",
+        "volume": "114.51632",
+        "edgeTeamA": -0.07569860939773487,
+        "edgeTeamB": 0.07569860939773487,
+        "edgePick": -0.07569860939773487,
         "disagreement": false
       },
       "history": null
@@ -730,21 +730,21 @@
         "id": "13314",
         "name": "KOLESIE",
         "hltvRank": 86,
-        "probability": 0.519853413497723,
-        "baseProbability": 0.4659219722810407
+        "probability": 0.5199088133705607,
+        "baseProbability": 0.4660035941924073
       },
       "teamB": {
         "id": "5378",
         "name": "Virtus.pro",
         "hltvRank": 40,
-        "probability": 0.48014658650227704,
-        "baseProbability": 0.5340780277189593
+        "probability": 0.4800911866294393,
+        "baseProbability": 0.5339964058075928
       },
       "pick": {
         "teamId": "13314",
         "name": "KOLESIE",
-        "probability": 0.519853413497723,
-        "confidence": 0.28375080294612903
+        "probability": 0.5199088133705607,
+        "confidence": 0.28384498272995323
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -769,16 +769,16 @@
       "market": {
         "favorite": "Virtus.pro",
         "underdog": "KOLESIE",
-        "teamAProbability": 0.3,
-        "teamBProbability": 0.7,
-        "favoriteProbability": 0.7,
+        "teamAProbability": 0.275,
+        "teamBProbability": 0.725,
+        "favoriteProbability": 0.725,
         "question": "Counter-Strike: KOLESIE vs Virtus.pro (BO3) - European Pro League Series 7 Group D",
         "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11",
-        "liquidity": "2542.9035",
-        "volume": "14.718612",
-        "edgeTeamA": 0.21985341349772297,
-        "edgeTeamB": -0.21985341349772292,
-        "edgePick": 0.21985341349772297,
+        "liquidity": "2554.7186",
+        "volume": "27.718607999999996",
+        "edgeTeamA": 0.2449088133705607,
+        "edgeTeamB": -0.2449088133705607,
+        "edgePick": 0.2449088133705607,
         "disagreement": true
       },
       "history": null
@@ -798,21 +798,21 @@
         "id": "12394",
         "name": "BetBoom",
         "hltvRank": 17,
-        "probability": 0.6244768589433397,
-        "baseProbability": 0.6219129311247156
+        "probability": 0.6245289060979543,
+        "baseProbability": 0.6219900548586771
       },
       "teamB": {
         "id": "11737",
         "name": "EYEBALLERS",
         "hltvRank": 36,
-        "probability": 0.3755231410566603,
-        "baseProbability": 0.3780870688752844
+        "probability": 0.3754710939020457,
+        "baseProbability": 0.3780099451413229
       },
       "pick": {
         "teamId": "12394",
         "name": "BetBoom",
-        "probability": 0.6244768589433397,
-        "confidence": 0.46161066020367747
+        "probability": 0.6245289060979543,
+        "confidence": 0.4616991403665223
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -837,16 +837,16 @@
       "market": {
         "favorite": "BetBoom",
         "underdog": "EYEBALLERS",
-        "teamAProbability": 0.695,
-        "teamBProbability": 0.305,
-        "favoriteProbability": 0.695,
+        "teamAProbability": 0.5,
+        "teamBProbability": 0.5,
+        "favoriteProbability": 0.5,
         "question": "Counter-Strike: BetBoom Team vs EYEBALLERS (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01",
-        "liquidity": "1140.4556",
-        "volume": "7.692304",
-        "edgeTeamA": -0.07052314105666024,
-        "edgeTeamB": 0.0705231410566603,
-        "edgePick": -0.07052314105666024,
+        "liquidity": "12027.8849",
+        "volume": "1422.5585500000002",
+        "edgeTeamA": 0.1245289060979543,
+        "edgeTeamB": -0.1245289060979543,
+        "edgePick": 0.1245289060979543,
         "disagreement": false
       },
       "history": null
@@ -866,21 +866,21 @@
         "id": "11241",
         "name": "B8",
         "hltvRank": 16,
-        "probability": 0.6817210941897309,
-        "baseProbability": 0.7051024426097897
+        "probability": 0.6817692504747797,
+        "baseProbability": 0.705170641632197
       },
       "teamB": {
         "id": "4411",
         "name": "Ninjas in Pyjamas",
         "hltvRank": 23,
-        "probability": 0.3182789058102691,
-        "baseProbability": 0.2948975573902103
+        "probability": 0.31823074952522035,
+        "baseProbability": 0.294829358367803
       },
       "pick": {
         "teamId": "11241",
         "name": "B8",
-        "probability": 0.6817210941897309,
-        "confidence": 0.5589258601225426
+        "probability": 0.6817692504747797,
+        "confidence": 0.5590077258071253
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -920,21 +920,21 @@
         "id": "9996",
         "name": "9z",
         "hltvRank": 15,
-        "probability": 0.6546450755901524,
-        "baseProbability": 0.6662258442002856
+        "probability": 0.6546952534987279,
+        "baseProbability": 0.6662987789462292
       },
       "teamB": {
         "id": "13355",
         "name": "Nemesis",
         "hltvRank": 34,
-        "probability": 0.3453549244098476,
-        "baseProbability": 0.33377415579971437
+        "probability": 0.3453047465012721,
+        "baseProbability": 0.33370122105377076
       },
       "pick": {
         "teamId": "9996",
         "name": "9z",
-        "probability": 0.6546450755901524,
-        "confidence": 0.512896628503259
+        "probability": 0.6546952534987279,
+        "confidence": 0.5129819309478374
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -959,16 +959,16 @@
       "market": {
         "favorite": "9z",
         "underdog": "Nemesis",
-        "teamAProbability": 0.6,
-        "teamBProbability": 0.4,
-        "favoriteProbability": 0.6,
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "favoriteProbability": 0.505,
         "question": "Counter-Strike: 9z vs Team Nemesis (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01",
-        "liquidity": "869.9474",
-        "volume": "406.162313",
-        "edgeTeamA": 0.054645075590152414,
-        "edgeTeamB": -0.054645075590152414,
-        "edgePick": 0.054645075590152414,
+        "liquidity": "10056.5807",
+        "volume": "799.733096",
+        "edgeTeamA": 0.14969525349872792,
+        "edgeTeamB": -0.14969525349872792,
+        "edgePick": 0.14969525349872792,
         "disagreement": false
       },
       "history": null
@@ -988,21 +988,21 @@
         "id": "4914",
         "name": "3DMAX",
         "hltvRank": 27,
-        "probability": 0.5755365788483705,
-        "baseProbability": 0.5488493162435478
+        "probability": 0.5755907991408376,
+        "baseProbability": 0.5489305341502655
       },
       "teamB": {
         "id": "12474",
         "name": "Alliance",
         "hltvRank": 30,
-        "probability": 0.4244634211516295,
-        "baseProbability": 0.4511506837564522
+        "probability": 0.42440920085916245,
+        "baseProbability": 0.4510694658497345
       },
       "pick": {
         "teamId": "4914",
         "name": "3DMAX",
-        "probability": 0.5755365788483705,
-        "confidence": 0.37841218404222987
+        "probability": 0.5755907991408376,
+        "confidence": 0.3785043585394238
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1027,16 +1027,16 @@
       "market": {
         "favorite": "3DMAX",
         "underdog": "Alliance",
-        "teamAProbability": 0.545,
-        "teamBProbability": 0.455,
-        "favoriteProbability": 0.545,
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "favoriteProbability": 0.505,
         "question": "Counter-Strike: 3DMAX vs Alliance (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01",
-        "liquidity": "930.3788",
-        "volume": "377.261723",
-        "edgeTeamA": 0.030536578848370466,
-        "edgeTeamB": -0.03053657884837052,
-        "edgePick": 0.030536578848370466,
+        "liquidity": "12027.71",
+        "volume": "409.210874",
+        "edgeTeamA": 0.07059079914083755,
+        "edgeTeamB": -0.07059079914083755,
+        "edgePick": 0.07059079914083755,
         "disagreement": false
       },
       "history": null
@@ -1056,21 +1056,21 @@
         "id": "11811",
         "name": "Monte",
         "hltvRank": 21,
-        "probability": 0.5578961738479571,
-        "baseProbability": 0.5224452306012076
+        "probability": 0.5579509167745835,
+        "baseProbability": 0.5225270666705071
       },
       "teamB": {
         "id": "9215",
         "name": "MIBR",
         "hltvRank": 18,
-        "probability": 0.4421038261520429,
-        "baseProbability": 0.4775547693987924
+        "probability": 0.4420490832254165,
+        "baseProbability": 0.4774729333294929
       },
       "pick": {
         "teamId": "11811",
         "name": "Monte",
-        "probability": 0.5578961738479571,
-        "confidence": 0.3484234955415271
+        "probability": 0.5579509167745835,
+        "confidence": 0.348516558516792
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1095,16 +1095,16 @@
       "market": {
         "favorite": "Monte",
         "underdog": "MIBR",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "favoriteProbability": 0.535,
+        "teamAProbability": 0.5,
+        "teamBProbability": 0.5,
+        "favoriteProbability": 0.5,
         "question": "Counter-Strike: Monte vs MIBR (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01",
-        "liquidity": "896.9231",
-        "volume": "536.0778270000001",
-        "edgeTeamA": 0.022896173847957058,
-        "edgeTeamB": -0.022896173847957113,
-        "edgePick": 0.022896173847957058,
+        "liquidity": "10618.9175",
+        "volume": "866.6514670000001",
+        "edgeTeamA": 0.05795091677458353,
+        "edgeTeamB": -0.05795091677458353,
+        "edgePick": 0.05795091677458353,
         "disagreement": false
       },
       "history": null
@@ -1124,21 +1124,21 @@
         "id": "12467",
         "name": "PARIVISION",
         "hltvRank": 14,
-        "probability": 0.5875497472397131,
-        "baseProbability": 0.566842772954384
+        "probability": 0.5876035325544986,
+        "baseProbability": 0.5669233075829658
       },
       "teamB": {
         "id": "7532",
         "name": "BIG",
         "hltvRank": 28,
-        "probability": 0.4124502527602869,
-        "baseProbability": 0.433157227045616
+        "probability": 0.4123964674455014,
+        "baseProbability": 0.43307669241703417
       },
       "pick": {
         "teamId": "12467",
         "name": "PARIVISION",
-        "probability": 0.5875497472397131,
-        "confidence": 0.39883457030751224
+        "probability": 0.5876035325544986,
+        "confidence": 0.3989260053426476
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1163,16 +1163,16 @@
       "market": {
         "favorite": "PARIVISION",
         "underdog": "BIG",
-        "teamAProbability": 0.58,
-        "teamBProbability": 0.42,
-        "favoriteProbability": 0.58,
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "favoriteProbability": 0.505,
         "question": "Counter-Strike: PARIVISION vs BIG (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01",
-        "liquidity": "911.7529",
-        "volume": "78.94341",
-        "edgeTeamA": 0.007549747239713134,
-        "edgeTeamB": -0.007549747239713078,
-        "edgePick": 0.007549747239713134,
+        "liquidity": "10886.0111",
+        "volume": "1305.601685",
+        "edgeTeamA": 0.0826035325544986,
+        "edgeTeamB": -0.0826035325544986,
+        "edgePick": 0.0826035325544986,
         "disagreement": false
       },
       "history": null
@@ -1192,21 +1192,21 @@
         "id": "12468",
         "name": "Legacy",
         "hltvRank": 5,
-        "probability": 0.6660260901414606,
-        "baseProbability": 0.6826891707037076
+        "probability": 0.6660754579348223,
+        "baseProbability": 0.6827602209990326
       },
       "teamB": {
         "id": "12376",
         "name": "M80",
         "hltvRank": 25,
-        "probability": 0.33397390985853936,
-        "baseProbability": 0.3173108292962924
+        "probability": 0.33392454206517774,
+        "baseProbability": 0.31723977900096745
       },
       "pick": {
         "teamId": "12468",
         "name": "Legacy",
-        "probability": 0.6660260901414606,
-        "confidence": 0.532244353240483
+        "probability": 0.6660754579348223,
+        "confidence": 0.5323282784891978
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1231,16 +1231,16 @@
       "market": {
         "favorite": "Legacy",
         "underdog": "M80",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "favoriteProbability": 0.535,
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "favoriteProbability": 0.505,
         "question": "Counter-Strike: Legacy vs M80 (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01",
-        "liquidity": "66759.8158",
-        "volume": "46128.28764899999",
-        "edgeTeamA": 0.1310260901414606,
-        "edgeTeamB": -0.13102609014146066,
-        "edgePick": 0.1310260901414606,
+        "liquidity": "76687.1582",
+        "volume": "86618.850606",
+        "edgeTeamA": 0.16107545793482225,
+        "edgeTeamB": -0.16107545793482225,
+        "edgePick": 0.16107545793482225,
         "disagreement": false
       },
       "history": {
@@ -1265,21 +1265,21 @@
         "id": "6667",
         "name": "FaZe",
         "hltvRank": 22,
-        "probability": 0.6708122567170661,
-        "baseProbability": 0.6895619080071667
+        "probability": 0.6708612666510071,
+        "baseProbability": 0.6896321190249652
       },
       "teamB": {
         "id": "10577",
         "name": "SINNERS",
         "hltvRank": 42,
-        "probability": 0.3291877432829339,
-        "baseProbability": 0.31043809199283334
+        "probability": 0.3291387333489929,
+        "baseProbability": 0.31036788097503476
       },
       "pick": {
         "teamId": "6667",
         "name": "FaZe",
-        "probability": 0.6708122567170661,
-        "confidence": 0.5403808364190124
+        "probability": 0.6708612666510071,
+        "confidence": 0.540464153306712
       },
       "model": {
         "type": "logistic-regression-progressive-curriculum",
@@ -1302,19 +1302,19 @@
         }
       },
       "market": {
-        "favorite": "FaZe",
-        "underdog": "SINNERS",
-        "teamAProbability": 0.62,
-        "teamBProbability": 0.38,
-        "favoriteProbability": 0.62,
+        "favorite": "SINNERS",
+        "underdog": "FaZe",
+        "teamAProbability": 0.495,
+        "teamBProbability": 0.505,
+        "favoriteProbability": 0.505,
         "question": "Counter-Strike: FaZe vs Sinners (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-faze-sin2-2026-07-01",
-        "liquidity": "1230.0354",
-        "volume": "188.535576",
-        "edgeTeamA": 0.05081225671706613,
-        "edgeTeamB": -0.05081225671706613,
-        "edgePick": 0.05081225671706613,
-        "disagreement": false
+        "liquidity": "10890.6794",
+        "volume": "730.402241",
+        "edgeTeamA": 0.1758612666510071,
+        "edgeTeamB": -0.1758612666510071,
+        "edgePick": 0.1758612666510071,
+        "disagreement": true
       },
       "history": null
     }
