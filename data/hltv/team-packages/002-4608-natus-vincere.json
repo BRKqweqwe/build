@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:33:47.145Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "9816": "cache",
+      "14759": "cache",
+      "18987": "cache",
+      "20127": "cache",
+      "22673": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4608",
+    "name": "Natus Vincere",
+    "hltvRank": 2,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Aleksib",
+        "role": "Rifler",
+        "rating": 0.91,
+        "impact": 0.71,
+        "id": "9816",
+        "adr": 61.3,
+        "kast": 0.73
+      },
+      {
+        "name": "iM",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.17,
+        "id": "14759",
+        "adr": 78.5,
+        "kast": 0.745
+      },
+      {
+        "name": "b1t",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.02,
+        "id": "18987",
+        "adr": 76.4,
+        "kast": 0.753
+      },
+      {
+        "name": "w0nderful",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.17,
+        "id": "20127",
+        "adr": 74.1,
+        "kast": 0.765
+      },
+      {
+        "name": "makazze",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.36,
+        "id": "22673",
+        "adr": 83.6,
+        "kast": 0.753
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 42
+  },
+  "lineup": [
+    {
+      "id": "9816",
+      "name": "Aleksib"
+    },
+    {
+      "id": "14759",
+      "name": "iM"
+    },
+    {
+      "id": "18987",
+      "name": "b1t"
+    },
+    {
+      "id": "20127",
+      "name": "w0nderful"
+    },
+    {
+      "id": "22673",
+      "name": "makazze"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

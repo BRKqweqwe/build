@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-06-09T10:01:56.547Z",
+  "source": {
+    "name": "pandascore",
+    "apiBaseUrl": "https://api.pandascore.co",
+    "maxRank": 100,
+    "pages": 3,
+    "perPage": 100,
+    "maxMatches": 80,
+    "rawMatches": 194,
+    "matches": 19,
+    "mergedMatches": 19,
+    "keptExistingMatches": 0,
+    "skipped": {
+      "missingOpponents": 147,
+      "unknownTeams": 28,
+      "rank": 0,
+      "duplicate": 0
+    }
+  },
+  "matches": [
+    {
+      "id": "pandascore-1517512",
+      "pandaScoreId": 1517512,
+      "startTime": "2026-06-09T08:03:21Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "running",
+      "teamAId": "12380",
+      "teamBId": "13617",
+      "teamAName": "CYBERSHOKE",
+      "teamBName": "ex-RUBY",
+      "rawTeamAName": "CYBERSHOKE Esports",
+      "rawTeamBName": "ex-RUBY",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1517513",
+      "pandaScoreId": 1517513,
+      "startTime": "2026-06-09T11:00:00Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "12916",
+      "teamBId": "13237",
+      "teamAName": "Betclic",
+      "teamBName": "AM",
+      "rawTeamAName": "Betclic Apogee Esports",
+      "rawTeamBName": "AM Gaming",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1508713",
+      "pandaScoreId": 1508713,
+      "startTime": "2026-06-09T12:00:00Z",
+      "event": "IEM - Cologne Major - Stage 2",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "11811",
+      "teamBId": "4773",
+      "teamAName": "Monte",
+      "teamBName": "paiN",
+      "rawTeamAName": "Monte",
+      "rawTeamBName": "paiN",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1519565",
+      "pandaScoreId": 1519565,
+      "startTime": "2026-06-09T14:00:00Z",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "5378",
+      "teamBId": "13553",
+      "teamAName": "Virtus.pro",
+      "teamBName": "Oxuji",
+      "rawTeamAName": "Virtus.pro",
+      "rawTeamBName": "Oxuji Esports",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1508714",
+      "pandaScoreId": 1508714,
+      "startTime": "2026-06-09T14:30:00Z",
+      "event": "IEM - Cologne Major - Stage 2",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "4863",
+      "teamBId": "12468",
+      "teamAName": "TYLOO",
+      "teamBName": "Legacy",
+      "rawTeamAName": "TYLOO",
+      "rawTeamBName": "Legacy",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1508715",
+      "pandaScoreId": 1508715,
+      "startTime": "2026-06-09T17:00:00Z",
+      "event": "IEM - Cologne Major - Stage 2",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "7532",
+      "teamBId": "11241",
+      "teamAName": "BIG",
+      "teamBName": "B8",
+      "rawTeamAName": "BIG",
+      "rawTeamBName": "B8",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1517515",
+      "pandaScoreId": 1517515,
+      "startTime": "2026-06-10T08:00:00Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "10459",
+      "teamBId": "13518",
+      "teamAName": "ARCRED",
+      "teamBName": "Acend",
+      "rawTeamAName": "ARCRED",
+      "rawTeamBName": "Acend",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1504761",
+      "pandaScoreId": 1504761,
+      "startTime": "2026-06-10T10:30:00Z",
+      "event": "European Pro League - Series 7 - Group C",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "12889",
+      "teamBId": "10960",
+      "teamAName": "G2 Ares",
+      "teamBName": "Young Ninjas",
+      "rawTeamAName": "G2 Ares",
+      "rawTeamBName": "Young Ninjas",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1517517",
+      "pandaScoreId": 1517517,
+      "startTime": "2026-06-10T14:00:00Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13808",
+      "teamBId": "13814",
+      "teamAName": "Walczaki",
+      "teamBName": "INOX Division",
+      "rawTeamAName": "Walczaki",
+      "rawTeamBName": "INOX Division",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1519570",
+      "pandaScoreId": 1519570,
+      "startTime": "2026-06-10T17:00:00Z",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13501",
+      "teamBId": "12889",
+      "teamAName": "illwill",
+      "teamBName": "G2 Ares",
+      "rawTeamAName": "illwill",
+      "rawTeamBName": "G2 Ares",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1504766",
+      "pandaScoreId": 1504766,
+      "startTime": "2026-06-11T10:30:00Z",
+      "event": "European Pro League - Series 7 - Group D",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13314",
+      "teamBId": "5378",
+      "teamAName": "KOLESIE",
+      "teamBName": "Virtus.pro",
+      "rawTeamAName": "KOLESIE",
+      "rawTeamBName": "Virtus.pro",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526528",
+      "pandaScoreId": 1526528,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "12394",
+      "teamBId": "11737",
+      "teamAName": "BetBoom",
+      "teamBName": "EYEBALLERS",
+      "rawTeamAName": "BetBoom Team",
+      "rawTeamBName": "EYEBALLERS",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526527",
+      "pandaScoreId": 1526527,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "11241",
+      "teamBId": "4411",
+      "teamAName": "B8",
+      "teamBName": "Ninjas in Pyjamas",
+      "rawTeamAName": "B8",
+      "rawTeamBName": "NIP",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526526",
+      "pandaScoreId": 1526526,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "9996",
+      "teamBId": "13355",
+      "teamAName": "9z",
+      "teamBName": "Nemesis",
+      "rawTeamAName": "9z",
+      "rawTeamBName": "Team Nemesis",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526525",
+      "pandaScoreId": 1526525,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "4914",
+      "teamBId": "12474",
+      "teamAName": "3DMAX",
+      "teamBName": "Alliance",
+      "rawTeamAName": "3DMAX",
+      "rawTeamBName": "Alliance",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526524",
+      "pandaScoreId": 1526524,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "11811",
+      "teamBId": "9215",
+      "teamAName": "Monte",
+      "teamBName": "MIBR",
+      "rawTeamAName": "Monte",
+      "rawTeamBName": "MIBR",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526523",
+      "pandaScoreId": 1526523,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "12467",
+      "teamBId": "7532",
+      "teamAName": "PARIVISION",
+      "teamBName": "BIG",
+      "rawTeamAName": "PARIVISION",
+      "rawTeamBName": "BIG",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526522",
+      "pandaScoreId": 1526522,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "12468",
+      "teamBId": "12376",
+      "teamAName": "Legacy",
+      "teamBName": "M80",
+      "rawTeamAName": "Legacy",
+      "rawTeamBName": "M80",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1526521",
+      "pandaScoreId": 1526521,
+      "startTime": "2026-07-01T07:00:00Z",
+      "event": "XSE Pro League - Group Stage",
+      "format": "bo1",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "6667",
+      "teamBId": "10577",
+      "teamAName": "FaZe",
+      "teamBName": "SINNERS",
+      "rawTeamAName": "FaZe",
+      "rawTeamBName": "Sinners",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    }
+  ]
+}

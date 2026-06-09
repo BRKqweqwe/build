@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:54:59.709Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "15662": "cache",
+      "16555": "cache",
+      "16921": "cache",
+      "18510": "cache",
+      "20387": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.805,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 5,
+    "mapCount": 4,
+    "recentMatchCount": 4
+  },
+  "team": {
+    "id": "13644",
+    "name": "TDK",
+    "hltvRank": 71,
+    "elo": 1888,
+    "recentWins": 4,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Ax1Le",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.25,
+        "openingRating": 1.11,
+        "id": "16555",
+        "maps": 85,
+        "rounds": 1801,
+        "kd": 1.16,
+        "openingAttempts": 0.212,
+        "openingSuccess": 0.565,
+        "adr": 83.8,
+        "kast": 0.74
+      },
+      {
+        "name": "ArtFr0st",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.16,
+        "openingRating": 1.15,
+        "id": "21348",
+        "maps": 60,
+        "rounds": 1260,
+        "kd": 1.44,
+        "openingAttempts": 0.17,
+        "openingSuccess": 0.6779999999999999
+      },
+      {
+        "name": "nafany",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.25,
+        "openingRating": 1.18,
+        "id": "16921",
+        "maps": 85,
+        "rounds": 1801,
+        "kd": 1.06,
+        "openingAttempts": 0.262,
+        "openingSuccess": 0.542,
+        "adr": 79.4,
+        "kast": 0.703
+      },
+      {
+        "name": "Xant3r",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 0.93,
+        "openingRating": 0.86,
+        "id": "20387",
+        "maps": 86,
+        "rounds": 1822,
+        "kd": 0.99,
+        "openingAttempts": 0.17,
+        "openingSuccess": 0.419,
+        "adr": 69.5,
+        "kast": 0.737
+      },
+      {
+        "name": "sugaR",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.91,
+        "openingRating": 0.88,
+        "id": "18510",
+        "maps": 85,
+        "rounds": 1801,
+        "kd": 0.96,
+        "openingAttempts": 0.179,
+        "openingSuccess": 0.43,
+        "adr": 67.2,
+        "kast": 0.732
+      }
+    ],
+    "mapWinRates": {
+      "Dust2": 1,
+      "Ancient": 1,
+      "Overpass": 1,
+      "Anubis": 0.5990000000000001
+    },
+    "mapProfiles": {
+      "Dust2": {
+        "winRate": 1,
+        "played": 22,
+        "rating": 1.15
+      },
+      "Ancient": {
+        "winRate": 1,
+        "played": 16,
+        "rating": 1.05
+      },
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 0.5990000000000001,
+        "played": 8,
+        "rating": 1.11
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T14:10:00.000Z",
+        "opponentRank": 40,
+        "opponentElo": 2098,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T14:10:00.000Z",
+        "opponentRank": 40,
+        "opponentElo": 2098,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "hltvRating": 1.08,
+    "mapsPlayed": 54
+  },
+  "lineup": [
+    {
+      "id": "16555",
+      "name": "Ax1Le"
+    },
+    {
+      "id": "16921",
+      "name": "nafany"
+    },
+    {
+      "id": "18510",
+      "name": "sugaR"
+    },
+    {
+      "id": "20387",
+      "name": "Xant3r"
+    },
+    {
+      "id": "15662",
+      "name": "zorte"
+    }
+  ],
+  "mapProfiles": {
+    "Dust2": {
+      "winRate": 1,
+      "played": 22,
+      "rating": 1.15
+    },
+    "Ancient": {
+      "winRate": 1,
+      "played": 16,
+      "rating": 1.05
+    },
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 0.5990000000000001,
+      "played": 8,
+      "rating": 1.11
+    }
+  },
+  "mapWinRates": {
+    "Dust2": 1,
+    "Ancient": 1,
+    "Overpass": 1,
+    "Anubis": 0.5990000000000001
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T14:10:00.000Z",
+      "opponentRank": 40,
+      "opponentElo": 2098,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T14:10:00.000Z",
+      "opponentRank": 40,
+      "opponentElo": 2098,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

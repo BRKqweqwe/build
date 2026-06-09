@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:48.740Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "12092": "cache",
+      "14736": "cache",
+      "14737": "cache",
+      "20394": "cache",
+      "22613": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.762,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 3,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "9996",
+    "name": "9z",
+    "hltvRank": 20,
+    "elo": 2245,
+    "recentWins": 2,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "luchov",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.26,
+        "openingRating": 1.07,
+        "id": "20394",
+        "maps": 75,
+        "rounds": 1588,
+        "kd": 1.13,
+        "openingAttempts": 0.261,
+        "openingSuccess": 0.48100000000000004,
+        "adr": 83.5,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "dgt",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.18,
+        "openingRating": 1.07,
+        "id": "14736",
+        "maps": 75,
+        "rounds": 1588,
+        "kd": 1.2,
+        "openingAttempts": 0.218,
+        "openingSuccess": 0.526,
+        "adr": 79.3,
+        "kast": 0.738
+      },
+      {
+        "name": "HUASOPEEK",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.1,
+        "openingRating": 1.08,
+        "id": "22613",
+        "maps": 75,
+        "rounds": 1588,
+        "kd": 1.09,
+        "openingAttempts": 0.21,
+        "openingSuccess": 0.545,
+        "adr": 73.2,
+        "kast": 0.736
+      },
+      {
+        "name": "meyern",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.85,
+        "openingRating": 1.04,
+        "id": "14737",
+        "maps": 75,
+        "rounds": 1588,
+        "kd": 1.1,
+        "openingAttempts": 0.14400000000000002,
+        "openingSuccess": 0.645,
+        "adr": 62.8,
+        "kast": 0.7340000000000001
+      },
+      {
+        "name": "max",
+        "role": "Rifler",
+        "rating": 0.96,
+        "impact": 0.8,
+        "openingRating": 0.87,
+        "id": "12092",
+        "maps": 75,
+        "rounds": 1588,
+        "kd": 0.89,
+        "openingAttempts": 0.166,
+        "openingSuccess": 0.436,
+        "adr": 64.4,
+        "kast": 0.7190000000000001
+      }
+    ],
+    "mapWinRates": {
+      "Nuke": 1,
+      "Dust2": 1,
+      "Inferno": 0.5720000000000001
+    },
+    "mapProfiles": {
+      "Nuke": {
+        "winRate": 1,
+        "played": 17,
+        "rating": 1.13
+      },
+      "Dust2": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Inferno": {
+        "winRate": 0.5720000000000001,
+        "played": 15,
+        "rating": 1.08
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T15:50:00.000Z",
+        "opponentRank": 12,
+        "opponentElo": 2273,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T10:30:00.000Z",
+        "opponentRank": 81,
+        "opponentElo": 1790,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "hltvRating": 1.08,
+    "mapsPlayed": 43
+  },
+  "lineup": [
+    {
+      "id": "12092",
+      "name": "max"
+    },
+    {
+      "id": "14736",
+      "name": "dgt"
+    },
+    {
+      "id": "14737",
+      "name": "meyern"
+    },
+    {
+      "id": "20394",
+      "name": "luchov"
+    },
+    {
+      "id": "22613",
+      "name": "HUASOPEEK"
+    }
+  ],
+  "mapProfiles": {
+    "Nuke": {
+      "winRate": 1,
+      "played": 17,
+      "rating": 1.13
+    },
+    "Dust2": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Inferno": {
+      "winRate": 0.5720000000000001,
+      "played": 15,
+      "rating": 1.08
+    }
+  },
+  "mapWinRates": {
+    "Nuke": 1,
+    "Dust2": 1,
+    "Inferno": 0.5720000000000001
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T15:50:00.000Z",
+      "opponentRank": 12,
+      "opponentElo": 2273,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T10:30:00.000Z",
+      "opponentRank": 81,
+      "opponentElo": 1790,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

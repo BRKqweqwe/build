@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T10:45:46.657Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "2213": "cache",
+      "21492": "cache",
+      "21705": "cache",
+      "23458": "cache",
+      "24316": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13574",
+    "name": "Club 333",
+    "hltvRank": 100,
+    "elo": 1657,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "SecretAgent",
+        "role": "Rifler",
+        "rating": 0.74,
+        "impact": 0.55,
+        "id": "2213",
+        "adr": 50.1,
+        "kast": 0.665
+      },
+      {
+        "name": "Marro",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 0.97,
+        "id": "21492",
+        "adr": 75.7,
+        "kast": 0.7609999999999999
+      },
+      {
+        "name": "N2o",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 1.28,
+        "id": "21705",
+        "adr": 77.9,
+        "kast": 0.672
+      },
+      {
+        "name": "laxiee",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.36,
+        "id": "23458",
+        "adr": 86.1,
+        "kast": 0.727
+      },
+      {
+        "name": "whisper",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.06,
+        "id": "24316",
+        "adr": 72.9,
+        "kast": 0.72
+      }
+    ],
+    "mapWinRates": {},
+    "recentMatches": [],
+    "mapProfiles": {},
+    "mapsPlayed": 4
+  },
+  "lineup": [
+    {
+      "id": "2213",
+      "name": "SecretAgent"
+    },
+    {
+      "id": "21492",
+      "name": "Marro"
+    },
+    {
+      "id": "21705",
+      "name": "N2o"
+    },
+    {
+      "id": "23458",
+      "name": "laxiee"
+    },
+    {
+      "id": "24316",
+      "name": "whisper"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

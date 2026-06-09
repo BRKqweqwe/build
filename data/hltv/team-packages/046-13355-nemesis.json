@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:18.330Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "18670": "cache",
+      "20709": "cache",
+      "22536": "cache",
+      "22930": "cache",
+      "23047": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.775,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 5,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13355",
+    "name": "Nemesis",
+    "hltvRank": 46,
+    "elo": 2067,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "r3salt",
+        "role": "Rifler",
+        "rating": 1.17,
+        "impact": 1.17,
+        "openingRating": 1.03,
+        "id": "20709",
+        "maps": 102,
+        "rounds": 2197,
+        "kd": 1.11,
+        "openingAttempts": 0.192,
+        "openingSuccess": 0.532,
+        "adr": 82.9,
+        "kast": 0.738
+      },
+      {
+        "name": "Sdaim",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.11,
+        "openingRating": 1.03,
+        "id": "23047",
+        "maps": 102,
+        "rounds": 2197,
+        "kd": 1.03,
+        "openingAttempts": 0.20600000000000002,
+        "openingSuccess": 0.515,
+        "adr": 77.3,
+        "kast": 0.733
+      },
+      {
+        "name": "mag1k3Y",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.06,
+        "openingRating": 1.17,
+        "id": "22536",
+        "maps": 102,
+        "rounds": 2197,
+        "kd": 1.23,
+        "openingAttempts": 0.17800000000000002,
+        "openingSuccess": 0.6709999999999999,
+        "adr": 68.6,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "tex1y",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.12,
+        "openingRating": 1.06,
+        "id": "22930",
+        "maps": 102,
+        "rounds": 2197,
+        "kd": 1.06,
+        "openingAttempts": 0.231,
+        "openingSuccess": 0.504,
+        "adr": 74.6,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "SELLTER",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.99,
+        "openingRating": 0.96,
+        "id": "18670",
+        "maps": 102,
+        "rounds": 2197,
+        "kd": 0.98,
+        "openingAttempts": 0.191,
+        "openingSuccess": 0.483,
+        "adr": 70.2,
+        "kast": 0.726
+      }
+    ],
+    "mapWinRates": {
+      "Ancient": 0.5630000000000001,
+      "Dust2": 0.5630000000000001,
+      "Inferno": 0.6080000000000001,
+      "Mirage": 0.6080000000000001,
+      "Nuke": 0.5900000000000001
+    },
+    "mapProfiles": {
+      "Ancient": {
+        "winRate": 0.5630000000000001,
+        "played": 22,
+        "rating": 1.07
+      },
+      "Dust2": {
+        "winRate": 0.5630000000000001,
+        "played": 19,
+        "rating": 1.07
+      },
+      "Inferno": {
+        "winRate": 0.6080000000000001,
+        "played": 14,
+        "rating": 1.12
+      },
+      "Mirage": {
+        "winRate": 0.6080000000000001,
+        "played": 16,
+        "rating": 1.12
+      },
+      "Nuke": {
+        "winRate": 0.5900000000000001,
+        "played": 22,
+        "rating": 1.1
+      }
+    },
+    "recentMatches": [],
+    "hltvRating": 1.09,
+    "mapsPlayed": 64
+  },
+  "lineup": [
+    {
+      "id": "18670",
+      "name": "SELLTER"
+    },
+    {
+      "id": "20709",
+      "name": "r3salt"
+    },
+    {
+      "id": "22536",
+      "name": "mag1k3Y"
+    },
+    {
+      "id": "22930",
+      "name": "tex1y"
+    },
+    {
+      "id": "23047",
+      "name": "Sdaim"
+    }
+  ],
+  "mapProfiles": {
+    "Ancient": {
+      "winRate": 0.5630000000000001,
+      "played": 22,
+      "rating": 1.07
+    },
+    "Dust2": {
+      "winRate": 0.5630000000000001,
+      "played": 19,
+      "rating": 1.07
+    },
+    "Inferno": {
+      "winRate": 0.6080000000000001,
+      "played": 14,
+      "rating": 1.12
+    },
+    "Mirage": {
+      "winRate": 0.6080000000000001,
+      "played": 16,
+      "rating": 1.12
+    },
+    "Nuke": {
+      "winRate": 0.5900000000000001,
+      "played": 22,
+      "rating": 1.1
+    }
+  },
+  "mapWinRates": {
+    "Ancient": 0.5630000000000001,
+    "Dust2": 0.5630000000000001,
+    "Inferno": 0.6080000000000001,
+    "Mirage": 0.6080000000000001,
+    "Nuke": 0.5900000000000001
+  },
+  "recentMatches": []
+}

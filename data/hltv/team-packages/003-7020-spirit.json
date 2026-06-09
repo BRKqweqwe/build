@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T16:03:51.703Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16920": "cache",
+      "18317": "cache",
+      "19808": "cache",
+      "20423": "cache",
+      "21167": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.588,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 2,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "7020",
+    "name": "Spirit",
+    "hltvRank": 3,
+    "elo": 2336,
+    "recentWins": 2,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "donk",
+        "role": "Rifler",
+        "rating": 1.43,
+        "impact": 1.67,
+        "id": "21167",
+        "adr": 95.6,
+        "kast": 0.779
+      },
+      {
+        "name": "sh1ro",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.05,
+        "id": "16920",
+        "adr": 73.8,
+        "kast": 0.763
+      },
+      {
+        "name": "tN1R",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.01,
+        "id": "19808",
+        "adr": 73,
+        "kast": 0.733
+      },
+      {
+        "name": "magixx",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.9,
+        "id": "18317",
+        "adr": 69.5,
+        "kast": 0.7440000000000001
+      },
+      {
+        "name": "zont1x",
+        "role": "Rifler",
+        "rating": 0.94,
+        "impact": 0.88,
+        "id": "20423",
+        "adr": 66,
+        "kast": 0.7440000000000001
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 1,
+      "Ancient": 0.6439999999999999
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 1,
+        "played": 2
+      },
+      "Ancient": {
+        "winRate": 0.6439999999999999,
+        "played": 10,
+        "rating": 1.16
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T19:40:00.000Z",
+        "opponentRank": 19,
+        "opponentElo": 2224,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T13:50:00.000Z",
+        "opponentRank": 21,
+        "opponentElo": 2238,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 29
+  },
+  "lineup": [
+    {
+      "id": "16920",
+      "name": "sh1ro"
+    },
+    {
+      "id": "18317",
+      "name": "magixx"
+    },
+    {
+      "id": "19808",
+      "name": "tN1R"
+    },
+    {
+      "id": "20423",
+      "name": "zont1x"
+    },
+    {
+      "id": "21167",
+      "name": "donk"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 1,
+      "played": 2
+    },
+    "Ancient": {
+      "winRate": 0.6439999999999999,
+      "played": 10,
+      "rating": 1.16
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 1,
+    "Ancient": 0.6439999999999999
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T19:40:00.000Z",
+      "opponentRank": 19,
+      "opponentElo": 2224,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T13:50:00.000Z",
+      "opponentRank": 21,
+      "opponentElo": 2238,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

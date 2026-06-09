@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-06-08T13:32:18.758Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/third-prime"
+  },
+  "summary": {
+    "hltvTeamId": "13793",
+    "hltvName": "Third Prime",
+    "bo3TeamId": "23152",
+    "slug": "third-prime",
+    "name": "Third Prime",
+    "rank": null,
+    "rankDiff": null,
+    "sixMonthEarned": null,
+    "currentRosterSize": 0,
+    "currentRosterRatingAvg": null,
+    "currentRosterRatingMin": null,
+    "currentRosterRatingMax": null,
+    "joinTransfers": 0,
+    "leaveTransfers": 0,
+    "transfersSince2025": 0,
+    "lastTransferDate": null,
+    "players": []
+  },
+  "transfers": []
+}

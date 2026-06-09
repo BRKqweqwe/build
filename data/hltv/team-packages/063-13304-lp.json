@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:11.974Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "14010": "cache",
+      "17132": "cache",
+      "20521": "cache",
+      "21284": "cache",
+      "23550": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13304",
+    "name": "LP",
+    "hltvRank": 63,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "zmb",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.19,
+        "id": "14010",
+        "adr": 79.8,
+        "kast": 0.746
+      },
+      {
+        "name": "Leomonster",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 1.11,
+        "id": "17132",
+        "adr": 73.1,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "Alisson",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.16,
+        "id": "20521",
+        "adr": 78.1,
+        "kast": 0.753
+      },
+      {
+        "name": "happ",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.88,
+        "id": "21284",
+        "adr": 67,
+        "kast": 0.735
+      },
+      {
+        "name": "divine",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.93,
+        "id": "23550",
+        "adr": 65.5,
+        "kast": 0.7659999999999999
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 51
+  },
+  "lineup": [
+    {
+      "id": "14010",
+      "name": "zmb"
+    },
+    {
+      "id": "17132",
+      "name": "Leomonster"
+    },
+    {
+      "id": "20521",
+      "name": "Alisson"
+    },
+    {
+      "id": "21284",
+      "name": "happ"
+    },
+    {
+      "id": "23550",
+      "name": "divine"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

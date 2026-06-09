@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:21.158Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7964": "cache",
+      "8374": "cache",
+      "19064": "cache",
+      "20878": "cache",
+      "21139": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "10503",
+    "name": "OG",
+    "hltvRank": 68,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "cadiaN",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.07,
+        "id": "7964",
+        "adr": 71.9,
+        "kast": 0.715
+      },
+      {
+        "name": "bodyy",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 1.09,
+        "id": "8374",
+        "adr": 74.1,
+        "kast": 0.711
+      },
+      {
+        "name": "spooke",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.11,
+        "id": "19064",
+        "adr": 77.2,
+        "kast": 0.736
+      },
+      {
+        "name": "adamb",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.2,
+        "id": "20878",
+        "adr": 78.1,
+        "kast": 0.75
+      },
+      {
+        "name": "pr1metapz",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.86,
+        "id": "21139",
+        "adr": 66.4,
+        "kast": 0.732
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 21
+  },
+  "lineup": [
+    {
+      "id": "7964",
+      "name": "cadiaN"
+    },
+    {
+      "id": "8374",
+      "name": "bodyy"
+    },
+    {
+      "id": "19064",
+      "name": "spooke"
+    },
+    {
+      "id": "20878",
+      "name": "adamb"
+    },
+    {
+      "id": "21139",
+      "name": "pr1metapz"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

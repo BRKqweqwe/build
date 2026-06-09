@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:24.771Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19874": "cache",
+      "22075": "cache",
+      "22076": "cache",
+      "23858": "cache",
+      "24173": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13592",
+    "name": "magic",
+    "hltvRank": 17,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "MaSvAl",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.05,
+        "id": "19874",
+        "adr": 76.5,
+        "kast": 0.733
+      },
+      {
+        "name": "sFade8",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1.11,
+        "id": "22075",
+        "adr": 76.1,
+        "kast": 0.698
+      },
+      {
+        "name": "AW",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.99,
+        "id": "22076",
+        "adr": 72.8,
+        "kast": 0.715
+      },
+      {
+        "name": "mo0N",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.11,
+        "id": "23858",
+        "adr": 73.4,
+        "kast": 0.708
+      },
+      {
+        "name": "tenzy",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.19,
+        "id": "24173",
+        "adr": 76.2,
+        "kast": 0.721
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 44
+  },
+  "lineup": [
+    {
+      "id": "19874",
+      "name": "MaSvAl"
+    },
+    {
+      "id": "22075",
+      "name": "sFade8"
+    },
+    {
+      "id": "22076",
+      "name": "AW"
+    },
+    {
+      "id": "23858",
+      "name": "mo0N"
+    },
+    {
+      "id": "24173",
+      "name": "tenzy"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

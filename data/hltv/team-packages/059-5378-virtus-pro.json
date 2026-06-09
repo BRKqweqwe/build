@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:05.849Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "8789": "cache",
+      "23637": "cache",
+      "24292": "cache",
+      "24950": "cache",
+      "24952": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "5378",
+    "name": "Virtus.pro",
+    "hltvRank": 59,
+    "elo": 1944,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "mir",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 0.98,
+        "id": "8789",
+        "adr": 81.5,
+        "kast": 0.748
+      },
+      {
+        "name": "b1st",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.03,
+        "id": "23637",
+        "adr": 69.2,
+        "kast": 0.73
+      },
+      {
+        "name": "F0R3VER",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.09,
+        "id": "24292",
+        "adr": 75.4,
+        "kast": 0.711
+      },
+      {
+        "name": "AquaRS",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.99,
+        "id": "24950",
+        "adr": 70.8,
+        "kast": 0.695
+      },
+      {
+        "name": "tO0RO",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.05,
+        "id": "24952",
+        "adr": 73.5,
+        "kast": 0.73
+      }
+    ],
+    "mapWinRates": {},
+    "mapProfiles": {},
+    "recentMatches": [],
+    "mapsPlayed": 10
+  },
+  "lineup": [
+    {
+      "id": "8789",
+      "name": "mir"
+    },
+    {
+      "id": "23637",
+      "name": "b1st"
+    },
+    {
+      "id": "24292",
+      "name": "F0R3VER"
+    },
+    {
+      "id": "24950",
+      "name": "AquaRS"
+    },
+    {
+      "id": "24952",
+      "name": "tO0RO"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

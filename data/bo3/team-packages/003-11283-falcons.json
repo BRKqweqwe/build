@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-06-08T13:32:11.990Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/falcons"
+  },
+  "summary": {
+    "hltvTeamId": "11283",
+    "hltvName": "Falcons",
+    "bo3TeamId": "6510",
+    "slug": "falcons",
+    "name": "Falcons",
+    "rank": null,
+    "rankDiff": null,
+    "sixMonthEarned": null,
+    "currentRosterSize": 0,
+    "currentRosterRatingAvg": null,
+    "currentRosterRatingMin": null,
+    "currentRosterRatingMax": null,
+    "joinTransfers": 0,
+    "leaveTransfers": 5,
+    "transfersSince2025": 0,
+    "lastTransferDate": "2023-07-31",
+    "players": []
+  },
+  "transfers": [
+    {
+      "id": 42843,
+      "actionDate": "2023-06-06",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 42155,
+      "playerName": "circu",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/Falcons/status/1666014868619640833"
+    },
+    {
+      "id": 42844,
+      "actionDate": "2023-06-06",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 43906,
+      "playerName": "eXerZ",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/Falcons/status/1666014868619640833"
+    },
+    {
+      "id": 41892,
+      "actionDate": "2023-07-31",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 43125,
+      "playerName": "Guardy",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/Falcons/status/1685956289040449536"
+    },
+    {
+      "id": 41893,
+      "actionDate": "2023-07-31",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 44976,
+      "playerName": "KILLDREAM",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/Falcons/status/1685956289040449536"
+    },
+    {
+      "id": 41894,
+      "actionDate": "2023-07-31",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 43558,
+      "playerName": "synsi",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/Falcons/status/1685956289040449536"
+    },
+    {
+      "id": 226218,
+      "actionDate": "2023-07-31",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 42153,
+      "playerName": "xikii",
+      "isCoach": true,
+      "sourceUrl": null
+    },
+    {
+      "id": 226362,
+      "actionDate": "2023-07-31",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6510,
+      "teamFromName": "Falcons",
+      "playerId": 44899,
+      "playerName": "meisoN",
+      "isCoach": true,
+      "sourceUrl": null
+    }
+  ]
+}

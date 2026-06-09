@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:55.045Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "922": "cache",
+      "10994": "cache",
+      "14148": "cache",
+      "23372": "cache",
+      "24283": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.615,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 4,
+    "mapCount": 3,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4411",
+    "name": "Ninjas in Pyjamas",
+    "hltvRank": 23,
+    "elo": 2196,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "xKacpersky",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.22,
+        "id": "23372",
+        "openingRating": 1.06,
+        "maps": 52,
+        "rounds": 1121,
+        "kd": 1.07,
+        "openingAttempts": 0.248,
+        "openingSuccess": 0.486,
+        "adr": 83.8,
+        "kast": 0.723
+      },
+      {
+        "name": "sjuush",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.02,
+        "id": "14148",
+        "openingRating": 0.98,
+        "maps": 52,
+        "rounds": 1121,
+        "kd": 1.03,
+        "openingAttempts": 0.20199999999999999,
+        "openingSuccess": 0.48700000000000004,
+        "adr": 68.6,
+        "kast": 0.706
+      },
+      {
+        "name": "cairne",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.05,
+        "id": "24283",
+        "openingRating": 1.01,
+        "maps": 52,
+        "rounds": 1121,
+        "kd": 1,
+        "openingAttempts": 0.192,
+        "openingSuccess": 0.516,
+        "adr": 73.5,
+        "kast": 0.71
+      },
+      {
+        "name": "stavn",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.19,
+        "id": "10994",
+        "adr": 76.2,
+        "kast": 0.7290000000000001
+      },
+      {
+        "name": "Snappi",
+        "role": "Rifler",
+        "rating": 0.89,
+        "impact": 0.8,
+        "id": "922",
+        "openingRating": 0.89,
+        "maps": 52,
+        "rounds": 1121,
+        "kd": 0.85,
+        "openingAttempts": 0.17300000000000001,
+        "openingSuccess": 0.44299999999999995,
+        "adr": 62.9,
+        "kast": 0.674
+      }
+    ],
+    "mapWinRates": {
+      "Ancient": 0.536,
+      "Anubis": 0.518,
+      "Nuke": 0.6529999999999999
+    },
+    "mapProfiles": {
+      "Ancient": {
+        "winRate": 0.536,
+        "played": 12,
+        "rating": 1.04
+      },
+      "Anubis": {
+        "winRate": 0.518,
+        "played": 6,
+        "rating": 1.02
+      },
+      "Nuke": {
+        "winRate": 0.6529999999999999,
+        "played": 14,
+        "rating": 1.17
+      }
+    },
+    "recentMatches": [],
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "922",
+      "name": "Snappi"
+    },
+    {
+      "id": "10994",
+      "name": "stavn"
+    },
+    {
+      "id": "14148",
+      "name": "sjuush"
+    },
+    {
+      "id": "23372",
+      "name": "xKacpersky"
+    },
+    {
+      "id": "24283",
+      "name": "cairne"
+    }
+  ],
+  "mapProfiles": {
+    "Ancient": {
+      "winRate": 0.536,
+      "played": 12,
+      "rating": 1.04
+    },
+    "Anubis": {
+      "winRate": 0.518,
+      "played": 6,
+      "rating": 1.02
+    },
+    "Nuke": {
+      "winRate": 0.6529999999999999,
+      "played": 14,
+      "rating": 1.17
+    }
+  },
+  "mapWinRates": {
+    "Ancient": 0.536,
+    "Anubis": 0.518,
+    "Nuke": 0.6529999999999999
+  },
+  "recentMatches": []
+}

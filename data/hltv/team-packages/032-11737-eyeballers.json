@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:10.004Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "3849": "cache",
+      "20879": "cache",
+      "21012": "cache",
+      "21159": "cache",
+      "22914": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.55,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "11737",
+    "name": "EYEBALLERS",
+    "hltvRank": 32,
+    "elo": 2133,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "maxster",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.02,
+        "openingRating": 0.92,
+        "id": "20879",
+        "maps": 50,
+        "rounds": 1052,
+        "kd": 1.19,
+        "openingAttempts": 0.146,
+        "openingSuccess": 0.513,
+        "adr": 75.7,
+        "kast": 0.732
+      },
+      {
+        "name": "Ro1f",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 0.99,
+        "openingRating": 0.97,
+        "id": "21012",
+        "maps": 49,
+        "rounds": 1031,
+        "kd": 1,
+        "openingAttempts": 0.172,
+        "openingSuccess": 0.514,
+        "adr": 72.3,
+        "kast": 0.723
+      },
+      {
+        "name": "bobeksde",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.22,
+        "openingRating": 1.12,
+        "id": "21159",
+        "maps": 50,
+        "rounds": 1052,
+        "kd": 0.97,
+        "openingAttempts": 0.298,
+        "openingSuccess": 0.478,
+        "adr": 78.4,
+        "kast": 0.665
+      },
+      {
+        "name": "JW",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 0.99,
+        "openingRating": 1.03,
+        "id": "3849",
+        "maps": 50,
+        "rounds": 1052,
+        "kd": 0.99,
+        "openingAttempts": 0.20199999999999999,
+        "openingSuccess": 0.521,
+        "adr": 69.6,
+        "kast": 0.7020000000000001
+      },
+      {
+        "name": "dex",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.95,
+        "openingRating": 0.89,
+        "id": "22914",
+        "maps": 50,
+        "rounds": 1052,
+        "kd": 0.91,
+        "openingAttempts": 0.18100000000000002,
+        "openingSuccess": 0.43200000000000005,
+        "adr": 71.1,
+        "kast": 0.6920000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapProfiles": {},
+    "recentMatches": [],
+    "mapsPlayed": 29
+  },
+  "lineup": [
+    {
+      "id": "3849",
+      "name": "JW"
+    },
+    {
+      "id": "20879",
+      "name": "maxster"
+    },
+    {
+      "id": "21012",
+      "name": "Ro1f"
+    },
+    {
+      "id": "21159",
+      "name": "bobeksde"
+    },
+    {
+      "id": "22914",
+      "name": "dex"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:32.151Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "22267": "cache",
+      "22794": "cache",
+      "22835": "cache",
+      "24527": "cache",
+      "24679": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.59,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 4,
+    "mapCount": 2,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13107",
+    "name": "Chicken Coop",
+    "hltvRank": 76,
+    "elo": 1825,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Drop",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.21,
+        "id": "22794",
+        "openingRating": 1.04,
+        "maps": 49,
+        "rounds": 994,
+        "kd": 1.04,
+        "openingAttempts": 0.251,
+        "openingSuccess": 0.474,
+        "adr": 82.9,
+        "kast": 0.722
+      },
+      {
+        "name": "REKMEISTER",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.13,
+        "id": "22835",
+        "openingRating": 1.02,
+        "maps": 49,
+        "rounds": 994,
+        "kd": 1.05,
+        "openingAttempts": 0.204,
+        "openingSuccess": 0.507,
+        "adr": 80.7,
+        "kast": 0.733
+      },
+      {
+        "name": "Crisp",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 0.94,
+        "id": "24679",
+        "openingRating": 1,
+        "maps": 49,
+        "rounds": 994,
+        "kd": 1.03,
+        "openingAttempts": 0.17800000000000002,
+        "openingSuccess": 0.531,
+        "adr": 70.6,
+        "kast": 0.72
+      },
+      {
+        "name": "jared",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.96,
+        "id": "24527",
+        "openingRating": 0.93,
+        "maps": 45,
+        "rounds": 901,
+        "kd": 1.01,
+        "openingAttempts": 0.154,
+        "openingSuccess": 0.504,
+        "adr": 71.2,
+        "kast": 0.6990000000000001
+      },
+      {
+        "name": "mds",
+        "role": "Rifler",
+        "rating": 0.94,
+        "impact": 1,
+        "id": "22267",
+        "adr": 70.6,
+        "kast": 0.688
+      }
+    ],
+    "mapWinRates": {
+      "Inferno": 0.5720000000000001,
+      "Nuke": 0.527
+    },
+    "mapProfiles": {
+      "Inferno": {
+        "winRate": 0.5720000000000001,
+        "played": 10,
+        "rating": 1.08
+      },
+      "Nuke": {
+        "winRate": 0.527,
+        "played": 13,
+        "rating": 1.03
+      }
+    },
+    "recentMatches": [],
+    "mapsPlayed": 27
+  },
+  "lineup": [
+    {
+      "id": "22267",
+      "name": "mds"
+    },
+    {
+      "id": "22794",
+      "name": "Drop"
+    },
+    {
+      "id": "22835",
+      "name": "REKMEISTER"
+    },
+    {
+      "id": "24527",
+      "name": "jared"
+    },
+    {
+      "id": "24679",
+      "name": "Crisp"
+    }
+  ],
+  "mapProfiles": {
+    "Inferno": {
+      "winRate": 0.5720000000000001,
+      "played": 10,
+      "rating": 1.08
+    },
+    "Nuke": {
+      "winRate": 0.527,
+      "played": 13,
+      "rating": 1.03
+    }
+  },
+  "mapWinRates": {
+    "Inferno": 0.5720000000000001,
+    "Nuke": 0.527
+  },
+  "recentMatches": []
+}

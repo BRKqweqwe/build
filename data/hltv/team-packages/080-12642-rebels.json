@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:47.025Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "11205": "cache",
+      "16102": "cache",
+      "17003": "cache",
+      "20683": "cache",
+      "23237": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12642",
+    "name": "Rebels",
+    "hltvRank": 80,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "stadodo",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.97,
+        "id": "11205",
+        "adr": 68.9,
+        "kast": 0.716
+      },
+      {
+        "name": "NOPEEj",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.88,
+        "id": "16102",
+        "adr": 71.2,
+        "kast": 0.73
+      },
+      {
+        "name": "snapy",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 1.1,
+        "id": "17003",
+        "adr": 71.5,
+        "kast": 0.659
+      },
+      {
+        "name": "Icarus",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.93,
+        "id": "20683",
+        "adr": 70.4,
+        "kast": 0.706
+      },
+      {
+        "name": "TMKj",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.03,
+        "id": "23237",
+        "adr": 74.6,
+        "kast": 0.72
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 44
+  },
+  "lineup": [
+    {
+      "id": "11205",
+      "name": "stadodo"
+    },
+    {
+      "id": "16102",
+      "name": "NOPEEj"
+    },
+    {
+      "id": "17003",
+      "name": "snapy"
+    },
+    {
+      "id": "20683",
+      "name": "Icarus"
+    },
+    {
+      "id": "23237",
+      "name": "TMKj"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

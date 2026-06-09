@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:12.329Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16612": "cache",
+      "18752": "cache",
+      "21385": "cache",
+      "22535": "cache",
+      "24806": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "11581",
+    "name": "HOTU",
+    "hltvRank": 36,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "n0rb3r7",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.14,
+        "id": "16612",
+        "adr": 79.5,
+        "kast": 0.691
+      },
+      {
+        "name": "kade0",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.11,
+        "id": "18752",
+        "adr": 77.4,
+        "kast": 0.7090000000000001
+      },
+      {
+        "name": "mizu",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.11,
+        "id": "21385",
+        "adr": 77.6,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "dwushka",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.19,
+        "id": "22535",
+        "adr": 80.2,
+        "kast": 0.72
+      },
+      {
+        "name": "frontales",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 0.95,
+        "id": "24806",
+        "adr": 67.1,
+        "kast": 0.715
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 36
+  },
+  "lineup": [
+    {
+      "id": "16612",
+      "name": "n0rb3r7"
+    },
+    {
+      "id": "18752",
+      "name": "kade0"
+    },
+    {
+      "id": "21385",
+      "name": "mizu"
+    },
+    {
+      "id": "22535",
+      "name": "dwushka"
+    },
+    {
+      "id": "24806",
+      "name": "frontales"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

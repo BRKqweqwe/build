@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:41.694Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20112": "cache",
+      "21708": "cache",
+      "22842": "cache",
+      "23643": "cache",
+      "25619": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.8,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 3,
+    "recentMatchCount": 4
+  },
+  "team": {
+    "id": "11241",
+    "name": "B8",
+    "hltvRank": 16,
+    "elo": 2256,
+    "recentWins": 2,
+    "recentLosses": 2,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "npl",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.21,
+        "openingRating": 1.06,
+        "id": "21708",
+        "maps": 76,
+        "rounds": 1646,
+        "kd": 1.09,
+        "openingAttempts": 0.21899999999999997,
+        "openingSuccess": 0.522,
+        "adr": 79.9,
+        "kast": 0.7090000000000001
+      },
+      {
+        "name": "kensizor",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.14,
+        "openingRating": 1.02,
+        "id": "22842",
+        "maps": 76,
+        "rounds": 1646,
+        "kd": 0.96,
+        "openingAttempts": 0.24100000000000002,
+        "openingSuccess": 0.469,
+        "adr": 77.6,
+        "kast": 0.7140000000000001
+      },
+      {
+        "name": "esenthial",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.9,
+        "openingRating": 0.91,
+        "id": "23643",
+        "maps": 76,
+        "rounds": 1646,
+        "kd": 1.01,
+        "openingAttempts": 0.157,
+        "openingSuccess": 0.479,
+        "adr": 68.3,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "alex666",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.9,
+        "openingRating": 0.87,
+        "id": "20112",
+        "maps": 76,
+        "rounds": 1646,
+        "kd": 0.93,
+        "openingAttempts": 0.174,
+        "openingSuccess": 0.425,
+        "adr": 68.3,
+        "kast": 0.721
+      },
+      {
+        "name": "s1zzi",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 1.01,
+        "openingRating": 1.14,
+        "id": "25619",
+        "maps": 76,
+        "rounds": 1646,
+        "kd": 1.02,
+        "openingAttempts": 0.207,
+        "openingSuccess": 0.5920000000000001,
+        "adr": 67.5,
+        "kast": 0.7
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 0,
+      "Ancient": 0.5,
+      "Inferno": 1
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 0,
+        "played": 20,
+        "rating": 1.1
+      },
+      "Ancient": {
+        "winRate": 0.5,
+        "played": 19,
+        "rating": 1.07
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 10,
+        "rating": 0.95
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T19:15:00.000Z",
+        "opponentRank": 28,
+        "opponentElo": 2186,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T11:30:00.000Z",
+        "opponentRank": 13,
+        "opponentElo": 2266,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T17:00:00.000Z",
+        "opponentRank": 28,
+        "opponentElo": 2186,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T17:00:00.000Z",
+        "opponentRank": 28,
+        "opponentElo": 2186,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "hltvRating": 1.03,
+    "mapsPlayed": 40
+  },
+  "lineup": [
+    {
+      "id": "20112",
+      "name": "alex666"
+    },
+    {
+      "id": "21708",
+      "name": "npl"
+    },
+    {
+      "id": "22842",
+      "name": "kensizor"
+    },
+    {
+      "id": "23643",
+      "name": "esenthial"
+    },
+    {
+      "id": "25619",
+      "name": "s1zzi"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 0,
+      "played": 20,
+      "rating": 1.1
+    },
+    "Ancient": {
+      "winRate": 0.5,
+      "played": 19,
+      "rating": 1.07
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 10,
+      "rating": 0.95
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 0,
+    "Ancient": 0.5,
+    "Inferno": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T19:15:00.000Z",
+      "opponentRank": 28,
+      "opponentElo": 2186,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T11:30:00.000Z",
+      "opponentRank": 13,
+      "opponentElo": 2266,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T17:00:00.000Z",
+      "opponentRank": 28,
+      "opponentElo": 2186,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T17:00:00.000Z",
+      "opponentRank": 28,
+      "opponentElo": 2186,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

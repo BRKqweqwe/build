@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:51.326Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19187": "cache",
+      "20119": "cache",
+      "21163": "cache",
+      "21983": "cache",
+      "22047": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "7175",
+    "name": "HEROIC",
+    "hltvRank": 27,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "xfl0ud",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.05,
+        "id": "19187",
+        "adr": 76.7,
+        "kast": 0.7
+      },
+      {
+        "name": "nilo",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.17,
+        "id": "20119",
+        "adr": 80.2,
+        "kast": 0.718
+      },
+      {
+        "name": "susp",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.89,
+        "id": "21163",
+        "adr": 67.4,
+        "kast": 0.725
+      },
+      {
+        "name": "Chr1zN",
+        "role": "Rifler",
+        "rating": 0.93,
+        "impact": 0.92,
+        "id": "21983",
+        "adr": 65.8,
+        "kast": 0.6709999999999999
+      },
+      {
+        "name": "yxngstxr",
+        "role": "Rifler",
+        "rating": 0.96,
+        "impact": 0.86,
+        "id": "22047",
+        "adr": 65.6,
+        "kast": 0.7120000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 21
+  },
+  "lineup": [
+    {
+      "id": "19187",
+      "name": "xfl0ud"
+    },
+    {
+      "id": "20119",
+      "name": "nilo"
+    },
+    {
+      "id": "21163",
+      "name": "susp"
+    },
+    {
+      "id": "21983",
+      "name": "Chr1zN"
+    },
+    {
+      "id": "22047",
+      "name": "yxngstxr"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

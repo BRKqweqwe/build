@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:22.880Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "9115": "cache",
+      "10588": "cache",
+      "11139": "cache",
+      "18545": "cache",
+      "20527": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13486",
+    "name": "THUNDER dOWNUNDER",
+    "hltvRank": 69,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "dexter",
+        "role": "Rifler",
+        "rating": 0.96,
+        "impact": 1.18,
+        "id": "9115",
+        "adr": 76,
+        "kast": 0.6779999999999999
+      },
+      {
+        "name": "Liazz",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 0.97,
+        "id": "10588",
+        "adr": 73.8,
+        "kast": 0.748
+      },
+      {
+        "name": "aliStair",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.2,
+        "id": "11139",
+        "adr": 74.1,
+        "kast": 0.7390000000000001
+      },
+      {
+        "name": "asap",
+        "role": "Rifler",
+        "rating": 1.24,
+        "impact": 1.18,
+        "id": "18545",
+        "adr": 82.9,
+        "kast": 0.757
+      },
+      {
+        "name": "TjP",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.99,
+        "id": "20527",
+        "adr": 71.1,
+        "kast": 0.711
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 36
+  },
+  "lineup": [
+    {
+      "id": "9115",
+      "name": "dexter"
+    },
+    {
+      "id": "10588",
+      "name": "Liazz"
+    },
+    {
+      "id": "11139",
+      "name": "aliStair"
+    },
+    {
+      "id": "18545",
+      "name": "asap"
+    },
+    {
+      "id": "20527",
+      "name": "TjP"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:03.490Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7150": "cache",
+      "8891": "cache",
+      "9031": "missing",
+      "13749": "cache",
+      "16731": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.44,
+    "playersWithAdr": 2,
+    "playersWithKast": 2,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4602",
+    "name": "Tricked",
+    "hltvRank": 58,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Rejin",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "7150"
+      },
+      {
+        "name": "IceBerg",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.99,
+        "id": "16731",
+        "adr": 68.8,
+        "kast": 0.679
+      },
+      {
+        "name": "Nodios",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "8891"
+      },
+      {
+        "name": "Queenix",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.93,
+        "id": "13749",
+        "adr": 68.9,
+        "kast": 0.723
+      },
+      {
+        "name": "valde",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "9031"
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 43
+  },
+  "lineup": [
+    {
+      "id": "7150",
+      "name": "Rejin"
+    },
+    {
+      "id": "16731",
+      "name": "IceBerg"
+    },
+    {
+      "id": "8891",
+      "name": "Nodios"
+    },
+    {
+      "id": "13749",
+      "name": "Queenix"
+    },
+    {
+      "id": "9031",
+      "name": "valde"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

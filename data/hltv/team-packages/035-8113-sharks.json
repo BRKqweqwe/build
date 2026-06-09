@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:10.395Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20558": "cache",
+      "21170": "cache",
+      "21221": "cache",
+      "21921": "cache",
+      "22911": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "8113",
+    "name": "Sharks",
+    "hltvRank": 35,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "gafolo",
+        "role": "Rifler",
+        "rating": 0.89,
+        "impact": 0.78,
+        "id": "20558",
+        "adr": 60.8,
+        "kast": 0.7120000000000001
+      },
+      {
+        "name": "koala",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.12,
+        "id": "21170",
+        "adr": 77.7,
+        "kast": 0.718
+      },
+      {
+        "name": "maxxkor",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.8,
+        "id": "21221",
+        "adr": 66.8,
+        "kast": 0.716
+      },
+      {
+        "name": "rdnzao",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1.05,
+        "id": "21921",
+        "adr": 74.2,
+        "kast": 0.711
+      },
+      {
+        "name": "doc",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.16,
+        "id": "22911",
+        "adr": 77.1,
+        "kast": 0.74
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 19
+  },
+  "lineup": [
+    {
+      "id": "20558",
+      "name": "gafolo"
+    },
+    {
+      "id": "21170",
+      "name": "koala"
+    },
+    {
+      "id": "21221",
+      "name": "maxxkor"
+    },
+    {
+      "id": "21921",
+      "name": "rdnzao"
+    },
+    {
+      "id": "22911",
+      "name": "doc"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

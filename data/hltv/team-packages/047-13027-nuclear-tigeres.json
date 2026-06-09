@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:20.259Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "22878": "cache",
+      "22880": "cache",
+      "23762": "cache",
+      "24568": "cache",
+      "25807": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.85,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 5,
+    "recentMatchCount": 4
+  },
+  "team": {
+    "id": "13027",
+    "name": "Nuclear TigeRES",
+    "hltvRank": 47,
+    "elo": 2060,
+    "recentWins": 4,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "flouzer",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.33,
+        "openingRating": 1.12,
+        "id": "24568",
+        "maps": 76,
+        "rounds": 1711,
+        "kd": 1.13,
+        "openingAttempts": 0.27899999999999997,
+        "openingSuccess": 0.493,
+        "adr": 84.3,
+        "kast": 0.738
+      },
+      {
+        "name": "m1QUSE",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.02,
+        "openingRating": 1.02,
+        "id": "22880",
+        "maps": 76,
+        "rounds": 1711,
+        "kd": 1.05,
+        "openingAttempts": 0.161,
+        "openingSuccess": 0.5760000000000001,
+        "adr": 77.2,
+        "kast": 0.76
+      },
+      {
+        "name": "ayuki",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 0.95,
+        "openingRating": 0.9,
+        "id": "25807",
+        "maps": 76,
+        "rounds": 1711,
+        "kd": 1.09,
+        "openingAttempts": 0.147,
+        "openingSuccess": 0.49200000000000005,
+        "adr": 71.9,
+        "kast": 0.758
+      },
+      {
+        "name": "z1k4",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.11,
+        "openingRating": 1.16,
+        "id": "23762",
+        "maps": 76,
+        "rounds": 1711,
+        "kd": 1.21,
+        "openingAttempts": 0.198,
+        "openingSuccess": 0.625,
+        "adr": 73.8,
+        "kast": 0.733
+      },
+      {
+        "name": "senka",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.91,
+        "openingRating": 0.89,
+        "id": "22878",
+        "maps": 76,
+        "rounds": 1711,
+        "kd": 0.85,
+        "openingAttempts": 0.212,
+        "openingSuccess": 0.408,
+        "adr": 67,
+        "kast": 0.7
+      }
+    ],
+    "mapWinRates": {
+      "Ancient": 1,
+      "Mirage": 1,
+      "Anubis": 1,
+      "Dust2": 1,
+      "Nuke": 0.527
+    },
+    "mapProfiles": {
+      "Ancient": {
+        "winRate": 1,
+        "played": 16,
+        "rating": 1.14
+      },
+      "Mirage": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 1,
+        "played": 16,
+        "rating": 1.14
+      },
+      "Dust2": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Nuke": {
+        "winRate": 0.527,
+        "played": 13,
+        "rating": 1.03
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1675,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1675,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T14:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T14:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "hltvRating": 1.09,
+    "mapsPlayed": 48
+  },
+  "lineup": [
+    {
+      "id": "22878",
+      "name": "senka"
+    },
+    {
+      "id": "22880",
+      "name": "m1QUSE"
+    },
+    {
+      "id": "23762",
+      "name": "z1k4"
+    },
+    {
+      "id": "24568",
+      "name": "flouzer"
+    },
+    {
+      "id": "25807",
+      "name": "ayuki"
+    }
+  ],
+  "mapProfiles": {
+    "Ancient": {
+      "winRate": 1,
+      "played": 16,
+      "rating": 1.14
+    },
+    "Mirage": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 1,
+      "played": 16,
+      "rating": 1.14
+    },
+    "Dust2": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Nuke": {
+      "winRate": 0.527,
+      "played": 13,
+      "rating": 1.03
+    }
+  },
+  "mapWinRates": {
+    "Ancient": 1,
+    "Mirage": 1,
+    "Anubis": 1,
+    "Dust2": 1,
+    "Nuke": 0.527
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1675,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1675,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T14:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T14:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

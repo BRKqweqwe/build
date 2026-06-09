@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:50.276Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "12793": "cache",
+      "13298": "cache",
+      "19602": "cache",
+      "20429": "cache",
+      "22137": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12769",
+    "name": "Fisher College",
+    "hltvRank": 53,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "TH0R",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.16,
+        "id": "12793",
+        "adr": 72.4,
+        "kast": 0.738
+      },
+      {
+        "name": "AlekS",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.17,
+        "id": "13298",
+        "adr": 81.7,
+        "kast": 0.74
+      },
+      {
+        "name": "ReFuZR",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.99,
+        "id": "19602",
+        "adr": 68.4,
+        "kast": 0.763
+      },
+      {
+        "name": "CrePoW",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.4,
+        "id": "20429",
+        "adr": 89.5,
+        "kast": 0.725
+      },
+      {
+        "name": "corn",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.89,
+        "id": "22137",
+        "adr": 67.5,
+        "kast": 0.73
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 43
+  },
+  "lineup": [
+    {
+      "id": "12793",
+      "name": "TH0R"
+    },
+    {
+      "id": "13298",
+      "name": "AlekS"
+    },
+    {
+      "id": "19602",
+      "name": "ReFuZR"
+    },
+    {
+      "id": "20429",
+      "name": "CrePoW"
+    },
+    {
+      "id": "22137",
+      "name": "corn"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

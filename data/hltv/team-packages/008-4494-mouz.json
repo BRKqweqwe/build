@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:00.936Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "18072": "cache",
+      "18221": "cache",
+      "18850": "cache",
+      "20312": "cache",
+      "24457": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4494",
+    "name": "MOUZ",
+    "hltvRank": 8,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "torzsi",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 0.95,
+        "id": "18072",
+        "adr": 63.2,
+        "kast": 0.713
+      },
+      {
+        "name": "Spinx",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 1.01,
+        "id": "18221",
+        "adr": 71,
+        "kast": 0.722
+      },
+      {
+        "name": "xertioN",
+        "role": "Rifler",
+        "rating": 1.21,
+        "impact": 1.25,
+        "id": "20312",
+        "adr": 85.9,
+        "kast": 0.7509999999999999
+      },
+      {
+        "name": "xelex",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.15,
+        "id": "24457",
+        "adr": 78.2,
+        "kast": 0.715
+      },
+      {
+        "name": "Jimpphat",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.99,
+        "id": "18850",
+        "adr": 69.7,
+        "kast": 0.732
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 28
+  },
+  "lineup": [
+    {
+      "id": "18072",
+      "name": "torzsi"
+    },
+    {
+      "id": "18221",
+      "name": "Spinx"
+    },
+    {
+      "id": "20312",
+      "name": "xertioN"
+    },
+    {
+      "id": "24457",
+      "name": "xelex"
+    },
+    {
+      "id": "18850",
+      "name": "Jimpphat"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

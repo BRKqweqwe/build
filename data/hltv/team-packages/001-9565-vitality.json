@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:33:44.307Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7322": "cache",
+      "11816": "cache",
+      "11893": "cache",
+      "16693": "cache",
+      "18462": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "9565",
+    "name": "Vitality",
+    "hltvRank": 1,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "apEX",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 1.08,
+        "id": "7322",
+        "adr": 74.8,
+        "kast": 0.716
+      },
+      {
+        "name": "ropz",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.1,
+        "id": "11816",
+        "adr": 77.8,
+        "kast": 0.7659999999999999
+      },
+      {
+        "name": "ZywOo",
+        "role": "Rifler",
+        "rating": 1.37,
+        "impact": 1.43,
+        "id": "11893",
+        "adr": 85.6,
+        "kast": 0.779
+      },
+      {
+        "name": "flameZ",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.25,
+        "id": "16693",
+        "adr": 77.6,
+        "kast": 0.7659999999999999
+      },
+      {
+        "name": "mezii",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 0.86,
+        "id": "18462",
+        "adr": 68.2,
+        "kast": 0.764
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 40
+  },
+  "lineup": [
+    {
+      "id": "7322",
+      "name": "apEX"
+    },
+    {
+      "id": "11816",
+      "name": "ropz"
+    },
+    {
+      "id": "11893",
+      "name": "ZywOo"
+    },
+    {
+      "id": "16693",
+      "name": "flameZ"
+    },
+    {
+      "id": "18462",
+      "name": "mezii"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

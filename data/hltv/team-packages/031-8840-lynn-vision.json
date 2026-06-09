@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:01.092Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16551": "cache",
+      "18744": "cache",
+      "20254": "cache",
+      "22922": "cache",
+      "23100": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "8840",
+    "name": "Lynn Vision",
+    "hltvRank": 31,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Westmelon",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.17,
+        "id": "16551",
+        "adr": 77,
+        "kast": 0.743
+      },
+      {
+        "name": "z4KR",
+        "role": "Rifler",
+        "rating": 1.22,
+        "impact": 1.32,
+        "id": "18744",
+        "adr": 80.9,
+        "kast": 0.748
+      },
+      {
+        "name": "Starry",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.23,
+        "id": "20254",
+        "adr": 81.2,
+        "kast": 0.759
+      },
+      {
+        "name": "EmiliaQAQ",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 0.98,
+        "id": "22922",
+        "adr": 68.9,
+        "kast": 0.73
+      },
+      {
+        "name": "C4LLM3SU3",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.96,
+        "id": "23100",
+        "adr": 70.8,
+        "kast": 0.748
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 36
+  },
+  "lineup": [
+    {
+      "id": "16551",
+      "name": "Westmelon"
+    },
+    {
+      "id": "18744",
+      "name": "z4KR"
+    },
+    {
+      "id": "20254",
+      "name": "Starry"
+    },
+    {
+      "id": "22922",
+      "name": "EmiliaQAQ"
+    },
+    {
+      "id": "23100",
+      "name": "C4LLM3SU3"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

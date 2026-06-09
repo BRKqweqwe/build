@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:25.139Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "2553": "cache",
+      "9278": "cache",
+      "20301": "cache",
+      "22279": "cache",
+      "23766": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.781,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 4,
+    "recentMatchCount": 7
+  },
+  "team": {
+    "id": "9928",
+    "name": "GamerLegion",
+    "hltvRank": 10,
+    "elo": 2287,
+    "recentWins": 3,
+    "recentLosses": 4,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "REZ",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.15,
+        "openingRating": 1.08,
+        "id": "9278",
+        "maps": 49,
+        "rounds": 1056,
+        "kd": 1.03,
+        "openingAttempts": 0.261,
+        "openingSuccess": 0.486,
+        "adr": 78.7,
+        "kast": 0.73
+      },
+      {
+        "name": "hypex",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 0.93,
+        "openingRating": 1.01,
+        "id": "23766",
+        "maps": 49,
+        "rounds": 1056,
+        "kd": 1.09,
+        "openingAttempts": 0.138,
+        "openingSuccess": 0.623,
+        "adr": 64.9,
+        "kast": 0.735
+      },
+      {
+        "name": "PR",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.1,
+        "openingRating": 1.08,
+        "id": "22279",
+        "maps": 49,
+        "rounds": 1056,
+        "kd": 1.01,
+        "openingAttempts": 0.212,
+        "openingSuccess": 0.545,
+        "adr": 77.2,
+        "kast": 0.7120000000000001
+      },
+      {
+        "name": "Tauson",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.95,
+        "openingRating": 0.87,
+        "id": "20301",
+        "maps": 49,
+        "rounds": 1056,
+        "kd": 0.95,
+        "openingAttempts": 0.168,
+        "openingSuccess": 0.429,
+        "adr": 69.1,
+        "kast": 0.6940000000000001
+      },
+      {
+        "name": "Snax",
+        "role": "Rifler",
+        "rating": 0.82,
+        "impact": 0.81,
+        "openingRating": 0.85,
+        "id": "2553",
+        "maps": 49,
+        "rounds": 1056,
+        "kd": 0.74,
+        "openingAttempts": 0.217,
+        "openingSuccess": 0.38,
+        "adr": 64.3,
+        "kast": 0.6629999999999999
+      }
+    ],
+    "mapWinRates": {
+      "Nuke": 0,
+      "Ancient": 0.3333333333333333,
+      "Overpass": 1,
+      "Inferno": 1
+    },
+    "mapProfiles": {
+      "Nuke": {
+        "winRate": 0,
+        "played": 2
+      },
+      "Ancient": {
+        "winRate": 0.3333333333333333,
+        "played": 10,
+        "rating": 1.05
+      },
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 12,
+        "rating": 1.03
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T18:30:00.000Z",
+        "opponentRank": 21,
+        "opponentElo": 2238,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T10:30:00.000Z",
+        "opponentRank": 12,
+        "opponentElo": 2273,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T14:30:00.000Z",
+        "opponentRank": 39,
+        "opponentElo": 2109,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T14:30:00.000Z",
+        "opponentRank": 39,
+        "opponentElo": 2109,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T14:50:00.000Z",
+        "opponentRank": 21,
+        "opponentElo": 2238,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T14:50:00.000Z",
+        "opponentRank": 21,
+        "opponentElo": 2238,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-02T18:10:00.000Z",
+        "opponentRank": 81,
+        "opponentElo": 1790,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 25
+  },
+  "lineup": [
+    {
+      "id": "2553",
+      "name": "Snax"
+    },
+    {
+      "id": "9278",
+      "name": "REZ"
+    },
+    {
+      "id": "20301",
+      "name": "Tauson"
+    },
+    {
+      "id": "22279",
+      "name": "PR"
+    },
+    {
+      "id": "23766",
+      "name": "hypex"
+    }
+  ],
+  "mapProfiles": {
+    "Nuke": {
+      "winRate": 0,
+      "played": 2
+    },
+    "Ancient": {
+      "winRate": 0.3333333333333333,
+      "played": 10,
+      "rating": 1.05
+    },
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 12,
+      "rating": 1.03
+    }
+  },
+  "mapWinRates": {
+    "Nuke": 0,
+    "Ancient": 0.3333333333333333,
+    "Overpass": 1,
+    "Inferno": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T18:30:00.000Z",
+      "opponentRank": 21,
+      "opponentElo": 2238,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T10:30:00.000Z",
+      "opponentRank": 12,
+      "opponentElo": 2273,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T14:30:00.000Z",
+      "opponentRank": 39,
+      "opponentElo": 2109,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T14:30:00.000Z",
+      "opponentRank": 39,
+      "opponentElo": 2109,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T14:50:00.000Z",
+      "opponentRank": 21,
+      "opponentElo": 2238,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T14:50:00.000Z",
+      "opponentRank": 21,
+      "opponentElo": 2238,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-02T18:10:00.000Z",
+      "opponentRank": 81,
+      "opponentElo": 1790,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

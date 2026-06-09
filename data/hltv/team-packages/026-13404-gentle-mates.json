@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:48.814Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "8371": "cache",
+      "9254": "cache",
+      "18749": "cache",
+      "19509": "cache",
+      "21239": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13404",
+    "name": "Gentle Mates",
+    "hltvRank": 26,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "alex",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1,
+        "id": "8371",
+        "adr": 73.1,
+        "kast": 0.7290000000000001
+      },
+      {
+        "name": "mopoz",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 1.07,
+        "id": "9254",
+        "adr": 73.6,
+        "kast": 0.718
+      },
+      {
+        "name": "sausol",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.01,
+        "id": "18749",
+        "adr": 74.2,
+        "kast": 0.726
+      },
+      {
+        "name": "dav1g",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.98,
+        "id": "19509",
+        "adr": 69,
+        "kast": 0.701
+      },
+      {
+        "name": "MartinezSa",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.21,
+        "id": "21239",
+        "adr": 77,
+        "kast": 0.728
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 33
+  },
+  "lineup": [
+    {
+      "id": "8371",
+      "name": "alex"
+    },
+    {
+      "id": "9254",
+      "name": "mopoz"
+    },
+    {
+      "id": "18749",
+      "name": "sausol"
+    },
+    {
+      "id": "19509",
+      "name": "dav1g"
+    },
+    {
+      "id": "21239",
+      "name": "MartinezSa"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

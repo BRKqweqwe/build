@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:33.706Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "10566": "cache",
+      "12822": "cache",
+      "20183": "cache",
+      "22371": "cache",
+      "22564": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "9455",
+    "name": "Imperial",
+    "hltvRank": 73,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "chelo",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.18,
+        "id": "10566",
+        "adr": 75.7,
+        "kast": 0.72
+      },
+      {
+        "name": "VINI",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.88,
+        "id": "12822",
+        "adr": 68.3,
+        "kast": 0.7240000000000001
+      },
+      {
+        "name": "decenty",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.06,
+        "id": "20183",
+        "adr": 78.3,
+        "kast": 0.738
+      },
+      {
+        "name": "levi",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 1.03,
+        "id": "22371",
+        "adr": 66.2,
+        "kast": 0.725
+      },
+      {
+        "name": "noway",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.03,
+        "id": "22564",
+        "adr": 73.8,
+        "kast": 0.7559999999999999
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "10566",
+      "name": "chelo"
+    },
+    {
+      "id": "12822",
+      "name": "VINI"
+    },
+    {
+      "id": "20183",
+      "name": "decenty"
+    },
+    {
+      "id": "22371",
+      "name": "levi"
+    },
+    {
+      "id": "22564",
+      "name": "noway"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

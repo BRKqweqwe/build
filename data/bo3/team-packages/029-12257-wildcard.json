@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-06-08T13:32:15.051Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/wildcard"
+  },
+  "summary": {
+    "hltvTeamId": "12257",
+    "hltvName": "Wildcard",
+    "bo3TeamId": "19717",
+    "slug": "wildcard",
+    "name": "Wildcard",
+    "rank": null,
+    "rankDiff": null,
+    "sixMonthEarned": 170873,
+    "currentRosterSize": 5,
+    "currentRosterRatingAvg": null,
+    "currentRosterRatingMin": null,
+    "currentRosterRatingMax": null,
+    "joinTransfers": 0,
+    "leaveTransfers": 0,
+    "transfersSince2025": 0,
+    "lastTransferDate": null,
+    "players": [
+      {
+        "id": "70283",
+        "slug": "bbysharkk",
+        "nickname": "bbySharKK",
+        "name": "bbySharKK",
+        "country": "FR",
+        "sixMonthAvgRating": null,
+        "totalPrize": 49604,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      },
+      {
+        "id": "70404",
+        "slug": "adrian-r6",
+        "nickname": "Adrian",
+        "name": "Adrian",
+        "country": "PL",
+        "sixMonthAvgRating": null,
+        "totalPrize": 245666,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      },
+      {
+        "id": "70426",
+        "slug": "bae-1",
+        "nickname": "Bae",
+        "name": "Bae",
+        "country": "US",
+        "sixMonthAvgRating": null,
+        "totalPrize": 55353,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      },
+      {
+        "id": "70779",
+        "slug": "spiker-r6",
+        "nickname": "Spiker",
+        "name": "Spiker",
+        "country": "US",
+        "sixMonthAvgRating": null,
+        "totalPrize": 55353,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      },
+      {
+        "id": "71628",
+        "slug": "kanzen",
+        "nickname": "Kanzen",
+        "name": "Kanzen",
+        "country": "US",
+        "sixMonthAvgRating": null,
+        "totalPrize": 55353,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      }
+    ]
+  },
+  "transfers": []
+}

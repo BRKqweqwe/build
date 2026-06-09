@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:32.605Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "10096": "cache",
+      "16726": "cache",
+      "17956": "cache",
+      "20304": "cache",
+      "21217": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.638,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 2,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "6665",
+    "name": "Astralis",
+    "hltvRank": 12,
+    "elo": 2273,
+    "recentWins": 1,
+    "recentLosses": 1,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Staehr",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.27,
+        "openingRating": 1.15,
+        "id": "20304",
+        "maps": 48,
+        "rounds": 1004,
+        "kd": 1.12,
+        "openingAttempts": 0.26,
+        "openingSuccess": 0.529,
+        "adr": 80.9,
+        "kast": 0.721
+      },
+      {
+        "name": "jabbi",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.06,
+        "openingRating": 1.04,
+        "id": "17956",
+        "maps": 48,
+        "rounds": 1004,
+        "kd": 1.07,
+        "openingAttempts": 0.184,
+        "openingSuccess": 0.551,
+        "adr": 76.2,
+        "kast": 0.7240000000000001
+      },
+      {
+        "name": "phzy",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.07,
+        "openingRating": 1.11,
+        "id": "16726",
+        "maps": 48,
+        "rounds": 1004,
+        "kd": 1.09,
+        "openingAttempts": 0.201,
+        "openingSuccess": 0.584,
+        "adr": 71.4,
+        "kast": 0.72
+      },
+      {
+        "name": "ryu",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.9,
+        "openingRating": 0.89,
+        "id": "21217",
+        "maps": 48,
+        "rounds": 1004,
+        "kd": 0.92,
+        "openingAttempts": 0.174,
+        "openingSuccess": 0.44,
+        "adr": 71,
+        "kast": 0.701
+      },
+      {
+        "name": "HooXi",
+        "role": "Rifler",
+        "rating": 0.87,
+        "impact": 0.78,
+        "openingRating": 0.87,
+        "id": "10096",
+        "maps": 48,
+        "rounds": 1004,
+        "kd": 0.76,
+        "openingAttempts": 0.17800000000000002,
+        "openingSuccess": 0.425,
+        "adr": 62.1,
+        "kast": 0.688
+      }
+    ],
+    "mapWinRates": {
+      "Nuke": 0,
+      "Ancient": 1
+    },
+    "mapProfiles": {
+      "Nuke": {
+        "winRate": 0,
+        "played": 1
+      },
+      "Ancient": {
+        "winRate": 1,
+        "played": 11,
+        "rating": 1.12
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T15:50:00.000Z",
+        "opponentRank": 20,
+        "opponentElo": 2245,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T10:30:00.000Z",
+        "opponentRank": 10,
+        "opponentElo": 2287,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 27
+  },
+  "lineup": [
+    {
+      "id": "10096",
+      "name": "HooXi"
+    },
+    {
+      "id": "16726",
+      "name": "phzy"
+    },
+    {
+      "id": "17956",
+      "name": "jabbi"
+    },
+    {
+      "id": "20304",
+      "name": "Staehr"
+    },
+    {
+      "id": "21217",
+      "name": "ryu"
+    }
+  ],
+  "mapProfiles": {
+    "Nuke": {
+      "winRate": 0,
+      "played": 1
+    },
+    "Ancient": {
+      "winRate": 1,
+      "played": 11,
+      "rating": 1.12
+    }
+  },
+  "mapWinRates": {
+    "Nuke": 0,
+    "Ancient": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T15:50:00.000Z",
+      "opponentRank": 20,
+      "opponentElo": 2245,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T10:30:00.000Z",
+      "opponentRank": 10,
+      "opponentElo": 2287,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-09T10:22:26.429Z",
+  "type": "logistic-regression-progressive-curriculum",
+  "source": {
+    "trainingDataset": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3-valve.json",
+    "rows": 7844,
+    "fitRows": 6668,
+    "calibrationRows": 1176
+  },
+  "trainingMode": {
+    "type": "progressive-curriculum",
+    "sessions": 42,
+    "sessionsPerStage": 6,
+    "epochsPerSession": 220,
+    "stages": [
+      {
+        "id": "core-form",
+        "label": "Team form, format and Elo"
+      },
+      {
+        "id": "round-map-form",
+        "label": "Round and map form"
+      },
+      {
+        "id": "valve-ranking",
+        "label": "Valve ranking signal"
+      },
+      {
+        "id": "rest-h2h",
+        "label": "Rest and head-to-head"
+      },
+      {
+        "id": "lineup",
+        "label": "Lineup continuity and changes"
+      },
+      {
+        "id": "players",
+        "label": "Player historical stats"
+      },
+      {
+        "id": "remaining",
+        "label": "Any remaining numeric features"
+      }
+    ]
+  },
+  "hyperparameters": {
+    "learningRate": 0.045,
+    "l2": 0.004,
+    "calibration": "auto",
+    "calibrationRatio": 0.15
+  },
+  "features": [
+    "teamMapsA",
+    "teamMapsB",
+    "teamWinRateA",
+    "teamWinRateB",
+    "recentWinRateA",
+    "recentWinRateB",
+    "recent5WinRateA",
+    "recent5WinRateB",
+    "recent10WinRateA",
+    "recent10WinRateB",
+    "recent20WinRateA",
+    "recent20WinRateB",
+    "recent5RoundDiffA",
+    "recent5RoundDiffB",
+    "recent10RoundDiffA",
+    "recent10RoundDiffB",
+    "recent20RoundDiffA",
+    "recent20RoundDiffB",
+    "mapMapsA",
+    "mapMapsB",
+    "mapWinRateA",
+    "mapWinRateB",
+    "roundDiffA",
+    "roundDiffB",
+    "mapRoundDiffA",
+    "mapRoundDiffB",
+    "eloA",
+    "eloB",
+    "valveKnownA",
+    "valveKnownB",
+    "valveRankA",
+    "valveRankB",
+    "valveScoreA",
+    "valveScoreB",
+    "valveRankDiffA",
+    "valveRankDiffB",
+    "h2hMaps",
+    "h2hWinRateA",
+    "h2hWinRateB",
+    "daysSinceLastMapA",
+    "daysSinceLastMapB",
+    "winRateDiff",
+    "recentWinRateDiff",
+    "recent5WinRateDiff",
+    "recent10WinRateDiff",
+    "recent20WinRateDiff",
+    "recent5RoundDiffDiff",
+    "recent10RoundDiffDiff",
+    "recent20RoundDiffDiff",
+    "mapWinRateDiff",
+    "roundDiffDiff",
+    "mapRoundDiffDiff",
+    "eloDiff",
+    "valveKnownBoth",
+    "valveRankDiff",
+    "valveScoreDiff",
+    "valveRankChangeDiff",
+    "h2hWinRateDiff",
+    "restDiff",
+    "isLan",
+    "isBo1",
+    "isBo3",
+    "isBo5",
+    "eventTier"
+  ],
+  "intercept": 0.12828603994455362,
+  "coefficients": {
+    "teamMapsA": -0.012988533619647087,
+    "teamMapsB": 0.02701675908966405,
+    "teamWinRateA": -0.030834746730760133,
+    "teamWinRateB": -0.040311115325003685,
+    "recentWinRateA": -0.013460035079156697,
+    "recentWinRateB": -0.03422066019044434,
+    "recent5WinRateA": -0.016307348963433853,
+    "recent5WinRateB": 0.05550083419232691,
+    "recent10WinRateA": -0.013460035079156697,
+    "recent10WinRateB": -0.03422066019044434,
+    "recent20WinRateA": -0.050534073785053084,
+    "recent20WinRateB": 0.1416378809356735,
+    "recent5RoundDiffA": -0.004415211944329486,
+    "recent5RoundDiffB": -0.0170121746372882,
+    "recent10RoundDiffA": 0.03189528884074432,
+    "recent10RoundDiffB": 0.05842953960287195,
+    "recent20RoundDiffA": 0.03074080895424926,
+    "recent20RoundDiffB": -0.11787120026754762,
+    "mapMapsA": 0.0698439944498512,
+    "mapMapsB": -0.16050778551776207,
+    "mapWinRateA": 0.0261703484865706,
+    "mapWinRateB": -0.0031396314942100413,
+    "roundDiffA": 0.0499568524927079,
+    "roundDiffB": 0.030970095310600212,
+    "mapRoundDiffA": -0.05309155648682085,
+    "mapRoundDiffB": -0.04723217477569814,
+    "eloA": 0.14271151554262076,
+    "eloB": -0.10060361272668882,
+    "valveKnownA": 0,
+    "valveKnownB": 0,
+    "valveRankA": 0,
+    "valveRankB": 0,
+    "valveScoreA": 0,
+    "valveScoreB": 0,
+    "valveRankDiffA": 0,
+    "valveRankDiffB": 0,
+    "h2hMaps": 0.012233400469799,
+    "h2hWinRateA": 0.015616027475101088,
+    "h2hWinRateB": -0.015616027475100935,
+    "daysSinceLastMapA": -0.00021553167875794108,
+    "daysSinceLastMapB": 0.033092935711519035,
+    "winRateDiff": 0.009557300595298116,
+    "recentWinRateDiff": 0.01752271345023478,
+    "recent5WinRateDiff": -0.0264291818690132,
+    "recent10WinRateDiff": 0.012875896817359681,
+    "recent20WinRateDiff": -0.11493848277600516,
+    "recent5RoundDiffDiff": 0.010445315463526244,
+    "recent10RoundDiffDiff": -0.023227394649262417,
+    "recent20RoundDiffDiff": 0.1198973973109768,
+    "mapWinRateDiff": 0.020627488439692747,
+    "roundDiffDiff": 0.012727074867196594,
+    "mapRoundDiffDiff": -0.0016010702474521705,
+    "eloDiff": 0.24515381770467917,
+    "valveKnownBoth": 0,
+    "valveRankDiff": 0,
+    "valveScoreDiff": 0,
+    "valveRankChangeDiff": 0,
+    "h2hWinRateDiff": 0.0156160274751009,
+    "restDiff": 0.03278403432249102,
+    "isLan": -0.018435324335857428,
+    "isBo1": 0.02589584264320877,
+    "isBo3": -0.005793776616830268,
+    "isBo5": 0.008438308106999678,
+    "eventTier": -0.06324212829629389
+  },
+  "scalers": {
+    "teamMapsA": {
+      "mean": 112.8012897420516,
+      "std": 86.01459791294401
+    },
+    "teamMapsB": {
+      "mean": 99.52954409118176,
+      "std": 83.44749055685311
+    },
+    "teamWinRateA": {
+      "mean": 0.5267442252792396,
+      "std": 0.10513192610272702
+    },
+    "teamWinRateB": {
+      "mean": 0.507708190278287,
+      "std": 0.11254241298113378
+    },
+    "recentWinRateA": {
+      "mean": 0.5178108425933826,
+      "std": 0.17353409420530325
+    },
+    "recentWinRateB": {
+      "mean": 0.50459991335066,
+      "std": 0.17923825407521254
+    },
+    "recent5WinRateA": {
+      "mean": 0.5093356328734252,
+      "std": 0.23884331189265473
+    },
+    "recent5WinRateB": {
+      "mean": 0.5127149570085987,
+      "std": 0.24195016268782704
+    },
+    "recent10WinRateA": {
+      "mean": 0.5178108425933826,
+      "std": 0.17353409420530325
+    },
+    "recent10WinRateB": {
+      "mean": 0.50459991335066,
+      "std": 0.17923825407521254
+    },
+    "recent20WinRateA": {
+      "mean": 0.5203806080280964,
+      "std": 0.1392666764481779
+    },
+    "recent20WinRateB": {
+      "mean": 0.5047326957815012,
+      "std": 0.14339713746943683
+    },
+    "recent5RoundDiffA": {
+      "mean": 0.13081383723255335,
+      "std": 2.858016313707845
+    },
+    "recent5RoundDiffB": {
+      "mean": 0.12123825234953037,
+      "std": 2.934318165003997
+    },
+    "recent10RoundDiffA": {
+      "mean": 0.23030358214071578,
+      "std": 2.1001712918509936
+    },
+    "recent10RoundDiffB": {
+      "mean": 0.03315515468334892,
+      "std": 2.2254563867846033
+    },
+    "recent20RoundDiffA": {
+      "mean": 0.2581714892343235,
+      "std": 1.7113861110733202
+    },
+    "recent20RoundDiffB": {
+      "mean": 0.04054372088066255,
+      "std": 1.7997011172705453
+    },
+    "mapMapsA": {
+      "mean": 17.105278944211157,
+      "std": 15.174786960458984
+    },
+    "mapMapsB": {
+      "mean": 15.031793641271745,
+      "std": 14.46212841633423
+    },
+    "mapWinRateA": {
+      "mean": 0.530789563726699,
+      "std": 0.21056469935860345
+    },
+    "mapWinRateB": {
+      "mean": 0.5114783957781962,
+      "std": 0.22444335362492449
+    },
+    "roundDiffA": {
+      "mean": 0.3180900877341586,
+      "std": 1.3255526084285332
+    },
+    "roundDiffB": {
+      "mean": 0.08073679218529642,
+      "std": 1.428655061668826
+    },
+    "mapRoundDiffA": {
+      "mean": 0.39006790595462504,
+      "std": 2.5243158279113325
+    },
+    "mapRoundDiffB": {
+      "mean": 0.10543981826820975,
+      "std": 2.7144022750440366
+    },
+    "eloA": {
+      "mean": 1569.6334201394302,
+      "std": 99.89837687997677
+    },
+    "eloB": {
+      "mean": 1549.4070539103038,
+      "std": 88.41167436922605
+    },
+    "valveKnownA": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveKnownB": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveRankA": {
+      "mean": 250,
+      "std": 1
+    },
+    "valveRankB": {
+      "mean": 250,
+      "std": 1
+    },
+    "valveScoreA": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveScoreB": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveRankDiffA": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveRankDiffB": {
+      "mean": 0,
+      "std": 1
+    },
+    "h2hMaps": {
+      "mean": 2.764247150569886,
+      "std": 4.325490435153349
+    },
+    "h2hWinRateA": {
+      "mean": 0.5167470896124127,
+      "std": 0.23702404885902792
+    },
+    "h2hWinRateB": {
+      "mean": 0.48325291038758655,
+      "std": 0.2370240488590305
+    },
+    "daysSinceLastMapA": {
+      "mean": 6.71880623875225,
+      "std": 13.979748838199345
+    },
+    "daysSinceLastMapB": {
+      "mean": 8.007048590281943,
+      "std": 18.62526564115015
+    },
+    "winRateDiff": {
+      "mean": 0.019036035000950195,
+      "std": 0.1354978700344854
+    },
+    "recentWinRateDiff": {
+      "mean": 0.013210929242722895,
+      "std": 0.21674019843955294
+    },
+    "recent5WinRateDiff": {
+      "mean": -0.003379324135172946,
+      "std": 0.2841868671302969
+    },
+    "recent10WinRateDiff": {
+      "mean": 0.013210929242722895,
+      "std": 0.21674019843955294
+    },
+    "recent20WinRateDiff": {
+      "mean": 0.015647912246593676,
+      "std": 0.1759225624414237
+    },
+    "recent5RoundDiffDiff": {
+      "mean": 0.009575584883023205,
+      "std": 3.571015679640562
+    },
+    "recent10RoundDiffDiff": {
+      "mean": 0.19714842745736497,
+      "std": 2.7143303443837077
+    },
+    "recent20RoundDiffDiff": {
+      "mean": 0.21762776835366088,
+      "std": 2.2080739885981555
+    },
+    "mapWinRateDiff": {
+      "mean": 0.019311167948502732,
+      "std": 0.30130769439345934
+    },
+    "roundDiffDiff": {
+      "mean": 0.23735329554886192,
+      "std": 1.7266224119866214
+    },
+    "mapRoundDiffDiff": {
+      "mean": 0.2846280876864166,
+      "std": 3.6305300850779996
+    },
+    "eloDiff": {
+      "mean": 20.226366229120277,
+      "std": 94.43533382555009
+    },
+    "valveKnownBoth": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveRankDiff": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveScoreDiff": {
+      "mean": 0,
+      "std": 1
+    },
+    "valveRankChangeDiff": {
+      "mean": 0,
+      "std": 1
+    },
+    "h2hWinRateDiff": {
+      "mean": 0.03349417922482718,
+      "std": 0.47404809771806106
+    },
+    "restDiff": {
+      "mean": 1.2882423515296941,
+      "std": 18.892665591901903
+    },
+    "isLan": {
+      "mean": 0.6034793041391722,
+      "std": 0.4891748497366396
+    },
+    "isBo1": {
+      "mean": 0.06778644271145771,
+      "std": 0.25137907807925164
+    },
+    "isBo3": {
+      "mean": 0.9064187162567486,
+      "std": 0.29124530395562964
+    },
+    "isBo5": {
+      "mean": 0.023245350929814036,
+      "std": 0.15068179913301666
+    },
+    "eventTier": {
+      "mean": 1.6991601679664068,
+      "std": 0.8167887522290803
+    }
+  },
+  "calibration": {
+    "type": "platt",
+    "a": 0.7913409661336988,
+    "b": 0.15504427084346806,
+    "calibrationLogLoss": 0.6604827694097258
+  },
+  "metrics": {
+    "calibration": {
+      "rows": 1176,
+      "accuracy": 0.6020408163265306,
+      "logLoss": 0.6604827694097258,
+      "brier": 0.23428820009026863,
+      "confidentRows": 504,
+      "confidentAccuracy": 0.6646825396825397
+    },
+    "temporalValidation": {
+      "splits": 3,
+      "rows": 740,
+      "accuracy": 0.5986486486486486,
+      "logLoss": 0.6646456476611962,
+      "brier": 0.23630605672253807
+    }
+  },
+  "topCoefficients": [
+    {
+      "name": "eloDiff",
+      "weight": 0.24515381770467917,
+      "abs": 0.24515381770467917
+    },
+    {
+      "name": "mapMapsB",
+      "weight": -0.16050778551776207,
+      "abs": 0.16050778551776207
+    },
+    {
+      "name": "eloA",
+      "weight": 0.14271151554262076,
+      "abs": 0.14271151554262076
+    },
+    {
+      "name": "recent20WinRateB",
+      "weight": 0.1416378809356735,
+      "abs": 0.1416378809356735
+    },
+    {
+      "name": "recent20RoundDiffDiff",
+      "weight": 0.1198973973109768,
+      "abs": 0.1198973973109768
+    },
+    {
+      "name": "recent20RoundDiffB",
+      "weight": -0.11787120026754762,
+      "abs": 0.11787120026754762
+    },
+    {
+      "name": "recent20WinRateDiff",
+      "weight": -0.11493848277600516,
+      "abs": 0.11493848277600516
+    },
+    {
+      "name": "eloB",
+      "weight": -0.10060361272668882,
+      "abs": 0.10060361272668882
+    },
+    {
+      "name": "mapMapsA",
+      "weight": 0.0698439944498512,
+      "abs": 0.0698439944498512
+    },
+    {
+      "name": "eventTier",
+      "weight": -0.06324212829629389,
+      "abs": 0.06324212829629389
+    },
+    {
+      "name": "recent10RoundDiffB",
+      "weight": 0.05842953960287195,
+      "abs": 0.05842953960287195
+    },
+    {
+      "name": "recent5WinRateB",
+      "weight": 0.05550083419232691,
+      "abs": 0.05550083419232691
+    },
+    {
+      "name": "mapRoundDiffA",
+      "weight": -0.05309155648682085,
+      "abs": 0.05309155648682085
+    },
+    {
+      "name": "recent20WinRateA",
+      "weight": -0.050534073785053084,
+      "abs": 0.050534073785053084
+    },
+    {
+      "name": "roundDiffA",
+      "weight": 0.0499568524927079,
+      "abs": 0.0499568524927079
+    },
+    {
+      "name": "mapRoundDiffB",
+      "weight": -0.04723217477569814,
+      "abs": 0.04723217477569814
+    },
+    {
+      "name": "teamWinRateB",
+      "weight": -0.040311115325003685,
+      "abs": 0.040311115325003685
+    },
+    {
+      "name": "recentWinRateB",
+      "weight": -0.03422066019044434,
+      "abs": 0.03422066019044434
+    },
+    {
+      "name": "recent10WinRateB",
+      "weight": -0.03422066019044434,
+      "abs": 0.03422066019044434
+    },
+    {
+      "name": "daysSinceLastMapB",
+      "weight": 0.033092935711519035,
+      "abs": 0.033092935711519035
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T10:45:41.801Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "11498": "cache",
+      "13281": "cache",
+      "16948": "cache",
+      "24171": "cache",
+      "24818": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.785,
+    "playersWithAdr": 3,
+    "playersWithKast": 3,
+    "playersWithOpening": 5,
+    "mapCount": 4,
+    "recentMatchCount": 4
+  },
+  "team": {
+    "id": "13214",
+    "name": "SPARTA",
+    "hltvRank": 85,
+    "elo": 1783,
+    "recentWins": 2,
+    "recentLosses": 2,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "TRAVIS",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.1,
+        "openingRating": 0.99,
+        "id": "16948",
+        "maps": 81,
+        "rounds": 1757,
+        "kd": 1.14,
+        "openingAttempts": 0.18,
+        "openingSuccess": 0.519,
+        "adr": 77.2,
+        "kast": 0.731
+      },
+      {
+        "name": "El1an",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.18,
+        "openingRating": 1.22,
+        "id": "13281",
+        "maps": 81,
+        "rounds": 1757,
+        "kd": 1.2,
+        "openingAttempts": 0.22,
+        "openingSuccess": 0.628,
+        "adr": 76,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "Forester",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.06,
+        "openingRating": 1.04,
+        "id": "13982",
+        "maps": 77,
+        "rounds": 1674,
+        "kd": 1.07,
+        "openingAttempts": 0.185,
+        "openingSuccess": 0.552
+      },
+      {
+        "name": "Lack1",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.03,
+        "openingRating": 1.03,
+        "id": "13240",
+        "maps": 77,
+        "rounds": 1674,
+        "kd": 1,
+        "openingAttempts": 0.24,
+        "openingSuccess": 0.475
+      },
+      {
+        "name": "NickelBack",
+        "role": "Rifler",
+        "rating": 0.9,
+        "impact": 0.86,
+        "openingRating": 0.86,
+        "id": "11498",
+        "maps": 81,
+        "rounds": 1757,
+        "kd": 0.81,
+        "openingAttempts": 0.17800000000000002,
+        "openingSuccess": 0.413,
+        "adr": 65.6,
+        "kast": 0.688
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 0.5,
+      "Ancient": 0,
+      "Dust2": 1,
+      "Inferno": 0.554
+    },
+    "hltvRating": 1.06,
+    "mapsPlayed": 43,
+    "recentMatches": [
+      {
+        "date": "2026-06-05T14:00:00.000Z",
+        "opponentRank": 78,
+        "opponentElo": 1850,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-05T14:00:00.000Z",
+        "opponentRank": 78,
+        "opponentElo": 1850,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-04T08:30:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-04T08:30:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 0.5,
+        "played": 2
+      },
+      "Ancient": {
+        "winRate": 0,
+        "played": 16,
+        "rating": 1.02
+      },
+      "Dust2": {
+        "winRate": 1,
+        "played": 24,
+        "rating": 1.08
+      },
+      "Inferno": {
+        "winRate": 0.554,
+        "played": 8,
+        "rating": 1.06
+      }
+    }
+  },
+  "lineup": [
+    {
+      "id": "11498",
+      "name": "NickelBack"
+    },
+    {
+      "id": "13281",
+      "name": "El1an"
+    },
+    {
+      "id": "16948",
+      "name": "TRAVIS"
+    },
+    {
+      "id": "24171",
+      "name": "Djon8"
+    },
+    {
+      "id": "24818",
+      "name": "k4nfuz"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 0.5,
+      "played": 2
+    },
+    "Ancient": {
+      "winRate": 0,
+      "played": 16,
+      "rating": 1.02
+    },
+    "Dust2": {
+      "winRate": 1,
+      "played": 24,
+      "rating": 1.08
+    },
+    "Inferno": {
+      "winRate": 0.554,
+      "played": 8,
+      "rating": 1.06
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 0.5,
+    "Ancient": 0,
+    "Dust2": 1,
+    "Inferno": 0.554
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-05T14:00:00.000Z",
+      "opponentRank": 78,
+      "opponentElo": 1850,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-05T14:00:00.000Z",
+      "opponentRank": 78,
+      "opponentElo": 1850,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-04T08:30:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-04T08:30:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

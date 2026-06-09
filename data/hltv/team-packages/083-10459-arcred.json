@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:41.927Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "18447": "cache",
+      "18671": "cache",
+      "19703": "cache",
+      "20207": "cache",
+      "20402": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.719,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 5,
+    "recentMatchCount": 5
+  },
+  "team": {
+    "id": "10459",
+    "name": "ARCRED",
+    "hltvRank": 83,
+    "elo": 1776,
+    "recentWins": 2,
+    "recentLosses": 3,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "DSSj",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.24,
+        "id": "18447",
+        "adr": 79,
+        "kast": 0.721
+      },
+      {
+        "name": "Get_Jeka",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.8,
+        "id": "18671",
+        "adr": 66.8,
+        "kast": 0.746
+      },
+      {
+        "name": "Ryujin",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.91,
+        "id": "19703",
+        "adr": 71.3,
+        "kast": 0.732
+      },
+      {
+        "name": "Raijin",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.23,
+        "id": "20207",
+        "adr": 81.9,
+        "kast": 0.735
+      },
+      {
+        "name": "synyx",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.1,
+        "id": "20402",
+        "adr": 76.2,
+        "kast": 0.741
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 1,
+      "Inferno": 1,
+      "Ancient": 0,
+      "Anubis": 0,
+      "Nuke": 0
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Ancient": {
+        "winRate": 0,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 0,
+        "played": 8,
+        "rating": 1.14
+      },
+      "Nuke": {
+        "winRate": 0,
+        "played": 1
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T11:15:00.000Z",
+        "opponentRank": 87,
+        "opponentElo": 1762,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T11:15:00.000Z",
+        "opponentRank": 87,
+        "opponentElo": 1762,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T11:15:00.000Z",
+        "opponentRank": 87,
+        "opponentElo": 1762,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T08:00:00.000Z",
+        "opponentRank": 55,
+        "opponentElo": 2018,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T08:00:00.000Z",
+        "opponentRank": 55,
+        "opponentElo": 2018,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "mapsPlayed": 25
+  },
+  "lineup": [
+    {
+      "id": "18447",
+      "name": "DSSj"
+    },
+    {
+      "id": "18671",
+      "name": "Get_Jeka"
+    },
+    {
+      "id": "19703",
+      "name": "Ryujin"
+    },
+    {
+      "id": "20207",
+      "name": "Raijin"
+    },
+    {
+      "id": "20402",
+      "name": "synyx"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Ancient": {
+      "winRate": 0,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 0,
+      "played": 8,
+      "rating": 1.14
+    },
+    "Nuke": {
+      "winRate": 0,
+      "played": 1
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 1,
+    "Inferno": 1,
+    "Ancient": 0,
+    "Anubis": 0,
+    "Nuke": 0
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T11:15:00.000Z",
+      "opponentRank": 87,
+      "opponentElo": 1762,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T11:15:00.000Z",
+      "opponentRank": 87,
+      "opponentElo": 1762,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T11:15:00.000Z",
+      "opponentRank": 87,
+      "opponentElo": 1762,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T08:00:00.000Z",
+      "opponentRank": 55,
+      "opponentElo": 2018,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T08:00:00.000Z",
+      "opponentRank": 55,
+      "opponentElo": 2018,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

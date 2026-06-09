@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T10:45:48.370Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "15369": "cache",
+      "18163": "cache",
+      "20097": "cache",
+      "20504": "cache",
+      "24316": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.53,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 3,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13874",
+    "name": "raisedbypixels",
+    "hltvRank": 100,
+    "elo": 1657,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "whisper",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.06,
+        "id": "24316",
+        "adr": 72.9,
+        "kast": 0.72
+      },
+      {
+        "name": "Bibu",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.02,
+        "id": "18163",
+        "adr": 72.6,
+        "kast": 0.754
+      },
+      {
+        "name": "h4rn",
+        "role": "Rifler",
+        "rating": 1.23,
+        "impact": 1.25,
+        "id": "20097",
+        "maps": 67,
+        "rounds": 1443,
+        "kd": 1.32,
+        "openingRating": 1.17,
+        "openingAttempts": 0.193,
+        "openingSuccess": 0.642,
+        "adr": 82.1,
+        "kast": 0.753
+      },
+      {
+        "name": "REDSTAR",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.14,
+        "id": "15369",
+        "maps": 66,
+        "rounds": 1400,
+        "kd": 1.26,
+        "openingRating": 0.97,
+        "openingAttempts": 0.16899999999999998,
+        "openingSuccess": 0.517,
+        "adr": 77.5,
+        "kast": 0.75
+      },
+      {
+        "name": "YumsaN",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.09,
+        "id": "20504",
+        "maps": 156,
+        "rounds": 3479,
+        "kd": 1.13,
+        "openingRating": 1.11,
+        "openingAttempts": 0.188,
+        "openingSuccess": 0.606,
+        "adr": 73,
+        "kast": 0.7190000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "recentMatches": [],
+    "mapProfiles": {},
+    "mapsPlayed": 0
+  },
+  "lineup": [
+    {
+      "id": "24316",
+      "name": "whisper"
+    },
+    {
+      "id": "18163",
+      "name": "Bibu"
+    },
+    {
+      "id": "20097",
+      "name": "h4rn"
+    },
+    {
+      "id": "15369",
+      "name": "REDSTAR"
+    },
+    {
+      "id": "20504",
+      "name": "YumsaN"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

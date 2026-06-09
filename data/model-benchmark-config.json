@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "name": "kaggle-cs2-fixed-temporal-benchmark",
+  "createdAt": "2026-06-08",
+  "goal": "Stable benchmark for comparing CS2 match win-probability models without training on future matches.",
+  "rankingMetric": [
+    "aggregate.logLoss asc",
+    "aggregate.brier asc",
+    "aggregate.accuracy desc"
+  ],
+  "splits": {
+    "type": "monthly expanding window",
+    "validationMonths": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04"
+    ],
+    "trainRule": "For each validation month, train only on rows before the first day of that month.",
+    "calibrationRule": "Reserve the newest part of the training window for calibration and hyperparameter selection."
+  },
+  "training": {
+    "experimentsPerSplit": 60,
+    "configMode": "random",
+    "seed": 20260608,
+    "calibration": "auto",
+    "calibrationRatio": 0.15,
+    "minTrainRows": 500,
+    "minValidationRows": 30,
+    "minCalibrationRows": 80
+  },
+  "datasets": [
+    {
+      "label": "alltiers-prior3-lineup3-enhanced",
+      "path": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3-enhanced.json"
+    },
+    {
+      "label": "alltiers-prior3-lineup3",
+      "path": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3.json"
+    },
+    {
+      "label": "tier1-prior1-lineup2",
+      "path": "static/data/kaggle-variants/training-dataset-tier1-prior1-lineup2.json"
+    },
+    {
+      "label": "tier1-prior3-lineup3",
+      "path": "static/data/kaggle-variants/training-dataset-tier1-prior3-lineup3.json"
+    },
+    {
+      "label": "tier1-prior3-lineup4",
+      "path": "static/data/kaggle-variants/training-dataset-tier1-prior3-lineup4.json"
+    },
+    {
+      "label": "tier1-prior5-lineup3",
+      "path": "static/data/kaggle-variants/training-dataset-tier1-prior5-lineup3.json"
+    },
+    {
+      "label": "tier2-prior3-lineup3",
+      "path": "static/data/kaggle-variants/training-dataset-tier2-prior3-lineup3.json"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:28.520Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20071": "cache",
+      "20686": "cache",
+      "22129": "cache",
+      "23297": "cache",
+      "24895": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13868",
+    "name": "DragonClaw",
+    "hltvRank": 72,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "fanatyk",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 0.88,
+        "id": "20071",
+        "adr": 71.5,
+        "kast": 0.7340000000000001
+      },
+      {
+        "name": "suonko",
+        "role": "Rifler",
+        "rating": 1.24,
+        "impact": 1.41,
+        "id": "20686",
+        "adr": 88.2,
+        "kast": 0.73
+      },
+      {
+        "name": "AntyVirus",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.38,
+        "id": "22129",
+        "adr": 85.6,
+        "kast": 0.728
+      },
+      {
+        "name": "PeTeRoOo",
+        "role": "Rifler",
+        "rating": 0.87,
+        "impact": 0.71,
+        "id": "23297",
+        "adr": 60.9,
+        "kast": 0.73
+      },
+      {
+        "name": "Brylu",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.02,
+        "id": "24895",
+        "adr": 71.9,
+        "kast": 0.7140000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 5
+  },
+  "lineup": [
+    {
+      "id": "20071",
+      "name": "fanatyk"
+    },
+    {
+      "id": "20686",
+      "name": "suonko"
+    },
+    {
+      "id": "22129",
+      "name": "AntyVirus"
+    },
+    {
+      "id": "23297",
+      "name": "PeTeRoOo"
+    },
+    {
+      "id": "24895",
+      "name": "Brylu"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

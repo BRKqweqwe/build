@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-09T11:14:14.579Z",
+  "source": {
+    "dataset": "static/data/hltv-dataset.json",
+    "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+    "market": "static/data/market-comparisons.json",
+    "results": "static/data/model-results.json",
+    "maxRank": 100
+  },
+  "summary": {
+    "total": 19,
+    "withMarket": 17,
+    "withHistory": 7,
+    "pendingHistory": 6,
+    "skipped": {
+      "missingTeams": 0,
+      "rank": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "pandascore-1517512",
+      "match": {
+        "id": "pandascore-1517512",
+        "pandaScoreId": 1517512,
+        "startTime": "2026-06-09T08:03:21Z",
+        "event": "NODWIN Clutch Series - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "running"
+      },
+      "teamA": {
+        "id": "12380",
+        "name": "CYBERSHOKE",
+        "hltvRank": 60,
+        "probability": 0.5086698893488714,
+        "baseProbability": 0.4495001973223886
+      },
+      "teamB": {
+        "id": "13617",
+        "name": "ex-RUBY",
+        "hltvRank": 75,
+        "probability": 0.49133011065112864,
+        "baseProbability": 0.5504998026776113
+      },
+      "pick": {
+        "teamId": "12380",
+        "name": "CYBERSHOKE",
+        "probability": 0.5086698893488714,
+        "confidence": 0.2647388118930813
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "ex-RUBY",
+        "underdog": "CYBERSHOKE",
+        "teamAProbability": 0.05,
+        "teamBProbability": 0.95,
+        "favoriteProbability": 0.95,
+        "question": "Counter-Strike: CYBERSHOKE Esports vs ex-RUBY (BO3) - NODWIN Clutch Series Group Stage",
+        "url": "https://polymarket.com/event/cs2-cs1-ruby1-2026-06-09",
+        "liquidity": "30130.1603",
+        "volume": "17506.233770999992",
+        "edgeTeamA": 0.4586698893488714,
+        "edgeTeamB": -0.4586698893488713,
+        "edgePick": 0.4586698893488714,
+        "disagreement": true
+      },
+      "history": {
+        "id": "2026-06-09-cybershoke-ex-ruby",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1517513",
+      "match": {
+        "id": "pandascore-1517513",
+        "pandaScoreId": 1517513,
+        "startTime": "2026-06-09T11:00:00Z",
+        "event": "NODWIN Clutch Series - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12916",
+        "name": "Betclic",
+        "hltvRank": 85,
+        "probability": 0.5435341174818452,
+        "baseProbability": 0.5010132856857585
+      },
+      "teamB": {
+        "id": "13237",
+        "name": "AM",
+        "hltvRank": 73,
+        "probability": 0.4564658825181548,
+        "baseProbability": 0.49898671431424146
+      },
+      "pick": {
+        "teamId": "12916",
+        "name": "Betclic",
+        "probability": 0.5435341174818452,
+        "confidence": 0.32400799971913685
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "AM",
+        "underdog": "Betclic",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "favoriteProbability": 0.555,
+        "question": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
+        "url": "https://polymarket.com/event/cs2-bca-am-2026-06-09",
+        "liquidity": "24278.6618",
+        "volume": "519.047324",
+        "edgeTeamA": 0.09853411748184521,
+        "edgeTeamB": -0.09853411748184526,
+        "edgePick": 0.09853411748184521,
+        "disagreement": true
+      },
+      "history": {
+        "id": "2026-06-09-betclic-am",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1508713",
+      "match": {
+        "id": "pandascore-1508713",
+        "pandaScoreId": 1508713,
+        "startTime": "2026-06-09T12:00:00Z",
+        "event": "IEM - Cologne Major - Stage 2",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11811",
+        "name": "Monte",
+        "hltvRank": 21,
+        "probability": 0.5650105603024664,
+        "baseProbability": 0.5330872961966688
+      },
+      "teamB": {
+        "id": "4773",
+        "name": "paiN",
+        "hltvRank": 20,
+        "probability": 0.43498943969753356,
+        "baseProbability": 0.46691270380333116
+      },
+      "pick": {
+        "teamId": "11811",
+        "name": "Monte",
+        "probability": 0.5650105603024664,
+        "confidence": 0.36051795251419294
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Monte",
+        "underdog": "paiN",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "favoriteProbability": 0.535,
+        "question": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
+        "url": "https://polymarket.com/event/cs2-mnte-pain-2026-06-09",
+        "liquidity": "486166.4729",
+        "volume": "364097.692882",
+        "edgeTeamA": 0.030010560302466405,
+        "edgeTeamB": -0.03001056030246646,
+        "edgePick": 0.030010560302466405,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-09-monte-pain",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1519565",
+      "match": {
+        "id": "pandascore-1519565",
+        "pandaScoreId": 1519565,
+        "startTime": "2026-06-09T14:00:00Z",
+        "event": "CCT Europe - Series #4 - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "5378",
+        "name": "Virtus.pro",
+        "hltvRank": 40,
+        "probability": 0.6102221333304233,
+        "baseProbability": 0.6007258896537186
+      },
+      "teamB": {
+        "id": "13553",
+        "name": "Oxuji",
+        "hltvRank": 80,
+        "probability": 0.3897778666695767,
+        "baseProbability": 0.39927411034628135
+      },
+      "pick": {
+        "teamId": "5378",
+        "name": "Virtus.pro",
+        "probability": 0.6102221333304233,
+        "confidence": 0.43737762666171964
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Virtus.pro",
+        "underdog": "Oxuji",
+        "teamAProbability": 0.66,
+        "teamBProbability": 0.34,
+        "favoriteProbability": 0.66,
+        "question": "Counter-Strike: Virtus.pro vs Oxuji Esports (BO3) - CCT Europe Series 4 Group Stage",
+        "url": "https://polymarket.com/event/cs2-vp-oxuji-2026-06-09",
+        "liquidity": "38382.8394",
+        "volume": "34326.594761999986",
+        "edgeTeamA": -0.04977786666957673,
+        "edgeTeamB": 0.049777866669576676,
+        "edgePick": -0.04977786666957673,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-09-virtus-pro-oxuji",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1508714",
+      "match": {
+        "id": "pandascore-1508714",
+        "pandaScoreId": 1508714,
+        "startTime": "2026-06-09T14:30:00Z",
+        "event": "IEM - Cologne Major - Stage 2",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "4863",
+        "name": "TYLOO",
+        "hltvRank": 25,
+        "probability": 0.429326627211865,
+        "baseProbability": 0.3374812724835705
+      },
+      "teamB": {
+        "id": "12468",
+        "name": "Legacy",
+        "hltvRank": 5,
+        "probability": 0.570673372788135,
+        "baseProbability": 0.6625187275164295
+      },
+      "pick": {
+        "teamId": "12468",
+        "name": "Legacy",
+        "probability": 0.570673372788135,
+        "confidence": 0.37014473373982953
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Legacy",
+        "underdog": "TYLOO",
+        "teamAProbability": 0.275,
+        "teamBProbability": 0.725,
+        "favoriteProbability": 0.725,
+        "question": "Counter-Strike: TYLOO vs Legacy (BO3) - IEM Cologne Major Stage 2",
+        "url": "https://polymarket.com/event/cs2-tyloo-lgc-2026-06-09",
+        "liquidity": "421282.2642",
+        "volume": "148239.61583000075",
+        "edgeTeamA": 0.15432662721186496,
+        "edgeTeamB": -0.15432662721186496,
+        "edgePick": -0.15432662721186496,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-09-tyloo-legacy",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1508715",
+      "match": {
+        "id": "pandascore-1508715",
+        "pandaScoreId": 1508715,
+        "startTime": "2026-06-09T17:00:00Z",
+        "event": "IEM - Cologne Major - Stage 2",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "7532",
+        "name": "BIG",
+        "hltvRank": 28,
+        "probability": 0.5150086489151372,
+        "baseProbability": 0.45879415904047877
+      },
+      "teamB": {
+        "id": "11241",
+        "name": "B8",
+        "hltvRank": 16,
+        "probability": 0.4849913510848628,
+        "baseProbability": 0.5412058409595213
+      },
+      "pick": {
+        "teamId": "7532",
+        "name": "BIG",
+        "probability": 0.5150086489151372,
+        "confidence": 0.27551470315573323
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "B8",
+        "underdog": "BIG",
+        "teamAProbability": 0.455,
+        "teamBProbability": 0.545,
+        "favoriteProbability": 0.545,
+        "question": "Counter-Strike: BIG vs B8 (BO3) - IEM Cologne Major Stage 2",
+        "url": "https://polymarket.com/event/cs2-big5-b8-2026-06-09",
+        "liquidity": "579082.9978",
+        "volume": "283462.10955299943",
+        "edgeTeamA": 0.060008648915137186,
+        "edgeTeamB": -0.06000864891513724,
+        "edgePick": 0.060008648915137186,
+        "disagreement": true
+      },
+      "history": {
+        "id": "2026-06-09-big-b8",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1517515",
+      "match": {
+        "id": "pandascore-1517515",
+        "pandaScoreId": 1517515,
+        "startTime": "2026-06-10T08:00:00Z",
+        "event": "NODWIN Clutch Series - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "10459",
+        "name": "ARCRED",
+        "hltvRank": 58,
+        "probability": 0.5588820670971694,
+        "baseProbability": 0.5239191933273335
+      },
+      "teamB": {
+        "id": "13518",
+        "name": "Acend",
+        "hltvRank": 61,
+        "probability": 0.44111793290283063,
+        "baseProbability": 0.4760808066726665
+      },
+      "pick": {
+        "teamId": "10459",
+        "name": "ARCRED",
+        "probability": 0.5588820670971694,
+        "confidence": 0.3500995140651879
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1504761",
+      "match": {
+        "id": "pandascore-1504761",
+        "pandaScoreId": 1504761,
+        "startTime": "2026-06-10T10:30:00Z",
+        "event": "European Pro League - Series 7 - Group C",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12889",
+        "name": "G2 Ares",
+        "hltvRank": 88,
+        "probability": 0.5303879036318974,
+        "baseProbability": 0.48148582214198765
+      },
+      "teamB": {
+        "id": "10960",
+        "name": "Young Ninjas",
+        "hltvRank": 98,
+        "probability": 0.46961209636810264,
+        "baseProbability": 0.5185141778580123
+      },
+      "pick": {
+        "teamId": "12889",
+        "name": "G2 Ares",
+        "probability": 0.5303879036318974,
+        "confidence": 0.3016594361742255
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.8999999999999999,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Young Ninjas",
+        "underdog": "G2 Ares",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "favoriteProbability": 0.555,
+        "question": "Counter-Strike: G2 Ares vs Young Ninjas (BO3) - European Pro League Series 7 Group C",
+        "url": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
+        "liquidity": "2407.0203",
+        "volume": "97.460342",
+        "edgeTeamA": 0.08538790363189735,
+        "edgeTeamB": -0.08538790363189741,
+        "edgePick": 0.08538790363189735,
+        "disagreement": true
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1517517",
+      "match": {
+        "id": "pandascore-1517517",
+        "pandaScoreId": 1517517,
+        "startTime": "2026-06-10T14:00:00Z",
+        "event": "NODWIN Clutch Series - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "13808",
+        "name": "Walczaki",
+        "hltvRank": 45,
+        "probability": 0.5162213329351104,
+        "baseProbability": 0.4605764008601642
+      },
+      "teamB": {
+        "id": "13814",
+        "name": "INOX Division",
+        "hltvRank": 75,
+        "probability": 0.4837786670648896,
+        "baseProbability": 0.5394235991398357
+      },
+      "pick": {
+        "teamId": "13808",
+        "name": "Walczaki",
+        "probability": 0.5162213329351104,
+        "confidence": 0.2775762659896877
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.9099999999999999,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Walczaki",
+        "underdog": "INOX Division",
+        "teamAProbability": 0.575,
+        "teamBProbability": 0.425,
+        "favoriteProbability": 0.575,
+        "question": "Counter-Strike: Walczaki vs INOX Division (BO3) - NODWIN Clutch Series Group Stage",
+        "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
+        "liquidity": "1132.9392",
+        "volume": "19.647492",
+        "edgeTeamA": -0.058778667064889545,
+        "edgeTeamB": 0.0587786670648896,
+        "edgePick": -0.058778667064889545,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1519570",
+      "match": {
+        "id": "pandascore-1519570",
+        "pandaScoreId": 1519570,
+        "startTime": "2026-06-10T17:00:00Z",
+        "event": "CCT Europe - Series #4 - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "13501",
+        "name": "illwill",
+        "hltvRank": 64,
+        "probability": 0.534246163724925,
+        "baseProbability": 0.4872059955943899
+      },
+      "teamB": {
+        "id": "12889",
+        "name": "G2 Ares",
+        "hltvRank": 88,
+        "probability": 0.46575383627507505,
+        "baseProbability": 0.5127940044056101
+      },
+      "pick": {
+        "teamId": "13501",
+        "name": "illwill",
+        "probability": 0.534246163724925,
+        "confidence": 0.3082184783323724
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.9099999999999999,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "illwill",
+        "underdog": "G2 Ares",
+        "teamAProbability": 0.59,
+        "teamBProbability": 0.41,
+        "favoriteProbability": 0.59,
+        "question": "Counter-Strike: illwill vs G2 Ares (BO3) - CCT Europe Series 4 Group Stage",
+        "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
+        "liquidity": "2685.2662",
+        "volume": "35.984854",
+        "edgeTeamA": -0.05575383627507502,
+        "edgeTeamB": 0.055753836275075075,
+        "edgePick": -0.05575383627507502,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1504766",
+      "match": {
+        "id": "pandascore-1504766",
+        "pandaScoreId": 1504766,
+        "startTime": "2026-06-11T10:30:00Z",
+        "event": "European Pro League - Series 7 - Group D",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "13314",
+        "name": "KOLESIE",
+        "hltvRank": 86,
+        "probability": 0.519853413497723,
+        "baseProbability": 0.4659219722810407
+      },
+      "teamB": {
+        "id": "5378",
+        "name": "Virtus.pro",
+        "hltvRank": 40,
+        "probability": 0.48014658650227704,
+        "baseProbability": 0.5340780277189593
+      },
+      "pick": {
+        "teamId": "13314",
+        "name": "KOLESIE",
+        "probability": 0.519853413497723,
+        "confidence": 0.28375080294612903
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Virtus.pro",
+        "underdog": "KOLESIE",
+        "teamAProbability": 0.3,
+        "teamBProbability": 0.7,
+        "favoriteProbability": 0.7,
+        "question": "Counter-Strike: KOLESIE vs Virtus.pro (BO3) - European Pro League Series 7 Group D",
+        "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11",
+        "liquidity": "2542.9035",
+        "volume": "14.718612",
+        "edgeTeamA": 0.21985341349772297,
+        "edgeTeamB": -0.21985341349772292,
+        "edgePick": 0.21985341349772297,
+        "disagreement": true
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526528",
+      "match": {
+        "id": "pandascore-1526528",
+        "pandaScoreId": 1526528,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12394",
+        "name": "BetBoom",
+        "hltvRank": 17,
+        "probability": 0.6244768589433397,
+        "baseProbability": 0.6219129311247156
+      },
+      "teamB": {
+        "id": "11737",
+        "name": "EYEBALLERS",
+        "hltvRank": 36,
+        "probability": 0.3755231410566603,
+        "baseProbability": 0.3780870688752844
+      },
+      "pick": {
+        "teamId": "12394",
+        "name": "BetBoom",
+        "probability": 0.6244768589433397,
+        "confidence": 0.46161066020367747
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "BetBoom",
+        "underdog": "EYEBALLERS",
+        "teamAProbability": 0.695,
+        "teamBProbability": 0.305,
+        "favoriteProbability": 0.695,
+        "question": "Counter-Strike: BetBoom Team vs EYEBALLERS (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01",
+        "liquidity": "1140.4556",
+        "volume": "7.692304",
+        "edgeTeamA": -0.07052314105666024,
+        "edgeTeamB": 0.0705231410566603,
+        "edgePick": -0.07052314105666024,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526527",
+      "match": {
+        "id": "pandascore-1526527",
+        "pandaScoreId": 1526527,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11241",
+        "name": "B8",
+        "hltvRank": 16,
+        "probability": 0.6817210941897309,
+        "baseProbability": 0.7051024426097897
+      },
+      "teamB": {
+        "id": "4411",
+        "name": "Ninjas in Pyjamas",
+        "hltvRank": 23,
+        "probability": 0.3182789058102691,
+        "baseProbability": 0.2948975573902103
+      },
+      "pick": {
+        "teamId": "11241",
+        "name": "B8",
+        "probability": 0.6817210941897309,
+        "confidence": 0.5589258601225426
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1526526",
+      "match": {
+        "id": "pandascore-1526526",
+        "pandaScoreId": 1526526,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "9996",
+        "name": "9z",
+        "hltvRank": 15,
+        "probability": 0.6546450755901524,
+        "baseProbability": 0.6662258442002856
+      },
+      "teamB": {
+        "id": "13355",
+        "name": "Nemesis",
+        "hltvRank": 34,
+        "probability": 0.3453549244098476,
+        "baseProbability": 0.33377415579971437
+      },
+      "pick": {
+        "teamId": "9996",
+        "name": "9z",
+        "probability": 0.6546450755901524,
+        "confidence": 0.512896628503259
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "9z",
+        "underdog": "Nemesis",
+        "teamAProbability": 0.6,
+        "teamBProbability": 0.4,
+        "favoriteProbability": 0.6,
+        "question": "Counter-Strike: 9z vs Team Nemesis (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01",
+        "liquidity": "869.9474",
+        "volume": "406.162313",
+        "edgeTeamA": 0.054645075590152414,
+        "edgeTeamB": -0.054645075590152414,
+        "edgePick": 0.054645075590152414,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526525",
+      "match": {
+        "id": "pandascore-1526525",
+        "pandaScoreId": 1526525,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "4914",
+        "name": "3DMAX",
+        "hltvRank": 27,
+        "probability": 0.5755365788483705,
+        "baseProbability": 0.5488493162435478
+      },
+      "teamB": {
+        "id": "12474",
+        "name": "Alliance",
+        "hltvRank": 30,
+        "probability": 0.4244634211516295,
+        "baseProbability": 0.4511506837564522
+      },
+      "pick": {
+        "teamId": "4914",
+        "name": "3DMAX",
+        "probability": 0.5755365788483705,
+        "confidence": 0.37841218404222987
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "3DMAX",
+        "underdog": "Alliance",
+        "teamAProbability": 0.545,
+        "teamBProbability": 0.455,
+        "favoriteProbability": 0.545,
+        "question": "Counter-Strike: 3DMAX vs Alliance (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01",
+        "liquidity": "930.3788",
+        "volume": "377.261723",
+        "edgeTeamA": 0.030536578848370466,
+        "edgeTeamB": -0.03053657884837052,
+        "edgePick": 0.030536578848370466,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526524",
+      "match": {
+        "id": "pandascore-1526524",
+        "pandaScoreId": 1526524,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11811",
+        "name": "Monte",
+        "hltvRank": 21,
+        "probability": 0.5578961738479571,
+        "baseProbability": 0.5224452306012076
+      },
+      "teamB": {
+        "id": "9215",
+        "name": "MIBR",
+        "hltvRank": 18,
+        "probability": 0.4421038261520429,
+        "baseProbability": 0.4775547693987924
+      },
+      "pick": {
+        "teamId": "11811",
+        "name": "Monte",
+        "probability": 0.5578961738479571,
+        "confidence": 0.3484234955415271
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Monte",
+        "underdog": "MIBR",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "favoriteProbability": 0.535,
+        "question": "Counter-Strike: Monte vs MIBR (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01",
+        "liquidity": "896.9231",
+        "volume": "536.0778270000001",
+        "edgeTeamA": 0.022896173847957058,
+        "edgeTeamB": -0.022896173847957113,
+        "edgePick": 0.022896173847957058,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526523",
+      "match": {
+        "id": "pandascore-1526523",
+        "pandaScoreId": 1526523,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12467",
+        "name": "PARIVISION",
+        "hltvRank": 14,
+        "probability": 0.5875497472397131,
+        "baseProbability": 0.566842772954384
+      },
+      "teamB": {
+        "id": "7532",
+        "name": "BIG",
+        "hltvRank": 28,
+        "probability": 0.4124502527602869,
+        "baseProbability": 0.433157227045616
+      },
+      "pick": {
+        "teamId": "12467",
+        "name": "PARIVISION",
+        "probability": 0.5875497472397131,
+        "confidence": 0.39883457030751224
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "PARIVISION",
+        "underdog": "BIG",
+        "teamAProbability": 0.58,
+        "teamBProbability": 0.42,
+        "favoriteProbability": 0.58,
+        "question": "Counter-Strike: PARIVISION vs BIG (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01",
+        "liquidity": "911.7529",
+        "volume": "78.94341",
+        "edgeTeamA": 0.007549747239713134,
+        "edgeTeamB": -0.007549747239713078,
+        "edgePick": 0.007549747239713134,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1526522",
+      "match": {
+        "id": "pandascore-1526522",
+        "pandaScoreId": 1526522,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12468",
+        "name": "Legacy",
+        "hltvRank": 5,
+        "probability": 0.6660260901414606,
+        "baseProbability": 0.6826891707037076
+      },
+      "teamB": {
+        "id": "12376",
+        "name": "M80",
+        "hltvRank": 25,
+        "probability": 0.33397390985853936,
+        "baseProbability": 0.3173108292962924
+      },
+      "pick": {
+        "teamId": "12468",
+        "name": "Legacy",
+        "probability": 0.6660260901414606,
+        "confidence": 0.532244353240483
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "Legacy",
+        "underdog": "M80",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "favoriteProbability": 0.535,
+        "question": "Counter-Strike: Legacy vs M80 (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01",
+        "liquidity": "66759.8158",
+        "volume": "46128.28764899999",
+        "edgeTeamA": 0.1310260901414606,
+        "edgeTeamB": -0.13102609014146066,
+        "edgePick": 0.1310260901414606,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-08-m80-legacy",
+        "status": "hit",
+        "resultWinner": "Legacy",
+        "probabilityForWinner": 0.671283129100263
+      }
+    },
+    {
+      "id": "pandascore-1526521",
+      "match": {
+        "id": "pandascore-1526521",
+        "pandaScoreId": 1526521,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "6667",
+        "name": "FaZe",
+        "hltvRank": 22,
+        "probability": 0.6708122567170661,
+        "baseProbability": 0.6895619080071667
+      },
+      "teamB": {
+        "id": "10577",
+        "name": "SINNERS",
+        "hltvRank": 42,
+        "probability": 0.3291877432829339,
+        "baseProbability": 0.31043809199283334
+      },
+      "pick": {
+        "teamId": "6667",
+        "name": "FaZe",
+        "probability": 0.6708122567170661,
+        "confidence": 0.5403808364190124
+      },
+      "model": {
+        "type": "logistic-regression-progressive-curriculum",
+        "generatedAt": "2026-06-09T10:58:31.157Z",
+        "calibration": {
+          "type": "platt",
+          "a": 0.6766622221181056,
+          "b": 0.1718359057655359,
+          "calibrationLogLoss": 0.6623200618633371
+        },
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "market": {
+        "favorite": "FaZe",
+        "underdog": "SINNERS",
+        "teamAProbability": 0.62,
+        "teamBProbability": 0.38,
+        "favoriteProbability": 0.62,
+        "question": "Counter-Strike: FaZe vs Sinners (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-faze-sin2-2026-07-01",
+        "liquidity": "1230.0354",
+        "volume": "188.535576",
+        "edgeTeamA": 0.05081225671706613,
+        "edgeTeamB": -0.05081225671706613,
+        "edgePick": 0.05081225671706613,
+        "disagreement": false
+      },
+      "history": null
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-08T14:57:35.580Z",
+  "type": "logistic-regression-baseline",
+  "source": {
+    "trainingDataset": "static/data/kaggle-variants/training-dataset-tier1-prior1-lineup2.json",
+    "rows": 5460,
+    "warning": "Features are rolling pre-map/pre-match estimates built only from earlier match groups. Current-row player stats are used only after rows for a match are emitted."
+  },
+  "hyperparameters": {
+    "epochs": 1400,
+    "learningRate": 0.06,
+    "l2": 0.003
+  },
+  "features": [
+    "teamMapsA",
+    "teamMapsB",
+    "teamWinRateA",
+    "teamWinRateB",
+    "recentWinRateA",
+    "recentWinRateB",
+    "mapMapsA",
+    "mapMapsB",
+    "mapWinRateA",
+    "mapWinRateB",
+    "roundDiffA",
+    "roundDiffB",
+    "mapRoundDiffA",
+    "mapRoundDiffB",
+    "eloA",
+    "eloB",
+    "h2hMaps",
+    "h2hWinRateA",
+    "h2hWinRateB",
+    "daysSinceLastMapA",
+    "daysSinceLastMapB",
+    "lineupCoverageA",
+    "lineupCoverageB",
+    "lineupMapsAvgA",
+    "lineupMapsAvgB",
+    "playerKillsAvgA",
+    "playerKillsAvgB",
+    "playerDeathsAvgA",
+    "playerDeathsAvgB",
+    "playerAssistsAvgA",
+    "playerAssistsAvgB",
+    "playerAdrAvgA",
+    "playerAdrAvgB",
+    "playerKastAvgA",
+    "playerKastAvgB",
+    "playerKdDiffAvgA",
+    "playerKdDiffAvgB",
+    "winRateDiff",
+    "recentWinRateDiff",
+    "mapWinRateDiff",
+    "roundDiffDiff",
+    "mapRoundDiffDiff",
+    "eloDiff",
+    "h2hWinRateDiff",
+    "restDiff",
+    "lineupMapsAvgDiff",
+    "playerKillsAvgDiff",
+    "playerDeathsAvgDiff",
+    "playerAssistsAvgDiff",
+    "playerAdrAvgDiff",
+    "playerKastAvgDiff",
+    "playerKdDiffAvgDiff",
+    "isLan",
+    "isBo1",
+    "isBo3",
+    "isBo5",
+    "eventTier"
+  ],
+  "intercept": 0.1835363494057318,
+  "coefficients": {
+    "teamMapsA": -0.11338223660232197,
+    "teamMapsB": 0.06066083536460743,
+    "teamWinRateA": -0.074736895150305,
+    "teamWinRateB": 0.0048195576489980735,
+    "recentWinRateA": 0.006337746425048664,
+    "recentWinRateB": 0.038790533049535454,
+    "mapMapsA": 0.07762755919677036,
+    "mapMapsB": -0.11126400210905583,
+    "mapWinRateA": -0.007407768122715621,
+    "mapWinRateB": -0.052282849577577714,
+    "roundDiffA": -0.059498943134464286,
+    "roundDiffB": -0.05737985290738476,
+    "mapRoundDiffA": -0.01058206977529346,
+    "mapRoundDiffB": -0.02183929540322904,
+    "eloA": 0.12937838548030128,
+    "eloB": -0.07147759572401036,
+    "h2hMaps": 0.048122164752982644,
+    "h2hWinRateA": 0.022753466604219404,
+    "h2hWinRateB": -0.022753466604218925,
+    "daysSinceLastMapA": 0.04473973053021521,
+    "daysSinceLastMapB": 0.017774355186089726,
+    "lineupCoverageA": 0.0679281176543295,
+    "lineupCoverageB": -0.0514633591641934,
+    "lineupMapsAvgA": 0.026983035445215495,
+    "lineupMapsAvgB": -0.08229154623641738,
+    "playerKillsAvgA": 0.07805575507936328,
+    "playerKillsAvgB": -0.04740223688304234,
+    "playerDeathsAvgA": -0.032222339028768976,
+    "playerDeathsAvgB": -0.03174370524690757,
+    "playerAssistsAvgA": -0.018418273763394482,
+    "playerAssistsAvgB": 0.029548807569593053,
+    "playerAdrAvgA": -0.06038138896786946,
+    "playerAdrAvgB": -0.050421081942903206,
+    "playerKastAvgA": 0.09112488748269172,
+    "playerKastAvgB": 0.09150356429855445,
+    "playerKdDiffAvgA": 0.09232249809943859,
+    "playerKdDiffAvgB": -0.01809602570755009,
+    "winRateDiff": -0.06457887016484377,
+    "recentWinRateDiff": -0.028296933848420396,
+    "mapWinRateDiff": 0.03334065156700369,
+    "roundDiffDiff": 0.001138593417795861,
+    "mapRoundDiffDiff": 0.008667056176021017,
+    "eloDiff": 0.19976412410950278,
+    "h2hWinRateDiff": 0.02275346660421919,
+    "restDiff": -0.015005834664563587,
+    "lineupMapsAvgDiff": 0.12665629172046763,
+    "playerKillsAvgDiff": 0.09430237928509923,
+    "playerDeathsAvgDiff": 0.000857948643323902,
+    "playerAssistsAvgDiff": -0.03558692885848098,
+    "playerAdrAvgDiff": -0.00505368525341556,
+    "playerKastAvgDiff": -0.007276905388966543,
+    "playerKdDiffAvgDiff": 0.0919231666572381,
+    "isLan": -0.025863158362865152,
+    "isBo1": -0.00016123387913039334,
+    "isBo3": -0.007615123948114186,
+    "isBo5": 0.014643372393279801,
+    "eventTier": -0.045054513782087496
+  },
+  "scalers": {
+    "teamMapsA": {
+      "mean": 107.86263736263736,
+      "std": 85.47903099336405
+    },
+    "teamMapsB": {
+      "mean": 93.35141941391942,
+      "std": 79.59546525176286
+    },
+    "teamWinRateA": {
+      "mean": 0.5285999822900312,
+      "std": 0.13044102405379415
+    },
+    "teamWinRateB": {
+      "mean": 0.5068604028954012,
+      "std": 0.13678463885037553
+    },
+    "recentWinRateA": {
+      "mean": 0.5232819677016091,
+      "std": 0.183654022762774
+    },
+    "recentWinRateB": {
+      "mean": 0.5023001882376879,
+      "std": 0.19131017612088708
+    },
+    "mapMapsA": {
+      "mean": 16.367673992673993,
+      "std": 15.041270419586047
+    },
+    "mapMapsB": {
+      "mean": 14.196886446886447,
+      "std": 13.733753952645095
+    },
+    "mapWinRateA": {
+      "mean": 0.5337090751316418,
+      "std": 0.22383860483212453
+    },
+    "mapWinRateB": {
+      "mean": 0.5124910339816192,
+      "std": 0.2303571044331702
+    },
+    "roundDiffA": {
+      "mean": 0.3544757652454873,
+      "std": 1.6728541490567992
+    },
+    "roundDiffB": {
+      "mean": 0.03709262574672769,
+      "std": 1.7755598031665458
+    },
+    "mapRoundDiffA": {
+      "mean": 0.4170101726496493,
+      "std": 2.6766463529755407
+    },
+    "mapRoundDiffB": {
+      "mean": 0.08693918834005064,
+      "std": 2.801390778483784
+    },
+    "eloA": {
+      "mean": 1580.5908233991559,
+      "std": 103.7337946929224
+    },
+    "eloB": {
+      "mean": 1554.2063811006894,
+      "std": 89.64160221661571
+    },
+    "h2hMaps": {
+      "mean": 3.188644688644689,
+      "std": 4.758175843458338
+    },
+    "h2hWinRateA": {
+      "mean": 0.5220602272470909,
+      "std": 0.23914849713509403
+    },
+    "h2hWinRateB": {
+      "mean": 0.4779397727529079,
+      "std": 0.23914849713509115
+    },
+    "daysSinceLastMapA": {
+      "mean": 7.092032967032967,
+      "std": 15.490669845984579
+    },
+    "daysSinceLastMapB": {
+      "mean": 8.9235347985348,
+      "std": 21.58932621812918
+    },
+    "lineupCoverageA": {
+      "mean": 0.995787545787546,
+      "std": 0.032319131977500755
+    },
+    "lineupCoverageB": {
+      "mean": 0.9933608058608069,
+      "std": 0.04173290532537239
+    },
+    "lineupMapsAvgA": {
+      "mean": 98.7417582417576,
+      "std": 77.56499274924238
+    },
+    "lineupMapsAvgB": {
+      "mean": 83.06249999999925,
+      "std": 69.35977928937861
+    },
+    "playerKillsAvgA": {
+      "mean": 14.493105190282629,
+      "std": 0.9585488852374712
+    },
+    "playerKillsAvgB": {
+      "mean": 14.378420115363717,
+      "std": 1.0528106968864854
+    },
+    "playerDeathsAvgA": {
+      "mean": 14.274431116675968,
+      "std": 0.8677809972140811
+    },
+    "playerDeathsAvgB": {
+      "mean": 14.328231816133593,
+      "std": 0.9118423251145988
+    },
+    "playerAssistsAvgA": {
+      "mean": 4.924599170972598,
+      "std": 0.40673997213561613
+    },
+    "playerAssistsAvgB": {
+      "mean": 4.8773968346877075,
+      "std": 0.43402399056844676
+    },
+    "playerAdrAvgA": {
+      "mean": 73.15945957975977,
+      "std": 2.960653264580829
+    },
+    "playerAdrAvgB": {
+      "mean": 72.69366653470826,
+      "std": 3.1649395474973376
+    },
+    "playerKastAvgA": {
+      "mean": 71.89526918155046,
+      "std": 2.6786018168712857
+    },
+    "playerKastAvgB": {
+      "mean": 71.53559297918224,
+      "std": 2.940757254768572
+    },
+    "playerKdDiffAvgA": {
+      "mean": 0.21867407360658764,
+      "std": 1.1132951623769338
+    },
+    "playerKdDiffAvgB": {
+      "mean": 0.05018829922997743,
+      "std": 1.158283502987834
+    },
+    "winRateDiff": {
+      "mean": 0.021739579394632516,
+      "std": 0.16116724501182103
+    },
+    "recentWinRateDiff": {
+      "mean": 0.020981779463922403,
+      "std": 0.2211218754949524
+    },
+    "mapWinRateDiff": {
+      "mean": 0.02121804115002329,
+      "std": 0.31149905207537903
+    },
+    "roundDiffDiff": {
+      "mean": 0.3173831394987605,
+      "std": 2.0624626932447496
+    },
+    "mapRoundDiffDiff": {
+      "mean": 0.3300709843095993,
+      "std": 3.7908998872211437
+    },
+    "eloDiff": {
+      "mean": 26.384442298458772,
+      "std": 99.25844877701479
+    },
+    "h2hWinRateDiff": {
+      "mean": 0.04412045449418262,
+      "std": 0.4782969942701883
+    },
+    "restDiff": {
+      "mean": 1.8315018315018314,
+      "std": 20.612784901791485
+    },
+    "lineupMapsAvgDiff": {
+      "mean": 15.67925824175824,
+      "std": 61.58922171996388
+    },
+    "playerKillsAvgDiff": {
+      "mean": 0.11468507491888724,
+      "std": 1.3226160358842465
+    },
+    "playerDeathsAvgDiff": {
+      "mean": -0.053800699457722645,
+      "std": 1.146129797865246
+    },
+    "playerAssistsAvgDiff": {
+      "mean": 0.04720233628492793,
+      "std": 0.5708933079333943
+    },
+    "playerAdrAvgDiff": {
+      "mean": 0.46579304505152547,
+      "std": 3.796967784248607
+    },
+    "playerKastAvgDiff": {
+      "mean": 0.3596762023678308,
+      "std": 3.435867314240406
+    },
+    "playerKdDiffAvgDiff": {
+      "mean": 0.168485774376609,
+      "std": 1.3461516074698279
+    },
+    "isLan": {
+      "mean": 0.8108974358974359,
+      "std": 0.3915900718256168
+    },
+    "isBo1": {
+      "mean": 0.08218864468864469,
+      "std": 0.27465190946522466
+    },
+    "isBo3": {
+      "mean": 0.8896520146520146,
+      "std": 0.31332300821615744
+    },
+    "isBo5": {
+      "mean": 0.026785714285714284,
+      "std": 0.1614566189287919
+    },
+    "eventTier": {
+      "mean": 1.2472527472527473,
+      "std": 0.5204092485109125
+    }
+  },
+  "metrics": {
+    "train": {
+      "rows": 4368,
+      "accuracy": 0.6096611721611722,
+      "logLoss": 0.6531978068848336,
+      "brier": 0.23081364204066906
+    },
+    "validation": {
+      "rows": 1092,
+      "accuracy": 0.5998168498168498,
+      "logLoss": 0.668543001980079,
+      "brier": 0.23748687031789467
+    }
+  },
+  "topCoefficients": [
+    {
+      "name": "eloDiff",
+      "weight": 0.19976412410950278,
+      "abs": 0.19976412410950278
+    },
+    {
+      "name": "eloA",
+      "weight": 0.12937838548030128,
+      "abs": 0.12937838548030128
+    },
+    {
+      "name": "lineupMapsAvgDiff",
+      "weight": 0.12665629172046763,
+      "abs": 0.12665629172046763
+    },
+    {
+      "name": "teamMapsA",
+      "weight": -0.11338223660232197,
+      "abs": 0.11338223660232197
+    },
+    {
+      "name": "mapMapsB",
+      "weight": -0.11126400210905583,
+      "abs": 0.11126400210905583
+    },
+    {
+      "name": "playerKillsAvgDiff",
+      "weight": 0.09430237928509923,
+      "abs": 0.09430237928509923
+    },
+    {
+      "name": "playerKdDiffAvgA",
+      "weight": 0.09232249809943859,
+      "abs": 0.09232249809943859
+    },
+    {
+      "name": "playerKdDiffAvgDiff",
+      "weight": 0.0919231666572381,
+      "abs": 0.0919231666572381
+    },
+    {
+      "name": "playerKastAvgB",
+      "weight": 0.09150356429855445,
+      "abs": 0.09150356429855445
+    },
+    {
+      "name": "playerKastAvgA",
+      "weight": 0.09112488748269172,
+      "abs": 0.09112488748269172
+    },
+    {
+      "name": "lineupMapsAvgB",
+      "weight": -0.08229154623641738,
+      "abs": 0.08229154623641738
+    },
+    {
+      "name": "playerKillsAvgA",
+      "weight": 0.07805575507936328,
+      "abs": 0.07805575507936328
+    },
+    {
+      "name": "mapMapsA",
+      "weight": 0.07762755919677036,
+      "abs": 0.07762755919677036
+    },
+    {
+      "name": "teamWinRateA",
+      "weight": -0.074736895150305,
+      "abs": 0.074736895150305
+    },
+    {
+      "name": "eloB",
+      "weight": -0.07147759572401036,
+      "abs": 0.07147759572401036
+    }
+  ]
+}

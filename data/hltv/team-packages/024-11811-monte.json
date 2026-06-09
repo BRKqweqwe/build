@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:57.213Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "17145": "cache",
+      "19015": "cache",
+      "19926": "cache",
+      "21816": "cache",
+      "22106": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.613,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 1,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "11811",
+    "name": "Monte",
+    "hltvRank": 24,
+    "elo": 2189,
+    "recentWins": 1,
+    "recentLosses": 1,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "afro",
+        "role": "Rifler",
+        "rating": 1.17,
+        "impact": 1.15,
+        "openingRating": 1.27,
+        "id": "19926",
+        "maps": 46,
+        "rounds": 995,
+        "kd": 1.23,
+        "openingAttempts": 0.215,
+        "openingSuccess": 0.6729999999999999,
+        "adr": 76.2,
+        "kast": 0.726
+      },
+      {
+        "name": "Rainwaker",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.07,
+        "openingRating": 1.03,
+        "id": "17145",
+        "maps": 46,
+        "rounds": 995,
+        "kd": 1.11,
+        "openingAttempts": 0.17,
+        "openingSuccess": 0.568,
+        "adr": 74.8,
+        "kast": 0.7290000000000001
+      },
+      {
+        "name": "Bymas",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.88,
+        "openingRating": 0.89,
+        "id": "19015",
+        "maps": 46,
+        "rounds": 995,
+        "kd": 1.01,
+        "openingAttempts": 0.157,
+        "openingSuccess": 0.462,
+        "adr": 65.8,
+        "kast": 0.71
+      },
+      {
+        "name": "Gizmy",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.94,
+        "openingRating": 0.93,
+        "id": "21816",
+        "maps": 46,
+        "rounds": 995,
+        "kd": 0.88,
+        "openingAttempts": 0.209,
+        "openingSuccess": 0.442,
+        "adr": 71.6,
+        "kast": 0.691
+      },
+      {
+        "name": "AZUWU",
+        "role": "Rifler",
+        "rating": 0.93,
+        "impact": 0.99,
+        "openingRating": 0.95,
+        "id": "22106",
+        "maps": 46,
+        "rounds": 995,
+        "kd": 0.88,
+        "openingAttempts": 0.249,
+        "openingSuccess": 0.423,
+        "adr": 68.3,
+        "kast": 0.69
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 0.5
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 0.5,
+        "played": 2
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T16:40:00.000Z",
+        "opponentRank": 14,
+        "opponentElo": 2298,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T12:45:00.000Z",
+        "opponentRank": 39,
+        "opponentElo": 2109,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 26
+  },
+  "lineup": [
+    {
+      "id": "17145",
+      "name": "Rainwaker"
+    },
+    {
+      "id": "19015",
+      "name": "Bymas"
+    },
+    {
+      "id": "19926",
+      "name": "afro"
+    },
+    {
+      "id": "21816",
+      "name": "Gizmy"
+    },
+    {
+      "id": "22106",
+      "name": "AZUWU"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 0.5,
+      "played": 2
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 0.5
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T16:40:00.000Z",
+      "opponentRank": 14,
+      "opponentElo": 2298,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T12:45:00.000Z",
+      "opponentRank": 39,
+      "opponentElo": 2109,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

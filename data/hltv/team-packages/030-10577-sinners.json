@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:07.846Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "11199": "cache",
+      "12810": "cache",
+      "21113": "cache",
+      "23295": "cache",
+      "23459": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.638,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 2,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "10577",
+    "name": "SINNERS",
+    "hltvRank": 30,
+    "elo": 2147,
+    "recentWins": 0,
+    "recentLosses": 2,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "MoDo",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.05,
+        "openingRating": 1.11,
+        "id": "21113",
+        "maps": 45,
+        "rounds": 1043,
+        "kd": 1.29,
+        "openingAttempts": 0.157,
+        "openingSuccess": 0.6709999999999999,
+        "adr": 71.8,
+        "kast": 0.738
+      },
+      {
+        "name": "beastik",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 1.08,
+        "openingRating": 1.08,
+        "id": "11199",
+        "maps": 45,
+        "rounds": 1043,
+        "kd": 0.99,
+        "openingAttempts": 0.242,
+        "openingSuccess": 0.504,
+        "adr": 75.5,
+        "kast": 0.72
+      },
+      {
+        "name": "SHOCK",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 0.94,
+        "openingRating": 0.97,
+        "id": "12810",
+        "maps": 45,
+        "rounds": 1043,
+        "kd": 1.03,
+        "openingAttempts": 0.162,
+        "openingSuccess": 0.5329999999999999,
+        "adr": 68.4,
+        "kast": 0.738
+      },
+      {
+        "name": "stressarN",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.07,
+        "openingRating": 1.04,
+        "id": "23459",
+        "maps": 45,
+        "rounds": 1043,
+        "kd": 1.06,
+        "openingAttempts": 0.196,
+        "openingSuccess": 0.539,
+        "adr": 73.3,
+        "kast": 0.721
+      },
+      {
+        "name": "kisserek",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 1.07,
+        "openingRating": 1.05,
+        "id": "23295",
+        "maps": 45,
+        "rounds": 1043,
+        "kd": 0.97,
+        "openingAttempts": 0.239,
+        "openingSuccess": 0.494,
+        "adr": 76.8,
+        "kast": 0.7070000000000001
+      }
+    ],
+    "mapWinRates": {
+      "Inferno": 0,
+      "Ancient": 0
+    },
+    "mapProfiles": {
+      "Inferno": {
+        "winRate": 0,
+        "played": 1
+      },
+      "Ancient": {
+        "winRate": 0,
+        "played": 1
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-03T14:40:00.000Z",
+        "opponentRank": 29,
+        "opponentElo": 2196,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T14:40:00.000Z",
+        "opponentRank": 29,
+        "opponentElo": 2196,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 24
+  },
+  "lineup": [
+    {
+      "id": "11199",
+      "name": "beastik"
+    },
+    {
+      "id": "12810",
+      "name": "SHOCK"
+    },
+    {
+      "id": "21113",
+      "name": "MoDo"
+    },
+    {
+      "id": "23295",
+      "name": "kisserek"
+    },
+    {
+      "id": "23459",
+      "name": "stressarN"
+    }
+  ],
+  "mapProfiles": {
+    "Inferno": {
+      "winRate": 0,
+      "played": 1
+    },
+    "Ancient": {
+      "winRate": 0,
+      "played": 1
+    }
+  },
+  "mapWinRates": {
+    "Inferno": 0,
+    "Ancient": 0
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-03T14:40:00.000Z",
+      "opponentRank": 29,
+      "opponentElo": 2196,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T14:40:00.000Z",
+      "opponentRank": 29,
+      "opponentElo": 2196,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

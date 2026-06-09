@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:16.350Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "11630": "cache",
+      "12731": "cache",
+      "19869": "cache",
+      "21452": "cache",
+      "21620": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12426",
+    "name": "Passion UA",
+    "hltvRank": 38,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "JT",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.97,
+        "id": "11630",
+        "adr": 70.4,
+        "kast": 0.718
+      },
+      {
+        "name": "sdy",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.05,
+        "id": "12731",
+        "adr": 78.4,
+        "kast": 0.726
+      },
+      {
+        "name": "try",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.15,
+        "id": "19869",
+        "adr": 74.1,
+        "kast": 0.7509999999999999
+      },
+      {
+        "name": "Kvem",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 1.16,
+        "id": "21452",
+        "adr": 79.3,
+        "kast": 0.7240000000000001
+      },
+      {
+        "name": "nicx",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.92,
+        "id": "21620",
+        "adr": 68.1,
+        "kast": 0.722
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 25
+  },
+  "lineup": [
+    {
+      "id": "11630",
+      "name": "JT"
+    },
+    {
+      "id": "12731",
+      "name": "sdy"
+    },
+    {
+      "id": "19869",
+      "name": "try"
+    },
+    {
+      "id": "21452",
+      "name": "Kvem"
+    },
+    {
+      "id": "21620",
+      "name": "nicx"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

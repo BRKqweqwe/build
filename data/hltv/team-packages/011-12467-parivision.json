@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:30.179Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "13776": "cache",
+      "19235": "cache",
+      "22471": "cache",
+      "22929": "cache",
+      "23685": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12467",
+    "name": "PARIVISION",
+    "hltvRank": 11,
+    "elo": 2280,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Jame",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.08,
+        "id": "13776",
+        "adr": 72.5,
+        "kast": 0.742
+      },
+      {
+        "name": "BELCHONOKK",
+        "role": "Rifler",
+        "rating": 0.92,
+        "impact": 0.83,
+        "id": "19235",
+        "adr": 65.2,
+        "kast": 0.6890000000000001
+      },
+      {
+        "name": "xiELO",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.95,
+        "id": "22471",
+        "adr": 68.5,
+        "kast": 0.7040000000000001
+      },
+      {
+        "name": "nota",
+        "role": "Rifler",
+        "rating": 0.94,
+        "impact": 1.03,
+        "id": "22929",
+        "adr": 69.3,
+        "kast": 0.711
+      },
+      {
+        "name": "zweih",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 0.97,
+        "id": "23685",
+        "adr": 72.8,
+        "kast": 0.7120000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapProfiles": {},
+    "recentMatches": [],
+    "mapsPlayed": 20
+  },
+  "lineup": [
+    {
+      "id": "13776",
+      "name": "Jame"
+    },
+    {
+      "id": "19235",
+      "name": "BELCHONOKK"
+    },
+    {
+      "id": "22471",
+      "name": "xiELO"
+    },
+    {
+      "id": "22929",
+      "name": "nota"
+    },
+    {
+      "id": "23685",
+      "name": "zweih"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

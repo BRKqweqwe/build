@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:55:48.194Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "13618": "cache",
+      "21512": "cache",
+      "22035": "cache",
+      "24734": "cache",
+      "24911": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.83,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 5,
+    "mapCount": 5,
+    "recentMatchCount": 4
+  },
+  "team": {
+    "id": "10960",
+    "name": "Young Ninjas",
+    "hltvRank": 98,
+    "elo": 1692,
+    "recentWins": 4,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "n0te",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.18,
+        "openingRating": 0.99,
+        "id": "22035",
+        "maps": 83,
+        "rounds": 1865,
+        "kd": 1.15,
+        "openingAttempts": 0.19699999999999998,
+        "openingSuccess": 0.496,
+        "adr": 84.3,
+        "kast": 0.722
+      },
+      {
+        "name": "rud",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.12,
+        "openingRating": 1.15,
+        "id": "21512",
+        "maps": 86,
+        "rounds": 1930,
+        "kd": 1.16,
+        "openingAttempts": 0.20600000000000002,
+        "openingSuccess": 0.601,
+        "adr": 74.7,
+        "kast": 0.713
+      },
+      {
+        "name": "joeski",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.06,
+        "openingRating": 1.03,
+        "id": "24911",
+        "maps": 91,
+        "rounds": 2019,
+        "kd": 0.99,
+        "openingAttempts": 0.21899999999999997,
+        "openingSuccess": 0.499,
+        "adr": 73.9,
+        "kast": 0.718
+      },
+      {
+        "name": "tein",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.94,
+        "openingRating": 0.91,
+        "id": "24734",
+        "maps": 86,
+        "rounds": 1930,
+        "kd": 1,
+        "openingAttempts": 0.161,
+        "openingSuccess": 0.48100000000000004,
+        "adr": 69.5,
+        "kast": 0.728
+      },
+      {
+        "name": "mASKED",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.95,
+        "openingRating": 0.96,
+        "id": "21142",
+        "maps": 73,
+        "rounds": 1636,
+        "kd": 0.92,
+        "openingAttempts": 0.22899999999999998,
+        "openingSuccess": 0.44
+      }
+    ],
+    "mapWinRates": {
+      "Nuke": 1,
+      "Dust2": 1,
+      "Overpass": 1,
+      "Anubis": 1,
+      "Ancient": 0.536
+    },
+    "mapProfiles": {
+      "Nuke": {
+        "winRate": 1,
+        "played": 12,
+        "rating": 1.12
+      },
+      "Dust2": {
+        "winRate": 1,
+        "played": 22,
+        "rating": 1.07
+      },
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 1,
+        "played": 12,
+        "rating": 1.04
+      },
+      "Ancient": {
+        "winRate": 0.536,
+        "played": 13,
+        "rating": 1.04
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T10:30:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T10:30:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T08:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-03T08:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "hltvRating": 1.06,
+    "mapsPlayed": 49
+  },
+  "lineup": [
+    {
+      "id": "21512",
+      "name": "rud"
+    },
+    {
+      "id": "22035",
+      "name": "n0te"
+    },
+    {
+      "id": "24734",
+      "name": "tein"
+    },
+    {
+      "id": "24911",
+      "name": "joeski"
+    },
+    {
+      "id": "13618",
+      "name": "BluePho3nix"
+    }
+  ],
+  "mapProfiles": {
+    "Nuke": {
+      "winRate": 1,
+      "played": 12,
+      "rating": 1.12
+    },
+    "Dust2": {
+      "winRate": 1,
+      "played": 22,
+      "rating": 1.07
+    },
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 1,
+      "played": 12,
+      "rating": 1.04
+    },
+    "Ancient": {
+      "winRate": 0.536,
+      "played": 13,
+      "rating": 1.04
+    }
+  },
+  "mapWinRates": {
+    "Nuke": 1,
+    "Dust2": 1,
+    "Overpass": 1,
+    "Anubis": 1,
+    "Ancient": 0.536
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T10:30:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T10:30:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T08:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-03T08:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

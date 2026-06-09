@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:14.333Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "8311": "cache",
+      "16847": "cache",
+      "17353": "cache",
+      "17378": "cache",
+      "18838": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12257",
+    "name": "Wildcard",
+    "hltvRank": 37,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "nEMANHA",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.31,
+        "id": "8311",
+        "adr": 83.9,
+        "kast": 0.741
+      },
+      {
+        "name": "mhL",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.15,
+        "id": "16847",
+        "adr": 77.1,
+        "kast": 0.7340000000000001
+      },
+      {
+        "name": "Cxzi",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 1.08,
+        "id": "17353",
+        "adr": 71.9,
+        "kast": 0.726
+      },
+      {
+        "name": "reck",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 0.92,
+        "id": "17378",
+        "adr": 69.8,
+        "kast": 0.752
+      },
+      {
+        "name": "HexT",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.03,
+        "id": "18838",
+        "adr": 73.6,
+        "kast": 0.747
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 29
+  },
+  "lineup": [
+    {
+      "id": "8311",
+      "name": "nEMANHA"
+    },
+    {
+      "id": "16847",
+      "name": "mhL"
+    },
+    {
+      "id": "17353",
+      "name": "Cxzi"
+    },
+    {
+      "id": "17378",
+      "name": "reck"
+    },
+    {
+      "id": "18838",
+      "name": "HexT"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:37.308Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "14494": "cache",
+      "17918": "cache",
+      "19711": "cache",
+      "20333": "cache",
+      "24048": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.48,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13499",
+    "name": "Voca",
+    "hltvRank": 75,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "junior",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.21,
+        "id": "14494",
+        "adr": 78,
+        "kast": 0.7559999999999999
+      },
+      {
+        "name": "nosraC",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 1.04,
+        "id": "17918",
+        "adr": 73.4,
+        "kast": 0.71
+      },
+      {
+        "name": "snav",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.16,
+        "id": "19711",
+        "adr": 77.7,
+        "kast": 0.73
+      },
+      {
+        "name": "Jeorge",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.17,
+        "id": "20333",
+        "adr": 80.5,
+        "kast": 0.753
+      },
+      {
+        "name": "slump",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "24048"
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 42
+  },
+  "lineup": [
+    {
+      "id": "14494",
+      "name": "junior"
+    },
+    {
+      "id": "17918",
+      "name": "nosraC"
+    },
+    {
+      "id": "19711",
+      "name": "snav"
+    },
+    {
+      "id": "20333",
+      "name": "Jeorge"
+    },
+    {
+      "id": "24048",
+      "name": "slump"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

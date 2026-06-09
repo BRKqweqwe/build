@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:43.702Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "8520": "cache",
+      "8738": "cache",
+      "11617": "cache",
+      "16820": "cache",
+      "21763": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "5973",
+    "name": "Liquid",
+    "hltvRank": 25,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "NAF",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 0.97,
+        "id": "8520",
+        "adr": 78.2,
+        "kast": 0.735
+      },
+      {
+        "name": "EliGE",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.09,
+        "id": "8738",
+        "adr": 77.6,
+        "kast": 0.715
+      },
+      {
+        "name": "malbsMd",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.14,
+        "id": "11617",
+        "adr": 76.2,
+        "kast": 0.7070000000000001
+      },
+      {
+        "name": "siuhy",
+        "role": "Rifler",
+        "rating": 0.84,
+        "impact": 0.8,
+        "id": "16820",
+        "adr": 62.3,
+        "kast": 0.682
+      },
+      {
+        "name": "ultimate",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.89,
+        "id": "21763",
+        "adr": 65.9,
+        "kast": 0.706
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 20
+  },
+  "lineup": [
+    {
+      "id": "8520",
+      "name": "NAF"
+    },
+    {
+      "id": "8738",
+      "name": "EliGE"
+    },
+    {
+      "id": "11617",
+      "name": "malbsMd"
+    },
+    {
+      "id": "16820",
+      "name": "siuhy"
+    },
+    {
+      "id": "21763",
+      "name": "ultimate"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:44.274Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19575": "cache",
+      "20101": "cache",
+      "22886": "cache",
+      "23686": "cache",
+      "24725": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12895",
+    "name": "K27",
+    "hltvRank": 50,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "X5G7V",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 1.05,
+        "id": "19575",
+        "adr": 75,
+        "kast": 0.708
+      },
+      {
+        "name": "fame",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.15,
+        "id": "20101",
+        "adr": 77.2,
+        "kast": 0.743
+      },
+      {
+        "name": "xeedo",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.24,
+        "id": "22886",
+        "adr": 78.2,
+        "kast": 0.725
+      },
+      {
+        "name": "kashl1d",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.94,
+        "id": "23686",
+        "adr": 63.6,
+        "kast": 0.6990000000000001
+      },
+      {
+        "name": "qw1nk1",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.1,
+        "id": "24725",
+        "adr": 74.7,
+        "kast": 0.736
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 55
+  },
+  "lineup": [
+    {
+      "id": "19575",
+      "name": "X5G7V"
+    },
+    {
+      "id": "20101",
+      "name": "fame"
+    },
+    {
+      "id": "22886",
+      "name": "xeedo"
+    },
+    {
+      "id": "23686",
+      "name": "kashl1d"
+    },
+    {
+      "id": "24725",
+      "name": "qw1nk1"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:33:56.253Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "150": "cache",
+      "7938": "cache",
+      "8574": "cache",
+      "20968": "cache",
+      "21243": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "11861",
+    "name": "Aurora",
+    "hltvRank": 6,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "MAJ3R",
+        "role": "Rifler",
+        "rating": 0.94,
+        "impact": 0.76,
+        "id": "150",
+        "adr": 64.2,
+        "kast": 0.6940000000000001
+      },
+      {
+        "name": "XANTARES",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.19,
+        "id": "7938",
+        "adr": 78.3,
+        "kast": 0.7240000000000001
+      },
+      {
+        "name": "woxic",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.11,
+        "id": "8574",
+        "adr": 73.8,
+        "kast": 0.721
+      },
+      {
+        "name": "soulfly",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.9,
+        "id": "20968",
+        "adr": 66.9,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "Wicadia",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.2,
+        "id": "21243",
+        "adr": 81.9,
+        "kast": 0.716
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "150",
+      "name": "MAJ3R"
+    },
+    {
+      "id": "7938",
+      "name": "XANTARES"
+    },
+    {
+      "id": "8574",
+      "name": "woxic"
+    },
+    {
+      "id": "20968",
+      "name": "soulfly"
+    },
+    {
+      "id": "21243",
+      "name": "Wicadia"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

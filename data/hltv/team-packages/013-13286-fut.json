@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:34.664Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20584": "cache",
+      "20761": "cache",
+      "22203": "cache",
+      "22674": "cache",
+      "23553": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.628,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 4,
+    "mapCount": 2,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "13286",
+    "name": "FUT",
+    "hltvRank": 13,
+    "elo": 2266,
+    "recentWins": 2,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "dziugss",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.07,
+        "id": "23553",
+        "openingRating": 1.03,
+        "maps": 45,
+        "rounds": 979,
+        "kd": 1.09,
+        "openingAttempts": 0.165,
+        "openingSuccess": 0.58,
+        "adr": 76.6,
+        "kast": 0.743
+      },
+      {
+        "name": "dem0n",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 0.98,
+        "id": "20584",
+        "openingRating": 0.92,
+        "maps": 45,
+        "rounds": 979,
+        "kd": 1.07,
+        "openingAttempts": 0.18,
+        "openingSuccess": 0.46,
+        "adr": 71.3,
+        "kast": 0.726
+      },
+      {
+        "name": "Krabeni",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 1.13,
+        "id": "22203",
+        "openingRating": 1.03,
+        "maps": 45,
+        "rounds": 979,
+        "kd": 1.01,
+        "openingAttempts": 0.25,
+        "openingSuccess": 0.469,
+        "adr": 79,
+        "kast": 0.6920000000000001
+      },
+      {
+        "name": "cmtry",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.98,
+        "id": "22674",
+        "openingRating": 1.02,
+        "maps": 45,
+        "rounds": 979,
+        "kd": 1.05,
+        "openingAttempts": 0.174,
+        "openingSuccess": 0.5589999999999999,
+        "adr": 68.3,
+        "kast": 0.71
+      },
+      {
+        "name": "lauNX",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.06,
+        "id": "20761",
+        "adr": 71.6,
+        "kast": 0.742
+      }
+    ],
+    "mapWinRates": {
+      "Overpass": 1,
+      "Ancient": 1
+    },
+    "mapProfiles": {
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Ancient": {
+        "winRate": 1,
+        "played": 10,
+        "rating": 1.09
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T15:30:00.000Z",
+        "opponentRank": 29,
+        "opponentElo": 2196,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T11:30:00.000Z",
+        "opponentRank": 16,
+        "opponentElo": 2256,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 27
+  },
+  "lineup": [
+    {
+      "id": "20584",
+      "name": "dem0n"
+    },
+    {
+      "id": "20761",
+      "name": "lauNX"
+    },
+    {
+      "id": "22203",
+      "name": "Krabeni"
+    },
+    {
+      "id": "22674",
+      "name": "cmtry"
+    },
+    {
+      "id": "23553",
+      "name": "dziugss"
+    }
+  ],
+  "mapProfiles": {
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Ancient": {
+      "winRate": 1,
+      "played": 10,
+      "rating": 1.09
+    }
+  },
+  "mapWinRates": {
+    "Overpass": 1,
+    "Ancient": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T15:30:00.000Z",
+      "opponentRank": 29,
+      "opponentElo": 2196,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T11:30:00.000Z",
+      "opponentRank": 16,
+      "opponentElo": 2256,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:48.374Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19920": "cache",
+      "21266": "cache",
+      "22325": "cache",
+      "23317": "cache",
+      "23319": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "7969",
+    "name": "Nemiga",
+    "hltvRank": 52,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "KaiR0N-",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.17,
+        "id": "19920",
+        "adr": 78.8,
+        "kast": 0.721
+      },
+      {
+        "name": "1eeR",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.91,
+        "id": "21266",
+        "adr": 70.3,
+        "kast": 0.727
+      },
+      {
+        "name": "sowalio",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.1,
+        "id": "22325",
+        "adr": 75.5,
+        "kast": 0.733
+      },
+      {
+        "name": "khaN",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.07,
+        "id": "23317",
+        "adr": 72.8,
+        "kast": 0.737
+      },
+      {
+        "name": "syph0",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.2,
+        "id": "23319",
+        "adr": 80.9,
+        "kast": 0.742
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 74
+  },
+  "lineup": [
+    {
+      "id": "19920",
+      "name": "KaiR0N-"
+    },
+    {
+      "id": "21266",
+      "name": "1eeR"
+    },
+    {
+      "id": "22325",
+      "name": "sowalio"
+    },
+    {
+      "id": "23317",
+      "name": "khaN"
+    },
+    {
+      "id": "23319",
+      "name": "syph0"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-06-08T13:32:15.983Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/inox-division"
+  },
+  "summary": {
+    "hltvTeamId": "13814",
+    "hltvName": "INOX Division",
+    "bo3TeamId": "23334",
+    "slug": "inox-division",
+    "name": "INOX Division",
+    "rank": 79,
+    "rankDiff": 25,
+    "sixMonthEarned": 2000,
+    "currentRosterSize": 5,
+    "currentRosterRatingAvg": 6.4645,
+    "currentRosterRatingMin": 5.823958381534922,
+    "currentRosterRatingMax": 6.910571727837891,
+    "joinTransfers": 0,
+    "leaveTransfers": 0,
+    "transfersSince2025": 3,
+    "lastTransferDate": "2026-04-14",
+    "players": [
+      {
+        "id": "35789",
+        "slug": "k0s",
+        "nickname": "K0s",
+        "name": "K0s",
+        "country": "RU",
+        "sixMonthAvgRating": 6.5548431186303375,
+        "totalPrize": 5826,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": [
+          {
+            "id": 36209,
+            "actionDate": "2022-08-24",
+            "actionType": 3,
+            "teamToId": null,
+            "teamToName": null,
+            "teamFromId": 2723,
+            "teamFromName": "premghouls",
+            "playerName": "k0s",
+            "isCoach": false
+          },
+          {
+            "id": 37148,
+            "actionDate": "2022-11-29",
+            "actionType": 1,
+            "teamToId": 3810,
+            "teamToName": "Forward Gaming",
+            "teamFromId": null,
+            "teamFromName": null,
+            "playerName": "k0s",
+            "isCoach": false
+          },
+          {
+            "id": 41193,
+            "actionDate": "2023-07-13",
+            "actionType": 1,
+            "teamToId": 2723,
+            "teamToName": "premghouls",
+            "teamFromId": 3810,
+            "teamFromName": "Forward Gaming",
+            "playerName": "k0s",
+            "isCoach": false
+          },
+          {
+            "id": 145467,
+            "actionDate": "2025-06-10",
+            "actionType": 3,
+            "teamToId": null,
+            "teamToName": null,
+            "teamFromId": 18539,
+            "teamFromName": "Nuclear TigeRES",
+            "playerName": "k0s",
+            "isCoach": false
+          },
+          {
+            "id": 187249,
+            "actionDate": "2023-08-01",
+            "actionType": 1,
+            "teamToId": 3810,
+            "teamToName": "Forward Gaming",
+            "teamFromId": 3810,
+            "teamFromName": "Forward Gaming",
+            "playerName": "k0s",
+            "isCoach": false
+          },
+          {
+            "id": 187481,
+            "actionDate": "2023-08-09",
+            "actionType": 3,
+            "teamToId": null,
+            "teamToName": null,
+            "teamFromId": 3810,
+            "teamFromName": "Forward Gaming",
+            "playerName": "k0s",
+            "isCoach": false
+          }
+        ]
+      },
+      {
+        "id": "38308",
+        "slug": "gooddeph",
+        "nickname": "gooddeph",
+        "name": "gooddeph",
+        "country": "RU",
+        "sixMonthAvgRating": 5.823958381534922,
+        "totalPrize": 4076,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": [
+          {
+            "id": 62472,
+            "actionDate": "2023-10-18",
+            "actionType": 1,
+            "teamToId": 6305,
+            "teamToName": "BALLISTIC",
+            "teamFromId": null,
+            "teamFromName": null,
+            "playerName": "gooddeph",
+            "isCoach": false
+          },
+          {
+            "id": 63758,
+            "actionDate": "2023-12-04",
+            "actionType": 3,
+            "teamToId": null,
+            "teamToName": null,
+            "teamFromId": 6305,
+            "teamFromName": "BALLISTIC",
+            "playerName": "gooddeph",
+            "isCoach": false
+          }
+        ]
+      },
+      {
+        "id": "38802",
+        "slug": "k1slll",
+        "nickname": "k1slll",
+        "name": "k1slll",
+        "country": "BY",
+        "sixMonthAvgRating": 6.371868820772085,
+        "totalPrize": 3573,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": []
+      },
+      {
+        "id": "40009",
+        "slug": "fenomen",
+        "nickname": "FenomeN",
+        "name": "FenomeN",
+        "country": "BY",
+        "sixMonthAvgRating": 6.910571727837891,
+        "totalPrize": 14877,
+        "settingsPresence": true,
+        "gearsPresence": true,
+        "transfers": [
+          {
+            "id": 41172,
+            "actionDate": "2023-07-12",
+            "actionType": 1,
+            "teamToId": 7429,
+            "teamToName": "CYBERSHOKE Esports",
+            "teamFromId": null,
+            "teamFromName": null,
+            "playerName": "FenomeN",
+            "isCoach": false
+          },
+          {
+            "id": 250757,
+            "actionDate": "2026-04-14",
+            "actionType": 1,
+            "teamToId": 7429,
+            "teamToName": "CYBERSHOKE Esports",
+            "teamFromId": 7429,
+            "teamFromName": "CYBERSHOKE Esports",
+            "playerName": "FenomeN",
+            "isCoach": false
+          }
+        ]
+      },
+      {
+        "id": "45655",
+        "slug": "finw",
+        "nickname": "finW",
+        "name": "finW",
+        "country": "RU",
+        "sixMonthAvgRating": 6.661188503227395,
+        "totalPrize": 712,
+        "settingsPresence": false,
+        "gearsPresence": false,
+        "transfers": [
+          {
+            "id": 85634,
+            "actionDate": "2025-01-21",
+            "actionType": 1,
+            "teamToId": 18518,
+            "teamToName": "THE GENTLEMEN ESPORTS",
+            "teamFromId": null,
+            "teamFromName": null,
+            "playerName": "finW",
+            "isCoach": false
+          },
+          {
+            "id": 185545,
+            "actionDate": "2023-06-14",
+            "actionType": 3,
+            "teamToId": null,
+            "teamToName": null,
+            "teamFromId": 6305,
+            "teamFromName": "BALLISTIC",
+            "playerName": "finW",
+            "isCoach": false
+          },
+          {
+            "id": 185698,
+            "actionDate": "2023-04-28",
+            "actionType": 1,
+            "teamToId": 6305,
+            "teamToName": "BALLISTIC",
+            "teamFromId": null,
+            "teamFromName": null,
+            "playerName": "finW",
+            "isCoach": false
+          }
+        ]
+      }
+    ]
+  },
+  "transfers": [
+    {
+      "id": 36209,
+      "actionDate": "2022-08-24",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 2723,
+      "teamFromName": "premghouls",
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-214315942_396"
+    },
+    {
+      "id": 37148,
+      "actionDate": "2022-11-29",
+      "actionType": 1,
+      "teamToId": 3810,
+      "teamToName": "Forward Gaming",
+      "teamFromId": null,
+      "teamFromName": null,
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-169799050_5310"
+    },
+    {
+      "id": 185698,
+      "actionDate": "2023-04-28",
+      "actionType": 1,
+      "teamToId": 6305,
+      "teamToName": "BALLISTIC",
+      "teamFromId": null,
+      "teamFromName": null,
+      "playerId": 45655,
+      "playerName": "finW",
+      "isCoach": false,
+      "sourceUrl": null
+    },
+    {
+      "id": 185545,
+      "actionDate": "2023-06-14",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6305,
+      "teamFromName": "BALLISTIC",
+      "playerId": 45655,
+      "playerName": "finW",
+      "isCoach": false,
+      "sourceUrl": null
+    },
+    {
+      "id": 41172,
+      "actionDate": "2023-07-12",
+      "actionType": 1,
+      "teamToId": 7429,
+      "teamToName": "CYBERSHOKE Esports",
+      "teamFromId": null,
+      "teamFromName": null,
+      "playerId": 40009,
+      "playerName": "FenomeN",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-182618011_523920"
+    },
+    {
+      "id": 41193,
+      "actionDate": "2023-07-13",
+      "actionType": 1,
+      "teamToId": 2723,
+      "teamToName": "premghouls",
+      "teamFromId": 3810,
+      "teamFromName": "Forward Gaming",
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-214315942_787"
+    },
+    {
+      "id": 187249,
+      "actionDate": "2023-08-01",
+      "actionType": 1,
+      "teamToId": 3810,
+      "teamToName": "Forward Gaming",
+      "teamFromId": 3810,
+      "teamFromName": "Forward Gaming",
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": null
+    },
+    {
+      "id": 187481,
+      "actionDate": "2023-08-09",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 3810,
+      "teamFromName": "Forward Gaming",
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": null
+    },
+    {
+      "id": 62472,
+      "actionDate": "2023-10-18",
+      "actionType": 1,
+      "teamToId": 6305,
+      "teamToName": "BALLISTIC",
+      "teamFromId": null,
+      "teamFromName": null,
+      "playerId": 38308,
+      "playerName": "gooddeph",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-218254851_1169"
+    },
+    {
+      "id": 63758,
+      "actionDate": "2023-12-04",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6305,
+      "teamFromName": "BALLISTIC",
+      "playerId": 38308,
+      "playerName": "gooddeph",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-218254851_1234"
+    },
+    {
+      "id": 85634,
+      "actionDate": "2025-01-21",
+      "actionType": 1,
+      "teamToId": 18518,
+      "teamToName": "THE GENTLEMEN ESPORTS",
+      "teamFromId": null,
+      "teamFromName": null,
+      "playerId": 45655,
+      "playerName": "finW",
+      "isCoach": false,
+      "sourceUrl": "https://vk.com/wall-226094624_1349"
+    },
+    {
+      "id": 145467,
+      "actionDate": "2025-06-10",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 18539,
+      "teamFromName": "Nuclear TigeRES",
+      "playerId": 35789,
+      "playerName": "k0s",
+      "isCoach": false,
+      "sourceUrl": "https://t.me/nucleartigeres/242"
+    },
+    {
+      "id": 250757,
+      "actionDate": "2026-04-14",
+      "actionType": 1,
+      "teamToId": 7429,
+      "teamToName": "CYBERSHOKE Esports",
+      "teamFromId": 7429,
+      "teamFromName": "CYBERSHOKE Esports",
+      "playerId": 40009,
+      "playerName": "FenomeN",
+      "isCoach": false,
+      "sourceUrl": "https://t.me/team_cybershoke/5529"
+    }
+  ]
+}

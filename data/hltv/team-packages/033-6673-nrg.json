@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:05.804Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7687": "cache",
+      "8711": "cache",
+      "13249": "missing",
+      "13578": "cache",
+      "16717": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.48,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "6673",
+    "name": "NRG",
+    "hltvRank": 33,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "nitr0",
+        "role": "Rifler",
+        "rating": 0.92,
+        "impact": 0.79,
+        "id": "7687",
+        "adr": 62.4,
+        "kast": 0.6829999999999999
+      },
+      {
+        "name": "Sonic",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.1,
+        "id": "8711",
+        "adr": 76.9,
+        "kast": 0.71
+      },
+      {
+        "name": "oSee",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "13249"
+      },
+      {
+        "name": "Grim",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 1.12,
+        "id": "13578",
+        "adr": 76.1,
+        "kast": 0.6829999999999999
+      },
+      {
+        "name": "br0",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.07,
+        "id": "16717",
+        "adr": 76.3,
+        "kast": 0.723
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 14
+  },
+  "lineup": [
+    {
+      "id": "7687",
+      "name": "nitr0"
+    },
+    {
+      "id": "8711",
+      "name": "Sonic"
+    },
+    {
+      "id": "13249",
+      "name": "oSee"
+    },
+    {
+      "id": "13578",
+      "name": "Grim"
+    },
+    {
+      "id": "16717",
+      "name": "br0"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

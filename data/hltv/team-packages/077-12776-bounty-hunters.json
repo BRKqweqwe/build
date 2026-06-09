@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:41.640Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16835": "cache",
+      "18322": "cache",
+      "20690": "cache",
+      "20885": "cache",
+      "23461": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12776",
+    "name": "Bounty Hunters",
+    "hltvRank": 77,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "ponter",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.01,
+        "id": "16835",
+        "adr": 73.2,
+        "kast": 0.73
+      },
+      {
+        "name": "KAISER",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 0.98,
+        "id": "18322",
+        "adr": 70.6,
+        "kast": 0.7440000000000001
+      },
+      {
+        "name": "zock",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.17,
+        "id": "20690",
+        "adr": 76.3,
+        "kast": 0.723
+      },
+      {
+        "name": "fREQ",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.89,
+        "id": "20885",
+        "adr": 68.2,
+        "kast": 0.732
+      },
+      {
+        "name": "pepe",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.18,
+        "id": "23461",
+        "adr": 79.3,
+        "kast": 0.736
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 66
+  },
+  "lineup": [
+    {
+      "id": "16835",
+      "name": "ponter"
+    },
+    {
+      "id": "18322",
+      "name": "KAISER"
+    },
+    {
+      "id": "20690",
+      "name": "zock"
+    },
+    {
+      "id": "20885",
+      "name": "fREQ"
+    },
+    {
+      "id": "23461",
+      "name": "pepe"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

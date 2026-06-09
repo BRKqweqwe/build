@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:45.207Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "18788": "cache",
+      "19167": "cache",
+      "19786": "cache",
+      "19812": "cache",
+      "20782": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13668",
+    "name": "Atreides",
+    "hltvRank": 79,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "dan1",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.91,
+        "id": "18788",
+        "adr": 67.1,
+        "kast": 0.713
+      },
+      {
+        "name": "DEPRESHN",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.08,
+        "id": "19786",
+        "adr": 72.4,
+        "kast": 0.736
+      },
+      {
+        "name": "Chill",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.15,
+        "id": "19812",
+        "adr": 77.1,
+        "kast": 0.687
+      },
+      {
+        "name": "Goody",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.22,
+        "id": "20782",
+        "adr": 80.9,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "smekk",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.02,
+        "id": "19167",
+        "adr": 72.4,
+        "kast": 0.7440000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 49
+  },
+  "lineup": [
+    {
+      "id": "18788",
+      "name": "dan1"
+    },
+    {
+      "id": "19786",
+      "name": "DEPRESHN"
+    },
+    {
+      "id": "19812",
+      "name": "Chill"
+    },
+    {
+      "id": "20782",
+      "name": "Goody"
+    },
+    {
+      "id": "19167",
+      "name": "smekk"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

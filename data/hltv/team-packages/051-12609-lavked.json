@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:46.103Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20199": "cache",
+      "21369": "cache",
+      "24114": "cache",
+      "24171": "cache",
+      "24818": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12609",
+    "name": "Lavked",
+    "hltvRank": 51,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "sol",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.84,
+        "id": "20199",
+        "adr": 67.9,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "1NVISIBLEE",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 1.24,
+        "id": "21369",
+        "adr": 80,
+        "kast": 0.6829999999999999
+      },
+      {
+        "name": "xm1nd",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.05,
+        "id": "24114",
+        "adr": 72.4,
+        "kast": 0.727
+      },
+      {
+        "name": "k4nfuz",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 0.91,
+        "id": "24818",
+        "adr": 67.9,
+        "kast": 0.732
+      },
+      {
+        "name": "Djon8",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.18,
+        "id": "24171",
+        "adr": 82.2,
+        "kast": 0.725
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 93
+  },
+  "lineup": [
+    {
+      "id": "20199",
+      "name": "sol"
+    },
+    {
+      "id": "21369",
+      "name": "1NVISIBLEE"
+    },
+    {
+      "id": "24114",
+      "name": "xm1nd"
+    },
+    {
+      "id": "24818",
+      "name": "k4nfuz"
+    },
+    {
+      "id": "24171",
+      "name": "Djon8"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

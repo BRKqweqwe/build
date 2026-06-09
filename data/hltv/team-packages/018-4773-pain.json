@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:43.900Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16816": "cache",
+      "18141": "cache",
+      "18714": "cache",
+      "18835": "cache",
+      "20171": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.652,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 4,
+    "mapCount": 3,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "4773",
+    "name": "paiN",
+    "hltvRank": 18,
+    "elo": 2231,
+    "recentWins": 0,
+    "recentLosses": 2,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "snow",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.08,
+        "id": "20171",
+        "openingRating": 1.03,
+        "maps": 52,
+        "rounds": 1056,
+        "kd": 1.07,
+        "openingAttempts": 0.207,
+        "openingSuccess": 0.516,
+        "adr": 74.4,
+        "kast": 0.723
+      },
+      {
+        "name": "piriajr",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.16,
+        "id": "18714",
+        "openingRating": 1.12,
+        "maps": 52,
+        "rounds": 1056,
+        "kd": 1.11,
+        "openingAttempts": 0.24100000000000002,
+        "openingSuccess": 0.531,
+        "adr": 76.7,
+        "kast": 0.703
+      },
+      {
+        "name": "vsm",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.99,
+        "id": "16816",
+        "openingRating": 0.94,
+        "maps": 52,
+        "rounds": 1056,
+        "kd": 0.95,
+        "openingAttempts": 0.213,
+        "openingSuccess": 0.44,
+        "adr": 69.6,
+        "kast": 0.693
+      },
+      {
+        "name": "biguzera",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.95,
+        "id": "18141",
+        "openingRating": 0.98,
+        "maps": 52,
+        "rounds": 1056,
+        "kd": 0.96,
+        "openingAttempts": 0.172,
+        "openingSuccess": 0.522,
+        "adr": 69.7,
+        "kast": 0.723
+      },
+      {
+        "name": "saffee",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.85,
+        "id": "18835",
+        "adr": 68,
+        "kast": 0.69
+      }
+    ],
+    "mapWinRates": {
+      "Overpass": 0,
+      "Mirage": 0,
+      "Nuke": 0.6349999999999999
+    },
+    "mapProfiles": {
+      "Overpass": {
+        "winRate": 0,
+        "played": 1
+      },
+      "Mirage": {
+        "winRate": 0,
+        "played": 1
+      },
+      "Nuke": {
+        "winRate": 0.6349999999999999,
+        "played": 15,
+        "rating": 1.15
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T16:55:00.000Z",
+        "opponentRank": 39,
+        "opponentElo": 2109,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T11:40:00.000Z",
+        "opponentRank": 29,
+        "opponentElo": 2196,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "16816",
+      "name": "vsm"
+    },
+    {
+      "id": "18141",
+      "name": "biguzera"
+    },
+    {
+      "id": "18714",
+      "name": "piriajr"
+    },
+    {
+      "id": "18835",
+      "name": "saffee"
+    },
+    {
+      "id": "20171",
+      "name": "snow"
+    }
+  ],
+  "mapProfiles": {
+    "Overpass": {
+      "winRate": 0,
+      "played": 1
+    },
+    "Mirage": {
+      "winRate": 0,
+      "played": 1
+    },
+    "Nuke": {
+      "winRate": 0.6349999999999999,
+      "played": 15,
+      "rating": 1.15
+    }
+  },
+  "mapWinRates": {
+    "Overpass": 0,
+    "Mirage": 0,
+    "Nuke": 0.6349999999999999
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T16:55:00.000Z",
+      "opponentRank": 39,
+      "opponentElo": 2109,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T11:40:00.000Z",
+      "opponentRank": 29,
+      "opponentElo": 2196,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

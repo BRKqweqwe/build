@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:17.363Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20421": "cache",
+      "20422": "cache",
+      "22945": "cache",
+      "24246": "cache",
+      "24672": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13181",
+    "name": "BASEMENT BOYS",
+    "hltvRank": 66,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "kr1vda",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.89,
+        "id": "20421",
+        "adr": 65.5,
+        "kast": 0.727
+      },
+      {
+        "name": "OWNER",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.15,
+        "id": "20422",
+        "adr": 78.2,
+        "kast": 0.708
+      },
+      {
+        "name": "Tr0ublE",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.13,
+        "id": "22945",
+        "adr": 72.7,
+        "kast": 0.703
+      },
+      {
+        "name": "maggent",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.92,
+        "id": "24246",
+        "adr": 72.3,
+        "kast": 0.752
+      },
+      {
+        "name": "fakerealityy",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.12,
+        "id": "24672",
+        "adr": 77.8,
+        "kast": 0.727
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "20421",
+      "name": "kr1vda"
+    },
+    {
+      "id": "20422",
+      "name": "OWNER"
+    },
+    {
+      "id": "22945",
+      "name": "Tr0ublE"
+    },
+    {
+      "id": "24246",
+      "name": "maggent"
+    },
+    {
+      "id": "24672",
+      "name": "fakerealityy"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

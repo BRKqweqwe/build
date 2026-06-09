@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:19.073Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20621": "cache",
+      "21192": "cache",
+      "21365": "cache",
+      "25608": "cache",
+      "25609": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13553",
+    "name": "Oxuji",
+    "hltvRank": 67,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "nitzie",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.09,
+        "id": "20621",
+        "adr": 72.5,
+        "kast": 0.7140000000000001
+      },
+      {
+        "name": "Kurama",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 1.19,
+        "id": "21192",
+        "adr": 78.2,
+        "kast": 0.693
+      },
+      {
+        "name": "k1ssly",
+        "role": "Rifler",
+        "rating": 0.89,
+        "impact": 0.78,
+        "id": "21365",
+        "adr": 67.4,
+        "kast": 0.667
+      },
+      {
+        "name": "ayano",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.98,
+        "id": "25608",
+        "adr": 72.3,
+        "kast": 0.688
+      },
+      {
+        "name": "HeCkBNk",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 0.98,
+        "id": "25609",
+        "adr": 74.5,
+        "kast": 0.737
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 42
+  },
+  "lineup": [
+    {
+      "id": "20621",
+      "name": "nitzie"
+    },
+    {
+      "id": "21192",
+      "name": "Kurama"
+    },
+    {
+      "id": "21365",
+      "name": "k1ssly"
+    },
+    {
+      "id": "25608",
+      "name": "ayano"
+    },
+    {
+      "id": "25609",
+      "name": "HeCkBNk"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

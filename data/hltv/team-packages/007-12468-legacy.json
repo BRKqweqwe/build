@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:22.692Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "12521": "cache",
+      "15698": "cache",
+      "19045": "cache",
+      "19686": "cache",
+      "22965": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.813,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 5,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "12468",
+    "name": "Legacy",
+    "hltvRank": 7,
+    "elo": 2340,
+    "recentWins": 1,
+    "recentLosses": 1,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "dumau",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.36,
+        "openingRating": 1.19,
+        "id": "15698",
+        "maps": 80,
+        "rounds": 1646,
+        "kd": 1.24,
+        "openingAttempts": 0.252,
+        "openingSuccess": 0.5589999999999999,
+        "adr": 85.4,
+        "kast": 0.745
+      },
+      {
+        "name": "latto",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.17,
+        "openingRating": 1.03,
+        "id": "19045",
+        "maps": 80,
+        "rounds": 1646,
+        "kd": 1.25,
+        "openingAttempts": 0.183,
+        "openingSuccess": 0.546,
+        "adr": 79.9,
+        "kast": 0.779
+      },
+      {
+        "name": "saadzin",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 0.97,
+        "openingRating": 1.07,
+        "id": "22965",
+        "maps": 80,
+        "rounds": 1646,
+        "kd": 1.26,
+        "openingAttempts": 0.163,
+        "openingSuccess": 0.617,
+        "adr": 69.4,
+        "kast": 0.752
+      },
+      {
+        "name": "n1ssim",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 0.88,
+        "openingRating": 0.89,
+        "id": "19686",
+        "maps": 80,
+        "rounds": 1646,
+        "kd": 1.06,
+        "openingAttempts": 0.153,
+        "openingSuccess": 0.47200000000000003,
+        "adr": 69.5,
+        "kast": 0.742
+      },
+      {
+        "name": "arT",
+        "role": "Rifler",
+        "rating": 0.96,
+        "impact": 1.01,
+        "openingRating": 1.04,
+        "id": "12521",
+        "maps": 80,
+        "rounds": 1646,
+        "kd": 0.89,
+        "openingAttempts": 0.245,
+        "openingSuccess": 0.475,
+        "adr": 71.5,
+        "kast": 0.72
+      }
+    ],
+    "mapWinRates": {
+      "Dust2": 1,
+      "Nuke": 0,
+      "Ancient": 0.5810000000000001,
+      "Inferno": 0.536,
+      "Mirage": 0.6349999999999999
+    },
+    "mapProfiles": {
+      "Dust2": {
+        "winRate": 1,
+        "played": 18,
+        "rating": 1.09
+      },
+      "Nuke": {
+        "winRate": 0,
+        "played": 13,
+        "rating": 1.11
+      },
+      "Ancient": {
+        "winRate": 0.5810000000000001,
+        "played": 15,
+        "rating": 1.09
+      },
+      "Inferno": {
+        "winRate": 0.536,
+        "played": 12,
+        "rating": 1.04
+      },
+      "Mirage": {
+        "winRate": 0.6349999999999999,
+        "played": 17,
+        "rating": 1.15
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T18:10:00.000Z",
+        "opponentRank": 81,
+        "opponentElo": 1790,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T14:00:00.000Z",
+        "opponentRank": 19,
+        "opponentElo": 2224,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "hltvRating": 1.09,
+    "mapsPlayed": 49
+  },
+  "lineup": [
+    {
+      "id": "12521",
+      "name": "arT"
+    },
+    {
+      "id": "15698",
+      "name": "dumau"
+    },
+    {
+      "id": "19045",
+      "name": "latto"
+    },
+    {
+      "id": "19686",
+      "name": "n1ssim"
+    },
+    {
+      "id": "22965",
+      "name": "saadzin"
+    }
+  ],
+  "mapProfiles": {
+    "Dust2": {
+      "winRate": 1,
+      "played": 18,
+      "rating": 1.09
+    },
+    "Nuke": {
+      "winRate": 0,
+      "played": 13,
+      "rating": 1.11
+    },
+    "Ancient": {
+      "winRate": 0.5810000000000001,
+      "played": 15,
+      "rating": 1.09
+    },
+    "Inferno": {
+      "winRate": 0.536,
+      "played": 12,
+      "rating": 1.04
+    },
+    "Mirage": {
+      "winRate": 0.6349999999999999,
+      "played": 17,
+      "rating": 1.15
+    }
+  },
+  "mapWinRates": {
+    "Dust2": 1,
+    "Nuke": 0,
+    "Ancient": 0.5810000000000001,
+    "Inferno": 0.536,
+    "Mirage": 0.6349999999999999
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T18:10:00.000Z",
+      "opponentRank": 81,
+      "opponentElo": 1790,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T14:00:00.000Z",
+      "opponentRank": 19,
+      "opponentElo": 2224,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

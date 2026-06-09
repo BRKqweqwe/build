@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:46.624Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19310": "cache",
+      "20987": "cache",
+      "21037": "cache",
+      "21288": "cache",
+      "23192": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.694,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 4,
+    "recentMatchCount": 5
+  },
+  "team": {
+    "id": "9215",
+    "name": "MIBR",
+    "hltvRank": 19,
+    "elo": 2224,
+    "recentWins": 4,
+    "recentLosses": 1,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "LNZ",
+        "role": "Rifler",
+        "rating": 1.04,
+        "impact": 0.93,
+        "id": "19310",
+        "adr": 69.3,
+        "kast": 0.731
+      },
+      {
+        "name": "brnz4n",
+        "role": "Rifler",
+        "rating": 0.92,
+        "impact": 0.84,
+        "id": "20987",
+        "adr": 63.3,
+        "kast": 0.7120000000000001
+      },
+      {
+        "name": "insani",
+        "role": "Rifler",
+        "rating": 1.26,
+        "impact": 1.39,
+        "id": "21037",
+        "adr": 90.5,
+        "kast": 0.75
+      },
+      {
+        "name": "venomzera",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1.04,
+        "id": "21288",
+        "adr": 67.5,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "kl1m",
+        "role": "Rifler",
+        "rating": 1.17,
+        "impact": 1.07,
+        "id": "23192",
+        "adr": 76.6,
+        "kast": 0.763
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 0.5,
+      "Nuke": 1,
+      "Inferno": 1,
+      "Anubis": 1
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 0.5,
+        "played": 2
+      },
+      "Nuke": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 1,
+        "played": 1
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T19:40:00.000Z",
+        "opponentRank": 3,
+        "opponentElo": 2336,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T14:00:00.000Z",
+        "opponentRank": 7,
+        "opponentElo": 2340,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T15:05:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T15:05:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T13:40:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "mapsPlayed": 21
+  },
+  "lineup": [
+    {
+      "id": "19310",
+      "name": "LNZ"
+    },
+    {
+      "id": "20987",
+      "name": "brnz4n"
+    },
+    {
+      "id": "21037",
+      "name": "insani"
+    },
+    {
+      "id": "21288",
+      "name": "venomzera"
+    },
+    {
+      "id": "23192",
+      "name": "kl1m"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 0.5,
+      "played": 2
+    },
+    "Nuke": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 1,
+      "played": 1
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 0.5,
+    "Nuke": 1,
+    "Inferno": 1,
+    "Anubis": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T19:40:00.000Z",
+      "opponentRank": 3,
+      "opponentElo": 2336,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T14:00:00.000Z",
+      "opponentRank": 7,
+      "opponentElo": 2340,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T15:05:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T15:05:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T13:40:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

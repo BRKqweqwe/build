@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:15.543Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "15060": "cache",
+      "15861": "cache",
+      "18150": "cache",
+      "21396": "cache",
+      "24303": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13724",
+    "name": "5star",
+    "hltvRank": 65,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "NEUZ",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.26,
+        "id": "15060",
+        "adr": 82.5,
+        "kast": 0.688
+      },
+      {
+        "name": "rate",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1,
+        "id": "15861",
+        "adr": 72,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "clouden",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 1.1,
+        "id": "18150",
+        "adr": 73.8,
+        "kast": 0.698
+      },
+      {
+        "name": "ariucle",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.87,
+        "id": "21396",
+        "adr": 69.6,
+        "kast": 0.711
+      },
+      {
+        "name": "hoolig4n",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.02,
+        "id": "24303",
+        "adr": 73.2,
+        "kast": 0.7
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 32
+  },
+  "lineup": [
+    {
+      "id": "15060",
+      "name": "NEUZ"
+    },
+    {
+      "id": "15861",
+      "name": "rate"
+    },
+    {
+      "id": "18150",
+      "name": "clouden"
+    },
+    {
+      "id": "21396",
+      "name": "ariucle"
+    },
+    {
+      "id": "24303",
+      "name": "hoolig4n"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

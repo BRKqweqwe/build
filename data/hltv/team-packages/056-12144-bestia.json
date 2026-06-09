@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:59.167Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19985": "cache",
+      "20185": "cache",
+      "20607": "cache",
+      "22570": "cache",
+      "24863": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12144",
+    "name": "BESTIA",
+    "hltvRank": 56,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "nacho",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.95,
+        "id": "19985",
+        "adr": 68,
+        "kast": 0.7140000000000001
+      },
+      {
+        "name": "cass1n",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.09,
+        "id": "20185",
+        "adr": 71.2,
+        "kast": 0.752
+      },
+      {
+        "name": "buda",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.21,
+        "id": "20607",
+        "adr": 79.9,
+        "kast": 0.757
+      },
+      {
+        "name": "tomaszin",
+        "role": "Rifler",
+        "rating": 1.26,
+        "impact": 1.34,
+        "id": "22570",
+        "adr": 89.4,
+        "kast": 0.778
+      },
+      {
+        "name": "timo",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.03,
+        "id": "24863",
+        "adr": 72.2,
+        "kast": 0.74
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 34
+  },
+  "lineup": [
+    {
+      "id": "19985",
+      "name": "nacho"
+    },
+    {
+      "id": "20185",
+      "name": "cass1n"
+    },
+    {
+      "id": "20607",
+      "name": "buda"
+    },
+    {
+      "id": "22570",
+      "name": "tomaszin"
+    },
+    {
+      "id": "24863",
+      "name": "timo"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

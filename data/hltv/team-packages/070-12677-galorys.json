@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:24.784Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "9483": "cache",
+      "18743": "cache",
+      "20522": "cache",
+      "23551": "cache",
+      "24715": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12677",
+    "name": "Galorys",
+    "hltvRank": 70,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "destiny",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.12,
+        "id": "9483",
+        "adr": 72.7,
+        "kast": 0.7290000000000001
+      },
+      {
+        "name": "nython",
+        "role": "Rifler",
+        "rating": 0.88,
+        "impact": 0.78,
+        "id": "18743",
+        "adr": 61.7,
+        "kast": 0.693
+      },
+      {
+        "name": "gbb",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.19,
+        "id": "20522",
+        "adr": 78.8,
+        "kast": 0.7390000000000001
+      },
+      {
+        "name": "tomate",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.05,
+        "id": "23551",
+        "adr": 75.6,
+        "kast": 0.753
+      },
+      {
+        "name": "k1not1",
+        "role": "Rifler",
+        "rating": 1.05,
+        "impact": 0.99,
+        "id": "24715",
+        "adr": 69.9,
+        "kast": 0.727
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 48
+  },
+  "lineup": [
+    {
+      "id": "9483",
+      "name": "destiny"
+    },
+    {
+      "id": "18743",
+      "name": "nython"
+    },
+    {
+      "id": "20522",
+      "name": "gbb"
+    },
+    {
+      "id": "23551",
+      "name": "tomate"
+    },
+    {
+      "id": "24715",
+      "name": "k1not1"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

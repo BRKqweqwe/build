@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:13.589Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "18706": "cache",
+      "22069": "cache",
+      "22967": "missing",
+      "24890": "cache",
+      "25524": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.48,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13124",
+    "name": "Marsborne",
+    "hltvRank": 64,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "freshie",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.08,
+        "id": "18706",
+        "adr": 77.4,
+        "kast": 0.74
+      },
+      {
+        "name": "Grizz",
+        "role": "Rifler",
+        "rating": 1.12,
+        "impact": 1.3,
+        "id": "22069",
+        "adr": 85.9,
+        "kast": 0.708
+      },
+      {
+        "name": "ogwizard",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "22967"
+      },
+      {
+        "name": "marekiew",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 0.92,
+        "id": "24890",
+        "adr": 65.3,
+        "kast": 0.705
+      },
+      {
+        "name": "WUMBO",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.23,
+        "id": "25524",
+        "adr": 79,
+        "kast": 0.7340000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 28
+  },
+  "lineup": [
+    {
+      "id": "18706",
+      "name": "freshie"
+    },
+    {
+      "id": "22069",
+      "name": "Grizz"
+    },
+    {
+      "id": "22967",
+      "name": "ogwizard"
+    },
+    {
+      "id": "24890",
+      "name": "marekiew"
+    },
+    {
+      "id": "25524",
+      "name": "WUMBO"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

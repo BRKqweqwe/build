@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:55:31.439Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "19065": "cache",
+      "21272": "cache",
+      "23544": "cache",
+      "24111": "missing",
+      "25576": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.767,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 5,
+    "mapCount": 4,
+    "recentMatchCount": 2
+  },
+  "team": {
+    "id": "12889",
+    "name": "G2 Ares",
+    "hltvRank": 88,
+    "elo": 1762,
+    "recentWins": 2,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "tAk",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.24,
+        "openingRating": 1.06,
+        "id": "21272",
+        "maps": 82,
+        "rounds": 1797,
+        "kd": 1.15,
+        "openingAttempts": 0.214,
+        "openingSuccess": 0.525,
+        "adr": 81.8,
+        "kast": 0.745
+      },
+      {
+        "name": "Junyme",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.14,
+        "openingRating": 1.24,
+        "id": "24111",
+        "maps": 72,
+        "rounds": 1591,
+        "kd": 1.2,
+        "openingAttempts": 0.212,
+        "openingSuccess": 0.659
+      },
+      {
+        "name": "hitori",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.08,
+        "openingRating": 0.97,
+        "id": "23544",
+        "maps": 72,
+        "rounds": 1591,
+        "kd": 1.01,
+        "openingAttempts": 0.21899999999999997,
+        "openingSuccess": 0.456,
+        "adr": 74.6,
+        "kast": 0.72
+      },
+      {
+        "name": "yksjupe",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.98,
+        "openingRating": 0.93,
+        "id": "25576",
+        "maps": 72,
+        "rounds": 1591,
+        "kd": 0.92,
+        "openingAttempts": 0.196,
+        "openingSuccess": 0.449,
+        "adr": 69.8,
+        "kast": 0.732
+      },
+      {
+        "name": "SHiNE",
+        "role": "Rifler",
+        "rating": 0.94,
+        "impact": 0.82,
+        "openingRating": 0.87,
+        "id": "19065",
+        "maps": 72,
+        "rounds": 1591,
+        "kd": 0.9,
+        "openingAttempts": 0.14300000000000002,
+        "openingSuccess": 0.465,
+        "adr": 64.7,
+        "kast": 0.715
+      }
+    ],
+    "mapWinRates": {
+      "Overpass": 1,
+      "Inferno": 1,
+      "Ancient": 0.5,
+      "Anubis": 0.5720000000000001
+    },
+    "mapProfiles": {
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 15,
+        "rating": 1.06
+      },
+      "Ancient": {
+        "winRate": 0.5,
+        "played": 12,
+        "rating": 1
+      },
+      "Anubis": {
+        "winRate": 0.5720000000000001,
+        "played": 7,
+        "rating": 1.08
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T08:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-06T08:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "hltvRating": 1.06,
+    "mapsPlayed": 42
+  },
+  "lineup": [
+    {
+      "id": "19065",
+      "name": "SHiNE"
+    },
+    {
+      "id": "21272",
+      "name": "tAk"
+    },
+    {
+      "id": "23544",
+      "name": "hitori"
+    },
+    {
+      "id": "24111",
+      "name": "Junyme"
+    },
+    {
+      "id": "25576",
+      "name": "yksjupe"
+    }
+  ],
+  "mapProfiles": {
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 15,
+      "rating": 1.06
+    },
+    "Ancient": {
+      "winRate": 0.5,
+      "played": 12,
+      "rating": 1
+    },
+    "Anubis": {
+      "winRate": 0.5720000000000001,
+      "played": 7,
+      "rating": 1.08
+    }
+  },
+  "mapWinRates": {
+    "Overpass": 1,
+    "Inferno": 1,
+    "Ancient": 0.5,
+    "Anubis": 0.5720000000000001
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T08:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-06T08:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

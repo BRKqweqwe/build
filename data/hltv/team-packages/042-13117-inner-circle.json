@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:27.738Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16147": "cache",
+      "19592": "cache",
+      "23415": "cache",
+      "24168": "cache",
+      "24282": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13117",
+    "name": "Inner Circle",
+    "hltvRank": 42,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "cptkurtka023",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.07,
+        "id": "16147",
+        "adr": 70.9,
+        "kast": 0.708
+      },
+      {
+        "name": "headtr1ck",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 0.96,
+        "id": "19592",
+        "adr": 70.5,
+        "kast": 0.752
+      },
+      {
+        "name": "zeRRoFIX",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.98,
+        "id": "23415",
+        "adr": 73,
+        "kast": 0.72
+      },
+      {
+        "name": "onic",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.87,
+        "id": "24168",
+        "adr": 67.1,
+        "kast": 0.7070000000000001
+      },
+      {
+        "name": "Dawy",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.34,
+        "id": "24282",
+        "adr": 84.4,
+        "kast": 0.747
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 28
+  },
+  "lineup": [
+    {
+      "id": "16147",
+      "name": "cptkurtka023"
+    },
+    {
+      "id": "19592",
+      "name": "headtr1ck"
+    },
+    {
+      "id": "23415",
+      "name": "zeRRoFIX"
+    },
+    {
+      "id": "24168",
+      "name": "onic"
+    },
+    {
+      "id": "24282",
+      "name": "Dawy"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

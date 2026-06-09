@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-06-08T15:00:25.764Z",
+  "kind": "kaggle-validation-ensemble",
+  "selectionMetric": "validation.logLoss",
+  "note": "This ensemble is validated on overlapping Kaggle validation rows. It is not wired into live match inference yet.",
+  "type": "weighted-average",
+  "members": [
+    {
+      "id": "alltiers-prior3-lineup3",
+      "weight": 0.8,
+      "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3.json",
+      "datasetPath": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3.json",
+      "sourceFile": "cs2_all_tiers_games.csv",
+      "soloMetrics": {
+        "rows": 1569,
+        "accuracy": 0.6010197578075207,
+        "logLoss": 0.6602514924194753,
+        "brier": 0.23414231440399316
+      }
+    },
+    {
+      "id": "tier1-prior1-lineup2",
+      "weight": 0.19999999999999996,
+      "modelPath": "static/data/kaggle-variants/trained-model-tier1-prior1-lineup2.json",
+      "datasetPath": "static/data/kaggle-variants/training-dataset-tier1-prior1-lineup2.json",
+      "sourceFile": "cs2_tier1_games.csv",
+      "soloMetrics": {
+        "rows": 1092,
+        "accuracy": 0.5998168498168498,
+        "logLoss": 0.668543001980079,
+        "brier": 0.23748687031789467
+      }
+    }
+  ],
+  "weights": [
+    0.8,
+    0.19999999999999996
+  ],
+  "commonRows": 1075,
+  "metrics": {
+    "rows": 1075,
+    "accuracy": 0.6027906976744186,
+    "logLoss": 0.6597528128215638,
+    "brier": 0.23390179759710808
+  }
+}

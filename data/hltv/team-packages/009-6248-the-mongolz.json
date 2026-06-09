@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:34:03.325Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "20194": "cache",
+      "20275": "cache",
+      "21001": "cache",
+      "21809": "cache",
+      "23402": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "6248",
+    "name": "The MongolZ",
+    "hltvRank": 9,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "bLitz",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 1.03,
+        "id": "20194",
+        "adr": 74.5,
+        "kast": 0.6990000000000001
+      },
+      {
+        "name": "Techno",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.9,
+        "id": "20275",
+        "adr": 67.6,
+        "kast": 0.696
+      },
+      {
+        "name": "mzinho",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1,
+        "id": "21001",
+        "adr": 73.6,
+        "kast": 0.706
+      },
+      {
+        "name": "910",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.13,
+        "id": "21809",
+        "adr": 74.9,
+        "kast": 0.727
+      },
+      {
+        "name": "cobrazera",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.05,
+        "id": "23402",
+        "adr": 73.2,
+        "kast": 0.705
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 30
+  },
+  "lineup": [
+    {
+      "id": "20194",
+      "name": "bLitz"
+    },
+    {
+      "id": "20275",
+      "name": "Techno"
+    },
+    {
+      "id": "21001",
+      "name": "mzinho"
+    },
+    {
+      "id": "21809",
+      "name": "910"
+    },
+    {
+      "id": "23402",
+      "name": "cobrazera"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

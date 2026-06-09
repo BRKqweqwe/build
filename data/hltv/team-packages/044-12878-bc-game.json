@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:31.929Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7998": "cache",
+      "8248": "cache",
+      "8918": "cache",
+      "20903": "cache",
+      "23140": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.48,
+    "playersWithAdr": 4,
+    "playersWithKast": 4,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12878",
+    "name": "BC.Game",
+    "hltvRank": 44,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "s1mple",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.07,
+        "id": "7998",
+        "adr": 74.2,
+        "kast": 0.72
+      },
+      {
+        "name": "electroNic",
+        "role": "Rifler",
+        "rating": 1.08,
+        "impact": 1.07,
+        "id": "8918",
+        "adr": 74.4,
+        "kast": 0.715
+      },
+      {
+        "name": "Senzu",
+        "role": "Rifler",
+        "rating": 1.22,
+        "impact": 1.22,
+        "id": "20903",
+        "adr": 85.2,
+        "kast": 0.731
+      },
+      {
+        "name": "krazy",
+        "role": "Rifler",
+        "rating": 0.84,
+        "impact": 0.83,
+        "id": "23140",
+        "adr": 65.4,
+        "kast": 0.66
+      },
+      {
+        "name": "jkaem",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "8248"
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 3
+  },
+  "lineup": [
+    {
+      "id": "7998",
+      "name": "s1mple"
+    },
+    {
+      "id": "8918",
+      "name": "electroNic"
+    },
+    {
+      "id": "20903",
+      "name": "Senzu"
+    },
+    {
+      "id": "23140",
+      "name": "krazy"
+    },
+    {
+      "id": "8248",
+      "name": "jkaem"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:14.554Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "5794": "cache",
+      "14929": "cache",
+      "14932": "cache",
+      "15165": "cache",
+      "22884": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.975,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 7,
+    "recentMatchCount": 9
+  },
+  "team": {
+    "id": "7532",
+    "name": "BIG",
+    "hltvRank": 39,
+    "elo": 2109,
+    "recentWins": 5,
+    "recentLosses": 4,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "blameF",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.23,
+        "openingRating": 1.14,
+        "id": "15165",
+        "maps": 74,
+        "rounds": 1562,
+        "kd": 1.31,
+        "openingAttempts": 0.179,
+        "openingSuccess": 0.649,
+        "adr": 84,
+        "kast": 0.768
+      },
+      {
+        "name": "JDC",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.27,
+        "openingRating": 1.17,
+        "id": "14929",
+        "maps": 72,
+        "rounds": 1518,
+        "kd": 1.1,
+        "openingAttempts": 0.282,
+        "openingSuccess": 0.516,
+        "adr": 80.1,
+        "kast": 0.738
+      },
+      {
+        "name": "gr1ks",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.08,
+        "openingRating": 1.09,
+        "id": "22884",
+        "maps": 74,
+        "rounds": 1562,
+        "kd": 1.26,
+        "openingAttempts": 0.156,
+        "openingSuccess": 0.6559999999999999,
+        "adr": 75.1,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "faveN",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.97,
+        "openingRating": 0.9,
+        "id": "14932",
+        "maps": 74,
+        "rounds": 1562,
+        "kd": 1.01,
+        "openingAttempts": 0.172,
+        "openingSuccess": 0.455,
+        "adr": 68.5,
+        "kast": 0.7190000000000001
+      },
+      {
+        "name": "tabseN",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.88,
+        "openingRating": 0.85,
+        "id": "5794",
+        "maps": 74,
+        "rounds": 1562,
+        "kd": 0.87,
+        "openingAttempts": 0.21100000000000002,
+        "openingSuccess": 0.38,
+        "adr": 66.2,
+        "kast": 0.728
+      }
+    ],
+    "mapWinRates": {
+      "Overpass": 0.5,
+      "Mirage": 0.5,
+      "Nuke": 0.5,
+      "Dust2": 1,
+      "Ancient": 0,
+      "Inferno": 1,
+      "Anubis": 0.536
+    },
+    "mapProfiles": {
+      "Overpass": {
+        "winRate": 0.5,
+        "played": 2
+      },
+      "Mirage": {
+        "winRate": 0.5,
+        "played": 2
+      },
+      "Nuke": {
+        "winRate": 0.5,
+        "played": 2
+      },
+      "Dust2": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Ancient": {
+        "winRate": 0,
+        "played": 16,
+        "rating": 1.03
+      },
+      "Inferno": {
+        "winRate": 1,
+        "played": 1
+      },
+      "Anubis": {
+        "winRate": 0.536,
+        "played": 6,
+        "rating": 1.04
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-06T16:55:00.000Z",
+        "opponentRank": 18,
+        "opponentElo": 2231,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-06T12:45:00.000Z",
+        "opponentRank": 24,
+        "opponentElo": 2189,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-05T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-05T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-05T17:00:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T14:30:00.000Z",
+        "opponentRank": 10,
+        "opponentElo": 2287,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-04T14:30:00.000Z",
+        "opponentRank": 10,
+        "opponentElo": 2287,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-03T13:35:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      },
+      {
+        "date": "2026-06-02T18:50:00.000Z",
+        "opponentRank": 100,
+        "opponentElo": 1900,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "LAN",
+        "eventTier": 1
+      }
+    ],
+    "hltvRating": 1.07,
+    "mapsPlayed": 45
+  },
+  "lineup": [
+    {
+      "id": "5794",
+      "name": "tabseN"
+    },
+    {
+      "id": "14929",
+      "name": "JDC"
+    },
+    {
+      "id": "14932",
+      "name": "faveN"
+    },
+    {
+      "id": "15165",
+      "name": "blameF"
+    },
+    {
+      "id": "22884",
+      "name": "gr1ks"
+    }
+  ],
+  "mapProfiles": {
+    "Overpass": {
+      "winRate": 0.5,
+      "played": 2
+    },
+    "Mirage": {
+      "winRate": 0.5,
+      "played": 2
+    },
+    "Nuke": {
+      "winRate": 0.5,
+      "played": 2
+    },
+    "Dust2": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Ancient": {
+      "winRate": 0,
+      "played": 16,
+      "rating": 1.03
+    },
+    "Inferno": {
+      "winRate": 1,
+      "played": 1
+    },
+    "Anubis": {
+      "winRate": 0.536,
+      "played": 6,
+      "rating": 1.04
+    }
+  },
+  "mapWinRates": {
+    "Overpass": 0.5,
+    "Mirage": 0.5,
+    "Nuke": 0.5,
+    "Dust2": 1,
+    "Ancient": 0,
+    "Inferno": 1,
+    "Anubis": 0.536
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-06T16:55:00.000Z",
+      "opponentRank": 18,
+      "opponentElo": 2231,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-06T12:45:00.000Z",
+      "opponentRank": 24,
+      "opponentElo": 2189,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-05T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-05T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-05T17:00:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T14:30:00.000Z",
+      "opponentRank": 10,
+      "opponentElo": 2287,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-04T14:30:00.000Z",
+      "opponentRank": 10,
+      "opponentElo": 2287,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-03T13:35:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    },
+    {
+      "date": "2026-06-02T18:50:00.000Z",
+      "opponentRank": 100,
+      "opponentElo": 1900,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "LAN",
+      "eventTier": 1
+    }
+  ]
+}

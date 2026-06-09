@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:39.661Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "8183": "cache",
+      "9960": "cache",
+      "10394": "cache",
+      "18053": "cache",
+      "22383": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.675,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 1,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "6667",
+    "name": "FaZe",
+    "hltvRank": 15,
+    "elo": 2259,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "frozen",
+        "role": "Rifler",
+        "rating": 1.22,
+        "impact": 1.15,
+        "id": "9960",
+        "openingRating": 1.03,
+        "maps": 59,
+        "rounds": 1292,
+        "kd": 1.2,
+        "openingAttempts": 0.183,
+        "openingSuccess": 0.551,
+        "adr": 80.8,
+        "kast": 0.7609999999999999
+      },
+      {
+        "name": "Twistzz",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.14,
+        "id": "10394",
+        "openingRating": 0.99,
+        "maps": 59,
+        "rounds": 1292,
+        "kd": 1.07,
+        "openingAttempts": 0.22399999999999998,
+        "openingSuccess": 0.469,
+        "adr": 77.2,
+        "kast": 0.725
+      },
+      {
+        "name": "broky",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 0.98,
+        "id": "18053",
+        "openingRating": 1.02,
+        "maps": 59,
+        "rounds": 1292,
+        "kd": 1.09,
+        "openingAttempts": 0.141,
+        "openingSuccess": 0.626,
+        "adr": 67.7,
+        "kast": 0.722
+      },
+      {
+        "name": "rain",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.98,
+        "id": "8183",
+        "maps": 76,
+        "rounds": 1631,
+        "kd": 0.96,
+        "openingRating": 0.97,
+        "openingAttempts": 0.18899999999999997,
+        "openingSuccess": 0.49,
+        "adr": 71.4,
+        "kast": 0.7440000000000001
+      },
+      {
+        "name": "jcobbb",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 1.02,
+        "id": "22383",
+        "openingRating": 1.01,
+        "maps": 59,
+        "rounds": 1292,
+        "kd": 0.93,
+        "openingAttempts": 0.239,
+        "openingSuccess": 0.46299999999999997,
+        "adr": 69.5,
+        "kast": 0.701
+      }
+    ],
+    "mapWinRates": {
+      "Anubis": 0.46399999999999997
+    },
+    "mapProfiles": {
+      "Anubis": {
+        "winRate": 0.46399999999999997,
+        "played": 6,
+        "rating": 0.96
+      }
+    },
+    "recentMatches": [],
+    "hltvRating": 1.02,
+    "mapsPlayed": 28
+  },
+  "lineup": [
+    {
+      "id": "9960",
+      "name": "frozen"
+    },
+    {
+      "id": "10394",
+      "name": "Twistzz"
+    },
+    {
+      "id": "18053",
+      "name": "broky"
+    },
+    {
+      "id": "22383",
+      "name": "jcobbb"
+    },
+    {
+      "id": "8183",
+      "name": "rain"
+    }
+  ],
+  "mapProfiles": {
+    "Anubis": {
+      "winRate": 0.46399999999999997,
+      "played": 6,
+      "rating": 0.96
+    }
+  },
+  "mapWinRates": {
+    "Anubis": 0.46399999999999997
+  },
+  "recentMatches": []
+}

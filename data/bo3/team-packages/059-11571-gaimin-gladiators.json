@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-06-08T13:32:15.961Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/gaimin-gladiators"
+  },
+  "summary": {
+    "hltvTeamId": "11571",
+    "hltvName": "Gaimin Gladiators",
+    "bo3TeamId": "6707",
+    "slug": "gaimin-gladiators",
+    "name": "Gaimin Gladiators",
+    "rank": null,
+    "rankDiff": null,
+    "sixMonthEarned": null,
+    "currentRosterSize": 0,
+    "currentRosterRatingAvg": null,
+    "currentRosterRatingMin": null,
+    "currentRosterRatingMax": null,
+    "joinTransfers": 0,
+    "leaveTransfers": 0,
+    "transfersSince2025": 0,
+    "lastTransferDate": "2022-07-30",
+    "players": []
+  },
+  "transfers": [
+    {
+      "id": 54732,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 42296,
+      "playerName": "FREY",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/GaiminGladiator/status/1553312908607889408"
+    },
+    {
+      "id": 54733,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 42295,
+      "playerName": "dzii",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/GaiminGladiator/status/1553312908607889408"
+    },
+    {
+      "id": 54734,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 44939,
+      "playerName": "STYRON",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/GaiminGladiator/status/1553312908607889408"
+    },
+    {
+      "id": 54735,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 42297,
+      "playerName": "artn",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/GaiminGladiator/status/1553312908607889408"
+    },
+    {
+      "id": 54736,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 42298,
+      "playerName": "Nephh",
+      "isCoach": false,
+      "sourceUrl": "https://twitter.com/GaiminGladiator/status/1553312908607889408"
+    },
+    {
+      "id": 216118,
+      "actionDate": "2022-07-30",
+      "actionType": 1,
+      "teamToId": 6726,
+      "teamToName": "LaZe",
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 42296,
+      "playerName": "FREY",
+      "isCoach": false,
+      "sourceUrl": null
+    },
+    {
+      "id": 216250,
+      "actionDate": "2022-07-30",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 6707,
+      "teamFromName": "Gaimin Gladiators",
+      "playerId": 79452,
+      "playerName": "ech0",
+      "isCoach": true,
+      "sourceUrl": null
+    }
+  ]
+}

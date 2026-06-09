@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:25.785Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "16486": "cache",
+      "20358": "cache",
+      "20625": "cache",
+      "24203": "cache",
+      "24332": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13679",
+    "name": "FOKUS",
+    "hltvRank": 41,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "ztr",
+        "role": "Rifler",
+        "rating": 0.97,
+        "impact": 1,
+        "id": "16486",
+        "adr": 70.9,
+        "kast": 0.7090000000000001
+      },
+      {
+        "name": "volt",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.97,
+        "id": "20358",
+        "adr": 69.5,
+        "kast": 0.742
+      },
+      {
+        "name": "Banjo",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 0.97,
+        "id": "20625",
+        "adr": 75.4,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "Jorko",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.15,
+        "id": "24203",
+        "adr": 74.6,
+        "kast": 0.743
+      },
+      {
+        "name": "Matheos",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.19,
+        "id": "24332",
+        "adr": 77.1,
+        "kast": 0.731
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 37
+  },
+  "lineup": [
+    {
+      "id": "16486",
+      "name": "ztr"
+    },
+    {
+      "id": "20358",
+      "name": "volt"
+    },
+    {
+      "id": "20625",
+      "name": "Banjo"
+    },
+    {
+      "id": "24203",
+      "name": "Jorko"
+    },
+    {
+      "id": "24332",
+      "name": "Matheos"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

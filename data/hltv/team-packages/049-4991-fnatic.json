@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:42.384Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7528": "cache",
+      "17803": "cache",
+      "23046": "cache",
+      "23414": "cache",
+      "24914": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4991",
+    "name": "fnatic",
+    "hltvRank": 49,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "fEAR",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.95,
+        "id": "17803",
+        "adr": 70.3,
+        "kast": 0.7140000000000001
+      },
+      {
+        "name": "jambo",
+        "role": "Rifler",
+        "rating": 1.22,
+        "impact": 1.27,
+        "id": "23046",
+        "adr": 78.7,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "jackasmo",
+        "role": "Rifler",
+        "rating": 1.16,
+        "impact": 1.14,
+        "id": "23414",
+        "adr": 84,
+        "kast": 0.742
+      },
+      {
+        "name": "Br4tkO",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 0.97,
+        "id": "24914",
+        "adr": 68.3,
+        "kast": 0.7170000000000001
+      },
+      {
+        "name": "KRIMZ",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 0.98,
+        "id": "7528",
+        "adr": 71.8,
+        "kast": 0.742
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 42
+  },
+  "lineup": [
+    {
+      "id": "17803",
+      "name": "fEAR"
+    },
+    {
+      "id": "23046",
+      "name": "jambo"
+    },
+    {
+      "id": "23414",
+      "name": "jackasmo"
+    },
+    {
+      "id": "24914",
+      "name": "Br4tkO"
+    },
+    {
+      "id": "7528",
+      "name": "KRIMZ"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

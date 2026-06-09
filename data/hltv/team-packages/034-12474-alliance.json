@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:12.142Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7443": "cache",
+      "16487": "cache",
+      "22760": "cache",
+      "22860": "cache",
+      "24083": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.725,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 3,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "12474",
+    "name": "Alliance",
+    "hltvRank": 34,
+    "elo": 2144,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "MaiL09",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.13,
+        "openingRating": 1.03,
+        "id": "24083",
+        "maps": 74,
+        "rounds": 1619,
+        "kd": 1.17,
+        "openingAttempts": 0.17600000000000002,
+        "openingSuccess": 0.561,
+        "adr": 79.4,
+        "kast": 0.762
+      },
+      {
+        "name": "eraa",
+        "role": "Rifler",
+        "rating": 1.14,
+        "impact": 1.19,
+        "openingRating": 1.16,
+        "id": "16487",
+        "maps": 74,
+        "rounds": 1619,
+        "kd": 1.35,
+        "openingAttempts": 0.198,
+        "openingSuccess": 0.628,
+        "adr": 78.8,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "avid",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.19,
+        "openingRating": 1.14,
+        "id": "22860",
+        "maps": 74,
+        "rounds": 1619,
+        "kd": 1.04,
+        "openingAttempts": 0.28300000000000003,
+        "openingSuccess": 0.5,
+        "adr": 78,
+        "kast": 0.75
+      },
+      {
+        "name": "twist",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.96,
+        "openingRating": 0.99,
+        "id": "7443",
+        "maps": 74,
+        "rounds": 1619,
+        "kd": 0.95,
+        "openingAttempts": 0.198,
+        "openingSuccess": 0.49700000000000005,
+        "adr": 72.1,
+        "kast": 0.753
+      },
+      {
+        "name": "upE",
+        "role": "Rifler",
+        "rating": 0.95,
+        "impact": 0.82,
+        "openingRating": 0.88,
+        "id": "22760",
+        "maps": 74,
+        "rounds": 1619,
+        "kd": 0.92,
+        "openingAttempts": 0.14300000000000002,
+        "openingSuccess": 0.47200000000000003,
+        "adr": 64.1,
+        "kast": 0.7170000000000001
+      }
+    ],
+    "mapWinRates": {
+      "Anubis": 0.6259999999999999,
+      "Inferno": 0.545,
+      "Nuke": 0.473
+    },
+    "mapProfiles": {
+      "Anubis": {
+        "winRate": 0.6259999999999999,
+        "played": 19,
+        "rating": 1.14
+      },
+      "Inferno": {
+        "winRate": 0.545,
+        "played": 16,
+        "rating": 1.05
+      },
+      "Nuke": {
+        "winRate": 0.473,
+        "played": 13,
+        "rating": 0.97
+      }
+    },
+    "recentMatches": [],
+    "hltvRating": 1.07,
+    "mapsPlayed": 44
+  },
+  "lineup": [
+    {
+      "id": "7443",
+      "name": "twist"
+    },
+    {
+      "id": "16487",
+      "name": "eraa"
+    },
+    {
+      "id": "22760",
+      "name": "upE"
+    },
+    {
+      "id": "22860",
+      "name": "avid"
+    },
+    {
+      "id": "24083",
+      "name": "MaiL09"
+    }
+  ],
+  "mapProfiles": {
+    "Anubis": {
+      "winRate": 0.6259999999999999,
+      "played": 19,
+      "rating": 1.14
+    },
+    "Inferno": {
+      "winRate": 0.545,
+      "played": 16,
+      "rating": 1.05
+    },
+    "Nuke": {
+      "winRate": 0.473,
+      "played": 13,
+      "rating": 0.97
+    }
+  },
+  "mapWinRates": {
+    "Anubis": 0.6259999999999999,
+    "Inferno": 0.545,
+    "Nuke": 0.473
+  },
+  "recentMatches": []
+}

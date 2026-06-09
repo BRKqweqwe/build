@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:03:34.221Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "17508": "cache",
+      "20430": "cache",
+      "22803": "cache",
+      "24176": "cache",
+      "24569": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.844,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 4,
+    "recentMatchCount": 5
+  },
+  "team": {
+    "id": "12380",
+    "name": "CYBERSHOKE",
+    "hltvRank": 78,
+    "elo": 1850,
+    "recentWins": 4,
+    "recentLosses": 1,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "glowiing",
+        "role": "Rifler",
+        "rating": 1.17,
+        "impact": 1.3,
+        "openingRating": 1.19,
+        "id": "17508",
+        "maps": 74,
+        "rounds": 1596,
+        "kd": 1.12,
+        "openingAttempts": 0.253,
+        "openingSuccess": 0.563,
+        "adr": 84.3,
+        "kast": 0.737
+      },
+      {
+        "name": "Mokuj1n",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.07,
+        "openingRating": 1.01,
+        "id": "24176",
+        "maps": 74,
+        "rounds": 1596,
+        "kd": 1.11,
+        "openingAttempts": 0.18100000000000002,
+        "openingSuccess": 0.536,
+        "adr": 75.9,
+        "kast": 0.723
+      },
+      {
+        "name": "bl1x1",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 0.98,
+        "openingRating": 0.96,
+        "id": "22803",
+        "maps": 74,
+        "rounds": 1596,
+        "kd": 0.98,
+        "openingAttempts": 0.209,
+        "openingSuccess": 0.461,
+        "adr": 70,
+        "kast": 0.7390000000000001
+      },
+      {
+        "name": "fluffy",
+        "role": "Rifler",
+        "rating": 1.03,
+        "impact": 1.08,
+        "openingRating": 1.2,
+        "id": "24569",
+        "maps": 71,
+        "rounds": 1514,
+        "kd": 1.08,
+        "openingAttempts": 0.221,
+        "openingSuccess": 0.611,
+        "adr": 71,
+        "kast": 0.69
+      },
+      {
+        "name": "alpha",
+        "role": "Rifler",
+        "rating": 0.96,
+        "impact": 0.87,
+        "openingRating": 0.92,
+        "id": "20430",
+        "maps": 74,
+        "rounds": 1596,
+        "kd": 0.93,
+        "openingAttempts": 0.154,
+        "openingSuccess": 0.49200000000000005,
+        "adr": 70.6,
+        "kast": 0.726
+      }
+    ],
+    "mapWinRates": {
+      "Mirage": 1,
+      "Ancient": 1,
+      "Dust2": 0,
+      "Overpass": 1
+    },
+    "mapProfiles": {
+      "Mirage": {
+        "winRate": 1,
+        "played": 19,
+        "rating": 1.03
+      },
+      "Ancient": {
+        "winRate": 1,
+        "played": 18,
+        "rating": 1.17
+      },
+      "Dust2": {
+        "winRate": 0,
+        "played": 20,
+        "rating": 1.12
+      },
+      "Overpass": {
+        "winRate": 1,
+        "played": 1
+      }
+    },
+    "recentMatches": [
+      {
+        "date": "2026-06-05T14:00:00.000Z",
+        "opponentRank": 85,
+        "opponentElo": 1783,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-05T14:00:00.000Z",
+        "opponentRank": 85,
+        "opponentElo": 1783,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-04T11:00:00.000Z",
+        "opponentRank": 62,
+        "opponentElo": 1937,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-04T11:00:00.000Z",
+        "opponentRank": 62,
+        "opponentElo": 1937,
+        "result": "loss",
+        "mapWins": 0,
+        "mapLosses": 1,
+        "environment": "Online",
+        "eventTier": 3
+      },
+      {
+        "date": "2026-06-04T11:00:00.000Z",
+        "opponentRank": 62,
+        "opponentElo": 1937,
+        "result": "win",
+        "mapWins": 1,
+        "mapLosses": 0,
+        "environment": "Online",
+        "eventTier": 3
+      }
+    ],
+    "hltvRating": 1.11,
+    "mapsPlayed": 43
+  },
+  "lineup": [
+    {
+      "id": "17508",
+      "name": "glowiing"
+    },
+    {
+      "id": "20430",
+      "name": "alpha"
+    },
+    {
+      "id": "22803",
+      "name": "bl1x1"
+    },
+    {
+      "id": "24176",
+      "name": "Mokuj1n"
+    },
+    {
+      "id": "24569",
+      "name": "fluffy"
+    }
+  ],
+  "mapProfiles": {
+    "Mirage": {
+      "winRate": 1,
+      "played": 19,
+      "rating": 1.03
+    },
+    "Ancient": {
+      "winRate": 1,
+      "played": 18,
+      "rating": 1.17
+    },
+    "Dust2": {
+      "winRate": 0,
+      "played": 20,
+      "rating": 1.12
+    },
+    "Overpass": {
+      "winRate": 1,
+      "played": 1
+    }
+  },
+  "mapWinRates": {
+    "Mirage": 1,
+    "Ancient": 1,
+    "Dust2": 0,
+    "Overpass": 1
+  },
+  "recentMatches": [
+    {
+      "date": "2026-06-05T14:00:00.000Z",
+      "opponentRank": 85,
+      "opponentElo": 1783,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-05T14:00:00.000Z",
+      "opponentRank": 85,
+      "opponentElo": 1783,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-04T11:00:00.000Z",
+      "opponentRank": 62,
+      "opponentElo": 1937,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-04T11:00:00.000Z",
+      "opponentRank": 62,
+      "opponentElo": 1937,
+      "result": "loss",
+      "mapWins": 0,
+      "mapLosses": 1,
+      "environment": "Online",
+      "eventTier": 3
+    },
+    {
+      "date": "2026-06-04T11:00:00.000Z",
+      "opponentRank": 62,
+      "opponentElo": 1937,
+      "result": "win",
+      "mapWins": 1,
+      "mapLosses": 0,
+      "environment": "Online",
+      "eventTier": 3
+    }
+  ]
+}

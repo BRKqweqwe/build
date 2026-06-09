@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:56:03.203Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "7808": "cache",
+      "7935": "cache",
+      "8518": "cache",
+      "22133": "cache",
+      "25364": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.4,
+    "playersWithAdr": 0,
+    "playersWithKast": 0,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "13793",
+    "name": "Third Prime",
+    "hltvRank": 100,
+    "elo": 1657,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "freakazoid",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "7808"
+      },
+      {
+        "name": "roca",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "7935"
+      },
+      {
+        "name": "gloRinsz",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "8518"
+      },
+      {
+        "name": "LittleBEER",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "22133"
+      },
+      {
+        "name": "WetWillie",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1,
+        "id": "25364"
+      }
+    ],
+    "mapWinRates": {},
+    "mapProfiles": {},
+    "recentMatches": [],
+    "mapsPlayed": 0
+  },
+  "lineup": [
+    {
+      "id": "7808",
+      "name": "freakazoid"
+    },
+    {
+      "id": "7935",
+      "name": "roca"
+    },
+    {
+      "id": "8518",
+      "name": "gloRinsz"
+    },
+    {
+      "id": "22133",
+      "name": "LittleBEER"
+    },
+    {
+      "id": "25364",
+      "name": "WetWillie"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

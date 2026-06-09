@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:33:54.132Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "2023": "cache",
+      "12553": "cache",
+      "13915": "cache",
+      "15631": "cache",
+      "24144": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "8297",
+    "name": "FURIA",
+    "hltvRank": 5,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "FalleN",
+        "role": "Rifler",
+        "rating": 0.93,
+        "impact": 0.83,
+        "id": "2023",
+        "adr": 63.4,
+        "kast": 0.725
+      },
+      {
+        "name": "yuurih",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.84,
+        "id": "12553",
+        "adr": 66.6,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "YEKINDAR",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.18,
+        "id": "13915",
+        "adr": 78.5,
+        "kast": 0.731
+      },
+      {
+        "name": "KSCERATO",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.25,
+        "id": "15631",
+        "adr": 82.4,
+        "kast": 0.755
+      },
+      {
+        "name": "molodoy",
+        "role": "Rifler",
+        "rating": 1.15,
+        "impact": 1.18,
+        "id": "24144",
+        "adr": 78,
+        "kast": 0.738
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 24
+  },
+  "lineup": [
+    {
+      "id": "2023",
+      "name": "FalleN"
+    },
+    {
+      "id": "12553",
+      "name": "yuurih"
+    },
+    {
+      "id": "13915",
+      "name": "YEKINDAR"
+    },
+    {
+      "id": "15631",
+      "name": "KSCERATO"
+    },
+    {
+      "id": "24144",
+      "name": "molodoy"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-06-08T13:32:15.035Z",
+  "source": {
+    "name": "bo3.gg",
+    "apiBaseUrl": "https://api.bo3.gg/api/v1",
+    "url": "https://api.bo3.gg/api/v1/teams/magic"
+  },
+  "summary": {
+    "hltvTeamId": "13592",
+    "hltvName": "magic",
+    "bo3TeamId": "3757",
+    "slug": "magic",
+    "name": "maGic",
+    "rank": null,
+    "rankDiff": null,
+    "sixMonthEarned": null,
+    "currentRosterSize": 0,
+    "currentRosterRatingAvg": null,
+    "currentRosterRatingMin": null,
+    "currentRosterRatingMax": null,
+    "joinTransfers": 0,
+    "leaveTransfers": 1,
+    "transfersSince2025": 1,
+    "lastTransferDate": "2026-03-07",
+    "players": []
+  },
+  "transfers": [
+    {
+      "id": 250004,
+      "actionDate": "2026-03-07",
+      "actionType": 3,
+      "teamToId": null,
+      "teamToName": null,
+      "teamFromId": 3757,
+      "teamFromName": "Magic",
+      "playerId": 25468,
+      "playerName": "h1te",
+      "isCoach": false,
+      "sourceUrl": "https://x.com/bullet_cs2/status/2030259716266353060"
+    }
+  ]
+}

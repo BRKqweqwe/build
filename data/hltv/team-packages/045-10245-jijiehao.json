@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:35:33.984Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "17675": "cache",
+      "18120": "cache",
+      "18163": "cache",
+      "18790": "cache",
+      "22419": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "10245",
+    "name": "JiJieHao",
+    "hltvRank": 45,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "m1N1",
+        "role": "Rifler",
+        "rating": 1.18,
+        "impact": 1.22,
+        "id": "17675",
+        "adr": 75.5,
+        "kast": 0.772
+      },
+      {
+        "name": "sinnopsyy",
+        "role": "Rifler",
+        "rating": 1.13,
+        "impact": 1.24,
+        "id": "18120",
+        "adr": 84.7,
+        "kast": 0.743
+      },
+      {
+        "name": "Bibu",
+        "role": "Rifler",
+        "rating": 1.1,
+        "impact": 1.02,
+        "id": "18163",
+        "adr": 72.6,
+        "kast": 0.754
+      },
+      {
+        "name": "CacaNito",
+        "role": "Rifler",
+        "rating": 1.2,
+        "impact": 1.37,
+        "id": "18790",
+        "adr": 85.8,
+        "kast": 0.7559999999999999
+      },
+      {
+        "name": "0SAMAS",
+        "role": "Rifler",
+        "rating": 1.07,
+        "impact": 1.02,
+        "id": "22419",
+        "adr": 69,
+        "kast": 0.7490000000000001
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 26
+  },
+  "lineup": [
+    {
+      "id": "17675",
+      "name": "m1N1"
+    },
+    {
+      "id": "18120",
+      "name": "sinnopsyy"
+    },
+    {
+      "id": "18163",
+      "name": "Bibu"
+    },
+    {
+      "id": "18790",
+      "name": "CacaNito"
+    },
+    {
+      "id": "22419",
+      "name": "0SAMAS"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}

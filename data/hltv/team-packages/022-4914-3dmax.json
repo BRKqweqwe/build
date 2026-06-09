@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T12:02:52.507Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "13138": "cache",
+      "13497": "cache",
+      "14176": "cache",
+      "19739": "cache",
+      "21969": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.725,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 5,
+    "mapCount": 3,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "4914",
+    "name": "3DMAX",
+    "hltvRank": 22,
+    "elo": 2214,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "Lucky",
+        "role": "Rifler",
+        "rating": 1.09,
+        "impact": 1.09,
+        "openingRating": 1.01,
+        "id": "13497",
+        "maps": 65,
+        "rounds": 1398,
+        "kd": 1.07,
+        "openingAttempts": 0.175,
+        "openingSuccess": 0.541,
+        "adr": 76.3,
+        "kast": 0.7490000000000001
+      },
+      {
+        "name": "misutaaa",
+        "role": "Rifler",
+        "rating": 1.06,
+        "impact": 1.1,
+        "openingRating": 1.06,
+        "id": "14176",
+        "maps": 65,
+        "rounds": 1398,
+        "kd": 0.99,
+        "openingAttempts": 0.207,
+        "openingSuccess": 0.531,
+        "adr": 74.5,
+        "kast": 0.745
+      },
+      {
+        "name": "Maka",
+        "role": "Rifler",
+        "rating": 1.02,
+        "impact": 0.99,
+        "openingRating": 1.05,
+        "id": "13138",
+        "maps": 65,
+        "rounds": 1398,
+        "kd": 1.07,
+        "openingAttempts": 0.17600000000000002,
+        "openingSuccess": 0.573,
+        "adr": 69.8,
+        "kast": 0.735
+      },
+      {
+        "name": "Ex3rcice",
+        "role": "Rifler",
+        "rating": 0.99,
+        "impact": 0.96,
+        "openingRating": 0.89,
+        "id": "19739",
+        "maps": 65,
+        "rounds": 1398,
+        "kd": 0.96,
+        "openingAttempts": 0.19,
+        "openingSuccess": 0.425,
+        "adr": 70.1,
+        "kast": 0.703
+      },
+      {
+        "name": "Graviti",
+        "role": "Rifler",
+        "rating": 0.98,
+        "impact": 0.97,
+        "openingRating": 0.95,
+        "id": "21969",
+        "maps": 65,
+        "rounds": 1398,
+        "kd": 0.93,
+        "openingAttempts": 0.25,
+        "openingSuccess": 0.42,
+        "adr": 69.2,
+        "kast": 0.73
+      }
+    ],
+    "mapWinRates": {
+      "Ancient": 0.473,
+      "Dust2": 0.518,
+      "Inferno": 0.509
+    },
+    "mapProfiles": {
+      "Ancient": {
+        "winRate": 0.473,
+        "played": 16,
+        "rating": 0.97
+      },
+      "Dust2": {
+        "winRate": 0.518,
+        "played": 18,
+        "rating": 1.02
+      },
+      "Inferno": {
+        "winRate": 0.509,
+        "played": 14,
+        "rating": 1.01
+      }
+    },
+    "recentMatches": [],
+    "hltvRating": 1.03,
+    "mapsPlayed": 29
+  },
+  "lineup": [
+    {
+      "id": "13138",
+      "name": "Maka"
+    },
+    {
+      "id": "13497",
+      "name": "Lucky"
+    },
+    {
+      "id": "14176",
+      "name": "misutaaa"
+    },
+    {
+      "id": "19739",
+      "name": "Ex3rcice"
+    },
+    {
+      "id": "21969",
+      "name": "Graviti"
+    }
+  ],
+  "mapProfiles": {
+    "Ancient": {
+      "winRate": 0.473,
+      "played": 16,
+      "rating": 0.97
+    },
+    "Dust2": {
+      "winRate": 0.518,
+      "played": 18,
+      "rating": 1.02
+    },
+    "Inferno": {
+      "winRate": 0.509,
+      "played": 14,
+      "rating": 1.01
+    }
+  },
+  "mapWinRates": {
+    "Ancient": 0.473,
+    "Dust2": 0.518,
+    "Inferno": 0.509
+  },
+  "recentMatches": []
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-07T11:36:01.503Z",
+  "source": {
+    "name": "hltv-team-package",
+    "startDate": "2026-03-09",
+    "endDate": "2026-06-07",
+    "teamPage": "cache",
+    "teamStats": "cache",
+    "playerProfiles": {
+      "10330": "cache",
+      "16723": "cache",
+      "20090": "cache",
+      "21199": "cache",
+      "23338": "cache"
+    }
+  },
+  "quality": {
+    "score": 0.5,
+    "playersWithAdr": 5,
+    "playersWithKast": 5,
+    "playersWithOpening": 0,
+    "mapCount": 0,
+    "recentMatchCount": 0
+  },
+  "team": {
+    "id": "11712",
+    "name": "Sashi",
+    "hltvRank": 57,
+    "elo": 1900,
+    "recentWins": 0,
+    "recentLosses": 0,
+    "lanWinRate": 0.5,
+    "onlineWinRate": 0.5,
+    "lineupStability": 0.5,
+    "players": [
+      {
+        "name": "acoR",
+        "role": "Rifler",
+        "rating": 1,
+        "impact": 1.07,
+        "id": "10330",
+        "adr": 73.1,
+        "kast": 0.711
+      },
+      {
+        "name": "Cabbi",
+        "role": "Rifler",
+        "rating": 1.11,
+        "impact": 1.21,
+        "id": "16723",
+        "adr": 78.5,
+        "kast": 0.715
+      },
+      {
+        "name": "Zyphon",
+        "role": "Rifler",
+        "rating": 1.19,
+        "impact": 1.09,
+        "id": "20090",
+        "adr": 80.8,
+        "kast": 0.7709999999999999
+      },
+      {
+        "name": "MistR",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.96,
+        "id": "21199",
+        "adr": 69.9,
+        "kast": 0.736
+      },
+      {
+        "name": "Beccie",
+        "role": "Rifler",
+        "rating": 1.01,
+        "impact": 0.92,
+        "id": "23338",
+        "adr": 66.2,
+        "kast": 0.728
+      }
+    ],
+    "mapWinRates": {},
+    "mapsPlayed": 26
+  },
+  "lineup": [
+    {
+      "id": "10330",
+      "name": "acoR"
+    },
+    {
+      "id": "16723",
+      "name": "Cabbi"
+    },
+    {
+      "id": "20090",
+      "name": "Zyphon"
+    },
+    {
+      "id": "21199",
+      "name": "MistR"
+    },
+    {
+      "id": "23338",
+      "name": "Beccie"
+    }
+  ],
+  "mapProfiles": {},
+  "mapWinRates": {},
+  "recentMatches": []
+}
