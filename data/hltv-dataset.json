@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T14:07:28.895Z",
+  "generatedAt": "2026-06-10T14:28:18.827Z",
   "source": {
     "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill",
     "maxRank": 100,
@@ -70,7 +70,8 @@
       "rosterTransfers": "bo3.gg",
       "rosterPlayerPriors": "bo3.gg",
       "scheduleFallback": "pandascore",
-      "playerPublicProfiles": "csskill"
+      "playerPublicProfiles": "csskill",
+      "liveFormPatch": "model-results"
     },
     "schedule": {
       "name": "pandascore",
@@ -97,6 +98,14 @@
       "method": "public-profile-search",
       "profiles": 134,
       "minMatches": 5
+    },
+    "liveFormPatch": {
+      "results": "static/data/model-results.json",
+      "applied": 1,
+      "skipped": 12,
+      "lookbackDays": 21,
+      "maxRecentMatches": 12,
+      "note": "Resolved live results are applied as conservative 1-0/0-1 recent form entries when exact map score is unavailable."
     }
   },
   "matches": [
@@ -2126,7 +2135,7 @@
       "name": "Legacy",
       "hltvRank": 5,
       "elo": 2041,
-      "recentWins": 5,
+      "recentWins": 7,
       "recentLosses": 0,
       "lanWinRate": 1,
       "onlineWinRate": 1,
@@ -2387,6 +2396,38 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-tyloo-legacy",
+          "pandaScoreId": 1508714,
+          "opponentId": "4863",
+          "opponentName": "TYLOO",
+          "opponentRank": 25,
+          "opponentElo": 1845,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Counter-Strike: Legacy vs M80 (BO1) - XSE Pro League Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-m80-legacy",
+          "pandaScoreId": 1508712,
+          "opponentId": "12376",
+          "opponentName": "M80",
+          "opponentRank": 25,
+          "opponentElo": 1845,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-23T00:00:00.000Z",
           "opponentRank": 18,
           "opponentElo": 1900,
@@ -2443,7 +2484,7 @@
         }
       ],
       "hltvRating": 1.127,
-      "mapsPlayed": 27,
+      "mapsPlayed": 34,
       "vrsPoints": 1868,
       "source": {
         "csapi": {
@@ -3693,9 +3734,9 @@
       "hltvRank": 10,
       "elo": 1971,
       "recentWins": 3,
-      "recentLosses": 2,
+      "recentLosses": 3,
       "lanWinRate": 0.6,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 0,
       "lineupStability": 0.75,
       "players": [
         {
@@ -3856,6 +3897,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-07T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "TYLOO vs Astralis",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-07-tyloo-astralis",
+          "pandaScoreId": null,
+          "opponentId": "4863",
+          "opponentName": "TYLOO",
+          "opponentRank": 25,
+          "opponentElo": 1845,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-13T00:00:00.000Z",
           "opponentRank": 42,
@@ -4633,9 +4690,9 @@
       "name": "G2",
       "hltvRank": 13,
       "elo": 1954,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 1,
-      "lanWinRate": 0.8,
+      "lanWinRate": 0.8333333333333334,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -4893,6 +4950,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "Counter-Strike: G2 vs BIG (BO3) - IEM Cologne Major Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-g2-big",
+          "pandaScoreId": 1508711,
+          "opponentId": "7532",
+          "opponentName": "BIG",
+          "opponentRank": 28,
+          "opponentElo": 1843,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-05-13T00:00:00.000Z",
           "opponentRank": 21,
@@ -5303,10 +5376,10 @@
       "name": "9z",
       "hltvRank": 15,
       "elo": 1933,
-      "recentWins": 2,
+      "recentWins": 3,
       "recentLosses": 3,
       "lanWinRate": 0,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 0.6,
       "lineupStability": 0.75,
       "players": [
         {
@@ -5564,6 +5637,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "TYLOO vs 9z",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-tyloo-9z",
+          "pandaScoreId": 1508710,
+          "opponentId": "4863",
+          "opponentName": "TYLOO",
+          "opponentRank": 25,
+          "opponentElo": 1845,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-29T00:00:00.000Z",
           "opponentRank": 22,
           "opponentElo": 1900,
@@ -5651,10 +5740,10 @@
       "name": "B8",
       "hltvRank": 16,
       "elo": 1926,
-      "recentWins": 4,
+      "recentWins": 6,
       "recentLosses": 1,
       "lanWinRate": 1,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -5912,6 +6001,38 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-big-b8",
+          "pandaScoreId": 1508715,
+          "opponentId": "7532",
+          "opponentName": "BIG",
+          "opponentRank": 28,
+          "opponentElo": 1843,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "MIBR vs B8",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-mibr-b8",
+          "pandaScoreId": 1508708,
+          "opponentId": "9215",
+          "opponentName": "MIBR",
+          "opponentRank": 18,
+          "opponentElo": 1911,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-06-03T00:00:00.000Z",
           "opponentRank": 25,
           "opponentElo": 1900,
@@ -5968,7 +6089,7 @@
         }
       ],
       "hltvRating": 1.047,
-      "mapsPlayed": 30,
+      "mapsPlayed": 72,
       "vrsPoints": 1613,
       "source": {
         "csapi": {
@@ -5999,10 +6120,10 @@
       "name": "BetBoom",
       "hltvRank": 17,
       "elo": 1923,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 1,
       "lanWinRate": 1,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -6272,6 +6393,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Monte vs BetBoom",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-monte-betboom",
+          "pandaScoreId": 1508709,
+          "opponentId": "11811",
+          "opponentName": "Monte",
+          "opponentRank": 21,
+          "opponentElo": 1880,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-06-02T00:00:00.000Z",
           "opponentRank": 59,
           "opponentElo": 1900,
@@ -6328,7 +6465,7 @@
         }
       ],
       "hltvRating": 1.097,
-      "mapsPlayed": 24,
+      "mapsPlayed": 48,
       "vrsPoints": 1607,
       "source": {
         "csapi": {
@@ -6360,9 +6497,9 @@
       "hltvRank": 18,
       "elo": 1911,
       "recentWins": 4,
-      "recentLosses": 1,
+      "recentLosses": 2,
       "lanWinRate": 0.75,
-      "onlineWinRate": 1,
+      "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
         {
@@ -6619,6 +6756,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "MIBR vs B8",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-mibr-b8",
+          "pandaScoreId": 1508708,
+          "opponentId": "11241",
+          "opponentName": "B8",
+          "opponentRank": 16,
+          "opponentElo": 1926,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-04T00:00:00.000Z",
           "opponentRank": 24,
           "opponentElo": 1900,
@@ -6674,7 +6827,7 @@
           "event": "CS Asia Championships 2026"
         }
       ],
-      "mapsPlayed": 16,
+      "mapsPlayed": 97,
       "vrsPoints": 1581,
       "hltvRating": 1.114,
       "source": {
@@ -6929,8 +7082,8 @@
       "hltvRank": 20,
       "elo": 1895,
       "recentWins": 4,
-      "recentLosses": 1,
-      "lanWinRate": 1,
+      "recentLosses": 2,
+      "lanWinRate": 0.5,
       "onlineWinRate": 0.75,
       "lineupStability": 0.75,
       "players": [
@@ -7081,6 +7234,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-monte-pain",
+          "pandaScoreId": 1508713,
+          "opponentId": "11811",
+          "opponentName": "Monte",
+          "opponentRank": 21,
+          "opponentElo": 1880,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-05-21T00:00:00.000Z",
           "opponentRank": 25,
           "opponentElo": 1900,
@@ -7136,7 +7305,7 @@
           "event": "BetBoom Circuit X Mayhem São Paulo 2026"
         }
       ],
-      "mapsPlayed": 18,
+      "mapsPlayed": 34,
       "vrsPoints": 1544,
       "hltvRating": 1.054,
       "source": {
@@ -7168,10 +7337,10 @@
       "name": "Monte",
       "hltvRank": 21,
       "elo": 1880,
-      "recentWins": 4,
-      "recentLosses": 1,
+      "recentWins": 5,
+      "recentLosses": 2,
       "lanWinRate": 1,
-      "onlineWinRate": 0.75,
+      "onlineWinRate": 0.6,
       "lineupStability": 0.75,
       "players": [
         {
@@ -7452,6 +7621,38 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "Counter-Strike: Monte vs paiN (BO3) - IEM Cologne Major Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-monte-pain",
+          "pandaScoreId": 1508713,
+          "opponentId": "4773",
+          "opponentName": "paiN",
+          "opponentRank": 20,
+          "opponentElo": 1895,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Monte vs BetBoom",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-monte-betboom",
+          "pandaScoreId": 1508709,
+          "opponentId": "12394",
+          "opponentName": "BetBoom",
+          "opponentRank": 17,
+          "opponentElo": 1923,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-12T00:00:00.000Z",
           "opponentRank": 72,
@@ -8622,9 +8823,9 @@
       "hltvRank": 25,
       "elo": 1845,
       "recentWins": 4,
-      "recentLosses": 1,
+      "recentLosses": 2,
       "lanWinRate": 0.75,
-      "onlineWinRate": 1,
+      "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
         {
@@ -8882,6 +9083,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Counter-Strike: Legacy vs M80 (BO1) - XSE Pro League Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-m80-legacy",
+          "pandaScoreId": 1508712,
+          "opponentId": "12468",
+          "opponentName": "Legacy",
+          "opponentRank": 5,
+          "opponentElo": 2041,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-04T00:00:00.000Z",
           "opponentRank": 48,
           "opponentElo": 1900,
@@ -8938,7 +9155,7 @@
         }
       ],
       "hltvRating": 1.083,
-      "mapsPlayed": 22,
+      "mapsPlayed": 31,
       "vrsPoints": 1434,
       "source": {
         "csapi": {
@@ -8969,9 +9186,9 @@
       "name": "TYLOO",
       "hltvRank": 25,
       "elo": 1845,
-      "recentWins": 4,
-      "recentLosses": 1,
-      "lanWinRate": 1,
+      "recentWins": 5,
+      "recentLosses": 3,
+      "lanWinRate": 0.75,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -9229,6 +9446,54 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-tyloo-legacy",
+          "pandaScoreId": 1508714,
+          "opponentId": "12468",
+          "opponentName": "Legacy",
+          "opponentRank": 5,
+          "opponentElo": 2041,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "TYLOO vs 9z",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-tyloo-9z",
+          "pandaScoreId": 1508710,
+          "opponentId": "9996",
+          "opponentName": "9z",
+          "opponentRank": 15,
+          "opponentElo": 1933,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
+          "date": "2026-06-07T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "TYLOO vs Astralis",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-07-tyloo-astralis",
+          "pandaScoreId": null,
+          "opponentId": "6665",
+          "opponentName": "Astralis",
+          "opponentRank": 10,
+          "opponentElo": 1971,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-06-04T00:00:00.000Z",
           "opponentRank": 38,
@@ -9666,8 +9931,8 @@
       "hltvRank": 28,
       "elo": 1843,
       "recentWins": 3,
-      "recentLosses": 2,
-      "lanWinRate": 0.75,
+      "recentLosses": 4,
+      "lanWinRate": 0.5,
       "onlineWinRate": 0,
       "lineupStability": 0.75,
       "players": [
@@ -9950,6 +10215,38 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-big-b8",
+          "pandaScoreId": 1508715,
+          "opponentId": "11241",
+          "opponentName": "B8",
+          "opponentRank": 16,
+          "opponentElo": 1926,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "Counter-Strike: G2 vs BIG (BO3) - IEM Cologne Major Stage 2",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-g2-big",
+          "pandaScoreId": 1508711,
+          "opponentId": "5995",
+          "opponentName": "G2",
+          "opponentRank": 13,
+          "opponentElo": 1954,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-05T00:00:00.000Z",
           "opponentRank": 48,
           "opponentElo": 1900,
@@ -10006,7 +10303,7 @@
         }
       ],
       "hltvRating": 1.112,
-      "mapsPlayed": 30,
+      "mapsPlayed": 64,
       "vrsPoints": 1428,
       "source": {
         "csapi": {
@@ -12809,8 +13106,8 @@
       "vrsPoints": 1326,
       "elo": 1797,
       "hltvRating": 1,
-      "mapsPlayed": 5,
-      "recentWins": 5,
+      "mapsPlayed": 13,
+      "recentWins": 6,
       "recentLosses": 0,
       "lanWinRate": 0.5,
       "onlineWinRate": 1,
@@ -13008,6 +13305,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "CCT Europe - Series #4 - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-virtus-pro-oxuji",
+          "pandaScoreId": 1519565,
+          "opponentId": "13553",
+          "opponentName": "Oxuji",
+          "opponentRank": 80,
+          "opponentElo": 1700,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-05-28T00:00:00.000Z",
           "opponentRank": 44,
@@ -17514,9 +17827,9 @@
       "hltvRank": 60,
       "elo": 1740,
       "recentWins": 4,
-      "recentLosses": 1,
+      "recentLosses": 2,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.8,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -17678,6 +17991,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "CYBERSHOKE vs ex-RUBY",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-cybershoke-ex-ruby",
+          "pandaScoreId": 1517512,
+          "opponentId": "13617",
+          "opponentName": "ex-RUBY",
+          "opponentRank": 75,
+          "opponentElo": 1714,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-05T00:00:00.000Z",
           "opponentRank": 93,
           "opponentElo": 1900,
@@ -17766,9 +18095,9 @@
       "hltvRank": 61,
       "elo": 1739,
       "recentWins": 3,
-      "recentLosses": 2,
+      "recentLosses": 3,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.6,
+      "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
         {
@@ -17924,6 +18253,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Acend vs ex-RUBY",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-acend-ex-ruby",
+          "pandaScoreId": 1517511,
+          "opponentId": "13617",
+          "opponentName": "ex-RUBY",
+          "opponentRank": 75,
+          "opponentElo": 1714,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-05-23T00:00:00.000Z",
           "opponentRank": 85,
           "opponentElo": 1900,
@@ -17980,7 +18325,7 @@
         }
       ],
       "hltvRating": 1.087,
-      "mapsPlayed": 27,
+      "mapsPlayed": 32,
       "vrsPoints": 1198,
       "source": {
         "csapi": {
@@ -20412,9 +20757,9 @@
       "hltvRating": 1.062,
       "mapsPlayed": 29,
       "recentWins": 3,
-      "recentLosses": 2,
+      "recentLosses": 3,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.6,
+      "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
         {
@@ -20545,6 +20890,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-betclic-am",
+          "pandaScoreId": 1517513,
+          "opponentId": "12916",
+          "opponentName": "Betclic",
+          "opponentRank": 85,
+          "opponentElo": 1697,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-06-07T00:00:00.000Z",
           "opponentRank": 96,
@@ -21183,10 +21544,10 @@
       "name": "ex-RUBY",
       "hltvRank": 75,
       "elo": 1714,
-      "recentWins": 4,
+      "recentWins": 6,
       "recentLosses": 1,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.8,
+      "onlineWinRate": 0.8571428571428571,
       "lineupStability": 0.75,
       "players": [
         {
@@ -21335,6 +21696,38 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "CYBERSHOKE vs ex-RUBY",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-cybershoke-ex-ruby",
+          "pandaScoreId": 1517512,
+          "opponentId": "12380",
+          "opponentName": "CYBERSHOKE",
+          "opponentRank": 60,
+          "opponentElo": 1740,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-08T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 2,
+          "event": "Acend vs ex-RUBY",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-08-acend-ex-ruby",
+          "pandaScoreId": 1517511,
+          "opponentId": "13518",
+          "opponentName": "Acend",
+          "opponentRank": 61,
+          "opponentElo": 1739,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-05-08T00:00:00.000Z",
           "opponentRank": 93,
@@ -22215,11 +22608,11 @@
       "vrsPoints": 1112,
       "elo": 1700,
       "hltvRating": 0.965,
-      "mapsPlayed": 13,
+      "mapsPlayed": 14,
       "recentWins": 2,
-      "recentLosses": 3,
+      "recentLosses": 4,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.4,
+      "onlineWinRate": 0.3333333333333333,
       "lineupStability": 0.75,
       "players": [
         {
@@ -22350,6 +22743,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "CCT Europe - Series #4 - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-virtus-pro-oxuji",
+          "pandaScoreId": 1519565,
+          "opponentId": "5378",
+          "opponentName": "Virtus.pro",
+          "opponentRank": 40,
+          "opponentElo": 1797,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-25T00:00:00.000Z",
           "opponentRank": 96,
@@ -23237,11 +23646,11 @@
       "vrsPoints": 1105,
       "elo": 1697,
       "hltvRating": 1.033,
-      "mapsPlayed": 25,
-      "recentWins": 3,
+      "mapsPlayed": 44,
+      "recentWins": 4,
       "recentLosses": 2,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.6,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -23372,6 +23781,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-09T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "Counter-Strike: Betclic Apogee Esports vs AM Gaming (BO3) - NODWIN Clutch Series Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-09-betclic-am",
+          "pandaScoreId": 1517513,
+          "opponentId": "13237",
+          "opponentName": "AM",
+          "opponentRank": 73,
+          "opponentElo": 1718,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-05-22T00:00:00.000Z",
           "opponentRank": 98,

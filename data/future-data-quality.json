@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T14:19:39.074Z",
+  "generatedAt": "2026-06-10T14:28:19.826Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -26,7 +26,7 @@
       "name": "BetBoom",
       "rank": 17,
       "matches": 3,
-      "worstScore": 0.9517,
+      "worstScore": 0.985,
       "gaps": [
         "playerKast"
       ],
@@ -84,7 +84,7 @@
       "name": "Virtus.pro",
       "rank": 40,
       "matches": 1,
-      "worstScore": 0.8767,
+      "worstScore": 0.91,
       "gaps": [
         "playerAdr",
         "playerKast"
@@ -381,7 +381,7 @@
         "id": "12394",
         "name": "BetBoom",
         "rank": 17,
-        "score": 0.9517,
+        "score": 0.985,
         "label": "high",
         "gaps": [
           "playerKast"
@@ -394,25 +394,25 @@
           "playerAdr": 5,
           "playerKast": 4,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9592,
+      "score": 0.9758,
       "label": "high",
       "gaps": [
         "playerKast"
       ],
       "livePrediction": {
         "pick": "The MongolZ",
-        "probability": 0.5821,
+        "probability": 0.5963,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "The MongolZ",
-        "probability": 0.5735,
+        "probability": 0.5746,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -450,7 +450,7 @@
         "id": "9996",
         "name": "9z",
         "rank": 15,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -461,23 +461,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.5783,
+        "probability": 0.5816,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "PARIVISION",
-        "probability": 0.5373,
+        "probability": 0.5388,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -513,7 +513,7 @@
         "id": "5378",
         "name": "Virtus.pro",
         "rank": 40,
-        "score": 0.8767,
+        "score": 0.91,
         "label": "high",
         "gaps": [
           "playerAdr",
@@ -527,11 +527,11 @@
           "playerAdr": 4,
           "playerKast": 0,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9217,
+      "score": 0.9384,
       "label": "high",
       "gaps": [
         "playerAdr",
@@ -539,14 +539,14 @@
       ],
       "livePrediction": {
         "pick": "KOLESIE",
-        "probability": 0.5203,
+        "probability": 0.5235,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Virtus.pro",
-        "probability": 0.575,
+        "probability": 0.5783,
         "agreement": "5/6"
       },
       "recommendedCommands": [
@@ -584,7 +584,7 @@
         "id": "12468",
         "name": "Legacy",
         "rank": 5,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -595,24 +595,24 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
-        "pick": "Legacy",
-        "probability": 0.501,
+        "pick": "MOUZ",
+        "probability": 0.5081,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
-        "pick": "Legacy",
-        "probability": 0.5201,
-        "agreement": "4/6"
+        "pick": "MOUZ",
+        "probability": 0.4794,
+        "agreement": "3/6"
       },
       "recommendedCommands": []
     },
@@ -710,7 +710,7 @@
         "id": "11241",
         "name": "B8",
         "rank": 16,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -721,24 +721,24 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "FURIA",
-        "probability": 0.5015,
+        "probability": 0.542,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "FURIA",
-        "probability": 0.5328,
-        "agreement": "6/6"
+        "probability": 0.5435,
+        "agreement": "5/6"
       },
       "recommendedCommands": []
     },
@@ -773,7 +773,7 @@
         "id": "5995",
         "name": "G2",
         "rank": 13,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -784,23 +784,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "Falcons",
-        "probability": 0.6269,
+        "probability": 0.6201,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Falcons",
-        "probability": 0.6093,
+        "probability": 0.6099,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -836,7 +836,7 @@
         "id": "11811",
         "name": "Monte",
         "rank": 21,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -847,23 +847,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "Aurora",
-        "probability": 0.5674,
+        "probability": 0.5636,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Aurora",
-        "probability": 0.5803,
+        "probability": 0.5784,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1025,7 +1025,7 @@
         "id": "4863",
         "name": "TYLOO",
         "rank": 25,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1036,24 +1036,24 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 8,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.5773,
+        "probability": 0.5637,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "FaZe",
-        "probability": 0.5395,
-        "agreement": "4/6"
+        "probability": 0.5316,
+        "agreement": "5/6"
       },
       "recommendedCommands": []
     },
@@ -1069,7 +1069,7 @@
         "id": "12394",
         "name": "BetBoom",
         "rank": 17,
-        "score": 0.9517,
+        "score": 0.985,
         "label": "high",
         "gaps": [
           "playerKast"
@@ -1082,7 +1082,7 @@
           "playerAdr": 5,
           "playerKast": 4,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
@@ -1105,21 +1105,21 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9592,
+      "score": 0.9758,
       "label": "high",
       "gaps": [
         "playerKast"
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.6249,
+        "probability": 0.6065,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "BetBoom",
-        "probability": 0.6156,
+        "probability": 0.6113,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -1138,7 +1138,7 @@
         "id": "11241",
         "name": "B8",
         "rank": 16,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1149,7 +1149,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1172,19 +1172,19 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.6821,
+        "probability": 0.6471,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "B8",
-        "probability": 0.6017,
+        "probability": 0.5927,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1201,7 +1201,7 @@
         "id": "9996",
         "name": "9z",
         "rank": 15,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1212,7 +1212,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
@@ -1235,19 +1235,19 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.655,
+        "probability": 0.6415,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6226,
+        "probability": 0.6177,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1327,7 +1327,7 @@
         "id": "11811",
         "name": "Monte",
         "rank": 21,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1338,7 +1338,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1346,7 +1346,7 @@
         "id": "9215",
         "name": "MIBR",
         "rank": 18,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1357,23 +1357,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 1,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.5583,
+        "probability": 0.5702,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "MIBR",
-        "probability": 0.5086,
+        "probability": 0.5138,
         "agreement": "4/6"
       },
       "recommendedCommands": []
@@ -1409,7 +1409,7 @@
         "id": "7532",
         "name": "BIG",
         "rank": 28,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1420,23 +1420,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.5879,
+        "probability": 0.5891,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.584,
+        "probability": 0.5748,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1453,7 +1453,7 @@
         "id": "12468",
         "name": "Legacy",
         "rank": 5,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1464,7 +1464,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1472,7 +1472,7 @@
         "id": "12376",
         "name": "M80",
         "rank": 25,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1483,23 +1483,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 1,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "Legacy",
-        "probability": 0.6664,
+        "probability": 0.6433,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "strong",
         "pick": "Legacy",
-        "probability": 0.6748,
+        "probability": 0.6674,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1579,7 +1579,7 @@
         "id": "11811",
         "name": "Monte",
         "rank": 21,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1590,7 +1590,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1613,19 +1613,19 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.5939,
+        "probability": 0.599,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "Monte",
-        "probability": 0.5617,
+        "probability": 0.5684,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1642,7 +1642,7 @@
         "id": "9996",
         "name": "9z",
         "rank": 15,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1653,7 +1653,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
@@ -1676,19 +1676,19 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.6254,
+        "probability": 0.6114,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6186,
+        "probability": 0.6127,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1705,7 +1705,7 @@
         "id": "12394",
         "name": "BetBoom",
         "rank": 17,
-        "score": 0.9517,
+        "score": 0.985,
         "label": "high",
         "gaps": [
           "playerKast"
@@ -1718,7 +1718,7 @@
           "playerAdr": 5,
           "playerKast": 4,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
@@ -1741,21 +1741,21 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9592,
+      "score": 0.9758,
       "label": "high",
       "gaps": [
         "playerKast"
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.7266,
+        "probability": 0.7109,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "strong",
         "pick": "BetBoom",
-        "probability": 0.6583,
+        "probability": 0.657,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -1837,7 +1837,7 @@
         "id": "11241",
         "name": "B8",
         "rank": 16,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1848,7 +1848,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1856,7 +1856,7 @@
         "id": "9215",
         "name": "MIBR",
         "rank": 18,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1867,23 +1867,23 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 1,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.6315,
+        "probability": 0.6008,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "B8",
-        "probability": 0.5469,
+        "probability": 0.5228,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1900,7 +1900,7 @@
         "id": "7532",
         "name": "BIG",
         "rank": 28,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1911,7 +1911,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1934,19 +1934,19 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "BIG",
-        "probability": 0.6146,
+        "probability": 0.6249,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "BIG",
-        "probability": 0.5504,
+        "probability": 0.5619,
         "agreement": "4/6"
       },
       "recommendedCommands": []
