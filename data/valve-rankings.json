@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-09T15:58:57.797Z",
+  "generatedAt": "2026-06-10T10:15:54.882Z",
   "source": {
     "name": "bo3-valve-rankings",
     "apiBaseUrl": "https://api.bo3.gg/api/v2",
     "startDate": "2025-01-01",
-    "endDate": "2026-06-09",
+    "endDate": "2026-06-10",
     "perPage": 100,
     "maxPages": 5
   },
@@ -2944,7 +2944,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -3508,7 +3508,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -11500,7 +11500,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           }
         ]
@@ -13004,7 +13004,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -13474,7 +13474,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -21325,7 +21325,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           }
         ]
@@ -22782,7 +22782,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -22970,7 +22970,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -31338,7 +31338,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           }
         ]
@@ -32419,7 +32419,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -32513,7 +32513,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -41109,7 +41109,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           },
           {
@@ -42385,7 +42385,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -42526,7 +42526,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -58870,7 +58870,7 @@
             "id": "53570",
             "nickname": "Zazu",
             "slug": "zazu-fe",
-            "score": 5.07,
+            "score": null,
             "countryCode": "US"
           },
           {
@@ -59260,7 +59260,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -59589,7 +59589,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -60012,7 +60012,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           }
         ]
@@ -60529,7 +60529,7 @@
             "id": "28812",
             "nickname": "YumsaN",
             "slug": "yumsan",
-            "score": 6.21,
+            "score": 6.2,
             "countryCode": "RU"
           }
         ]
@@ -67769,7 +67769,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -67957,7 +67957,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.25,
+            "score": 6.28,
             "countryCode": "RU"
           }
         ]
@@ -71609,7 +71609,7 @@
             "id": "53570",
             "nickname": "Zazu",
             "slug": "zazu-fe",
-            "score": 5.07,
+            "score": null,
             "countryCode": "US"
           },
           {
@@ -71811,7 +71811,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -72093,7 +72093,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -72563,7 +72563,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           }
         ]
@@ -76325,7 +76325,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.25,
+            "score": 6.28,
             "countryCode": "RU"
           }
         ]
@@ -80179,7 +80179,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -84174,7 +84174,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -84550,7 +84550,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -85060,7 +85060,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.71,
+            "score": 6.74,
             "countryCode": "RU"
           },
           {
@@ -88500,7 +88500,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.25,
+            "score": 6.28,
             "countryCode": "RU"
           }
         ]
@@ -92495,7 +92495,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -96772,7 +96772,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -97571,7 +97571,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -100581,7 +100581,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.25,
+            "score": 6.28,
             "countryCode": "RU"
           }
         ]
@@ -107302,7 +107302,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -109276,7 +109276,7 @@
             "id": "50218",
             "nickname": "AMSALEM",
             "slug": "amsalem",
-            "score": 6.06,
+            "score": 5.99,
             "countryCode": "IL"
           }
         ]
@@ -110451,7 +110451,7 @@
             "id": "28279",
             "nickname": "h4rn",
             "slug": "harn",
-            "score": 6.73,
+            "score": 6.69,
             "countryCode": "BG"
           }
         ]
@@ -113414,7 +113414,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.25,
+            "score": 6.28,
             "countryCode": "RU"
           }
         ]
@@ -119148,7 +119148,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -131135,7 +131135,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -140441,7 +140441,7 @@
             "id": "53463",
             "nickname": "demente",
             "slug": "demente",
-            "score": 6.32,
+            "score": 6.37,
             "countryCode": "KZ"
           }
         ]
@@ -143922,7 +143922,7 @@
             "id": "31736",
             "nickname": "febreeze",
             "slug": "febreeze",
-            "score": 6.1,
+            "score": 6.11,
             "countryCode": "US"
           }
         ]
@@ -152080,7 +152080,7 @@
             "id": "53463",
             "nickname": "demente",
             "slug": "demente",
-            "score": 6.32,
+            "score": 6.37,
             "countryCode": "KZ"
           },
           {
@@ -152778,7 +152778,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -172755,7 +172755,7 @@
             "id": "73168",
             "nickname": "Dr3nquu",
             "slug": "dr3nquu",
-            "score": 5.98,
+            "score": 5.99,
             "countryCode": "PL"
           }
         ]
@@ -186647,7 +186647,7 @@
             "id": "73168",
             "nickname": "Dr3nquu",
             "slug": "dr3nquu",
-            "score": 5.98,
+            "score": 5.99,
             "countryCode": "PL"
           }
         ]
@@ -196699,7 +196699,7 @@
             "id": "29294",
             "nickname": "SoLb",
             "slug": "solb",
-            "score": 5.81,
+            "score": 5.82,
             "countryCode": "RU"
           }
         ]
@@ -201404,7 +201404,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -209536,7 +209536,7 @@
             "id": "33627",
             "nickname": "Kuruma",
             "slug": "kuruma",
-            "score": 6.08,
+            "score": 6.04,
             "countryCode": "RU"
           }
         ]
@@ -218016,7 +218016,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -241611,7 +241611,7 @@
             "id": "53555",
             "nickname": "KralleJ",
             "slug": "krallej",
-            "score": 6.17,
+            "score": 6.18,
             "countryCode": "DK"
           }
         ]
@@ -245651,7 +245651,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -251271,7 +251271,7 @@
             "id": "17699",
             "nickname": "mir",
             "slug": "mir",
-            "score": 6.49,
+            "score": 6.47,
             "countryCode": "RU"
           }
         ]
@@ -254373,7 +254373,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -261372,7 +261372,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]
@@ -261647,7 +261647,7 @@
             "id": "38228",
             "nickname": "mds",
             "slug": "mds-john-marin",
-            "score": 5.62,
+            "score": 5.59,
             "countryCode": "US"
           }
         ]

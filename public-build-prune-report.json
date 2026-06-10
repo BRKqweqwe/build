@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T15:59:32.090Z",
+  "generatedAt": "2026-06-10T10:16:46.702Z",
   "buildDir": "build",
-  "removedBytes": 255707891,
+  "removedBytes": 290500235,
   "removedPaths": [
     "data/model-experiments",
     "data/model-experiments-bo3-match-history-1111",
@@ -31,6 +31,10 @@
     "data/kaggle-variants/training-dataset-alltiers-prior3-lineup3.json",
     "data/kaggle-variants/training-dataset-clean-core.json",
     "data/kaggle-variants/training-dataset-clean-lean.json",
+    "data/kaggle-variants/training-dataset-match-level-clean-lean.json",
+    "data/kaggle-variants/training-dataset-match-level-since-2024-through-jan.json",
+    "data/kaggle-variants/training-dataset-match-level-since-2024.json",
+    "data/kaggle-variants/training-dataset-match-level-since-2025.json",
     "data/kaggle-variants/training-dataset-tier1-prior1-lineup2.json",
     "data/kaggle-variants/training-dataset-tier1-prior3-lineup3.json",
     "data/kaggle-variants/training-dataset-tier1-prior3-lineup4.json",
