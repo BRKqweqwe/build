@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T10:30:29.051Z",
+  "generatedAt": "2026-06-10T10:45:52.181Z",
   "source": {
     "results": "static/data/model-results.json",
     "rows": 16,
     "schemaVersion": 2,
-    "updatedAt": "2026-06-10T10:30:28.803Z"
+    "updatedAt": "2026-06-10T10:45:51.832Z"
   },
   "settings": {
     "primaryModelId": "weighted",
@@ -31,23 +31,23 @@
       "accuracy": 0.769231
     },
     "modelPredictions": {
-      "total": 22,
+      "total": 28,
       "resolved": 16,
       "hits": 11,
       "misses": 5,
-      "pending": 6,
+      "pending": 12,
       "accuracy": 0.6875,
       "logLoss": 0.591576,
       "brier": 0.200108,
       "avgProbabilityForWinner": 0.556676,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 17,
+        "covered": 23,
         "resolved": 11,
         "disagreements": 5,
         "disagreementAccuracy": 0.2,
         "agreementAccuracy": 0.833333,
-        "avgEdge": 0.126456
+        "avgEdge": 0.135279
       }
     }
   },
@@ -328,7 +328,7 @@
         "disagreements": 1,
         "disagreementAccuracy": 0,
         "agreementAccuracy": 0.5,
-        "avgEdge": 0.088938
+        "avgEdge": 0.091436
       },
       "byConfidence": [
         {
@@ -349,7 +349,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0,
-            "avgEdge": 0.088938
+            "avgEdge": 0.091436
           }
         },
         {
@@ -393,7 +393,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.5,
-            "avgEdge": 0.088938
+            "avgEdge": 0.091436
           }
         }
       ],
@@ -437,7 +437,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.09753
+            "avgEdge": 0.100861
           }
         }
       ],
@@ -460,7 +460,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.094494
+            "avgEdge": 0.091987
           }
         },
         {
@@ -502,7 +502,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.103602
+            "avgEdge": 0.118609
           }
         }
       ],
@@ -590,6 +590,480 @@
       }
     },
     {
+      "modelId": "ensemble",
+      "total": 3,
+      "resolved": 0,
+      "hits": 0,
+      "misses": 0,
+      "pending": 3,
+      "accuracy": null,
+      "logLoss": null,
+      "brier": null,
+      "avgProbabilityForWinner": null,
+      "avgFeatureCoverage": 1,
+      "market": {
+        "covered": 3,
+        "resolved": 0,
+        "disagreements": 0,
+        "disagreementAccuracy": null,
+        "agreementAccuracy": null,
+        "avgEdge": 0.15075
+      },
+      "byConfidence": [
+        {
+          "key": "50-55",
+          "total": 2,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 2,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 2,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.071242
+          }
+        },
+        {
+          "key": "60-65",
+          "total": 1,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 1,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 1,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.309766
+          }
+        }
+      ],
+      "byFormat": [
+        {
+          "key": "bo3",
+          "total": 3,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 3,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 3,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.15075
+          }
+        }
+      ],
+      "byTier": [
+        {
+          "key": "tier-3",
+          "total": 3,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 3,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 3,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.15075
+          }
+        }
+      ],
+      "byTopBucket": [
+        {
+          "key": "top-100",
+          "total": 2,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 2,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 2,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.184961
+          }
+        },
+        {
+          "key": "top-50",
+          "total": 1,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 1,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 1,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.082329
+          }
+        }
+      ],
+      "rolling": {
+        "last5": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last10": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last25": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last50": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        }
+      }
+    },
+    {
+      "modelId": "ensemble25",
+      "total": 3,
+      "resolved": 0,
+      "hits": 0,
+      "misses": 0,
+      "pending": 3,
+      "accuracy": null,
+      "logLoss": null,
+      "brier": null,
+      "avgProbabilityForWinner": null,
+      "avgFeatureCoverage": 1,
+      "market": {
+        "covered": 3,
+        "resolved": 0,
+        "disagreements": 0,
+        "disagreementAccuracy": null,
+        "agreementAccuracy": null,
+        "avgEdge": 0.145094
+      },
+      "byConfidence": [
+        {
+          "key": "50-55",
+          "total": 2,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 2,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 2,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.158131
+          }
+        },
+        {
+          "key": "55-60",
+          "total": 1,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 1,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 1,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.119021
+          }
+        }
+      ],
+      "byFormat": [
+        {
+          "key": "bo3",
+          "total": 3,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 3,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 3,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.145094
+          }
+        }
+      ],
+      "byTier": [
+        {
+          "key": "tier-3",
+          "total": 3,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 3,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 3,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.145094
+          }
+        }
+      ],
+      "byTopBucket": [
+        {
+          "key": "top-100",
+          "total": 2,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 2,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 2,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.162721
+          }
+        },
+        {
+          "key": "top-50",
+          "total": 1,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 1,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 1,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": 0.109841
+          }
+        }
+      ],
+      "rolling": {
+        "last5": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last10": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last25": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        },
+        "last50": {
+          "total": 0,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 0,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": null,
+          "market": {
+            "covered": 0,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": null
+          }
+        }
+      }
+    },
+    {
       "modelId": "weighted",
       "total": 7,
       "resolved": 4,
@@ -607,7 +1081,7 @@
         "disagreements": 2,
         "disagreementAccuracy": 0.5,
         "agreementAccuracy": 1,
-        "avgEdge": 0.02049
+        "avgEdge": 0.025493
       },
       "byConfidence": [
         {
@@ -628,7 +1102,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": null,
-            "avgEdge": 0.02049
+            "avgEdge": 0.025493
           }
         },
         {
@@ -714,7 +1188,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 1,
-            "avgEdge": 0.02049
+            "avgEdge": 0.025493
           }
         },
         {
@@ -779,7 +1253,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.00396
+            "avgEdge": 0.010631
           }
         },
         {
@@ -823,7 +1297,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": -0.029841
+            "avgEdge": -0.027338
           }
         },
         {
@@ -865,7 +1339,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.071564
+            "avgEdge": 0.086568
           }
         },
         {
@@ -1040,30 +1514,30 @@
     },
     {
       "key": "2026-06-10",
-      "total": 6,
+      "total": 12,
       "resolved": 0,
       "hits": 0,
       "misses": 0,
-      "pending": 6,
+      "pending": 12,
       "accuracy": null,
       "logLoss": null,
       "brier": null,
       "avgProbabilityForWinner": null,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 6,
+        "covered": 12,
         "resolved": 0,
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.050745
+        "avgEdge": 0.101834
       }
     }
   ],
   "pairwiseDisagreements": {
-    "total": 3,
+    "total": 7,
     "resolved": 1,
-    "open": 2,
+    "open": 6,
     "byPair": [
       {
         "key": "champion_vs_weighted",
@@ -1131,11 +1605,41 @@
         "modelA": "weighted",
         "modelAPick": "G2 Ares",
         "modelAStatus": "pending",
-        "modelAProbability": 0.5307297454931218,
+        "modelAProbability": 0.5307335113731049,
         "modelB": "champion",
         "modelBPick": "Young Ninjas",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5166264341710494,
+        "modelBProbability": 0.5166196748499108,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-10-g2-ares-young-ninjas",
+        "matchDate": "2026-06-10",
+        "match": "G2 Ares vs Young Ninjas",
+        "modelA": "champion",
+        "modelAPick": "Young Ninjas",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5166196748499108,
+        "modelB": "ensemble",
+        "modelBPick": "G2 Ares",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.5051555942696189,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-10-g2-ares-young-ninjas",
+        "matchDate": "2026-06-10",
+        "match": "G2 Ares vs Young Ninjas",
+        "modelA": "champion",
+        "modelAPick": "Young Ninjas",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5166196748499108,
+        "modelB": "ensemble25",
+        "modelBPick": "G2 Ares",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.5640209755419519,
         "resolved": false,
         "winner": null
       },
@@ -1146,11 +1650,41 @@
         "modelA": "weighted",
         "modelAPick": "illwill",
         "modelAStatus": "pending",
-        "modelAProbability": 0.5345876615467362,
+        "modelAProbability": 0.534591423616265,
         "modelB": "champion",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5473618071351983,
+        "modelBProbability": 0.547355151260418,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-10-illwill-g2-ares",
+        "matchDate": "2026-06-10",
+        "match": "illwill vs G2 Ares",
+        "modelA": "weighted",
+        "modelAPick": "illwill",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.534591423616265,
+        "modelB": "ensemble",
+        "modelBPick": "G2 Ares",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6347657442377335,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-10-illwill-g2-ares",
+        "matchDate": "2026-06-10",
+        "match": "illwill vs G2 Ares",
+        "modelA": "weighted",
+        "modelAPick": "illwill",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.534591423616265,
+        "modelB": "ensemble25",
+        "modelBPick": "G2 Ares",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.5314216248860453,
         "resolved": false,
         "winner": null
       }
@@ -1163,10 +1697,10 @@
       "match": "G2 Ares vs Young Ninjas",
       "modelId": "weighted",
       "pick": "G2 Ares",
-      "probability": 0.5307297454931218,
+      "probability": 0.5307335113731049,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": true,
-      "marketEdge": 0.0907297454931218
+      "marketEdge": 0.08573351137310486
     },
     {
       "matchId": "2026-06-10-g2-ares-young-ninjas",
@@ -1174,10 +1708,32 @@
       "match": "G2 Ares vs Young Ninjas",
       "modelId": "champion",
       "pick": "Young Ninjas",
-      "probability": 0.5166264341710494,
+      "probability": 0.5166196748499108,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": false,
-      "marketEdge": -0.04337356582895069
+      "marketEdge": -0.03838032515008927
+    },
+    {
+      "matchId": "2026-06-10-g2-ares-young-ninjas",
+      "matchDate": "2026-06-10",
+      "match": "G2 Ares vs Young Ninjas",
+      "modelId": "ensemble",
+      "pick": "G2 Ares",
+      "probability": 0.5051555942696189,
+      "marketFavorite": "Young Ninjas",
+      "marketDisagreement": true,
+      "marketEdge": 0.06015559426961886
+    },
+    {
+      "matchId": "2026-06-10-g2-ares-young-ninjas",
+      "matchDate": "2026-06-10",
+      "match": "G2 Ares vs Young Ninjas",
+      "modelId": "ensemble25",
+      "pick": "G2 Ares",
+      "probability": 0.5640209755419519,
+      "marketFavorite": "Young Ninjas",
+      "marketDisagreement": true,
+      "marketEdge": 0.11902097554195185
     },
     {
       "matchId": "2026-06-10-illwill-g2-ares",
@@ -1185,10 +1741,10 @@
       "match": "illwill vs G2 Ares",
       "modelId": "weighted",
       "pick": "illwill",
-      "probability": 0.5345876615467362,
+      "probability": 0.534591423616265,
       "marketFavorite": "illwill",
       "marketDisagreement": false,
-      "marketEdge": -0.15041233845326385
+      "marketEdge": -0.14040857638373505
     },
     {
       "matchId": "2026-06-10-illwill-g2-ares",
@@ -1196,10 +1752,32 @@
       "match": "illwill vs G2 Ares",
       "modelId": "champion",
       "pick": "G2 Ares",
-      "probability": 0.5473618071351983,
+      "probability": 0.547355151260418,
       "marketFavorite": "illwill",
       "marketDisagreement": true,
-      "marketEdge": 0.23236180713519833
+      "marketEdge": 0.222355151260418
+    },
+    {
+      "matchId": "2026-06-10-illwill-g2-ares",
+      "matchDate": "2026-06-10",
+      "match": "illwill vs G2 Ares",
+      "modelId": "ensemble",
+      "pick": "G2 Ares",
+      "probability": 0.6347657442377335,
+      "marketFavorite": "illwill",
+      "marketDisagreement": true,
+      "marketEdge": 0.30976574423773345
+    },
+    {
+      "matchId": "2026-06-10-illwill-g2-ares",
+      "matchDate": "2026-06-10",
+      "match": "illwill vs G2 Ares",
+      "modelId": "ensemble25",
+      "pick": "G2 Ares",
+      "probability": 0.5314216248860453,
+      "marketFavorite": "illwill",
+      "marketDisagreement": true,
+      "marketEdge": 0.20642162488604526
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1207,10 +1785,10 @@
       "match": "Walczaki vs INOX Division",
       "modelId": "weighted",
       "pick": "Walczaki",
-      "probability": 0.5165640876872679,
+      "probability": 0.5165678636981026,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.07156408768726791
+      "marketEdge": 0.0865678636981026
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1218,10 +1796,32 @@
       "match": "Walczaki vs INOX Division",
       "modelId": "champion",
       "pick": "Walczaki",
-      "probability": 0.548602204385215,
+      "probability": 0.5486089305511195,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.103602204385215
+      "marketEdge": 0.11860893055111948
+    },
+    {
+      "matchId": "2026-06-10-walczaki-inox-division",
+      "matchDate": "2026-06-10",
+      "match": "Walczaki vs INOX Division",
+      "modelId": "ensemble",
+      "pick": "Walczaki",
+      "probability": 0.5123293188918775,
+      "marketFavorite": "INOX Division",
+      "marketDisagreement": true,
+      "marketEdge": 0.0823293188918775
+    },
+    {
+      "matchId": "2026-06-10-walczaki-inox-division",
+      "matchDate": "2026-06-10",
+      "match": "Walczaki vs INOX Division",
+      "modelId": "ensemble25",
+      "pick": "Walczaki",
+      "probability": 0.5398407751070067,
+      "marketFavorite": "INOX Division",
+      "marketDisagreement": true,
+      "marketEdge": 0.10984077510700668
     }
   ]
 }
