@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T10:45:52.181Z",
+  "generatedAt": "2026-06-10T11:12:33.055Z",
   "source": {
     "results": "static/data/model-results.json",
     "rows": 16,
     "schemaVersion": 2,
-    "updatedAt": "2026-06-10T10:45:51.832Z"
+    "updatedAt": "2026-06-10T11:12:32.800Z"
   },
   "settings": {
     "primaryModelId": "weighted",
@@ -47,7 +47,7 @@
         "disagreements": 5,
         "disagreementAccuracy": 0.2,
         "agreementAccuracy": 0.833333,
-        "avgEdge": 0.135279
+        "avgEdge": 0.135275
       }
     }
   },
@@ -328,7 +328,7 @@
         "disagreements": 1,
         "disagreementAccuracy": 0,
         "agreementAccuracy": 0.5,
-        "avgEdge": 0.091436
+        "avgEdge": 0.083933
       },
       "byConfidence": [
         {
@@ -349,7 +349,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0,
-            "avgEdge": 0.091436
+            "avgEdge": 0.083933
           }
         },
         {
@@ -393,7 +393,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.5,
-            "avgEdge": 0.091436
+            "avgEdge": 0.083933
           }
         }
       ],
@@ -437,7 +437,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.100861
+            "avgEdge": 0.090857
           }
         }
       ],
@@ -460,7 +460,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.091987
+            "avgEdge": 0.081976
           }
         },
         {
@@ -502,7 +502,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.118609
+            "avgEdge": 0.108621
           }
         }
       ],
@@ -607,7 +607,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.15075
+        "avgEdge": 0.154084
       },
       "byConfidence": [
         {
@@ -628,7 +628,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.071242
+            "avgEdge": 0.076242
           }
         },
         {
@@ -672,7 +672,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.15075
+            "avgEdge": 0.154084
           }
         }
       ],
@@ -695,7 +695,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.15075
+            "avgEdge": 0.154084
           }
         }
       ],
@@ -718,7 +718,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.184961
+            "avgEdge": 0.194961
           }
         },
         {
@@ -739,7 +739,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.082329
+            "avgEdge": 0.072329
           }
         }
       ],
@@ -844,7 +844,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.145094
+        "avgEdge": 0.148404
       },
       "byConfidence": [
         {
@@ -865,7 +865,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.158131
+            "avgEdge": 0.153104
           }
         },
         {
@@ -886,7 +886,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.119021
+            "avgEdge": 0.139005
           }
         }
       ],
@@ -909,7 +909,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.145094
+            "avgEdge": 0.148404
           }
         }
       ],
@@ -932,7 +932,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.145094
+            "avgEdge": 0.148404
           }
         }
       ],
@@ -955,7 +955,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.162721
+            "avgEdge": 0.172706
           }
         },
         {
@@ -976,7 +976,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": 0.109841
+            "avgEdge": 0.099801
           }
         }
       ],
@@ -1081,7 +1081,7 @@
         "disagreements": 2,
         "disagreementAccuracy": 0.5,
         "agreementAccuracy": 1,
-        "avgEdge": 0.025493
+        "avgEdge": 0.027998
       },
       "byConfidence": [
         {
@@ -1102,7 +1102,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": null,
-            "avgEdge": 0.025493
+            "avgEdge": 0.027998
           }
         },
         {
@@ -1188,7 +1188,7 @@
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 1,
-            "avgEdge": 0.025493
+            "avgEdge": 0.027998
           }
         },
         {
@@ -1253,7 +1253,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.010631
+            "avgEdge": 0.013971
           }
         },
         {
@@ -1297,7 +1297,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": null,
-            "avgEdge": -0.027338
+            "avgEdge": -0.017331
           }
         },
         {
@@ -1339,7 +1339,7 @@
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": 0.086568
+            "avgEdge": 0.076574
           }
         },
         {
@@ -1530,7 +1530,7 @@
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": null,
-        "avgEdge": 0.101834
+        "avgEdge": 0.101829
       }
     }
   ],
@@ -1605,11 +1605,11 @@
         "modelA": "weighted",
         "modelAPick": "G2 Ares",
         "modelAStatus": "pending",
-        "modelAProbability": 0.5307335113731049,
+        "modelAProbability": 0.530740044091196,
         "modelB": "champion",
         "modelBPick": "Young Ninjas",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5166196748499108,
+        "modelBProbability": 0.5166079493038187,
         "resolved": false,
         "winner": null
       },
@@ -1620,7 +1620,7 @@
         "modelA": "champion",
         "modelAPick": "Young Ninjas",
         "modelAStatus": "pending",
-        "modelAProbability": 0.5166196748499108,
+        "modelAProbability": 0.5166079493038187,
         "modelB": "ensemble",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
@@ -1635,11 +1635,11 @@
         "modelA": "champion",
         "modelAPick": "Young Ninjas",
         "modelAStatus": "pending",
-        "modelAProbability": 0.5166196748499108,
+        "modelAProbability": 0.5166079493038187,
         "modelB": "ensemble25",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5640209755419519,
+        "modelBProbability": 0.564005229093867,
         "resolved": false,
         "winner": null
       },
@@ -1650,11 +1650,11 @@
         "modelA": "weighted",
         "modelAPick": "illwill",
         "modelAStatus": "pending",
-        "modelAProbability": 0.534591423616265,
+        "modelAProbability": 0.5345979497232736,
         "modelB": "champion",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
-        "modelBProbability": 0.547355151260418,
+        "modelBProbability": 0.547343605165304,
         "resolved": false,
         "winner": null
       },
@@ -1665,7 +1665,7 @@
         "modelA": "weighted",
         "modelAPick": "illwill",
         "modelAStatus": "pending",
-        "modelAProbability": 0.534591423616265,
+        "modelAProbability": 0.5345979497232736,
         "modelB": "ensemble",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
@@ -1680,11 +1680,11 @@
         "modelA": "weighted",
         "modelAPick": "illwill",
         "modelAStatus": "pending",
-        "modelAProbability": 0.534591423616265,
+        "modelAProbability": 0.5345979497232736,
         "modelB": "ensemble25",
         "modelBPick": "G2 Ares",
         "modelBStatus": "pending",
-        "modelBProbability": 0.5314216248860453,
+        "modelBProbability": 0.5314062876744311,
         "resolved": false,
         "winner": null
       }
@@ -1697,10 +1697,10 @@
       "match": "G2 Ares vs Young Ninjas",
       "modelId": "weighted",
       "pick": "G2 Ares",
-      "probability": 0.5307335113731049,
+      "probability": 0.530740044091196,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": true,
-      "marketEdge": 0.08573351137310486
+      "marketEdge": 0.10574004409119603
     },
     {
       "matchId": "2026-06-10-g2-ares-young-ninjas",
@@ -1708,10 +1708,10 @@
       "match": "G2 Ares vs Young Ninjas",
       "modelId": "champion",
       "pick": "Young Ninjas",
-      "probability": 0.5166196748499108,
+      "probability": 0.5166079493038187,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": false,
-      "marketEdge": -0.03838032515008927
+      "marketEdge": -0.05839205069618125
     },
     {
       "matchId": "2026-06-10-g2-ares-young-ninjas",
@@ -1722,7 +1722,7 @@
       "probability": 0.5051555942696189,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": true,
-      "marketEdge": 0.06015559426961886
+      "marketEdge": 0.08015559426961888
     },
     {
       "matchId": "2026-06-10-g2-ares-young-ninjas",
@@ -1730,10 +1730,10 @@
       "match": "G2 Ares vs Young Ninjas",
       "modelId": "ensemble25",
       "pick": "G2 Ares",
-      "probability": 0.5640209755419519,
+      "probability": 0.564005229093867,
       "marketFavorite": "Young Ninjas",
       "marketDisagreement": true,
-      "marketEdge": 0.11902097554195185
+      "marketEdge": 0.13900522909386698
     },
     {
       "matchId": "2026-06-10-illwill-g2-ares",
@@ -1741,10 +1741,10 @@
       "match": "illwill vs G2 Ares",
       "modelId": "weighted",
       "pick": "illwill",
-      "probability": 0.534591423616265,
+      "probability": 0.5345979497232736,
       "marketFavorite": "illwill",
       "marketDisagreement": false,
-      "marketEdge": -0.14040857638373505
+      "marketEdge": -0.14040205027672648
     },
     {
       "matchId": "2026-06-10-illwill-g2-ares",
@@ -1752,10 +1752,10 @@
       "match": "illwill vs G2 Ares",
       "modelId": "champion",
       "pick": "G2 Ares",
-      "probability": 0.547355151260418,
+      "probability": 0.547343605165304,
       "marketFavorite": "illwill",
       "marketDisagreement": true,
-      "marketEdge": 0.222355151260418
+      "marketEdge": 0.222343605165304
     },
     {
       "matchId": "2026-06-10-illwill-g2-ares",
@@ -1774,10 +1774,10 @@
       "match": "illwill vs G2 Ares",
       "modelId": "ensemble25",
       "pick": "G2 Ares",
-      "probability": 0.5314216248860453,
+      "probability": 0.5314062876744311,
       "marketFavorite": "illwill",
       "marketDisagreement": true,
-      "marketEdge": 0.20642162488604526
+      "marketEdge": 0.2064062876744311
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1785,10 +1785,10 @@
       "match": "Walczaki vs INOX Division",
       "modelId": "weighted",
       "pick": "Walczaki",
-      "probability": 0.5165678636981026,
+      "probability": 0.5165744139941428,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.0865678636981026
+      "marketEdge": 0.07657441399414283
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1796,10 +1796,10 @@
       "match": "Walczaki vs INOX Division",
       "modelId": "champion",
       "pick": "Walczaki",
-      "probability": 0.5486089305511195,
+      "probability": 0.5486205984581856,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.11860893055111948
+      "marketEdge": 0.10862059845818556
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1810,7 +1810,7 @@
       "probability": 0.5123293188918775,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.0823293188918775
+      "marketEdge": 0.07232931889187749
     },
     {
       "matchId": "2026-06-10-walczaki-inox-division",
@@ -1818,10 +1818,10 @@
       "match": "Walczaki vs INOX Division",
       "modelId": "ensemble25",
       "pick": "Walczaki",
-      "probability": 0.5398407751070067,
+      "probability": 0.5398011132978212,
       "marketFavorite": "INOX Division",
       "marketDisagreement": true,
-      "marketEdge": 0.10984077510700668
+      "marketEdge": 0.09980111329782121
     }
   ]
 }

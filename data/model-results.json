@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-06-10T10:45:51.832Z",
+  "updatedAt": "2026-06-10T11:12:32.800Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -646,9 +646,9 @@
       "teamB": "Young Ninjas",
       "model": "weighted",
       "modelPick": "G2 Ares",
-      "modelProbability": 0.5307335113731049,
-      "modelTeamAProbability": 0.5307335113731049,
-      "modelTeamBProbability": 0.46926648862689513,
+      "modelProbability": 0.530740044091196,
+      "modelTeamAProbability": 0.530740044091196,
+      "modelTeamBProbability": 0.469259955908804,
       "probabilityForWinner": null,
       "calibration": "platt",
       "featureCoverage": {
@@ -676,9 +676,9 @@
           },
           "pick": "G2 Ares",
           "pickTeamId": "12889",
-          "probability": 0.5307335113731049,
-          "teamAProbability": 0.5307335113731049,
-          "teamBProbability": 0.46926648862689513,
+          "probability": 0.530740044091196,
+          "teamAProbability": 0.530740044091196,
+          "teamBProbability": 0.469259955908804,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -689,9 +689,9 @@
             "missing": []
           },
           "marketFavorite": "Young Ninjas",
-          "marketProbability": 0.445,
+          "marketProbability": 0.425,
           "marketDisagreement": true,
-          "marketEdge": 0.08573351137310486
+          "marketEdge": 0.10574004409119603
         },
         {
           "modelId": "champion",
@@ -710,9 +710,9 @@
           },
           "pick": "Young Ninjas",
           "pickTeamId": "10960",
-          "probability": 0.5166196748499108,
-          "teamAProbability": 0.48338032515008916,
-          "teamBProbability": 0.5166196748499108,
+          "probability": 0.5166079493038187,
+          "teamAProbability": 0.4833920506961813,
+          "teamBProbability": 0.5166079493038187,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -723,9 +723,9 @@
             "missing": []
           },
           "marketFavorite": "Young Ninjas",
-          "marketProbability": 0.555,
+          "marketProbability": 0.575,
           "marketDisagreement": false,
-          "marketEdge": -0.03838032515008927
+          "marketEdge": -0.05839205069618125
         },
         {
           "modelId": "ensemble",
@@ -757,9 +757,9 @@
             "missing": []
           },
           "marketFavorite": "Young Ninjas",
-          "marketProbability": 0.445,
+          "marketProbability": 0.425,
           "marketDisagreement": true,
-          "marketEdge": 0.06015559426961886
+          "marketEdge": 0.08015559426961888
         },
         {
           "modelId": "ensemble25",
@@ -778,9 +778,9 @@
           },
           "pick": "G2 Ares",
           "pickTeamId": "12889",
-          "probability": 0.5640209755419519,
-          "teamAProbability": 0.5640209755419519,
-          "teamBProbability": 0.43597902445804815,
+          "probability": 0.564005229093867,
+          "teamAProbability": 0.564005229093867,
+          "teamBProbability": 0.43599477090613303,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "55-60",
@@ -791,9 +791,9 @@
             "missing": []
           },
           "marketFavorite": "Young Ninjas",
-          "marketProbability": 0.445,
+          "marketProbability": 0.425,
           "marketDisagreement": true,
-          "marketEdge": 0.11902097554195185
+          "marketEdge": 0.13900522909386698
         }
       ],
       "matchContext": {
@@ -818,13 +818,13 @@
       "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "Young Ninjas",
       "marketUnderdog": "G2 Ares",
-      "marketTeamAProbability": 0.445,
-      "marketTeamBProbability": 0.555,
-      "marketFavoriteProbability": 0.555,
+      "marketTeamAProbability": 0.425,
+      "marketTeamBProbability": 0.575,
+      "marketFavoriteProbability": 0.575,
       "marketQuestion": "Counter-Strike: G2 Ares vs Young Ninjas (BO3) - European Pro League Series 7 Group C",
       "marketUrl": "https://polymarket.com/event/cs2-g2a-yn-2026-06-10",
-      "marketLiquidity": "33332.6309",
-      "marketVolume": "42204.31186699998"
+      "marketLiquidity": "30905.5356",
+      "marketVolume": "45813.26044999996"
     },
     {
       "id": "2026-06-10-illwill-g2-ares",
@@ -834,9 +834,9 @@
       "teamB": "G2 Ares",
       "model": "weighted",
       "modelPick": "illwill",
-      "modelProbability": 0.534591423616265,
-      "modelTeamAProbability": 0.534591423616265,
-      "modelTeamBProbability": 0.465408576383735,
+      "modelProbability": 0.5345979497232736,
+      "modelTeamAProbability": 0.5345979497232736,
+      "modelTeamBProbability": 0.46540205027672643,
       "probabilityForWinner": null,
       "calibration": "platt",
       "featureCoverage": {
@@ -864,9 +864,9 @@
           },
           "pick": "illwill",
           "pickTeamId": "13501",
-          "probability": 0.534591423616265,
-          "teamAProbability": 0.534591423616265,
-          "teamBProbability": 0.465408576383735,
+          "probability": 0.5345979497232736,
+          "teamAProbability": 0.5345979497232736,
+          "teamBProbability": 0.46540205027672643,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -879,7 +879,7 @@
           "marketFavorite": "illwill",
           "marketProbability": 0.675,
           "marketDisagreement": false,
-          "marketEdge": -0.14040857638373505
+          "marketEdge": -0.14040205027672648
         },
         {
           "modelId": "champion",
@@ -898,9 +898,9 @@
           },
           "pick": "G2 Ares",
           "pickTeamId": "12889",
-          "probability": 0.547355151260418,
-          "teamAProbability": 0.45264484873958205,
-          "teamBProbability": 0.547355151260418,
+          "probability": 0.547343605165304,
+          "teamAProbability": 0.45265639483469594,
+          "teamBProbability": 0.547343605165304,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -913,7 +913,7 @@
           "marketFavorite": "illwill",
           "marketProbability": 0.325,
           "marketDisagreement": true,
-          "marketEdge": 0.222355151260418
+          "marketEdge": 0.222343605165304
         },
         {
           "modelId": "ensemble",
@@ -966,9 +966,9 @@
           },
           "pick": "G2 Ares",
           "pickTeamId": "12889",
-          "probability": 0.5314216248860453,
-          "teamAProbability": 0.46857837511395467,
-          "teamBProbability": 0.5314216248860453,
+          "probability": 0.5314062876744311,
+          "teamAProbability": 0.4685937123255689,
+          "teamBProbability": 0.5314062876744311,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -981,7 +981,7 @@
           "marketFavorite": "illwill",
           "marketProbability": 0.325,
           "marketDisagreement": true,
-          "marketEdge": 0.20642162488604526
+          "marketEdge": 0.2064062876744311
         }
       ],
       "matchContext": {
@@ -1011,7 +1011,7 @@
       "marketFavoriteProbability": 0.675,
       "marketQuestion": "Counter-Strike: illwill vs G2 Ares (BO3) - CCT Europe Series 4 Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
-      "marketLiquidity": "17019.2287",
+      "marketLiquidity": "18749.207",
       "marketVolume": "28755.573365999917"
     },
     {
@@ -1022,9 +1022,9 @@
       "teamB": "INOX Division",
       "model": "weighted",
       "modelPick": "Walczaki",
-      "modelProbability": 0.5165678636981026,
-      "modelTeamAProbability": 0.5165678636981026,
-      "modelTeamBProbability": 0.4834321363018974,
+      "modelProbability": 0.5165744139941428,
+      "modelTeamAProbability": 0.5165744139941428,
+      "modelTeamBProbability": 0.48342558600585717,
       "probabilityForWinner": null,
       "calibration": "platt",
       "featureCoverage": {
@@ -1052,9 +1052,9 @@
           },
           "pick": "Walczaki",
           "pickTeamId": "13808",
-          "probability": 0.5165678636981026,
-          "teamAProbability": 0.5165678636981026,
-          "teamBProbability": 0.4834321363018974,
+          "probability": 0.5165744139941428,
+          "teamAProbability": 0.5165744139941428,
+          "teamBProbability": 0.48342558600585717,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -1065,9 +1065,9 @@
             "missing": []
           },
           "marketFavorite": "INOX Division",
-          "marketProbability": 0.43,
+          "marketProbability": 0.44,
           "marketDisagreement": true,
-          "marketEdge": 0.0865678636981026
+          "marketEdge": 0.07657441399414283
         },
         {
           "modelId": "champion",
@@ -1086,9 +1086,9 @@
           },
           "pick": "Walczaki",
           "pickTeamId": "13808",
-          "probability": 0.5486089305511195,
-          "teamAProbability": 0.5486089305511195,
-          "teamBProbability": 0.4513910694488805,
+          "probability": 0.5486205984581856,
+          "teamAProbability": 0.5486205984581856,
+          "teamBProbability": 0.45137940154181444,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -1099,9 +1099,9 @@
             "missing": []
           },
           "marketFavorite": "INOX Division",
-          "marketProbability": 0.43,
+          "marketProbability": 0.44,
           "marketDisagreement": true,
-          "marketEdge": 0.11860893055111948
+          "marketEdge": 0.10862059845818556
         },
         {
           "modelId": "ensemble",
@@ -1133,9 +1133,9 @@
             "missing": []
           },
           "marketFavorite": "INOX Division",
-          "marketProbability": 0.43,
+          "marketProbability": 0.44,
           "marketDisagreement": true,
-          "marketEdge": 0.0823293188918775
+          "marketEdge": 0.07232931889187749
         },
         {
           "modelId": "ensemble25",
@@ -1154,9 +1154,9 @@
           },
           "pick": "Walczaki",
           "pickTeamId": "13808",
-          "probability": 0.5398407751070067,
-          "teamAProbability": 0.5398407751070067,
-          "teamBProbability": 0.4601592248929933,
+          "probability": 0.5398011132978212,
+          "teamAProbability": 0.5398011132978212,
+          "teamBProbability": 0.4601988867021788,
           "probabilityForWinner": null,
           "status": "pending",
           "confidenceBucket": "50-55",
@@ -1167,9 +1167,9 @@
             "missing": []
           },
           "marketFavorite": "INOX Division",
-          "marketProbability": 0.43,
+          "marketProbability": 0.44,
           "marketDisagreement": true,
-          "marketEdge": 0.10984077510700668
+          "marketEdge": 0.09980111329782121
         }
       ],
       "matchContext": {
@@ -1194,13 +1194,13 @@
       "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "INOX Division",
       "marketUnderdog": "Walczaki",
-      "marketTeamAProbability": 0.43,
-      "marketTeamBProbability": 0.57,
-      "marketFavoriteProbability": 0.57,
+      "marketTeamAProbability": 0.44,
+      "marketTeamBProbability": 0.56,
+      "marketFavoriteProbability": 0.56,
       "marketQuestion": "Counter-Strike: Walczaki vs INOX Division (BO3) - NODWIN Clutch Series Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
-      "marketLiquidity": "31176.7628",
-      "marketVolume": "11996.444419000007"
+      "marketLiquidity": "34303.4837",
+      "marketVolume": "12003.111084000007"
     }
   ]
 }

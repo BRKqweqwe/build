@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T10:44:20.765Z",
+  "generatedAt": "2026-06-10T11:11:21.763Z",
   "source": {
     "name": "pandascore",
     "apiBaseUrl": "https://api.pandascore.co",
@@ -7,12 +7,12 @@
     "pages": 3,
     "perPage": 100,
     "maxMatches": 80,
-    "rawMatches": 183,
+    "rawMatches": 181,
     "matches": 28,
     "mergedMatches": 36,
     "keptExistingMatches": 8,
     "skipped": {
-      "missingOpponents": 136,
+      "missingOpponents": 134,
       "unknownTeams": 19,
       "rank": 0,
       "duplicate": 0
