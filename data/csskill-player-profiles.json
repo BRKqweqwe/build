@@ -1,17 +1,467 @@
 {
-  "generatedAt": "2026-06-08T14:25:09.133Z",
+  "generatedAt": "2026-06-10T14:07:28.872Z",
   "source": {
     "name": "csskill",
     "method": "public-profile-search",
-    "maxTeams": 12,
-    "maxPlayers": 60,
-    "maxCandidates": 5,
+    "maxTeams": 40,
+    "maxPlayers": 160,
+    "maxCandidates": 6,
     "minMatches": 5,
-    "targets": 60,
-    "profiles": 52,
-    "failures": 8
+    "targets": 160,
+    "profiles": 134,
+    "failures": 26
   },
   "profiles": [
+    {
+      "teamId": "9565",
+      "teamName": "Vitality",
+      "playerId": "11816",
+      "playerName": "ropz",
+      "csskill": {
+        "steamId": "76561197991272318",
+        "displayName": "ropz",
+        "profileUrl": "https://csskill.com/player/76561197991272318",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 16,
+          "losses": 4,
+          "win_rate": 80,
+          "win_rate_display": "80.0",
+          "avg_rating": 1.73,
+          "avg_rating_display": "+1.73",
+          "avg_adr": 72.6,
+          "avg_adr_display": "72.6",
+          "avg_kd": 1.36,
+          "avg_kd_display": "1.36",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "9565",
+      "teamName": "Vitality",
+      "playerId": "11893",
+      "playerName": "zywoo",
+      "csskill": {
+        "steamId": "76561198113666193",
+        "displayName": "ZywOo",
+        "profileUrl": "https://csskill.com/player/76561198113666193",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 16,
+          "losses": 4,
+          "win_rate": 80,
+          "win_rate_display": "80.0",
+          "avg_rating": 5.32,
+          "avg_rating_display": "+5.32",
+          "avg_adr": 83.9,
+          "avg_adr_display": "83.9",
+          "avg_kd": 1.45,
+          "avg_kd_display": "1.45",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "9565",
+      "teamName": "Vitality",
+      "playerId": "16693",
+      "playerName": "flamez",
+      "csskill": {
+        "steamId": "76561197978835160",
+        "displayName": "flameZ",
+        "profileUrl": "https://csskill.com/player/76561197978835160",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 16,
+          "losses": 4,
+          "win_rate": 80,
+          "win_rate_display": "80.0",
+          "avg_rating": 0.93,
+          "avg_rating_display": "+0.93",
+          "avg_adr": 79.4,
+          "avg_adr_display": "79.4",
+          "avg_kd": 1.2,
+          "avg_kd_display": "1.20",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "9565",
+      "teamName": "Vitality",
+      "playerId": "18462",
+      "playerName": "mezii",
+      "csskill": {
+        "steamId": "76561197973140692",
+        "displayName": "mezii",
+        "profileUrl": "https://csskill.com/player/76561197973140692",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 16,
+          "losses": 4,
+          "win_rate": 80,
+          "win_rate_display": "80.0",
+          "avg_rating": -0.07,
+          "avg_rating_display": "-0.07",
+          "avg_adr": 63.6,
+          "avg_adr_display": "63.6",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7020",
+      "teamName": "Spirit",
+      "playerId": "16920",
+      "playerName": "sh1ro",
+      "csskill": {
+        "steamId": "76561198081484775",
+        "displayName": "sh1ro",
+        "profileUrl": "https://csskill.com/player/76561198081484775",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 19,
+          "losses": 5,
+          "win_rate": 79.2,
+          "win_rate_display": "79.2",
+          "avg_rating": 2.42,
+          "avg_rating_display": "+2.42",
+          "avg_adr": 75.4,
+          "avg_adr_display": "75.4",
+          "avg_kd": 1.55,
+          "avg_kd_display": "1.55",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7020",
+      "teamName": "Spirit",
+      "playerId": "18317",
+      "playerName": "magixx",
+      "csskill": {
+        "steamId": "76561199063238565",
+        "displayName": "magixx",
+        "profileUrl": "https://csskill.com/player/76561199063238565",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 19,
+          "losses": 5,
+          "win_rate": 79.2,
+          "win_rate_display": "79.2",
+          "avg_rating": 0.77,
+          "avg_rating_display": "+0.77",
+          "avg_adr": 72.6,
+          "avg_adr_display": "72.6",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7020",
+      "teamName": "Spirit",
+      "playerId": "19808",
+      "playerName": "tn1r",
+      "csskill": {
+        "steamId": "76561198872013168",
+        "displayName": "tN1R",
+        "profileUrl": "https://csskill.com/player/76561198872013168",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 19,
+          "losses": 5,
+          "win_rate": 79.2,
+          "win_rate_display": "79.2",
+          "avg_rating": 0.86,
+          "avg_rating_display": "+0.86",
+          "avg_adr": 74.4,
+          "avg_adr_display": "74.4",
+          "avg_kd": 1.1,
+          "avg_kd_display": "1.10",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7020",
+      "teamName": "Spirit",
+      "playerId": "20423",
+      "playerName": "zont1x",
+      "csskill": {
+        "steamId": "76561198995880877",
+        "displayName": "zont1x",
+        "profileUrl": "https://csskill.com/player/76561198995880877",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 19,
+          "losses": 5,
+          "win_rate": 79.2,
+          "win_rate_display": "79.2",
+          "avg_rating": 0.2,
+          "avg_rating_display": "+0.20",
+          "avg_adr": 66.8,
+          "avg_adr_display": "66.8",
+          "avg_kd": 0.98,
+          "avg_kd_display": "0.98",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11283",
+      "teamName": "Falcons",
+      "playerId": "429",
+      "playerName": "karrigan",
+      "csskill": {
+        "steamId": "76561197989430253",
+        "displayName": "karrigan",
+        "profileUrl": "https://csskill.com/player/76561197989430253",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 14,
+          "losses": 7,
+          "win_rate": 66.7,
+          "win_rate_display": "66.7",
+          "avg_rating": -3.36,
+          "avg_rating_display": "-3.36",
+          "avg_adr": 52,
+          "avg_adr_display": "52.0",
+          "avg_kd": 0.64,
+          "avg_kd_display": "0.64",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11283",
+      "teamName": "Falcons",
+      "playerId": "12018",
+      "playerName": "teses",
+      "csskill": {
+        "steamId": "76561197996678278",
+        "displayName": "TeSeS",
+        "profileUrl": "https://csskill.com/player/76561197996678278",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 26,
+          "wins": 18,
+          "losses": 8,
+          "win_rate": 69.2,
+          "win_rate_display": "69.2",
+          "avg_rating": -0.43,
+          "avg_rating_display": "-0.43",
+          "avg_adr": 67,
+          "avg_adr_display": "67.0",
+          "avg_kd": 0.94,
+          "avg_kd_display": "0.94",
+          "last30_count": 26
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11283",
+      "teamName": "Falcons",
+      "playerId": "19230",
+      "playerName": "m0nesy",
+      "csskill": {
+        "steamId": "76561198074762801",
+        "displayName": "m0NESY",
+        "profileUrl": "https://csskill.com/player/76561198074762801",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 26,
+          "wins": 18,
+          "losses": 8,
+          "win_rate": 69.2,
+          "win_rate_display": "69.2",
+          "avg_rating": 2.93,
+          "avg_rating_display": "+2.93",
+          "avg_adr": 82,
+          "avg_adr_display": "82.0",
+          "avg_kd": 1.44,
+          "avg_kd_display": "1.44",
+          "last30_count": 26
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11283",
+      "teamName": "Falcons",
+      "playerId": "24177",
+      "playerName": "kyousuke",
+      "csskill": {
+        "steamId": "76561199032006224",
+        "displayName": "kyousuke",
+        "profileUrl": "https://csskill.com/player/76561199032006224",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 26,
+          "wins": 18,
+          "losses": 8,
+          "win_rate": 69.2,
+          "win_rate_display": "69.2",
+          "avg_rating": 0.17,
+          "avg_rating_display": "+0.17",
+          "avg_adr": 81,
+          "avg_adr_display": "81.0",
+          "avg_kd": 1.08,
+          "avg_kd_display": "1.08",
+          "last30_count": 26
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4608",
+      "teamName": "Natus Vincere",
+      "playerId": "9816",
+      "playerName": "aleksib",
+      "csskill": {
+        "steamId": "76561198013243326",
+        "displayName": "Aleksib",
+        "profileUrl": "https://csskill.com/player/76561198013243326",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 12,
+          "losses": 8,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": -2.34,
+          "avg_rating_display": "-2.34",
+          "avg_adr": 55.9,
+          "avg_adr_display": "55.9",
+          "avg_kd": 0.71,
+          "avg_kd_display": "0.71",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4608",
+      "teamName": "Natus Vincere",
+      "playerId": "20127",
+      "playerName": "w0nderful",
+      "csskill": {
+        "steamId": "76561199063068840",
+        "displayName": "w0nderful",
+        "profileUrl": "https://csskill.com/player/76561199063068840",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 12,
+          "losses": 8,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 2.28,
+          "avg_rating_display": "+2.28",
+          "avg_adr": 76.7,
+          "avg_adr_display": "76.7",
+          "avg_kd": 1.46,
+          "avg_kd_display": "1.46",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4608",
+      "teamName": "Natus Vincere",
+      "playerId": "22673",
+      "playerName": "makazze",
+      "csskill": {
+        "steamId": "76561199076189612",
+        "displayName": "makazze",
+        "profileUrl": "https://csskill.com/player/76561199076189612",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 20,
+          "wins": 12,
+          "losses": 8,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 0.3,
+          "avg_rating_display": "+0.30",
+          "avg_adr": 74.5,
+          "avg_adr_display": "74.5",
+          "avg_kd": 0.91,
+          "avg_kd_display": "0.91",
+          "last30_count": 20
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
     {
       "teamId": "12468",
       "teamName": "Legacy",
@@ -125,6 +575,636 @@
           "avg_kd": 1.13,
           "avg_kd_display": "1.13",
           "last30_count": 22
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4494",
+      "teamName": "MOUZ",
+      "playerId": "18072",
+      "playerName": "torzsi",
+      "csskill": {
+        "steamId": "76561198355739212",
+        "displayName": "torzsi",
+        "profileUrl": "https://csskill.com/player/76561198355739212",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 13,
+          "losses": 8,
+          "win_rate": 61.9,
+          "win_rate_display": "61.9",
+          "avg_rating": -0.7,
+          "avg_rating_display": "-0.70",
+          "avg_adr": 64.5,
+          "avg_adr_display": "64.5",
+          "avg_kd": 1.09,
+          "avg_kd_display": "1.09",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4494",
+      "teamName": "MOUZ",
+      "playerId": "18221",
+      "playerName": "spinx",
+      "csskill": {
+        "steamId": "76561198063336407",
+        "displayName": "Spinx",
+        "profileUrl": "https://csskill.com/player/76561198063336407",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 13,
+          "losses": 8,
+          "win_rate": 61.9,
+          "win_rate_display": "61.9",
+          "avg_rating": -0.3,
+          "avg_rating_display": "-0.30",
+          "avg_adr": 70.1,
+          "avg_adr_display": "70.1",
+          "avg_kd": 0.98,
+          "avg_kd_display": "0.98",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4494",
+      "teamName": "MOUZ",
+      "playerId": "20312",
+      "playerName": "xertion",
+      "csskill": {
+        "steamId": "76561198193174134",
+        "displayName": "xertioN",
+        "profileUrl": "https://csskill.com/player/76561198193174134",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 13,
+          "losses": 8,
+          "win_rate": 61.9,
+          "win_rate_display": "61.9",
+          "avg_rating": 3.06,
+          "avg_rating_display": "+3.06",
+          "avg_adr": 91.6,
+          "avg_adr_display": "91.6",
+          "avg_kd": 1.29,
+          "avg_kd_display": "1.29",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4494",
+      "teamName": "MOUZ",
+      "playerId": "24457",
+      "playerName": "xelex",
+      "csskill": {
+        "steamId": "76561198998266210",
+        "displayName": "xelex",
+        "profileUrl": "https://csskill.com/player/76561198998266210",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 13,
+          "losses": 8,
+          "win_rate": 61.9,
+          "win_rate_display": "61.9",
+          "avg_rating": -0.04,
+          "avg_rating_display": "-0.04",
+          "avg_adr": 67.5,
+          "avg_adr_display": "67.5",
+          "avg_kd": 1.02,
+          "avg_kd_display": "1.02",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "6248",
+      "teamName": "The MongolZ",
+      "playerId": "20275",
+      "playerName": "techno",
+      "csskill": {
+        "steamId": "76561198966340160",
+        "displayName": "Techno4K",
+        "profileUrl": "https://csskill.com/player/76561198966340160",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 23,
+          "wins": 9,
+          "losses": 14,
+          "win_rate": 39.1,
+          "win_rate_display": "39.1",
+          "avg_rating": -1.65,
+          "avg_rating_display": "-1.65",
+          "avg_adr": 65.8,
+          "avg_adr_display": "65.8",
+          "avg_kd": 0.85,
+          "avg_kd_display": "0.85",
+          "last30_count": 23
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 45,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "6248",
+      "teamName": "The MongolZ",
+      "playerId": "21001",
+      "playerName": "mzinho",
+      "csskill": {
+        "steamId": "76561198838822582",
+        "displayName": "Mzinho",
+        "profileUrl": "https://csskill.com/player/76561198838822582",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 23,
+          "wins": 9,
+          "losses": 14,
+          "win_rate": 39.1,
+          "win_rate_display": "39.1",
+          "avg_rating": 0.38,
+          "avg_rating_display": "+0.38",
+          "avg_adr": 75.6,
+          "avg_adr_display": "75.6",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 23
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "6248",
+      "teamName": "The MongolZ",
+      "playerId": "21809",
+      "playerName": "910",
+      "csskill": {
+        "steamId": "76561199203563345",
+        "displayName": "910",
+        "profileUrl": "https://csskill.com/player/76561199203563345",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 23,
+          "wins": 9,
+          "losses": 14,
+          "win_rate": 39.1,
+          "win_rate_display": "39.1",
+          "avg_rating": 1.6,
+          "avg_rating_display": "+1.60",
+          "avg_adr": 75.7,
+          "avg_adr_display": "75.7",
+          "avg_kd": 1.22,
+          "avg_kd_display": "1.22",
+          "last30_count": 23
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "6248",
+      "teamName": "The MongolZ",
+      "playerId": "23402",
+      "playerName": "cobrazera",
+      "csskill": {
+        "steamId": "76561199430871803",
+        "displayName": "cobrazera",
+        "profileUrl": "https://csskill.com/player/76561199430871803",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 23,
+          "wins": 9,
+          "losses": 14,
+          "win_rate": 39.1,
+          "win_rate_display": "39.1",
+          "avg_rating": -0.22,
+          "avg_rating_display": "-0.22",
+          "avg_adr": 70.2,
+          "avg_adr_display": "70.2",
+          "avg_kd": 0.92,
+          "avg_kd_display": "0.92",
+          "last30_count": 23
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11861",
+      "teamName": "Aurora",
+      "playerId": "150",
+      "playerName": "maj3r",
+      "csskill": {
+        "steamId": "76561197967432889",
+        "displayName": "MAJ3R",
+        "profileUrl": "https://csskill.com/player/76561197967432889",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 10,
+          "wins": 6,
+          "losses": 4,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 0.56,
+          "avg_rating_display": "+0.56",
+          "avg_adr": 63.4,
+          "avg_adr_display": "63.4",
+          "avg_kd": 0.85,
+          "avg_kd_display": "0.85",
+          "last30_count": 10
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11861",
+      "teamName": "Aurora",
+      "playerId": "8574",
+      "playerName": "woxic",
+      "csskill": {
+        "steamId": "76561198083485506",
+        "displayName": "woxic",
+        "profileUrl": "https://csskill.com/player/76561198083485506",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 10,
+          "wins": 6,
+          "losses": 4,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 2.21,
+          "avg_rating_display": "+2.21",
+          "avg_adr": 74.5,
+          "avg_adr_display": "74.5",
+          "avg_kd": 1.2,
+          "avg_kd_display": "1.20",
+          "last30_count": 10
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11861",
+      "teamName": "Aurora",
+      "playerId": "20968",
+      "playerName": "soulfly",
+      "csskill": {
+        "steamId": "76561198327068178",
+        "displayName": "soulfly",
+        "profileUrl": "https://csskill.com/player/76561198327068178",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 10,
+          "wins": 6,
+          "losses": 4,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 0.69,
+          "avg_rating_display": "+0.69",
+          "avg_adr": 69.1,
+          "avg_adr_display": "69.1",
+          "avg_kd": 0.96,
+          "avg_kd_display": "0.96",
+          "last30_count": 10
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11861",
+      "teamName": "Aurora",
+      "playerId": "21243",
+      "playerName": "wicadia",
+      "csskill": {
+        "steamId": "76561198812513923",
+        "displayName": "Wicadia",
+        "profileUrl": "https://csskill.com/player/76561198812513923",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 10,
+          "wins": 6,
+          "losses": 4,
+          "win_rate": 60,
+          "win_rate_display": "60.0",
+          "avg_rating": 1.53,
+          "avg_rating_display": "+1.53",
+          "avg_adr": 84,
+          "avg_adr_display": "84.0",
+          "avg_kd": 1.19,
+          "avg_kd_display": "1.19",
+          "last30_count": 10
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8297",
+      "teamName": "FURIA",
+      "playerId": "2023",
+      "playerName": "fallen",
+      "csskill": {
+        "steamId": "76561197960690195",
+        "displayName": "FalleN",
+        "profileUrl": "https://csskill.com/player/76561197960690195",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 13,
+          "wins": 8,
+          "losses": 5,
+          "win_rate": 61.5,
+          "win_rate_display": "61.5",
+          "avg_rating": -0.75,
+          "avg_rating_display": "-0.75",
+          "avg_adr": 65.2,
+          "avg_adr_display": "65.2",
+          "avg_kd": 0.98,
+          "avg_kd_display": "0.98",
+          "last30_count": 13
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8297",
+      "teamName": "FURIA",
+      "playerId": "12553",
+      "playerName": "yuurih",
+      "csskill": {
+        "steamId": "76561198164970560",
+        "displayName": "yuurih",
+        "profileUrl": "https://csskill.com/player/76561198164970560",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 13,
+          "wins": 8,
+          "losses": 5,
+          "win_rate": 61.5,
+          "win_rate_display": "61.5",
+          "avg_rating": 0.58,
+          "avg_rating_display": "+0.58",
+          "avg_adr": 65.8,
+          "avg_adr_display": "65.8",
+          "avg_kd": 1,
+          "avg_kd_display": "1.00",
+          "last30_count": 13
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8297",
+      "teamName": "FURIA",
+      "playerId": "13915",
+      "playerName": "yekindar",
+      "csskill": {
+        "steamId": "76561198134401925",
+        "displayName": "YEKINDAR",
+        "profileUrl": "https://csskill.com/player/76561198134401925",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 13,
+          "wins": 8,
+          "losses": 5,
+          "win_rate": 61.5,
+          "win_rate_display": "61.5",
+          "avg_rating": 0.81,
+          "avg_rating_display": "+0.81",
+          "avg_adr": 83.3,
+          "avg_adr_display": "83.3",
+          "avg_kd": 1.08,
+          "avg_kd_display": "1.08",
+          "last30_count": 13
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8297",
+      "teamName": "FURIA",
+      "playerId": "15631",
+      "playerName": "kscerato",
+      "csskill": {
+        "steamId": "76561198058500492",
+        "displayName": "KSCERATO",
+        "profileUrl": "https://csskill.com/player/76561198058500492",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 13,
+          "wins": 8,
+          "losses": 5,
+          "win_rate": 61.5,
+          "win_rate_display": "61.5",
+          "avg_rating": 1.71,
+          "avg_rating_display": "+1.71",
+          "avg_adr": 85.6,
+          "avg_adr_display": "85.6",
+          "avg_kd": 1.25,
+          "avg_kd_display": "1.25",
+          "last30_count": 13
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13286",
+      "teamName": "FUT",
+      "playerId": "20584",
+      "playerName": "dem0n",
+      "csskill": {
+        "steamId": "76561198875633179",
+        "displayName": "dem0n",
+        "profileUrl": "https://csskill.com/player/76561198875633179",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 15,
+          "wins": 7,
+          "losses": 8,
+          "win_rate": 46.7,
+          "win_rate_display": "46.7",
+          "avg_rating": 0.88,
+          "avg_rating_display": "+0.88",
+          "avg_adr": 70.8,
+          "avg_adr_display": "70.8",
+          "avg_kd": 1.15,
+          "avg_kd_display": "1.15",
+          "last30_count": 15
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13286",
+      "teamName": "FUT",
+      "playerId": "20761",
+      "playerName": "launx",
+      "csskill": {
+        "steamId": "76561198972795853",
+        "displayName": "lauNX",
+        "profileUrl": "https://csskill.com/player/76561198972795853",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 15,
+          "wins": 7,
+          "losses": 8,
+          "win_rate": 46.7,
+          "win_rate_display": "46.7",
+          "avg_rating": -1.73,
+          "avg_rating_display": "-1.73",
+          "avg_adr": 65.2,
+          "avg_adr_display": "65.2",
+          "avg_kd": 0.82,
+          "avg_kd_display": "0.82",
+          "last30_count": 15
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13286",
+      "teamName": "FUT",
+      "playerId": "22203",
+      "playerName": "krabeni",
+      "csskill": {
+        "steamId": "76561198991278425",
+        "displayName": "Krabeni",
+        "profileUrl": "https://csskill.com/player/76561198991278425",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 15,
+          "wins": 7,
+          "losses": 8,
+          "win_rate": 46.7,
+          "win_rate_display": "46.7",
+          "avg_rating": -1.31,
+          "avg_rating_display": "-1.31",
+          "avg_adr": 74.9,
+          "avg_adr_display": "74.9",
+          "avg_kd": 1.03,
+          "avg_kd_display": "1.03",
+          "last30_count": 15
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13286",
+      "teamName": "FUT",
+      "playerId": "22674",
+      "playerName": "cmtry",
+      "csskill": {
+        "steamId": "76561199313968259",
+        "displayName": "cmtry",
+        "profileUrl": "https://csskill.com/player/76561199313968259",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 15,
+          "wins": 7,
+          "losses": 8,
+          "win_rate": 46.7,
+          "win_rate_display": "46.7",
+          "avg_rating": -0.9,
+          "avg_rating_display": "-0.90",
+          "avg_adr": 56.3,
+          "avg_adr_display": "56.3",
+          "avg_kd": 0.94,
+          "avg_kd_display": "0.94",
+          "last30_count": 15
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13286",
+      "teamName": "FUT",
+      "playerId": "23553",
+      "playerName": "dziugss",
+      "csskill": {
+        "steamId": "76561199100725838",
+        "displayName": "dziugss",
+        "profileUrl": "https://csskill.com/player/76561199100725838",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 15,
+          "wins": 7,
+          "losses": 8,
+          "win_rate": 46.7,
+          "win_rate_display": "46.7",
+          "avg_rating": -0.12,
+          "avg_rating_display": "-0.12",
+          "avg_adr": 70.6,
+          "avg_adr_display": "70.6",
+          "avg_kd": 1.07,
+          "avg_kd_display": "1.07",
+          "last30_count": 15
         },
         "level": 1,
         "levelTier": "Recruit",
@@ -1363,6 +2443,156 @@
       }
     },
     {
+      "teamId": "8840",
+      "teamName": "Lynn Vision",
+      "playerId": "16551",
+      "playerName": "westmelon",
+      "csskill": {
+        "steamId": "76561198107240040",
+        "displayName": "westmelon",
+        "profileUrl": "https://csskill.com/player/76561198107240040",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 25,
+          "wins": 14,
+          "losses": 11,
+          "win_rate": 56,
+          "win_rate_display": "56.0",
+          "avg_rating": -1.04,
+          "avg_rating_display": "-1.04",
+          "avg_adr": 68.3,
+          "avg_adr_display": "68.3",
+          "avg_kd": 0.89,
+          "avg_kd_display": "0.89",
+          "last30_count": 25
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8840",
+      "teamName": "Lynn Vision",
+      "playerId": "18744",
+      "playerName": "z4kr",
+      "csskill": {
+        "steamId": "76561198137783463",
+        "displayName": "z4KR",
+        "profileUrl": "https://csskill.com/player/76561198137783463",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 25,
+          "wins": 14,
+          "losses": 11,
+          "win_rate": 56,
+          "win_rate_display": "56.0",
+          "avg_rating": 0.95,
+          "avg_rating_display": "+0.95",
+          "avg_adr": 73.4,
+          "avg_adr_display": "73.4",
+          "avg_kd": 1.16,
+          "avg_kd_display": "1.16",
+          "last30_count": 25
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8840",
+      "teamName": "Lynn Vision",
+      "playerId": "20254",
+      "playerName": "starry",
+      "csskill": {
+        "steamId": "76561198880299543",
+        "displayName": "Starry",
+        "profileUrl": "https://csskill.com/player/76561198880299543",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 25,
+          "wins": 14,
+          "losses": 11,
+          "win_rate": 56,
+          "win_rate_display": "56.0",
+          "avg_rating": 1.77,
+          "avg_rating_display": "+1.77",
+          "avg_adr": 87.5,
+          "avg_adr_display": "87.5",
+          "avg_kd": 1.23,
+          "avg_kd_display": "1.23",
+          "last30_count": 25
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8840",
+      "teamName": "Lynn Vision",
+      "playerId": "22922",
+      "playerName": "emiliaqaq",
+      "csskill": {
+        "steamId": "76561198816731401",
+        "displayName": "EmiliaQAQ",
+        "profileUrl": "https://csskill.com/player/76561198816731401",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 25,
+          "wins": 14,
+          "losses": 11,
+          "win_rate": 56,
+          "win_rate_display": "56.0",
+          "avg_rating": 0.54,
+          "avg_rating_display": "+0.54",
+          "avg_adr": 70,
+          "avg_adr_display": "70.0",
+          "avg_kd": 0.97,
+          "avg_kd_display": "0.97",
+          "last30_count": 25
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "8840",
+      "teamName": "Lynn Vision",
+      "playerId": "23100",
+      "playerName": "c4llm3su3",
+      "csskill": {
+        "steamId": "76561198416388144",
+        "displayName": "C4LLM3SU3",
+        "profileUrl": "https://csskill.com/player/76561198416388144",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 25,
+          "wins": 14,
+          "losses": 11,
+          "win_rate": 56,
+          "win_rate_display": "56.0",
+          "avg_rating": -0.77,
+          "avg_rating_display": "-0.77",
+          "avg_adr": 65.7,
+          "avg_adr_display": "65.7",
+          "avg_kd": 0.9,
+          "avg_kd_display": "0.90",
+          "last30_count": 25
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
       "teamId": "4863",
       "teamName": "TYLOO",
       "playerId": "19645",
@@ -1565,6 +2795,1236 @@
           "avg_kd": 0.95,
           "avg_kd_display": "0.95",
           "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4914",
+      "teamName": "3DMAX",
+      "playerId": "13138",
+      "playerName": "maka",
+      "csskill": {
+        "steamId": "76561198045739761",
+        "displayName": "Maka",
+        "profileUrl": "https://csskill.com/player/76561198045739761",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 6,
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7,
+          "win_rate_display": "16.7",
+          "avg_rating": 0.34,
+          "avg_rating_display": "+0.34",
+          "avg_adr": 73.7,
+          "avg_adr_display": "73.7",
+          "avg_kd": 0.92,
+          "avg_kd_display": "0.92",
+          "last30_count": 6
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4914",
+      "teamName": "3DMAX",
+      "playerId": "14176",
+      "playerName": "misutaaa",
+      "csskill": {
+        "steamId": "76561198081528911",
+        "displayName": "misutaaa",
+        "profileUrl": "https://csskill.com/player/76561198081528911",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 6,
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7,
+          "win_rate_display": "16.7",
+          "avg_rating": -1.13,
+          "avg_rating_display": "-1.13",
+          "avg_adr": 75,
+          "avg_adr_display": "75.0",
+          "avg_kd": 0.92,
+          "avg_kd_display": "0.92",
+          "last30_count": 6
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4914",
+      "teamName": "3DMAX",
+      "playerId": "19739",
+      "playerName": "ex3rcice",
+      "csskill": {
+        "steamId": "76561198168198200",
+        "displayName": "Ex3rcice",
+        "profileUrl": "https://csskill.com/player/76561198168198200",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 6,
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7,
+          "win_rate_display": "16.7",
+          "avg_rating": -2.17,
+          "avg_rating_display": "-2.17",
+          "avg_adr": 59,
+          "avg_adr_display": "59.0",
+          "avg_kd": 0.75,
+          "avg_kd_display": "0.75",
+          "last30_count": 6
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "4914",
+      "teamName": "3DMAX",
+      "playerId": "21969",
+      "playerName": "graviti",
+      "csskill": {
+        "steamId": "76561198179538505",
+        "displayName": "Graviti",
+        "profileUrl": "https://csskill.com/player/76561198179538505",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 6,
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7,
+          "win_rate_display": "16.7",
+          "avg_rating": -1.11,
+          "avg_rating_display": "-1.11",
+          "avg_adr": 74,
+          "avg_adr_display": "74.0",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 6
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7532",
+      "teamName": "BIG",
+      "playerId": "5794",
+      "playerName": "tabsen",
+      "csskill": {
+        "steamId": "76561197961491680",
+        "displayName": "tabseN",
+        "profileUrl": "https://csskill.com/player/76561197961491680",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "win_rate": 50,
+          "win_rate_display": "50.0",
+          "avg_rating": -0.37,
+          "avg_rating_display": "-0.37",
+          "avg_adr": 66.8,
+          "avg_adr_display": "66.8",
+          "avg_kd": 0.91,
+          "avg_kd_display": "0.91",
+          "last30_count": 14
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7532",
+      "teamName": "BIG",
+      "playerId": "14929",
+      "playerName": "jdc",
+      "csskill": {
+        "steamId": "76561198078771373",
+        "displayName": "JDC",
+        "profileUrl": "https://csskill.com/player/76561198078771373",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "win_rate": 50,
+          "win_rate_display": "50.0",
+          "avg_rating": -0.41,
+          "avg_rating_display": "-0.41",
+          "avg_adr": 83.7,
+          "avg_adr_display": "83.7",
+          "avg_kd": 1.07,
+          "avg_kd_display": "1.07",
+          "last30_count": 14
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7532",
+      "teamName": "BIG",
+      "playerId": "14932",
+      "playerName": "faven",
+      "csskill": {
+        "steamId": "76561198118196092",
+        "displayName": "faveN",
+        "profileUrl": "https://csskill.com/player/76561198118196092",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "win_rate": 50,
+          "win_rate_display": "50.0",
+          "avg_rating": 0.49,
+          "avg_rating_display": "+0.49",
+          "avg_adr": 70.5,
+          "avg_adr_display": "70.5",
+          "avg_kd": 0.9,
+          "avg_kd_display": "0.90",
+          "last30_count": 14
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7532",
+      "teamName": "BIG",
+      "playerId": "15165",
+      "playerName": "blamef",
+      "csskill": {
+        "steamId": "76561198028458803",
+        "displayName": "blameF",
+        "profileUrl": "https://csskill.com/player/76561198028458803",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "win_rate": 50,
+          "win_rate_display": "50.0",
+          "avg_rating": 4.15,
+          "avg_rating_display": "+4.15",
+          "avg_adr": 86.7,
+          "avg_adr_display": "86.7",
+          "avg_kd": 1.32,
+          "avg_kd_display": "1.32",
+          "last30_count": 14
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "7532",
+      "teamName": "BIG",
+      "playerId": "22884",
+      "playerName": "gr1ks",
+      "csskill": {
+        "steamId": "76561198370176682",
+        "displayName": "gr1ks",
+        "profileUrl": "https://csskill.com/player/76561198370176682",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 14,
+          "wins": 7,
+          "losses": 7,
+          "win_rate": 50,
+          "win_rate_display": "50.0",
+          "avg_rating": 1.28,
+          "avg_rating_display": "+1.28",
+          "avg_adr": 74.2,
+          "avg_adr_display": "74.2",
+          "avg_kd": 1.07,
+          "avg_kd_display": "1.07",
+          "last30_count": 14
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "12474",
+      "teamName": "Alliance",
+      "playerId": "24083",
+      "playerName": "mail09",
+      "csskill": {
+        "steamId": "76561198298487189",
+        "displayName": "MaiL09",
+        "profileUrl": "https://csskill.com/player/76561198298487189",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 21,
+          "wins": 9,
+          "losses": 11,
+          "win_rate": 42.9,
+          "win_rate_display": "42.9",
+          "avg_rating": -0.15,
+          "avg_rating_display": "-0.15",
+          "avg_adr": 75.5,
+          "avg_adr_display": "75.5",
+          "avg_kd": 1.02,
+          "avg_kd_display": "1.02",
+          "last30_count": 21
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13355",
+      "teamName": "Nemesis",
+      "playerId": "18670",
+      "playerName": "sellter",
+      "csskill": {
+        "steamId": "76561198119088041",
+        "displayName": "SELLTERRRRRRRRRR",
+        "profileUrl": "https://csskill.com/player/76561198119088041",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 14,
+          "losses": 10,
+          "win_rate": 58.3,
+          "win_rate_display": "58.3",
+          "avg_rating": 0.62,
+          "avg_rating_display": "+0.62",
+          "avg_adr": 78.8,
+          "avg_adr_display": "78.8",
+          "avg_kd": 1.11,
+          "avg_kd_display": "1.11",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 45,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13355",
+      "teamName": "Nemesis",
+      "playerId": "20709",
+      "playerName": "r3salt",
+      "csskill": {
+        "steamId": "76561198350362302",
+        "displayName": "r3salt",
+        "profileUrl": "https://csskill.com/player/76561198350362302",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 14,
+          "losses": 10,
+          "win_rate": 58.3,
+          "win_rate_display": "58.3",
+          "avg_rating": 1.6,
+          "avg_rating_display": "+1.60",
+          "avg_adr": 89,
+          "avg_adr_display": "89.0",
+          "avg_kd": 1.11,
+          "avg_kd_display": "1.11",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13355",
+      "teamName": "Nemesis",
+      "playerId": "22536",
+      "playerName": "mag1k3y",
+      "csskill": {
+        "steamId": "76561198843372097",
+        "displayName": "mag1k3Y",
+        "profileUrl": "https://csskill.com/player/76561198843372097",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 14,
+          "losses": 10,
+          "win_rate": 58.3,
+          "win_rate_display": "58.3",
+          "avg_rating": 1.24,
+          "avg_rating_display": "+1.24",
+          "avg_adr": 64.6,
+          "avg_adr_display": "64.6",
+          "avg_kd": 1.06,
+          "avg_kd_display": "1.06",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13355",
+      "teamName": "Nemesis",
+      "playerId": "23047",
+      "playerName": "sdaim",
+      "csskill": {
+        "steamId": "76561198829202374",
+        "displayName": "SdaimCAT",
+        "profileUrl": "https://csskill.com/player/76561198829202374",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 24,
+          "wins": 14,
+          "losses": 10,
+          "win_rate": 58.3,
+          "win_rate_display": "58.3",
+          "avg_rating": 0.44,
+          "avg_rating_display": "+0.44",
+          "avg_adr": 78.9,
+          "avg_adr_display": "78.9",
+          "avg_kd": 1.04,
+          "avg_kd_display": "1.04",
+          "last30_count": 24
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 45,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11737",
+      "teamName": "EYEBALLERS",
+      "playerId": "3849",
+      "playerName": "jw",
+      "csskill": {
+        "steamId": "76561198031554200",
+        "displayName": "JW",
+        "profileUrl": "https://csskill.com/player/76561198031554200",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": -0.68,
+          "avg_rating_display": "-0.68",
+          "avg_adr": 68.3,
+          "avg_adr_display": "68.3",
+          "avg_kd": 0.97,
+          "avg_kd_display": "0.97",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11737",
+      "teamName": "EYEBALLERS",
+      "playerId": "20879",
+      "playerName": "maxster",
+      "csskill": {
+        "steamId": "76561199132217533",
+        "displayName": "maxster",
+        "profileUrl": "https://csskill.com/player/76561199132217533",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": 2.95,
+          "avg_rating_display": "+2.95",
+          "avg_adr": 90.4,
+          "avg_adr_display": "90.4",
+          "avg_kd": 1.34,
+          "avg_kd_display": "1.34",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11737",
+      "teamName": "EYEBALLERS",
+      "playerId": "21012",
+      "playerName": "ro1f",
+      "csskill": {
+        "steamId": "76561198071096426",
+        "displayName": "Ro1f",
+        "profileUrl": "https://csskill.com/player/76561198071096426",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": 1.96,
+          "avg_rating_display": "+1.96",
+          "avg_adr": 74.5,
+          "avg_adr_display": "74.5",
+          "avg_kd": 0.98,
+          "avg_kd_display": "0.98",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "11737",
+      "teamName": "EYEBALLERS",
+      "playerId": "21159",
+      "playerName": "bobeksde",
+      "csskill": {
+        "steamId": "76561198060916227",
+        "displayName": "bobeksde",
+        "profileUrl": "https://csskill.com/player/76561198060916227",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": 2.7,
+          "avg_rating_display": "+2.70",
+          "avg_adr": 93.8,
+          "avg_adr_display": "93.8",
+          "avg_kd": 1.05,
+          "avg_kd_display": "1.05",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "5378",
+      "teamName": "Virtus.pro",
+      "playerId": "23637",
+      "playerName": "b1st",
+      "csskill": {
+        "steamId": "76561198842458256",
+        "displayName": "b1st",
+        "profileUrl": "https://csskill.com/player/76561198842458256",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 12,
+          "wins": 10,
+          "losses": 2,
+          "win_rate": 83.3,
+          "win_rate_display": "83.3",
+          "avg_rating": 1.82,
+          "avg_rating_display": "+1.82",
+          "avg_adr": 73.4,
+          "avg_adr_display": "73.4",
+          "avg_kd": 1.19,
+          "avg_kd_display": "1.19",
+          "last30_count": 12
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "5378",
+      "teamName": "Virtus.pro",
+      "playerId": "24292",
+      "playerName": "f0r3ver",
+      "csskill": {
+        "steamId": "76561199012381348",
+        "displayName": "F0R3VER",
+        "profileUrl": "https://csskill.com/player/76561199012381348",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 12,
+          "wins": 10,
+          "losses": 2,
+          "win_rate": 83.3,
+          "win_rate_display": "83.3",
+          "avg_rating": 0.93,
+          "avg_rating_display": "+0.93",
+          "avg_adr": 78,
+          "avg_adr_display": "78.0",
+          "avg_kd": 1.11,
+          "avg_kd_display": "1.11",
+          "last30_count": 12
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "5378",
+      "teamName": "Virtus.pro",
+      "playerId": "24950",
+      "playerName": "aquars",
+      "csskill": {
+        "steamId": "76561198800147622",
+        "displayName": "AquaRS",
+        "profileUrl": "https://csskill.com/player/76561198800147622",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 12,
+          "wins": 10,
+          "losses": 2,
+          "win_rate": 83.3,
+          "win_rate_display": "83.3",
+          "avg_rating": 0.82,
+          "avg_rating_display": "+0.82",
+          "avg_adr": 74,
+          "avg_adr_display": "74.0",
+          "avg_kd": 0.93,
+          "avg_kd_display": "0.93",
+          "last30_count": 12
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "5378",
+      "teamName": "Virtus.pro",
+      "playerId": "24952",
+      "playerName": "to0ro",
+      "csskill": {
+        "steamId": "76561199116332388",
+        "displayName": "tO0RO",
+        "profileUrl": "https://csskill.com/player/76561199116332388",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 12,
+          "wins": 10,
+          "losses": 2,
+          "win_rate": 83.3,
+          "win_rate_display": "83.3",
+          "avg_rating": 0.5,
+          "avg_rating_display": "+0.50",
+          "avg_adr": 71.9,
+          "avg_adr_display": "71.9",
+          "avg_kd": 1.01,
+          "avg_kd_display": "1.01",
+          "last30_count": 12
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "10577",
+      "teamName": "SINNERS",
+      "playerId": "11199",
+      "playerName": "beastik",
+      "csskill": {
+        "steamId": "76561198033438750",
+        "displayName": "beastik",
+        "profileUrl": "https://csskill.com/player/76561198033438750",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 11,
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 36.4,
+          "win_rate_display": "36.4",
+          "avg_rating": -3.64,
+          "avg_rating_display": "-3.64",
+          "avg_adr": 64.7,
+          "avg_adr_display": "64.7",
+          "avg_kd": 0.76,
+          "avg_kd_display": "0.76",
+          "last30_count": 11
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "10577",
+      "teamName": "SINNERS",
+      "playerId": "12810",
+      "playerName": "shock",
+      "csskill": {
+        "steamId": "76561198169560297",
+        "displayName": "SHOCK",
+        "profileUrl": "https://csskill.com/player/76561198169560297",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 11,
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 36.4,
+          "win_rate_display": "36.4",
+          "avg_rating": 0.65,
+          "avg_rating_display": "+0.65",
+          "avg_adr": 70.9,
+          "avg_adr_display": "70.9",
+          "avg_kd": 0.95,
+          "avg_kd_display": "0.95",
+          "last30_count": 11
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "10577",
+      "teamName": "SINNERS",
+      "playerId": "21113",
+      "playerName": "modo",
+      "csskill": {
+        "steamId": "76561198350221098",
+        "displayName": "MoDo",
+        "profileUrl": "https://csskill.com/player/76561198350221098",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 11,
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 36.4,
+          "win_rate_display": "36.4",
+          "avg_rating": -1.14,
+          "avg_rating_display": "-1.14",
+          "avg_adr": 69,
+          "avg_adr_display": "69.0",
+          "avg_kd": 1.1,
+          "avg_kd_display": "1.10",
+          "last30_count": 11
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "10577",
+      "teamName": "SINNERS",
+      "playerId": "23295",
+      "playerName": "kisserek",
+      "csskill": {
+        "steamId": "76561198252742076",
+        "displayName": "kisserek",
+        "profileUrl": "https://csskill.com/player/76561198252742076",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 11,
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 36.4,
+          "win_rate_display": "36.4",
+          "avg_rating": 0.39,
+          "avg_rating_display": "+0.39",
+          "avg_adr": 75.7,
+          "avg_adr_display": "75.7",
+          "avg_kd": 0.95,
+          "avg_kd_display": "0.95",
+          "last30_count": 11
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "10577",
+      "teamName": "SINNERS",
+      "playerId": "23459",
+      "playerName": "stressarn",
+      "csskill": {
+        "steamId": "76561198304437116",
+        "displayName": "stressarN",
+        "profileUrl": "https://csskill.com/player/76561198304437116",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 11,
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 36.4,
+          "win_rate_display": "36.4",
+          "avg_rating": -1.21,
+          "avg_rating_display": "-1.21",
+          "avg_adr": 63.1,
+          "avg_adr_display": "63.1",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 11
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13808",
+      "teamName": "Walczaki",
+      "playerId": "20245",
+      "playerName": "samey",
+      "csskill": {
+        "steamId": "76561198110806694",
+        "displayName": "SaMey",
+        "profileUrl": "https://csskill.com/player/76561198110806694",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 56,
+          "wins": 35,
+          "losses": 20,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": -1.13,
+          "avg_rating_display": "-1.13",
+          "avg_adr": 60.4,
+          "avg_adr_display": "60.4",
+          "avg_kd": 1.03,
+          "avg_kd_display": "1.03",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13808",
+      "teamName": "Walczaki",
+      "playerId": "20958",
+      "playerName": "bajmi",
+      "csskill": {
+        "steamId": "76561198201140907",
+        "displayName": "bajmi",
+        "profileUrl": "https://csskill.com/player/76561198201140907",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 56,
+          "wins": 35,
+          "losses": 20,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": -0.41,
+          "avg_rating_display": "-0.41",
+          "avg_adr": 76.9,
+          "avg_adr_display": "76.9",
+          "avg_kd": 0.96,
+          "avg_kd_display": "0.96",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13808",
+      "teamName": "Walczaki",
+      "playerId": "21143",
+      "playerName": "sk1tt",
+      "csskill": {
+        "steamId": "76561198235230328",
+        "displayName": "sk1tt",
+        "profileUrl": "https://csskill.com/player/76561198235230328",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 7,
+          "wins": 4,
+          "losses": 3,
+          "win_rate": 57.1,
+          "win_rate_display": "57.1",
+          "avg_rating": -1.24,
+          "avg_rating_display": "-1.24",
+          "avg_adr": 74.1,
+          "avg_adr_display": "74.1",
+          "avg_kd": 0.91,
+          "avg_kd_display": "0.91",
+          "last30_count": 7
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13808",
+      "teamName": "Walczaki",
+      "playerId": "21263",
+      "playerName": "olimp",
+      "csskill": {
+        "steamId": "76561198883522068",
+        "displayName": "olimp",
+        "profileUrl": "https://csskill.com/player/76561198883522068",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 56,
+          "wins": 35,
+          "losses": 20,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": 1.48,
+          "avg_rating_display": "+1.48",
+          "avg_adr": 83.6,
+          "avg_adr_display": "83.6",
+          "avg_kd": 0.94,
+          "avg_kd_display": "0.94",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13808",
+      "teamName": "Walczaki",
+      "playerId": "22703",
+      "playerName": "moonwalk",
+      "csskill": {
+        "steamId": "76561199102431599",
+        "displayName": "moonwalk",
+        "profileUrl": "https://csskill.com/player/76561199102431599",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 56,
+          "wins": 35,
+          "losses": 20,
+          "win_rate": 62.5,
+          "win_rate_display": "62.5",
+          "avg_rating": -0.51,
+          "avg_rating_display": "-0.51",
+          "avg_adr": 75.3,
+          "avg_adr_display": "75.3",
+          "avg_kd": 0.93,
+          "avg_kd_display": "0.93",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13501",
+      "teamName": "illwill",
+      "playerId": "9656",
+      "playerName": "hadji",
+      "csskill": {
+        "steamId": "76561197980944787",
+        "displayName": "hadji_tv",
+        "profileUrl": "https://csskill.com/player/76561197980944787",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 2,
+          "losses": 6,
+          "win_rate": 25,
+          "win_rate_display": "25.0",
+          "avg_rating": -0.16,
+          "avg_rating_display": "-0.16",
+          "avg_adr": 68.8,
+          "avg_adr_display": "68.8",
+          "avg_kd": 0.78,
+          "avg_kd_display": "0.78",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 45,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13501",
+      "teamName": "illwill",
+      "playerId": "11777",
+      "playerName": "maden",
+      "csskill": {
+        "steamId": "76561198165452027",
+        "displayName": "maden",
+        "profileUrl": "https://csskill.com/player/76561198165452027",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 2,
+          "losses": 6,
+          "win_rate": 25,
+          "win_rate_display": "25.0",
+          "avg_rating": -4.1,
+          "avg_rating_display": "-4.10",
+          "avg_adr": 72.9,
+          "avg_adr_display": "72.9",
+          "avg_kd": 0.73,
+          "avg_kd_display": "0.73",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13501",
+      "teamName": "illwill",
+      "playerId": "19673",
+      "playerName": "patsi",
+      "csskill": {
+        "steamId": "76561198288540801",
+        "displayName": "Patsi",
+        "profileUrl": "https://csskill.com/player/76561198288540801",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 5,
+          "wins": 1,
+          "losses": 4,
+          "win_rate": 20,
+          "win_rate_display": "20.0",
+          "avg_rating": -4.22,
+          "avg_rating_display": "-4.22",
+          "avg_adr": 62.9,
+          "avg_adr_display": "62.9",
+          "avg_kd": 0.73,
+          "avg_kd_display": "0.73",
+          "last30_count": 5
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13501",
+      "teamName": "illwill",
+      "playerId": "20889",
+      "playerName": "7kick",
+      "csskill": {
+        "steamId": "76561199189100088",
+        "displayName": "7kick",
+        "profileUrl": "https://csskill.com/player/76561199189100088",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 8,
+          "wins": 2,
+          "losses": 6,
+          "win_rate": 25,
+          "win_rate_display": "25.0",
+          "avg_rating": 0.56,
+          "avg_rating_display": "+0.56",
+          "avg_adr": 76.2,
+          "avg_adr_display": "76.2",
+          "avg_kd": 1.19,
+          "avg_kd_display": "1.19",
+          "last30_count": 8
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13814",
+      "teamName": "INOX Division",
+      "playerId": "22430",
+      "playerName": "k0s",
+      "csskill": {
+        "steamId": "76561198193739570",
+        "displayName": "k0s",
+        "profileUrl": "https://csskill.com/player/76561198193739570",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 54,
+          "wins": 32,
+          "losses": 20,
+          "win_rate": 59.3,
+          "win_rate_display": "59.3",
+          "avg_rating": -1.07,
+          "avg_rating_display": "-1.07",
+          "avg_adr": 79.4,
+          "avg_adr_display": "79.4",
+          "avg_kd": 1,
+          "avg_kd_display": "1.00",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13814",
+      "teamName": "INOX Division",
+      "playerId": "22879",
+      "playerName": "fenomen",
+      "csskill": {
+        "steamId": "76561198400817766",
+        "displayName": "Fenomen",
+        "profileUrl": "https://csskill.com/player/76561198400817766",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 54,
+          "wins": 32,
+          "losses": 20,
+          "win_rate": 59.3,
+          "win_rate_display": "59.3",
+          "avg_rating": 2.21,
+          "avg_rating_display": "+2.21",
+          "avg_adr": 83.5,
+          "avg_adr_display": "83.5",
+          "avg_kd": 1.46,
+          "avg_kd_display": "1.46",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13814",
+      "teamName": "INOX Division",
+      "playerId": "22883",
+      "playerName": "k1slll",
+      "csskill": {
+        "steamId": "76561198963311162",
+        "displayName": "k1slll",
+        "profileUrl": "https://csskill.com/player/76561198963311162",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 54,
+          "wins": 32,
+          "losses": 20,
+          "win_rate": 59.3,
+          "win_rate_display": "59.3",
+          "avg_rating": 1.1,
+          "avg_rating_display": "+1.10",
+          "avg_adr": 76.6,
+          "avg_adr_display": "76.6",
+          "avg_kd": 0.99,
+          "avg_kd_display": "0.99",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13814",
+      "teamName": "INOX Division",
+      "playerId": "22961",
+      "playerName": "finw",
+      "csskill": {
+        "steamId": "76561198212262384",
+        "displayName": "finW",
+        "profileUrl": "https://csskill.com/player/76561198212262384",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 54,
+          "wins": 32,
+          "losses": 20,
+          "win_rate": 59.3,
+          "win_rate_display": "59.3",
+          "avg_rating": -0.12,
+          "avg_rating_display": "-0.12",
+          "avg_adr": 78.2,
+          "avg_adr_display": "78.2",
+          "avg_kd": 1.07,
+          "avg_kd_display": "1.07",
+          "last30_count": 30
+        },
+        "level": 1,
+        "levelTier": "Recruit",
+        "score": 110,
+        "source": "csskill-public-profile"
+      }
+    },
+    {
+      "teamId": "13814",
+      "teamName": "INOX Division",
+      "playerId": "25423",
+      "playerName": "gooddeph",
+      "csskill": {
+        "steamId": "76561198193235603",
+        "displayName": "gooddeph",
+        "profileUrl": "https://csskill.com/player/76561198193235603",
+        "allowIndexing": true,
+        "stats": {
+          "total_matches": 54,
+          "wins": 32,
+          "losses": 20,
+          "win_rate": 59.3,
+          "win_rate_display": "59.3",
+          "avg_rating": -1.45,
+          "avg_rating_display": "-1.45",
+          "avg_adr": 63.2,
+          "avg_adr_display": "63.2",
+          "avg_kd": 0.87,
+          "avg_kd_display": "0.87",
+          "last30_count": 30
         },
         "level": 1,
         "levelTier": "Recruit",
