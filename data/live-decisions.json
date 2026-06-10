@@ -1,0 +1,1730 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-10T11:55:57.594Z",
+  "source": {
+    "live": "static/data/live-predictions.json",
+    "results": "static/data/model-results.json",
+    "strongThreshold": 0.15,
+    "leanThreshold": 0.05,
+    "edgeThreshold": 0.05,
+    "minCoverage": 0.85
+  },
+  "summary": {
+    "total": 28,
+    "strong": 6,
+    "lean": 16,
+    "skip": 6,
+    "withMarket": 18,
+    "marketDisagreements": 7
+  },
+  "decisions": [
+    {
+      "id": "pandascore-1504761",
+      "matchId": "pandascore-1504761",
+      "pandaScoreId": 1504761,
+      "startTime": "2026-06-10T11:30:14Z",
+      "status": "running",
+      "event": "European Pro League - Series 7 - Group C",
+      "teamA": "G2 Ares",
+      "teamB": "Young Ninjas",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "G2 Ares",
+        "probability": 0.524564,
+        "margin": 0.024564,
+        "agreement": {
+          "ratio": 0.833333,
+          "votes": "5/6",
+          "teamA": 5,
+          "teamB": 1
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.027948,
+        "reasons": [
+          "low_confidence"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "G2 Ares",
+          "probability": 0.530748,
+          "teamAProbability": 0.530748,
+          "teamBProbability": 0.469252,
+          "margin": 0.030748,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "Young Ninjas",
+          "probability": 0.516594,
+          "teamAProbability": 0.483406,
+          "teamBProbability": 0.516594,
+          "margin": 0.016594,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "G2 Ares",
+          "probability": 0.505156,
+          "teamAProbability": 0.505156,
+          "teamBProbability": 0.494844,
+          "margin": 0.005156,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "G2 Ares",
+          "probability": 0.563987,
+          "teamAProbability": 0.563987,
+          "teamBProbability": 0.436013,
+          "margin": 0.063987,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "G2 Ares",
+          "probability": 0.510695,
+          "teamAProbability": 0.510695,
+          "teamBProbability": 0.489305,
+          "margin": 0.010695,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "G2 Ares",
+          "probability": 0.553391,
+          "teamAProbability": 0.553391,
+          "teamBProbability": 0.446609,
+          "margin": 0.053391,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1517517",
+      "matchId": "pandascore-1517517",
+      "pandaScoreId": 1517517,
+      "startTime": "2026-06-10T14:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "teamA": "Walczaki",
+      "teamB": "INOX Division",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Walczaki",
+        "probability": 0.535512,
+        "margin": 0.035512,
+        "agreement": {
+          "ratio": 1,
+          "votes": "6/6",
+          "teamA": 6,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.019012,
+        "reasons": [
+          "low_confidence",
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "INOX Division",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "edge": 0.090512,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Walczaki",
+          "probability": 0.516582,
+          "teamAProbability": 0.516582,
+          "teamBProbability": 0.483418,
+          "margin": 0.016582,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.071582
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "Walczaki",
+          "probability": 0.548634,
+          "teamAProbability": 0.548634,
+          "teamBProbability": 0.451366,
+          "margin": 0.048634,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.103634
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "Walczaki",
+          "probability": 0.512329,
+          "teamAProbability": 0.512329,
+          "teamBProbability": 0.487671,
+          "margin": 0.012329,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.067329
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "Walczaki",
+          "probability": 0.539754,
+          "teamAProbability": 0.539754,
+          "teamBProbability": 0.460246,
+          "margin": 0.039754,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.094754
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "Walczaki",
+          "probability": 0.528181,
+          "teamAProbability": 0.528181,
+          "teamBProbability": 0.471819,
+          "margin": 0.028181,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.083181
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "Walczaki",
+          "probability": 0.567592,
+          "teamAProbability": 0.567592,
+          "teamBProbability": 0.432408,
+          "margin": 0.067592,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.122592
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1519570",
+      "matchId": "pandascore-1519570",
+      "pandaScoreId": 1519570,
+      "startTime": "2026-06-10T17:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "teamA": "illwill",
+      "teamB": "G2 Ares",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "G2 Ares",
+        "probability": 0.533784,
+        "margin": 0.033784,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "4/6",
+          "teamA": 2,
+          "teamB": 4
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.078278,
+        "reasons": [
+          "model_disagreement",
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "illwill",
+        "teamAProbability": 0.675,
+        "teamBProbability": 0.325,
+        "edge": 0.208784,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "illwill",
+          "probability": 0.534606,
+          "teamAProbability": 0.534606,
+          "teamBProbability": 0.465394,
+          "margin": 0.034606,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.140394
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "G2 Ares",
+          "probability": 0.54733,
+          "teamAProbability": 0.45267,
+          "teamBProbability": 0.54733,
+          "margin": 0.04733,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.22233
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "G2 Ares",
+          "probability": 0.634766,
+          "teamAProbability": 0.365234,
+          "teamBProbability": 0.634766,
+          "margin": 0.134766,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.309766
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "G2 Ares",
+          "probability": 0.531388,
+          "teamAProbability": 0.468612,
+          "teamBProbability": 0.531388,
+          "margin": 0.031388,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.206388
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "G2 Ares",
+          "probability": 0.613758,
+          "teamAProbability": 0.386242,
+          "teamBProbability": 0.613758,
+          "margin": 0.113758,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.288758
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "illwill",
+          "probability": 0.589929,
+          "teamAProbability": 0.589929,
+          "teamBProbability": 0.410071,
+          "margin": 0.089929,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.085071
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513126",
+      "matchId": "pandascore-1513126",
+      "pandaScoreId": 1513126,
+      "startTime": "2026-06-11T09:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "The MongolZ",
+      "teamB": "BetBoom",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "The MongolZ",
+        "probability": 0.582036,
+        "margin": 0.082036,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "The MongolZ",
+        "teamAProbability": 0.5,
+        "teamBProbability": 0.5,
+        "edge": 0.082036,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-mglz-bb3-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "The MongolZ",
+          "probability": 0.582036,
+          "teamAProbability": 0.582036,
+          "teamBProbability": 0.417964,
+          "margin": 0.082036,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.082036
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513125",
+      "matchId": "pandascore-1513125",
+      "pandaScoreId": 1513125,
+      "startTime": "2026-06-11T09:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "PARIVISION",
+      "teamB": "9z",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "PARIVISION",
+        "probability": 0.578249,
+        "margin": 0.078249,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "PARIVISION",
+        "teamAProbability": 0.545,
+        "teamBProbability": 0.455,
+        "edge": 0.033249,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-prv-9z-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "PARIVISION",
+          "probability": 0.578249,
+          "teamAProbability": 0.578249,
+          "teamBProbability": 0.421751,
+          "margin": 0.078249,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.033249
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1504766",
+      "matchId": "pandascore-1504766",
+      "pandaScoreId": 1504766,
+      "startTime": "2026-06-11T10:30:00Z",
+      "status": "not_started",
+      "event": "European Pro League - Series 7 - Group D",
+      "teamA": "KOLESIE",
+      "teamB": "Virtus.pro",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "KOLESIE",
+        "probability": 0.520214,
+        "margin": 0.020214,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "low_confidence",
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "Virtus.pro",
+        "teamAProbability": 0.295,
+        "teamBProbability": 0.705,
+        "edge": 0.225214,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "KOLESIE",
+          "probability": 0.520214,
+          "teamAProbability": 0.520214,
+          "teamBProbability": 0.479786,
+          "margin": 0.020214,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.225214
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513127",
+      "matchId": "pandascore-1513127",
+      "pandaScoreId": 1513127,
+      "startTime": "2026-06-11T11:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "MOUZ",
+      "teamB": "Legacy",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Legacy",
+        "probability": 0.501074,
+        "margin": 0.001074,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 0,
+          "teamB": 1
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "low_confidence",
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "MOUZ",
+        "teamAProbability": 0.575,
+        "teamBProbability": 0.425,
+        "edge": 0.076074,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-mouz-lgc-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Legacy",
+          "probability": 0.501074,
+          "teamAProbability": 0.498926,
+          "teamBProbability": 0.501074,
+          "margin": 0.001074,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.076074
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513120",
+      "matchId": "pandascore-1513120",
+      "pandaScoreId": 1513120,
+      "startTime": "2026-06-11T11:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Vitality",
+      "teamB": "FUT",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "Vitality",
+        "probability": 0.65863,
+        "margin": 0.15863,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "Vitality",
+        "teamAProbability": 0.81,
+        "teamBProbability": 0.19,
+        "edge": -0.15137,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-vit-fut-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Vitality",
+          "probability": 0.65863,
+          "teamAProbability": 0.65863,
+          "teamBProbability": 0.34137,
+          "margin": 0.15863,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.15137
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513123",
+      "matchId": "pandascore-1513123",
+      "pandaScoreId": 1513123,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "FURIA",
+      "teamB": "B8",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "FURIA",
+        "probability": 0.501462,
+        "margin": 0.001462,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "low_confidence"
+        ]
+      },
+      "market": {
+        "favorite": "FURIA",
+        "teamAProbability": 0.725,
+        "teamBProbability": 0.275,
+        "edge": -0.223538,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-furia-b8-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "FURIA",
+          "probability": 0.501462,
+          "teamAProbability": 0.501462,
+          "teamBProbability": 0.498538,
+          "margin": 0.001462,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.223538
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513121",
+      "matchId": "pandascore-1513121",
+      "pandaScoreId": 1513121,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Falcons",
+      "teamB": "G2",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Falcons",
+        "probability": 0.626828,
+        "margin": 0.126828,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "Falcons",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "edge": 0.001828,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-fal2-g2-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Falcons",
+          "probability": 0.626828,
+          "teamAProbability": 0.626828,
+          "teamBProbability": 0.373172,
+          "margin": 0.126828,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.001828
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513124",
+      "matchId": "pandascore-1513124",
+      "pandaScoreId": 1513124,
+      "startTime": "2026-06-11T16:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Aurora",
+      "teamB": "Monte",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Aurora",
+        "probability": 0.567316,
+        "margin": 0.067316,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "Aurora",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "edge": -0.057684,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-aur1-mnte-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Aurora",
+          "probability": 0.567316,
+          "teamAProbability": 0.567316,
+          "teamBProbability": 0.432684,
+          "margin": 0.067316,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.057684
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513122",
+      "matchId": "pandascore-1513122",
+      "pandaScoreId": 1513122,
+      "startTime": "2026-06-11T16:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Natus Vincere",
+      "teamB": "Spirit",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Natus Vincere",
+        "probability": 0.581953,
+        "margin": 0.081953,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "Spirit",
+        "teamAProbability": 0.365,
+        "teamBProbability": 0.635,
+        "edge": 0.216953,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-navi-ts7-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Natus Vincere",
+          "probability": 0.581953,
+          "teamAProbability": 0.581953,
+          "teamBProbability": 0.418047,
+          "margin": 0.081953,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.216953
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533027",
+      "matchId": "pandascore-1533027",
+      "pandaScoreId": 1533027,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "3DMAX",
+      "teamB": "Ninjas in Pyjamas",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "3DMAX",
+        "probability": 0.60576,
+        "margin": 0.10576,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "3DMAX",
+          "probability": 0.60576,
+          "teamAProbability": 0.60576,
+          "teamBProbability": 0.39424,
+          "margin": 0.10576,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533026",
+      "matchId": "pandascore-1533026",
+      "pandaScoreId": 1533026,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "FaZe",
+      "teamB": "TYLOO",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "FaZe",
+        "probability": 0.577294,
+        "margin": 0.077294,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "FaZe",
+        "teamAProbability": 0.68,
+        "teamBProbability": 0.32,
+        "edge": -0.102706,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "FaZe",
+          "probability": 0.577294,
+          "teamAProbability": 0.577294,
+          "teamBProbability": 0.422706,
+          "margin": 0.077294,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.102706
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526528",
+      "matchId": "pandascore-1526528",
+      "pandaScoreId": 1526528,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "BetBoom",
+      "teamB": "EYEBALLERS",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "BetBoom",
+        "probability": 0.624816,
+        "margin": 0.124816,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "BetBoom",
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "edge": 0.119816,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "BetBoom",
+          "probability": 0.624816,
+          "teamAProbability": 0.624816,
+          "teamBProbability": 0.375184,
+          "margin": 0.124816,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.119816
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526527",
+      "matchId": "pandascore-1526527",
+      "pandaScoreId": 1526527,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "B8",
+      "teamB": "Ninjas in Pyjamas",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "B8",
+        "probability": 0.682034,
+        "margin": 0.182034,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "B8",
+          "probability": 0.682034,
+          "teamAProbability": 0.682034,
+          "teamBProbability": 0.317966,
+          "margin": 0.182034,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526526",
+      "matchId": "pandascore-1526526",
+      "pandaScoreId": 1526526,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "9z",
+      "teamB": "Nemesis",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "9z",
+        "probability": 0.654972,
+        "margin": 0.154972,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "Nemesis",
+        "teamAProbability": 0.495,
+        "teamBProbability": 0.505,
+        "edge": 0.159972,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "9z",
+          "probability": 0.654972,
+          "teamAProbability": 0.654972,
+          "teamBProbability": 0.345028,
+          "margin": 0.154972,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.159972
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526525",
+      "matchId": "pandascore-1526525",
+      "pandaScoreId": 1526525,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "3DMAX",
+      "teamB": "Alliance",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "3DMAX",
+        "probability": 0.575889,
+        "margin": 0.075889,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "3DMAX",
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "edge": 0.070889,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "3DMAX",
+          "probability": 0.575889,
+          "teamAProbability": 0.575889,
+          "teamBProbability": 0.424111,
+          "margin": 0.075889,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.070889
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526524",
+      "matchId": "pandascore-1526524",
+      "pandaScoreId": 1526524,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "Monte",
+      "teamB": "MIBR",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Monte",
+        "probability": 0.558252,
+        "margin": 0.058252,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_disagreement",
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "MIBR",
+        "teamAProbability": 0.495,
+        "teamBProbability": 0.505,
+        "edge": 0.063252,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Monte",
+          "probability": 0.558252,
+          "teamAProbability": 0.558252,
+          "teamBProbability": 0.441748,
+          "margin": 0.058252,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.063252
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526523",
+      "matchId": "pandascore-1526523",
+      "pandaScoreId": 1526523,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "PARIVISION",
+      "teamB": "BIG",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "PARIVISION",
+        "probability": 0.5879,
+        "margin": 0.0879,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "PARIVISION",
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "edge": 0.0829,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "PARIVISION",
+          "probability": 0.5879,
+          "teamAProbability": 0.5879,
+          "teamBProbability": 0.4121,
+          "margin": 0.0879,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.0829
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526522",
+      "matchId": "pandascore-1526522",
+      "pandaScoreId": 1526522,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "Legacy",
+      "teamB": "M80",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "Legacy",
+        "probability": 0.666347,
+        "margin": 0.166347,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "Legacy",
+        "teamAProbability": 0.505,
+        "teamBProbability": 0.495,
+        "edge": 0.161347,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Legacy",
+          "probability": 0.666347,
+          "teamAProbability": 0.666347,
+          "teamBProbability": 0.333653,
+          "margin": 0.166347,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.161347
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1526521",
+      "matchId": "pandascore-1526521",
+      "pandaScoreId": 1526521,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "FaZe",
+      "teamB": "SINNERS",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "FaZe",
+        "probability": 0.671131,
+        "margin": 0.171131,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "FaZe",
+          "probability": 0.671131,
+          "teamAProbability": 0.671131,
+          "teamBProbability": 0.328869,
+          "margin": 0.171131,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533029",
+      "matchId": "pandascore-1533029",
+      "pandaScoreId": 1533029,
+      "startTime": "2026-07-01T08:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "Monte",
+      "teamB": "Nemesis",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Monte",
+        "probability": 0.593836,
+        "margin": 0.093836,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "Monte",
+          "probability": 0.593836,
+          "teamAProbability": 0.593836,
+          "teamBProbability": 0.406164,
+          "margin": 0.093836,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533028",
+      "matchId": "pandascore-1533028",
+      "pandaScoreId": 1533028,
+      "startTime": "2026-07-01T08:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "9z",
+      "teamB": "EYEBALLERS",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "9z",
+        "probability": 0.625325,
+        "margin": 0.125325,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "9z",
+          "probability": 0.625325,
+          "teamAProbability": 0.625325,
+          "teamBProbability": 0.374675,
+          "margin": 0.125325,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533031",
+      "matchId": "pandascore-1533031",
+      "pandaScoreId": 1533031,
+      "startTime": "2026-07-01T09:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "BetBoom",
+      "teamB": "SINNERS",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "BetBoom",
+        "probability": 0.726545,
+        "margin": 0.226545,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "BetBoom",
+          "probability": 0.726545,
+          "teamAProbability": 0.726545,
+          "teamBProbability": 0.273455,
+          "margin": 0.226545,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533030",
+      "matchId": "pandascore-1533030",
+      "pandaScoreId": 1533030,
+      "startTime": "2026-07-01T09:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "PARIVISION",
+      "teamB": "Alliance",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "PARIVISION",
+        "probability": 0.634604,
+        "margin": 0.134604,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "PARIVISION",
+          "probability": 0.634604,
+          "teamAProbability": 0.634604,
+          "teamBProbability": 0.365396,
+          "margin": 0.134604,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533033",
+      "matchId": "pandascore-1533033",
+      "pandaScoreId": 1533033,
+      "startTime": "2026-07-01T10:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "B8",
+      "teamB": "MIBR",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "B8",
+        "probability": 0.631481,
+        "margin": 0.131481,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "B8",
+          "probability": 0.631481,
+          "teamAProbability": 0.631481,
+          "teamBProbability": 0.368519,
+          "margin": 0.131481,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533032",
+      "matchId": "pandascore-1533032",
+      "pandaScoreId": 1533032,
+      "startTime": "2026-07-01T10:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "BIG",
+      "teamB": "Lynn Vision",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "BIG",
+        "probability": 0.614581,
+        "margin": 0.114581,
+        "agreement": {
+          "ratio": 1,
+          "votes": "1/1",
+          "teamA": 1,
+          "teamB": 0
+        },
+        "coverage": 1,
+        "probabilitySpread": 0,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "BIG",
+          "probability": 0.614581,
+          "teamAProbability": 0.614581,
+          "teamBProbability": 0.385419,
+          "margin": 0.114581,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    }
+  ]
+}
