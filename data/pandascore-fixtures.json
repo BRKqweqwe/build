@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T11:28:33.768Z",
+  "generatedAt": "2026-06-10T11:42:37.157Z",
   "source": {
     "name": "pandascore",
     "apiBaseUrl": "https://api.pandascore.co",
@@ -19,27 +19,6 @@
     }
   },
   "matches": [
-    {
-      "id": "pandascore-1504761",
-      "pandaScoreId": 1504761,
-      "startTime": "2026-06-10T11:30:00Z",
-      "event": "European Pro League - Series 7 - Group C",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "12889",
-      "teamBId": "10960",
-      "teamAName": "G2 Ares",
-      "teamBName": "Young Ninjas",
-      "rawTeamAName": "G2 Ares",
-      "rawTeamBName": "Young Ninjas",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
     {
       "id": "pandascore-1517517",
       "pandaScoreId": 1517517,
@@ -474,6 +453,27 @@
       "teamBName": "SINNERS",
       "rawTeamAName": "FaZe",
       "rawTeamBName": "Sinners",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1504761",
+      "pandaScoreId": 1504761,
+      "startTime": "2026-06-10T11:30:14Z",
+      "event": "European Pro League - Series 7 - Group C",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "running",
+      "teamAId": "12889",
+      "teamBId": "10960",
+      "teamAName": "G2 Ares",
+      "teamBName": "Young Ninjas",
+      "rawTeamAName": "G2 Ares",
+      "rawTeamBName": "Young Ninjas",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
