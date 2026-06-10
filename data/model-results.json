@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-06-10T17:40:01.966Z",
+  "updatedAt": "2026-06-10T20:54:50.606Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -922,10 +922,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.755,
-          "marketDisagreement": false,
-          "marketEdge": -0.22039436535273038
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.0005,
+          "marketDisagreement": true,
+          "marketEdge": 0.5341056346472697
         },
         {
           "modelId": "champion",
@@ -956,10 +956,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.245,
-          "marketDisagreement": true,
-          "marketEdge": 0.30233000871860816
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.4521699912813919
         },
         {
           "modelId": "ensemble",
@@ -990,10 +990,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.245,
-          "marketDisagreement": true,
-          "marketEdge": 0.38976574423773347
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.3647342557622666
         },
         {
           "modelId": "ensemble25",
@@ -1024,10 +1024,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.245,
-          "marketDisagreement": true,
-          "marketEdge": 0.28638823602690067
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.4681117639730994
         },
         {
           "modelId": "archive",
@@ -1059,10 +1059,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.245,
-          "marketDisagreement": true,
-          "marketEdge": 0.36875782045284733
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.38574217954715273
         },
         {
           "modelId": "oldprog",
@@ -1094,10 +1094,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "illwill",
-          "marketProbability": 0.755,
-          "marketDisagreement": false,
-          "marketEdge": -0.16507096459286452
+          "marketFavorite": "G2 Ares",
+          "marketProbability": 0.0005,
+          "marketDisagreement": true,
+          "marketEdge": 0.5894290354071355
         }
       ],
       "matchContext": {
@@ -1118,17 +1118,17 @@
       "status": "pending",
       "matchStatus": "not_started",
       "startTime": "2026-06-10T17:00:00Z",
-      "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
-      "marketFavorite": "illwill",
-      "marketUnderdog": "G2 Ares",
-      "marketTeamAProbability": 0.755,
-      "marketTeamBProbability": 0.245,
-      "marketFavoriteProbability": 0.755,
+      "marketDisagreement": true,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "G2 Ares",
+      "marketUnderdog": "illwill",
+      "marketTeamAProbability": 0.0005,
+      "marketTeamBProbability": 0.9995,
+      "marketFavoriteProbability": 0.9995,
       "marketQuestion": "Counter-Strike: illwill vs G2 Ares (BO3) - CCT Europe Series 4 Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
-      "marketLiquidity": "20473.4435",
-      "marketVolume": "38910.78597399993"
+      "marketLiquidity": "325979.77625",
+      "marketVolume": "170481.2016229998"
     },
     {
       "id": "2026-06-10-walczaki-inox-division",

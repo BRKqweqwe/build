@@ -1,153 +1,17 @@
 {
-  "generatedAt": "2026-06-10T17:40:04.088Z",
+  "generatedAt": "2026-06-10T20:54:53.225Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset.json",
     "model": "static/data/trained-model-conservative.json"
   },
   "summary": {
-    "total": 14,
-    "high": 12,
+    "total": 18,
+    "high": 16,
     "medium": 0,
     "low": 2
   },
   "predictions": [
-    {
-      "matchId": "lolesports-116634529527025927",
-      "match": {
-        "id": "lolesports-116634529527025927",
-        "lolEsportsId": "116634529527025927",
-        "source": "lolesports",
-        "startTime": "2026-06-10T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "E Wie Einfach E-Sports",
-        "teamB": "MISA Esports",
-        "teamAId": "EWI",
-        "teamBId": "MISA"
-      },
-      "model": {
-        "id": "conservative-coverage",
-        "path": "static/data/trained-model-conservative.json",
-        "label": "Conservative Coverage"
-      },
-      "prediction": {
-        "favorite": "MISA Esports",
-        "probability": 0.693791,
-        "teamAProbability": 0.306209,
-        "teamBProbability": 0.693791,
-        "margin": 0.387582
-      },
-      "coverage": {
-        "teamAGames": 171,
-        "teamBGames": 206,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634529527025931",
-      "match": {
-        "id": "lolesports-116634529527025931",
-        "lolEsportsId": "116634529527025931",
-        "source": "lolesports",
-        "startTime": "2026-06-10T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "HMBLE",
-        "teamB": "UCAM Esports Club",
-        "teamAId": "HMB",
-        "teamBId": "UCAM"
-      },
-      "model": {
-        "id": "conservative-coverage",
-        "path": "static/data/trained-model-conservative.json",
-        "label": "Conservative Coverage"
-      },
-      "prediction": {
-        "favorite": "HMBLE",
-        "probability": 0.632297,
-        "teamAProbability": 0.632297,
-        "teamBProbability": 0.367703,
-        "margin": 0.264594
-      },
-      "coverage": {
-        "teamAGames": 37,
-        "teamBGames": 168,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634566270405055",
-      "match": {
-        "id": "lolesports-116634566270405055",
-        "lolEsportsId": "116634566270405055",
-        "source": "lolesports",
-        "startTime": "2026-06-10T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "Partizan Sangal",
-        "teamB": "G2 NORD",
-        "teamAId": "PXS",
-        "teamBId": "G2N"
-      },
-      "model": {
-        "id": "conservative-coverage",
-        "path": "static/data/trained-model-conservative.json",
-        "label": "Conservative Coverage"
-      },
-      "prediction": {
-        "favorite": "Partizan Sangal",
-        "probability": 0.678594,
-        "teamAProbability": 0.678594,
-        "teamBProbability": 0.321406,
-        "margin": 0.357188
-      },
-      "coverage": {
-        "teamAGames": 108,
-        "teamBGames": 70,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634566270405079",
-      "match": {
-        "id": "lolesports-116634566270405079",
-        "lolEsportsId": "116634566270405079",
-        "source": "lolesports",
-        "startTime": "2026-06-10T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "BOMBA Team",
-        "teamB": "Solary",
-        "teamAId": "BOOM",
-        "teamBId": "SLY"
-      },
-      "model": {
-        "id": "conservative-coverage",
-        "path": "static/data/trained-model-conservative.json",
-        "label": "Conservative Coverage"
-      },
-      "prediction": {
-        "favorite": "Solary",
-        "probability": 0.664099,
-        "teamAProbability": 0.335901,
-        "teamBProbability": 0.664099,
-        "margin": 0.328198
-      },
-      "coverage": {
-        "teamAGames": 47,
-        "teamBGames": 173,
-        "level": "high"
-      }
-    },
     {
       "matchId": "lolesports-116634566270405031",
       "match": {
@@ -155,14 +19,18 @@
         "lolEsportsId": "116634566270405031",
         "source": "lolesports",
         "startTime": "2026-06-10T18:00:00Z",
-        "status": "unstarted",
+        "status": "completed",
         "league": "EMEA Masters",
         "blockName": "Groups",
         "bestOf": 3,
         "teamA": "Heretics Academy",
         "teamB": "Karmine Corp Blue",
         "teamAId": "HRTS",
-        "teamBId": "KCB"
+        "teamBId": "KCB",
+        "teamAScore": 2,
+        "teamBScore": 0,
+        "winner": "Heretics Academy",
+        "winnerTeamId": "HRTS"
       },
       "model": {
         "id": "conservative-coverage",
@@ -189,14 +57,18 @@
         "lolEsportsId": "116634566270405035",
         "source": "lolesports",
         "startTime": "2026-06-10T18:00:00Z",
-        "status": "unstarted",
+        "status": "completed",
         "league": "EMEA Masters",
         "blockName": "Groups",
         "bestOf": 3,
         "teamA": "PCIFIC Esports",
         "teamB": "Forsaken",
         "teamAId": "PCF",
-        "teamBId": "FSK"
+        "teamBId": "FSK",
+        "teamAScore": 1,
+        "teamBScore": 2,
+        "winner": "Forsaken",
+        "winnerTeamId": "FSK"
       },
       "model": {
         "id": "conservative-coverage",
@@ -223,14 +95,18 @@
         "lolEsportsId": "116634566270405059",
         "source": "lolesports",
         "startTime": "2026-06-10T18:00:00Z",
-        "status": "unstarted",
+        "status": "completed",
         "league": "EMEA Masters",
         "blockName": "Groups",
         "bestOf": 3,
-        "teamA": "Galions",
-        "teamB": "WLGaming",
-        "teamAId": "GL",
-        "teamBId": "WLG"
+        "teamA": "WLGaming",
+        "teamB": "Galions",
+        "teamAId": "WLG",
+        "teamBId": "GL",
+        "teamAScore": 0,
+        "teamBScore": 2,
+        "winner": "Galions",
+        "winnerTeamId": "GL"
       },
       "model": {
         "id": "conservative-coverage",
@@ -238,50 +114,16 @@
         "label": "Conservative Coverage"
       },
       "prediction": {
-        "favorite": "Galions",
-        "probability": 0.579118,
-        "teamAProbability": 0.579118,
-        "teamBProbability": 0.420882,
-        "margin": 0.158235
+        "favorite": "WLGaming",
+        "probability": 0.538082,
+        "teamAProbability": 0.538082,
+        "teamBProbability": 0.461918,
+        "margin": 0.076165
       },
       "coverage": {
-        "teamAGames": 162,
-        "teamBGames": 159,
+        "teamAGames": 159,
+        "teamBGames": 162,
         "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116520394663535888",
-      "match": {
-        "id": "lolesports-116520394663535888",
-        "lolEsportsId": "116520394663535888",
-        "source": "lolesports",
-        "startTime": "2026-06-11T10:00:00Z",
-        "status": "unstarted",
-        "league": "VCS",
-        "blockName": "Playoffs",
-        "bestOf": 5,
-        "teamA": "Saigon Warrior",
-        "teamB": "TP.HCM SN CyberCore Esports",
-        "teamAId": "SGW",
-        "teamBId": "SCBC"
-      },
-      "model": {
-        "id": "conservative-coverage",
-        "path": "static/data/trained-model-conservative.json",
-        "label": "Conservative Coverage"
-      },
-      "prediction": {
-        "favorite": "Saigon Warrior",
-        "probability": 0.575664,
-        "teamAProbability": 0.575664,
-        "teamBProbability": 0.424336,
-        "margin": 0.151328
-      },
-      "coverage": {
-        "teamAGames": 0,
-        "teamBGames": 48,
-        "level": "low"
       }
     },
     {
@@ -290,15 +132,19 @@
         "id": "lolesports-116634566270405083",
         "lolEsportsId": "116634566270405083",
         "source": "lolesports",
-        "startTime": "2026-06-11T18:00:00Z",
-        "status": "unstarted",
+        "startTime": "2026-06-10T18:00:00Z",
+        "status": "completed",
         "league": "EMEA Masters",
         "blockName": "Groups",
         "bestOf": 3,
         "teamA": "Eintracht Spandau",
         "teamB": "Anubis Gaming",
         "teamAId": "EINS",
-        "teamBId": "ANB"
+        "teamBId": "ANB",
+        "teamAScore": 2,
+        "teamBScore": 0,
+        "winner": "Eintracht Spandau",
+        "winnerTeamId": "EINS"
       },
       "model": {
         "id": "conservative-coverage",
@@ -319,6 +165,310 @@
       }
     },
     {
+      "matchId": "lolesports-116520394663535888",
+      "match": {
+        "id": "lolesports-116520394663535888",
+        "lolEsportsId": "116520394663535888",
+        "source": "lolesports",
+        "startTime": "2026-06-11T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Warrior",
+        "teamB": "TP.HCM SN CyberCore Esports",
+        "teamAId": "SGW",
+        "teamBId": "SCBC",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Saigon Warrior",
+        "probability": 0.575664,
+        "teamAProbability": 0.575664,
+        "teamBProbability": 0.424336,
+        "margin": 0.151328
+      },
+      "coverage": {
+        "teamAGames": 0,
+        "teamBGames": 48,
+        "level": "low"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405063",
+      "match": {
+        "id": "lolesports-116634566270405063",
+        "lolEsportsId": "116634566270405063",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "G2 NORD",
+        "teamB": "Galions",
+        "teamAId": "G2N",
+        "teamBId": "GL",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "G2 NORD",
+        "probability": 0.559946,
+        "teamAProbability": 0.559946,
+        "teamBProbability": 0.440054,
+        "margin": 0.119892
+      },
+      "coverage": {
+        "teamAGames": 70,
+        "teamBGames": 162,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025935",
+      "match": {
+        "id": "lolesports-116634529527025935",
+        "lolEsportsId": "116634529527025935",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "MISA Esports",
+        "teamB": "UCAM Esports Club",
+        "teamAId": "MISA",
+        "teamBId": "UCAM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "MISA Esports",
+        "probability": 0.74567,
+        "teamAProbability": 0.74567,
+        "teamBProbability": 0.25433,
+        "margin": 0.491339
+      },
+      "coverage": {
+        "teamAGames": 206,
+        "teamBGames": 168,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405091",
+      "match": {
+        "id": "lolesports-116634566270405091",
+        "lolEsportsId": "116634566270405091",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Anubis Gaming",
+        "teamB": "BOMBA Team",
+        "teamAId": "ANB",
+        "teamBId": "BOOM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Anubis Gaming",
+        "probability": 0.66533,
+        "teamAProbability": 0.66533,
+        "teamBProbability": 0.33467,
+        "margin": 0.33066
+      },
+      "coverage": {
+        "teamAGames": 161,
+        "teamBGames": 47,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405087",
+      "match": {
+        "id": "lolesports-116634566270405087",
+        "lolEsportsId": "116634566270405087",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Solary",
+        "teamB": "Eintracht Spandau",
+        "teamAId": "SLY",
+        "teamBId": "EINS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Solary",
+        "probability": 0.632436,
+        "teamAProbability": 0.632436,
+        "teamBProbability": 0.367564,
+        "margin": 0.264873
+      },
+      "coverage": {
+        "teamAGames": 173,
+        "teamBGames": 190,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405043",
+      "match": {
+        "id": "lolesports-116634566270405043",
+        "lolEsportsId": "116634566270405043",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "PCIFIC Esports",
+        "teamB": "Karmine Corp Blue",
+        "teamAId": "PCF",
+        "teamBId": "KCB",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Karmine Corp Blue",
+        "probability": 0.645405,
+        "teamAProbability": 0.354595,
+        "teamBProbability": 0.645405,
+        "margin": 0.290811
+      },
+      "coverage": {
+        "teamAGames": 41,
+        "teamBGames": 259,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405039",
+      "match": {
+        "id": "lolesports-116634566270405039",
+        "lolEsportsId": "116634566270405039",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Heretics Academy",
+        "teamB": "Forsaken",
+        "teamAId": "HRTS",
+        "teamBId": "FSK",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Heretics Academy",
+        "probability": 0.779566,
+        "teamAProbability": 0.779566,
+        "teamBProbability": 0.220434,
+        "margin": 0.559132
+      },
+      "coverage": {
+        "teamAGames": 379,
+        "teamBGames": 189,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025939",
+      "match": {
+        "id": "lolesports-116634529527025939",
+        "lolEsportsId": "116634529527025939",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "HMBLE",
+        "teamB": "E Wie Einfach E-Sports",
+        "teamAId": "HMB",
+        "teamBId": "EWI",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "HMBLE",
+        "probability": 0.645902,
+        "teamAProbability": 0.645902,
+        "teamBProbability": 0.354098,
+        "margin": 0.291805
+      },
+      "coverage": {
+        "teamAGames": 37,
+        "teamBGames": 171,
+        "level": "high"
+      }
+    },
+    {
       "matchId": "lolesports-115548128963037575",
       "match": {
         "id": "lolesports-115548128963037575",
@@ -332,7 +482,11 @@
         "teamA": "Hanwha Life Esports",
         "teamB": "T1",
         "teamAId": "HLE",
-        "teamBId": "T1"
+        "teamBId": "T1",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
       },
       "model": {
         "id": "conservative-coverage",
@@ -366,7 +520,11 @@
         "teamA": "Saigon Dino",
         "teamB": "Saigon Zen Esport",
         "teamAId": "DINO",
-        "teamBId": "ZEN"
+        "teamBId": "ZEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
       },
       "model": {
         "id": "conservative-coverage",
@@ -387,6 +545,44 @@
       }
     },
     {
+      "matchId": "lolesports-116634566270405067",
+      "match": {
+        "id": "lolesports-116634566270405067",
+        "lolEsportsId": "116634566270405067",
+        "source": "lolesports",
+        "startTime": "2026-06-12T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "WLGaming",
+        "teamB": "Partizan Sangal",
+        "teamAId": "WLG",
+        "teamBId": "PXS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "conservative-coverage",
+        "path": "static/data/trained-model-conservative.json",
+        "label": "Conservative Coverage"
+      },
+      "prediction": {
+        "favorite": "Partizan Sangal",
+        "probability": 0.596146,
+        "teamAProbability": 0.403854,
+        "teamBProbability": 0.596146,
+        "margin": 0.192293
+      },
+      "coverage": {
+        "teamAGames": 159,
+        "teamBGames": 108,
+        "level": "high"
+      }
+    },
+    {
       "matchId": "lolesports-115548128963037581",
       "match": {
         "id": "lolesports-115548128963037581",
@@ -400,7 +596,11 @@
         "teamA": "kt Rolster",
         "teamB": "Gen.G Esports",
         "teamAId": "KT",
-        "teamBId": "GEN"
+        "teamBId": "GEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
       },
       "model": {
         "id": "conservative-coverage",
@@ -434,7 +634,11 @@
         "teamA": "BILIBILI GAMING",
         "teamB": "Xi'an Team WE",
         "teamAId": "BLG",
-        "teamBId": "WE"
+        "teamBId": "WE",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
       },
       "model": {
         "id": "conservative-coverage",
@@ -468,7 +672,11 @@
         "teamA": "Team Liquid Alienware",
         "teamB": "Cloud9 Kia",
         "teamAId": "TLAW",
-        "teamBId": "C9"
+        "teamBId": "C9",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
       },
       "model": {
         "id": "conservative-coverage",

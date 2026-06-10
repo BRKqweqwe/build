@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T17:40:03.365Z",
+  "generatedAt": "2026-06-10T20:54:52.088Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -8,16 +8,15 @@
     "maxRank": 100
   },
   "summary": {
-    "matches": 26,
-    "high": 26,
+    "matches": 25,
+    "high": 25,
     "medium": 0,
     "low": 0,
-    "withAnyGaps": 5,
-    "impactedTeams": 4,
+    "withAnyGaps": 4,
+    "impactedTeams": 2,
     "gapCounts": {
-      "playerAdr": 2,
-      "playerKast": 5,
-      "recentForm": 1
+      "playerKast": 4,
+      "playerAdr": 1
     }
   },
   "priorityTeams": [
@@ -35,22 +34,6 @@
       ]
     },
     {
-      "id": "12889",
-      "name": "G2 Ares",
-      "rank": 88,
-      "matches": 1,
-      "worstScore": 0.8067,
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
       "id": "5378",
       "name": "Virtus.pro",
       "rank": 40,
@@ -63,100 +46,9 @@
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
-    },
-    {
-      "id": "13501",
-      "name": "illwill",
-      "rank": 64,
-      "matches": 1,
-      "worstScore": 0.9217,
-      "gaps": [
-        "playerAdr",
-        "playerKast"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
     }
   ],
   "matches": [
-    {
-      "id": "pandascore-1519570",
-      "pandaScoreId": 1519570,
-      "startTime": "2026-06-10T17:00:00Z",
-      "status": "not_started",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13501",
-        "name": "illwill",
-        "rank": 64,
-        "score": 0.9217,
-        "label": "high",
-        "gaps": [
-          "playerAdr",
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 4,
-          "playerKast": 3,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12889",
-        "name": "G2 Ares",
-        "rank": 88,
-        "score": 0.8067,
-        "label": "medium",
-        "gaps": [
-          "playerAdr",
-          "playerKast",
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 3,
-          "playerKast": 3,
-          "maps": 7,
-          "recentMatches": 2,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.8642,
-      "label": "high",
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "livePrediction": {
-        "pick": "illwill",
-        "probability": 0.5347,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "G2 Ares",
-        "probability": 0.5337,
-        "agreement": "4/6"
-      },
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
     {
       "id": "pandascore-1513126",
       "pandaScoreId": 1513126,
@@ -277,14 +169,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.5816,
+        "probability": 0.5817,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "PARIVISION",
-        "probability": 0.5388,
+        "probability": 0.5387,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -418,7 +310,7 @@
       "decision": {
         "tier": "skip",
         "pick": "MOUZ",
-        "probability": 0.4794,
+        "probability": 0.4795,
         "agreement": "3/6"
       },
       "recommendedCommands": []
@@ -474,7 +366,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Vitality",
-        "probability": 0.6587,
+        "probability": 0.6588,
         "models": 6,
         "withMarket": true
       },
@@ -663,7 +555,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Aurora",
-        "probability": 0.5636,
+        "probability": 0.5637,
         "models": 6,
         "withMarket": true
       },
@@ -726,7 +618,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Natus Vincere",
-        "probability": 0.582,
+        "probability": 0.5821,
         "models": 6,
         "withMarket": true
       },
@@ -789,7 +681,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "3DMAX",
-        "probability": 0.6058,
+        "probability": 0.6059,
         "models": 6,
         "withMarket": false
       },
@@ -852,7 +744,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.5637,
+        "probability": 0.5638,
         "models": 6,
         "withMarket": true
       },
@@ -926,7 +818,7 @@
       "decision": {
         "tier": "lean",
         "pick": "BetBoom",
-        "probability": 0.6113,
+        "probability": 0.6114,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -984,14 +876,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.6471,
+        "probability": 0.6472,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "B8",
-        "probability": 0.5927,
+        "probability": 0.5928,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1047,14 +939,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.6415,
+        "probability": 0.6416,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6177,
+        "probability": 0.6178,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1362,7 +1254,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.6712,
+        "probability": 0.6713,
         "models": 6,
         "withMarket": false
       },
@@ -1432,7 +1324,7 @@
       "decision": {
         "tier": "lean",
         "pick": "Monte",
-        "probability": 0.5684,
+        "probability": 0.5685,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1488,14 +1380,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.6114,
+        "probability": 0.6115,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6127,
+        "probability": 0.6128,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1627,7 +1519,7 @@
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.6084,
+        "probability": 0.6085,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1753,7 +1645,7 @@
       "decision": {
         "tier": "skip",
         "pick": "BIG",
-        "probability": 0.5619,
+        "probability": 0.562,
         "agreement": "4/6"
       },
       "recommendedCommands": []
@@ -1762,7 +1654,6 @@
   "recommendedPipeline": [
     "pnpm collect:pandascore:fixtures -- --pages=5 --per-page=100 --max-rank=100 --max-matches=100",
     "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true",
-    "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
     "pnpm build:live-predictions -- --max-rank=100",
     "pnpm build:live-decisions",
     "pnpm build:future-data-quality"

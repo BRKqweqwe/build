@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-10T20:54:52.999Z",
+  "generatedAt": "2026-06-10T20:54:53.946Z",
   "source": {
     "matches": "static/data/live-matches.json",
-    "dataset": "static/data/training-dataset.json",
-    "model": "static/data/trained-model-ensemble.json"
+    "dataset": "static/data/training-dataset-match-level-league.json",
+    "model": "static/data/trained-model-ensemble-accuracy.json"
   },
   "summary": {
     "total": 18,
@@ -33,20 +33,20 @@
         "winnerTeamId": "HRTS"
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Heretics Academy",
-        "probability": 0.695838,
-        "teamAProbability": 0.695838,
-        "teamBProbability": 0.304162,
-        "margin": 0.391677
+        "probability": 0.749234,
+        "teamAProbability": 0.749234,
+        "teamBProbability": 0.250766,
+        "margin": 0.498468
       },
       "coverage": {
-        "teamAGames": 379,
-        "teamBGames": 259,
+        "teamAGames": 330,
+        "teamBGames": 242,
         "level": "high"
       }
     },
@@ -71,20 +71,20 @@
         "winnerTeamId": "FSK"
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
-        "favorite": "Forsaken",
-        "probability": 0.501629,
-        "teamAProbability": 0.498371,
-        "teamBProbability": 0.501629,
-        "margin": 0.003257
+        "favorite": "PCIFIC Esports",
+        "probability": 0.549966,
+        "teamAProbability": 0.549966,
+        "teamBProbability": 0.450034,
+        "margin": 0.099931
       },
       "coverage": {
-        "teamAGames": 41,
-        "teamBGames": 189,
+        "teamAGames": 37,
+        "teamBGames": 184,
         "level": "high"
       }
     },
@@ -109,20 +109,20 @@
         "winnerTeamId": "GL"
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "WLGaming",
-        "probability": 0.538082,
-        "teamAProbability": 0.538082,
-        "teamBProbability": 0.461918,
-        "margin": 0.076165
+        "probability": 0.625988,
+        "teamAProbability": 0.625988,
+        "teamBProbability": 0.374012,
+        "margin": 0.251975
       },
       "coverage": {
-        "teamAGames": 159,
-        "teamBGames": 162,
+        "teamAGames": 134,
+        "teamBGames": 159,
         "level": "high"
       }
     },
@@ -147,20 +147,20 @@
         "winnerTeamId": "EINS"
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Eintracht Spandau",
-        "probability": 0.544877,
-        "teamAProbability": 0.544877,
-        "teamBProbability": 0.455123,
-        "margin": 0.089754
+        "probability": 0.510001,
+        "teamAProbability": 0.510001,
+        "teamBProbability": 0.489999,
+        "margin": 0.020001
       },
       "coverage": {
-        "teamAGames": 190,
-        "teamBGames": 161,
+        "teamAGames": 179,
+        "teamBGames": 151,
         "level": "high"
       }
     },
@@ -185,20 +185,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Saigon Warrior",
-        "probability": 0.668142,
-        "teamAProbability": 0.668142,
-        "teamBProbability": 0.331858,
-        "margin": 0.336285
+        "probability": 0.76242,
+        "teamAProbability": 0.76242,
+        "teamBProbability": 0.23758,
+        "margin": 0.524839
       },
       "coverage": {
         "teamAGames": 0,
-        "teamBGames": 48,
+        "teamBGames": 41,
         "level": "low"
       }
     },
@@ -223,20 +223,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "G2 NORD",
-        "probability": 0.559946,
-        "teamAProbability": 0.559946,
-        "teamBProbability": 0.440054,
-        "margin": 0.119892
+        "probability": 0.620109,
+        "teamAProbability": 0.620109,
+        "teamBProbability": 0.379891,
+        "margin": 0.240217
       },
       "coverage": {
-        "teamAGames": 70,
-        "teamBGames": 162,
+        "teamAGames": 68,
+        "teamBGames": 159,
         "level": "high"
       }
     },
@@ -261,20 +261,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "MISA Esports",
-        "probability": 0.74567,
-        "teamAProbability": 0.74567,
-        "teamBProbability": 0.25433,
-        "margin": 0.491339
+        "probability": 0.70846,
+        "teamAProbability": 0.70846,
+        "teamBProbability": 0.29154,
+        "margin": 0.41692
       },
       "coverage": {
-        "teamAGames": 206,
-        "teamBGames": 168,
+        "teamAGames": 187,
+        "teamBGames": 153,
         "level": "high"
       }
     },
@@ -299,20 +299,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Anubis Gaming",
-        "probability": 0.66533,
-        "teamAProbability": 0.66533,
-        "teamBProbability": 0.33467,
-        "margin": 0.33066
+        "probability": 0.674879,
+        "teamAProbability": 0.674879,
+        "teamBProbability": 0.325121,
+        "margin": 0.349759
       },
       "coverage": {
-        "teamAGames": 161,
-        "teamBGames": 47,
+        "teamAGames": 151,
+        "teamBGames": 46,
         "level": "high"
       }
     },
@@ -337,20 +337,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Solary",
-        "probability": 0.632436,
-        "teamAProbability": 0.632436,
-        "teamBProbability": 0.367564,
-        "margin": 0.264873
+        "probability": 0.662895,
+        "teamAProbability": 0.662895,
+        "teamBProbability": 0.337105,
+        "margin": 0.325789
       },
       "coverage": {
-        "teamAGames": 173,
-        "teamBGames": 190,
+        "teamAGames": 164,
+        "teamBGames": 179,
         "level": "high"
       }
     },
@@ -375,20 +375,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Karmine Corp Blue",
-        "probability": 0.645405,
-        "teamAProbability": 0.354595,
-        "teamBProbability": 0.645405,
-        "margin": 0.290811
+        "probability": 0.544298,
+        "teamAProbability": 0.455702,
+        "teamBProbability": 0.544298,
+        "margin": 0.088597
       },
       "coverage": {
-        "teamAGames": 41,
-        "teamBGames": 259,
+        "teamAGames": 37,
+        "teamBGames": 242,
         "level": "high"
       }
     },
@@ -413,20 +413,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Heretics Academy",
-        "probability": 0.779566,
-        "teamAProbability": 0.779566,
-        "teamBProbability": 0.220434,
-        "margin": 0.559132
+        "probability": 0.813211,
+        "teamAProbability": 0.813211,
+        "teamBProbability": 0.186789,
+        "margin": 0.626422
       },
       "coverage": {
-        "teamAGames": 379,
-        "teamBGames": 189,
+        "teamAGames": 330,
+        "teamBGames": 184,
         "level": "high"
       }
     },
@@ -451,20 +451,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "HMBLE",
-        "probability": 0.645902,
-        "teamAProbability": 0.645902,
-        "teamBProbability": 0.354098,
-        "margin": 0.291805
+        "probability": 0.745796,
+        "teamAProbability": 0.745796,
+        "teamBProbability": 0.254204,
+        "margin": 0.491593
       },
       "coverage": {
         "teamAGames": 37,
-        "teamBGames": 171,
+        "teamBGames": 170,
         "level": "high"
       }
     },
@@ -489,20 +489,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Hanwha Life Esports",
-        "probability": 0.55213,
-        "teamAProbability": 0.55213,
-        "teamBProbability": 0.44787,
-        "margin": 0.104261
+        "probability": 0.560142,
+        "teamAProbability": 0.560142,
+        "teamBProbability": 0.439858,
+        "margin": 0.120284
       },
       "coverage": {
-        "teamAGames": 868,
-        "teamBGames": 763,
+        "teamAGames": 676,
+        "teamBGames": 509,
         "level": "high"
       }
     },
@@ -527,19 +527,19 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Saigon Dino",
-        "probability": 0.692199,
-        "teamAProbability": 0.692199,
-        "teamBProbability": 0.307801,
-        "margin": 0.384397
+        "probability": 0.637286,
+        "teamAProbability": 0.637286,
+        "teamBProbability": 0.362714,
+        "margin": 0.274572
       },
       "coverage": {
-        "teamAGames": 85,
+        "teamAGames": 61,
         "teamBGames": 0,
         "level": "low"
       }
@@ -565,20 +565,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Partizan Sangal",
-        "probability": 0.596146,
-        "teamAProbability": 0.403854,
-        "teamBProbability": 0.596146,
-        "margin": 0.192293
+        "probability": 0.575416,
+        "teamAProbability": 0.424584,
+        "teamBProbability": 0.575416,
+        "margin": 0.150833
       },
       "coverage": {
-        "teamAGames": 159,
-        "teamBGames": 108,
+        "teamAGames": 134,
+        "teamBGames": 106,
         "level": "high"
       }
     },
@@ -603,20 +603,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
-        "favorite": "kt Rolster",
-        "probability": 0.504951,
-        "teamAProbability": 0.504951,
-        "teamBProbability": 0.495049,
-        "margin": 0.009903
+        "favorite": "Gen.G Esports",
+        "probability": 0.606775,
+        "teamAProbability": 0.393225,
+        "teamBProbability": 0.606775,
+        "margin": 0.21355
       },
       "coverage": {
-        "teamAGames": 812,
-        "teamBGames": 378,
+        "teamAGames": 615,
+        "teamBGames": 257,
         "level": "high"
       }
     },
@@ -641,20 +641,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "BILIBILI GAMING",
-        "probability": 0.771499,
-        "teamAProbability": 0.771499,
-        "teamBProbability": 0.228501,
-        "margin": 0.542998
+        "probability": 0.715579,
+        "teamAProbability": 0.715579,
+        "teamBProbability": 0.284421,
+        "margin": 0.431158
       },
       "coverage": {
-        "teamAGames": 432,
-        "teamBGames": 341,
+        "teamAGames": 289,
+        "teamBGames": 276,
         "level": "high"
       }
     },
@@ -679,20 +679,20 @@
         "winnerTeamId": null
       },
       "model": {
-        "id": "ensemble-55-45",
-        "path": "static/data/trained-model-ensemble.json",
-        "label": "Champion 55/45"
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
       },
       "prediction": {
         "favorite": "Team Liquid Alienware",
-        "probability": 0.639174,
-        "teamAProbability": 0.639174,
-        "teamBProbability": 0.360826,
-        "margin": 0.278347
+        "probability": 0.639457,
+        "teamAProbability": 0.639457,
+        "teamBProbability": 0.360543,
+        "margin": 0.278913
       },
       "coverage": {
-        "teamAGames": 268,
-        "teamBGames": 180,
+        "teamAGames": 134,
+        "teamBGames": 88,
         "level": "high"
       }
     }
