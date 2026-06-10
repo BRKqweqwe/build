@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-10T11:26:20.551Z",
+  "type": "logistic-regression-progressive-curriculum",
+  "source": {
+    "trainingDataset": "static/data/kaggle-variants/training-dataset-archive-since-2024-coverage-through-jan.json",
+    "rows": 3473,
+    "fitRows": 2953,
+    "calibrationRows": 520
+  },
+  "trainingMode": {
+    "type": "progressive-curriculum",
+    "sessions": 24,
+    "sessionsPerStage": 4,
+    "epochsPerSession": 160,
+    "stages": [
+      {
+        "id": "core-form",
+        "label": "Team form, format and Elo"
+      },
+      {
+        "id": "round-map-form",
+        "label": "Round and map form"
+      },
+      {
+        "id": "valve-ranking",
+        "label": "Valve ranking signal"
+      },
+      {
+        "id": "rest-h2h",
+        "label": "Rest and head-to-head"
+      },
+      {
+        "id": "lineup",
+        "label": "Lineup continuity and changes"
+      },
+      {
+        "id": "players",
+        "label": "Player historical stats"
+      },
+      {
+        "id": "remaining",
+        "label": "Any remaining numeric features"
+      }
+    ],
+    "playerMode": "full",
+    "selectionMode": "best",
+    "excludedGroups": [],
+    "excludedFeatures": [],
+    "featureWeightOverrides": {}
+  },
+  "hyperparameters": {
+    "learningRate": 0.06,
+    "l2": 0.0025,
+    "calibration": "auto",
+    "calibrationRatio": 0.15,
+    "playerMode": "full",
+    "selectionMode": "best",
+    "excludedGroups": [],
+    "excludedFeatures": [],
+    "featureWeightOverrides": {}
+  },
+  "features": [
+    "teamMapsA",
+    "teamMapsB",
+    "teamWinRateA",
+    "teamWinRateB",
+    "recentWinRateA",
+    "recentWinRateB",
+    "recent5WinRateA",
+    "recent5WinRateB",
+    "recent10WinRateA",
+    "recent10WinRateB",
+    "recent20WinRateA",
+    "recent20WinRateB",
+    "eloA",
+    "eloB",
+    "winRateDiff",
+    "recentWinRateDiff",
+    "eloDiff",
+    "isLan",
+    "isBo1",
+    "isBo3",
+    "isBo5",
+    "eventTier"
+  ],
+  "featureWeights": {
+    "teamMapsA": 1,
+    "teamMapsB": 1,
+    "teamWinRateA": 1,
+    "teamWinRateB": 1,
+    "recentWinRateA": 1,
+    "recentWinRateB": 1,
+    "recent5WinRateA": 1,
+    "recent5WinRateB": 1,
+    "recent10WinRateA": 1,
+    "recent10WinRateB": 1,
+    "recent20WinRateA": 1,
+    "recent20WinRateB": 1,
+    "eloA": 1,
+    "eloB": 1,
+    "winRateDiff": 1,
+    "recentWinRateDiff": 1,
+    "eloDiff": 1,
+    "isLan": 1,
+    "isBo1": 1,
+    "isBo3": 1,
+    "isBo5": 1,
+    "eventTier": 1
+  },
+  "intercept": 0.16182155728463604,
+  "coefficients": {
+    "teamMapsA": 0.10091463123258382,
+    "teamMapsB": -0.138545188764345,
+    "teamWinRateA": 0.023187080655663658,
+    "teamWinRateB": -0.020738733722815345,
+    "recentWinRateA": -0.010997751136014863,
+    "recentWinRateB": 0.004866728678973357,
+    "recent5WinRateA": -0.040354234182729334,
+    "recent5WinRateB": 0.04158031531276243,
+    "recent10WinRateA": -0.010997751136014863,
+    "recent10WinRateB": 0.004866728678973357,
+    "recent20WinRateA": -0.021053674526988725,
+    "recent20WinRateB": 0.002751101628422102,
+    "eloA": 0.15654110813368777,
+    "eloB": -0.15902098770386597,
+    "winRateDiff": 0.03367289100267802,
+    "recentWinRateDiff": -0.012425960698572144,
+    "eloDiff": 0.30565887471302866,
+    "isLan": 0.031499993339638516,
+    "isBo1": 0.013259402895689382,
+    "isBo3": -0.014627596721283461,
+    "isBo5": -0.00986101803739179,
+    "eventTier": -0.07254439385509408
+  },
+  "scalers": {
+    "teamMapsA": {
+      "mean": 88.29901794784965,
+      "std": 71.41729287330807
+    },
+    "teamMapsB": {
+      "mean": 77.43176430748392,
+      "std": 69.5658845466355
+    },
+    "teamWinRateA": {
+      "mean": 0.5188858421020476,
+      "std": 0.13044713635606936
+    },
+    "teamWinRateB": {
+      "mean": 0.5055526897866992,
+      "std": 0.1382860861199983
+    },
+    "recentWinRateA": {
+      "mean": 0.5108420814990401,
+      "std": 0.18653610605527793
+    },
+    "recentWinRateB": {
+      "mean": 0.500991190019297,
+      "std": 0.19049729070676988
+    },
+    "recent5WinRateA": {
+      "mean": 0.5007675809910825,
+      "std": 0.2435103693309506
+    },
+    "recent5WinRateB": {
+      "mean": 0.5071678519020199,
+      "std": 0.2465672458236298
+    },
+    "recent10WinRateA": {
+      "mean": 0.5108420814990401,
+      "std": 0.18653610605527793
+    },
+    "recent10WinRateB": {
+      "mean": 0.500991190019297,
+      "std": 0.19049729070676988
+    },
+    "recent20WinRateA": {
+      "mean": 0.5128293807604932,
+      "std": 0.1570997695593683
+    },
+    "recent20WinRateB": {
+      "mean": 0.5014642779354413,
+      "std": 0.16125387467020877
+    },
+    "eloA": {
+      "mean": 1556.1463008643389,
+      "std": 93.51822597475946
+    },
+    "eloB": {
+      "mean": 1537.7682125698175,
+      "std": 79.37492423633358
+    },
+    "winRateDiff": {
+      "mean": 0.013333152315347641,
+      "std": 0.17499437720191496
+    },
+    "recentWinRateDiff": {
+      "mean": 0.009850891479743483,
+      "std": 0.2397059167078264
+    },
+    "eloDiff": {
+      "mean": 18.378088294521483,
+      "std": 89.19003448325107
+    },
+    "isLan": {
+      "mean": 0.6332543176430748,
+      "std": 0.4819162653713513
+    },
+    "isBo1": {
+      "mean": 0.15340331865899084,
+      "std": 0.3603758322687659
+    },
+    "isBo3": {
+      "mean": 0.8323738570944802,
+      "std": 0.37353395979501275
+    },
+    "isBo5": {
+      "mean": 0.011852353538774127,
+      "std": 0.10822141772480026
+    },
+    "eventTier": {
+      "mean": 1.6650863528614968,
+      "std": 0.8237439828811304
+    }
+  },
+  "calibration": {
+    "type": "platt",
+    "a": 0.6980744459388595,
+    "b": 0.005474780238604924,
+    "calibrationLogLoss": 0.6600129985375998
+  },
+  "metrics": {
+    "calibration": {
+      "rows": 520,
+      "accuracy": 0.6,
+      "logLoss": 0.6600129985375998,
+      "brier": 0.23384380902026758,
+      "confidentRows": 222,
+      "confidentAccuracy": 0.6846846846846847
+    },
+    "temporalValidation": {
+      "splits": 4,
+      "rows": 411,
+      "accuracy": 0.6058394160583942,
+      "logLoss": 0.6615702778386336,
+      "brier": 0.2343549987741449
+    }
+  },
+  "topCoefficients": [
+    {
+      "name": "eloDiff",
+      "weight": 0.30565887471302866,
+      "abs": 0.30565887471302866
+    },
+    {
+      "name": "eloB",
+      "weight": -0.15902098770386597,
+      "abs": 0.15902098770386597
+    },
+    {
+      "name": "eloA",
+      "weight": 0.15654110813368777,
+      "abs": 0.15654110813368777
+    },
+    {
+      "name": "teamMapsB",
+      "weight": -0.138545188764345,
+      "abs": 0.138545188764345
+    },
+    {
+      "name": "teamMapsA",
+      "weight": 0.10091463123258382,
+      "abs": 0.10091463123258382
+    },
+    {
+      "name": "eventTier",
+      "weight": -0.07254439385509408,
+      "abs": 0.07254439385509408
+    },
+    {
+      "name": "recent5WinRateB",
+      "weight": 0.04158031531276243,
+      "abs": 0.04158031531276243
+    },
+    {
+      "name": "recent5WinRateA",
+      "weight": -0.040354234182729334,
+      "abs": 0.040354234182729334
+    },
+    {
+      "name": "winRateDiff",
+      "weight": 0.03367289100267802,
+      "abs": 0.03367289100267802
+    },
+    {
+      "name": "isLan",
+      "weight": 0.031499993339638516,
+      "abs": 0.031499993339638516
+    },
+    {
+      "name": "teamWinRateA",
+      "weight": 0.023187080655663658,
+      "abs": 0.023187080655663658
+    },
+    {
+      "name": "recent20WinRateA",
+      "weight": -0.021053674526988725,
+      "abs": 0.021053674526988725
+    },
+    {
+      "name": "teamWinRateB",
+      "weight": -0.020738733722815345,
+      "abs": 0.020738733722815345
+    },
+    {
+      "name": "isBo3",
+      "weight": -0.014627596721283461,
+      "abs": 0.014627596721283461
+    },
+    {
+      "name": "isBo1",
+      "weight": 0.013259402895689382,
+      "abs": 0.013259402895689382
+    },
+    {
+      "name": "recentWinRateDiff",
+      "weight": -0.012425960698572144,
+      "abs": 0.012425960698572144
+    },
+    {
+      "name": "recentWinRateA",
+      "weight": -0.010997751136014863,
+      "abs": 0.010997751136014863
+    },
+    {
+      "name": "recent10WinRateA",
+      "weight": -0.010997751136014863,
+      "abs": 0.010997751136014863
+    },
+    {
+      "name": "isBo5",
+      "weight": -0.00986101803739179,
+      "abs": 0.00986101803739179
+    },
+    {
+      "name": "recentWinRateB",
+      "weight": 0.004866728678973357,
+      "abs": 0.004866728678973357
+    }
+  ]
+}
