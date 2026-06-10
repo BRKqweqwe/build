@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-08T03:34:42.998Z",
+  "type": "logistic-regression-experiment",
+  "experimentId": "exp-084",
+  "source": {
+    "trainingDataset": "static/data/training-dataset.json",
+    "rows": 1335,
+    "warning": "Rolling training data uses only prior match history for form, map, environment, ELO and head-to-head features. Player-level historical snapshots are not included yet."
+  },
+  "hyperparameters": {
+    "epochs": 3600,
+    "learningRate": 0.1479,
+    "l2": 0.000197
+  },
+  "features": [
+    "teamStrengthA",
+    "teamStrengthB",
+    "recentFormA",
+    "recentFormB",
+    "playerStrengthA",
+    "playerStrengthB",
+    "mapPoolA",
+    "mapPoolB",
+    "environmentA",
+    "environmentB",
+    "rosterStabilityA",
+    "rosterStabilityB",
+    "headToHeadA",
+    "headToHeadB",
+    "weightedDelta",
+    "baselineProbabilityA",
+    "rankDiff",
+    "eloDiff",
+    "teamRatingDiff",
+    "avgPlayerRatingDiff",
+    "avgAdrDiff",
+    "avgKastDiff",
+    "formDiff",
+    "mapCountDiff",
+    "lineupStabilityDiff",
+    "qualityA",
+    "qualityB",
+    "qualityAvg",
+    "isLan",
+    "isBo1",
+    "isBo3",
+    "isBo5",
+    "eventTier"
+  ],
+  "intercept": 0.7009726967727252,
+  "coefficients": {
+    "teamStrengthA": -0.2611202463708281,
+    "teamStrengthB": 0.5390495766988717,
+    "recentFormA": -0.010919936332542643,
+    "recentFormB": -0.04002879896286247,
+    "playerStrengthA": -0.010919936332551214,
+    "playerStrengthB": -0.040028798962867346,
+    "mapPoolA": 0.2129608846342021,
+    "mapPoolB": -0.2696682964534981,
+    "environmentA": 0.11201332968893314,
+    "environmentB": 0.012783321883536645,
+    "rosterStabilityA": -0.0027949759345075828,
+    "rosterStabilityB": 0.043643631672198036,
+    "headToHeadA": 0.15036132268368382,
+    "headToHeadB": -0.15036132268368435,
+    "weightedDelta": -0.30341335897936494,
+    "baselineProbabilityA": -0.4055048372602317,
+    "rankDiff": -0.741007655784189,
+    "eloDiff": 0.37848363632206306,
+    "teamRatingDiff": 0,
+    "avgPlayerRatingDiff": 0.023658179839056187,
+    "avgAdrDiff": 0.023658179839060097,
+    "avgKastDiff": 0.02365817983904614,
+    "formDiff": 0.02365817983905724,
+    "mapCountDiff": 0.01609859166927253,
+    "lineupStabilityDiff": -0.03597338481472504,
+    "qualityA": -0.07592861111325859,
+    "qualityB": 0.000052195657433852384,
+    "qualityAvg": -0.03723065241289007,
+    "isLan": 0.08698424440507758,
+    "isBo1": -0.06634417206948698,
+    "isBo3": 0.035253046538664054,
+    "isBo5": 0.04649619991353175,
+    "eventTier": 0.027199854645875165
+  },
+  "scalers": {
+    "teamStrengthA": {
+      "mean": 0.6612923920856514,
+      "std": 0.1719296778404602
+    },
+    "teamStrengthB": {
+      "mean": 0.5010677297317747,
+      "std": 0.21040746133370958
+    },
+    "recentFormA": {
+      "mean": 0.5564680336899596,
+      "std": 0.16420378612684386
+    },
+    "recentFormB": {
+      "mean": 0.4923833060650105,
+      "std": 0.1537030500652983
+    },
+    "playerStrengthA": {
+      "mean": 0.33388082021397614,
+      "std": 0.09852227167610626
+    },
+    "playerStrengthB": {
+      "mean": 0.29542998363900647,
+      "std": 0.09222183003917889
+    },
+    "mapPoolA": {
+      "mean": 0.5465347669558573,
+      "std": 0.11083846124942158
+    },
+    "mapPoolB": {
+      "mean": 0.5041910709288655,
+      "std": 0.11256641973398304
+    },
+    "environmentA": {
+      "mean": 0.5989201862112995,
+      "std": 0.16499582403417176
+    },
+    "environmentB": {
+      "mean": 0.5272631488716748,
+      "std": 0.1654770324820059
+    },
+    "rosterStabilityA": {
+      "mean": 0.8133052434457089,
+      "std": 0.036265671940146245
+    },
+    "rosterStabilityB": {
+      "mean": 0.809513108614248,
+      "std": 0.04483163276447809
+    },
+    "headToHeadA": {
+      "mean": 0.5526213512870817,
+      "std": 0.29539341839247546
+    },
+    "headToHeadB": {
+      "mean": 0.4473786487129184,
+      "std": 0.29539341839247546
+    },
+    "weightedDelta": {
+      "mean": 0.07638951124215698,
+      "std": 0.11307659266043726
+    },
+    "baselineProbabilityA": {
+      "mean": 0.5849723496202934,
+      "std": 0.12392108686545893
+    },
+    "rankDiff": {
+      "mean": -23.382022471910112,
+      "std": 19.08084845943909
+    },
+    "eloDiff": {
+      "mean": 99.11142322097378,
+      "std": 105.4862636416494
+    },
+    "teamRatingDiff": {
+      "mean": 0,
+      "std": 1
+    },
+    "avgPlayerRatingDiff": {
+      "mean": 0.01538033462998782,
+      "std": 0.04422440235688354
+    },
+    "avgAdrDiff": {
+      "mean": 1.4098640077488822,
+      "std": 4.05390354938099
+    },
+    "avgKastDiff": {
+      "mean": 0.008971861867492895,
+      "std": 0.02579756804151539
+    },
+    "formDiff": {
+      "mean": 0.06408472762494921,
+      "std": 0.1842683431536813
+    },
+    "mapCountDiff": {
+      "mean": 0.24719101123595505,
+      "std": 1.1630796541367059
+    },
+    "lineupStabilityDiff": {
+      "mean": 0.0037921348314606715,
+      "std": 0.05720832105615693
+    },
+    "qualityA": {
+      "mean": 0.9997116104868914,
+      "std": 0.004028825912136439
+    },
+    "qualityB": {
+      "mean": 0.9990524344569289,
+      "std": 0.006664868460930665
+    },
+    "qualityAvg": {
+      "mean": 0.9993820224719098,
+      "std": 0.004103544511461727
+    },
+    "isLan": {
+      "mean": 0.42790262172284643,
+      "std": 0.4947746639082896
+    },
+    "isBo1": {
+      "mean": 0.06367041198501873,
+      "std": 0.24416488408998652
+    },
+    "isBo3": {
+      "mean": 0.9166666666666666,
+      "std": 0.2763853991962815
+    },
+    "isBo5": {
+      "mean": 0.019662921348314606,
+      "std": 0.1388390826545777
+    },
+    "eventTier": {
+      "mean": 1.8295880149812733,
+      "std": 0.7612975683474285
+    }
+  },
+  "metrics": {
+    "train": {
+      "rows": 1068,
+      "accuracy": 0.6544943820224719,
+      "logLoss": 0.6093139440995531,
+      "brier": 0.21103249293214493
+    },
+    "validation": {
+      "rows": 267,
+      "accuracy": 0.6741573033707865,
+      "logLoss": 0.5936664652156146,
+      "brier": 0.2034375618486045
+    }
+  },
+  "topCoefficients": [
+    {
+      "name": "rankDiff",
+      "weight": -0.741007655784189,
+      "abs": 0.741007655784189
+    },
+    {
+      "name": "teamStrengthB",
+      "weight": 0.5390495766988717,
+      "abs": 0.5390495766988717
+    },
+    {
+      "name": "baselineProbabilityA",
+      "weight": -0.4055048372602317,
+      "abs": 0.4055048372602317
+    },
+    {
+      "name": "eloDiff",
+      "weight": 0.37848363632206306,
+      "abs": 0.37848363632206306
+    },
+    {
+      "name": "weightedDelta",
+      "weight": -0.30341335897936494,
+      "abs": 0.30341335897936494
+    },
+    {
+      "name": "mapPoolB",
+      "weight": -0.2696682964534981,
+      "abs": 0.2696682964534981
+    },
+    {
+      "name": "teamStrengthA",
+      "weight": -0.2611202463708281,
+      "abs": 0.2611202463708281
+    },
+    {
+      "name": "mapPoolA",
+      "weight": 0.2129608846342021,
+      "abs": 0.2129608846342021
+    },
+    {
+      "name": "headToHeadB",
+      "weight": -0.15036132268368435,
+      "abs": 0.15036132268368435
+    },
+    {
+      "name": "headToHeadA",
+      "weight": 0.15036132268368382,
+      "abs": 0.15036132268368382
+    },
+    {
+      "name": "environmentA",
+      "weight": 0.11201332968893314,
+      "abs": 0.11201332968893314
+    },
+    {
+      "name": "isLan",
+      "weight": 0.08698424440507758,
+      "abs": 0.08698424440507758
+    },
+    {
+      "name": "qualityA",
+      "weight": -0.07592861111325859,
+      "abs": 0.07592861111325859
+    },
+    {
+      "name": "isBo1",
+      "weight": -0.06634417206948698,
+      "abs": 0.06634417206948698
+    },
+    {
+      "name": "isBo5",
+      "weight": 0.04649619991353175,
+      "abs": 0.04649619991353175
+    }
+  ]
+}

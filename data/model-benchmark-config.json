@@ -31,32 +31,8 @@
   },
   "datasets": [
     {
-      "label": "alltiers-prior3-lineup3-enhanced",
-      "path": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3-enhanced.json"
-    },
-    {
-      "label": "alltiers-prior3-lineup3",
-      "path": "static/data/kaggle-variants/training-dataset-alltiers-prior3-lineup3.json"
-    },
-    {
-      "label": "tier1-prior1-lineup2",
-      "path": "static/data/kaggle-variants/training-dataset-tier1-prior1-lineup2.json"
-    },
-    {
-      "label": "tier1-prior3-lineup3",
-      "path": "static/data/kaggle-variants/training-dataset-tier1-prior3-lineup3.json"
-    },
-    {
-      "label": "tier1-prior3-lineup4",
-      "path": "static/data/kaggle-variants/training-dataset-tier1-prior3-lineup4.json"
-    },
-    {
-      "label": "tier1-prior5-lineup3",
-      "path": "static/data/kaggle-variants/training-dataset-tier1-prior5-lineup3.json"
-    },
-    {
-      "label": "tier2-prior3-lineup3",
-      "path": "static/data/kaggle-variants/training-dataset-tier2-prior3-lineup3.json"
+      "label": "archive-all-coverage-match-level",
+      "path": "static/data/kaggle-variants/training-dataset-archive-all-coverage-match-level.json"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T14:28:19.826Z",
+  "generatedAt": "2026-06-10T17:40:03.365Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -8,16 +8,16 @@
     "maxRank": 100
   },
   "summary": {
-    "matches": 28,
-    "high": 27,
-    "medium": 1,
+    "matches": 26,
+    "high": 26,
+    "medium": 0,
     "low": 0,
-    "withAnyGaps": 7,
-    "impactedTeams": 7,
+    "withAnyGaps": 5,
+    "impactedTeams": 4,
     "gapCounts": {
-      "playerAdr": 3,
-      "playerKast": 7,
-      "recentForm": 3
+      "playerAdr": 2,
+      "playerKast": 5,
+      "recentForm": 1
     }
   },
   "priorityTeams": [
@@ -38,37 +38,8 @@
       "id": "12889",
       "name": "G2 Ares",
       "rank": 88,
-      "matches": 2,
+      "matches": 1,
       "worstScore": 0.8067,
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "13814",
-      "name": "INOX Division",
-      "rank": 75,
-      "matches": 1,
-      "worstScore": 0.8667,
-      "gaps": [
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
-      ]
-    },
-    {
-      "id": "10960",
-      "name": "Young Ninjas",
-      "rank": 98,
-      "matches": 1,
-      "worstScore": 0.8733,
       "gaps": [
         "playerAdr",
         "playerKast",
@@ -106,173 +77,9 @@
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
-    },
-    {
-      "id": "13808",
-      "name": "Walczaki",
-      "rank": 45,
-      "matches": 1,
-      "worstScore": 0.9517,
-      "gaps": [
-        "playerKast"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
     }
   ],
   "matches": [
-    {
-      "id": "pandascore-1504761",
-      "pandaScoreId": 1504761,
-      "startTime": "2026-06-10T11:30:14Z",
-      "status": "running",
-      "event": "European Pro League - Series 7 - Group C",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "12889",
-        "name": "G2 Ares",
-        "rank": 88,
-        "score": 0.8067,
-        "label": "medium",
-        "gaps": [
-          "playerAdr",
-          "playerKast",
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 3,
-          "playerKast": 3,
-          "maps": 7,
-          "recentMatches": 2,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "10960",
-        "name": "Young Ninjas",
-        "rank": 98,
-        "score": 0.8733,
-        "label": "high",
-        "gaps": [
-          "playerAdr",
-          "playerKast",
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 3,
-          "playerKast": 3,
-          "maps": 7,
-          "recentMatches": 4,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.84,
-      "label": "medium",
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "livePrediction": {
-        "pick": "G2 Ares",
-        "probability": 0.5308,
-        "models": 6,
-        "withMarket": false
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "G2 Ares",
-        "probability": 0.5246,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "pandascore-1517517",
-      "pandaScoreId": 1517517,
-      "startTime": "2026-06-10T14:00:00Z",
-      "status": "not_started",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13808",
-        "name": "Walczaki",
-        "rank": 45,
-        "score": 0.9517,
-        "label": "high",
-        "gaps": [
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 4,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "13814",
-        "name": "INOX Division",
-        "rank": 75,
-        "score": 0.8667,
-        "label": "high",
-        "gaps": [
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 2,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9092,
-      "label": "high",
-      "gaps": [
-        "playerKast",
-        "recentForm"
-      ],
-      "livePrediction": {
-        "pick": "Walczaki",
-        "probability": 0.5166,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "Walczaki",
-        "probability": 0.5355,
-        "agreement": "6/6"
-      },
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
     {
       "id": "pandascore-1519570",
       "pandaScoreId": 1519570,
@@ -335,14 +142,14 @@
       ],
       "livePrediction": {
         "pick": "illwill",
-        "probability": 0.5346,
+        "probability": 0.5347,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "G2 Ares",
-        "probability": 0.5338,
+        "probability": 0.5337,
         "agreement": "4/6"
       },
       "recommendedCommands": [
@@ -412,7 +219,7 @@
       "decision": {
         "tier": "lean",
         "pick": "The MongolZ",
-        "probability": 0.5746,
+        "probability": 0.5747,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -539,14 +346,14 @@
       ],
       "livePrediction": {
         "pick": "KOLESIE",
-        "probability": 0.5235,
+        "probability": 0.5236,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Virtus.pro",
-        "probability": 0.5783,
+        "probability": 0.5782,
         "agreement": "5/6"
       },
       "recommendedCommands": [
@@ -730,7 +537,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FURIA",
-        "probability": 0.542,
+        "probability": 0.5421,
         "models": 6,
         "withMarket": true
       },
@@ -793,7 +600,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Falcons",
-        "probability": 0.6201,
+        "probability": 0.6202,
         "models": 6,
         "withMarket": true
       },
@@ -1052,7 +859,7 @@
       "decision": {
         "tier": "skip",
         "pick": "FaZe",
-        "probability": 0.5316,
+        "probability": 0.5317,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1112,7 +919,7 @@
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.6065,
+        "probability": 0.6066,
         "models": 6,
         "withMarket": true
       },
@@ -1303,7 +1110,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "3DMAX",
-        "probability": 0.5759,
+        "probability": 0.576,
         "models": 6,
         "withMarket": true
       },
@@ -1366,7 +1173,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.5702,
+        "probability": 0.5703,
         "models": 6,
         "withMarket": true
       },
@@ -1429,14 +1236,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.5891,
+        "probability": 0.5892,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.5748,
+        "probability": 0.5749,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1618,7 +1425,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.599,
+        "probability": 0.5991,
         "models": 6,
         "withMarket": false
       },
@@ -1748,7 +1555,7 @@
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.7109,
+        "probability": 0.711,
         "models": 6,
         "withMarket": false
       },
@@ -1813,7 +1620,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.6346,
+        "probability": 0.6347,
         "models": 6,
         "withMarket": false
       },
@@ -1876,14 +1683,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.6008,
+        "probability": 0.6009,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "B8",
-        "probability": 0.5228,
+        "probability": 0.5227,
         "agreement": "5/6"
       },
       "recommendedCommands": []
@@ -1939,7 +1746,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "BIG",
-        "probability": 0.6249,
+        "probability": 0.625,
         "models": 6,
         "withMarket": false
       },

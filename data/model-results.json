@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-06-10T11:43:58.112Z",
+  "updatedAt": "2026-06-10T17:40:01.966Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -923,9 +923,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.675,
+          "marketProbability": 0.755,
           "marketDisagreement": false,
-          "marketEdge": -0.14039436535273042
+          "marketEdge": -0.22039436535273038
         },
         {
           "modelId": "champion",
@@ -957,9 +957,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.325,
+          "marketProbability": 0.245,
           "marketDisagreement": true,
-          "marketEdge": 0.22233000871860814
+          "marketEdge": 0.30233000871860816
         },
         {
           "modelId": "ensemble",
@@ -991,9 +991,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.325,
+          "marketProbability": 0.245,
           "marketDisagreement": true,
-          "marketEdge": 0.30976574423773345
+          "marketEdge": 0.38976574423773347
         },
         {
           "modelId": "ensemble25",
@@ -1025,9 +1025,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.325,
+          "marketProbability": 0.245,
           "marketDisagreement": true,
-          "marketEdge": 0.20638823602690065
+          "marketEdge": 0.28638823602690067
         },
         {
           "modelId": "archive",
@@ -1060,9 +1060,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.325,
+          "marketProbability": 0.245,
           "marketDisagreement": true,
-          "marketEdge": 0.2887578204528473
+          "marketEdge": 0.36875782045284733
         },
         {
           "modelId": "oldprog",
@@ -1095,9 +1095,9 @@
             "missing": []
           },
           "marketFavorite": "illwill",
-          "marketProbability": 0.675,
+          "marketProbability": 0.755,
           "marketDisagreement": false,
-          "marketEdge": -0.08507096459286456
+          "marketEdge": -0.16507096459286452
         }
       ],
       "matchContext": {
@@ -1119,16 +1119,16 @@
       "matchStatus": "not_started",
       "startTime": "2026-06-10T17:00:00Z",
       "marketDisagreement": false,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
       "marketFavorite": "illwill",
       "marketUnderdog": "G2 Ares",
-      "marketTeamAProbability": 0.675,
-      "marketTeamBProbability": 0.325,
-      "marketFavoriteProbability": 0.675,
+      "marketTeamAProbability": 0.755,
+      "marketTeamBProbability": 0.245,
+      "marketFavoriteProbability": 0.755,
       "marketQuestion": "Counter-Strike: illwill vs G2 Ares (BO3) - CCT Europe Series 4 Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-ill-g2a-2026-06-10",
-      "marketLiquidity": "38130.0318",
-      "marketVolume": "28784.982175999914"
+      "marketLiquidity": "20473.4435",
+      "marketVolume": "38910.78597399993"
     },
     {
       "id": "2026-06-10-walczaki-inox-division",
@@ -1180,10 +1180,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.07158212739799535
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.4829178726020047
         },
         {
           "modelId": "champion",
@@ -1214,10 +1214,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.10363433813976747
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.4508656618602326
         },
         {
           "modelId": "ensemble",
@@ -1248,10 +1248,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.06732931889187749
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.48717068110812256
         },
         {
           "modelId": "ensemble25",
@@ -1282,10 +1282,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.0947543481039183
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.45974565189608174
         },
         {
           "modelId": "archive",
@@ -1317,10 +1317,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.08318121670100581
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.47131878329899424
         },
         {
           "modelId": "oldprog",
@@ -1352,10 +1352,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.445,
-          "marketDisagreement": true,
-          "marketEdge": 0.12259210859200648
+          "marketFavorite": "Walczaki",
+          "marketProbability": 0.9995,
+          "marketDisagreement": false,
+          "marketEdge": -0.43190789140799357
         }
       ],
       "matchContext": {
@@ -1376,17 +1376,17 @@
       "status": "pending",
       "matchStatus": "not_started",
       "startTime": "2026-06-10T14:00:00Z",
-      "marketDisagreement": true,
-      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
-      "marketFavorite": "INOX Division",
-      "marketUnderdog": "Walczaki",
-      "marketTeamAProbability": 0.445,
-      "marketTeamBProbability": 0.555,
-      "marketFavoriteProbability": 0.555,
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Walczaki",
+      "marketUnderdog": "INOX Division",
+      "marketTeamAProbability": 0.9995,
+      "marketTeamBProbability": 0.0005,
+      "marketFavoriteProbability": 0.9995,
       "marketQuestion": "Counter-Strike: Walczaki vs INOX Division (BO3) - NODWIN Clutch Series Group Stage",
       "marketUrl": "https://polymarket.com/event/cs2-wal2-inox-2026-06-10",
-      "marketLiquidity": "30828.4215",
-      "marketVolume": "13094.056916000007"
+      "marketLiquidity": "230970.44896",
+      "marketVolume": "92431.93140300005"
     }
   ]
 }

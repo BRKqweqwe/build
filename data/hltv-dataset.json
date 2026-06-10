@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T14:28:18.827Z",
+  "generatedAt": "2026-06-10T17:40:02.223Z",
   "source": {
     "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill",
     "maxRank": 100,
@@ -101,8 +101,8 @@
     },
     "liveFormPatch": {
       "results": "static/data/model-results.json",
-      "applied": 1,
-      "skipped": 12,
+      "applied": 0,
+      "skipped": 13,
       "lookbackDays": 21,
       "maxRecentMatches": 12,
       "note": "Resolved live results are applied as conservative 1-0/0-1 recent form entries when exact map score is unavailable."

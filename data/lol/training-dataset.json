@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-06-10T15:29:38.134Z",
+  "source": {
+    "name": "Oracle's Elixir",
+    "files": [
+      "archive/2024_LoL_esports_match_data_from_OraclesElixir.csv",
+      "archive/2025_LoL_esports_match_data_from_OraclesElixir.csv",
+      "archive/2026_LoL_esports_match_data_from_OraclesElixir.csv"
+    ],
+    "fromDate": "2024-01-01",
+    "minPriorGames": 3
+  },
+  "rows": [],
+  "summary": {
+    "rows": 24246,
+    "games": 25921,
+    "teams": 768,
+    "leagues": 67,
+    "earliestDate": "2024-01-01",
+    "latestDate": "2026-06-10",
+    "skippedNoPrior": 1675
+  }
+}
