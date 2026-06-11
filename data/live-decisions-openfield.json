@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-11T14:20:16.476Z",
+  "source": {
+    "live": "static/data/live-predictions-openfield.json",
+    "results": "static/data/model-results.json",
+    "strongThreshold": 0.15,
+    "leanThreshold": 0.05,
+    "edgeThreshold": 0.05,
+    "minCoverage": 0.85
+  },
+  "summary": {
+    "total": 15,
+    "strong": 3,
+    "lean": 4,
+    "skip": 8,
+    "withMarket": 6,
+    "marketDisagreements": 0
+  },
+  "decisions": [
+    {
+      "id": "pandascore-1517520",
+      "matchId": "pandascore-1517520",
+      "pandaScoreId": 1517520,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "teamA": "SPARTA",
+      "teamB": "KOLESIE",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "KOLESIE",
+        "probability": 0.571816,
+        "margin": 0.071816,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 1,
+          "teamB": 2
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.116211,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": {
+        "favorite": "KOLESIE",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "edge": 0.016816,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-sparta-kol-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "KOLESIE",
+          "probability": 0.727785,
+          "teamAProbability": 0.272215,
+          "teamBProbability": 0.727785,
+          "margin": 0.227785,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.172785
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "SPARTA",
+          "probability": 0.551032,
+          "teamAProbability": 0.551032,
+          "teamBProbability": 0.448968,
+          "margin": 0.051032,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.106032
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "KOLESIE",
+          "probability": 0.538696,
+          "teamAProbability": 0.461304,
+          "teamBProbability": 0.538696,
+          "margin": 0.038696,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.016304
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513123",
+      "matchId": "pandascore-1513123",
+      "pandaScoreId": 1513123,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "FURIA",
+      "teamB": "B8",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "FURIA",
+        "probability": 0.543765,
+        "margin": 0.043765,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 2,
+          "teamB": 1
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.057964,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": {
+        "favorite": "FURIA",
+        "teamAProbability": 0.745,
+        "teamBProbability": 0.255,
+        "edge": -0.201235,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-furia-b8-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "FURIA",
+          "probability": 0.606286,
+          "teamAProbability": 0.606286,
+          "teamBProbability": 0.393714,
+          "margin": 0.106286,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.138714
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "FURIA",
+          "probability": 0.558418,
+          "teamAProbability": 0.558418,
+          "teamBProbability": 0.441582,
+          "margin": 0.058418,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.186582
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "B8",
+          "probability": 0.53341,
+          "teamAProbability": 0.46659,
+          "teamBProbability": 0.53341,
+          "margin": 0.03341,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.27841
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513121",
+      "matchId": "pandascore-1513121",
+      "pandaScoreId": 1513121,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Falcons",
+      "teamB": "G2",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Falcons",
+        "probability": 0.614049,
+        "margin": 0.114049,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.056268,
+        "reasons": []
+      },
+      "market": {
+        "favorite": "Falcons",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "edge": -0.010951,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-fal2-g2-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "Falcons",
+          "probability": 0.539683,
+          "teamAProbability": 0.539683,
+          "teamBProbability": 0.460317,
+          "margin": 0.039683,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.085317
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Falcons",
+          "probability": 0.675754,
+          "teamAProbability": 0.675754,
+          "teamBProbability": 0.324246,
+          "margin": 0.175754,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.050754
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "Falcons",
+          "probability": 0.626711,
+          "teamAProbability": 0.626711,
+          "teamBProbability": 0.373289,
+          "margin": 0.126711,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.001711
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513124",
+      "matchId": "pandascore-1513124",
+      "pandaScoreId": 1513124,
+      "startTime": "2026-06-11T16:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Aurora",
+      "teamB": "Monte",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Aurora",
+        "probability": 0.601853,
+        "margin": 0.101853,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 2,
+          "teamB": 1
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.077352,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": {
+        "favorite": "Aurora",
+        "teamAProbability": 0.635,
+        "teamBProbability": 0.365,
+        "edge": -0.033147,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-aur1-mnte-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "Monte",
+          "probability": 0.505896,
+          "teamAProbability": 0.494104,
+          "teamBProbability": 0.505896,
+          "margin": 0.005896,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.140896
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Aurora",
+          "probability": 0.672088,
+          "teamAProbability": 0.672088,
+          "teamBProbability": 0.327912,
+          "margin": 0.172088,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.037088
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "Aurora",
+          "probability": 0.639366,
+          "teamAProbability": 0.639366,
+          "teamBProbability": 0.360634,
+          "margin": 0.139366,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.004366
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1513122",
+      "matchId": "pandascore-1513122",
+      "pandaScoreId": 1513122,
+      "startTime": "2026-06-11T16:30:00Z",
+      "status": "not_started",
+      "event": "IEM - Cologne Major - Stage 3",
+      "teamA": "Natus Vincere",
+      "teamB": "Spirit",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Spirit",
+        "probability": 0.593263,
+        "margin": 0.093263,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 1,
+          "teamB": 2
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.076492,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": {
+        "favorite": "Spirit",
+        "teamAProbability": 0.355,
+        "teamBProbability": 0.645,
+        "edge": -0.051737,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-navi-ts7-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "Spirit",
+          "probability": 0.67738,
+          "teamAProbability": 0.32262,
+          "teamBProbability": 0.67738,
+          "margin": 0.17738,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.03238
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Natus Vincere",
+          "probability": 0.5077,
+          "teamAProbability": 0.5077,
+          "teamBProbability": 0.4923,
+          "margin": 0.0077,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.1527
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "Spirit",
+          "probability": 0.610109,
+          "teamAProbability": 0.389891,
+          "teamBProbability": 0.610109,
+          "margin": 0.110109,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.034891
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1519575",
+      "matchId": "pandascore-1519575",
+      "pandaScoreId": 1519575,
+      "startTime": "2026-06-12T08:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "teamA": "ex-RUBY",
+      "teamB": "G2 Ares",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "G2 Ares",
+        "probability": 0.514598,
+        "margin": 0.014598,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 1,
+          "teamB": 2
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.073692,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "ex-RUBY",
+          "probability": 0.587661,
+          "teamAProbability": 0.587661,
+          "teamBProbability": 0.412339,
+          "margin": 0.087661,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "G2 Ares",
+          "probability": 0.583134,
+          "teamAProbability": 0.416866,
+          "teamBProbability": 0.583134,
+          "margin": 0.083134,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "G2 Ares",
+          "probability": 0.548322,
+          "teamAProbability": 0.451678,
+          "teamBProbability": 0.548322,
+          "margin": 0.048322,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1519576",
+      "matchId": "pandascore-1519576",
+      "pandaScoreId": 1519576,
+      "startTime": "2026-06-12T11:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "teamA": "Virtus.pro",
+      "teamB": "INOX Division",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "Virtus.pro",
+        "probability": 0.566116,
+        "margin": 0.066116,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.059704,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "Virtus.pro",
+          "probability": 0.536092,
+          "teamAProbability": 0.536092,
+          "teamBProbability": 0.463908,
+          "margin": 0.036092,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Virtus.pro",
+          "probability": 0.649472,
+          "teamAProbability": 0.649472,
+          "teamBProbability": 0.350528,
+          "margin": 0.149472,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "Virtus.pro",
+          "probability": 0.512785,
+          "teamAProbability": 0.512785,
+          "teamBProbability": 0.487215,
+          "margin": 0.012785,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533027",
+      "matchId": "pandascore-1533027",
+      "pandaScoreId": 1533027,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "3DMAX",
+      "teamB": "Ninjas in Pyjamas",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "3DMAX",
+        "probability": 0.558465,
+        "margin": 0.058465,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 2,
+          "teamB": 1
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.073413,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "3DMAX",
+          "probability": 0.519869,
+          "teamAProbability": 0.519869,
+          "teamBProbability": 0.480131,
+          "margin": 0.019869,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Ninjas in Pyjamas",
+          "probability": 0.505705,
+          "teamAProbability": 0.494295,
+          "teamBProbability": 0.505705,
+          "margin": 0.005705,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "3DMAX",
+          "probability": 0.661232,
+          "teamAProbability": 0.661232,
+          "teamBProbability": 0.338768,
+          "margin": 0.161232,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533026",
+      "matchId": "pandascore-1533026",
+      "pandaScoreId": 1533026,
+      "startTime": "2026-07-01T07:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "FaZe",
+      "teamB": "TYLOO",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "FaZe",
+        "probability": 0.587277,
+        "margin": 0.087277,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.069036,
+        "reasons": [
+          "market_edge"
+        ]
+      },
+      "market": {
+        "favorite": "FaZe",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "edge": 0.052277,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01"
+      },
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "FaZe",
+          "probability": 0.507416,
+          "teamAProbability": 0.507416,
+          "teamBProbability": 0.492584,
+          "margin": 0.007416,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.027584
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "FaZe",
+          "probability": 0.57857,
+          "teamAProbability": 0.57857,
+          "teamBProbability": 0.42143,
+          "margin": 0.07857,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.04357
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "FaZe",
+          "probability": 0.675845,
+          "teamAProbability": 0.675845,
+          "teamBProbability": 0.324155,
+          "margin": 0.175845,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.140845
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533029",
+      "matchId": "pandascore-1533029",
+      "pandaScoreId": 1533029,
+      "startTime": "2026-07-01T08:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "Monte",
+      "teamB": "Nemesis",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Monte",
+        "probability": 0.55619,
+        "margin": 0.05619,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 2,
+          "teamB": 1
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.08113,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "Nemesis",
+          "probability": 0.558464,
+          "teamAProbability": 0.441536,
+          "teamBProbability": 0.558464,
+          "margin": 0.058464,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Monte",
+          "probability": 0.609777,
+          "teamAProbability": 0.609777,
+          "teamBProbability": 0.390223,
+          "margin": 0.109777,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "Monte",
+          "probability": 0.617258,
+          "teamAProbability": 0.617258,
+          "teamBProbability": 0.382742,
+          "margin": 0.117258,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533028",
+      "matchId": "pandascore-1533028",
+      "pandaScoreId": 1533028,
+      "startTime": "2026-07-01T08:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "9z",
+      "teamB": "EYEBALLERS",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "9z",
+        "probability": 0.6666,
+        "margin": 0.1666,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.045567,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "9z",
+          "probability": 0.730396,
+          "teamAProbability": 0.730396,
+          "teamBProbability": 0.269604,
+          "margin": 0.230396,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "9z",
+          "probability": 0.64258,
+          "teamAProbability": 0.64258,
+          "teamBProbability": 0.35742,
+          "margin": 0.14258,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "9z",
+          "probability": 0.626824,
+          "teamAProbability": 0.626824,
+          "teamBProbability": 0.373176,
+          "margin": 0.126824,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533031",
+      "matchId": "pandascore-1533031",
+      "pandaScoreId": 1533031,
+      "startTime": "2026-07-01T09:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "BetBoom",
+      "teamB": "SINNERS",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "BetBoom",
+        "probability": 0.798677,
+        "margin": 0.298677,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.078795,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "BetBoom",
+          "probability": 0.745589,
+          "teamAProbability": 0.745589,
+          "teamBProbability": 0.254411,
+          "margin": 0.245589,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "BetBoom",
+          "probability": 0.740374,
+          "teamAProbability": 0.740374,
+          "teamBProbability": 0.259626,
+          "margin": 0.240374,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "BetBoom",
+          "probability": 0.910069,
+          "teamAProbability": 0.910069,
+          "teamBProbability": 0.089931,
+          "margin": 0.410069,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533030",
+      "matchId": "pandascore-1533030",
+      "pandaScoreId": 1533030,
+      "startTime": "2026-07-01T09:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "PARIVISION",
+      "teamB": "Alliance",
+      "decision": {
+        "tier": "strong",
+        "label": "Strong pick",
+        "pick": "PARIVISION",
+        "probability": 0.745028,
+        "margin": 0.245028,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.090039,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "PARIVISION",
+          "probability": 0.684803,
+          "teamAProbability": 0.684803,
+          "teamBProbability": 0.315197,
+          "margin": 0.184803,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "PARIVISION",
+          "probability": 0.677979,
+          "teamAProbability": 0.677979,
+          "teamBProbability": 0.322021,
+          "margin": 0.177979,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "PARIVISION",
+          "probability": 0.872302,
+          "teamAProbability": 0.872302,
+          "teamBProbability": 0.127698,
+          "margin": 0.372302,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533033",
+      "matchId": "pandascore-1533033",
+      "pandaScoreId": 1533033,
+      "startTime": "2026-07-01T10:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "B8",
+      "teamB": "MIBR",
+      "decision": {
+        "tier": "lean",
+        "label": "Lean",
+        "pick": "B8",
+        "probability": 0.646105,
+        "margin": 0.146105,
+        "agreement": {
+          "ratio": 1,
+          "votes": "3/3",
+          "teamA": 3,
+          "teamB": 0
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.054667,
+        "reasons": []
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "B8",
+          "probability": 0.672144,
+          "teamAProbability": 0.672144,
+          "teamBProbability": 0.327856,
+          "margin": 0.172144,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "B8",
+          "probability": 0.570044,
+          "teamAProbability": 0.570044,
+          "teamBProbability": 0.429956,
+          "margin": 0.070044,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "B8",
+          "probability": 0.696127,
+          "teamAProbability": 0.696127,
+          "teamBProbability": 0.303873,
+          "margin": 0.196127,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1533032",
+      "matchId": "pandascore-1533032",
+      "pandaScoreId": 1533032,
+      "startTime": "2026-07-01T10:00:00Z",
+      "status": "not_started",
+      "event": "XSE Pro League - Group Stage",
+      "teamA": "BIG",
+      "teamB": "Lynn Vision",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "BIG",
+        "probability": 0.617418,
+        "margin": 0.117418,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "2/3",
+          "teamA": 2,
+          "teamB": 1
+        },
+        "coverage": 0.994792,
+        "probabilitySpread": 0.101918,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "openfield-nn",
+          "label": "OpenField NN",
+          "pick": "BIG",
+          "probability": 0.745836,
+          "teamAProbability": 0.745836,
+          "teamBProbability": 0.254164,
+          "margin": 0.245836,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-core",
+          "label": "OpenField Core",
+          "pick": "Lynn Vision",
+          "probability": 0.503471,
+          "teamAProbability": 0.496529,
+          "teamBProbability": 0.503471,
+          "margin": 0.003471,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "label": "OpenField Strength",
+          "pick": "BIG",
+          "probability": 0.609889,
+          "teamAProbability": 0.609889,
+          "teamBProbability": 0.390111,
+          "margin": 0.109889,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    }
+  ]
+}

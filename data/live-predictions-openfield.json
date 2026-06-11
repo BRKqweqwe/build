@@ -1,0 +1,2626 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-11T14:15:28.240Z",
+  "source": {
+    "dataset": "static/data/hltv-dataset.json",
+    "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+    "primaryModel": "openfield-nn",
+    "models": [
+      {
+        "id": "openfield-nn",
+        "path": "static/data/kaggle-variants/trained-model-openfield-nn-none.json"
+      },
+      {
+        "id": "openfield-core",
+        "path": "static/data/kaggle-variants/trained-model-openfield-core.json"
+      },
+      {
+        "id": "openfield-nn-strength",
+        "path": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json"
+      }
+    ],
+    "market": "static/data/market-comparisons.json",
+    "results": "static/data/model-results.json",
+    "maxRank": 999
+  },
+  "summary": {
+    "total": 15,
+    "withMarket": 6,
+    "withHistory": 5,
+    "pendingHistory": 5,
+    "skipped": {
+      "missingTeams": 0,
+      "rank": 0,
+      "resolvedHistory": 0,
+      "staleNotStarted": 7,
+      "staleRunning": 0,
+      "status": 8
+    }
+  },
+  "predictions": [
+    {
+      "id": "pandascore-1517520",
+      "match": {
+        "id": "pandascore-1517520",
+        "pandaScoreId": 1517520,
+        "startTime": "2026-06-11T14:00:00Z",
+        "event": "NODWIN Clutch Series - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "13214",
+        "name": "SPARTA",
+        "hltvRank": 93,
+        "probability": 0.2722153668527081,
+        "baseProbability": 0.2722153668527081
+      },
+      "teamB": {
+        "id": "13314",
+        "name": "KOLESIE",
+        "hltvRank": 86,
+        "probability": 0.7277846331472919,
+        "baseProbability": 0.7277846331472919
+      },
+      "pick": {
+        "teamId": "13314",
+        "name": "KOLESIE",
+        "probability": 0.7277846331472919,
+        "confidence": 0.6372338763503962
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "KOLESIE",
+          "pickTeamId": "13314",
+          "probability": 0.7277846331472919,
+          "teamAProbability": 0.2722153668527081,
+          "teamBProbability": 0.7277846331472919,
+          "baseTeamAProbability": 0.2722153668527081,
+          "baseTeamBProbability": 0.7277846331472919,
+          "favoriteTeamId": "13314",
+          "favoriteName": "KOLESIE",
+          "favoriteProbability": 0.7277846331472919,
+          "confidence": 0.6372338763503962,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "KOLESIE",
+          "marketProbability": 0.555,
+          "marketDisagreement": false,
+          "marketEdge": 0.17278463314729187
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "SPARTA",
+          "pickTeamId": "13214",
+          "probability": 0.5510321086282045,
+          "teamAProbability": 0.5510321086282045,
+          "teamBProbability": 0.4489678913717955,
+          "baseTeamAProbability": 0.5510321086282045,
+          "baseTeamBProbability": 0.4489678913717955,
+          "favoriteTeamId": "13214",
+          "favoriteName": "SPARTA",
+          "favoriteProbability": 0.5510321086282045,
+          "confidence": 0.33675458466794767,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "KOLESIE",
+          "marketProbability": 0.445,
+          "marketDisagreement": true,
+          "marketEdge": 0.1060321086282045
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "KOLESIE",
+          "pickTeamId": "13314",
+          "probability": 0.538695511062304,
+          "teamAProbability": 0.46130448893769604,
+          "teamBProbability": 0.538695511062304,
+          "baseTeamAProbability": 0.46130448893769604,
+          "baseTeamBProbability": 0.538695511062304,
+          "favoriteTeamId": "13314",
+          "favoriteName": "KOLESIE",
+          "favoriteProbability": 0.538695511062304,
+          "confidence": 0.3157823688059167,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "KOLESIE",
+          "marketProbability": 0.555,
+          "marketDisagreement": false,
+          "marketEdge": -0.016304488937696093
+        }
+      ],
+      "market": {
+        "favorite": "KOLESIE",
+        "underdog": "SPARTA",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "favoriteProbability": 0.555,
+        "question": "Counter-Strike: SPARTA vs KOLESIE (BO3) - NODWIN Clutch Series Group Stage",
+        "url": "https://polymarket.com/event/cs2-sparta-kol-2026-06-11",
+        "liquidity": "1506.8634",
+        "volume": "204.250059",
+        "edgeTeamA": -0.17278463314729192,
+        "edgeTeamB": 0.17278463314729187,
+        "edgePick": 0.17278463314729187,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-11-sparta-kolesie",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1513123",
+      "match": {
+        "id": "pandascore-1513123",
+        "pandaScoreId": 1513123,
+        "startTime": "2026-06-11T14:00:00Z",
+        "event": "IEM - Cologne Major - Stage 3",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "8297",
+        "name": "FURIA",
+        "hltvRank": 11,
+        "probability": 0.6062864748484367,
+        "baseProbability": 0.6062864748484367
+      },
+      "teamB": {
+        "id": "11241",
+        "name": "B8",
+        "hltvRank": 16,
+        "probability": 0.3937135251515633,
+        "baseProbability": 0.3937135251515633
+      },
+      "pick": {
+        "teamId": "8297",
+        "name": "FURIA",
+        "probability": 0.6062864748484367,
+        "confidence": 0.4306870072423423
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.96,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "FURIA",
+          "pickTeamId": "8297",
+          "probability": 0.6062864748484367,
+          "teamAProbability": 0.6062864748484367,
+          "teamBProbability": 0.3937135251515633,
+          "baseTeamAProbability": 0.6062864748484367,
+          "baseTeamBProbability": 0.3937135251515633,
+          "favoriteTeamId": "8297",
+          "favoriteName": "FURIA",
+          "favoriteProbability": 0.6062864748484367,
+          "confidence": 0.4306870072423423,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FURIA",
+          "marketProbability": 0.745,
+          "marketDisagreement": false,
+          "marketEdge": -0.13871352515156332
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "FURIA",
+          "pickTeamId": "8297",
+          "probability": 0.5584178764717911,
+          "teamAProbability": 0.5584178764717911,
+          "teamBProbability": 0.4415821235282089,
+          "baseTeamAProbability": 0.5584178764717911,
+          "baseTeamBProbability": 0.4415821235282089,
+          "favoriteTeamId": "8297",
+          "favoriteName": "FURIA",
+          "favoriteProbability": 0.5584178764717911,
+          "confidence": 0.34931039000204483,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FURIA",
+          "marketProbability": 0.745,
+          "marketDisagreement": false,
+          "marketEdge": -0.1865821235282089
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "B8",
+          "pickTeamId": "11241",
+          "probability": 0.5334095734455333,
+          "teamAProbability": 0.4665904265544667,
+          "teamBProbability": 0.5334095734455333,
+          "baseTeamAProbability": 0.4665904265544667,
+          "baseTeamBProbability": 0.5334095734455333,
+          "favoriteTeamId": "11241",
+          "favoriteName": "B8",
+          "favoriteProbability": 0.5334095734455333,
+          "confidence": 0.3067962748574066,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "FURIA",
+          "marketProbability": 0.255,
+          "marketDisagreement": true,
+          "marketEdge": 0.2784095734455333
+        }
+      ],
+      "market": {
+        "favorite": "FURIA",
+        "underdog": "B8",
+        "teamAProbability": 0.745,
+        "teamBProbability": 0.255,
+        "favoriteProbability": 0.745,
+        "question": "Counter-Strike: FURIA vs B8 (BO3) - IEM Cologne Major Stage 3",
+        "url": "https://polymarket.com/event/cs2-furia-b8-2026-06-11",
+        "liquidity": "285902.3541",
+        "volume": "80237.67750799994",
+        "edgeTeamA": -0.13871352515156332,
+        "edgeTeamB": 0.13871352515156332,
+        "edgePick": -0.13871352515156332,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-11-furia-b8",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1513121",
+      "match": {
+        "id": "pandascore-1513121",
+        "pandaScoreId": 1513121,
+        "startTime": "2026-06-11T14:00:00Z",
+        "event": "IEM - Cologne Major - Stage 3",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11283",
+        "name": "Falcons",
+        "hltvRank": 3,
+        "probability": 0.5396831161301044,
+        "baseProbability": 0.5396831161301044
+      },
+      "teamB": {
+        "id": "5995",
+        "name": "G2",
+        "hltvRank": 13,
+        "probability": 0.46031688386989555,
+        "baseProbability": 0.46031688386989555
+      },
+      "pick": {
+        "teamId": "11283",
+        "name": "Falcons",
+        "probability": 0.5396831161301044,
+        "confidence": 0.31746129742117757
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.95,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.5396831161301044,
+          "teamAProbability": 0.5396831161301044,
+          "teamBProbability": 0.46031688386989555,
+          "baseTeamAProbability": 0.5396831161301044,
+          "baseTeamBProbability": 0.46031688386989555,
+          "favoriteTeamId": "11283",
+          "favoriteName": "Falcons",
+          "favoriteProbability": 0.5396831161301044,
+          "confidence": 0.31746129742117757,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.625,
+          "marketDisagreement": false,
+          "marketEdge": -0.08531688386989555
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6757538499467627,
+          "teamAProbability": 0.6757538499467627,
+          "teamBProbability": 0.3242461500532373,
+          "baseTeamAProbability": 0.6757538499467627,
+          "baseTeamBProbability": 0.3242461500532373,
+          "favoriteTeamId": "11283",
+          "favoriteName": "Falcons",
+          "favoriteProbability": 0.6757538499467627,
+          "confidence": 0.5487815449094966,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.625,
+          "marketDisagreement": false,
+          "marketEdge": 0.050753849946762686
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6267111386251203,
+          "teamAProbability": 0.6267111386251203,
+          "teamBProbability": 0.3732888613748797,
+          "baseTeamAProbability": 0.6267111386251203,
+          "baseTeamBProbability": 0.3732888613748797,
+          "favoriteTeamId": "11283",
+          "favoriteName": "Falcons",
+          "favoriteProbability": 0.6267111386251203,
+          "confidence": 0.46540893566270447,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.625,
+          "marketDisagreement": false,
+          "marketEdge": 0.0017111386251202898
+        }
+      ],
+      "market": {
+        "favorite": "Falcons",
+        "underdog": "G2",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "favoriteProbability": 0.625,
+        "question": "Counter-Strike: Team Falcons vs G2 (BO3) - IEM Cologne Major Stage 3",
+        "url": "https://polymarket.com/event/cs2-fal2-g2-2026-06-11",
+        "liquidity": "251929.3755",
+        "volume": "113880.91950199989",
+        "edgeTeamA": -0.08531688386989555,
+        "edgeTeamB": 0.08531688386989555,
+        "edgePick": -0.08531688386989555,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-11-falcons-g2",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1513124",
+      "match": {
+        "id": "pandascore-1513124",
+        "pandaScoreId": 1513124,
+        "startTime": "2026-06-11T16:30:00Z",
+        "event": "IEM - Cologne Major - Stage 3",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11861",
+        "name": "Aurora",
+        "hltvRank": 8,
+        "probability": 0.49410382405069886,
+        "baseProbability": 0.49410382405069886
+      },
+      "teamB": {
+        "id": "11811",
+        "name": "Monte",
+        "hltvRank": 21,
+        "probability": 0.5058961759493011,
+        "baseProbability": 0.5058961759493011
+      },
+      "pick": {
+        "teamId": "11811",
+        "name": "Monte",
+        "probability": 0.5058961759493011,
+        "confidence": 0.26002349911381195
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.96,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "Monte",
+          "pickTeamId": "11811",
+          "probability": 0.5058961759493011,
+          "teamAProbability": 0.49410382405069886,
+          "teamBProbability": 0.5058961759493011,
+          "baseTeamAProbability": 0.49410382405069886,
+          "baseTeamBProbability": 0.5058961759493011,
+          "favoriteTeamId": "11811",
+          "favoriteName": "Monte",
+          "favoriteProbability": 0.5058961759493011,
+          "confidence": 0.26002349911381195,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Aurora",
+          "marketProbability": 0.365,
+          "marketDisagreement": true,
+          "marketEdge": 0.14089617594930115
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Aurora",
+          "pickTeamId": "11861",
+          "probability": 0.6720879462597777,
+          "teamAProbability": 0.6720879462597777,
+          "teamBProbability": 0.32791205374022225,
+          "baseTeamAProbability": 0.6720879462597777,
+          "baseTeamBProbability": 0.32791205374022225,
+          "favoriteTeamId": "11861",
+          "favoriteName": "Aurora",
+          "favoriteProbability": 0.6720879462597777,
+          "confidence": 0.5425495086416221,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Aurora",
+          "marketProbability": 0.635,
+          "marketDisagreement": false,
+          "marketEdge": 0.03708794625977774
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "Aurora",
+          "pickTeamId": "11861",
+          "probability": 0.6393662570347046,
+          "teamAProbability": 0.6393662570347046,
+          "teamBProbability": 0.3606337429652954,
+          "baseTeamAProbability": 0.6393662570347046,
+          "baseTeamBProbability": 0.3606337429652954,
+          "favoriteTeamId": "11861",
+          "favoriteName": "Aurora",
+          "favoriteProbability": 0.6393662570347046,
+          "confidence": 0.48692263695899785,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "Aurora",
+          "marketProbability": 0.635,
+          "marketDisagreement": false,
+          "marketEdge": 0.004366257034704613
+        }
+      ],
+      "market": {
+        "favorite": "Aurora",
+        "underdog": "Monte",
+        "teamAProbability": 0.635,
+        "teamBProbability": 0.365,
+        "favoriteProbability": 0.635,
+        "question": "Counter-Strike: Aurora Gaming vs Monte (BO3) - IEM Cologne Major Stage 3",
+        "url": "https://polymarket.com/event/cs2-aur1-mnte-2026-06-11",
+        "liquidity": "202121.0975",
+        "volume": "87805.77954899997",
+        "edgeTeamA": -0.14089617594930115,
+        "edgeTeamB": 0.14089617594930115,
+        "edgePick": 0.14089617594930115,
+        "disagreement": true
+      },
+      "history": {
+        "id": "2026-06-11-aurora-monte",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1513122",
+      "match": {
+        "id": "pandascore-1513122",
+        "pandaScoreId": 1513122,
+        "startTime": "2026-06-11T16:30:00Z",
+        "event": "IEM - Cologne Major - Stage 3",
+        "format": "bo3",
+        "environment": "LAN",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "4608",
+        "name": "Natus Vincere",
+        "hltvRank": 4,
+        "probability": 0.322619580298264,
+        "baseProbability": 0.322619580298264
+      },
+      "teamB": {
+        "id": "7020",
+        "name": "Spirit",
+        "hltvRank": 2,
+        "probability": 0.677380419701736,
+        "baseProbability": 0.677380419701736
+      },
+      "pick": {
+        "teamId": "7020",
+        "name": "Spirit",
+        "probability": 0.677380419701736,
+        "confidence": 0.5515467134929513
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.677380419701736,
+          "teamAProbability": 0.322619580298264,
+          "teamBProbability": 0.677380419701736,
+          "baseTeamAProbability": 0.322619580298264,
+          "baseTeamBProbability": 0.677380419701736,
+          "favoriteTeamId": "7020",
+          "favoriteName": "Spirit",
+          "favoriteProbability": 0.677380419701736,
+          "confidence": 0.5515467134929513,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.645,
+          "marketDisagreement": false,
+          "marketEdge": 0.032380419701735996
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5076995143816597,
+          "teamAProbability": 0.5076995143816597,
+          "teamBProbability": 0.4923004856183403,
+          "baseTeamAProbability": 0.5076995143816597,
+          "baseTeamBProbability": 0.4923004856183403,
+          "favoriteTeamId": "4608",
+          "favoriteName": "Natus Vincere",
+          "favoriteProbability": 0.5076995143816597,
+          "confidence": 0.2630891744488215,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.355,
+          "marketDisagreement": true,
+          "marketEdge": 0.15269951438165974
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.6101087573625442,
+          "teamAProbability": 0.3898912426374558,
+          "teamBProbability": 0.6101087573625442,
+          "baseTeamAProbability": 0.3898912426374558,
+          "baseTeamBProbability": 0.6101087573625442,
+          "favoriteTeamId": "7020",
+          "favoriteName": "Spirit",
+          "favoriteProbability": 0.6101087573625442,
+          "confidence": 0.43718488751632517,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.645,
+          "marketDisagreement": false,
+          "marketEdge": -0.0348912426374558
+        }
+      ],
+      "market": {
+        "favorite": "Spirit",
+        "underdog": "Natus Vincere",
+        "teamAProbability": 0.355,
+        "teamBProbability": 0.645,
+        "favoriteProbability": 0.645,
+        "question": "Counter-Strike: Natus Vincere vs Spirit (BO3) - IEM Cologne Major Stage 3",
+        "url": "https://polymarket.com/event/cs2-navi-ts7-2026-06-11",
+        "liquidity": "217609.816",
+        "volume": "159608.37025000004",
+        "edgeTeamA": -0.032380419701735996,
+        "edgeTeamB": 0.032380419701735996,
+        "edgePick": 0.032380419701735996,
+        "disagreement": false
+      },
+      "history": {
+        "id": "2026-06-11-natus-vincere-spirit",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
+    },
+    {
+      "id": "pandascore-1519575",
+      "match": {
+        "id": "pandascore-1519575",
+        "pandaScoreId": 1519575,
+        "startTime": "2026-06-12T08:00:00Z",
+        "event": "CCT Europe - Series #4 - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "13617",
+        "name": "ex-RUBY",
+        "hltvRank": 75,
+        "probability": 0.5876611190194223,
+        "baseProbability": 0.5876611190194223
+      },
+      "teamB": {
+        "id": "12889",
+        "name": "G2 Ares",
+        "hltvRank": 88,
+        "probability": 0.4123388809805777,
+        "baseProbability": 0.4123388809805777
+      },
+      "pick": {
+        "teamId": "13617",
+        "name": "ex-RUBY",
+        "probability": 0.5876611190194223,
+        "confidence": 0.3990239023330179
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.95,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "ex-RUBY",
+          "pickTeamId": "13617",
+          "probability": 0.5876611190194223,
+          "teamAProbability": 0.5876611190194223,
+          "teamBProbability": 0.4123388809805777,
+          "baseTeamAProbability": 0.5876611190194223,
+          "baseTeamBProbability": 0.4123388809805777,
+          "favoriteTeamId": "13617",
+          "favoriteName": "ex-RUBY",
+          "favoriteProbability": 0.5876611190194223,
+          "confidence": 0.3990239023330179,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "G2 Ares",
+          "pickTeamId": "12889",
+          "probability": 0.5831338963516463,
+          "teamAProbability": 0.41686610364835375,
+          "teamBProbability": 0.5831338963516463,
+          "baseTeamAProbability": 0.41686610364835375,
+          "baseTeamBProbability": 0.5831338963516463,
+          "favoriteTeamId": "12889",
+          "favoriteName": "G2 Ares",
+          "favoriteProbability": 0.5831338963516463,
+          "confidence": 0.3913276237977986,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "G2 Ares",
+          "pickTeamId": "12889",
+          "probability": 0.548322259629627,
+          "teamAProbability": 0.451677740370373,
+          "teamBProbability": 0.548322259629627,
+          "baseTeamAProbability": 0.451677740370373,
+          "baseTeamBProbability": 0.548322259629627,
+          "favoriteTeamId": "12889",
+          "favoriteName": "G2 Ares",
+          "favoriteProbability": 0.548322259629627,
+          "confidence": 0.3321478413703659,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1519576",
+      "match": {
+        "id": "pandascore-1519576",
+        "pandaScoreId": 1519576,
+        "startTime": "2026-06-12T11:00:00Z",
+        "event": "CCT Europe - Series #4 - Group Stage",
+        "format": "bo3",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "5378",
+        "name": "Virtus.pro",
+        "hltvRank": 40,
+        "probability": 0.5360919371917872,
+        "baseProbability": 0.5360919371917872
+      },
+      "teamB": {
+        "id": "13814",
+        "name": "INOX Division",
+        "hltvRank": 75,
+        "probability": 0.46390806280821284,
+        "baseProbability": 0.46390806280821284
+      },
+      "pick": {
+        "teamId": "5378",
+        "name": "Virtus.pro",
+        "probability": 0.5360919371917872,
+        "confidence": 0.3113562932260382
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.9299999999999999,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "Virtus.pro",
+          "pickTeamId": "5378",
+          "probability": 0.5360919371917872,
+          "teamAProbability": 0.5360919371917872,
+          "teamBProbability": 0.46390806280821284,
+          "baseTeamAProbability": 0.5360919371917872,
+          "baseTeamBProbability": 0.46390806280821284,
+          "favoriteTeamId": "5378",
+          "favoriteName": "Virtus.pro",
+          "favoriteProbability": 0.5360919371917872,
+          "confidence": 0.3113562932260382,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Virtus.pro",
+          "pickTeamId": "5378",
+          "probability": 0.6494722505352089,
+          "teamAProbability": 0.6494722505352089,
+          "teamBProbability": 0.35052774946479115,
+          "baseTeamAProbability": 0.6494722505352089,
+          "baseTeamBProbability": 0.35052774946479115,
+          "favoriteTeamId": "5378",
+          "favoriteName": "Virtus.pro",
+          "favoriteProbability": 0.6494722505352089,
+          "confidence": 0.504102825909855,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "Virtus.pro",
+          "pickTeamId": "5378",
+          "probability": 0.5127852466184792,
+          "teamAProbability": 0.5127852466184792,
+          "teamBProbability": 0.48721475338152076,
+          "baseTeamAProbability": 0.5127852466184792,
+          "baseTeamBProbability": 0.48721475338152076,
+          "favoriteTeamId": "5378",
+          "favoriteName": "Virtus.pro",
+          "favoriteProbability": 0.5127852466184792,
+          "confidence": 0.2717349192514147,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533027",
+      "match": {
+        "id": "pandascore-1533027",
+        "pandaScoreId": 1533027,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "4914",
+        "name": "3DMAX",
+        "hltvRank": 27,
+        "probability": 0.519869430418576,
+        "baseProbability": 0.519869430418576
+      },
+      "teamB": {
+        "id": "4411",
+        "name": "Ninjas in Pyjamas",
+        "hltvRank": 23,
+        "probability": 0.48013056958142397,
+        "baseProbability": 0.48013056958142397
+      },
+      "pick": {
+        "teamId": "4914",
+        "name": "3DMAX",
+        "probability": 0.519869430418576,
+        "confidence": 0.2837780317115792
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "3DMAX",
+          "pickTeamId": "4914",
+          "probability": 0.519869430418576,
+          "teamAProbability": 0.519869430418576,
+          "teamBProbability": 0.48013056958142397,
+          "baseTeamAProbability": 0.519869430418576,
+          "baseTeamBProbability": 0.48013056958142397,
+          "favoriteTeamId": "4914",
+          "favoriteName": "3DMAX",
+          "favoriteProbability": 0.519869430418576,
+          "confidence": 0.2837780317115792,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Ninjas in Pyjamas",
+          "pickTeamId": "4411",
+          "probability": 0.5057051721970367,
+          "teamAProbability": 0.49429482780296335,
+          "teamBProbability": 0.5057051721970367,
+          "baseTeamAProbability": 0.49429482780296335,
+          "baseTeamBProbability": 0.5057051721970367,
+          "favoriteTeamId": "4411",
+          "favoriteName": "Ninjas in Pyjamas",
+          "favoriteProbability": 0.5057051721970367,
+          "confidence": 0.2596987927349623,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "3DMAX",
+          "pickTeamId": "4914",
+          "probability": 0.6612315413091197,
+          "teamAProbability": 0.6612315413091197,
+          "teamBProbability": 0.33876845869088035,
+          "baseTeamAProbability": 0.6612315413091197,
+          "baseTeamBProbability": 0.33876845869088035,
+          "favoriteTeamId": "4914",
+          "favoriteName": "3DMAX",
+          "favoriteProbability": 0.6612315413091197,
+          "confidence": 0.5240936202255033,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533026",
+      "match": {
+        "id": "pandascore-1533026",
+        "pandaScoreId": 1533026,
+        "startTime": "2026-07-01T07:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "6667",
+        "name": "FaZe",
+        "hltvRank": 22,
+        "probability": 0.5074156546962569,
+        "baseProbability": 0.5074156546962569
+      },
+      "teamB": {
+        "id": "4863",
+        "name": "TYLOO",
+        "hltvRank": 25,
+        "probability": 0.49258434530374307,
+        "baseProbability": 0.49258434530374307
+      },
+      "pick": {
+        "teamId": "6667",
+        "name": "FaZe",
+        "probability": 0.5074156546962569,
+        "confidence": 0.2626066129836368
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.97,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "FaZe",
+          "pickTeamId": "6667",
+          "probability": 0.5074156546962569,
+          "teamAProbability": 0.5074156546962569,
+          "teamBProbability": 0.49258434530374307,
+          "baseTeamAProbability": 0.5074156546962569,
+          "baseTeamBProbability": 0.49258434530374307,
+          "favoriteTeamId": "6667",
+          "favoriteName": "FaZe",
+          "favoriteProbability": 0.5074156546962569,
+          "confidence": 0.2626066129836368,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FaZe",
+          "marketProbability": 0.535,
+          "marketDisagreement": false,
+          "marketEdge": -0.027584345303743096
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "FaZe",
+          "pickTeamId": "6667",
+          "probability": 0.5785702179408398,
+          "teamAProbability": 0.5785702179408398,
+          "teamBProbability": 0.42142978205916015,
+          "baseTeamAProbability": 0.5785702179408398,
+          "baseTeamBProbability": 0.42142978205916015,
+          "favoriteTeamId": "6667",
+          "favoriteName": "FaZe",
+          "favoriteProbability": 0.5785702179408398,
+          "confidence": 0.38356937049942774,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FaZe",
+          "marketProbability": 0.535,
+          "marketDisagreement": false,
+          "marketEdge": 0.04357021794083982
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "FaZe",
+          "pickTeamId": "6667",
+          "probability": 0.6758450566543498,
+          "teamAProbability": 0.6758450566543498,
+          "teamBProbability": 0.3241549433456502,
+          "baseTeamAProbability": 0.6758450566543498,
+          "baseTeamBProbability": 0.3241549433456502,
+          "favoriteTeamId": "6667",
+          "favoriteName": "FaZe",
+          "favoriteProbability": 0.6758450566543498,
+          "confidence": 0.5489365963123947,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": "FaZe",
+          "marketProbability": 0.535,
+          "marketDisagreement": false,
+          "marketEdge": 0.14084505665434977
+        }
+      ],
+      "market": {
+        "favorite": "FaZe",
+        "underdog": "TYLOO",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "favoriteProbability": 0.535,
+        "question": "Counter-Strike: FaZe vs TYLOO (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01",
+        "liquidity": "2807.83",
+        "volume": null,
+        "edgeTeamA": -0.027584345303743096,
+        "edgeTeamB": 0.02758434530374304,
+        "edgePick": -0.027584345303743096,
+        "disagreement": false
+      },
+      "history": null
+    },
+    {
+      "id": "pandascore-1533029",
+      "match": {
+        "id": "pandascore-1533029",
+        "pandaScoreId": 1533029,
+        "startTime": "2026-07-01T08:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11811",
+        "name": "Monte",
+        "hltvRank": 21,
+        "probability": 0.44153625959178666,
+        "baseProbability": 0.44153625959178666
+      },
+      "teamB": {
+        "id": "13355",
+        "name": "Nemesis",
+        "hltvRank": 34,
+        "probability": 0.5584637404082133,
+        "baseProbability": 0.5584637404082133
+      },
+      "pick": {
+        "teamId": "13355",
+        "name": "Nemesis",
+        "probability": 0.5584637404082133,
+        "confidence": 0.3493883586939627
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.96,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "Nemesis",
+          "pickTeamId": "13355",
+          "probability": 0.5584637404082133,
+          "teamAProbability": 0.44153625959178666,
+          "teamBProbability": 0.5584637404082133,
+          "baseTeamAProbability": 0.44153625959178666,
+          "baseTeamBProbability": 0.5584637404082133,
+          "favoriteTeamId": "13355",
+          "favoriteName": "Nemesis",
+          "favoriteProbability": 0.5584637404082133,
+          "confidence": 0.3493883586939627,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Monte",
+          "pickTeamId": "11811",
+          "probability": 0.6097768992955334,
+          "teamAProbability": 0.6097768992955334,
+          "teamBProbability": 0.39022310070446664,
+          "baseTeamAProbability": 0.6097768992955334,
+          "baseTeamBProbability": 0.39022310070446664,
+          "favoriteTeamId": "11811",
+          "favoriteName": "Monte",
+          "favoriteProbability": 0.6097768992955334,
+          "confidence": 0.4366207288024067,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "Monte",
+          "pickTeamId": "11811",
+          "probability": 0.6172582272911048,
+          "teamAProbability": 0.6172582272911048,
+          "teamBProbability": 0.3827417727088952,
+          "baseTeamAProbability": 0.6172582272911048,
+          "baseTeamBProbability": 0.3827417727088952,
+          "favoriteTeamId": "11811",
+          "favoriteName": "Monte",
+          "favoriteProbability": 0.6172582272911048,
+          "confidence": 0.4493389863948781,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533028",
+      "match": {
+        "id": "pandascore-1533028",
+        "pandaScoreId": 1533028,
+        "startTime": "2026-07-01T08:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "9996",
+        "name": "9z",
+        "hltvRank": 15,
+        "probability": 0.7303958330052215,
+        "baseProbability": 0.7303958330052215
+      },
+      "teamB": {
+        "id": "11737",
+        "name": "EYEBALLERS",
+        "hltvRank": 36,
+        "probability": 0.2696041669947785,
+        "baseProbability": 0.2696041669947785
+      },
+      "pick": {
+        "teamId": "9996",
+        "name": "9z",
+        "probability": 0.7303958330052215,
+        "confidence": 0.6416729161088766
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.95,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "9z",
+          "pickTeamId": "9996",
+          "probability": 0.7303958330052215,
+          "teamAProbability": 0.7303958330052215,
+          "teamBProbability": 0.2696041669947785,
+          "baseTeamAProbability": 0.7303958330052215,
+          "baseTeamBProbability": 0.2696041669947785,
+          "favoriteTeamId": "9996",
+          "favoriteName": "9z",
+          "favoriteProbability": 0.7303958330052215,
+          "confidence": 0.6416729161088766,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "9z",
+          "pickTeamId": "9996",
+          "probability": 0.6425803770617852,
+          "teamAProbability": 0.6425803770617852,
+          "teamBProbability": 0.35741962293821483,
+          "baseTeamAProbability": 0.6425803770617852,
+          "baseTeamBProbability": 0.35741962293821483,
+          "favoriteTeamId": "9996",
+          "favoriteName": "9z",
+          "favoriteProbability": 0.6425803770617852,
+          "confidence": 0.4923866410050348,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "9z",
+          "pickTeamId": "9996",
+          "probability": 0.6268242610533113,
+          "teamAProbability": 0.6268242610533113,
+          "teamBProbability": 0.37317573894668865,
+          "baseTeamAProbability": 0.6268242610533113,
+          "baseTeamBProbability": 0.37317573894668865,
+          "favoriteTeamId": "9996",
+          "favoriteName": "9z",
+          "favoriteProbability": 0.6268242610533113,
+          "confidence": 0.4656012437906293,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533031",
+      "match": {
+        "id": "pandascore-1533031",
+        "pandaScoreId": 1533031,
+        "startTime": "2026-07-01T09:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12394",
+        "name": "BetBoom",
+        "hltvRank": 17,
+        "probability": 0.7455893871590492,
+        "baseProbability": 0.7455893871590492
+      },
+      "teamB": {
+        "id": "10577",
+        "name": "SINNERS",
+        "hltvRank": 42,
+        "probability": 0.2544106128409508,
+        "baseProbability": 0.2544106128409508
+      },
+      "pick": {
+        "teamId": "12394",
+        "name": "BetBoom",
+        "probability": 0.7455893871590492,
+        "confidence": 0.6675019581703836
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.95,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "BetBoom",
+          "pickTeamId": "12394",
+          "probability": 0.7455893871590492,
+          "teamAProbability": 0.7455893871590492,
+          "teamBProbability": 0.2544106128409508,
+          "baseTeamAProbability": 0.7455893871590492,
+          "baseTeamBProbability": 0.2544106128409508,
+          "favoriteTeamId": "12394",
+          "favoriteName": "BetBoom",
+          "favoriteProbability": 0.7455893871590492,
+          "confidence": 0.6675019581703836,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "BetBoom",
+          "pickTeamId": "12394",
+          "probability": 0.7403743776529704,
+          "teamAProbability": 0.7403743776529704,
+          "teamBProbability": 0.25962562234702957,
+          "baseTeamAProbability": 0.7403743776529704,
+          "baseTeamBProbability": 0.25962562234702957,
+          "favoriteTeamId": "12394",
+          "favoriteName": "BetBoom",
+          "favoriteProbability": 0.7403743776529704,
+          "confidence": 0.6586364420100497,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "BetBoom",
+          "pickTeamId": "12394",
+          "probability": 0.9100687341911176,
+          "teamAProbability": 0.9100687341911176,
+          "teamBProbability": 0.08993126580888244,
+          "baseTeamAProbability": 0.9100687341911176,
+          "baseTeamBProbability": 0.08993126580888244,
+          "favoriteTeamId": "12394",
+          "favoriteName": "BetBoom",
+          "favoriteProbability": 0.9100687341911176,
+          "confidence": 0.9471168481248998,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533030",
+      "match": {
+        "id": "pandascore-1533030",
+        "pandaScoreId": 1533030,
+        "startTime": "2026-07-01T09:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "12467",
+        "name": "PARIVISION",
+        "hltvRank": 14,
+        "probability": 0.6848032286353681,
+        "baseProbability": 0.6848032286353681
+      },
+      "teamB": {
+        "id": "12474",
+        "name": "Alliance",
+        "hltvRank": 30,
+        "probability": 0.31519677136463187,
+        "baseProbability": 0.31519677136463187
+      },
+      "pick": {
+        "teamId": "12467",
+        "name": "PARIVISION",
+        "probability": 0.6848032286353681,
+        "confidence": 0.5641654886801258
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.94,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.6848032286353681,
+          "teamAProbability": 0.6848032286353681,
+          "teamBProbability": 0.31519677136463187,
+          "baseTeamAProbability": 0.6848032286353681,
+          "baseTeamBProbability": 0.31519677136463187,
+          "favoriteTeamId": "12467",
+          "favoriteName": "PARIVISION",
+          "favoriteProbability": 0.6848032286353681,
+          "confidence": 0.5641654886801258,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.6779793294649933,
+          "teamAProbability": 0.6779793294649933,
+          "teamBProbability": 0.3220206705350067,
+          "baseTeamAProbability": 0.6779793294649933,
+          "baseTeamBProbability": 0.3220206705350067,
+          "favoriteTeamId": "12467",
+          "favoriteName": "PARIVISION",
+          "favoriteProbability": 0.6779793294649933,
+          "confidence": 0.5525648600904886,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.8723017509003822,
+          "teamAProbability": 0.8723017509003822,
+          "teamBProbability": 0.1276982490996178,
+          "baseTeamAProbability": 0.8723017509003822,
+          "baseTeamBProbability": 0.1276982490996178,
+          "favoriteTeamId": "12467",
+          "favoriteName": "PARIVISION",
+          "favoriteProbability": 0.8723017509003822,
+          "confidence": 0.8829129765306497,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533033",
+      "match": {
+        "id": "pandascore-1533033",
+        "pandaScoreId": 1533033,
+        "startTime": "2026-07-01T10:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "11241",
+        "name": "B8",
+        "hltvRank": 16,
+        "probability": 0.672144288462092,
+        "baseProbability": 0.672144288462092
+      },
+      "teamB": {
+        "id": "9215",
+        "name": "MIBR",
+        "hltvRank": 18,
+        "probability": 0.32785571153790805,
+        "baseProbability": 0.32785571153790805
+      },
+      "pick": {
+        "teamId": "11241",
+        "name": "B8",
+        "probability": 0.672144288462092,
+        "confidence": 0.5426452903855563
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.97,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "B8",
+          "pickTeamId": "11241",
+          "probability": 0.672144288462092,
+          "teamAProbability": 0.672144288462092,
+          "teamBProbability": 0.32785571153790805,
+          "baseTeamAProbability": 0.672144288462092,
+          "baseTeamBProbability": 0.32785571153790805,
+          "favoriteTeamId": "11241",
+          "favoriteName": "B8",
+          "favoriteProbability": 0.672144288462092,
+          "confidence": 0.5426452903855563,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "B8",
+          "pickTeamId": "11241",
+          "probability": 0.5700437207220482,
+          "teamAProbability": 0.5700437207220482,
+          "teamBProbability": 0.42995627927795177,
+          "baseTeamAProbability": 0.5700437207220482,
+          "baseTeamBProbability": 0.42995627927795177,
+          "favoriteTeamId": "11241",
+          "favoriteName": "B8",
+          "favoriteProbability": 0.5700437207220482,
+          "confidence": 0.36907432522748196,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "B8",
+          "pickTeamId": "11241",
+          "probability": 0.6961268737596373,
+          "teamAProbability": 0.6961268737596373,
+          "teamBProbability": 0.30387312624036267,
+          "baseTeamAProbability": 0.6961268737596373,
+          "baseTeamBProbability": 0.30387312624036267,
+          "favoriteTeamId": "11241",
+          "favoriteName": "B8",
+          "favoriteProbability": 0.6961268737596373,
+          "confidence": 0.5834156853913834,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    },
+    {
+      "id": "pandascore-1533032",
+      "match": {
+        "id": "pandascore-1533032",
+        "pandaScoreId": 1533032,
+        "startTime": "2026-07-01T10:00:00Z",
+        "event": "XSE Pro League - Group Stage",
+        "format": "bo1",
+        "environment": "Online",
+        "status": "not_started"
+      },
+      "teamA": {
+        "id": "7532",
+        "name": "BIG",
+        "hltvRank": 28,
+        "probability": 0.7458359338214802,
+        "baseProbability": 0.7458359338214802
+      },
+      "teamB": {
+        "id": "8840",
+        "name": "Lynn Vision",
+        "hltvRank": 24,
+        "probability": 0.25416406617851983,
+        "baseProbability": 0.25416406617851983
+      },
+      "pick": {
+        "teamId": "7532",
+        "name": "BIG",
+        "probability": 0.7458359338214802,
+        "confidence": 0.6679210874965162
+      },
+      "model": {
+        "type": "mlp-binary",
+        "generatedAt": "2026-06-11T14:13:49.695Z",
+        "calibration": null,
+        "featureCoverage": {
+          "available": 61,
+          "total": 61,
+          "ratio": 1,
+          "missing": []
+        },
+        "dataQuality": {
+          "score": 0.96,
+          "label": "Wysoka"
+        }
+      },
+      "modelPredictions": [
+        {
+          "modelId": "openfield-nn",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-none.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:13:49.695Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.6469,
+              "logLoss": 0.622943,
+              "brier": 0.217055
+            },
+            "features": 61
+          },
+          "pick": "BIG",
+          "pickTeamId": "7532",
+          "probability": 0.7458359338214802,
+          "teamAProbability": 0.7458359338214802,
+          "teamBProbability": 0.25416406617851983,
+          "baseTeamAProbability": 0.7458359338214802,
+          "baseTeamBProbability": 0.25416406617851983,
+          "favoriteTeamId": "7532",
+          "favoriteName": "BIG",
+          "favoriteProbability": 0.7458359338214802,
+          "confidence": 0.6679210874965162,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-core",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-core.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-11T14:12:52.485Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 371,
+              "accuracy": 0.6522911051212938,
+              "logLoss": 0.6475604659731976,
+              "brier": 0.22793167442660667
+            },
+            "features": 22
+          },
+          "pick": "Lynn Vision",
+          "pickTeamId": "8840",
+          "probability": 0.5034707375623341,
+          "teamAProbability": 0.49652926243766593,
+          "teamBProbability": 0.5034707375623341,
+          "baseTeamAProbability": 0.49652926243766593,
+          "baseTeamBProbability": 0.5034707375623341,
+          "favoriteTeamId": "8840",
+          "favoriteName": "Lynn Vision",
+          "favoriteProbability": 0.5034707375623341,
+          "confidence": 0.25590025385596793,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        },
+        {
+          "modelId": "openfield-nn-strength",
+          "modelPath": "static/data/kaggle-variants/trained-model-openfield-nn-strength.json",
+          "modelVersion": {
+            "type": "mlp-binary",
+            "generatedAt": "2026-06-11T14:14:16.464Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 371,
+              "accuracy": 0.641509,
+              "logLoss": 0.629518,
+              "brier": 0.220909
+            },
+            "features": 64
+          },
+          "pick": "BIG",
+          "pickTeamId": "7532",
+          "probability": 0.6098887777274524,
+          "teamAProbability": 0.6098887777274524,
+          "teamBProbability": 0.3901112222725476,
+          "baseTeamAProbability": 0.6098887777274524,
+          "baseTeamBProbability": 0.3901112222725476,
+          "favoriteTeamId": "7532",
+          "favoriteName": "BIG",
+          "favoriteProbability": 0.6098887777274524,
+          "confidence": 0.4368109221366691,
+          "featureCoverage": {
+            "available": 63,
+            "total": 64,
+            "ratio": 0.984375,
+            "missing": [
+              "playerStrengthDiff"
+            ]
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null
+        }
+      ],
+      "market": null,
+      "history": null
+    }
+  ]
+}
