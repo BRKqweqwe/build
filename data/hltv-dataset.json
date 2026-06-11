@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-10T20:54:50.895Z",
+  "generatedAt": "2026-06-11T02:21:24.675Z",
   "source": {
-    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill",
+    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill+pandascore-fixtures+pandascore-fixtures",
     "maxRank": 100,
     "maxMatches": 80,
     "minStars": 0,
-    "rawMatches": 181,
+    "rawMatches": 197,
     "skipped": {
-      "missingOpponents": 134,
-      "unknownTeams": 19,
+      "missingOpponents": 137,
+      "unknownTeams": 30,
       "rank": 0,
       "duplicate": 0
     },
@@ -76,13 +76,13 @@
     "schedule": {
       "name": "pandascore",
       "apiBaseUrl": "https://api.pandascore.co",
-      "rawMatches": 181,
-      "matches": 28,
-      "mergedMatches": 36,
-      "keptExistingMatches": 8,
+      "rawMatches": 197,
+      "matches": 30,
+      "mergedMatches": 30,
+      "keptExistingMatches": 0,
       "skipped": {
-        "missingOpponents": 134,
-        "unknownTeams": 19,
+        "missingOpponents": 137,
+        "unknownTeams": 30,
         "rank": 0,
         "duplicate": 0
       }
@@ -101,7 +101,7 @@
     },
     "liveFormPatch": {
       "results": "static/data/model-results.json",
-      "applied": 0,
+      "applied": 3,
       "skipped": 13,
       "lookbackDays": 21,
       "maxRecentMatches": 12,
@@ -110,40 +110,19 @@
   },
   "matches": [
     {
-      "id": "pandascore-1517517",
-      "pandaScoreId": 1517517,
-      "startTime": "2026-06-10T14:00:00Z",
+      "id": "pandascore-1517518",
+      "pandaScoreId": 1517518,
+      "startTime": "2026-06-11T08:00:00Z",
       "event": "NODWIN Clutch Series - Group Stage",
       "format": "bo3",
       "environment": "Online",
       "status": "not_started",
-      "teamAId": "13808",
+      "teamAId": "13518",
       "teamBId": "13814",
-      "teamAName": "Walczaki",
+      "teamAName": "Acend",
       "teamBName": "INOX Division",
-      "rawTeamAName": "Walczaki",
+      "rawTeamAName": "Acend",
       "rawTeamBName": "INOX Division",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1519570",
-      "pandaScoreId": 1519570,
-      "startTime": "2026-06-10T17:00:00Z",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13501",
-      "teamBId": "12889",
-      "teamAName": "illwill",
-      "teamBName": "G2 Ares",
-      "rawTeamAName": "illwill",
-      "rawTeamBName": "G2 Ares",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
@@ -215,6 +194,27 @@
       }
     },
     {
+      "id": "pandascore-1517519",
+      "pandaScoreId": 1517519,
+      "startTime": "2026-06-11T11:00:00Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13237",
+      "teamBId": "12380",
+      "teamAName": "AM",
+      "teamBName": "CYBERSHOKE",
+      "rawTeamAName": "AM Gaming",
+      "rawTeamBName": "CYBERSHOKE Esports",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
       "id": "pandascore-1513127",
       "pandaScoreId": 1513127,
       "startTime": "2026-06-11T11:30:00Z",
@@ -249,6 +249,27 @@
       "teamBName": "FUT",
       "rawTeamAName": "Vitality",
       "rawTeamBName": "FUT Esports",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1517520",
+      "pandaScoreId": 1517520,
+      "startTime": "2026-06-11T14:00:00Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13214",
+      "teamBId": "13314",
+      "teamAName": "SPARTA",
+      "teamBName": "KOLESIE",
+      "rawTeamAName": "SPARTA",
+      "rawTeamBName": "KOLESIE",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
@@ -333,6 +354,48 @@
       "teamBName": "Spirit",
       "rawTeamAName": "Natus Vincere",
       "rawTeamBName": "Spirit",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1519575",
+      "pandaScoreId": 1519575,
+      "startTime": "2026-06-12T08:00:00Z",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "13617",
+      "teamBId": "12889",
+      "teamAName": "ex-RUBY",
+      "teamBName": "G2 Ares",
+      "rawTeamAName": "ex-RUBY",
+      "rawTeamBName": "G2 Ares",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1519576",
+      "pandaScoreId": 1519576,
+      "startTime": "2026-06-12T11:00:00Z",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "not_started",
+      "teamAId": "5378",
+      "teamBId": "13814",
+      "teamAName": "Virtus.pro",
+      "teamBName": "INOX Division",
+      "rawTeamAName": "Virtus.pro",
+      "rawTeamBName": "INOX Division",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
@@ -537,195 +600,6 @@
       "format": "bo1",
       "environment": "Online",
       "status": "canceled",
-      "teamAId": "6667",
-      "teamBId": "10577",
-      "teamAName": "FaZe",
-      "teamBName": "SINNERS",
-      "rawTeamAName": "FaZe",
-      "rawTeamBName": "Sinners",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1504761",
-      "pandaScoreId": 1504761,
-      "startTime": "2026-06-10T11:30:14Z",
-      "event": "European Pro League - Series 7 - Group C",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "running",
-      "teamAId": "12889",
-      "teamBId": "10960",
-      "teamAName": "G2 Ares",
-      "teamBName": "Young Ninjas",
-      "rawTeamAName": "G2 Ares",
-      "rawTeamBName": "Young Ninjas",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526528",
-      "pandaScoreId": 1526528,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "12394",
-      "teamBId": "11737",
-      "teamAName": "BetBoom",
-      "teamBName": "EYEBALLERS",
-      "rawTeamAName": "BetBoom Team",
-      "rawTeamBName": "EYEBALLERS",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526527",
-      "pandaScoreId": 1526527,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "11241",
-      "teamBId": "4411",
-      "teamAName": "B8",
-      "teamBName": "Ninjas in Pyjamas",
-      "rawTeamAName": "B8",
-      "rawTeamBName": "NIP",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526526",
-      "pandaScoreId": 1526526,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "9996",
-      "teamBId": "13355",
-      "teamAName": "9z",
-      "teamBName": "Nemesis",
-      "rawTeamAName": "9z",
-      "rawTeamBName": "Team Nemesis",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526525",
-      "pandaScoreId": 1526525,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "4914",
-      "teamBId": "12474",
-      "teamAName": "3DMAX",
-      "teamBName": "Alliance",
-      "rawTeamAName": "3DMAX",
-      "rawTeamBName": "Alliance",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526524",
-      "pandaScoreId": 1526524,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "11811",
-      "teamBId": "9215",
-      "teamAName": "Monte",
-      "teamBName": "MIBR",
-      "rawTeamAName": "Monte",
-      "rawTeamBName": "MIBR",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526523",
-      "pandaScoreId": 1526523,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "12467",
-      "teamBId": "7532",
-      "teamAName": "PARIVISION",
-      "teamBName": "BIG",
-      "rawTeamAName": "PARIVISION",
-      "rawTeamBName": "BIG",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526522",
-      "pandaScoreId": 1526522,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "12468",
-      "teamBId": "12376",
-      "teamAName": "Legacy",
-      "teamBName": "M80",
-      "rawTeamAName": "Legacy",
-      "rawTeamBName": "M80",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1526521",
-      "pandaScoreId": 1526521,
-      "startTime": "2026-07-01T07:00:00Z",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "status": "not_started",
       "teamAId": "6667",
       "teamBId": "10577",
       "teamAName": "FaZe",
@@ -14436,10 +14310,10 @@
       "name": "Walczaki",
       "hltvRank": 45,
       "elo": 1787,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 1,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.8,
+      "onlineWinRate": 0.8333333333333334,
       "lineupStability": 0.75,
       "players": [
         {
@@ -14708,6 +14582,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "NODWIN Clutch Series - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-walczaki-inox-division",
+          "pandaScoreId": 1517517,
+          "opponentId": "13814",
+          "opponentName": "INOX Division",
+          "opponentRank": 75,
+          "opponentElo": 1714,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-06-04T00:00:00.000Z",
           "opponentRank": 86,
@@ -18804,9 +18694,9 @@
       "hltvRating": 1.011,
       "mapsPlayed": 15,
       "recentWins": 2,
-      "recentLosses": 3,
+      "recentLosses": 4,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.4,
+      "onlineWinRate": 0.3333333333333333,
       "lineupStability": 0.75,
       "players": [
         {
@@ -19022,6 +18912,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "CCT Europe - Series #4 - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-illwill-g2-ares",
+          "pandaScoreId": 1519570,
+          "opponentId": "12889",
+          "opponentName": "G2 Ares",
+          "opponentRank": 88,
+          "opponentElo": 1804,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-28T00:00:00.000Z",
           "opponentRank": 81,
@@ -21206,9 +21112,9 @@
       "hltvRank": 75,
       "elo": 1714,
       "recentWins": 2,
-      "recentLosses": 0,
+      "recentLosses": 1,
       "lanWinRate": 0.5,
-      "onlineWinRate": 1,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -21489,6 +21395,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "NODWIN Clutch Series - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-walczaki-inox-division",
+          "pandaScoreId": 1517517,
+          "opponentId": "13808",
+          "opponentName": "Walczaki",
+          "opponentRank": 45,
+          "opponentElo": 1787,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-07T00:00:00.000Z",
           "opponentRank": 85,
@@ -24521,10 +24443,10 @@
       "name": "G2 Ares",
       "hltvRank": 88,
       "elo": 1804,
-      "recentWins": 0,
+      "recentWins": 4,
       "recentLosses": 0,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 1,
       "lineupStability": 0.75,
       "players": [
         {
@@ -24646,6 +24568,38 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "CCT Europe - Series #4 - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-illwill-g2-ares",
+          "pandaScoreId": 1519570,
+          "opponentId": "13501",
+          "opponentName": "illwill",
+          "opponentRank": 64,
+          "opponentElo": 1737,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "European Pro League - Series 7 - Group C",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-g2-ares-young-ninjas",
+          "pandaScoreId": 1504761,
+          "opponentId": "10960",
+          "opponentName": "Young Ninjas",
+          "opponentRank": 98,
+          "opponentElo": 1759,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-06-06T08:00:00.000Z",
           "opponentRank": 100,
           "opponentElo": 1900,
@@ -24667,7 +24621,7 @@
         }
       ],
       "hltvRating": 1.072,
-      "mapsPlayed": 0,
+      "mapsPlayed": 4,
       "source": {
         "csapi": {
           "rankingDate": "2026-06-06",
@@ -26644,10 +26598,10 @@
       "name": "Young Ninjas",
       "hltvRank": 98,
       "elo": 1759,
-      "recentWins": 0,
-      "recentLosses": 0,
+      "recentWins": 4,
+      "recentLosses": 1,
       "lanWinRate": 0.5,
-      "onlineWinRate": 0.5,
+      "onlineWinRate": 0.8,
       "lineupStability": 0.75,
       "players": [
         {
@@ -26763,6 +26717,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-10T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "European Pro League - Series 7 - Group C",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-10-g2-ares-young-ninjas",
+          "pandaScoreId": 1504761,
+          "opponentId": "12889",
+          "opponentName": "G2 Ares",
+          "opponentRank": 88,
+          "opponentElo": 1804,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-06T10:30:00.000Z",
           "opponentRank": 100,
           "opponentElo": 1900,
@@ -26804,7 +26774,7 @@
         }
       ],
       "hltvRating": 1.049,
-      "mapsPlayed": 0,
+      "mapsPlayed": 5,
       "source": {
         "csapi": {
           "rankingDate": "2026-06-06",

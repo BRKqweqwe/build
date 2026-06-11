@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T20:54:52.088Z",
+  "generatedAt": "2026-06-11T02:21:26.149Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -8,23 +8,51 @@
     "maxRank": 100
   },
   "summary": {
-    "matches": 25,
-    "high": 25,
+    "matches": 22,
+    "high": 22,
     "medium": 0,
     "low": 0,
-    "withAnyGaps": 4,
-    "impactedTeams": 2,
+    "withAnyGaps": 6,
+    "impactedTeams": 4,
     "gapCounts": {
-      "playerKast": 4,
-      "playerAdr": 1
+      "recentForm": 3,
+      "playerKast": 5,
+      "playerAdr": 3
     }
   },
   "priorityTeams": [
     {
+      "id": "13814",
+      "name": "INOX Division",
+      "rank": 75,
+      "matches": 2,
+      "worstScore": 0.9,
+      "gaps": [
+        "recentForm"
+      ],
+      "recommendedCommands": [
+        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
+      ]
+    },
+    {
+      "id": "5378",
+      "name": "Virtus.pro",
+      "rank": 40,
+      "matches": 2,
+      "worstScore": 0.91,
+      "gaps": [
+        "playerAdr",
+        "playerKast"
+      ],
+      "recommendedCommands": [
+        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
+      ]
+    },
+    {
       "id": "12394",
       "name": "BetBoom",
       "rank": 17,
-      "matches": 3,
+      "matches": 2,
       "worstScore": 0.985,
       "gaps": [
         "playerKast"
@@ -34,21 +62,92 @@
       ]
     },
     {
-      "id": "5378",
-      "name": "Virtus.pro",
-      "rank": 40,
+      "id": "12889",
+      "name": "G2 Ares",
+      "rank": 88,
       "matches": 1,
-      "worstScore": 0.91,
+      "worstScore": 0.8733,
       "gaps": [
         "playerAdr",
-        "playerKast"
+        "playerKast",
+        "recentForm"
       ],
       "recommendedCommands": [
+        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
     }
   ],
   "matches": [
+    {
+      "id": "pandascore-1517518",
+      "pandaScoreId": 1517518,
+      "startTime": "2026-06-11T08:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "teamA": {
+        "id": "13518",
+        "name": "Acend",
+        "rank": 61,
+        "score": 1,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 6,
+          "bo3Linked": true
+        }
+      },
+      "teamB": {
+        "id": "13814",
+        "name": "INOX Division",
+        "rank": 75,
+        "score": 0.9,
+        "label": "high",
+        "gaps": [
+          "recentForm"
+        ],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 3,
+          "bo3Linked": true
+        }
+      },
+      "score": 0.95,
+      "label": "high",
+      "gaps": [
+        "recentForm"
+      ],
+      "livePrediction": {
+        "pick": "INOX Division",
+        "probability": 0.5379,
+        "models": 6,
+        "withMarket": false
+      },
+      "decision": {
+        "tier": "skip",
+        "pick": "INOX Division",
+        "probability": 0.5019,
+        "agreement": "4/6"
+      },
+      "recommendedCommands": [
+        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
+      ]
+    },
     {
       "id": "pandascore-1513126",
       "pandaScoreId": 1513126,
@@ -104,7 +203,7 @@
       ],
       "livePrediction": {
         "pick": "The MongolZ",
-        "probability": 0.5963,
+        "probability": 0.5964,
         "models": 6,
         "withMarket": true
       },
@@ -169,7 +268,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.5817,
+        "probability": 0.5818,
         "models": 6,
         "withMarket": true
       },
@@ -238,7 +337,7 @@
       ],
       "livePrediction": {
         "pick": "KOLESIE",
-        "probability": 0.5236,
+        "probability": 0.5237,
         "models": 6,
         "withMarket": true
       },
@@ -251,6 +350,69 @@
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
+    },
+    {
+      "id": "pandascore-1517519",
+      "pandaScoreId": 1517519,
+      "startTime": "2026-06-11T11:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "teamA": {
+        "id": "13237",
+        "name": "AM",
+        "rank": 73,
+        "score": 1,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 6,
+          "bo3Linked": true
+        }
+      },
+      "teamB": {
+        "id": "12380",
+        "name": "CYBERSHOKE",
+        "rank": 60,
+        "score": 1,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 6,
+          "bo3Linked": true
+        }
+      },
+      "score": 1,
+      "label": "high",
+      "gaps": [],
+      "livePrediction": {
+        "pick": "CYBERSHOKE",
+        "probability": 0.5191,
+        "models": 6,
+        "withMarket": true
+      },
+      "decision": {
+        "tier": "skip",
+        "pick": "CYBERSHOKE",
+        "probability": 0.524,
+        "agreement": "5/6"
+      },
+      "recommendedCommands": []
     },
     {
       "id": "pandascore-1513127",
@@ -303,7 +465,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "MOUZ",
-        "probability": 0.5081,
+        "probability": 0.5082,
         "models": 6,
         "withMarket": true
       },
@@ -379,6 +541,69 @@
       "recommendedCommands": []
     },
     {
+      "id": "pandascore-1517520",
+      "pandaScoreId": 1517520,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "teamA": {
+        "id": "13214",
+        "name": "SPARTA",
+        "rank": 93,
+        "score": 0.9667,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 5,
+          "bo3Linked": true
+        }
+      },
+      "teamB": {
+        "id": "13314",
+        "name": "KOLESIE",
+        "rank": 86,
+        "score": 0.9667,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 5,
+          "bo3Linked": true
+        }
+      },
+      "score": 0.9667,
+      "label": "high",
+      "gaps": [],
+      "livePrediction": {
+        "pick": "SPARTA",
+        "probability": 0.5118,
+        "models": 6,
+        "withMarket": true
+      },
+      "decision": {
+        "tier": "skip",
+        "pick": "SPARTA",
+        "probability": 0.4819,
+        "agreement": "3/6"
+      },
+      "recommendedCommands": []
+    },
+    {
       "id": "pandascore-1513123",
       "pandaScoreId": 1513123,
       "startTime": "2026-06-11T14:00:00Z",
@@ -429,7 +654,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FURIA",
-        "probability": 0.5421,
+        "probability": 0.5422,
         "models": 6,
         "withMarket": true
       },
@@ -492,14 +717,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Falcons",
-        "probability": 0.6202,
+        "probability": 0.6203,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Falcons",
-        "probability": 0.6099,
+        "probability": 0.6098,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -555,14 +780,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Aurora",
-        "probability": 0.5637,
+        "probability": 0.5638,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Aurora",
-        "probability": 0.5784,
+        "probability": 0.5783,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -618,17 +843,166 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Natus Vincere",
-        "probability": 0.5821,
+        "probability": 0.5822,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "Natus Vincere",
-        "probability": 0.5104,
+        "probability": 0.5105,
         "agreement": "3/6"
       },
       "recommendedCommands": []
+    },
+    {
+      "id": "pandascore-1519575",
+      "pandaScoreId": 1519575,
+      "startTime": "2026-06-12T08:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "teamA": {
+        "id": "13617",
+        "name": "ex-RUBY",
+        "rank": 75,
+        "score": 1,
+        "label": "high",
+        "gaps": [],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 7,
+          "bo3Linked": true
+        }
+      },
+      "teamB": {
+        "id": "12889",
+        "name": "G2 Ares",
+        "rank": 88,
+        "score": 0.8733,
+        "label": "high",
+        "gaps": [
+          "playerAdr",
+          "playerKast",
+          "recentForm"
+        ],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 3,
+          "playerKast": 3,
+          "maps": 7,
+          "recentMatches": 4,
+          "bo3Linked": true
+        }
+      },
+      "score": 0.9366,
+      "label": "high",
+      "gaps": [
+        "playerAdr",
+        "playerKast",
+        "recentForm"
+      ],
+      "livePrediction": {
+        "pick": "ex-RUBY",
+        "probability": 0.5164,
+        "models": 6,
+        "withMarket": false
+      },
+      "decision": {
+        "tier": "skip",
+        "pick": "G2 Ares",
+        "probability": 0.5537,
+        "agreement": "4/6"
+      },
+      "recommendedCommands": [
+        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
+        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
+      ]
+    },
+    {
+      "id": "pandascore-1519576",
+      "pandaScoreId": 1519576,
+      "startTime": "2026-06-12T11:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "teamA": {
+        "id": "5378",
+        "name": "Virtus.pro",
+        "rank": 40,
+        "score": 0.91,
+        "label": "high",
+        "gaps": [
+          "playerAdr",
+          "playerKast"
+        ],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 4,
+          "playerKast": 0,
+          "maps": 7,
+          "recentMatches": 6,
+          "bo3Linked": true
+        }
+      },
+      "teamB": {
+        "id": "13814",
+        "name": "INOX Division",
+        "rank": 75,
+        "score": 0.9,
+        "label": "high",
+        "gaps": [
+          "recentForm"
+        ],
+        "metrics": {
+          "hltvRating": true,
+          "players": 5,
+          "playerIds": 5,
+          "playerRatings": 5,
+          "playerAdr": 5,
+          "playerKast": 5,
+          "maps": 7,
+          "recentMatches": 3,
+          "bo3Linked": true
+        }
+      },
+      "score": 0.905,
+      "label": "high",
+      "gaps": [
+        "playerAdr",
+        "playerKast",
+        "recentForm"
+      ],
+      "livePrediction": {
+        "pick": "INOX Division",
+        "probability": 0.5662,
+        "models": 6,
+        "withMarket": false
+      },
+      "decision": {
+        "tier": "skip",
+        "pick": "Virtus.pro",
+        "probability": 0.5049,
+        "agreement": "3/6"
+      },
+      "recommendedCommands": [
+        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
+        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
+      ]
     },
     {
       "id": "pandascore-1533027",
@@ -681,7 +1055,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "3DMAX",
-        "probability": 0.6059,
+        "probability": 0.606,
         "models": 6,
         "withMarket": false
       },
@@ -744,525 +1118,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.5638,
+        "probability": 0.5639,
         "models": 6,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "FaZe",
-        "probability": 0.5317,
+        "probability": 0.5318,
         "agreement": "5/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526528",
-      "pandaScoreId": 1526528,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "12394",
-        "name": "BetBoom",
-        "rank": 17,
-        "score": 0.985,
-        "label": "high",
-        "gaps": [
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 4,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "11737",
-        "name": "EYEBALLERS",
-        "rank": 36,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9758,
-      "label": "high",
-      "gaps": [
-        "playerKast"
-      ],
-      "livePrediction": {
-        "pick": "BetBoom",
-        "probability": 0.6066,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "BetBoom",
-        "probability": 0.6114,
-        "agreement": "6/6"
-      },
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "pandascore-1526527",
-      "pandaScoreId": 1526527,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "11241",
-        "name": "B8",
-        "rank": 16,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "4411",
-        "name": "Ninjas in Pyjamas",
-        "rank": 23,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9833,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "B8",
-        "probability": 0.6472,
-        "models": 6,
-        "withMarket": false
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "B8",
-        "probability": 0.5928,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526526",
-      "pandaScoreId": 1526526,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "9996",
-        "name": "9z",
-        "rank": 15,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "13355",
-        "name": "Nemesis",
-        "rank": 34,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9833,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "9z",
-        "probability": 0.6416,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "9z",
-        "probability": 0.6178,
-        "agreement": "6/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526525",
-      "pandaScoreId": 1526525,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "4914",
-        "name": "3DMAX",
-        "rank": 27,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12474",
-        "name": "Alliance",
-        "rank": 30,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9667,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "3DMAX",
-        "probability": 0.576,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "3DMAX",
-        "probability": 0.5267,
-        "agreement": "3/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526524",
-      "pandaScoreId": 1526524,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "11811",
-        "name": "Monte",
-        "rank": 21,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "9215",
-        "name": "MIBR",
-        "rank": 18,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 1,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "Monte",
-        "probability": 0.5703,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "MIBR",
-        "probability": 0.5138,
-        "agreement": "4/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526523",
-      "pandaScoreId": 1526523,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "12467",
-        "name": "PARIVISION",
-        "rank": 14,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "7532",
-        "name": "BIG",
-        "rank": 28,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9833,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "PARIVISION",
-        "probability": 0.5892,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "PARIVISION",
-        "probability": 0.5749,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526522",
-      "pandaScoreId": 1526522,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "12468",
-        "name": "Legacy",
-        "rank": 5,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12376",
-        "name": "M80",
-        "rank": 25,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 1,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "Legacy",
-        "probability": 0.6433,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "strong",
-        "pick": "Legacy",
-        "probability": 0.6674,
-        "agreement": "6/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1526521",
-      "pandaScoreId": 1526521,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "format": "bo1",
-      "environment": "Online",
-      "teamA": {
-        "id": "6667",
-        "name": "FaZe",
-        "rank": 22,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "10577",
-        "name": "SINNERS",
-        "rank": 42,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9667,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "FaZe",
-        "probability": 0.6713,
-        "models": 6,
-        "withMarket": false
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "FaZe",
-        "probability": 0.6013,
-        "agreement": "6/6"
       },
       "recommendedCommands": []
     },
@@ -1317,7 +1181,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.5991,
+        "probability": 0.5992,
         "models": 6,
         "withMarket": false
       },
@@ -1447,14 +1311,14 @@
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.711,
+        "probability": 0.7111,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "strong",
         "pick": "BetBoom",
-        "probability": 0.657,
+        "probability": 0.6571,
         "agreement": "6/6"
       },
       "recommendedCommands": [
@@ -1512,14 +1376,14 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.6347,
+        "probability": 0.6348,
         "models": 6,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.6085,
+        "probability": 0.6086,
         "agreement": "6/6"
       },
       "recommendedCommands": []
@@ -1575,7 +1439,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.6009,
+        "probability": 0.601,
         "models": 6,
         "withMarket": false
       },
@@ -1638,7 +1502,7 @@
       "gaps": [],
       "livePrediction": {
         "pick": "BIG",
-        "probability": 0.625,
+        "probability": 0.6251,
         "models": 6,
         "withMarket": false
       },
@@ -1653,6 +1517,7 @@
   ],
   "recommendedPipeline": [
     "pnpm collect:pandascore:fixtures -- --pages=5 --per-page=100 --max-rank=100 --max-matches=100",
+    "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
     "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true",
     "pnpm build:live-predictions -- --max-rank=100",
     "pnpm build:live-decisions",

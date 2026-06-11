@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-10T20:54:51.811Z",
+  "generatedAt": "2026-06-11T02:21:25.807Z",
   "source": {
     "live": "static/data/live-predictions.json",
     "results": "static/data/model-results.json",
@@ -10,14 +10,147 @@
     "minCoverage": 0.85
   },
   "summary": {
-    "total": 25,
-    "strong": 3,
-    "lean": 12,
-    "skip": 10,
-    "withMarket": 16,
-    "marketDisagreements": 3
+    "total": 22,
+    "strong": 2,
+    "lean": 7,
+    "skip": 13,
+    "withMarket": 12,
+    "marketDisagreements": 2
   },
   "decisions": [
+    {
+      "id": "pandascore-1517518",
+      "matchId": "pandascore-1517518",
+      "pandaScoreId": 1517518,
+      "startTime": "2026-06-11T08:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "teamA": "Acend",
+      "teamB": "INOX Division",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "INOX Division",
+        "probability": 0.501942,
+        "margin": 0.001942,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "4/6",
+          "teamA": 2,
+          "teamB": 4
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.022512,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "INOX Division",
+          "probability": 0.537894,
+          "teamAProbability": 0.462106,
+          "teamBProbability": 0.537894,
+          "margin": 0.037894,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "INOX Division",
+          "probability": 0.500385,
+          "teamAProbability": 0.499615,
+          "teamBProbability": 0.500385,
+          "margin": 0.000385,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "INOX Division",
+          "probability": 0.51655,
+          "teamAProbability": 0.48345,
+          "teamBProbability": 0.51655,
+          "margin": 0.01655,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "Acend",
+          "probability": 0.535835,
+          "teamAProbability": 0.535835,
+          "teamBProbability": 0.464165,
+          "margin": 0.035835,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "INOX Division",
+          "probability": 0.500918,
+          "teamAProbability": 0.499082,
+          "teamBProbability": 0.500918,
+          "margin": 0.000918,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "Acend",
+          "probability": 0.508262,
+          "teamAProbability": 0.508262,
+          "teamBProbability": 0.491738,
+          "margin": 0.008262,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
     {
       "id": "pandascore-1513126",
       "matchId": "pandascore-1513126",
@@ -31,8 +164,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "The MongolZ",
-        "probability": 0.574698,
-        "margin": 0.074698,
+        "probability": 0.574742,
+        "margin": 0.074742,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -40,7 +173,7 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.039605,
+        "probabilitySpread": 0.039592,
         "reasons": [
           "market_edge"
         ]
@@ -49,7 +182,7 @@
         "favorite": "The MongolZ",
         "teamAProbability": 0.515,
         "teamBProbability": 0.485,
-        "edge": 0.059698,
+        "edge": 0.059742,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-mglz-bb3-2026-06-11"
       },
@@ -58,10 +191,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "The MongolZ",
-          "probability": 0.596344,
-          "teamAProbability": 0.596344,
-          "teamBProbability": 0.403656,
-          "margin": 0.096344,
+          "probability": 0.596421,
+          "teamAProbability": 0.596421,
+          "teamBProbability": 0.403579,
+          "margin": 0.096421,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -69,16 +202,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.081344
+          "marketEdge": 0.081421
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "The MongolZ",
-          "probability": 0.525326,
-          "teamAProbability": 0.525326,
-          "teamBProbability": 0.474674,
-          "margin": 0.025326,
+          "probability": 0.52547,
+          "teamAProbability": 0.52547,
+          "teamBProbability": 0.47453,
+          "margin": 0.02547,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -86,7 +219,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.010326
+          "marketEdge": 0.01047
         },
         {
           "modelId": "ensemble",
@@ -109,10 +242,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "The MongolZ",
-          "probability": 0.618436,
-          "teamAProbability": 0.618436,
-          "teamBProbability": 0.381564,
-          "margin": 0.118436,
+          "probability": 0.618404,
+          "teamAProbability": 0.618404,
+          "teamBProbability": 0.381596,
+          "margin": 0.118404,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -120,7 +253,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.103436
+          "marketEdge": 0.103404
         },
         {
           "modelId": "archive",
@@ -143,10 +276,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "The MongolZ",
-          "probability": 0.623035,
-          "teamAProbability": 0.623035,
-          "teamBProbability": 0.376965,
-          "margin": 0.123035,
+          "probability": 0.62311,
+          "teamAProbability": 0.62311,
+          "teamBProbability": 0.37689,
+          "margin": 0.12311,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -154,7 +287,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.108035
+          "marketEdge": 0.10811
         }
       ]
     },
@@ -171,8 +304,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "PARIVISION",
-        "probability": 0.538747,
-        "margin": 0.038747,
+        "probability": 0.538695,
+        "margin": 0.038695,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -180,16 +313,16 @@
           "teamB": 1
         },
         "coverage": 1,
-        "probabilitySpread": 0.055664,
+        "probabilitySpread": 0.055658,
         "reasons": [
           "low_confidence"
         ]
       },
       "market": {
         "favorite": "PARIVISION",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "edge": 0.003746,
+        "teamAProbability": 0.545,
+        "teamBProbability": 0.455,
+        "edge": -0.006305,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-prv-9z-2026-06-11"
       },
@@ -198,10 +331,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "PARIVISION",
-          "probability": 0.581677,
-          "teamAProbability": 0.581677,
-          "teamBProbability": 0.418323,
-          "margin": 0.081677,
+          "probability": 0.581755,
+          "teamAProbability": 0.581755,
+          "teamBProbability": 0.418245,
+          "margin": 0.081755,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -209,16 +342,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.046677
+          "marketEdge": 0.036755
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "9z",
-          "probability": 0.574156,
-          "teamAProbability": 0.425844,
-          "teamBProbability": 0.574156,
-          "margin": 0.074156,
+          "probability": 0.574017,
+          "teamAProbability": 0.425983,
+          "teamBProbability": 0.574017,
+          "margin": 0.074017,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -226,7 +359,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.109156
+          "marketEdge": 0.119017
         },
         {
           "modelId": "ensemble",
@@ -243,16 +376,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.00907
+          "marketEdge": -0.00093
         },
         {
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "PARIVISION",
-          "probability": 0.529302,
-          "teamAProbability": 0.529302,
-          "teamBProbability": 0.470698,
-          "margin": 0.029302,
+          "probability": 0.528699,
+          "teamAProbability": 0.528699,
+          "teamBProbability": 0.471301,
+          "margin": 0.028699,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -260,7 +393,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.005698
+          "marketEdge": -0.016301
         },
         {
           "modelId": "archive",
@@ -277,16 +410,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.016935
+          "marketEdge": 0.006935
         },
         {
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "PARIVISION",
-          "probability": 0.599651,
-          "teamAProbability": 0.599651,
-          "teamBProbability": 0.400349,
-          "margin": 0.099651,
+          "probability": 0.599727,
+          "teamAProbability": 0.599727,
+          "teamBProbability": 0.400273,
+          "margin": 0.099727,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -294,7 +427,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.064651
+          "marketEdge": 0.054727
         }
       ]
     },
@@ -311,8 +444,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "Virtus.pro",
-        "probability": 0.578236,
-        "margin": 0.078236,
+        "probability": 0.57822,
+        "margin": 0.07822,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -320,14 +453,14 @@
           "teamB": 5
         },
         "coverage": 1,
-        "probabilitySpread": 0.078171,
+        "probabilitySpread": 0.078262,
         "reasons": []
       },
       "market": {
         "favorite": "Virtus.pro",
         "teamAProbability": 0.355,
         "teamBProbability": 0.645,
-        "edge": -0.066764,
+        "edge": -0.06678,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-kol-vp-2026-06-11"
       },
@@ -336,10 +469,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "KOLESIE",
-          "probability": 0.523622,
-          "teamAProbability": 0.523622,
-          "teamBProbability": 0.476378,
-          "margin": 0.023622,
+          "probability": 0.523702,
+          "teamAProbability": 0.523702,
+          "teamBProbability": 0.476298,
+          "margin": 0.023702,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -347,16 +480,16 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.168622
+          "marketEdge": 0.168702
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Virtus.pro",
-          "probability": 0.50761,
-          "teamAProbability": 0.49239,
-          "teamBProbability": 0.50761,
-          "margin": 0.00761,
+          "probability": 0.507467,
+          "teamAProbability": 0.492533,
+          "teamBProbability": 0.507467,
+          "margin": 0.007467,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -364,7 +497,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.13739
+          "marketEdge": -0.137533
         },
         {
           "modelId": "ensemble",
@@ -387,10 +520,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Virtus.pro",
-          "probability": 0.673943,
-          "teamAProbability": 0.326057,
-          "teamBProbability": 0.673943,
-          "margin": 0.173943,
+          "probability": 0.674149,
+          "teamAProbability": 0.325851,
+          "teamBProbability": 0.674149,
+          "margin": 0.174149,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -398,7 +531,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.028943
+          "marketEdge": 0.029149
         },
         {
           "modelId": "archive",
@@ -421,10 +554,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Virtus.pro",
-          "probability": 0.521764,
-          "teamAProbability": 0.478236,
-          "teamBProbability": 0.521764,
-          "margin": 0.021764,
+          "probability": 0.521685,
+          "teamAProbability": 0.478315,
+          "teamBProbability": 0.521685,
+          "margin": 0.021685,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -432,7 +565,147 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.123236
+          "marketEdge": -0.123315
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1517519",
+      "matchId": "pandascore-1517519",
+      "pandaScoreId": 1517519,
+      "startTime": "2026-06-11T11:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "teamA": "AM",
+      "teamB": "CYBERSHOKE",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "CYBERSHOKE",
+        "probability": 0.524031,
+        "margin": 0.024031,
+        "agreement": {
+          "ratio": 0.833333,
+          "votes": "5/6",
+          "teamA": 1,
+          "teamB": 5
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.022885,
+        "reasons": [
+          "low_confidence"
+        ]
+      },
+      "market": {
+        "favorite": "CYBERSHOKE",
+        "teamAProbability": 0.34,
+        "teamBProbability": 0.66,
+        "edge": -0.135969,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-am-cs1-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "CYBERSHOKE",
+          "probability": 0.519098,
+          "teamAProbability": 0.480902,
+          "teamBProbability": 0.519098,
+          "margin": 0.019098,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.140902
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "CYBERSHOKE",
+          "probability": 0.532855,
+          "teamAProbability": 0.467145,
+          "teamBProbability": 0.532855,
+          "margin": 0.032855,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.127145
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "CYBERSHOKE",
+          "probability": 0.554614,
+          "teamAProbability": 0.445386,
+          "teamBProbability": 0.554614,
+          "margin": 0.054614,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.105386
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "CYBERSHOKE",
+          "probability": 0.514222,
+          "teamAProbability": 0.485778,
+          "teamBProbability": 0.514222,
+          "margin": 0.014222,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.145778
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "CYBERSHOKE",
+          "probability": 0.540892,
+          "teamAProbability": 0.459108,
+          "teamBProbability": 0.540892,
+          "margin": 0.040892,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.119108
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "AM",
+          "probability": 0.517493,
+          "teamAProbability": 0.517493,
+          "teamBProbability": 0.482507,
+          "margin": 0.017493,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.177493
         }
       ]
     },
@@ -449,8 +722,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "MOUZ",
-        "probability": 0.479475,
-        "margin": 0.020525,
+        "probability": 0.479518,
+        "margin": 0.020482,
         "agreement": {
           "ratio": 0.5,
           "votes": "3/6",
@@ -458,7 +731,7 @@
           "teamB": 3
         },
         "coverage": 1,
-        "probabilitySpread": 0.044037,
+        "probabilitySpread": 0.044059,
         "reasons": [
           "model_disagreement"
         ]
@@ -467,7 +740,7 @@
         "favorite": "MOUZ",
         "teamAProbability": 0.555,
         "teamBProbability": 0.445,
-        "edge": -0.075525,
+        "edge": -0.075482,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-mouz-lgc-2026-06-11"
       },
@@ -476,10 +749,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "MOUZ",
-          "probability": 0.508146,
-          "teamAProbability": 0.508146,
-          "teamBProbability": 0.491854,
-          "margin": 0.008146,
+          "probability": 0.508227,
+          "teamAProbability": 0.508227,
+          "teamBProbability": 0.491773,
+          "margin": 0.008227,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -487,16 +760,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.046854
+          "marketEdge": -0.046773
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Legacy",
-          "probability": 0.54967,
-          "teamAProbability": 0.45033,
-          "teamBProbability": 0.54967,
-          "margin": 0.04967,
+          "probability": 0.549529,
+          "teamAProbability": 0.450471,
+          "teamBProbability": 0.549529,
+          "margin": 0.049529,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -504,7 +777,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.10467
+          "marketEdge": 0.104529
         },
         {
           "modelId": "ensemble",
@@ -527,10 +800,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Legacy",
-          "probability": 0.603948,
-          "teamAProbability": 0.396052,
-          "teamBProbability": 0.603948,
-          "margin": 0.103948,
+          "probability": 0.603992,
+          "teamAProbability": 0.396008,
+          "teamBProbability": 0.603992,
+          "margin": 0.103992,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -538,7 +811,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.158948
+          "marketEdge": 0.158992
         },
         {
           "modelId": "archive",
@@ -561,10 +834,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "MOUZ",
-          "probability": 0.52796,
-          "teamAProbability": 0.52796,
-          "teamBProbability": 0.47204,
-          "margin": 0.02796,
+          "probability": 0.52804,
+          "teamAProbability": 0.52804,
+          "teamBProbability": 0.47196,
+          "margin": 0.02804,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -572,7 +845,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.02704
+          "marketEdge": -0.02696
         }
       ]
     },
@@ -589,8 +862,8 @@
         "tier": "strong",
         "label": "Strong pick",
         "pick": "Vitality",
-        "probability": 0.66137,
-        "margin": 0.16137,
+        "probability": 0.661362,
+        "margin": 0.161362,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -598,14 +871,14 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.021756,
+        "probabilitySpread": 0.021799,
         "reasons": []
       },
       "market": {
         "favorite": "Vitality",
         "teamAProbability": 0.815,
         "teamBProbability": 0.185,
-        "edge": -0.15363,
+        "edge": -0.153638,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-vit-fut-2026-06-11"
       },
@@ -614,10 +887,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "Vitality",
-          "probability": 0.658751,
-          "teamAProbability": 0.658751,
-          "teamBProbability": 0.341249,
-          "margin": 0.158751,
+          "probability": 0.658824,
+          "teamAProbability": 0.658824,
+          "teamBProbability": 0.341176,
+          "margin": 0.158824,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -625,16 +898,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.156249
+          "marketEdge": -0.156176
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Vitality",
-          "probability": 0.685973,
-          "teamAProbability": 0.685973,
-          "teamBProbability": 0.314027,
-          "margin": 0.185973,
+          "probability": 0.68609,
+          "teamAProbability": 0.68609,
+          "teamBProbability": 0.31391,
+          "margin": 0.18609,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -642,7 +915,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.129027
+          "marketEdge": -0.12891
         },
         {
           "modelId": "ensemble",
@@ -665,10 +938,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Vitality",
-          "probability": 0.658734,
-          "teamAProbability": 0.658734,
-          "teamBProbability": 0.341266,
-          "margin": 0.158734,
+          "probability": 0.658427,
+          "teamAProbability": 0.658427,
+          "teamBProbability": 0.341573,
+          "margin": 0.158427,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -676,7 +949,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.156266
+          "marketEdge": -0.156573
         },
         {
           "modelId": "archive",
@@ -699,10 +972,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Vitality",
-          "probability": 0.691164,
-          "teamAProbability": 0.691164,
-          "teamBProbability": 0.308836,
-          "margin": 0.191164,
+          "probability": 0.691232,
+          "teamAProbability": 0.691232,
+          "teamBProbability": 0.308768,
+          "margin": 0.191232,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -710,7 +983,148 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.123836
+          "marketEdge": -0.123768
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1517520",
+      "matchId": "pandascore-1517520",
+      "pandaScoreId": 1517520,
+      "startTime": "2026-06-11T14:00:00Z",
+      "status": "not_started",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "teamA": "SPARTA",
+      "teamB": "KOLESIE",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "SPARTA",
+        "probability": 0.481875,
+        "margin": 0.018125,
+        "agreement": {
+          "ratio": 0.5,
+          "votes": "3/6",
+          "teamA": 3,
+          "teamB": 3
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.041091,
+        "reasons": [
+          "model_disagreement",
+          "market_disagreement"
+        ]
+      },
+      "market": {
+        "favorite": "KOLESIE",
+        "teamAProbability": 0.445,
+        "teamBProbability": 0.555,
+        "edge": 0.036875,
+        "disagreement": true,
+        "url": "https://polymarket.com/event/cs2-sparta-kol-2026-06-11"
+      },
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "SPARTA",
+          "probability": 0.511792,
+          "teamAProbability": 0.511792,
+          "teamBProbability": 0.488208,
+          "margin": 0.011792,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.066792
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "KOLESIE",
+          "probability": 0.586573,
+          "teamAProbability": 0.413427,
+          "teamBProbability": 0.586573,
+          "margin": 0.086573,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.031573
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "SPARTA",
+          "probability": 0.50005,
+          "teamAProbability": 0.50005,
+          "teamBProbability": 0.49995,
+          "margin": 0.00005,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.05505
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "KOLESIE",
+          "probability": 0.560733,
+          "teamAProbability": 0.439267,
+          "teamBProbability": 0.560733,
+          "margin": 0.060733,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0.005733
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "KOLESIE",
+          "probability": 0.501182,
+          "teamAProbability": 0.498818,
+          "teamBProbability": 0.501182,
+          "margin": 0.001182,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": -0.053818
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "SPARTA",
+          "probability": 0.527897,
+          "teamAProbability": 0.527897,
+          "teamBProbability": 0.472103,
+          "margin": 0.027897,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": true,
+          "marketEdge": 0.082897
         }
       ]
     },
@@ -727,8 +1141,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "FURIA",
-        "probability": 0.54351,
-        "margin": 0.04351,
+        "probability": 0.543522,
+        "margin": 0.043522,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -736,16 +1150,16 @@
           "teamB": 1
         },
         "coverage": 1,
-        "probabilitySpread": 0.028507,
+        "probabilitySpread": 0.028543,
         "reasons": [
           "low_confidence"
         ]
       },
       "market": {
         "favorite": "FURIA",
-        "teamAProbability": 0.735,
-        "teamBProbability": 0.265,
-        "edge": -0.19149,
+        "teamAProbability": 0.745,
+        "teamBProbability": 0.255,
+        "edge": -0.201478,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-furia-b8-2026-06-11"
       },
@@ -754,10 +1168,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "FURIA",
-          "probability": 0.542127,
-          "teamAProbability": 0.542127,
-          "teamBProbability": 0.457873,
-          "margin": 0.042127,
+          "probability": 0.542207,
+          "teamAProbability": 0.542207,
+          "teamBProbability": 0.457793,
+          "margin": 0.042207,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -765,16 +1179,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.192873
+          "marketEdge": -0.202793
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "FURIA",
-          "probability": 0.587201,
-          "teamAProbability": 0.587201,
-          "teamBProbability": 0.412799,
-          "margin": 0.087201,
+          "probability": 0.58734,
+          "teamAProbability": 0.58734,
+          "teamBProbability": 0.41266,
+          "margin": 0.08734,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -782,7 +1196,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.147799
+          "marketEdge": -0.15766
         },
         {
           "modelId": "ensemble",
@@ -799,16 +1213,16 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.235261
+          "marketEdge": 0.245261
         },
         {
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "FURIA",
-          "probability": 0.549682,
-          "teamAProbability": 0.549682,
-          "teamBProbability": 0.450318,
-          "margin": 0.049682,
+          "probability": 0.549456,
+          "teamAProbability": 0.549456,
+          "teamBProbability": 0.450544,
+          "margin": 0.049456,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -816,7 +1230,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.185318
+          "marketEdge": -0.195544
         },
         {
           "modelId": "archive",
@@ -833,16 +1247,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.216206
+          "marketEdge": -0.226206
         },
         {
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "FURIA",
-          "probability": 0.563516,
-          "teamAProbability": 0.563516,
-          "teamBProbability": 0.436484,
-          "margin": 0.063516,
+          "probability": 0.563595,
+          "teamAProbability": 0.563595,
+          "teamBProbability": 0.436405,
+          "margin": 0.063595,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -850,7 +1264,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.171484
+          "marketEdge": -0.181405
         }
       ]
     },
@@ -867,8 +1281,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "Falcons",
-        "probability": 0.609865,
-        "margin": 0.109865,
+        "probability": 0.60983,
+        "margin": 0.10983,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -876,14 +1290,14 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.042523,
+        "probabilitySpread": 0.042423,
         "reasons": []
       },
       "market": {
         "favorite": "Falcons",
         "teamAProbability": 0.625,
         "teamBProbability": 0.375,
-        "edge": -0.015135,
+        "edge": -0.01517,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-fal2-g2-2026-06-11"
       },
@@ -892,10 +1306,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "Falcons",
-          "probability": 0.620234,
-          "teamAProbability": 0.620234,
-          "teamBProbability": 0.379766,
-          "margin": 0.120234,
+          "probability": 0.620309,
+          "teamAProbability": 0.620309,
+          "teamBProbability": 0.379691,
+          "margin": 0.120309,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -903,16 +1317,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.004766
+          "marketEdge": -0.004691
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Falcons",
-          "probability": 0.522201,
-          "teamAProbability": 0.522201,
-          "teamBProbability": 0.477799,
-          "margin": 0.022201,
+          "probability": 0.522345,
+          "teamAProbability": 0.522345,
+          "teamBProbability": 0.477655,
+          "margin": 0.022345,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -920,7 +1334,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.102799
+          "marketEdge": -0.102655
         },
         {
           "modelId": "ensemble",
@@ -943,10 +1357,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Falcons",
-          "probability": 0.643921,
-          "teamAProbability": 0.643921,
-          "teamBProbability": 0.356079,
-          "margin": 0.143921,
+          "probability": 0.643424,
+          "teamAProbability": 0.643424,
+          "teamBProbability": 0.356576,
+          "margin": 0.143424,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -954,7 +1368,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.018921
+          "marketEdge": 0.018424
         },
         {
           "modelId": "archive",
@@ -977,10 +1391,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Falcons",
-          "probability": 0.652223,
-          "teamAProbability": 0.652223,
-          "teamBProbability": 0.347777,
-          "margin": 0.152223,
+          "probability": 0.652296,
+          "teamAProbability": 0.652296,
+          "teamBProbability": 0.347704,
+          "margin": 0.152296,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -988,7 +1402,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.027223
+          "marketEdge": 0.027296
         }
       ]
     },
@@ -1005,8 +1419,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "Aurora",
-        "probability": 0.578382,
-        "margin": 0.078382,
+        "probability": 0.578337,
+        "margin": 0.078337,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -1014,14 +1428,14 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.021438,
+        "probabilitySpread": 0.021419,
         "reasons": []
       },
       "market": {
         "favorite": "Aurora",
-        "teamAProbability": 0.625,
-        "teamBProbability": 0.375,
-        "edge": -0.046618,
+        "teamAProbability": 0.635,
+        "teamBProbability": 0.365,
+        "edge": -0.056663,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-aur1-mnte-2026-06-11"
       },
@@ -1030,10 +1444,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "Aurora",
-          "probability": 0.56369,
-          "teamAProbability": 0.56369,
-          "teamBProbability": 0.43631,
-          "margin": 0.06369,
+          "probability": 0.563769,
+          "teamAProbability": 0.563769,
+          "teamBProbability": 0.436231,
+          "margin": 0.063769,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -1041,16 +1455,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.06131
+          "marketEdge": -0.071231
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Aurora",
-          "probability": 0.544295,
-          "teamAProbability": 0.544295,
-          "teamBProbability": 0.455705,
-          "margin": 0.044295,
+          "probability": 0.544438,
+          "teamAProbability": 0.544438,
+          "teamBProbability": 0.455562,
+          "margin": 0.044438,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -1058,7 +1472,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.080705
+          "marketEdge": -0.090562
         },
         {
           "modelId": "ensemble",
@@ -1075,16 +1489,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.026156
+          "marketEdge": -0.036156
         },
         {
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Aurora",
-          "probability": 0.572854,
-          "teamAProbability": 0.572854,
-          "teamBProbability": 0.427146,
-          "margin": 0.072854,
+          "probability": 0.572282,
+          "teamAProbability": 0.572282,
+          "teamBProbability": 0.427718,
+          "margin": 0.072282,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -1092,7 +1506,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.052146
+          "marketEdge": -0.062718
         },
         {
           "modelId": "archive",
@@ -1109,16 +1523,16 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.01632
+          "marketEdge": -0.02632
         },
         {
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Aurora",
-          "probability": 0.581931,
-          "teamAProbability": 0.581931,
-          "teamBProbability": 0.418069,
-          "margin": 0.081931,
+          "probability": 0.582008,
+          "teamAProbability": 0.582008,
+          "teamBProbability": 0.417992,
+          "margin": 0.082008,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -1126,7 +1540,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.043069
+          "marketEdge": -0.052992
         }
       ]
     },
@@ -1143,8 +1557,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "Natus Vincere",
-        "probability": 0.510426,
-        "margin": 0.010426,
+        "probability": 0.510463,
+        "margin": 0.010463,
         "agreement": {
           "ratio": 0.5,
           "votes": "3/6",
@@ -1152,7 +1566,7 @@
           "teamB": 3
         },
         "coverage": 1,
-        "probabilitySpread": 0.053956,
+        "probabilitySpread": 0.054012,
         "reasons": [
           "model_disagreement",
           "market_disagreement",
@@ -1163,7 +1577,7 @@
         "favorite": "Spirit",
         "teamAProbability": 0.355,
         "teamBProbability": 0.645,
-        "edge": 0.155426,
+        "edge": 0.155463,
         "disagreement": true,
         "url": "https://polymarket.com/event/cs2-navi-ts7-2026-06-11"
       },
@@ -1172,10 +1586,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "Natus Vincere",
-          "probability": 0.582085,
-          "teamAProbability": 0.582085,
-          "teamBProbability": 0.417915,
-          "margin": 0.082085,
+          "probability": 0.582163,
+          "teamAProbability": 0.582163,
+          "teamBProbability": 0.417837,
+          "margin": 0.082163,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -1183,16 +1597,16 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.227085
+          "marketEdge": 0.227163
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "Natus Vincere",
-          "probability": 0.524387,
-          "teamAProbability": 0.524387,
-          "teamBProbability": 0.475613,
-          "margin": 0.024387,
+          "probability": 0.524531,
+          "teamAProbability": 0.524531,
+          "teamBProbability": 0.475469,
+          "margin": 0.024531,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -1200,7 +1614,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.169387
+          "marketEdge": 0.169531
         },
         {
           "modelId": "ensemble",
@@ -1223,10 +1637,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Spirit",
-          "probability": 0.562069,
-          "teamAProbability": 0.437931,
-          "teamBProbability": 0.562069,
-          "margin": 0.062069,
+          "probability": 0.562147,
+          "teamAProbability": 0.437853,
+          "teamBProbability": 0.562147,
+          "margin": 0.062147,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -1234,7 +1648,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.082931
+          "marketEdge": -0.082853
         },
         {
           "modelId": "archive",
@@ -1257,10 +1671,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Natus Vincere",
-          "probability": 0.572991,
-          "teamAProbability": 0.572991,
-          "teamBProbability": 0.427009,
-          "margin": 0.072991,
+          "probability": 0.573069,
+          "teamAProbability": 0.573069,
+          "teamBProbability": 0.426931,
+          "margin": 0.073069,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -1268,7 +1682,273 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.217991
+          "marketEdge": 0.218069
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1519575",
+      "matchId": "pandascore-1519575",
+      "pandaScoreId": 1519575,
+      "startTime": "2026-06-12T08:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "teamA": "ex-RUBY",
+      "teamB": "G2 Ares",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "G2 Ares",
+        "probability": 0.553683,
+        "margin": 0.053683,
+        "agreement": {
+          "ratio": 0.666667,
+          "votes": "4/6",
+          "teamA": 2,
+          "teamB": 4
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.049865,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "ex-RUBY",
+          "probability": 0.516362,
+          "teamAProbability": 0.516362,
+          "teamBProbability": 0.483638,
+          "margin": 0.016362,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "G2 Ares",
+          "probability": 0.577019,
+          "teamAProbability": 0.422981,
+          "teamBProbability": 0.577019,
+          "margin": 0.077019,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "G2 Ares",
+          "probability": 0.608044,
+          "teamAProbability": 0.391956,
+          "teamBProbability": 0.608044,
+          "margin": 0.108044,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "G2 Ares",
+          "probability": 0.555912,
+          "teamAProbability": 0.444088,
+          "teamBProbability": 0.555912,
+          "margin": 0.055912,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "G2 Ares",
+          "probability": 0.60557,
+          "teamAProbability": 0.39443,
+          "teamBProbability": 0.60557,
+          "margin": 0.10557,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "ex-RUBY",
+          "probability": 0.508088,
+          "teamAProbability": 0.508088,
+          "teamBProbability": 0.491912,
+          "margin": 0.008088,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        }
+      ]
+    },
+    {
+      "id": "pandascore-1519576",
+      "matchId": "pandascore-1519576",
+      "pandaScoreId": 1519576,
+      "startTime": "2026-06-12T11:00:00Z",
+      "status": "not_started",
+      "event": "CCT Europe - Series #4 - Group Stage",
+      "teamA": "Virtus.pro",
+      "teamB": "INOX Division",
+      "decision": {
+        "tier": "skip",
+        "label": "Skip",
+        "pick": "Virtus.pro",
+        "probability": 0.504939,
+        "margin": 0.004939,
+        "agreement": {
+          "ratio": 0.5,
+          "votes": "3/6",
+          "teamA": 3,
+          "teamB": 3
+        },
+        "coverage": 1,
+        "probabilitySpread": 0.086148,
+        "reasons": [
+          "model_disagreement"
+        ]
+      },
+      "market": null,
+      "models": [
+        {
+          "modelId": "weighted",
+          "label": "Weighted",
+          "pick": "INOX Division",
+          "probability": 0.566158,
+          "teamAProbability": 0.433842,
+          "teamBProbability": 0.566158,
+          "margin": 0.066158,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "champion",
+          "label": "Champion",
+          "pick": "INOX Division",
+          "probability": 0.644192,
+          "teamAProbability": 0.355808,
+          "teamBProbability": 0.644192,
+          "margin": 0.144192,
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble",
+          "label": "Ensemble",
+          "pick": "Virtus.pro",
+          "probability": 0.57552,
+          "teamAProbability": 0.57552,
+          "teamBProbability": 0.42448,
+          "margin": 0.07552,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "ensemble25",
+          "label": "Ensemble 25",
+          "pick": "Virtus.pro",
+          "probability": 0.589766,
+          "teamAProbability": 0.589766,
+          "teamBProbability": 0.410234,
+          "margin": 0.089766,
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "archive",
+          "label": "Archive",
+          "pick": "Virtus.pro",
+          "probability": 0.575794,
+          "teamAProbability": 0.575794,
+          "teamBProbability": 0.424206,
+          "margin": 0.075794,
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
+        },
+        {
+          "modelId": "oldprog",
+          "label": "Old Prog",
+          "pick": "INOX Division",
+          "probability": 0.501096,
+          "teamAProbability": 0.498904,
+          "teamBProbability": 0.501096,
+          "margin": 0.001096,
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketDisagreement": false,
+          "marketEdge": 0
         }
       ]
     },
@@ -1294,7 +1974,7 @@
           "teamB": 2
         },
         "coverage": 1,
-        "probabilitySpread": 0.063277,
+        "probabilitySpread": 0.063298,
         "reasons": [
           "model_disagreement"
         ]
@@ -1305,10 +1985,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "3DMAX",
-          "probability": 0.60589,
-          "teamAProbability": 0.60589,
-          "teamBProbability": 0.39411,
-          "margin": 0.10589,
+          "probability": 0.605966,
+          "teamAProbability": 0.605966,
+          "teamBProbability": 0.394034,
+          "margin": 0.105966,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -1322,10 +2002,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "3DMAX",
-          "probability": 0.532688,
-          "teamAProbability": 0.532688,
-          "teamBProbability": 0.467312,
-          "margin": 0.032688,
+          "probability": 0.532831,
+          "teamAProbability": 0.532831,
+          "teamBProbability": 0.467169,
+          "margin": 0.032831,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -1356,10 +2036,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "3DMAX",
-          "probability": 0.544711,
-          "teamAProbability": 0.544711,
-          "teamBProbability": 0.455289,
-          "margin": 0.044711,
+          "probability": 0.544417,
+          "teamAProbability": 0.544417,
+          "teamBProbability": 0.455583,
+          "margin": 0.044417,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -1390,10 +2070,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "3DMAX",
-          "probability": 0.611141,
-          "teamAProbability": 0.611141,
-          "teamBProbability": 0.388859,
-          "margin": 0.111141,
+          "probability": 0.611217,
+          "teamAProbability": 0.611217,
+          "teamBProbability": 0.388783,
+          "margin": 0.111217,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -1418,8 +2098,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "FaZe",
-        "probability": 0.531706,
-        "margin": 0.031706,
+        "probability": 0.531757,
+        "margin": 0.031757,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -1427,18 +2107,17 @@
           "teamB": 1
         },
         "coverage": 1,
-        "probabilitySpread": 0.041779,
+        "probabilitySpread": 0.041758,
         "reasons": [
-          "low_confidence",
-          "market_disagreement"
+          "low_confidence"
         ]
       },
       "market": {
-        "favorite": "TYLOO",
-        "teamAProbability": 0.485,
-        "teamBProbability": 0.515,
-        "edge": 0.046706,
-        "disagreement": true,
+        "favorite": "FaZe",
+        "teamAProbability": 0.535,
+        "teamBProbability": 0.465,
+        "edge": -0.003243,
+        "disagreement": false,
         "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01"
       },
       "models": [
@@ -1446,35 +2125,35 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "FaZe",
-          "probability": 0.563772,
-          "teamAProbability": 0.563772,
-          "teamBProbability": 0.436228,
-          "margin": 0.063772,
+          "probability": 0.563851,
+          "teamAProbability": 0.563851,
+          "teamBProbability": 0.436149,
+          "margin": 0.063851,
           "featureCoverage": {
             "available": 61,
             "total": 61,
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": true,
-          "marketEdge": 0.078772
+          "marketDisagreement": false,
+          "marketEdge": 0.028851
         },
         {
           "modelId": "champion",
           "label": "Champion",
           "pick": "TYLOO",
-          "probability": 0.549056,
-          "teamAProbability": 0.450944,
-          "teamBProbability": 0.549056,
-          "margin": 0.049056,
+          "probability": 0.548915,
+          "teamAProbability": 0.451085,
+          "teamBProbability": 0.548915,
+          "margin": 0.048915,
           "featureCoverage": {
             "available": 57,
             "total": 57,
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": 0.034056
+          "marketDisagreement": true,
+          "marketEdge": 0.083915
         },
         {
           "modelId": "ensemble",
@@ -1490,25 +2169,25 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": true,
-          "marketEdge": 0.031137
+          "marketDisagreement": false,
+          "marketEdge": -0.018863
         },
         {
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "FaZe",
-          "probability": 0.562175,
-          "teamAProbability": 0.562175,
-          "teamBProbability": 0.437825,
-          "margin": 0.062175,
+          "probability": 0.562183,
+          "teamAProbability": 0.562183,
+          "teamBProbability": 0.437817,
+          "margin": 0.062183,
           "featureCoverage": {
             "available": 56,
             "total": 56,
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": true,
-          "marketEdge": 0.077175
+          "marketDisagreement": false,
+          "marketEdge": 0.027183
         },
         {
           "modelId": "archive",
@@ -1524,157 +2203,17 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": true,
-          "marketEdge": 0.03931
+          "marketDisagreement": false,
+          "marketEdge": -0.01069
         },
         {
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "FaZe",
-          "probability": 0.572898,
-          "teamAProbability": 0.572898,
-          "teamBProbability": 0.427102,
-          "margin": 0.072898,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.087898
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526528",
-      "matchId": "pandascore-1526528",
-      "pandaScoreId": 1526528,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "BetBoom",
-      "teamB": "EYEBALLERS",
-      "decision": {
-        "tier": "lean",
-        "label": "Lean",
-        "pick": "BetBoom",
-        "probability": 0.611364,
-        "margin": 0.111364,
-        "agreement": {
-          "ratio": 1,
-          "votes": "6/6",
-          "teamA": 6,
-          "teamB": 0
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.034529,
-        "reasons": [
-          "market_edge"
-        ]
-      },
-      "market": {
-        "favorite": "BetBoom",
-        "teamAProbability": 0.505,
-        "teamBProbability": 0.495,
-        "edge": 0.106364,
-        "disagreement": false,
-        "url": "https://polymarket.com/event/cs2-bb3-eye-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "BetBoom",
-          "probability": 0.606624,
-          "teamAProbability": 0.606624,
-          "teamBProbability": 0.393376,
-          "margin": 0.106624,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.101624
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "BetBoom",
-          "probability": 0.556248,
-          "teamAProbability": 0.556248,
-          "teamBProbability": 0.443752,
-          "margin": 0.056248,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.051248
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "BetBoom",
-          "probability": 0.597935,
-          "teamAProbability": 0.597935,
-          "teamBProbability": 0.402065,
-          "margin": 0.097935,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.092935
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "BetBoom",
-          "probability": 0.671272,
-          "teamAProbability": 0.671272,
-          "teamBProbability": 0.328728,
-          "margin": 0.171272,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.166272
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "BetBoom",
-          "probability": 0.607226,
-          "teamAProbability": 0.607226,
-          "teamBProbability": 0.392774,
-          "margin": 0.107226,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.102226
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "BetBoom",
-          "probability": 0.628876,
-          "teamAProbability": 0.628876,
-          "teamBProbability": 0.371124,
-          "margin": 0.128876,
+          "probability": 0.572976,
+          "teamAProbability": 0.572976,
+          "teamBProbability": 0.427024,
+          "margin": 0.072976,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -1682,970 +2221,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.123876
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526527",
-      "matchId": "pandascore-1526527",
-      "pandaScoreId": 1526527,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "B8",
-      "teamB": "Ninjas in Pyjamas",
-      "decision": {
-        "tier": "lean",
-        "label": "Lean",
-        "pick": "B8",
-        "probability": 0.592757,
-        "margin": 0.092757,
-        "agreement": {
-          "ratio": 0.833333,
-          "votes": "5/6",
-          "teamA": 5,
-          "teamB": 1
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.064559,
-        "reasons": []
-      },
-      "market": null,
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "B8",
-          "probability": 0.647173,
-          "teamAProbability": 0.647173,
-          "teamBProbability": 0.352827,
-          "margin": 0.147173,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "Ninjas in Pyjamas",
-          "probability": 0.532688,
-          "teamAProbability": 0.467312,
-          "teamBProbability": 0.532688,
-          "margin": 0.032688,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "B8",
-          "probability": 0.573731,
-          "teamAProbability": 0.573731,
-          "teamBProbability": 0.426269,
-          "margin": 0.073731,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "B8",
-          "probability": 0.639151,
-          "teamAProbability": 0.639151,
-          "teamBProbability": 0.360849,
-          "margin": 0.139151,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "B8",
-          "probability": 0.576892,
-          "teamAProbability": 0.576892,
-          "teamBProbability": 0.423108,
-          "margin": 0.076892,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "B8",
-          "probability": 0.652286,
-          "teamAProbability": 0.652286,
-          "teamBProbability": 0.347714,
-          "margin": 0.152286,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526526",
-      "matchId": "pandascore-1526526",
-      "pandaScoreId": 1526526,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "9z",
-      "teamB": "Nemesis",
-      "decision": {
-        "tier": "lean",
-        "label": "Lean",
-        "pick": "9z",
-        "probability": 0.617765,
-        "margin": 0.117765,
-        "agreement": {
-          "ratio": 1,
-          "votes": "6/6",
-          "teamA": 6,
-          "teamB": 0
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.044671,
-        "reasons": [
-          "market_disagreement",
-          "market_edge"
-        ]
-      },
-      "market": {
-        "favorite": "Nemesis",
-        "teamAProbability": 0.495,
-        "teamBProbability": 0.505,
-        "edge": 0.122765,
-        "disagreement": true,
-        "url": "https://polymarket.com/event/cs2-9z-nem-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "9z",
-          "probability": 0.641566,
-          "teamAProbability": 0.641566,
-          "teamBProbability": 0.358434,
-          "margin": 0.141566,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.146566
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "9z",
-          "probability": 0.583309,
-          "teamAProbability": 0.583309,
-          "teamBProbability": 0.416691,
-          "margin": 0.083309,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.088309
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "9z",
-          "probability": 0.560443,
-          "teamAProbability": 0.560443,
-          "teamBProbability": 0.439557,
-          "margin": 0.060443,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.065443
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "9z",
-          "probability": 0.661405,
-          "teamAProbability": 0.661405,
-          "teamBProbability": 0.338595,
-          "margin": 0.161405,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.166405
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "9z",
-          "probability": 0.581288,
-          "teamAProbability": 0.581288,
-          "teamBProbability": 0.418712,
-          "margin": 0.081288,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.086288
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "9z",
-          "probability": 0.678579,
-          "teamAProbability": 0.678579,
-          "teamBProbability": 0.321421,
-          "margin": 0.178579,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.183579
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526525",
-      "matchId": "pandascore-1526525",
-      "pandaScoreId": 1526525,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "3DMAX",
-      "teamB": "Alliance",
-      "decision": {
-        "tier": "skip",
-        "label": "Skip",
-        "pick": "3DMAX",
-        "probability": 0.526686,
-        "margin": 0.026686,
-        "agreement": {
-          "ratio": 0.5,
-          "votes": "3/6",
-          "teamA": 3,
-          "teamB": 3
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.039488,
-        "reasons": [
-          "model_disagreement"
-        ]
-      },
-      "market": {
-        "favorite": "3DMAX",
-        "teamAProbability": 0.505,
-        "teamBProbability": 0.495,
-        "edge": 0.021686,
-        "disagreement": false,
-        "url": "https://polymarket.com/event/cs2-3dmax-all-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "3DMAX",
-          "probability": 0.576022,
-          "teamAProbability": 0.576022,
-          "teamBProbability": 0.423978,
-          "margin": 0.076022,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.071022
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "3DMAX",
-          "probability": 0.514679,
-          "teamAProbability": 0.514679,
-          "teamBProbability": 0.485321,
-          "margin": 0.014679,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.009679
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "Alliance",
-          "probability": 0.51423,
-          "teamAProbability": 0.48577,
-          "teamBProbability": 0.51423,
-          "margin": 0.01423,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.01923
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "Alliance",
-          "probability": 0.5021,
-          "teamAProbability": 0.4979,
-          "teamBProbability": 0.5021,
-          "margin": 0.0021,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.0071
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "Alliance",
-          "probability": 0.500432,
-          "teamAProbability": 0.499568,
-          "teamBProbability": 0.500432,
-          "margin": 0.000432,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.005432
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "3DMAX",
-          "probability": 0.586179,
-          "teamAProbability": 0.586179,
-          "teamBProbability": 0.413821,
-          "margin": 0.086179,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.081179
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526524",
-      "matchId": "pandascore-1526524",
-      "pandaScoreId": 1526524,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "Monte",
-      "teamB": "MIBR",
-      "decision": {
-        "tier": "skip",
-        "label": "Skip",
-        "pick": "MIBR",
-        "probability": 0.513844,
-        "margin": 0.013844,
-        "agreement": {
-          "ratio": 0.666667,
-          "votes": "4/6",
-          "teamA": 2,
-          "teamB": 4
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.046862,
-        "reasons": [
-          "model_disagreement"
-        ]
-      },
-      "market": {
-        "favorite": "MIBR",
-        "teamAProbability": 0.495,
-        "teamBProbability": 0.505,
-        "edge": 0.008844,
-        "disagreement": false,
-        "url": "https://polymarket.com/event/cs2-mnte-mibr-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "Monte",
-          "probability": 0.570315,
-          "teamAProbability": 0.570315,
-          "teamBProbability": 0.429685,
-          "margin": 0.070315,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.075315
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "MIBR",
-          "probability": 0.542234,
-          "teamAProbability": 0.457766,
-          "teamBProbability": 0.542234,
-          "margin": 0.042234,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.037234
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "MIBR",
-          "probability": 0.547539,
-          "teamAProbability": 0.452461,
-          "teamBProbability": 0.547539,
-          "margin": 0.047539,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.042539
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "MIBR",
-          "probability": 0.550315,
-          "teamAProbability": 0.449685,
-          "teamBProbability": 0.550315,
-          "margin": 0.050315,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.045315
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "MIBR",
-          "probability": 0.543515,
-          "teamAProbability": 0.456485,
-          "teamBProbability": 0.543515,
-          "margin": 0.043515,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.038515
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "Monte",
-          "probability": 0.530222,
-          "teamAProbability": 0.530222,
-          "teamBProbability": 0.469778,
-          "margin": 0.030222,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.035222
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526523",
-      "matchId": "pandascore-1526523",
-      "pandaScoreId": 1526523,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "PARIVISION",
-      "teamB": "BIG",
-      "decision": {
-        "tier": "lean",
-        "label": "Lean",
-        "pick": "PARIVISION",
-        "probability": 0.574945,
-        "margin": 0.074945,
-        "agreement": {
-          "ratio": 0.833333,
-          "votes": "5/6",
-          "teamA": 5,
-          "teamB": 1
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.042497,
-        "reasons": [
-          "market_edge"
-        ]
-      },
-      "market": {
-        "favorite": "PARIVISION",
-        "teamAProbability": 0.505,
-        "teamBProbability": 0.495,
-        "edge": 0.069945,
-        "disagreement": false,
-        "url": "https://polymarket.com/event/cs2-prv-big5-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "PARIVISION",
-          "probability": 0.589239,
-          "teamAProbability": 0.589239,
-          "teamBProbability": 0.410761,
-          "margin": 0.089239,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.084239
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "BIG",
-          "probability": 0.514937,
-          "teamAProbability": 0.485063,
-          "teamBProbability": 0.514937,
-          "margin": 0.014937,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.019937
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "PARIVISION",
-          "probability": 0.598234,
-          "teamAProbability": 0.598234,
-          "teamBProbability": 0.401766,
-          "margin": 0.098234,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.093234
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "PARIVISION",
-          "probability": 0.565312,
-          "teamAProbability": 0.565312,
-          "teamBProbability": 0.434688,
-          "margin": 0.065312,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.060312
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "PARIVISION",
-          "probability": 0.606083,
-          "teamAProbability": 0.606083,
-          "teamBProbability": 0.393917,
-          "margin": 0.106083,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.101083
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "PARIVISION",
-          "probability": 0.605737,
-          "teamAProbability": 0.605737,
-          "teamBProbability": 0.394263,
-          "margin": 0.105737,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.100737
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526522",
-      "matchId": "pandascore-1526522",
-      "pandaScoreId": 1526522,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "Legacy",
-      "teamB": "M80",
-      "decision": {
-        "tier": "strong",
-        "label": "Strong pick",
-        "pick": "Legacy",
-        "probability": 0.667424,
-        "margin": 0.167424,
-        "agreement": {
-          "ratio": 1,
-          "votes": "6/6",
-          "teamA": 6,
-          "teamB": 0
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.041733,
-        "reasons": [
-          "market_edge"
-        ]
-      },
-      "market": {
-        "favorite": "Legacy",
-        "teamAProbability": 0.505,
-        "teamBProbability": 0.495,
-        "edge": 0.162424,
-        "disagreement": false,
-        "url": "https://polymarket.com/event/cs2-lgc-m80-2026-07-01"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "Legacy",
-          "probability": 0.643345,
-          "teamAProbability": 0.643345,
-          "teamBProbability": 0.356655,
-          "margin": 0.143345,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.138345
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "Legacy",
-          "probability": 0.600651,
-          "teamAProbability": 0.600651,
-          "teamBProbability": 0.399349,
-          "margin": 0.100651,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.095651
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "Legacy",
-          "probability": 0.684008,
-          "teamAProbability": 0.684008,
-          "teamBProbability": 0.315992,
-          "margin": 0.184008,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.179008
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "Legacy",
-          "probability": 0.734937,
-          "teamAProbability": 0.734937,
-          "teamBProbability": 0.265063,
-          "margin": 0.234937,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.229937
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "Legacy",
-          "probability": 0.687469,
-          "teamAProbability": 0.687469,
-          "teamBProbability": 0.312531,
-          "margin": 0.187469,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.182469
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "Legacy",
-          "probability": 0.654133,
-          "teamAProbability": 0.654133,
-          "teamBProbability": 0.345867,
-          "margin": 0.154133,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.149133
-        }
-      ]
-    },
-    {
-      "id": "pandascore-1526521",
-      "matchId": "pandascore-1526521",
-      "pandaScoreId": 1526521,
-      "startTime": "2026-07-01T07:00:00Z",
-      "status": "not_started",
-      "event": "XSE Pro League - Group Stage",
-      "teamA": "FaZe",
-      "teamB": "SINNERS",
-      "decision": {
-        "tier": "lean",
-        "label": "Lean",
-        "pick": "FaZe",
-        "probability": 0.601325,
-        "margin": 0.101325,
-        "agreement": {
-          "ratio": 1,
-          "votes": "6/6",
-          "teamA": 6,
-          "teamB": 0
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.055244,
-        "reasons": []
-      },
-      "market": null,
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "FaZe",
-          "probability": 0.671251,
-          "teamAProbability": 0.671251,
-          "teamBProbability": 0.328749,
-          "margin": 0.171251,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "FaZe",
-          "probability": 0.553739,
-          "teamAProbability": 0.553739,
-          "teamBProbability": 0.446261,
-          "margin": 0.053739,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "FaZe",
-          "probability": 0.592863,
-          "teamAProbability": 0.592863,
-          "teamBProbability": 0.407137,
-          "margin": 0.092863,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "FaZe",
-          "probability": 0.52285,
-          "teamAProbability": 0.52285,
-          "teamBProbability": 0.47715,
-          "margin": 0.02285,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "FaZe",
-          "probability": 0.595935,
-          "teamAProbability": 0.595935,
-          "teamBProbability": 0.404065,
-          "margin": 0.095935,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
-        },
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "FaZe",
-          "probability": 0.671314,
-          "teamAProbability": 0.671314,
-          "teamBProbability": 0.328686,
-          "margin": 0.171314,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.037976
         }
       ]
     },
@@ -2662,8 +2238,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "Monte",
-        "probability": 0.568453,
-        "margin": 0.068453,
+        "probability": 0.568499,
+        "margin": 0.068499,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -2671,7 +2247,7 @@
           "teamB": 1
         },
         "coverage": 1,
-        "probabilitySpread": 0.061706,
+        "probabilitySpread": 0.061678,
         "reasons": []
       },
       "market": null,
@@ -2680,10 +2256,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "Monte",
-          "probability": 0.599102,
-          "teamAProbability": 0.599102,
-          "teamBProbability": 0.400898,
-          "margin": 0.099102,
+          "probability": 0.599179,
+          "teamAProbability": 0.599179,
+          "teamBProbability": 0.400821,
+          "margin": 0.099179,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -2697,10 +2273,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "Nemesis",
-          "probability": 0.545663,
-          "teamAProbability": 0.454337,
-          "teamBProbability": 0.545663,
-          "margin": 0.045663,
+          "probability": 0.545521,
+          "teamAProbability": 0.454479,
+          "teamBProbability": 0.545521,
+          "margin": 0.045521,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -2731,10 +2307,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "Monte",
-          "probability": 0.63077,
-          "teamAProbability": 0.63077,
-          "teamBProbability": 0.36923,
-          "margin": 0.13077,
+          "probability": 0.63075,
+          "teamAProbability": 0.63075,
+          "teamBProbability": 0.36925,
+          "margin": 0.13075,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -2765,10 +2341,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "Monte",
-          "probability": 0.632061,
-          "teamAProbability": 0.632061,
-          "teamBProbability": 0.367939,
-          "margin": 0.132061,
+          "probability": 0.632135,
+          "teamAProbability": 0.632135,
+          "teamBProbability": 0.367865,
+          "margin": 0.132135,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -2793,8 +2369,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "9z",
-        "probability": 0.612769,
-        "margin": 0.112769,
+        "probability": 0.612848,
+        "margin": 0.112848,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -2802,7 +2378,7 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.028447,
+        "probabilitySpread": 0.028505,
         "reasons": []
       },
       "market": null,
@@ -2811,10 +2387,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "9z",
-          "probability": 0.611451,
-          "teamAProbability": 0.611451,
-          "teamBProbability": 0.388549,
-          "margin": 0.111451,
+          "probability": 0.611528,
+          "teamAProbability": 0.611528,
+          "teamBProbability": 0.388472,
+          "margin": 0.111528,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -2828,10 +2404,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "9z",
-          "probability": 0.642836,
-          "teamAProbability": 0.642836,
-          "teamBProbability": 0.357164,
-          "margin": 0.142836,
+          "probability": 0.642965,
+          "teamAProbability": 0.642965,
+          "teamBProbability": 0.357035,
+          "margin": 0.142965,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -2862,10 +2438,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "9z",
-          "probability": 0.636778,
-          "teamAProbability": 0.636778,
-          "teamBProbability": 0.363222,
-          "margin": 0.136778,
+          "probability": 0.636969,
+          "teamAProbability": 0.636969,
+          "teamBProbability": 0.363031,
+          "margin": 0.136969,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -2896,10 +2472,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "9z",
-          "probability": 0.633493,
-          "teamAProbability": 0.633493,
-          "teamBProbability": 0.366507,
-          "margin": 0.133493,
+          "probability": 0.633567,
+          "teamAProbability": 0.633567,
+          "teamBProbability": 0.366433,
+          "margin": 0.133567,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -2924,8 +2500,8 @@
         "tier": "strong",
         "label": "Strong pick",
         "pick": "BetBoom",
-        "probability": 0.657045,
-        "margin": 0.157045,
+        "probability": 0.657051,
+        "margin": 0.157051,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -2942,10 +2518,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "BetBoom",
-          "probability": 0.711005,
-          "teamAProbability": 0.711005,
-          "teamBProbability": 0.288995,
-          "margin": 0.211005,
+          "probability": 0.711071,
+          "teamAProbability": 0.711071,
+          "teamBProbability": 0.288929,
+          "margin": 0.211071,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -2959,10 +2535,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "BetBoom",
-          "probability": 0.555722,
-          "teamAProbability": 0.555722,
-          "teamBProbability": 0.444278,
-          "margin": 0.055722,
+          "probability": 0.555865,
+          "teamAProbability": 0.555865,
+          "teamBProbability": 0.444135,
+          "margin": 0.055865,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -2993,10 +2569,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "BetBoom",
-          "probability": 0.629031,
-          "teamAProbability": 0.629031,
-          "teamBProbability": 0.370969,
-          "margin": 0.129031,
+          "probability": 0.628796,
+          "teamAProbability": 0.628796,
+          "teamBProbability": 0.371204,
+          "margin": 0.128796,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -3027,10 +2603,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "BetBoom",
-          "probability": 0.723477,
-          "teamAProbability": 0.723477,
-          "teamBProbability": 0.276523,
-          "margin": 0.223477,
+          "probability": 0.723541,
+          "teamAProbability": 0.723541,
+          "teamBProbability": 0.276459,
+          "margin": 0.223541,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -3055,8 +2631,8 @@
         "tier": "lean",
         "label": "Lean",
         "pick": "PARIVISION",
-        "probability": 0.608471,
-        "margin": 0.108471,
+        "probability": 0.608551,
+        "margin": 0.108551,
         "agreement": {
           "ratio": 1,
           "votes": "6/6",
@@ -3064,7 +2640,7 @@
           "teamB": 0
         },
         "coverage": 1,
-        "probabilitySpread": 0.043398,
+        "probabilitySpread": 0.043373,
         "reasons": []
       },
       "market": null,
@@ -3073,10 +2649,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "PARIVISION",
-          "probability": 0.634729,
-          "teamAProbability": 0.634729,
-          "teamBProbability": 0.365271,
-          "margin": 0.134729,
+          "probability": 0.634804,
+          "teamAProbability": 0.634804,
+          "teamBProbability": 0.365196,
+          "margin": 0.134804,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -3090,10 +2666,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "PARIVISION",
-          "probability": 0.528804,
-          "teamAProbability": 0.528804,
-          "teamBProbability": 0.471196,
-          "margin": 0.028804,
+          "probability": 0.528948,
+          "teamAProbability": 0.528948,
+          "teamBProbability": 0.471052,
+          "margin": 0.028948,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -3124,10 +2700,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "PARIVISION",
-          "probability": 0.599758,
-          "teamAProbability": 0.599758,
-          "teamBProbability": 0.400242,
-          "margin": 0.099758,
+          "probability": 0.599951,
+          "teamAProbability": 0.599951,
+          "teamBProbability": 0.400049,
+          "margin": 0.099951,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -3158,10 +2734,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "PARIVISION",
-          "probability": 0.672538,
-          "teamAProbability": 0.672538,
-          "teamBProbability": 0.327462,
-          "margin": 0.172538,
+          "probability": 0.672609,
+          "teamAProbability": 0.672609,
+          "teamBProbability": 0.327391,
+          "margin": 0.172609,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -3186,8 +2762,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "B8",
-        "probability": 0.522733,
-        "margin": 0.022733,
+        "probability": 0.522712,
+        "margin": 0.022712,
         "agreement": {
           "ratio": 0.833333,
           "votes": "5/6",
@@ -3195,7 +2771,7 @@
           "teamB": 1
         },
         "coverage": 1,
-        "probabilitySpread": 0.04882,
+        "probabilitySpread": 0.048826,
         "reasons": [
           "low_confidence"
         ]
@@ -3206,10 +2782,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "B8",
-          "probability": 0.60091,
-          "teamAProbability": 0.60091,
-          "teamBProbability": 0.39909,
-          "margin": 0.10091,
+          "probability": 0.600987,
+          "teamAProbability": 0.600987,
+          "teamBProbability": 0.399013,
+          "margin": 0.100987,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -3223,10 +2799,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "MIBR",
-          "probability": 0.559106,
-          "teamAProbability": 0.440894,
-          "teamBProbability": 0.559106,
-          "margin": 0.059106,
+          "probability": 0.558966,
+          "teamAProbability": 0.441034,
+          "teamBProbability": 0.558966,
+          "margin": 0.058966,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -3257,10 +2833,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "B8",
-          "probability": 0.512139,
-          "teamAProbability": 0.512139,
-          "teamBProbability": 0.487861,
-          "margin": 0.012139,
+          "probability": 0.511716,
+          "teamAProbability": 0.511716,
+          "teamBProbability": 0.488284,
+          "margin": 0.011716,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -3291,10 +2867,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "B8",
-          "probability": 0.557041,
-          "teamAProbability": 0.557041,
-          "teamBProbability": 0.442959,
-          "margin": 0.057041,
+          "probability": 0.557119,
+          "teamAProbability": 0.557119,
+          "teamBProbability": 0.442881,
+          "margin": 0.057119,
           "featureCoverage": {
             "available": 64,
             "total": 64,
@@ -3319,8 +2895,8 @@
         "tier": "skip",
         "label": "Skip",
         "pick": "BIG",
-        "probability": 0.561963,
-        "margin": 0.061963,
+        "probability": 0.562028,
+        "margin": 0.062028,
         "agreement": {
           "ratio": 0.666667,
           "votes": "4/6",
@@ -3328,7 +2904,7 @@
           "teamB": 2
         },
         "coverage": 1,
-        "probabilitySpread": 0.076445,
+        "probabilitySpread": 0.076486,
         "reasons": [
           "model_disagreement"
         ]
@@ -3339,10 +2915,10 @@
           "modelId": "weighted",
           "label": "Weighted",
           "pick": "BIG",
-          "probability": 0.625032,
-          "teamAProbability": 0.625032,
-          "teamBProbability": 0.374968,
-          "margin": 0.125032,
+          "probability": 0.625107,
+          "teamAProbability": 0.625107,
+          "teamBProbability": 0.374893,
+          "margin": 0.125107,
           "featureCoverage": {
             "available": 61,
             "total": 61,
@@ -3356,10 +2932,10 @@
           "modelId": "champion",
           "label": "Champion",
           "pick": "BIG",
-          "probability": 0.643923,
-          "teamAProbability": 0.643923,
-          "teamBProbability": 0.356077,
-          "margin": 0.143923,
+          "probability": 0.644051,
+          "teamAProbability": 0.644051,
+          "teamBProbability": 0.355949,
+          "margin": 0.144051,
           "featureCoverage": {
             "available": 57,
             "total": 57,
@@ -3390,10 +2966,10 @@
           "modelId": "ensemble25",
           "label": "Ensemble 25",
           "pick": "BIG",
-          "probability": 0.552677,
-          "teamAProbability": 0.552677,
-          "teamBProbability": 0.447323,
-          "margin": 0.052677,
+          "probability": 0.552794,
+          "teamAProbability": 0.552794,
+          "teamBProbability": 0.447206,
+          "margin": 0.052794,
           "featureCoverage": {
             "available": 56,
             "total": 56,
@@ -3424,10 +3000,10 @@
           "modelId": "oldprog",
           "label": "Old Prog",
           "pick": "BIG",
-          "probability": 0.625812,
-          "teamAProbability": 0.625812,
-          "teamBProbability": 0.374188,
-          "margin": 0.125812,
+          "probability": 0.625886,
+          "teamAProbability": 0.625886,
+          "teamBProbability": 0.374114,
+          "margin": 0.125886,
           "featureCoverage": {
             "available": 64,
             "total": 64,
