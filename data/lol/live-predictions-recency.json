@@ -1,0 +1,548 @@
+{
+  "generatedAt": "2026-06-11T13:09:11.976Z",
+  "source": {
+    "matches": "static/data/live-matches.json",
+    "dataset": "static/data/training-dataset-match-level-league.json",
+    "model": "static/data/trained-model-recency-accuracy.json"
+  },
+  "summary": {
+    "total": 14,
+    "high": 12,
+    "medium": 0,
+    "low": 2
+  },
+  "predictions": [
+    {
+      "matchId": "lolesports-116520394663535888",
+      "match": {
+        "id": "lolesports-116520394663535888",
+        "lolEsportsId": "116520394663535888",
+        "source": "lolesports",
+        "startTime": "2026-06-11T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Warrior",
+        "teamB": "TP.HCM SN CyberCore Esports",
+        "teamAId": "SGW",
+        "teamBId": "SCBC",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Saigon Warrior",
+        "probability": 0.805111,
+        "teamAProbability": 0.805111,
+        "teamBProbability": 0.194889,
+        "margin": 0.610222
+      },
+      "coverage": {
+        "teamAGames": 0,
+        "teamBGames": 41,
+        "level": "low"
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025935",
+      "match": {
+        "id": "lolesports-116634529527025935",
+        "lolEsportsId": "116634529527025935",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "MISA Esports",
+        "teamB": "UCAM Esports Club",
+        "teamAId": "MISA",
+        "teamBId": "UCAM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "MISA Esports",
+        "probability": 0.776807,
+        "teamAProbability": 0.776807,
+        "teamBProbability": 0.223193,
+        "margin": 0.553614
+      },
+      "coverage": {
+        "teamAGames": 187,
+        "teamBGames": 153,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405063",
+      "match": {
+        "id": "lolesports-116634566270405063",
+        "lolEsportsId": "116634566270405063",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "G2 NORD",
+        "teamB": "Galions",
+        "teamAId": "G2N",
+        "teamBId": "GL",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "G2 NORD",
+        "probability": 0.659841,
+        "teamAProbability": 0.659841,
+        "teamBProbability": 0.340159,
+        "margin": 0.319683
+      },
+      "coverage": {
+        "teamAGames": 68,
+        "teamBGames": 159,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405087",
+      "match": {
+        "id": "lolesports-116634566270405087",
+        "lolEsportsId": "116634566270405087",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Solary",
+        "teamB": "Eintracht Spandau",
+        "teamAId": "SLY",
+        "teamBId": "EINS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Solary",
+        "probability": 0.700689,
+        "teamAProbability": 0.700689,
+        "teamBProbability": 0.299311,
+        "margin": 0.401378
+      },
+      "coverage": {
+        "teamAGames": 164,
+        "teamBGames": 179,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405091",
+      "match": {
+        "id": "lolesports-116634566270405091",
+        "lolEsportsId": "116634566270405091",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Anubis Gaming",
+        "teamB": "BOMBA Team",
+        "teamAId": "ANB",
+        "teamBId": "BOOM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Anubis Gaming",
+        "probability": 0.737566,
+        "teamAProbability": 0.737566,
+        "teamBProbability": 0.262434,
+        "margin": 0.475132
+      },
+      "coverage": {
+        "teamAGames": 151,
+        "teamBGames": 46,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025939",
+      "match": {
+        "id": "lolesports-116634529527025939",
+        "lolEsportsId": "116634529527025939",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "HMBLE",
+        "teamB": "E Wie Einfach E-Sports",
+        "teamAId": "HMB",
+        "teamBId": "EWI",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "HMBLE",
+        "probability": 0.757076,
+        "teamAProbability": 0.757076,
+        "teamBProbability": 0.242924,
+        "margin": 0.514153
+      },
+      "coverage": {
+        "teamAGames": 37,
+        "teamBGames": 170,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405039",
+      "match": {
+        "id": "lolesports-116634566270405039",
+        "lolEsportsId": "116634566270405039",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Heretics Academy",
+        "teamB": "Forsaken",
+        "teamAId": "HRTS",
+        "teamBId": "FSK",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Heretics Academy",
+        "probability": 0.862533,
+        "teamAProbability": 0.862533,
+        "teamBProbability": 0.137467,
+        "margin": 0.725067
+      },
+      "coverage": {
+        "teamAGames": 330,
+        "teamBGames": 184,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405043",
+      "match": {
+        "id": "lolesports-116634566270405043",
+        "lolEsportsId": "116634566270405043",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "PCIFIC Esports",
+        "teamB": "Karmine Corp Blue",
+        "teamAId": "PCF",
+        "teamBId": "KCB",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Karmine Corp Blue",
+        "probability": 0.583432,
+        "teamAProbability": 0.416568,
+        "teamBProbability": 0.583432,
+        "margin": 0.166864
+      },
+      "coverage": {
+        "teamAGames": 37,
+        "teamBGames": 242,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-115548128963037575",
+      "match": {
+        "id": "lolesports-115548128963037575",
+        "lolEsportsId": "115548128963037575",
+        "source": "lolesports",
+        "startTime": "2026-06-12T08:00:00Z",
+        "status": "unstarted",
+        "league": "LCK",
+        "blockName": "Knockouts",
+        "bestOf": 5,
+        "teamA": "Hanwha Life Esports",
+        "teamB": "T1",
+        "teamAId": "HLE",
+        "teamBId": "T1",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Hanwha Life Esports",
+        "probability": 0.726842,
+        "teamAProbability": 0.726842,
+        "teamBProbability": 0.273158,
+        "margin": 0.453684
+      },
+      "coverage": {
+        "teamAGames": 676,
+        "teamBGames": 509,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116520394663535894",
+      "match": {
+        "id": "lolesports-116520394663535894",
+        "lolEsportsId": "116520394663535894",
+        "source": "lolesports",
+        "startTime": "2026-06-12T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Dino",
+        "teamB": "Saigon Zen Esport",
+        "teamAId": "DINO",
+        "teamBId": "ZEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Saigon Dino",
+        "probability": 0.707699,
+        "teamAProbability": 0.707699,
+        "teamBProbability": 0.292301,
+        "margin": 0.415398
+      },
+      "coverage": {
+        "teamAGames": 61,
+        "teamBGames": 0,
+        "level": "low"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405067",
+      "match": {
+        "id": "lolesports-116634566270405067",
+        "lolEsportsId": "116634566270405067",
+        "source": "lolesports",
+        "startTime": "2026-06-12T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "WLGaming",
+        "teamB": "Partizan Sangal",
+        "teamAId": "WLG",
+        "teamBId": "PXS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Partizan Sangal",
+        "probability": 0.508817,
+        "teamAProbability": 0.491183,
+        "teamBProbability": 0.508817,
+        "margin": 0.017634
+      },
+      "coverage": {
+        "teamAGames": 134,
+        "teamBGames": 106,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-115548128963037581",
+      "match": {
+        "id": "lolesports-115548128963037581",
+        "lolEsportsId": "115548128963037581",
+        "source": "lolesports",
+        "startTime": "2026-06-13T06:00:00Z",
+        "status": "unstarted",
+        "league": "LCK",
+        "blockName": "Knockouts",
+        "bestOf": 5,
+        "teamA": "kt Rolster",
+        "teamB": "Gen.G Esports",
+        "teamAId": "KT",
+        "teamBId": "GEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "kt Rolster",
+        "probability": 0.576284,
+        "teamAProbability": 0.576284,
+        "teamBProbability": 0.423716,
+        "margin": 0.152569
+      },
+      "coverage": {
+        "teamAGames": 615,
+        "teamBGames": 257,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-115616219464607515",
+      "match": {
+        "id": "lolesports-115616219464607515",
+        "lolEsportsId": "115616219464607515",
+        "source": "lolesports",
+        "startTime": "2026-06-13T09:00:00Z",
+        "status": "unstarted",
+        "league": "LPL",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "BILIBILI GAMING",
+        "teamB": "Xi'an Team WE",
+        "teamAId": "BLG",
+        "teamBId": "WE",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "BILIBILI GAMING",
+        "probability": 0.798957,
+        "teamAProbability": 0.798957,
+        "teamBProbability": 0.201043,
+        "margin": 0.597915
+      },
+      "coverage": {
+        "teamAGames": 289,
+        "teamBGames": 276,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-115564793879469324",
+      "match": {
+        "id": "lolesports-115564793879469324",
+        "lolEsportsId": "115564793879469324",
+        "source": "lolesports",
+        "startTime": "2026-06-13T20:00:00Z",
+        "status": "unstarted",
+        "league": "LCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Team Liquid Alienware",
+        "teamB": "Cloud9 Kia",
+        "teamAId": "TLAW",
+        "teamBId": "C9",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "recency-accuracy",
+        "path": "static/data/trained-model-recency-accuracy.json",
+        "label": "Recency Accuracy"
+      },
+      "prediction": {
+        "favorite": "Team Liquid Alienware",
+        "probability": 0.73324,
+        "teamAProbability": 0.73324,
+        "teamBProbability": 0.26676,
+        "margin": 0.46648
+      },
+      "coverage": {
+        "teamAGames": 134,
+        "teamBGames": 88,
+        "level": "high"
+      }
+    }
+  ]
+}
