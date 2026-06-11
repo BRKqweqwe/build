@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T02:21:26.149Z",
+  "generatedAt": "2026-06-11T14:23:47.019Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -8,59 +8,19 @@
     "maxRank": 100
   },
   "summary": {
-    "matches": 22,
-    "high": 22,
+    "matches": 16,
+    "high": 16,
     "medium": 0,
     "low": 0,
-    "withAnyGaps": 6,
+    "withAnyGaps": 3,
     "impactedTeams": 4,
     "gapCounts": {
-      "recentForm": 3,
-      "playerKast": 5,
-      "playerAdr": 3
+      "playerAdr": 2,
+      "playerKast": 3,
+      "recentForm": 2
     }
   },
   "priorityTeams": [
-    {
-      "id": "13814",
-      "name": "INOX Division",
-      "rank": 75,
-      "matches": 2,
-      "worstScore": 0.9,
-      "gaps": [
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
-      ]
-    },
-    {
-      "id": "5378",
-      "name": "Virtus.pro",
-      "rank": 40,
-      "matches": 2,
-      "worstScore": 0.91,
-      "gaps": [
-        "playerAdr",
-        "playerKast"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "12394",
-      "name": "BetBoom",
-      "rank": 17,
-      "matches": 2,
-      "worstScore": 0.985,
-      "gaps": [
-        "playerKast"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
     {
       "id": "12889",
       "name": "G2 Ares",
@@ -76,412 +36,54 @@
         "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
-    }
-  ],
-  "matches": [
+    },
     {
-      "id": "pandascore-1517518",
-      "pandaScoreId": 1517518,
-      "startTime": "2026-06-11T08:00:00Z",
-      "status": "not_started",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13518",
-        "name": "Acend",
-        "rank": 61,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "13814",
-        "name": "INOX Division",
-        "rank": 75,
-        "score": 0.9,
-        "label": "high",
-        "gaps": [
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 3,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.95,
-      "label": "high",
+      "id": "5378",
+      "name": "Virtus.pro",
+      "rank": 40,
+      "matches": 1,
+      "worstScore": 0.91,
+      "gaps": [
+        "playerAdr",
+        "playerKast"
+      ],
+      "recommendedCommands": [
+        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
+      ]
+    },
+    {
+      "id": "13814",
+      "name": "INOX Division",
+      "rank": 75,
+      "matches": 1,
+      "worstScore": 0.9333,
       "gaps": [
         "recentForm"
       ],
-      "livePrediction": {
-        "pick": "INOX Division",
-        "probability": 0.5379,
-        "models": 6,
-        "withMarket": false
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "INOX Division",
-        "probability": 0.5019,
-        "agreement": "4/6"
-      },
       "recommendedCommands": [
         "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
       ]
     },
     {
-      "id": "pandascore-1513126",
-      "pandaScoreId": 1513126,
-      "startTime": "2026-06-11T09:00:00Z",
-      "status": "not_started",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "teamA": {
-        "id": "6248",
-        "name": "The MongolZ",
-        "rank": 7,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12394",
-        "name": "BetBoom",
-        "rank": 17,
-        "score": 0.985,
-        "label": "high",
-        "gaps": [
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 4,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9758,
-      "label": "high",
+      "id": "12394",
+      "name": "BetBoom",
+      "rank": 17,
+      "matches": 1,
+      "worstScore": 0.985,
       "gaps": [
         "playerKast"
       ],
-      "livePrediction": {
-        "pick": "The MongolZ",
-        "probability": 0.5964,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "The MongolZ",
-        "probability": 0.5747,
-        "agreement": "6/6"
-      },
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
-    },
-    {
-      "id": "pandascore-1513125",
-      "pandaScoreId": 1513125,
-      "startTime": "2026-06-11T09:00:00Z",
-      "status": "not_started",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "teamA": {
-        "id": "12467",
-        "name": "PARIVISION",
-        "rank": 14,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "9996",
-        "name": "9z",
-        "rank": 15,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9833,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "PARIVISION",
-        "probability": 0.5818,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "PARIVISION",
-        "probability": 0.5387,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1504766",
-      "pandaScoreId": 1504766,
-      "startTime": "2026-06-11T10:30:00Z",
-      "status": "not_started",
-      "event": "European Pro League - Series 7 - Group D",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13314",
-        "name": "KOLESIE",
-        "rank": 86,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "5378",
-        "name": "Virtus.pro",
-        "rank": 40,
-        "score": 0.91,
-        "label": "high",
-        "gaps": [
-          "playerAdr",
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 4,
-          "playerKast": 0,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9384,
-      "label": "high",
-      "gaps": [
-        "playerAdr",
-        "playerKast"
-      ],
-      "livePrediction": {
-        "pick": "KOLESIE",
-        "probability": 0.5237,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "Virtus.pro",
-        "probability": 0.5782,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "pandascore-1517519",
-      "pandaScoreId": 1517519,
-      "startTime": "2026-06-11T11:00:00Z",
-      "status": "not_started",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13237",
-        "name": "AM",
-        "rank": 73,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12380",
-        "name": "CYBERSHOKE",
-        "rank": 60,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 1,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "CYBERSHOKE",
-        "probability": 0.5191,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "CYBERSHOKE",
-        "probability": 0.524,
-        "agreement": "5/6"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1513127",
-      "pandaScoreId": 1513127,
-      "startTime": "2026-06-11T11:30:00Z",
-      "status": "not_started",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "teamA": {
-        "id": "4494",
-        "name": "MOUZ",
-        "rank": 6,
-        "score": 0.9667,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 5,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12468",
-        "name": "Legacy",
-        "rank": 5,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9833,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "MOUZ",
-        "probability": 0.5082,
-        "models": 6,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "MOUZ",
-        "probability": 0.4795,
-        "agreement": "3/6"
-      },
-      "recommendedCommands": []
-    },
+    }
+  ],
+  "matches": [
     {
       "id": "pandascore-1513120",
       "pandaScoreId": 1513120,
-      "startTime": "2026-06-11T11:30:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-11T12:14:17Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -528,23 +130,23 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Vitality",
-        "probability": 0.6588,
-        "models": 6,
+        "probability": 0.659,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "strong",
         "pick": "Vitality",
-        "probability": 0.6614,
-        "agreement": "6/6"
+        "probability": 0.6611,
+        "agreement": "7/7"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1517520",
       "pandaScoreId": 1517520,
-      "startTime": "2026-06-11T14:00:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-11T14:04:26Z",
+      "status": "running",
       "event": "NODWIN Clutch Series - Group Stage",
       "format": "bo3",
       "environment": "Online",
@@ -571,7 +173,7 @@
         "id": "13314",
         "name": "KOLESIE",
         "rank": 86,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -582,32 +184,32 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "SPARTA",
-        "probability": 0.5118,
-        "models": 6,
+        "probability": 0.5181,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
-        "pick": "SPARTA",
-        "probability": 0.4819,
-        "agreement": "3/6"
+        "pick": "KOLESIE",
+        "probability": 0.4877,
+        "agreement": "4/7"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1513123",
       "pandaScoreId": 1513123,
-      "startTime": "2026-06-11T14:00:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-11T14:17:23Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -654,22 +256,22 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FURIA",
-        "probability": 0.5422,
-        "models": 6,
+        "probability": 0.5424,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "FURIA",
-        "probability": 0.5435,
-        "agreement": "5/6"
+        "probability": 0.5466,
+        "agreement": "6/7"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1513121",
       "pandaScoreId": 1513121,
-      "startTime": "2026-06-11T14:00:00Z",
+      "startTime": "2026-06-11T15:00:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
@@ -717,15 +319,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Falcons",
-        "probability": 0.6203,
-        "models": 6,
+        "probability": 0.6205,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Falcons",
-        "probability": 0.6098,
-        "agreement": "6/6"
+        "probability": 0.6147,
+        "agreement": "7/7"
       },
       "recommendedCommands": []
     },
@@ -780,22 +382,22 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Aurora",
-        "probability": 0.5638,
-        "models": 6,
+        "probability": 0.5639,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Aurora",
-        "probability": 0.5783,
-        "agreement": "6/6"
+        "probability": 0.5825,
+        "agreement": "7/7"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1513122",
       "pandaScoreId": 1513122,
-      "startTime": "2026-06-11T16:30:00Z",
+      "startTime": "2026-06-11T17:30:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
@@ -843,15 +445,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Natus Vincere",
-        "probability": 0.5822,
-        "models": 6,
+        "probability": 0.5823,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "Natus Vincere",
-        "probability": 0.5105,
-        "agreement": "3/6"
+        "probability": 0.5099,
+        "agreement": "4/7"
       },
       "recommendedCommands": []
     },
@@ -914,15 +516,15 @@
       ],
       "livePrediction": {
         "pick": "ex-RUBY",
-        "probability": 0.5164,
-        "models": 6,
-        "withMarket": false
+        "probability": 0.5165,
+        "models": 7,
+        "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "G2 Ares",
-        "probability": 0.5537,
-        "agreement": "4/6"
+        "probability": 0.5192,
+        "agreement": "4/7"
       },
       "recommendedCommands": [
         "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
@@ -955,7 +557,7 @@
           "playerAdr": 4,
           "playerKast": 0,
           "maps": 7,
-          "recentMatches": 6,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -963,7 +565,7 @@
         "id": "13814",
         "name": "INOX Division",
         "rank": 75,
-        "score": 0.9,
+        "score": 0.9333,
         "label": "high",
         "gaps": [
           "recentForm"
@@ -976,11 +578,11 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 3,
+          "recentMatches": 4,
           "bo3Linked": true
         }
       },
-      "score": 0.905,
+      "score": 0.9217,
       "label": "high",
       "gaps": [
         "playerAdr",
@@ -989,15 +591,15 @@
       ],
       "livePrediction": {
         "pick": "INOX Division",
-        "probability": 0.5662,
-        "models": 6,
-        "withMarket": false
+        "probability": 0.5462,
+        "models": 7,
+        "withMarket": true
       },
       "decision": {
         "tier": "skip",
         "pick": "Virtus.pro",
-        "probability": 0.5049,
-        "agreement": "3/6"
+        "probability": 0.5278,
+        "agreement": "5/7"
       },
       "recommendedCommands": [
         "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
@@ -1055,15 +657,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "3DMAX",
-        "probability": 0.606,
-        "models": 6,
+        "probability": 0.6061,
+        "models": 7,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "3DMAX",
-        "probability": 0.5339,
-        "agreement": "4/6"
+        "probability": 0.5332,
+        "agreement": "5/7"
       },
       "recommendedCommands": []
     },
@@ -1118,15 +720,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.5639,
-        "models": 6,
+        "probability": 0.564,
+        "models": 7,
         "withMarket": true
       },
       "decision": {
-        "tier": "skip",
+        "tier": "lean",
         "pick": "FaZe",
-        "probability": 0.5318,
-        "agreement": "5/6"
+        "probability": 0.5513,
+        "agreement": "6/7"
       },
       "recommendedCommands": []
     },
@@ -1181,15 +783,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.5992,
-        "models": 6,
-        "withMarket": false
+        "probability": 0.5993,
+        "models": 7,
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Monte",
-        "probability": 0.5685,
-        "agreement": "5/6"
+        "probability": 0.5884,
+        "agreement": "6/7"
       },
       "recommendedCommands": []
     },
@@ -1216,7 +818,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 6,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1244,15 +846,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.6115,
-        "models": 6,
-        "withMarket": false
+        "probability": 0.5994,
+        "models": 7,
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6128,
-        "agreement": "6/6"
+        "probability": 0.6076,
+        "agreement": "7/7"
       },
       "recommendedCommands": []
     },
@@ -1281,7 +883,7 @@
           "playerAdr": 5,
           "playerKast": 4,
           "maps": 7,
-          "recentMatches": 6,
+          "recentMatches": 7,
           "bo3Linked": true
         }
       },
@@ -1311,15 +913,15 @@
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.7111,
-        "models": 6,
+        "probability": 0.6988,
+        "models": 7,
         "withMarket": false
       },
       "decision": {
-        "tier": "strong",
+        "tier": "lean",
         "pick": "BetBoom",
-        "probability": 0.6571,
-        "agreement": "6/6"
+        "probability": 0.6482,
+        "agreement": "7/7"
       },
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
@@ -1337,7 +939,7 @@
         "id": "12467",
         "name": "PARIVISION",
         "rank": 14,
-        "score": 0.9667,
+        "score": 1,
         "label": "high",
         "gaps": [],
         "metrics": {
@@ -1348,7 +950,7 @@
           "playerAdr": 5,
           "playerKast": 5,
           "maps": 7,
-          "recentMatches": 5,
+          "recentMatches": 6,
           "bo3Linked": true
         }
       },
@@ -1371,20 +973,20 @@
           "bo3Linked": true
         }
       },
-      "score": 0.9667,
+      "score": 0.9833,
       "label": "high",
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.6348,
-        "models": 6,
+        "probability": 0.6458,
+        "models": 7,
         "withMarket": false
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.6086,
-        "agreement": "6/6"
+        "probability": 0.6195,
+        "agreement": "7/7"
       },
       "recommendedCommands": []
     },
@@ -1439,15 +1041,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.601,
-        "models": 6,
+        "probability": 0.6012,
+        "models": 7,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "B8",
-        "probability": 0.5227,
-        "agreement": "5/6"
+        "probability": 0.543,
+        "agreement": "6/7"
       },
       "recommendedCommands": []
     },
@@ -1502,15 +1104,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "BIG",
-        "probability": 0.6251,
-        "models": 6,
+        "probability": 0.6253,
+        "models": 7,
         "withMarket": false
       },
       "decision": {
-        "tier": "skip",
+        "tier": "lean",
         "pick": "BIG",
-        "probability": 0.562,
-        "agreement": "4/6"
+        "probability": 0.5629,
+        "agreement": "5/7"
       },
       "recommendedCommands": []
     }

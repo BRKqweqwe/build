@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T02:20:33.462Z",
+  "generatedAt": "2026-06-11T14:22:58.119Z",
   "source": {
     "name": "pandascore",
     "apiBaseUrl": "https://api.pandascore.co",
@@ -7,12 +7,12 @@
     "pages": 3,
     "perPage": 100,
     "maxMatches": 80,
-    "rawMatches": 197,
-    "matches": 30,
-    "mergedMatches": 30,
+    "rawMatches": 218,
+    "matches": 24,
+    "mergedMatches": 24,
     "keptExistingMatches": 0,
     "skipped": {
-      "missingOpponents": 137,
+      "missingOpponents": 164,
       "unknownTeams": 30,
       "rank": 0,
       "duplicate": 0
@@ -20,198 +20,9 @@
   },
   "matches": [
     {
-      "id": "pandascore-1517518",
-      "pandaScoreId": 1517518,
-      "startTime": "2026-06-11T08:00:00Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13518",
-      "teamBId": "13814",
-      "teamAName": "Acend",
-      "teamBName": "INOX Division",
-      "rawTeamAName": "Acend",
-      "rawTeamBName": "INOX Division",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513126",
-      "pandaScoreId": 1513126,
-      "startTime": "2026-06-11T09:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "6248",
-      "teamBId": "12394",
-      "teamAName": "The MongolZ",
-      "teamBName": "BetBoom",
-      "rawTeamAName": "TheMongolz",
-      "rawTeamBName": "BetBoom Team",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513125",
-      "pandaScoreId": 1513125,
-      "startTime": "2026-06-11T09:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "12467",
-      "teamBId": "9996",
-      "teamAName": "PARIVISION",
-      "teamBName": "9z",
-      "rawTeamAName": "PARIVISION",
-      "rawTeamBName": "9z",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1504766",
-      "pandaScoreId": 1504766,
-      "startTime": "2026-06-11T10:30:00Z",
-      "event": "European Pro League - Series 7 - Group D",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13314",
-      "teamBId": "5378",
-      "teamAName": "KOLESIE",
-      "teamBName": "Virtus.pro",
-      "rawTeamAName": "KOLESIE",
-      "rawTeamBName": "Virtus.pro",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1517519",
-      "pandaScoreId": 1517519,
-      "startTime": "2026-06-11T11:00:00Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13237",
-      "teamBId": "12380",
-      "teamAName": "AM",
-      "teamBName": "CYBERSHOKE",
-      "rawTeamAName": "AM Gaming",
-      "rawTeamBName": "CYBERSHOKE Esports",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513127",
-      "pandaScoreId": 1513127,
-      "startTime": "2026-06-11T11:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "4494",
-      "teamBId": "12468",
-      "teamAName": "MOUZ",
-      "teamBName": "Legacy",
-      "rawTeamAName": "MOUZ",
-      "rawTeamBName": "Legacy",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513120",
-      "pandaScoreId": 1513120,
-      "startTime": "2026-06-11T11:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "9565",
-      "teamBId": "13286",
-      "teamAName": "Vitality",
-      "teamBName": "FUT",
-      "rawTeamAName": "Vitality",
-      "rawTeamBName": "FUT Esports",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1517520",
-      "pandaScoreId": 1517520,
-      "startTime": "2026-06-11T14:00:00Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13214",
-      "teamBId": "13314",
-      "teamAName": "SPARTA",
-      "teamBName": "KOLESIE",
-      "rawTeamAName": "SPARTA",
-      "rawTeamBName": "KOLESIE",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513123",
-      "pandaScoreId": 1513123,
-      "startTime": "2026-06-11T14:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "8297",
-      "teamBId": "11241",
-      "teamAName": "FURIA",
-      "teamBName": "B8",
-      "rawTeamAName": "FURIA",
-      "rawTeamBName": "B8",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
       "id": "pandascore-1513121",
       "pandaScoreId": 1513121,
-      "startTime": "2026-06-11T14:00:00Z",
+      "startTime": "2026-06-11T15:00:00Z",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -253,7 +64,7 @@
     {
       "id": "pandascore-1513122",
       "pandaScoreId": 1513122,
-      "startTime": "2026-06-11T16:30:00Z",
+      "startTime": "2026-06-11T17:30:00Z",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -516,6 +327,69 @@
       "teamBName": "SINNERS",
       "rawTeamAName": "FaZe",
       "rawTeamBName": "Sinners",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513120",
+      "pandaScoreId": 1513120,
+      "startTime": "2026-06-11T12:14:17Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "running",
+      "teamAId": "9565",
+      "teamBId": "13286",
+      "teamAName": "Vitality",
+      "teamBName": "FUT",
+      "rawTeamAName": "Vitality",
+      "rawTeamBName": "FUT Esports",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1517520",
+      "pandaScoreId": 1517520,
+      "startTime": "2026-06-11T14:04:26Z",
+      "event": "NODWIN Clutch Series - Group Stage",
+      "format": "bo3",
+      "environment": "Online",
+      "status": "running",
+      "teamAId": "13214",
+      "teamBId": "13314",
+      "teamAName": "SPARTA",
+      "teamBName": "KOLESIE",
+      "rawTeamAName": "SPARTA",
+      "rawTeamBName": "KOLESIE",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513123",
+      "pandaScoreId": 1513123,
+      "startTime": "2026-06-11T14:17:23Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "running",
+      "teamAId": "8297",
+      "teamBId": "11241",
+      "teamAName": "FURIA",
+      "teamBName": "B8",
+      "rawTeamAName": "FURIA",
+      "rawTeamBName": "B8",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
