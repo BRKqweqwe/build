@@ -1,11 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-11T13:37:14.358Z",
+  "updatedAt": "2026-06-11T20:04:22.675Z",
   "source": {
     "predictions": "static/data/live-predictions-meta.json",
     "market": "static/data/market-comparisons.json",
     "generatedAt": "2026-06-11T13:37:14.087Z",
-    "marketGeneratedAt": "2026-06-11T02:22:17.351Z"
+    "marketGeneratedAt": "2026-06-11T02:22:17.351Z",
+    "results": "static/data/lolesports-schedule.json",
+    "resultsUpdatedAt": "2026-06-11T02:21:26.899Z"
   },
   "summary": {
     "total": 122,
