@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T02:21:25.483Z",
+  "generatedAt": "2026-06-11T13:43:34.325Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
@@ -326,6 +326,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Acend",
+          "pickTeamId": "13518",
+          "probability": 0.551274,
+          "teamAProbability": 0.551274,
+          "teamBProbability": 0.448726,
+          "baseTeamAProbability": 0.551274,
+          "baseTeamBProbability": 0.448726,
+          "favoriteTeamId": "13518",
+          "favoriteName": "Acend",
+          "favoriteProbability": 0.551274,
+          "confidence": 0.051274,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.4621056408055897,
+              "championProbA": 0.4996149977762263,
+              "ensembleProbA": 0.4834504243427816,
+              "ensemble25ProbA": 0.5358349804047342,
+              "archiveProbA": 0.499082161911692,
+              "oldprogProbA": 0.5082624593985486,
+              "weightedConfidence": 0.5378943591944103,
+              "championConfidence": 0.5003850022237737,
+              "ensembleConfidence": 0.5165495756572184,
+              "ensemble25Confidence": 0.5358349804047342,
+              "archiveConfidence": 0.5009178380883079,
+              "oldprogConfidence": 0.5082624593985486,
+              "meanProbA": 0.49805844410659544,
+              "medianProbA": 0.4996149977762263,
+              "minProbA": 0.4621056408055897,
+              "maxProbA": 0.5358349804047342,
+              "stdProbA": 0.02251169246878426,
+              "probRange": 0.07372933959914452,
+              "meanConfidence": 0.5166407024944989,
+              "maxConfidence": 0.5378943591944103,
+              "minConfidence": 0.5003850022237737,
+              "favoriteAgreement": 4,
+              "disagreementCount": 2,
+              "majorityPickA": 0,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 1,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -612,6 +683,77 @@
           "marketProbability": 0.515,
           "marketDisagreement": false,
           "marketEdge": 0.10810954322772681
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "The MongolZ",
+          "pickTeamId": "6248",
+          "probability": 0.611165,
+          "teamAProbability": 0.611165,
+          "teamBProbability": 0.388835,
+          "baseTeamAProbability": 0.611165,
+          "baseTeamBProbability": 0.388835,
+          "favoriteTeamId": "6248",
+          "favoriteName": "The MongolZ",
+          "favoriteProbability": 0.611165,
+          "confidence": 0.111165,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "The MongolZ",
+          "marketProbability": 0.515,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5964213981143204,
+              "championProbA": 0.5254702876668395,
+              "ensembleProbA": 0.53289120610553,
+              "ensemble25ProbA": 0.6184036083795551,
+              "archiveProbA": 0.5521573771270596,
+              "oldprogProbA": 0.6231095432277268,
+              "weightedConfidence": 0.5964213981143204,
+              "championConfidence": 0.5254702876668395,
+              "ensembleConfidence": 0.53289120610553,
+              "ensemble25Confidence": 0.6184036083795551,
+              "archiveConfidence": 0.5521573771270596,
+              "oldprogConfidence": 0.6231095432277268,
+              "meanProbA": 0.5747422367701719,
+              "medianProbA": 0.5964213981143204,
+              "minProbA": 0.5254702876668395,
+              "maxProbA": 0.6231095432277268,
+              "stdProbA": 0.03959168128658378,
+              "probRange": 0.09763925556088737,
+              "meanConfidence": 0.5747422367701719,
+              "maxConfidence": 0.6231095432277268,
+              "minConfidence": 0.5254702876668395,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -912,6 +1054,77 @@
           "marketProbability": 0.545,
           "marketDisagreement": false,
           "marketEdge": 0.05472736406211842
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.70089,
+          "teamAProbability": 0.70089,
+          "teamBProbability": 0.29911,
+          "baseTeamAProbability": 0.70089,
+          "baseTeamBProbability": 0.29911,
+          "favoriteTeamId": "12467",
+          "favoriteName": "PARIVISION",
+          "favoriteProbability": 0.70089,
+          "confidence": 0.20089,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.545,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5817551156328009,
+              "championProbA": 0.42598253970130034,
+              "ensembleProbA": 0.5440695481134382,
+              "ensemble25ProbA": 0.5286992988117862,
+              "archiveProbA": 0.5519351592148847,
+              "oldprogProbA": 0.5997273640621185,
+              "weightedConfidence": 0.5817551156328009,
+              "championConfidence": 0.5740174602986996,
+              "ensembleConfidence": 0.5440695481134382,
+              "ensemble25Confidence": 0.5286992988117862,
+              "archiveConfidence": 0.5519351592148847,
+              "oldprogConfidence": 0.5997273640621185,
+              "meanProbA": 0.5386948375893881,
+              "medianProbA": 0.5519351592148847,
+              "minProbA": 0.42598253970130034,
+              "maxProbA": 0.5997273640621185,
+              "stdProbA": 0.05565866712000335,
+              "probRange": 0.17374482436081812,
+              "meanConfidence": 0.5633673243556213,
+              "maxConfidence": 0.5997273640621185,
+              "minConfidence": 0.5286992988117862,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -1212,6 +1425,77 @@
           "marketProbability": 0.645,
           "marketDisagreement": false,
           "marketEdge": -0.12331527049199376
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "KOLESIE",
+          "pickTeamId": "13314",
+          "probability": 0.716827,
+          "teamAProbability": 0.716827,
+          "teamBProbability": 0.283173,
+          "baseTeamAProbability": 0.716827,
+          "baseTeamBProbability": 0.283173,
+          "favoriteTeamId": "13314",
+          "favoriteName": "KOLESIE",
+          "favoriteProbability": 0.716827,
+          "confidence": 0.216827,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Virtus.pro",
+          "marketProbability": 0.355,
+          "marketDisagreement": true,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5237016233930324,
+              "championProbA": 0.492533366040877,
+              "ensembleProbA": 0.3490194236636396,
+              "ensemble25ProbA": 0.3258506105339733,
+              "archiveProbA": 0.3612608470826348,
+              "oldprogProbA": 0.47831527049199374,
+              "weightedConfidence": 0.5237016233930324,
+              "championConfidence": 0.507466633959123,
+              "ensembleConfidence": 0.6509805763363604,
+              "ensemble25Confidence": 0.6741493894660266,
+              "archiveConfidence": 0.6387391529173652,
+              "oldprogConfidence": 0.5216847295080063,
+              "meanProbA": 0.42178019020102503,
+              "medianProbA": 0.47831527049199374,
+              "minProbA": 0.3258506105339733,
+              "maxProbA": 0.5237016233930324,
+              "stdProbA": 0.07826175101598769,
+              "probRange": 0.1978510128590591,
+              "meanConfidence": 0.5861203509299857,
+              "maxConfidence": 0.6741493894660266,
+              "minConfidence": 0.507466633959123,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 0,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -1512,6 +1796,77 @@
           "marketProbability": 0.34,
           "marketDisagreement": true,
           "marketEdge": 0.17749292404663736
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "AM",
+          "pickTeamId": "13237",
+          "probability": 0.558147,
+          "teamAProbability": 0.558147,
+          "teamBProbability": 0.441853,
+          "baseTeamAProbability": 0.558147,
+          "baseTeamBProbability": 0.441853,
+          "favoriteTeamId": "13237",
+          "favoriteName": "AM",
+          "favoriteProbability": 0.558147,
+          "confidence": 0.058147,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "CYBERSHOKE",
+          "marketProbability": 0.34,
+          "marketDisagreement": true,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.48090178597282424,
+              "championProbA": 0.4671447250564139,
+              "ensembleProbA": 0.4453856313309584,
+              "ensemble25ProbA": 0.4857776205597618,
+              "archiveProbA": 0.4591077391036246,
+              "oldprogProbA": 0.5174929240466374,
+              "weightedConfidence": 0.5190982140271758,
+              "championConfidence": 0.5328552749435861,
+              "ensembleConfidence": 0.5546143686690417,
+              "ensemble25Confidence": 0.5142223794402382,
+              "archiveConfidence": 0.5408922608963753,
+              "oldprogConfidence": 0.5174929240466374,
+              "meanProbA": 0.4759684043450367,
+              "medianProbA": 0.48090178597282424,
+              "minProbA": 0.4453856313309584,
+              "maxProbA": 0.5174929240466374,
+              "stdProbA": 0.022884820541439366,
+              "probRange": 0.072107292715679,
+              "meanConfidence": 0.5298625703371758,
+              "maxConfidence": 0.5546143686690417,
+              "minConfidence": 0.5142223794402382,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 0,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -1812,6 +2167,77 @@
           "marketProbability": 0.555,
           "marketDisagreement": false,
           "marketEdge": -0.026960097286324536
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "MOUZ",
+          "pickTeamId": "4494",
+          "probability": 0.619,
+          "teamAProbability": 0.619,
+          "teamBProbability": 0.381,
+          "baseTeamAProbability": 0.619,
+          "baseTeamBProbability": 0.381,
+          "favoriteTeamId": "4494",
+          "favoriteName": "MOUZ",
+          "favoriteProbability": 0.619,
+          "confidence": 0.119,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "MOUZ",
+          "marketProbability": 0.555,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5082267215593725,
+              "championProbA": 0.4504708716705181,
+              "ensembleProbA": 0.4935166136270449,
+              "ensemble25ProbA": 0.3960077056698995,
+              "archiveProbA": 0.5008469383107698,
+              "oldprogProbA": 0.5280399027136755,
+              "weightedConfidence": 0.5082267215593725,
+              "championConfidence": 0.5495291283294819,
+              "ensembleConfidence": 0.5064833863729551,
+              "ensemble25Confidence": 0.6039922943301005,
+              "archiveConfidence": 0.5008469383107698,
+              "oldprogConfidence": 0.5280399027136755,
+              "meanProbA": 0.47951812559188006,
+              "medianProbA": 0.5008469383107698,
+              "minProbA": 0.3960077056698995,
+              "maxProbA": 0.5280399027136755,
+              "stdProbA": 0.04405896702652717,
+              "probRange": 0.132032197043776,
+              "meanConfidence": 0.5328530619360592,
+              "maxConfidence": 0.6039922943301005,
+              "minConfidence": 0.5008469383107698,
+              "favoriteAgreement": 3,
+              "disagreementCount": 3,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -2112,6 +2538,77 @@
           "marketProbability": 0.815,
           "marketDisagreement": false,
           "marketEdge": -0.12376806899786563
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.659241,
+          "teamAProbability": 0.659241,
+          "teamBProbability": 0.340759,
+          "baseTeamAProbability": 0.659241,
+          "baseTeamBProbability": 0.340759,
+          "favoriteTeamId": "9565",
+          "favoriteName": "Vitality",
+          "favoriteProbability": 0.659241,
+          "confidence": 0.159241,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.815,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6588235423165278,
+              "championProbA": 0.6860902234716748,
+              "ensembleProbA": 0.6288700100135464,
+              "ensemble25ProbA": 0.6584271012705734,
+              "archiveProbA": 0.6447283799156694,
+              "oldprogProbA": 0.6912319310021343,
+              "weightedConfidence": 0.6588235423165278,
+              "championConfidence": 0.6860902234716748,
+              "ensembleConfidence": 0.6288700100135464,
+              "ensemble25Confidence": 0.6584271012705734,
+              "archiveConfidence": 0.6447283799156694,
+              "oldprogConfidence": 0.6912319310021343,
+              "meanProbA": 0.661361864665021,
+              "medianProbA": 0.6588235423165278,
+              "minProbA": 0.6288700100135464,
+              "maxProbA": 0.6912319310021343,
+              "stdProbA": 0.02179893706269443,
+              "probRange": 0.06236192098858795,
+              "meanConfidence": 0.661361864665021,
+              "maxConfidence": 0.6912319310021343,
+              "minConfidence": 0.6288700100135464,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -2412,6 +2909,77 @@
           "marketProbability": 0.445,
           "marketDisagreement": true,
           "marketEdge": 0.08289663110353934
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "SPARTA",
+          "pickTeamId": "13214",
+          "probability": 0.654557,
+          "teamAProbability": 0.654557,
+          "teamBProbability": 0.345443,
+          "baseTeamAProbability": 0.654557,
+          "baseTeamBProbability": 0.345443,
+          "favoriteTeamId": "13214",
+          "favoriteName": "SPARTA",
+          "favoriteProbability": 0.654557,
+          "confidence": 0.154557,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "KOLESIE",
+          "marketProbability": 0.445,
+          "marketDisagreement": true,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5117923301294673,
+              "championProbA": 0.41342738829984355,
+              "ensembleProbA": 0.5000500209389356,
+              "ensemble25ProbA": 0.4392666030725739,
+              "archiveProbA": 0.4988178782209257,
+              "oldprogProbA": 0.5278966311035393,
+              "weightedConfidence": 0.5117923301294673,
+              "championConfidence": 0.5865726117001564,
+              "ensembleConfidence": 0.5000500209389356,
+              "ensemble25Confidence": 0.5607333969274261,
+              "archiveConfidence": 0.5011821217790743,
+              "oldprogConfidence": 0.5278966311035393,
+              "meanProbA": 0.4818751419608809,
+              "medianProbA": 0.5000500209389356,
+              "minProbA": 0.41342738829984355,
+              "maxProbA": 0.5278966311035393,
+              "stdProbA": 0.04109132251482712,
+              "probRange": 0.1144692428036958,
+              "meanConfidence": 0.5313711854297666,
+              "maxConfidence": 0.5865726117001564,
+              "minConfidence": 0.5000500209389356,
+              "favoriteAgreement": 3,
+              "disagreementCount": 3,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 1,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -2712,6 +3280,77 @@
           "marketProbability": 0.745,
           "marketDisagreement": false,
           "marketEdge": -0.18140542605054988
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "FURIA",
+          "pickTeamId": "8297",
+          "probability": 0.565003,
+          "teamAProbability": 0.565003,
+          "teamBProbability": 0.434997,
+          "baseTeamAProbability": 0.565003,
+          "baseTeamBProbability": 0.434997,
+          "favoriteTeamId": "8297",
+          "favoriteName": "FURIA",
+          "favoriteProbability": 0.565003,
+          "confidence": 0.065003,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FURIA",
+          "marketProbability": 0.745,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5422069137997462,
+              "championProbA": 0.5873399882597382,
+              "ensembleProbA": 0.4997385620192757,
+              "ensemble25ProbA": 0.5494564883167727,
+              "archiveProbA": 0.5187942522369067,
+              "oldprogProbA": 0.5635945739494501,
+              "weightedConfidence": 0.5422069137997462,
+              "championConfidence": 0.5873399882597382,
+              "ensembleConfidence": 0.5002614379807243,
+              "ensemble25Confidence": 0.5494564883167727,
+              "archiveConfidence": 0.5187942522369067,
+              "oldprogConfidence": 0.5635945739494501,
+              "meanProbA": 0.5435217964303148,
+              "medianProbA": 0.5494564883167727,
+              "minProbA": 0.4997385620192757,
+              "maxProbA": 0.5873399882597382,
+              "stdProbA": 0.02854330883056239,
+              "probRange": 0.08760142624046252,
+              "meanConfidence": 0.5436089424238896,
+              "maxConfidence": 0.5873399882597382,
+              "minConfidence": 0.5002614379807243,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 1,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -3012,6 +3651,77 @@
           "marketProbability": 0.625,
           "marketDisagreement": false,
           "marketEdge": 0.02729565240763443
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.644621,
+          "teamAProbability": 0.644621,
+          "teamBProbability": 0.355379,
+          "baseTeamAProbability": 0.644621,
+          "baseTeamBProbability": 0.355379,
+          "favoriteTeamId": "11283",
+          "favoriteName": "Falcons",
+          "favoriteProbability": 0.644621,
+          "confidence": 0.144621,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.625,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6203093495867757,
+              "championProbA": 0.5223445683496699,
+              "ensembleProbA": 0.6031550318269743,
+              "ensemble25ProbA": 0.6434237845823239,
+              "archiveProbA": 0.6174530269295405,
+              "oldprogProbA": 0.6522956524076344,
+              "weightedConfidence": 0.6203093495867757,
+              "championConfidence": 0.5223445683496699,
+              "ensembleConfidence": 0.6031550318269743,
+              "ensemble25Confidence": 0.6434237845823239,
+              "archiveConfidence": 0.6174530269295405,
+              "oldprogConfidence": 0.6522956524076344,
+              "meanProbA": 0.6098302356138198,
+              "medianProbA": 0.6203093495867757,
+              "minProbA": 0.5223445683496699,
+              "maxProbA": 0.6522956524076344,
+              "stdProbA": 0.04242259078824702,
+              "probRange": 0.12995108405796452,
+              "meanConfidence": 0.6098302356138198,
+              "maxConfidence": 0.6522956524076344,
+              "minConfidence": 0.5223445683496699,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -3312,6 +4022,77 @@
           "marketProbability": 0.635,
           "marketDisagreement": false,
           "marketEdge": -0.05299182036238392
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Aurora",
+          "pickTeamId": "11861",
+          "probability": 0.608413,
+          "teamAProbability": 0.608413,
+          "teamBProbability": 0.391587,
+          "baseTeamAProbability": 0.608413,
+          "baseTeamBProbability": 0.391587,
+          "favoriteTeamId": "11861",
+          "favoriteName": "Aurora",
+          "favoriteProbability": 0.608413,
+          "confidence": 0.108413,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Aurora",
+          "marketProbability": 0.635,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5637686544653712,
+              "championProbA": 0.5444383951829139,
+              "ensembleProbA": 0.5988439684049435,
+              "ensemble25ProbA": 0.5722821066899417,
+              "archiveProbA": 0.6086804660303584,
+              "oldprogProbA": 0.5820081796376161,
+              "weightedConfidence": 0.5637686544653712,
+              "championConfidence": 0.5444383951829139,
+              "ensembleConfidence": 0.5988439684049435,
+              "ensemble25Confidence": 0.5722821066899417,
+              "archiveConfidence": 0.6086804660303584,
+              "oldprogConfidence": 0.5820081796376161,
+              "meanProbA": 0.5783369617351908,
+              "medianProbA": 0.5820081796376161,
+              "minProbA": 0.5444383951829139,
+              "maxProbA": 0.6086804660303584,
+              "stdProbA": 0.021419434621301383,
+              "probRange": 0.06424207084744449,
+              "meanConfidence": 0.5783369617351908,
+              "maxConfidence": 0.6086804660303584,
+              "minConfidence": 0.5444383951829139,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -3612,6 +4393,77 @@
           "marketProbability": 0.355,
           "marketDisagreement": true,
           "marketEdge": 0.2180690686503598
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.505898,
+          "teamAProbability": 0.505898,
+          "teamBProbability": 0.494102,
+          "baseTeamAProbability": 0.505898,
+          "baseTeamBProbability": 0.494102,
+          "favoriteTeamId": "4608",
+          "favoriteName": "Natus Vincere",
+          "favoriteProbability": 0.505898,
+          "confidence": 0.005898,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.355,
+          "marketDisagreement": true,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5821631033836935,
+              "championProbA": 0.5245307831117203,
+              "ensembleProbA": 0.46539889135698587,
+              "ensemble25ProbA": 0.43785304974458117,
+              "archiveProbA": 0.4797639951018191,
+              "oldprogProbA": 0.5730690686503598,
+              "weightedConfidence": 0.5821631033836935,
+              "championConfidence": 0.5245307831117203,
+              "ensembleConfidence": 0.5346011086430141,
+              "ensemble25Confidence": 0.5621469502554188,
+              "archiveConfidence": 0.5202360048981809,
+              "oldprogConfidence": 0.5730690686503598,
+              "meanProbA": 0.5104631485581933,
+              "medianProbA": 0.5245307831117203,
+              "minProbA": 0.43785304974458117,
+              "maxProbA": 0.5821631033836935,
+              "stdProbA": 0.05401193516908122,
+              "probRange": 0.1443100536391123,
+              "meanConfidence": 0.5494578364903979,
+              "maxConfidence": 0.5821631033836935,
+              "minConfidence": 0.5202360048981809,
+              "favoriteAgreement": 3,
+              "disagreementCount": 3,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 1,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -3912,6 +4764,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "ex-RUBY",
+          "pickTeamId": "13617",
+          "probability": 0.687479,
+          "teamAProbability": 0.687479,
+          "teamBProbability": 0.312521,
+          "baseTeamAProbability": 0.687479,
+          "baseTeamBProbability": 0.312521,
+          "favoriteTeamId": "13617",
+          "favoriteName": "ex-RUBY",
+          "favoriteProbability": 0.687479,
+          "confidence": 0.187479,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5163622610839653,
+              "championProbA": 0.4229807344386963,
+              "ensembleProbA": 0.39195634814870794,
+              "ensemble25ProbA": 0.4440877102124027,
+              "archiveProbA": 0.3944299220420962,
+              "oldprogProbA": 0.5080876293851344,
+              "weightedConfidence": 0.5163622610839653,
+              "championConfidence": 0.5770192655613037,
+              "ensembleConfidence": 0.608043651851292,
+              "ensemble25Confidence": 0.5559122897875973,
+              "archiveConfidence": 0.6055700779579039,
+              "oldprogConfidence": 0.5080876293851344,
+              "meanProbA": 0.4463174342185005,
+              "medianProbA": 0.4440877102124027,
+              "minProbA": 0.39195634814870794,
+              "maxProbA": 0.5163622610839653,
+              "stdProbA": 0.049864565919159075,
+              "probRange": 0.12440591293525738,
+              "meanConfidence": 0.5618325292711994,
+              "maxConfidence": 0.608043651851292,
+              "minConfidence": 0.5080876293851344,
+              "favoriteAgreement": 4,
+              "disagreementCount": 2,
+              "majorityPickA": 0,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -4193,6 +5116,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Virtus.pro",
+          "pickTeamId": "5378",
+          "probability": 0.581181,
+          "teamAProbability": 0.581181,
+          "teamBProbability": 0.418819,
+          "baseTeamAProbability": 0.581181,
+          "baseTeamBProbability": 0.418819,
+          "favoriteTeamId": "5378",
+          "favoriteName": "Virtus.pro",
+          "favoriteProbability": 0.581181,
+          "confidence": 0.081181,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.4338419504120667,
+              "championProbA": 0.35580763820678185,
+              "ensembleProbA": 0.5755199995286321,
+              "ensemble25ProbA": 0.5897662976743863,
+              "archiveProbA": 0.5757941080033491,
+              "oldprogProbA": 0.49890381784705207,
+              "weightedConfidence": 0.5661580495879333,
+              "championConfidence": 0.6441923617932181,
+              "ensembleConfidence": 0.5755199995286321,
+              "ensemble25Confidence": 0.5897662976743863,
+              "archiveConfidence": 0.5757941080033491,
+              "oldprogConfidence": 0.5010961821529479,
+              "meanProbA": 0.5049389686120447,
+              "medianProbA": 0.5755199995286321,
+              "minProbA": 0.35580763820678185,
+              "maxProbA": 0.5897662976743863,
+              "stdProbA": 0.08614829385947242,
+              "probRange": 0.2339586594676044,
+              "meanConfidence": 0.5754211664567445,
+              "maxConfidence": 0.6441923617932181,
+              "minConfidence": 0.5010961821529479,
+              "favoriteAgreement": 3,
+              "disagreementCount": 3,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 0,
+              "isBo3": 1,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -4474,6 +5468,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "3DMAX",
+          "pickTeamId": "4914",
+          "probability": 0.529296,
+          "teamAProbability": 0.529296,
+          "teamBProbability": 0.470704,
+          "baseTeamAProbability": 0.529296,
+          "baseTeamBProbability": 0.470704,
+          "favoriteTeamId": "4914",
+          "favoriteName": "3DMAX",
+          "favoriteProbability": 0.529296,
+          "confidence": 0.029296,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6059663635643859,
+              "championProbA": 0.5328312380477693,
+              "ensembleProbA": 0.44580034974965504,
+              "ensemble25ProbA": 0.5444165192016549,
+              "archiveProbA": 0.463224627397092,
+              "oldprogProbA": 0.61121697215212,
+              "weightedConfidence": 0.6059663635643859,
+              "championConfidence": 0.5328312380477693,
+              "ensembleConfidence": 0.554199650250345,
+              "ensemble25Confidence": 0.5444165192016549,
+              "archiveConfidence": 0.536775372602908,
+              "oldprogConfidence": 0.61121697215212,
+              "meanProbA": 0.5339093450187795,
+              "medianProbA": 0.5444165192016549,
+              "minProbA": 0.44580034974965504,
+              "maxProbA": 0.61121697215212,
+              "stdProbA": 0.06329793376197466,
+              "probRange": 0.16541662240246496,
+              "meanConfidence": 0.5642343526365305,
+              "maxConfidence": 0.61121697215212,
+              "minConfidence": 0.5328312380477693,
+              "favoriteAgreement": 4,
+              "disagreementCount": 2,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 1,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -4755,6 +5820,77 @@
           "marketProbability": 0.535,
           "marketDisagreement": false,
           "marketEdge": 0.037976037928589945
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "FaZe",
+          "pickTeamId": "6667",
+          "probability": 0.667565,
+          "teamAProbability": 0.667565,
+          "teamBProbability": 0.332435,
+          "baseTeamAProbability": 0.667565,
+          "baseTeamBProbability": 0.332435,
+          "favoriteTeamId": "6667",
+          "favoriteName": "FaZe",
+          "favoriteProbability": 0.667565,
+          "confidence": 0.167565,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "FaZe",
+          "marketProbability": 0.535,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5638511234075768,
+              "championProbA": 0.45108541455130974,
+              "ensembleProbA": 0.5161368410250201,
+              "ensemble25ProbA": 0.5621831980242231,
+              "archiveProbA": 0.5243097596048917,
+              "oldprogProbA": 0.57297603792859,
+              "weightedConfidence": 0.5638511234075768,
+              "championConfidence": 0.5489145854486903,
+              "ensembleConfidence": 0.5161368410250201,
+              "ensemble25Confidence": 0.5621831980242231,
+              "archiveConfidence": 0.5243097596048917,
+              "oldprogConfidence": 0.57297603792859,
+              "meanProbA": 0.5317570624236018,
+              "medianProbA": 0.5621831980242231,
+              "minProbA": 0.45108541455130974,
+              "maxProbA": 0.57297603792859,
+              "stdProbA": 0.04175753589863886,
+              "probRange": 0.12189062337728024,
+              "meanConfidence": 0.5480619242398319,
+              "maxConfidence": 0.57297603792859,
+              "minConfidence": 0.5161368410250201,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": {
@@ -5050,6 +6186,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "Monte",
+          "pickTeamId": "11811",
+          "probability": 0.706887,
+          "teamAProbability": 0.706887,
+          "teamBProbability": 0.293113,
+          "baseTeamAProbability": 0.706887,
+          "baseTeamBProbability": 0.293113,
+          "favoriteTeamId": "11811",
+          "favoriteName": "Monte",
+          "favoriteProbability": 0.706887,
+          "confidence": 0.206887,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.5991791340383553,
+              "championProbA": 0.4544785287177671,
+              "ensembleProbA": 0.5420773974385035,
+              "ensemble25ProbA": 0.6307502130442675,
+              "archiveProbA": 0.5523726847885134,
+              "oldprogProbA": 0.6321349880330379,
+              "weightedConfidence": 0.5991791340383553,
+              "championConfidence": 0.5455214712822329,
+              "ensembleConfidence": 0.5420773974385035,
+              "ensemble25Confidence": 0.6307502130442675,
+              "archiveConfidence": 0.5523726847885134,
+              "oldprogConfidence": 0.6321349880330379,
+              "meanProbA": 0.5684988243434075,
+              "medianProbA": 0.5991791340383553,
+              "minProbA": 0.4544785287177671,
+              "maxProbA": 0.6321349880330379,
+              "stdProbA": 0.06167772439394204,
+              "probRange": 0.1776564593152708,
+              "meanConfidence": 0.5836726481041518,
+              "maxConfidence": 0.6321349880330379,
+              "minConfidence": 0.5420773974385035,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -5331,6 +6538,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "9z",
+          "pickTeamId": "9996",
+          "probability": 0.608161,
+          "teamAProbability": 0.608161,
+          "teamBProbability": 0.391839,
+          "baseTeamAProbability": 0.608161,
+          "baseTeamBProbability": 0.391839,
+          "favoriteTeamId": "9996",
+          "favoriteName": "9z",
+          "favoriteProbability": 0.608161,
+          "confidence": 0.108161,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6115276195474726,
+              "championProbA": 0.6429651256427986,
+              "ensembleProbA": 0.5649801760594262,
+              "ensemble25ProbA": 0.636969242140049,
+              "archiveProbA": 0.5870784749349067,
+              "oldprogProbA": 0.6335667552857455,
+              "weightedConfidence": 0.6115276195474726,
+              "championConfidence": 0.6429651256427986,
+              "ensembleConfidence": 0.5649801760594262,
+              "ensemble25Confidence": 0.636969242140049,
+              "archiveConfidence": 0.5870784749349067,
+              "oldprogConfidence": 0.6335667552857455,
+              "meanProbA": 0.6128478989350664,
+              "medianProbA": 0.6335667552857455,
+              "minProbA": 0.5649801760594262,
+              "maxProbA": 0.6429651256427986,
+              "stdProbA": 0.028505212375160367,
+              "probRange": 0.07798494958337243,
+              "meanConfidence": 0.6128478989350664,
+              "maxConfidence": 0.6429651256427986,
+              "minConfidence": 0.5649801760594262,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -5612,6 +6890,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "BetBoom",
+          "pickTeamId": "12394",
+          "probability": 0.658591,
+          "teamAProbability": 0.658591,
+          "teamBProbability": 0.341409,
+          "baseTeamAProbability": 0.658591,
+          "baseTeamBProbability": 0.341409,
+          "favoriteTeamId": "12394",
+          "favoriteName": "BetBoom",
+          "favoriteProbability": 0.658591,
+          "confidence": 0.158591,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.7110710783432812,
+              "championProbA": 0.5558647725119434,
+              "ensembleProbA": 0.6626159438665525,
+              "ensemble25ProbA": 0.6287963648524842,
+              "archiveProbA": 0.6604174192073098,
+              "oldprogProbA": 0.7235406400622206,
+              "weightedConfidence": 0.7110710783432812,
+              "championConfidence": 0.5558647725119434,
+              "ensembleConfidence": 0.6626159438665525,
+              "ensemble25Confidence": 0.6287963648524842,
+              "archiveConfidence": 0.6604174192073098,
+              "oldprogConfidence": 0.7235406400622206,
+              "meanProbA": 0.6570510364739653,
+              "medianProbA": 0.6626159438665525,
+              "minProbA": 0.5558647725119434,
+              "maxProbA": 0.7235406400622206,
+              "stdProbA": 0.05540505319750643,
+              "probRange": 0.1676758675502772,
+              "meanConfidence": 0.6570510364739653,
+              "maxConfidence": 0.7235406400622206,
+              "minConfidence": 0.5558647725119434,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -5893,6 +7242,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.618251,
+          "teamAProbability": 0.618251,
+          "teamBProbability": 0.381749,
+          "baseTeamAProbability": 0.618251,
+          "baseTeamBProbability": 0.381749,
+          "favoriteTeamId": "12467",
+          "favoriteName": "PARIVISION",
+          "favoriteProbability": 0.618251,
+          "confidence": 0.118251,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6348038717015515,
+              "championProbA": 0.5289478845189028,
+              "ensembleProbA": 0.6011081325105329,
+              "ensemble25ProbA": 0.5999508865978895,
+              "archiveProbA": 0.6138868463129471,
+              "oldprogProbA": 0.6726085511059553,
+              "weightedConfidence": 0.6348038717015515,
+              "championConfidence": 0.5289478845189028,
+              "ensembleConfidence": 0.6011081325105329,
+              "ensemble25Confidence": 0.5999508865978895,
+              "archiveConfidence": 0.6138868463129471,
+              "oldprogConfidence": 0.6726085511059553,
+              "meanProbA": 0.6085510287912965,
+              "medianProbA": 0.6138868463129471,
+              "minProbA": 0.5289478845189028,
+              "maxProbA": 0.6726085511059553,
+              "stdProbA": 0.043372550081498235,
+              "probRange": 0.14366066658705245,
+              "meanConfidence": 0.6085510287912965,
+              "maxConfidence": 0.6726085511059553,
+              "minConfidence": 0.5289478845189028,
+              "favoriteAgreement": 6,
+              "disagreementCount": 0,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -6174,6 +7594,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "B8",
+          "pickTeamId": "11241",
+          "probability": 0.664948,
+          "teamAProbability": 0.664948,
+          "teamBProbability": 0.335052,
+          "baseTeamAProbability": 0.664948,
+          "baseTeamBProbability": 0.335052,
+          "favoriteTeamId": "11241",
+          "favoriteName": "B8",
+          "favoriteProbability": 0.664948,
+          "confidence": 0.164948,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6009865786279308,
+              "championProbA": 0.441033680092084,
+              "ensembleProbA": 0.5133550195602681,
+              "ensemble25ProbA": 0.5117159112518888,
+              "archiveProbA": 0.5120584530042593,
+              "oldprogProbA": 0.5571192019386699,
+              "weightedConfidence": 0.6009865786279308,
+              "championConfidence": 0.558966319907916,
+              "ensembleConfidence": 0.5133550195602681,
+              "ensemble25Confidence": 0.5117159112518888,
+              "archiveConfidence": 0.5120584530042593,
+              "oldprogConfidence": 0.5571192019386699,
+              "meanProbA": 0.5227114740791835,
+              "medianProbA": 0.5133550195602681,
+              "minProbA": 0.441033680092084,
+              "maxProbA": 0.6009865786279308,
+              "stdProbA": 0.048826356032108255,
+              "probRange": 0.15995289853584682,
+              "meanConfidence": 0.5423669140484889,
+              "maxConfidence": 0.6009865786279308,
+              "minConfidence": 0.5117159112518888,
+              "favoriteAgreement": 5,
+              "disagreementCount": 1,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 1,
+              "ensembleVsEnsemble25Disagree": 0,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,
@@ -6455,6 +7946,77 @@
           "marketProbability": null,
           "marketDisagreement": false,
           "marketEdge": null
+        },
+        {
+          "modelId": "meta",
+          "modelPath": "static/data/trained-model-meta-picker.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline",
+            "generatedAt": "2026-06-11T13:43:34.031Z",
+            "metrics": {
+              "rows": 338,
+              "accuracy": 0.5857988165680473,
+              "logLoss": 0.669079129090084,
+              "brier": 0.23825705278766215
+            },
+            "features": 31
+          },
+          "pick": "BIG",
+          "pickTeamId": "7532",
+          "probability": 0.56729,
+          "teamAProbability": 0.56729,
+          "teamBProbability": 0.43271,
+          "baseTeamAProbability": 0.56729,
+          "baseTeamBProbability": 0.43271,
+          "favoriteTeamId": "7532",
+          "favoriteName": "BIG",
+          "favoriteProbability": 0.56729,
+          "confidence": 0.06729,
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": null,
+          "marketProbability": null,
+          "marketDisagreement": false,
+          "marketEdge": null,
+          "meta": {
+            "features": {
+              "weightedProbA": 0.6251068484094755,
+              "championProbA": 0.6440514434399542,
+              "ensembleProbA": 0.45019911811879476,
+              "ensemble25ProbA": 0.552794103954803,
+              "archiveProbA": 0.4741328365706591,
+              "oldprogProbA": 0.6258864531576396,
+              "weightedConfidence": 0.6251068484094755,
+              "championConfidence": 0.6440514434399542,
+              "ensembleConfidence": 0.5498008818812052,
+              "ensemble25Confidence": 0.552794103954803,
+              "archiveConfidence": 0.5258671634293409,
+              "oldprogConfidence": 0.6258864531576396,
+              "meanProbA": 0.562028467275221,
+              "medianProbA": 0.6251068484094755,
+              "minProbA": 0.45019911811879476,
+              "maxProbA": 0.6440514434399542,
+              "stdProbA": 0.07648661303569615,
+              "probRange": 0.19385232532115948,
+              "meanConfidence": 0.5872511490454032,
+              "maxConfidence": 0.6440514434399542,
+              "minConfidence": 0.5258671634293409,
+              "favoriteAgreement": 4,
+              "disagreementCount": 2,
+              "majorityPickA": 1,
+              "weightedVsChampionDisagree": 0,
+              "ensembleVsEnsemble25Disagree": 1,
+              "isLan": 0,
+              "isBo1": 1,
+              "isBo3": 0,
+              "isBo5": 0,
+              "eventTier": 1
+            }
+          }
         }
       ],
       "market": null,

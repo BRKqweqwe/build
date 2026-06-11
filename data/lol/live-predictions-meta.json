@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-11T13:37:14.087Z",
+  "source": {
+    "model": "static/data/trained-model-meta-picker.json",
+    "predictions": {
+      "champion": "static/data/live-predictions.json",
+      "conservative": "static/data/live-predictions-conservative.json",
+      "balanced": "static/data/live-predictions-balanced.json",
+      "accuracy": "static/data/live-predictions-accuracy.json",
+      "recency": "static/data/live-predictions-recency.json"
+    }
+  },
+  "summary": {
+    "total": 14,
+    "high": 12,
+    "medium": 0,
+    "low": 2,
+    "skipped": 0
+  },
+  "predictions": [
+    {
+      "matchId": "lolesports-116520394663535888",
+      "match": {
+        "id": "lolesports-116520394663535888",
+        "lolEsportsId": "116520394663535888",
+        "source": "lolesports",
+        "startTime": "2026-06-11T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Warrior",
+        "teamB": "TP.HCM SN CyberCore Esports",
+        "teamAId": "SGW",
+        "teamBId": "SCBC",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "TP.HCM SN CyberCore Esports",
+        "probability": 0.558362,
+        "teamAProbability": 0.441638,
+        "teamBProbability": 0.558362,
+        "margin": 0.116724
+      },
+      "coverage": {
+        "teamAGames": 0,
+        "teamBGames": 48,
+        "level": "low"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.668142,
+          "conservativeProbA": 0.575664,
+          "balancedProbA": 0.760392,
+          "accuracyProbA": 0.76242,
+          "recencyProbA": 0.805111,
+          "championConfidence": 0.668142,
+          "conservativeConfidence": 0.575664,
+          "balancedConfidence": 0.760392,
+          "accuracyConfidence": 0.76242,
+          "recencyConfidence": 0.805111,
+          "meanProbA": 0.7143458,
+          "medianProbA": 0.760392,
+          "minProbA": 0.575664,
+          "maxProbA": 0.805111,
+          "stdProbA": 0.08250713369982018,
+          "probRange": 0.22944700000000007,
+          "meanConfidence": 0.7143458,
+          "maxConfidence": 0.805111,
+          "minConfidence": 0.575664,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 1,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 0,
+          "coverageMedium": 0,
+          "coverageLow": 1
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Saigon Warrior",
+            "probability": 0.668142,
+            "teamAProbability": 0.668142
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Saigon Warrior",
+            "probability": 0.575664,
+            "teamAProbability": 0.575664
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Saigon Warrior",
+            "probability": 0.760392,
+            "teamAProbability": 0.760392
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Saigon Warrior",
+            "probability": 0.76242,
+            "teamAProbability": 0.76242
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Saigon Warrior",
+            "probability": 0.805111,
+            "teamAProbability": 0.805111
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025935",
+      "match": {
+        "id": "lolesports-116634529527025935",
+        "lolEsportsId": "116634529527025935",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "MISA Esports",
+        "teamB": "UCAM Esports Club",
+        "teamAId": "MISA",
+        "teamBId": "UCAM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "MISA Esports",
+        "probability": 0.692522,
+        "teamAProbability": 0.692522,
+        "teamBProbability": 0.307478,
+        "margin": 0.385045
+      },
+      "coverage": {
+        "teamAGames": 206,
+        "teamBGames": 168,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.74567,
+          "conservativeProbA": 0.74567,
+          "balancedProbA": 0.725448,
+          "accuracyProbA": 0.70846,
+          "recencyProbA": 0.776807,
+          "championConfidence": 0.74567,
+          "conservativeConfidence": 0.74567,
+          "balancedConfidence": 0.725448,
+          "accuracyConfidence": 0.70846,
+          "recencyConfidence": 0.776807,
+          "meanProbA": 0.7404110000000002,
+          "medianProbA": 0.74567,
+          "minProbA": 0.70846,
+          "maxProbA": 0.776807,
+          "stdProbA": 0.02291174697835154,
+          "probRange": 0.06834700000000005,
+          "meanConfidence": 0.7404110000000002,
+          "maxConfidence": 0.776807,
+          "minConfidence": 0.70846,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "MISA Esports",
+            "probability": 0.74567,
+            "teamAProbability": 0.74567
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "MISA Esports",
+            "probability": 0.74567,
+            "teamAProbability": 0.74567
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "MISA Esports",
+            "probability": 0.725448,
+            "teamAProbability": 0.725448
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "MISA Esports",
+            "probability": 0.70846,
+            "teamAProbability": 0.70846
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "MISA Esports",
+            "probability": 0.776807,
+            "teamAProbability": 0.776807
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405063",
+      "match": {
+        "id": "lolesports-116634566270405063",
+        "lolEsportsId": "116634566270405063",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "G2 NORD",
+        "teamB": "Galions",
+        "teamAId": "G2N",
+        "teamBId": "GL",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "G2 NORD",
+        "probability": 0.556603,
+        "teamAProbability": 0.556603,
+        "teamBProbability": 0.443397,
+        "margin": 0.113205
+      },
+      "coverage": {
+        "teamAGames": 70,
+        "teamBGames": 162,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.559946,
+          "conservativeProbA": 0.559946,
+          "balancedProbA": 0.601624,
+          "accuracyProbA": 0.620109,
+          "recencyProbA": 0.659841,
+          "championConfidence": 0.559946,
+          "conservativeConfidence": 0.559946,
+          "balancedConfidence": 0.601624,
+          "accuracyConfidence": 0.620109,
+          "recencyConfidence": 0.659841,
+          "meanProbA": 0.6002932000000001,
+          "medianProbA": 0.601624,
+          "minProbA": 0.559946,
+          "maxProbA": 0.659841,
+          "stdProbA": 0.037937239063484826,
+          "probRange": 0.09989499999999996,
+          "meanConfidence": 0.6002932000000001,
+          "maxConfidence": 0.659841,
+          "minConfidence": 0.559946,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "G2 NORD",
+            "probability": 0.559946,
+            "teamAProbability": 0.559946
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "G2 NORD",
+            "probability": 0.559946,
+            "teamAProbability": 0.559946
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "G2 NORD",
+            "probability": 0.601624,
+            "teamAProbability": 0.601624
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "G2 NORD",
+            "probability": 0.620109,
+            "teamAProbability": 0.620109
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "G2 NORD",
+            "probability": 0.659841,
+            "teamAProbability": 0.659841
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405087",
+      "match": {
+        "id": "lolesports-116634566270405087",
+        "lolEsportsId": "116634566270405087",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Solary",
+        "teamB": "Eintracht Spandau",
+        "teamAId": "SLY",
+        "teamBId": "EINS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Solary",
+        "probability": 0.61001,
+        "teamAProbability": 0.61001,
+        "teamBProbability": 0.38999,
+        "margin": 0.220021
+      },
+      "coverage": {
+        "teamAGames": 173,
+        "teamBGames": 190,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.632436,
+          "conservativeProbA": 0.632436,
+          "balancedProbA": 0.658706,
+          "accuracyProbA": 0.662895,
+          "recencyProbA": 0.700689,
+          "championConfidence": 0.632436,
+          "conservativeConfidence": 0.632436,
+          "balancedConfidence": 0.658706,
+          "accuracyConfidence": 0.662895,
+          "recencyConfidence": 0.700689,
+          "meanProbA": 0.6574324,
+          "medianProbA": 0.658706,
+          "minProbA": 0.632436,
+          "maxProbA": 0.700689,
+          "stdProbA": 0.025108705761946397,
+          "probRange": 0.06825300000000001,
+          "meanConfidence": 0.6574324,
+          "maxConfidence": 0.700689,
+          "minConfidence": 0.632436,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Solary",
+            "probability": 0.632436,
+            "teamAProbability": 0.632436
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Solary",
+            "probability": 0.632436,
+            "teamAProbability": 0.632436
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Solary",
+            "probability": 0.658706,
+            "teamAProbability": 0.658706
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Solary",
+            "probability": 0.662895,
+            "teamAProbability": 0.662895
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Solary",
+            "probability": 0.700689,
+            "teamAProbability": 0.700689
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405091",
+      "match": {
+        "id": "lolesports-116634566270405091",
+        "lolEsportsId": "116634566270405091",
+        "source": "lolesports",
+        "startTime": "2026-06-11T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Anubis Gaming",
+        "teamB": "BOMBA Team",
+        "teamAId": "ANB",
+        "teamBId": "BOOM",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Anubis Gaming",
+        "probability": 0.641686,
+        "teamAProbability": 0.641686,
+        "teamBProbability": 0.358314,
+        "margin": 0.283373
+      },
+      "coverage": {
+        "teamAGames": 161,
+        "teamBGames": 47,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.66533,
+          "conservativeProbA": 0.66533,
+          "balancedProbA": 0.684772,
+          "accuracyProbA": 0.674879,
+          "recencyProbA": 0.737566,
+          "championConfidence": 0.66533,
+          "conservativeConfidence": 0.66533,
+          "balancedConfidence": 0.684772,
+          "accuracyConfidence": 0.674879,
+          "recencyConfidence": 0.737566,
+          "meanProbA": 0.6855754000000001,
+          "medianProbA": 0.674879,
+          "minProbA": 0.66533,
+          "maxProbA": 0.737566,
+          "stdProbA": 0.02697344381127485,
+          "probRange": 0.07223600000000008,
+          "meanConfidence": 0.6855754000000001,
+          "maxConfidence": 0.737566,
+          "minConfidence": 0.66533,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Anubis Gaming",
+            "probability": 0.66533,
+            "teamAProbability": 0.66533
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Anubis Gaming",
+            "probability": 0.66533,
+            "teamAProbability": 0.66533
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Anubis Gaming",
+            "probability": 0.684772,
+            "teamAProbability": 0.684772
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Anubis Gaming",
+            "probability": 0.674879,
+            "teamAProbability": 0.674879
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Anubis Gaming",
+            "probability": 0.737566,
+            "teamAProbability": 0.737566
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634529527025939",
+      "match": {
+        "id": "lolesports-116634529527025939",
+        "lolEsportsId": "116634529527025939",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "HMBLE",
+        "teamB": "E Wie Einfach E-Sports",
+        "teamAId": "HMB",
+        "teamBId": "EWI",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "HMBLE",
+        "probability": 0.662193,
+        "teamAProbability": 0.662193,
+        "teamBProbability": 0.337807,
+        "margin": 0.324385
+      },
+      "coverage": {
+        "teamAGames": 37,
+        "teamBGames": 171,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.645902,
+          "conservativeProbA": 0.645902,
+          "balancedProbA": 0.710541,
+          "accuracyProbA": 0.745796,
+          "recencyProbA": 0.757076,
+          "championConfidence": 0.645902,
+          "conservativeConfidence": 0.645902,
+          "balancedConfidence": 0.710541,
+          "accuracyConfidence": 0.745796,
+          "recencyConfidence": 0.757076,
+          "meanProbA": 0.7010434,
+          "medianProbA": 0.710541,
+          "minProbA": 0.645902,
+          "maxProbA": 0.757076,
+          "stdProbA": 0.04756847666932378,
+          "probRange": 0.111174,
+          "meanConfidence": 0.7010434,
+          "maxConfidence": 0.757076,
+          "minConfidence": 0.645902,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "HMBLE",
+            "probability": 0.645902,
+            "teamAProbability": 0.645902
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "HMBLE",
+            "probability": 0.645902,
+            "teamAProbability": 0.645902
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "HMBLE",
+            "probability": 0.710541,
+            "teamAProbability": 0.710541
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "HMBLE",
+            "probability": 0.745796,
+            "teamAProbability": 0.745796
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "HMBLE",
+            "probability": 0.757076,
+            "teamAProbability": 0.757076
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405039",
+      "match": {
+        "id": "lolesports-116634566270405039",
+        "lolEsportsId": "116634566270405039",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Heretics Academy",
+        "teamB": "Forsaken",
+        "teamAId": "HRTS",
+        "teamBId": "FSK",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Heretics Academy",
+        "probability": 0.754155,
+        "teamAProbability": 0.754155,
+        "teamBProbability": 0.245845,
+        "margin": 0.508309
+      },
+      "coverage": {
+        "teamAGames": 379,
+        "teamBGames": 189,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.779566,
+          "conservativeProbA": 0.779566,
+          "balancedProbA": 0.806521,
+          "accuracyProbA": 0.813211,
+          "recencyProbA": 0.862533,
+          "championConfidence": 0.779566,
+          "conservativeConfidence": 0.779566,
+          "balancedConfidence": 0.806521,
+          "accuracyConfidence": 0.813211,
+          "recencyConfidence": 0.862533,
+          "meanProbA": 0.8082794,
+          "medianProbA": 0.806521,
+          "minProbA": 0.779566,
+          "maxProbA": 0.862533,
+          "stdProbA": 0.030396659162480348,
+          "probRange": 0.08296700000000001,
+          "meanConfidence": 0.8082794,
+          "maxConfidence": 0.862533,
+          "minConfidence": 0.779566,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Heretics Academy",
+            "probability": 0.779566,
+            "teamAProbability": 0.779566
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Heretics Academy",
+            "probability": 0.779566,
+            "teamAProbability": 0.779566
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Heretics Academy",
+            "probability": 0.806521,
+            "teamAProbability": 0.806521
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Heretics Academy",
+            "probability": 0.813211,
+            "teamAProbability": 0.813211
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Heretics Academy",
+            "probability": 0.862533,
+            "teamAProbability": 0.862533
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405043",
+      "match": {
+        "id": "lolesports-116634566270405043",
+        "lolEsportsId": "116634566270405043",
+        "source": "lolesports",
+        "startTime": "2026-06-11T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "PCIFIC Esports",
+        "teamB": "Karmine Corp Blue",
+        "teamAId": "PCF",
+        "teamBId": "KCB",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Karmine Corp Blue",
+        "probability": 0.698619,
+        "teamAProbability": 0.301381,
+        "teamBProbability": 0.698619,
+        "margin": 0.397238
+      },
+      "coverage": {
+        "teamAGames": 41,
+        "teamBGames": 259,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.354595,
+          "conservativeProbA": 0.354595,
+          "balancedProbA": 0.41519,
+          "accuracyProbA": 0.455702,
+          "recencyProbA": 0.416568,
+          "championConfidence": 0.645405,
+          "conservativeConfidence": 0.645405,
+          "balancedConfidence": 0.58481,
+          "accuracyConfidence": 0.544298,
+          "recencyConfidence": 0.583432,
+          "meanProbA": 0.39933,
+          "medianProbA": 0.41519,
+          "minProbA": 0.354595,
+          "maxProbA": 0.455702,
+          "stdProbA": 0.0393164878339864,
+          "probRange": 0.101107,
+          "meanConfidence": 0.60067,
+          "maxConfidence": 0.645405,
+          "minConfidence": 0.544298,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 0,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.645405,
+            "teamAProbability": 0.354595
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.645405,
+            "teamAProbability": 0.354595
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.58481,
+            "teamAProbability": 0.41519
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.544298,
+            "teamAProbability": 0.455702
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.583432,
+            "teamAProbability": 0.416568
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-115548128963037575",
+      "match": {
+        "id": "lolesports-115548128963037575",
+        "lolEsportsId": "115548128963037575",
+        "source": "lolesports",
+        "startTime": "2026-06-12T08:00:00Z",
+        "status": "unstarted",
+        "league": "LCK",
+        "blockName": "Knockouts",
+        "bestOf": 5,
+        "teamA": "Hanwha Life Esports",
+        "teamB": "T1",
+        "teamAId": "HLE",
+        "teamBId": "T1",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "T1",
+        "probability": 0.666381,
+        "teamAProbability": 0.333619,
+        "teamBProbability": 0.666381,
+        "margin": 0.332763
+      },
+      "coverage": {
+        "teamAGames": 868,
+        "teamBGames": 763,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.55213,
+          "conservativeProbA": 0.55213,
+          "balancedProbA": 0.605871,
+          "accuracyProbA": 0.560142,
+          "recencyProbA": 0.726842,
+          "championConfidence": 0.55213,
+          "conservativeConfidence": 0.55213,
+          "balancedConfidence": 0.605871,
+          "accuracyConfidence": 0.560142,
+          "recencyConfidence": 0.726842,
+          "meanProbA": 0.599423,
+          "medianProbA": 0.560142,
+          "minProbA": 0.55213,
+          "maxProbA": 0.726842,
+          "stdProbA": 0.06677339428844395,
+          "probRange": 0.17471199999999998,
+          "meanConfidence": 0.599423,
+          "maxConfidence": 0.726842,
+          "minConfidence": 0.55213,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 3,
+          "isInternationalTier": 0,
+          "isMajorTier": 1,
+          "isMinorTier": 0,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Hanwha Life Esports",
+            "probability": 0.55213,
+            "teamAProbability": 0.55213
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Hanwha Life Esports",
+            "probability": 0.55213,
+            "teamAProbability": 0.55213
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Hanwha Life Esports",
+            "probability": 0.605871,
+            "teamAProbability": 0.605871
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Hanwha Life Esports",
+            "probability": 0.560142,
+            "teamAProbability": 0.560142
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Hanwha Life Esports",
+            "probability": 0.726842,
+            "teamAProbability": 0.726842
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116520394663535894",
+      "match": {
+        "id": "lolesports-116520394663535894",
+        "lolEsportsId": "116520394663535894",
+        "source": "lolesports",
+        "startTime": "2026-06-12T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Dino",
+        "teamB": "Saigon Zen Esport",
+        "teamAId": "DINO",
+        "teamBId": "ZEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Saigon Zen Esport",
+        "probability": 0.636584,
+        "teamAProbability": 0.363416,
+        "teamBProbability": 0.636584,
+        "margin": 0.273167
+      },
+      "coverage": {
+        "teamAGames": 85,
+        "teamBGames": 0,
+        "level": "low"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.692199,
+          "conservativeProbA": 0.586489,
+          "balancedProbA": 0.669485,
+          "accuracyProbA": 0.637286,
+          "recencyProbA": 0.707699,
+          "championConfidence": 0.692199,
+          "conservativeConfidence": 0.586489,
+          "balancedConfidence": 0.669485,
+          "accuracyConfidence": 0.637286,
+          "recencyConfidence": 0.707699,
+          "meanProbA": 0.6586316,
+          "medianProbA": 0.669485,
+          "minProbA": 0.586489,
+          "maxProbA": 0.707699,
+          "stdProbA": 0.043156380179991904,
+          "probRange": 0.12120999999999993,
+          "meanConfidence": 0.6586316,
+          "maxConfidence": 0.707699,
+          "minConfidence": 0.586489,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 1,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 0,
+          "coverageMedium": 0,
+          "coverageLow": 1
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Saigon Dino",
+            "probability": 0.692199,
+            "teamAProbability": 0.692199
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Saigon Dino",
+            "probability": 0.586489,
+            "teamAProbability": 0.586489
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Saigon Dino",
+            "probability": 0.669485,
+            "teamAProbability": 0.669485
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Saigon Dino",
+            "probability": 0.637286,
+            "teamAProbability": 0.637286
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Saigon Dino",
+            "probability": 0.707699,
+            "teamAProbability": 0.707699
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405067",
+      "match": {
+        "id": "lolesports-116634566270405067",
+        "lolEsportsId": "116634566270405067",
+        "source": "lolesports",
+        "startTime": "2026-06-12T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "WLGaming",
+        "teamB": "Partizan Sangal",
+        "teamAId": "WLG",
+        "teamBId": "PXS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Partizan Sangal",
+        "probability": 0.657491,
+        "teamAProbability": 0.342509,
+        "teamBProbability": 0.657491,
+        "margin": 0.314981
+      },
+      "coverage": {
+        "teamAGames": 159,
+        "teamBGames": 108,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.403854,
+          "conservativeProbA": 0.403854,
+          "balancedProbA": 0.425554,
+          "accuracyProbA": 0.424584,
+          "recencyProbA": 0.491183,
+          "championConfidence": 0.5961460000000001,
+          "conservativeConfidence": 0.5961460000000001,
+          "balancedConfidence": 0.574446,
+          "accuracyConfidence": 0.5754159999999999,
+          "recencyConfidence": 0.5088170000000001,
+          "meanProbA": 0.4298058,
+          "medianProbA": 0.424584,
+          "minProbA": 0.403854,
+          "maxProbA": 0.491183,
+          "stdProbA": 0.03212319263336071,
+          "probRange": 0.08732899999999999,
+          "meanConfidence": 0.5701942,
+          "maxConfidence": 0.5961460000000001,
+          "minConfidence": 0.5088170000000001,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 0,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Partizan Sangal",
+            "probability": 0.596146,
+            "teamAProbability": 0.403854
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Partizan Sangal",
+            "probability": 0.596146,
+            "teamAProbability": 0.403854
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Partizan Sangal",
+            "probability": 0.574446,
+            "teamAProbability": 0.425554
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Partizan Sangal",
+            "probability": 0.575416,
+            "teamAProbability": 0.424584
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Partizan Sangal",
+            "probability": 0.508817,
+            "teamAProbability": 0.491183
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-115548128963037581",
+      "match": {
+        "id": "lolesports-115548128963037581",
+        "lolEsportsId": "115548128963037581",
+        "source": "lolesports",
+        "startTime": "2026-06-13T06:00:00Z",
+        "status": "unstarted",
+        "league": "LCK",
+        "blockName": "Knockouts",
+        "bestOf": 5,
+        "teamA": "kt Rolster",
+        "teamB": "Gen.G Esports",
+        "teamAId": "KT",
+        "teamBId": "GEN",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Gen.G Esports",
+        "probability": 0.846327,
+        "teamAProbability": 0.153673,
+        "teamBProbability": 0.846327,
+        "margin": 0.692654
+      },
+      "coverage": {
+        "teamAGames": 812,
+        "teamBGames": 378,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.504951,
+          "conservativeProbA": 0.504951,
+          "balancedProbA": 0.473675,
+          "accuracyProbA": 0.393225,
+          "recencyProbA": 0.576284,
+          "championConfidence": 0.504951,
+          "conservativeConfidence": 0.504951,
+          "balancedConfidence": 0.5263249999999999,
+          "accuracyConfidence": 0.6067750000000001,
+          "recencyConfidence": 0.576284,
+          "meanProbA": 0.4906172,
+          "medianProbA": 0.504951,
+          "minProbA": 0.393225,
+          "maxProbA": 0.576284,
+          "stdProbA": 0.05919796454068333,
+          "probRange": 0.18305900000000003,
+          "meanConfidence": 0.5438572,
+          "maxConfidence": 0.6067750000000001,
+          "minConfidence": 0.504951,
+          "favoriteAgreement": 3,
+          "disagreementCount": 2,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 1,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 3,
+          "isInternationalTier": 0,
+          "isMajorTier": 1,
+          "isMinorTier": 0,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "kt Rolster",
+            "probability": 0.504951,
+            "teamAProbability": 0.504951
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "kt Rolster",
+            "probability": 0.504951,
+            "teamAProbability": 0.504951
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Gen.G Esports",
+            "probability": 0.526325,
+            "teamAProbability": 0.473675
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Gen.G Esports",
+            "probability": 0.606775,
+            "teamAProbability": 0.393225
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "kt Rolster",
+            "probability": 0.576284,
+            "teamAProbability": 0.576284
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-115616219464607515",
+      "match": {
+        "id": "lolesports-115616219464607515",
+        "lolEsportsId": "115616219464607515",
+        "source": "lolesports",
+        "startTime": "2026-06-13T09:00:00Z",
+        "status": "unstarted",
+        "league": "LPL",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "BILIBILI GAMING",
+        "teamB": "Xi'an Team WE",
+        "teamAId": "BLG",
+        "teamBId": "WE",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Xi'an Team WE",
+        "probability": 0.518584,
+        "teamAProbability": 0.481416,
+        "teamBProbability": 0.518584,
+        "margin": 0.037168
+      },
+      "coverage": {
+        "teamAGames": 432,
+        "teamBGames": 341,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.771499,
+          "conservativeProbA": 0.771499,
+          "balancedProbA": 0.739219,
+          "accuracyProbA": 0.715579,
+          "recencyProbA": 0.798957,
+          "championConfidence": 0.771499,
+          "conservativeConfidence": 0.771499,
+          "balancedConfidence": 0.739219,
+          "accuracyConfidence": 0.715579,
+          "recencyConfidence": 0.798957,
+          "meanProbA": 0.7593506000000001,
+          "medianProbA": 0.771499,
+          "minProbA": 0.715579,
+          "maxProbA": 0.798957,
+          "stdProbA": 0.028931188883970907,
+          "probRange": 0.08337800000000006,
+          "meanConfidence": 0.7593506000000001,
+          "maxConfidence": 0.798957,
+          "minConfidence": 0.715579,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 1,
+          "isLan": 0,
+          "tournamentTier": 3,
+          "isInternationalTier": 0,
+          "isMajorTier": 1,
+          "isMinorTier": 0,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "BILIBILI GAMING",
+            "probability": 0.771499,
+            "teamAProbability": 0.771499
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "BILIBILI GAMING",
+            "probability": 0.771499,
+            "teamAProbability": 0.771499
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "BILIBILI GAMING",
+            "probability": 0.739219,
+            "teamAProbability": 0.739219
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "BILIBILI GAMING",
+            "probability": 0.715579,
+            "teamAProbability": 0.715579
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "BILIBILI GAMING",
+            "probability": 0.798957,
+            "teamAProbability": 0.798957
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-115564793879469324",
+      "match": {
+        "id": "lolesports-115564793879469324",
+        "lolEsportsId": "115564793879469324",
+        "source": "lolesports",
+        "startTime": "2026-06-13T20:00:00Z",
+        "status": "unstarted",
+        "league": "LCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Team Liquid Alienware",
+        "teamB": "Cloud9 Kia",
+        "teamAId": "TLAW",
+        "teamBId": "C9",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Cloud9 Kia",
+        "probability": 0.618098,
+        "teamAProbability": 0.381902,
+        "teamBProbability": 0.618098,
+        "margin": 0.236196
+      },
+      "coverage": {
+        "teamAGames": 268,
+        "teamBGames": 180,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.639174,
+          "conservativeProbA": 0.639174,
+          "balancedProbA": 0.646913,
+          "accuracyProbA": 0.639457,
+          "recencyProbA": 0.73324,
+          "championConfidence": 0.639174,
+          "conservativeConfidence": 0.639174,
+          "balancedConfidence": 0.646913,
+          "accuracyConfidence": 0.639457,
+          "recencyConfidence": 0.73324,
+          "meanProbA": 0.6595916,
+          "medianProbA": 0.639457,
+          "minProbA": 0.639174,
+          "maxProbA": 0.73324,
+          "stdProbA": 0.03694317966066266,
+          "probRange": 0.09406599999999998,
+          "meanConfidence": 0.6595916,
+          "maxConfidence": 0.73324,
+          "minConfidence": 0.639174,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 0,
+          "isBo5": 1,
+          "bestOf": 5,
+          "isPlayoffs": 1,
+          "isLan": 0,
+          "tournamentTier": 3,
+          "isInternationalTier": 0,
+          "isMajorTier": 1,
+          "isMinorTier": 0,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "ensemble-55-45",
+            "favorite": "Team Liquid Alienware",
+            "probability": 0.639174,
+            "teamAProbability": 0.639174
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Team Liquid Alienware",
+            "probability": 0.639174,
+            "teamAProbability": 0.639174
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Team Liquid Alienware",
+            "probability": 0.646913,
+            "teamAProbability": 0.646913
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Team Liquid Alienware",
+            "probability": 0.639457,
+            "teamAProbability": 0.639457
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Team Liquid Alienware",
+            "probability": 0.73324,
+            "teamAProbability": 0.73324
+          }
+        }
+      }
+    }
+  ]
+}
