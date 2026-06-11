@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T14:23:45.528Z",
+  "generatedAt": "2026-06-11T22:53:19.999Z",
   "source": {
-    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures",
+    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures",
     "maxRank": 100,
     "maxMatches": 80,
     "minStars": 0,
-    "rawMatches": 218,
+    "rawMatches": 210,
     "skipped": {
-      "missingOpponents": 164,
-      "unknownTeams": 30,
+      "missingOpponents": 156,
+      "unknownTeams": 28,
       "rank": 0,
       "duplicate": 0
     },
@@ -76,13 +76,13 @@
     "schedule": {
       "name": "pandascore",
       "apiBaseUrl": "https://api.pandascore.co",
-      "rawMatches": 218,
-      "matches": 24,
-      "mergedMatches": 24,
+      "rawMatches": 210,
+      "matches": 26,
+      "mergedMatches": 26,
       "keptExistingMatches": 0,
       "skipped": {
-        "missingOpponents": 164,
-        "unknownTeams": 30,
+        "missingOpponents": 156,
+        "unknownTeams": 28,
         "rank": 0,
         "duplicate": 0
       }
@@ -102,76 +102,13 @@
     "liveFormPatch": {
       "results": "static/data/model-results.json",
       "applied": 6,
-      "skipped": 16,
+      "skipped": 22,
       "lookbackDays": 21,
       "maxRecentMatches": 12,
       "note": "Resolved live results are applied as conservative 1-0/0-1 recent form entries when exact map score is unavailable."
     }
   },
   "matches": [
-    {
-      "id": "pandascore-1513121",
-      "pandaScoreId": 1513121,
-      "startTime": "2026-06-11T15:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "11283",
-      "teamBId": "5995",
-      "teamAName": "Falcons",
-      "teamBName": "G2",
-      "rawTeamAName": "Team Falcons",
-      "rawTeamBName": "G2",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513124",
-      "pandaScoreId": 1513124,
-      "startTime": "2026-06-11T16:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "11861",
-      "teamBId": "11811",
-      "teamAName": "Aurora",
-      "teamBName": "Monte",
-      "rawTeamAName": "Aurora Gaming",
-      "rawTeamBName": "Monte",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513122",
-      "pandaScoreId": 1513122,
-      "startTime": "2026-06-11T17:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "4608",
-      "teamBId": "7020",
-      "teamAName": "Natus Vincere",
-      "teamBName": "Spirit",
-      "rawTeamAName": "Natus Vincere",
-      "rawTeamBName": "Spirit",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
     {
       "id": "pandascore-1519575",
       "pandaScoreId": 1519575,
@@ -194,6 +131,48 @@
       }
     },
     {
+      "id": "pandascore-1513129",
+      "pandaScoreId": 1513129,
+      "startTime": "2026-06-12T09:00:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "6248",
+      "teamBId": "11241",
+      "teamAName": "The MongolZ",
+      "teamBName": "B8",
+      "rawTeamAName": "TheMongolz",
+      "rawTeamBName": "B8",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513128",
+      "pandaScoreId": 1513128,
+      "startTime": "2026-06-12T09:00:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "8297",
+      "teamBId": "4494",
+      "teamAName": "FURIA",
+      "teamBName": "MOUZ",
+      "rawTeamAName": "FURIA",
+      "rawTeamBName": "MOUZ",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
       "id": "pandascore-1519576",
       "pandaScoreId": 1519576,
       "startTime": "2026-06-12T11:00:00Z",
@@ -207,6 +186,132 @@
       "teamBName": "INOX Division",
       "rawTeamAName": "Virtus.pro",
       "rawTeamBName": "INOX Division",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513131",
+      "pandaScoreId": 1513131,
+      "startTime": "2026-06-12T11:30:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "12467",
+      "teamBId": "11811",
+      "teamAName": "PARIVISION",
+      "teamBName": "Monte",
+      "rawTeamAName": "PARIVISION",
+      "rawTeamBName": "Monte",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513130",
+      "pandaScoreId": 1513130,
+      "startTime": "2026-06-12T11:30:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "13286",
+      "teamBId": "5995",
+      "teamAName": "FUT",
+      "teamBName": "G2",
+      "rawTeamAName": "FUT Esports",
+      "rawTeamBName": "G2",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513133",
+      "pandaScoreId": 1513133,
+      "startTime": "2026-06-12T14:00:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "11283",
+      "teamBId": "12394",
+      "teamAName": "Falcons",
+      "teamBName": "BetBoom",
+      "rawTeamAName": "Team Falcons",
+      "rawTeamBName": "BetBoom Team",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513132",
+      "pandaScoreId": 1513132,
+      "startTime": "2026-06-12T14:00:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "4608",
+      "teamBId": "12468",
+      "teamAName": "Natus Vincere",
+      "teamBName": "Legacy",
+      "rawTeamAName": "Natus Vincere",
+      "rawTeamBName": "Legacy",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513135",
+      "pandaScoreId": 1513135,
+      "startTime": "2026-06-12T16:30:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "9565",
+      "teamBId": "9996",
+      "teamAName": "Vitality",
+      "teamBName": "9z",
+      "rawTeamAName": "Vitality",
+      "rawTeamBName": "9z",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513134",
+      "pandaScoreId": 1513134,
+      "startTime": "2026-06-12T16:30:00Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "not_started",
+      "teamAId": "11861",
+      "teamBId": "7020",
+      "teamAName": "Aurora",
+      "teamBName": "Spirit",
+      "rawTeamAName": "Aurora Gaming",
+      "rawTeamBName": "Spirit",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {
@@ -425,69 +530,6 @@
       }
     },
     {
-      "id": "pandascore-1513120",
-      "pandaScoreId": 1513120,
-      "startTime": "2026-06-11T12:14:17Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "running",
-      "teamAId": "9565",
-      "teamBId": "13286",
-      "teamAName": "Vitality",
-      "teamBName": "FUT",
-      "rawTeamAName": "Vitality",
-      "rawTeamBName": "FUT Esports",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1517520",
-      "pandaScoreId": 1517520,
-      "startTime": "2026-06-11T14:04:26Z",
-      "event": "NODWIN Clutch Series - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "running",
-      "teamAId": "13214",
-      "teamBId": "13314",
-      "teamAName": "SPARTA",
-      "teamBName": "KOLESIE",
-      "rawTeamAName": "SPARTA",
-      "rawTeamBName": "KOLESIE",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513123",
-      "pandaScoreId": 1513123,
-      "startTime": "2026-06-11T14:17:23Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "running",
-      "teamAId": "8297",
-      "teamBId": "11241",
-      "teamAName": "FURIA",
-      "teamBName": "B8",
-      "rawTeamAName": "FURIA",
-      "rawTeamBName": "B8",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
       "id": "pandascore-1533029",
       "pandaScoreId": 1533029,
       "startTime": "2026-07-01T08:00:00Z",
@@ -623,9 +665,9 @@
       "elo": 2106,
       "hltvRating": 1.209,
       "mapsPlayed": 20,
-      "recentWins": 3,
+      "recentWins": 4,
       "recentLosses": 2,
-      "lanWinRate": 0.6,
+      "lanWinRate": 0.6666666666666666,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -858,6 +900,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-vitality-fut",
+          "pandaScoreId": 1513120,
+          "opponentId": "13286",
+          "opponentName": "FUT",
+          "opponentRank": 12,
+          "opponentElo": 1957,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-15T00:00:00.000Z",
           "opponentRank": 4,
           "opponentElo": 1900,
@@ -942,7 +1000,7 @@
       "name": "Spirit",
       "hltvRank": 2,
       "elo": 2092,
-      "recentWins": 5,
+      "recentWins": 6,
       "recentLosses": 0,
       "lanWinRate": 1,
       "onlineWinRate": 0.5,
@@ -1177,6 +1235,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-natus-vincere-spirit",
+          "pandaScoreId": 1513122,
+          "opponentId": "4608",
+          "opponentName": "Natus Vincere",
+          "opponentRank": 4,
+          "opponentElo": 2074,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-17T00:00:00.000Z",
           "opponentRank": 3,
           "opponentElo": 1900,
@@ -1267,7 +1341,7 @@
       "elo": 2079,
       "hltvRating": 1.113,
       "mapsPlayed": 21,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 1,
       "lanWinRate": 1,
       "onlineWinRate": 0.75,
@@ -1502,6 +1576,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-falcons-g2",
+          "pandaScoreId": 1513121,
+          "opponentId": "5995",
+          "opponentName": "G2",
+          "opponentRank": 13,
+          "opponentElo": 1954,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-24T00:00:00.000Z",
           "opponentRank": 5,
           "opponentElo": 1900,
@@ -1590,8 +1680,8 @@
       "hltvRating": 1.15,
       "mapsPlayed": 27,
       "recentWins": 4,
-      "recentLosses": 1,
-      "lanWinRate": 0.8,
+      "recentLosses": 2,
+      "lanWinRate": 0.6666666666666666,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -1798,6 +1888,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-natus-vincere-spirit",
+          "pandaScoreId": 1513122,
+          "opponentId": "7020",
+          "opponentName": "Spirit",
+          "opponentRank": 2,
+          "opponentElo": 2092,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-05-17T00:00:00.000Z",
           "opponentRank": 9,
@@ -2958,9 +3064,9 @@
       "elo": 1979,
       "hltvRating": 1.099,
       "mapsPlayed": 24,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 1,
-      "lanWinRate": 0.8,
+      "lanWinRate": 0.8333333333333334,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -3192,6 +3298,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-aurora-monte",
+          "pandaScoreId": 1513124,
+          "opponentId": "11811",
+          "opponentName": "Monte",
+          "opponentRank": 21,
+          "opponentElo": 1880,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
         {
           "date": "2026-05-11T00:00:00.000Z",
           "opponentRank": 14,
@@ -3800,9 +3922,9 @@
       "elo": 1968,
       "hltvRating": 1.104,
       "mapsPlayed": 19,
-      "recentWins": 3,
+      "recentWins": 4,
       "recentLosses": 2,
-      "lanWinRate": 0.6,
+      "lanWinRate": 0.6666666666666666,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -4035,6 +4157,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-furia-b8",
+          "pandaScoreId": 1513123,
+          "opponentId": "11241",
+          "opponentName": "B8",
+          "opponentRank": 16,
+          "opponentElo": 1926,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
           "date": "2026-05-12T00:00:00.000Z",
           "opponentRank": 32,
           "opponentElo": 1900,
@@ -4120,8 +4258,8 @@
       "hltvRank": 12,
       "elo": 1957,
       "recentWins": 3,
-      "recentLosses": 2,
-      "lanWinRate": 0.6,
+      "recentLosses": 3,
+      "lanWinRate": 0.5,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -4399,6 +4537,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-vitality-fut",
+          "pandaScoreId": 1513120,
+          "opponentId": "9565",
+          "opponentName": "Vitality",
+          "opponentRank": 1,
+          "opponentElo": 2106,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-05-13T00:00:00.000Z",
           "opponentRank": 16,
           "opponentElo": 1900,
@@ -4487,8 +4641,8 @@
       "hltvRank": 13,
       "elo": 1954,
       "recentWins": 5,
-      "recentLosses": 1,
-      "lanWinRate": 0.8333333333333334,
+      "recentLosses": 2,
+      "lanWinRate": 0.7142857142857143,
       "onlineWinRate": 0.5,
       "lineupStability": 0.75,
       "players": [
@@ -4746,6 +4900,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-falcons-g2",
+          "pandaScoreId": 1513121,
+          "opponentId": "11283",
+          "opponentName": "Falcons",
+          "opponentRank": 3,
+          "opponentElo": 2079,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-06-08T00:00:00.000Z",
           "environment": "LAN",
@@ -5569,8 +5739,8 @@
       "hltvRank": 16,
       "elo": 1926,
       "recentWins": 6,
-      "recentLosses": 1,
-      "lanWinRate": 1,
+      "recentLosses": 2,
+      "lanWinRate": 0.8,
       "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
@@ -5829,6 +5999,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-furia-b8",
+          "pandaScoreId": 1513123,
+          "opponentId": "8297",
+          "opponentName": "FURIA",
+          "opponentRank": 11,
+          "opponentElo": 1968,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-09T00:00:00.000Z",
           "environment": "LAN",
           "eventTier": 1,
@@ -5917,7 +6103,7 @@
         }
       ],
       "hltvRating": 1.047,
-      "mapsPlayed": 72,
+      "mapsPlayed": 73,
       "vrsPoints": 1613,
       "source": {
         "csapi": {
@@ -7182,8 +7368,8 @@
       "hltvRank": 21,
       "elo": 1880,
       "recentWins": 5,
-      "recentLosses": 2,
-      "lanWinRate": 1,
+      "recentLosses": 3,
+      "lanWinRate": 0.6666666666666666,
       "onlineWinRate": 0.6,
       "lineupStability": 0.75,
       "players": [
@@ -7466,6 +7652,22 @@
       },
       "recentMatches": [
         {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "LAN",
+          "eventTier": 1,
+          "event": "IEM - Cologne Major - Stage 3",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-aurora-monte",
+          "pandaScoreId": 1513124,
+          "opponentId": "11861",
+          "opponentName": "Aurora",
+          "opponentRank": 8,
+          "opponentElo": 1979,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
+        {
           "date": "2026-06-09T00:00:00.000Z",
           "environment": "LAN",
           "eventTier": 1,
@@ -7553,7 +7755,7 @@
           "event": "CCT Global Finals 2026"
         }
       ],
-      "mapsPlayed": 18,
+      "mapsPlayed": 19,
       "vrsPoints": 1510,
       "hltvRating": 1.066,
       "source": {
@@ -23854,10 +24056,10 @@
       "name": "KOLESIE",
       "hltvRank": 86,
       "elo": 1695,
-      "recentWins": 4,
+      "recentWins": 5,
       "recentLosses": 2,
       "lanWinRate": 1,
-      "onlineWinRate": 0.6,
+      "onlineWinRate": 0.6666666666666666,
       "lineupStability": 0.75,
       "players": [
         {
@@ -24022,6 +24224,22 @@
           "date": "2026-06-11T00:00:00.000Z",
           "environment": "Online",
           "eventTier": 3,
+          "event": "NODWIN Clutch Series - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-sparta-kolesie",
+          "pandaScoreId": 1517520,
+          "opponentId": "13214",
+          "opponentName": "SPARTA",
+          "opponentRank": 93,
+          "opponentElo": 1682,
+          "result": "win",
+          "mapWins": 1,
+          "mapLosses": 0
+        },
+        {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
           "event": "European Pro League - Series 7 - Group D",
           "source": "model-results-live-patch",
           "sourceMatchId": "2026-06-11-kolesie-virtus-pro",
@@ -24091,7 +24309,7 @@
         }
       ],
       "hltvRating": 1.025,
-      "mapsPlayed": 35,
+      "mapsPlayed": 36,
       "vrsPoints": 1099,
       "source": {
         "csapi": {
@@ -25687,9 +25905,9 @@
       "hltvRating": 1.053,
       "mapsPlayed": 19,
       "recentWins": 4,
-      "recentLosses": 1,
+      "recentLosses": 2,
       "lanWinRate": 1,
-      "onlineWinRate": 0.75,
+      "onlineWinRate": 0.6,
       "lineupStability": 0.75,
       "players": [
         {
@@ -25820,6 +26038,22 @@
         }
       },
       "recentMatches": [
+        {
+          "date": "2026-06-11T00:00:00.000Z",
+          "environment": "Online",
+          "eventTier": 3,
+          "event": "NODWIN Clutch Series - Group Stage",
+          "source": "model-results-live-patch",
+          "sourceMatchId": "2026-06-11-sparta-kolesie",
+          "pandaScoreId": 1517520,
+          "opponentId": "13314",
+          "opponentName": "KOLESIE",
+          "opponentRank": 86,
+          "opponentElo": 1695,
+          "result": "loss",
+          "mapWins": 0,
+          "mapLosses": 1
+        },
         {
           "date": "2026-04-29T00:00:00.000Z",
           "opponentRank": 98,
