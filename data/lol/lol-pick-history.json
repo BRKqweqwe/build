@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-11T22:43:04.896Z",
+  "updatedAt": "2026-06-11T22:48:06.456Z",
   "source": {
     "predictions": "static/data/live-predictions-meta.json",
     "market": "static/data/market-comparisons.json",
@@ -11,13 +11,13 @@
   },
   "summary": {
     "total": 164,
-    "pending": 77,
-    "resolved": 87,
+    "pending": 84,
+    "resolved": 80,
     "hits": 48,
-    "misses": 39,
-    "accuracy": 0.5517241379310345,
-    "logLoss": 0.6863313654962105,
-    "brier": 0.24701907933956324
+    "misses": 32,
+    "accuracy": 0.6,
+    "logLoss": 0.6676951981849777,
+    "brier": 0.23791785440585
   },
   "picks": [
     {
@@ -1303,11 +1303,11 @@
         "teamBGames": 108,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.403854,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-10T20:54:52.999Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1315,7 +1315,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.447Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::conservative-coverage",
@@ -1340,11 +1342,11 @@
         "teamBGames": 108,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.403854,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-10T20:54:53.225Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1352,7 +1354,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.451Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::adaptive-stack",
@@ -1377,11 +1381,11 @@
         "teamBGames": 108,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.37217,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-10T20:54:53.444Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1389,7 +1393,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.452Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::balanced-ensemble",
@@ -1414,11 +1420,11 @@
         "teamBGames": 106,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.425554,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-10T20:54:53.697Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1426,7 +1432,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.452Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::accuracy-ensemble",
@@ -1451,11 +1459,11 @@
         "teamBGames": 106,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.424584,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-10T20:54:53.946Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1463,7 +1471,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.452Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::recency-accuracy",
@@ -1488,11 +1498,11 @@
         "teamBGames": 106,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.491183,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-11T13:09:11.976Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1500,7 +1510,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.452Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405067::meta-picker",
@@ -1525,11 +1537,11 @@
         "teamBGames": 108,
         "level": "high"
       },
-      "status": "miss",
-      "resultWinner": "WLGaming",
-      "probabilityForWinner": 0.342509,
+      "status": "pending",
+      "resultWinner": null,
+      "probabilityForWinner": null,
       "recordedAt": "2026-06-11T13:37:14.087Z",
-      "resolvedAt": "2026-06-11T22:43:04.895Z",
+      "resolvedAt": null,
       "marketFavorite": "Partizan Sangal",
       "marketFavoriteProbability": 0.705,
       "marketTeamAProbability": 0.295,
@@ -1537,7 +1549,9 @@
       "marketDisagreement": false,
       "marketUrl": "https://polymarket.com/event/lol-ps1-wlg-2026-06-11",
       "marketQuestion": "LoL: Partizan Sangal vs WLGaming Esports (BO3) - EMEA Masters Group C",
-      "resultScore": "0-2"
+      "resultScore": null,
+      "reopenedAt": "2026-06-11T22:48:06.452Z",
+      "reopenReason": "future-pick-result-mismatch"
     },
     {
       "id": "lolesports-116634566270405071::ensemble-55-45",
