@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T11:38:26.549Z",
+  "generatedAt": "2026-06-12T13:39:59.957Z",
   "source": {
     "live": "static/data/live-predictions.json",
     "results": "static/data/model-results.json",
@@ -17,188 +17,20 @@
     ]
   },
   "summary": {
-    "total": 15,
+    "total": 14,
     "strong": 1,
     "lean": 7,
-    "skip": 7,
-    "withMarket": 8,
+    "skip": 6,
+    "withMarket": 11,
     "marketDisagreements": 1
   },
   "decisions": [
     {
-      "id": "pandascore-1519576",
-      "matchId": "pandascore-1519576",
-      "pandaScoreId": 1519576,
-      "startTime": "2026-06-12T11:00:00Z",
-      "status": "not_started",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "teamA": "Virtus.pro",
-      "teamB": "INOX Division",
-      "decision": {
-        "tier": "skip",
-        "label": "Skip",
-        "pick": "Virtus.pro",
-        "probability": 0.514793,
-        "margin": 0.014793,
-        "agreement": {
-          "ratio": 0.6,
-          "votes": "3/5",
-          "teamA": 3,
-          "teamB": 2
-        },
-        "coverage": 1,
-        "probabilitySpread": 0.089027,
-        "reasons": [
-          "model_disagreement",
-          "market_disagreement"
-        ],
-        "decisionModels": [
-          "weighted",
-          "champion",
-          "ensemble",
-          "ensemble25",
-          "archive"
-        ],
-        "excludedModelCount": 2
-      },
-      "market": {
-        "favorite": "INOX Division",
-        "teamAProbability": 0.49,
-        "teamBProbability": 0.51,
-        "edge": 0.024793,
-        "disagreement": true,
-        "url": "https://polymarket.com/event/cs2-vp-inox-2026-06-12"
-      },
-      "models": [
-        {
-          "modelId": "weighted",
-          "label": "Weighted",
-          "pick": "INOX Division",
-          "probability": 0.546037,
-          "teamAProbability": 0.453963,
-          "teamBProbability": 0.546037,
-          "margin": 0.046037,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.036037
-        },
-        {
-          "modelId": "champion",
-          "label": "Champion",
-          "pick": "INOX Division",
-          "probability": 0.632014,
-          "teamAProbability": 0.367986,
-          "teamBProbability": 0.632014,
-          "margin": 0.132014,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": false,
-          "marketEdge": 0.122014
-        },
-        {
-          "modelId": "ensemble",
-          "label": "Ensemble",
-          "pick": "Virtus.pro",
-          "probability": 0.583884,
-          "teamAProbability": 0.583884,
-          "teamBProbability": 0.416116,
-          "margin": 0.083884,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.093884
-        },
-        {
-          "modelId": "ensemble25",
-          "label": "Ensemble 25",
-          "pick": "Virtus.pro",
-          "probability": 0.582463,
-          "teamAProbability": 0.582463,
-          "teamBProbability": 0.417537,
-          "margin": 0.082463,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.092463
-        },
-        {
-          "modelId": "archive",
-          "label": "Archive",
-          "pick": "Virtus.pro",
-          "probability": 0.585668,
-          "teamAProbability": 0.585668,
-          "teamBProbability": 0.414332,
-          "margin": 0.085668,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.095668
-        }
-      ],
-      "excludedModels": [
-        {
-          "modelId": "oldprog",
-          "label": "Old Prog",
-          "pick": "Virtus.pro",
-          "probability": 0.518779,
-          "teamAProbability": 0.518779,
-          "teamBProbability": 0.481221,
-          "margin": 0.018779,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0.028779
-        },
-        {
-          "modelId": "meta",
-          "label": "MetaPicker",
-          "pick": "Virtus.pro",
-          "probability": 0.6027,
-          "teamAProbability": 0.6027,
-          "teamBProbability": 0.3973,
-          "margin": 0.1027,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketDisagreement": true,
-          "marketEdge": 0
-        }
-      ]
-    },
-    {
       "id": "pandascore-1513131",
       "matchId": "pandascore-1513131",
       "pandaScoreId": 1513131,
-      "startTime": "2026-06-12T11:30:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-12T11:30:59Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "teamA": "PARIVISION",
       "teamB": "Monte",
@@ -228,9 +60,9 @@
       },
       "market": {
         "favorite": "PARIVISION",
-        "teamAProbability": 0.555,
-        "teamBProbability": 0.445,
-        "edge": 0.029155,
+        "teamAProbability": 0.545,
+        "teamBProbability": 0.455,
+        "edge": 0.039155,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-prv-mnte-2026-06-12"
       },
@@ -250,7 +82,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.047158
+          "marketEdge": 0.057158
         },
         {
           "modelId": "champion",
@@ -267,7 +99,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.019229
+          "marketEdge": -0.009229
         },
         {
           "modelId": "ensemble",
@@ -284,7 +116,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.009227
+          "marketEdge": 0.019227
         },
         {
           "modelId": "ensemble25",
@@ -301,7 +133,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.083189
+          "marketEdge": 0.093189
         },
         {
           "modelId": "archive",
@@ -318,7 +150,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.025432
+          "marketEdge": 0.035432
         }
       ],
       "excludedModels": [
@@ -337,7 +169,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0.075597
+          "marketEdge": 0.085597
         },
         {
           "modelId": "meta",
@@ -362,8 +194,8 @@
       "id": "pandascore-1513130",
       "matchId": "pandascore-1513130",
       "pandaScoreId": 1513130,
-      "startTime": "2026-06-12T11:30:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-12T12:11:48Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "teamA": "FUT",
       "teamB": "G2",
@@ -382,7 +214,9 @@
         "coverage": 1,
         "probabilitySpread": 0.039656,
         "reasons": [
-          "low_confidence"
+          "low_confidence",
+          "market_disagreement",
+          "market_edge"
         ],
         "decisionModels": [
           "weighted",
@@ -394,11 +228,11 @@
         "excludedModelCount": 2
       },
       "market": {
-        "favorite": "FUT",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "edge": -0.000966,
-        "disagreement": false,
+        "favorite": "G2",
+        "teamAProbability": 0.395,
+        "teamBProbability": 0.605,
+        "edge": 0.139034,
+        "disagreement": true,
         "url": "https://polymarket.com/event/cs2-fut-g2-2026-06-12"
       },
       "models": [
@@ -416,8 +250,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": 0.055543
+          "marketDisagreement": true,
+          "marketEdge": 0.195543
         },
         {
           "modelId": "champion",
@@ -433,8 +267,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": -0.026152
+          "marketDisagreement": true,
+          "marketEdge": 0.113848
         },
         {
           "modelId": "ensemble",
@@ -450,8 +284,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": true,
-          "marketEdge": 0.044602
+          "marketDisagreement": false,
+          "marketEdge": -0.095398
         },
         {
           "modelId": "ensemble25",
@@ -467,8 +301,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": 0.037249
+          "marketDisagreement": true,
+          "marketEdge": 0.177249
         },
         {
           "modelId": "archive",
@@ -484,8 +318,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": -0.026868
+          "marketDisagreement": true,
+          "marketEdge": 0.113132
         }
       ],
       "excludedModels": [
@@ -503,8 +337,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": 0.065802
+          "marketDisagreement": true,
+          "marketEdge": 0.205802
         },
         {
           "modelId": "meta",
@@ -520,7 +354,7 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
+          "marketDisagreement": true,
           "marketEdge": 0
         }
       ]
@@ -529,7 +363,7 @@
       "id": "pandascore-1513133",
       "matchId": "pandascore-1513133",
       "pandaScoreId": 1513133,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "teamA": "Falcons",
@@ -694,7 +528,7 @@
       "id": "pandascore-1513132",
       "matchId": "pandascore-1513132",
       "pandaScoreId": 1513132,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "teamA": "Natus Vincere",
@@ -1057,9 +891,9 @@
       },
       "market": {
         "favorite": "Spirit",
-        "teamAProbability": 0.145,
-        "teamBProbability": 0.855,
-        "edge": -0.253826,
+        "teamAProbability": 0.135,
+        "teamBProbability": 0.865,
+        "edge": -0.263826,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-aur1-ts7-2026-06-12"
       },
@@ -1079,7 +913,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.362229
+          "marketEdge": 0.372229
         },
         {
           "modelId": "champion",
@@ -1096,7 +930,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.233508
+          "marketEdge": -0.243508
         },
         {
           "modelId": "ensemble",
@@ -1113,7 +947,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.24553
+          "marketEdge": -0.25553
         },
         {
           "modelId": "ensemble25",
@@ -1130,7 +964,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.174425
+          "marketEdge": -0.184425
         },
         {
           "modelId": "archive",
@@ -1147,7 +981,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.253437
+          "marketEdge": -0.263437
         }
       ],
       "excludedModels": [
@@ -1166,7 +1000,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.33399
+          "marketEdge": -0.34399
         },
         {
           "modelId": "meta",
@@ -1384,9 +1218,9 @@
       },
       "market": {
         "favorite": "FaZe",
-        "teamAProbability": 0.665,
-        "teamBProbability": 0.335,
-        "edge": -0.140877,
+        "teamAProbability": 0.635,
+        "teamBProbability": 0.365,
+        "edge": -0.110877,
         "disagreement": false,
         "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01"
       },
@@ -1406,7 +1240,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.094234
+          "marketEdge": -0.064234
         },
         {
           "modelId": "champion",
@@ -1423,7 +1257,7 @@
             "missing": []
           },
           "marketDisagreement": true,
-          "marketEdge": 0.201477
+          "marketEdge": 0.171477
         },
         {
           "modelId": "ensemble",
@@ -1440,7 +1274,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.148863
+          "marketEdge": -0.118863
         },
         {
           "modelId": "ensemble25",
@@ -1457,7 +1291,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.119122
+          "marketEdge": -0.089122
         },
         {
           "modelId": "archive",
@@ -1474,7 +1308,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.14069
+          "marketEdge": -0.11069
         }
       ],
       "excludedModels": [
@@ -1493,7 +1327,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": -0.085194
+          "marketEdge": -0.055194
         },
         {
           "modelId": "meta",
@@ -1547,7 +1381,14 @@
         ],
         "excludedModelCount": 2
       },
-      "market": null,
+      "market": {
+        "favorite": "Monte",
+        "teamAProbability": 0.55,
+        "teamBProbability": 0.45,
+        "edge": 0.015223,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-mnte-nem-2026-07-01"
+      },
       "models": [
         {
           "modelId": "weighted",
@@ -1564,7 +1405,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.069719
         },
         {
           "modelId": "champion",
@@ -1580,8 +1421,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketDisagreement": false,
-          "marketEdge": 0
+          "marketDisagreement": true,
+          "marketEdge": 0.06306
         },
         {
           "modelId": "ensemble",
@@ -1598,7 +1439,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.01468
         },
         {
           "modelId": "ensemble25",
@@ -1615,7 +1456,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.084286
         },
         {
           "modelId": "archive",
@@ -1632,7 +1473,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.000152
         }
       ],
       "excludedModels": [
@@ -1651,7 +1492,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.106318
         },
         {
           "modelId": "meta",
@@ -1705,7 +1546,14 @@
         ],
         "excludedModelCount": 2
       },
-      "market": null,
+      "market": {
+        "favorite": "9z",
+        "teamAProbability": 0.63,
+        "teamBProbability": 0.37,
+        "edge": -0.019982,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-9z-eye-2026-07-01"
+      },
       "models": [
         {
           "modelId": "weighted",
@@ -1722,7 +1570,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.024007
         },
         {
           "modelId": "champion",
@@ -1739,7 +1587,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.009571
         },
         {
           "modelId": "ensemble",
@@ -1756,7 +1604,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.059765
         },
         {
           "modelId": "ensemble25",
@@ -1773,7 +1621,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.015429
         },
         {
           "modelId": "archive",
@@ -1790,7 +1638,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.041139
         }
       ],
       "excludedModels": [
@@ -1809,7 +1657,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.004519
         },
         {
           "modelId": "meta",
@@ -1863,7 +1711,14 @@
         ],
         "excludedModelCount": 2
       },
-      "market": null,
+      "market": {
+        "favorite": "BetBoom",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "edge": 0.014394,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-bb3-sin2-2026-07-01"
+      },
       "models": [
         {
           "modelId": "weighted",
@@ -1880,7 +1735,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.079523
         },
         {
           "modelId": "champion",
@@ -1897,7 +1752,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.062844
         },
         {
           "modelId": "ensemble",
@@ -1914,7 +1769,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.037795
         },
         {
           "modelId": "ensemble25",
@@ -1931,7 +1786,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.0162
         },
         {
           "modelId": "archive",
@@ -1948,7 +1803,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.033696
         }
       ],
       "excludedModels": [
@@ -1967,7 +1822,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.090809
         },
         {
           "modelId": "meta",
@@ -2021,7 +1876,14 @@
         ],
         "excludedModelCount": 2
       },
-      "market": null,
+      "market": {
+        "favorite": "PARIVISION",
+        "teamAProbability": 0.615,
+        "teamBProbability": 0.385,
+        "edge": -0.008858,
+        "disagreement": false,
+        "url": "https://polymarket.com/event/cs2-prv-all-2026-07-01"
+      },
       "models": [
         {
           "modelId": "weighted",
@@ -2038,7 +1900,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.037033
         },
         {
           "modelId": "champion",
@@ -2055,7 +1917,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.054042
         },
         {
           "modelId": "ensemble",
@@ -2072,7 +1934,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.020732
         },
         {
           "modelId": "ensemble25",
@@ -2089,7 +1951,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.000957
         },
         {
           "modelId": "archive",
@@ -2106,7 +1968,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": -0.005591
         }
       ],
       "excludedModels": [
@@ -2125,7 +1987,7 @@
             "missing": []
           },
           "marketDisagreement": false,
-          "marketEdge": 0
+          "marketEdge": 0.082754
         },
         {
           "modelId": "meta",

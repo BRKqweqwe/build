@@ -1,55 +1,17 @@
 {
-  "generatedAt": "2026-06-12T11:45:31.493Z",
+  "generatedAt": "2026-06-12T13:40:03.088Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset-match-level-league.json",
     "model": "static/data/trained-model-recency-accuracy.json"
   },
   "summary": {
-    "total": 11,
-    "high": 10,
+    "total": 10,
+    "high": 9,
     "medium": 0,
     "low": 1
   },
   "predictions": [
-    {
-      "matchId": "lolesports-115548128963037575",
-      "match": {
-        "id": "lolesports-115548128963037575",
-        "lolEsportsId": "115548128963037575",
-        "source": "lolesports",
-        "startTime": "2026-06-12T08:00:00Z",
-        "status": "inProgress",
-        "league": "LCK",
-        "blockName": "Knockouts",
-        "bestOf": 5,
-        "teamA": "Hanwha Life Esports",
-        "teamB": "T1",
-        "teamAId": "HLE",
-        "teamBId": "T1",
-        "teamAScore": 2,
-        "teamBScore": 1,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "recency-accuracy",
-        "path": "static/data/trained-model-recency-accuracy.json",
-        "label": "Recency Accuracy"
-      },
-      "prediction": {
-        "favorite": "Hanwha Life Esports",
-        "probability": 0.696472,
-        "teamAProbability": 0.696472,
-        "teamBProbability": 0.303528,
-        "margin": 0.392945
-      },
-      "coverage": {
-        "teamAGames": 679,
-        "teamBGames": 532,
-        "level": "high"
-      }
-    },
     {
       "matchId": "lolesports-116520394663535894",
       "match": {
@@ -65,8 +27,8 @@
         "teamB": "Saigon Zen Esport",
         "teamAId": "DINO",
         "teamBId": "ZEN",
-        "teamAScore": 1,
-        "teamBScore": 0,
+        "teamAScore": 2,
+        "teamBScore": 2,
         "winner": null,
         "winnerTeamId": null
       },

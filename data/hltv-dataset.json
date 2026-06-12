@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T22:53:19.999Z",
+  "generatedAt": "2026-06-12T13:39:58.785Z",
   "source": {
-    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures",
+    "name": "hltv-schedule+csapi+csapi+csapi+liquipedia-schedule+liquipedia-schedule+bo3+bo3+bo3+bo3+bo3+pandascore-fixtures+csskill+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+csskill+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures+pandascore-fixtures",
     "maxRank": 100,
     "maxMatches": 80,
     "minStars": 0,
-    "rawMatches": 210,
+    "rawMatches": 228,
     "skipped": {
-      "missingOpponents": 156,
-      "unknownTeams": 28,
+      "missingOpponents": 162,
+      "unknownTeams": 44,
       "rank": 0,
       "duplicate": 0
     },
@@ -76,13 +76,13 @@
     "schedule": {
       "name": "pandascore",
       "apiBaseUrl": "https://api.pandascore.co",
-      "rawMatches": 210,
-      "matches": 26,
-      "mergedMatches": 26,
+      "rawMatches": 228,
+      "matches": 22,
+      "mergedMatches": 22,
       "keptExistingMatches": 0,
       "skipped": {
-        "missingOpponents": 156,
-        "unknownTeams": 28,
+        "missingOpponents": 162,
+        "unknownTeams": 44,
         "rank": 0,
         "duplicate": 0
       }
@@ -101,8 +101,8 @@
     },
     "liveFormPatch": {
       "results": "static/data/model-results.json",
-      "applied": 6,
-      "skipped": 22,
+      "applied": 0,
+      "skipped": 28,
       "lookbackDays": 21,
       "maxRecentMatches": 12,
       "note": "Resolved live results are applied as conservative 1-0/0-1 recent form entries when exact map score is unavailable."
@@ -110,135 +110,9 @@
   },
   "matches": [
     {
-      "id": "pandascore-1519575",
-      "pandaScoreId": 1519575,
-      "startTime": "2026-06-12T08:00:00Z",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "13617",
-      "teamBId": "12889",
-      "teamAName": "ex-RUBY",
-      "teamBName": "G2 Ares",
-      "rawTeamAName": "ex-RUBY",
-      "rawTeamBName": "G2 Ares",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513129",
-      "pandaScoreId": 1513129,
-      "startTime": "2026-06-12T09:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "6248",
-      "teamBId": "11241",
-      "teamAName": "The MongolZ",
-      "teamBName": "B8",
-      "rawTeamAName": "TheMongolz",
-      "rawTeamBName": "B8",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513128",
-      "pandaScoreId": 1513128,
-      "startTime": "2026-06-12T09:00:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "8297",
-      "teamBId": "4494",
-      "teamAName": "FURIA",
-      "teamBName": "MOUZ",
-      "rawTeamAName": "FURIA",
-      "rawTeamBName": "MOUZ",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1519576",
-      "pandaScoreId": 1519576,
-      "startTime": "2026-06-12T11:00:00Z",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "status": "not_started",
-      "teamAId": "5378",
-      "teamBId": "13814",
-      "teamAName": "Virtus.pro",
-      "teamBName": "INOX Division",
-      "rawTeamAName": "Virtus.pro",
-      "rawTeamBName": "INOX Division",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513131",
-      "pandaScoreId": 1513131,
-      "startTime": "2026-06-12T11:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "12467",
-      "teamBId": "11811",
-      "teamAName": "PARIVISION",
-      "teamBName": "Monte",
-      "rawTeamAName": "PARIVISION",
-      "rawTeamBName": "Monte",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
-      "id": "pandascore-1513130",
-      "pandaScoreId": 1513130,
-      "startTime": "2026-06-12T11:30:00Z",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "status": "not_started",
-      "teamAId": "13286",
-      "teamBId": "5995",
-      "teamAName": "FUT",
-      "teamBName": "G2",
-      "rawTeamAName": "FUT Esports",
-      "rawTeamBName": "G2",
-      "winnerId": null,
-      "expectedMaps": [],
-      "headToHead": {
-        "teamAWins": 0,
-        "teamBWins": 0
-      }
-    },
-    {
       "id": "pandascore-1513133",
       "pandaScoreId": 1513133,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -259,7 +133,7 @@
     {
       "id": "pandascore-1513132",
       "pandaScoreId": 1513132,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -522,6 +396,48 @@
       "teamBName": "SINNERS",
       "rawTeamAName": "FaZe",
       "rawTeamBName": "Sinners",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513131",
+      "pandaScoreId": 1513131,
+      "startTime": "2026-06-12T11:30:59Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "running",
+      "teamAId": "12467",
+      "teamBId": "11811",
+      "teamAName": "PARIVISION",
+      "teamBName": "Monte",
+      "rawTeamAName": "PARIVISION",
+      "rawTeamBName": "Monte",
+      "winnerId": null,
+      "expectedMaps": [],
+      "headToHead": {
+        "teamAWins": 0,
+        "teamBWins": 0
+      }
+    },
+    {
+      "id": "pandascore-1513130",
+      "pandaScoreId": 1513130,
+      "startTime": "2026-06-12T12:11:48Z",
+      "event": "IEM - Cologne Major - Stage 3",
+      "format": "bo3",
+      "environment": "LAN",
+      "status": "running",
+      "teamAId": "13286",
+      "teamBId": "5995",
+      "teamAName": "FUT",
+      "teamBName": "G2",
+      "rawTeamAName": "FUT Esports",
+      "rawTeamBName": "G2",
       "winnerId": null,
       "expectedMaps": [],
       "headToHead": {

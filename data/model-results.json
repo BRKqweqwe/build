@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-06-11T22:53:19.708Z",
+  "updatedAt": "2026-06-12T13:39:58.500Z",
   "results": [
     {
       "id": "2026-06-07-tyloo-astralis",
@@ -4330,6 +4330,1488 @@
       "marketUrl": "https://polymarket.com/event/cs2-vit-fut-2026-06-11",
       "marketLiquidity": "244295.4805",
       "marketVolume": "91400.88686400004"
+    },
+    {
+      "id": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "teamA": "Aurora",
+      "teamB": "Spirit",
+      "model": "weighted",
+      "modelPick": "Aurora",
+      "modelProbability": 0.5072294938612432,
+      "modelTeamAProbability": 0.5072294938612432,
+      "modelTeamBProbability": 0.49277050613875684,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Aurora",
+          "pickTeamId": "11861",
+          "probability": 0.5072294938612432,
+          "teamAProbability": 0.5072294938612432,
+          "teamBProbability": 0.49277050613875684,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.135,
+          "marketDisagreement": true,
+          "marketEdge": 0.37222949386124315
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.6214917760948699,
+          "teamAProbability": 0.3785082239051301,
+          "teamBProbability": 0.6214917760948699,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.865,
+          "marketDisagreement": false,
+          "marketEdge": -0.24350822390513005
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.6094702566075757,
+          "teamAProbability": 0.3905297433924243,
+          "teamBProbability": 0.6094702566075757,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.865,
+          "marketDisagreement": false,
+          "marketEdge": -0.2555297433924243
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.6805754317443884,
+          "teamAProbability": 0.31942456825561166,
+          "teamBProbability": 0.6805754317443884,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.865,
+          "marketDisagreement": false,
+          "marketEdge": -0.1844245682556116
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.6015627836705365,
+          "teamAProbability": 0.3984372163294635,
+          "teamBProbability": 0.6015627836705365,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.865,
+          "marketDisagreement": false,
+          "marketEdge": -0.2634372163294635
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "Spirit",
+          "pickTeamId": "7020",
+          "probability": 0.5210095813042521,
+          "teamAProbability": 0.47899041869574793,
+          "teamBProbability": 0.5210095813042521,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Spirit",
+          "marketProbability": 0.865,
+          "marketDisagreement": false,
+          "marketEdge": -0.34399041869574787
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "not_started",
+        "startTime": "2026-06-12T16:30:00Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 8,
+          "teamB": 2
+        }
+      },
+      "pandaScoreId": 1513134,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "not_started",
+      "startTime": "2026-06-12T16:30:00Z",
+      "marketDisagreement": true,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Spirit",
+      "marketUnderdog": "Aurora",
+      "marketTeamAProbability": 0.135,
+      "marketTeamBProbability": 0.865,
+      "marketFavoriteProbability": 0.865,
+      "marketQuestion": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - IEM Cologne Major Stage 3",
+      "marketUrl": "https://polymarket.com/event/cs2-aur1-ts7-2026-06-12",
+      "marketLiquidity": "166202.4302",
+      "marketVolume": "111538.04379300012"
+    },
+    {
+      "id": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "teamA": "Falcons",
+      "teamB": "BetBoom",
+      "model": "weighted",
+      "modelPick": "Falcons",
+      "modelProbability": 0.5970855793913167,
+      "modelTeamAProbability": 0.5970855793913167,
+      "modelTeamBProbability": 0.4029144206086833,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.5970855793913167,
+          "teamAProbability": 0.5970855793913167,
+          "teamBProbability": 0.4029144206086833,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": -0.07791442060868337
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.5792689204165407,
+          "teamAProbability": 0.5792689204165407,
+          "teamBProbability": 0.42073107958345934,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": -0.09573107958345939
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6222897132398895,
+          "teamAProbability": 0.6222897132398895,
+          "teamBProbability": 0.37771028676011054,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": -0.05271028676011058
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6765741534121339,
+          "teamAProbability": 0.6765741534121339,
+          "teamBProbability": 0.3234258465878661,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": 0.0015741534121338496
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6379391488072902,
+          "teamAProbability": 0.6379391488072902,
+          "teamBProbability": 0.3620608511927098,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": -0.037060851192709854
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "Falcons",
+          "pickTeamId": "11283",
+          "probability": 0.6318764628122331,
+          "teamAProbability": 0.6318764628122331,
+          "teamBProbability": 0.3681235371877669,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Falcons",
+          "marketProbability": 0.675,
+          "marketDisagreement": false,
+          "marketEdge": -0.04312353718776696
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "not_started",
+        "startTime": "2026-06-12T14:30:00Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 3,
+          "teamB": 17
+        }
+      },
+      "pandaScoreId": 1513133,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "not_started",
+      "startTime": "2026-06-12T14:30:00Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Falcons",
+      "marketUnderdog": "BetBoom",
+      "marketTeamAProbability": 0.675,
+      "marketTeamBProbability": 0.325,
+      "marketFavoriteProbability": 0.675,
+      "marketQuestion": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - IEM Cologne Major Stage 3",
+      "marketUrl": "https://polymarket.com/event/cs2-fal2-bb3-2026-06-12",
+      "marketLiquidity": "164573.9875",
+      "marketVolume": "201525.66796600082"
+    },
+    {
+      "id": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "teamA": "FUT",
+      "teamB": "G2",
+      "model": "weighted",
+      "modelPick": "FUT",
+      "modelProbability": 0.5905426391849146,
+      "modelTeamAProbability": 0.5905426391849146,
+      "modelTeamBProbability": 0.40945736081508544,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "FUT",
+          "pickTeamId": "13286",
+          "probability": 0.5905426391849146,
+          "teamAProbability": 0.5905426391849146,
+          "teamBProbability": 0.40945736081508544,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "FUT",
+          "pickTeamId": "13286",
+          "probability": 0.508847536515825,
+          "teamAProbability": 0.508847536515825,
+          "teamBProbability": 0.49115246348417496,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "G2",
+          "pickTeamId": "5995",
+          "probability": 0.509601915809495,
+          "teamAProbability": 0.490398084190505,
+          "teamBProbability": 0.509601915809495,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "FUT",
+          "pickTeamId": "13286",
+          "probability": 0.572248717331767,
+          "teamAProbability": 0.572248717331767,
+          "teamBProbability": 0.42775128266823303,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "FUT",
+          "pickTeamId": "13286",
+          "probability": 0.5081319482948812,
+          "teamAProbability": 0.5081319482948812,
+          "teamBProbability": 0.4918680517051188,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "FUT",
+          "pickTeamId": "13286",
+          "probability": 0.6008015022570901,
+          "teamAProbability": 0.6008015022570901,
+          "teamBProbability": 0.39919849774290994,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          }
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "running",
+        "startTime": "2026-06-12T12:11:48Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 12,
+          "teamB": 13
+        }
+      },
+      "pandaScoreId": 1513130,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "running",
+      "startTime": "2026-06-12T12:11:48Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: running."
+    },
+    {
+      "id": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "teamA": "Natus Vincere",
+      "teamB": "Legacy",
+      "model": "weighted",
+      "modelPick": "Natus Vincere",
+      "modelProbability": 0.5610267785721251,
+      "modelTeamAProbability": 0.5610267785721251,
+      "modelTeamBProbability": 0.43897322142787487,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5610267785721251,
+          "teamAProbability": 0.5610267785721251,
+          "teamBProbability": 0.43897322142787487,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.13397322142787482
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5509534505634397,
+          "teamAProbability": 0.5509534505634397,
+          "teamBProbability": 0.4490465494365603,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.14404654943656026
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5060648915987813,
+          "teamAProbability": 0.5060648915987813,
+          "teamBProbability": 0.4939351084012187,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.18893510840121863
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5853481282790933,
+          "teamAProbability": 0.5853481282790933,
+          "teamBProbability": 0.4146518717209067,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.10965187172090662
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5249698335115328,
+          "teamAProbability": 0.5249698335115328,
+          "teamBProbability": 0.4750301664884672,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.17003016648846714
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "Natus Vincere",
+          "pickTeamId": "4608",
+          "probability": 0.5997043051672926,
+          "teamAProbability": 0.5997043051672926,
+          "teamBProbability": 0.40029569483270744,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Natus Vincere",
+          "marketProbability": 0.695,
+          "marketDisagreement": false,
+          "marketEdge": -0.09529569483270739
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "not_started",
+        "startTime": "2026-06-12T14:30:00Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 4,
+          "teamB": 5
+        }
+      },
+      "pandaScoreId": 1513132,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "not_started",
+      "startTime": "2026-06-12T14:30:00Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Natus Vincere",
+      "marketUnderdog": "Legacy",
+      "marketTeamAProbability": 0.695,
+      "marketTeamBProbability": 0.305,
+      "marketFavoriteProbability": 0.695,
+      "marketQuestion": "Counter-Strike: Natus Vincere vs Legacy (BO3) - IEM Cologne Major Stage 3",
+      "marketUrl": "https://polymarket.com/event/cs2-navi-lgc-2026-06-12",
+      "marketLiquidity": "170706.448",
+      "marketVolume": "329069.0287629989"
+    },
+    {
+      "id": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "teamA": "PARIVISION",
+      "teamB": "Monte",
+      "model": "weighted",
+      "modelPick": "PARIVISION",
+      "modelProbability": 0.6021576484529793,
+      "modelTeamAProbability": 0.6021576484529793,
+      "modelTeamBProbability": 0.39784235154702074,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.6021576484529793,
+          "teamAProbability": 0.6021576484529793,
+          "teamBProbability": 0.39784235154702074,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.5357713241069568,
+          "teamAProbability": 0.5357713241069568,
+          "teamBProbability": 0.4642286758930432,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "50-55",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.5642266367003262,
+          "teamAProbability": 0.5642266367003262,
+          "teamBProbability": 0.43577336329967375,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.638189018027977,
+          "teamAProbability": 0.638189018027977,
+          "teamBProbability": 0.361810981972023,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.5804323547652044,
+          "teamAProbability": 0.5804323547652044,
+          "teamBProbability": 0.4195676452347956,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "55-60",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          }
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "PARIVISION",
+          "pickTeamId": "12467",
+          "probability": 0.6305965711085594,
+          "teamAProbability": 0.6305965711085594,
+          "teamBProbability": 0.3694034288914406,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          }
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "running",
+        "startTime": "2026-06-12T11:30:59Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 14,
+          "teamB": 21
+        }
+      },
+      "pandaScoreId": 1513131,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "running",
+      "startTime": "2026-06-12T11:30:59Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: running."
+    },
+    {
+      "id": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "teamA": "Vitality",
+      "teamB": "9z",
+      "model": "weighted",
+      "modelPick": "Vitality",
+      "modelProbability": 0.6371442355506581,
+      "modelTeamAProbability": 0.6371442355506581,
+      "modelTeamBProbability": 0.36285576444934187,
+      "probabilityForWinner": null,
+      "calibration": "platt",
+      "featureCoverage": {
+        "available": 61,
+        "total": 61,
+        "ratio": 1,
+        "missing": []
+      },
+      "modelPredictions": [
+        {
+          "modelId": "weighted",
+          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:58:31.157Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6108108108108108,
+              "logLoss": 0.6605944315708477,
+              "brier": 0.23437850391856677
+            },
+            "features": 61
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.6371442355506581,
+          "teamAProbability": 0.6371442355506581,
+          "teamBProbability": 0.36285576444934187,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "60-65",
+          "featureCoverage": {
+            "available": 61,
+            "total": 61,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.2678557644493419
+        },
+        {
+          "modelId": "champion",
+          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
+          "modelVersion": {
+            "type": "logistic-regression-baseline-calibrated",
+            "generatedAt": "2026-06-08T15:57:34.865Z",
+            "calibration": "blend",
+            "metrics": {
+              "rows": 1569,
+              "accuracy": 0.6010197578075207,
+              "logLoss": 0.6602514924194753,
+              "brier": 0.23414231440399316
+            },
+            "features": 57
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.6698755490766979,
+          "teamAProbability": 0.6698755490766979,
+          "teamBProbability": 0.3301244509233021,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 57,
+            "total": 57,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.23512445092330214
+        },
+        {
+          "modelId": "ensemble",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:40:15.167Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.604839,
+              "logLoss": 0.645427,
+              "brier": 0.227418
+            },
+            "features": 56
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.6574963169399325,
+          "teamAProbability": 0.6574963169399325,
+          "teamBProbability": 0.3425036830600675,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.24750368306006754
+        },
+        {
+          "modelId": "ensemble25",
+          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
+          "modelVersion": {
+            "type": "weighted-ensemble",
+            "generatedAt": "2026-06-10T10:41:18.053Z",
+            "calibration": null,
+            "metrics": {
+              "rows": 124,
+              "accuracy": 0.58871,
+              "logLoss": 0.657497,
+              "brier": 0.232789
+            },
+            "features": 56
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.7139950451543051,
+          "teamAProbability": 0.7139950451543051,
+          "teamBProbability": 0.2860049548456949,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 56,
+            "total": 56,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.1910049548456949
+        },
+        {
+          "modelId": "archive",
+          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-10T11:26:22.448Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 4,
+              "rows": 411,
+              "accuracy": 0.6180048661800487,
+              "logLoss": 0.6613205689902613,
+              "brier": 0.23417917517122547
+            },
+            "features": 22
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.6715368459800013,
+          "teamAProbability": 0.6715368459800013,
+          "teamBProbability": 0.3284631540199987,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 22,
+            "total": 22,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.23346315401999873
+        },
+        {
+          "modelId": "oldprog",
+          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
+          "modelVersion": {
+            "type": "logistic-regression-progressive-curriculum",
+            "generatedAt": "2026-06-09T10:23:09.499Z",
+            "calibration": "platt",
+            "metrics": {
+              "splits": 3,
+              "rows": 740,
+              "accuracy": 0.6,
+              "logLoss": 0.6646279158880868,
+              "brier": 0.23630361701016603
+            },
+            "features": 64
+          },
+          "pick": "Vitality",
+          "pickTeamId": "9565",
+          "probability": 0.6846334454202154,
+          "teamAProbability": 0.6846334454202154,
+          "teamBProbability": 0.3153665545797846,
+          "probabilityForWinner": null,
+          "status": "pending",
+          "confidenceBucket": "65+",
+          "featureCoverage": {
+            "available": 64,
+            "total": 64,
+            "ratio": 1,
+            "missing": []
+          },
+          "marketFavorite": "Vitality",
+          "marketProbability": 0.905,
+          "marketDisagreement": false,
+          "marketEdge": -0.2203665545797846
+        }
+      ],
+      "matchContext": {
+        "format": "bo3",
+        "environment": "LAN",
+        "event": "IEM - Cologne Major - Stage 3",
+        "eventTier": 1,
+        "status": "not_started",
+        "startTime": "2026-06-12T16:30:00Z",
+        "topBucket": "top-20",
+        "ranks": {
+          "teamA": 1,
+          "teamB": 15
+        }
+      },
+      "pandaScoreId": 1513135,
+      "resultWinner": null,
+      "status": "pending",
+      "matchStatus": "not_started",
+      "startTime": "2026-06-12T16:30:00Z",
+      "marketDisagreement": false,
+      "notes": "Pending snapshot before final result. Source status: not_started. Market benchmark attached from Polymarket; not used as model input.",
+      "marketFavorite": "Vitality",
+      "marketUnderdog": "9z",
+      "marketTeamAProbability": 0.905,
+      "marketTeamBProbability": 0.095,
+      "marketFavoriteProbability": 0.905,
+      "marketQuestion": "Counter-Strike: Vitality vs 9z (BO3) - IEM Cologne Major Stage 3",
+      "marketUrl": "https://polymarket.com/event/cs2-vit-9z-2026-06-12",
+      "marketLiquidity": "209526.9628",
+      "marketVolume": "100447.73769199998"
     }
   ]
 }

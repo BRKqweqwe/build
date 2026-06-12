@@ -1,25 +1,7 @@
 {
-  "generatedAt": "2026-06-12T11:45:29.452Z",
+  "generatedAt": "2026-06-12T13:40:00.950Z",
   "source": "lolesports",
   "matches": [
-    {
-      "id": "lolesports-115548128963037575",
-      "lolEsportsId": "115548128963037575",
-      "source": "lolesports",
-      "startTime": "2026-06-12T08:00:00Z",
-      "status": "inProgress",
-      "league": "LCK",
-      "blockName": "Knockouts",
-      "bestOf": 5,
-      "teamA": "Hanwha Life Esports",
-      "teamB": "T1",
-      "teamAId": "HLE",
-      "teamBId": "T1",
-      "teamAScore": 2,
-      "teamBScore": 1,
-      "winner": null,
-      "winnerTeamId": null
-    },
     {
       "id": "lolesports-116520394663535894",
       "lolEsportsId": "116520394663535894",
@@ -33,8 +15,8 @@
       "teamB": "Saigon Zen Esport",
       "teamAId": "DINO",
       "teamBId": "ZEN",
-      "teamAScore": 1,
-      "teamBScore": 0,
+      "teamAScore": 2,
+      "teamBScore": 2,
       "winner": null,
       "winnerTeamId": null
     },

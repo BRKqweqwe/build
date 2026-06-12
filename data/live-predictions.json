@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T11:38:26.312Z",
+  "generatedAt": "2026-06-12T13:39:59.678Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "model": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
@@ -36,396 +36,96 @@
     "maxRank": 100
   },
   "summary": {
-    "total": 15,
-    "withMarket": 8,
-    "withHistory": 0,
-    "pendingHistory": 0,
+    "total": 14,
+    "withMarket": 11,
+    "withHistory": 6,
+    "pendingHistory": 6,
     "skipped": {
       "missingTeams": 0,
       "rank": 0,
       "resolvedHistory": 0,
-      "staleNotStarted": 3,
+      "staleNotStarted": 0,
       "staleRunning": 0,
       "status": 8
     }
   },
-  "predictions": [
+  "skippedMatches": [
     {
-      "id": "pandascore-1519576",
-      "match": {
-        "id": "pandascore-1519576",
-        "pandaScoreId": 1519576,
-        "startTime": "2026-06-12T11:00:00Z",
-        "event": "CCT Europe - Series #4 - Group Stage",
-        "format": "bo3",
-        "environment": "Online",
-        "status": "not_started"
-      },
-      "teamA": {
-        "id": "5378",
-        "name": "Virtus.pro",
-        "hltvRank": 40,
-        "probability": 0.45396292232823565,
-        "baseProbability": 0.45396292232823565
-      },
-      "teamB": {
-        "id": "13814",
-        "name": "INOX Division",
-        "hltvRank": 75,
-        "probability": 0.5460370776717643,
-        "baseProbability": 0.5460370776717643
-      },
-      "pick": {
-        "teamId": "13814",
-        "name": "INOX Division",
-        "probability": 0.5460370776717643,
-        "confidence": 0.32826303204199936
-      },
-      "model": {
-        "type": "logistic-regression-progressive-curriculum",
-        "generatedAt": "2026-06-09T10:58:31.157Z",
-        "calibration": {
-          "type": "platt",
-          "a": 0.6766622221181056,
-          "b": 0.1718359057655359,
-          "calibrationLogLoss": 0.6623200618633371
-        },
-        "featureCoverage": {
-          "available": 61,
-          "total": 61,
-          "ratio": 1,
-          "missing": []
-        },
-        "dataQuality": {
-          "score": 0.95,
-          "label": "Wysoka"
-        }
-      },
-      "modelPredictions": [
-        {
-          "modelId": "weighted",
-          "modelPath": "static/data/kaggle-variants/trained-model-weighted-accuracy-a.json",
-          "modelVersion": {
-            "type": "logistic-regression-progressive-curriculum",
-            "generatedAt": "2026-06-09T10:58:31.157Z",
-            "calibration": "platt",
-            "metrics": {
-              "splits": 3,
-              "rows": 740,
-              "accuracy": 0.6108108108108108,
-              "logLoss": 0.6605944315708477,
-              "brier": 0.23437850391856677
-            },
-            "features": 61
-          },
-          "pick": "INOX Division",
-          "pickTeamId": "13814",
-          "probability": 0.5460370776717643,
-          "teamAProbability": 0.45396292232823565,
-          "teamBProbability": 0.5460370776717643,
-          "baseTeamAProbability": 0.45396292232823565,
-          "baseTeamBProbability": 0.5460370776717643,
-          "favoriteTeamId": "13814",
-          "favoriteName": "INOX Division",
-          "favoriteProbability": 0.5460370776717643,
-          "confidence": 0.32826303204199936,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.51,
-          "marketDisagreement": false,
-          "marketEdge": 0.03603707767176434
-        },
-        {
-          "modelId": "champion",
-          "modelPath": "static/data/kaggle-variants/trained-model-alltiers-prior3-lineup3-calibrated.json",
-          "modelVersion": {
-            "type": "logistic-regression-baseline-calibrated",
-            "generatedAt": "2026-06-08T15:57:34.865Z",
-            "calibration": "blend",
-            "metrics": {
-              "rows": 1569,
-              "accuracy": 0.6010197578075207,
-              "logLoss": 0.6602514924194753,
-              "brier": 0.23414231440399316
-            },
-            "features": 57
-          },
-          "pick": "INOX Division",
-          "pickTeamId": "13814",
-          "probability": 0.6320139504781179,
-          "teamAProbability": 0.36798604952188213,
-          "teamBProbability": 0.6320139504781179,
-          "baseTeamAProbability": 0.36798604952188213,
-          "baseTeamBProbability": 0.6320139504781179,
-          "favoriteTeamId": "13814",
-          "favoriteName": "INOX Division",
-          "favoriteProbability": 0.6320139504781179,
-          "confidence": 0.4744237158128004,
-          "featureCoverage": {
-            "available": 57,
-            "total": 57,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.51,
-          "marketDisagreement": false,
-          "marketEdge": 0.12201395047811792
-        },
-        {
-          "modelId": "ensemble",
-          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn.json",
-          "modelVersion": {
-            "type": "weighted-ensemble",
-            "generatedAt": "2026-06-10T10:40:15.167Z",
-            "calibration": null,
-            "metrics": {
-              "rows": 124,
-              "accuracy": 0.604839,
-              "logLoss": 0.645427,
-              "brier": 0.227418
-            },
-            "features": 56
-          },
-          "pick": "Virtus.pro",
-          "pickTeamId": "5378",
-          "probability": 0.5838837496564919,
-          "teamAProbability": 0.5838837496564919,
-          "teamBProbability": 0.4161162503435081,
-          "baseTeamAProbability": 0.5838837496564919,
-          "baseTeamBProbability": 0.4161162503435081,
-          "favoriteTeamId": "5378",
-          "favoriteName": "Virtus.pro",
-          "favoriteProbability": 0.5838837496564919,
-          "confidence": 0.3926023744160363,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.49,
-          "marketDisagreement": true,
-          "marketEdge": 0.09388374965649193
-        },
-        {
-          "modelId": "ensemble25",
-          "modelPath": "static/data/kaggle-variants/trained-model-ensemble-progressive-nn-min25.json",
-          "modelVersion": {
-            "type": "weighted-ensemble",
-            "generatedAt": "2026-06-10T10:41:18.053Z",
-            "calibration": null,
-            "metrics": {
-              "rows": 124,
-              "accuracy": 0.58871,
-              "logLoss": 0.657497,
-              "brier": 0.232789
-            },
-            "features": 56
-          },
-          "pick": "Virtus.pro",
-          "pickTeamId": "5378",
-          "probability": 0.5824631501526514,
-          "teamAProbability": 0.5824631501526514,
-          "teamBProbability": 0.4175368498473486,
-          "baseTeamAProbability": 0.5824631501526514,
-          "baseTeamBProbability": 0.4175368498473486,
-          "favoriteTeamId": "5378",
-          "favoriteName": "Virtus.pro",
-          "favoriteProbability": 0.5824631501526514,
-          "confidence": 0.3901873552595073,
-          "featureCoverage": {
-            "available": 56,
-            "total": 56,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.49,
-          "marketDisagreement": true,
-          "marketEdge": 0.09246315015265139
-        },
-        {
-          "modelId": "archive",
-          "modelPath": "static/data/kaggle-variants/trained-model-archive-all-coverage-progressive.json",
-          "modelVersion": {
-            "type": "logistic-regression-progressive-curriculum",
-            "generatedAt": "2026-06-10T11:26:22.448Z",
-            "calibration": "platt",
-            "metrics": {
-              "splits": 4,
-              "rows": 411,
-              "accuracy": 0.6180048661800487,
-              "logLoss": 0.6613205689902613,
-              "brier": 0.23417917517122547
-            },
-            "features": 22
-          },
-          "pick": "Virtus.pro",
-          "pickTeamId": "5378",
-          "probability": 0.5856679695642388,
-          "teamAProbability": 0.5856679695642388,
-          "teamBProbability": 0.41433203043576117,
-          "baseTeamAProbability": 0.5856679695642388,
-          "baseTeamBProbability": 0.41433203043576117,
-          "favoriteTeamId": "5378",
-          "favoriteName": "Virtus.pro",
-          "favoriteProbability": 0.5856679695642388,
-          "confidence": 0.395635548259206,
-          "featureCoverage": {
-            "available": 22,
-            "total": 22,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.49,
-          "marketDisagreement": true,
-          "marketEdge": 0.09566796956423884
-        },
-        {
-          "modelId": "oldprog",
-          "modelPath": "static/data/kaggle-variants/trained-model-progressive-49x180.json",
-          "modelVersion": {
-            "type": "logistic-regression-progressive-curriculum",
-            "generatedAt": "2026-06-09T10:23:09.499Z",
-            "calibration": "platt",
-            "metrics": {
-              "splits": 3,
-              "rows": 740,
-              "accuracy": 0.6,
-              "logLoss": 0.6646279158880868,
-              "brier": 0.23630361701016603
-            },
-            "features": 64
-          },
-          "pick": "Virtus.pro",
-          "pickTeamId": "5378",
-          "probability": 0.518778988762713,
-          "teamAProbability": 0.518778988762713,
-          "teamBProbability": 0.481221011237287,
-          "baseTeamAProbability": 0.518778988762713,
-          "baseTeamBProbability": 0.481221011237287,
-          "favoriteTeamId": "5378",
-          "favoriteName": "Virtus.pro",
-          "favoriteProbability": 0.518778988762713,
-          "confidence": 0.2819242808966121,
-          "featureCoverage": {
-            "available": 64,
-            "total": 64,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.49,
-          "marketDisagreement": true,
-          "marketEdge": 0.02877898876271301
-        },
-        {
-          "modelId": "meta",
-          "modelPath": "static/data/trained-model-meta-picker.json",
-          "modelVersion": {
-            "type": "logistic-regression-baseline",
-            "generatedAt": "2026-06-11T13:43:34.031Z",
-            "metrics": {
-              "rows": 338,
-              "accuracy": 0.5857988165680473,
-              "logLoss": 0.669079129090084,
-              "brier": 0.23825705278766215
-            },
-            "features": 31
-          },
-          "pick": "Virtus.pro",
-          "pickTeamId": "5378",
-          "probability": 0.6027,
-          "teamAProbability": 0.6027,
-          "teamBProbability": 0.3973,
-          "baseTeamAProbability": 0.6027,
-          "baseTeamBProbability": 0.3973,
-          "favoriteTeamId": "5378",
-          "favoriteName": "Virtus.pro",
-          "favoriteProbability": 0.6027,
-          "confidence": 0.1027,
-          "featureCoverage": {
-            "available": 61,
-            "total": 61,
-            "ratio": 1,
-            "missing": []
-          },
-          "marketFavorite": "INOX Division",
-          "marketProbability": 0.49,
-          "marketDisagreement": true,
-          "marketEdge": null,
-          "meta": {
-            "features": {
-              "weightedProbA": 0.45396292232823565,
-              "championProbA": 0.36798604952188213,
-              "ensembleProbA": 0.5838837496564919,
-              "ensemble25ProbA": 0.5824631501526514,
-              "archiveProbA": 0.5856679695642388,
-              "oldprogProbA": 0.518778988762713,
-              "weightedConfidence": 0.5460370776717643,
-              "championConfidence": 0.6320139504781179,
-              "ensembleConfidence": 0.5838837496564919,
-              "ensemble25Confidence": 0.5824631501526514,
-              "archiveConfidence": 0.5856679695642388,
-              "oldprogConfidence": 0.518778988762713,
-              "meanProbA": 0.5154571383310355,
-              "medianProbA": 0.5824631501526514,
-              "minProbA": 0.36798604952188213,
-              "maxProbA": 0.5856679695642388,
-              "stdProbA": 0.08128331410036094,
-              "probRange": 0.2176819200423567,
-              "meanConfidence": 0.5748074810476629,
-              "maxConfidence": 0.6320139504781179,
-              "minConfidence": 0.518778988762713,
-              "favoriteAgreement": 4,
-              "disagreementCount": 2,
-              "majorityPickA": 1,
-              "weightedVsChampionDisagree": 0,
-              "ensembleVsEnsemble25Disagree": 0,
-              "isLan": 0,
-              "isBo1": 0,
-              "isBo3": 1,
-              "isBo5": 0,
-              "eventTier": 1
-            }
-          }
-        }
-      ],
-      "market": {
-        "favorite": "INOX Division",
-        "underdog": "Virtus.pro",
-        "teamAProbability": 0.49,
-        "teamBProbability": 0.51,
-        "favoriteProbability": 0.51,
-        "question": "Counter-Strike: Virtus.pro vs INOX Division (BO3) - CCT Europe Series #4 Group Stage",
-        "url": "https://polymarket.com/event/cs2-vp-inox-2026-06-12",
-        "liquidity": "14641.3938",
-        "volume": "14284.727052000004",
-        "edgeTeamA": -0.03603707767176434,
-        "edgeTeamB": 0.03603707767176434,
-        "edgePick": 0.03603707767176434,
-        "disagreement": false
-      },
-      "history": null
+      "id": "pandascore-1526528",
+      "pandaScoreId": 1526528,
+      "startTime": null,
+      "status": "canceled",
+      "match": "BetBoom vs EYEBALLERS",
+      "reason": "status:canceled"
     },
+    {
+      "id": "pandascore-1526527",
+      "pandaScoreId": 1526527,
+      "startTime": null,
+      "status": "canceled",
+      "match": "B8 vs Ninjas in Pyjamas",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526526",
+      "pandaScoreId": 1526526,
+      "startTime": null,
+      "status": "canceled",
+      "match": "9z vs Nemesis",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526525",
+      "pandaScoreId": 1526525,
+      "startTime": null,
+      "status": "canceled",
+      "match": "3DMAX vs Alliance",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526524",
+      "pandaScoreId": 1526524,
+      "startTime": null,
+      "status": "canceled",
+      "match": "Monte vs MIBR",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526523",
+      "pandaScoreId": 1526523,
+      "startTime": null,
+      "status": "canceled",
+      "match": "PARIVISION vs BIG",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526522",
+      "pandaScoreId": 1526522,
+      "startTime": null,
+      "status": "canceled",
+      "match": "Legacy vs M80",
+      "reason": "status:canceled"
+    },
+    {
+      "id": "pandascore-1526521",
+      "pandaScoreId": 1526521,
+      "startTime": null,
+      "status": "canceled",
+      "match": "FaZe vs SINNERS",
+      "reason": "status:canceled"
+    }
+  ],
+  "predictions": [
     {
       "id": "pandascore-1513131",
       "match": {
         "id": "pandascore-1513131",
         "pandaScoreId": 1513131,
-        "startTime": "2026-06-12T11:30:00Z",
+        "startTime": "2026-06-12T11:30:59Z",
         "event": "IEM - Cologne Major - Stage 3",
         "format": "bo3",
         "environment": "LAN",
-        "status": "not_started"
+        "status": "running"
       },
       "teamA": {
         "id": "12467",
@@ -502,9 +202,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": 0.047157648452979206
+          "marketEdge": 0.057157648452979215
         },
         {
           "modelId": "champion",
@@ -539,9 +239,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": -0.019228675893043223
+          "marketEdge": -0.009228675893043214
         },
         {
           "modelId": "ensemble",
@@ -576,9 +276,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": 0.009226636700326196
+          "marketEdge": 0.019226636700326205
         },
         {
           "modelId": "ensemble25",
@@ -613,9 +313,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": 0.08318901802797696
+          "marketEdge": 0.09318901802797697
         },
         {
           "modelId": "archive",
@@ -651,9 +351,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": 0.025432354765204335
+          "marketEdge": 0.035432354765204344
         },
         {
           "modelId": "oldprog",
@@ -689,9 +389,9 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
-          "marketEdge": 0.07559657110855933
+          "marketEdge": 0.08559657110855934
         },
         {
           "modelId": "meta",
@@ -725,7 +425,7 @@
             "missing": []
           },
           "marketFavorite": "PARIVISION",
-          "marketProbability": 0.555,
+          "marketProbability": 0.545,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -768,30 +468,35 @@
       "market": {
         "favorite": "PARIVISION",
         "underdog": "Monte",
-        "teamAProbability": 0.555,
-        "teamBProbability": 0.445,
-        "favoriteProbability": 0.555,
+        "teamAProbability": 0.545,
+        "teamBProbability": 0.455,
+        "favoriteProbability": 0.545,
         "question": "Counter-Strike: PARIVISION vs Monte (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-prv-mnte-2026-06-12",
-        "liquidity": "45579.7885",
-        "volume": "26831.690779999994",
-        "edgeTeamA": 0.047157648452979206,
-        "edgeTeamB": -0.04715764845297926,
-        "edgePick": 0.047157648452979206,
+        "liquidity": "222513.9316",
+        "volume": "1108527.8060389988",
+        "edgeTeamA": 0.057157648452979215,
+        "edgeTeamB": -0.05715764845297927,
+        "edgePick": 0.057157648452979215,
         "disagreement": false
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-parivision-monte",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1513130",
       "match": {
         "id": "pandascore-1513130",
         "pandaScoreId": 1513130,
-        "startTime": "2026-06-12T11:30:00Z",
+        "startTime": "2026-06-12T12:11:48Z",
         "event": "IEM - Cologne Major - Stage 3",
         "format": "bo3",
         "environment": "LAN",
-        "status": "not_started"
+        "status": "running"
       },
       "teamA": {
         "id": "13286",
@@ -867,10 +572,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
-          "marketEdge": 0.05554263918491453
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
+          "marketEdge": 0.19554263918491455
         },
         {
           "modelId": "champion",
@@ -904,10 +609,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
-          "marketEdge": -0.026152463484174993
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
+          "marketEdge": 0.11384753651582502
         },
         {
           "modelId": "ensemble",
@@ -941,10 +646,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.465,
-          "marketDisagreement": true,
-          "marketEdge": 0.04460191580949496
+          "marketFavorite": "G2",
+          "marketProbability": 0.605,
+          "marketDisagreement": false,
+          "marketEdge": -0.095398084190505
         },
         {
           "modelId": "ensemble25",
@@ -978,10 +683,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
-          "marketEdge": 0.037248717331766934
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
+          "marketEdge": 0.17724871733176695
         },
         {
           "modelId": "archive",
@@ -1016,10 +721,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
-          "marketEdge": -0.026868051705118856
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
+          "marketEdge": 0.11313194829488116
         },
         {
           "modelId": "oldprog",
@@ -1054,10 +759,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
-          "marketEdge": 0.06580150225709003
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
+          "marketEdge": 0.20580150225709004
         },
         {
           "modelId": "meta",
@@ -1090,9 +795,9 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": "FUT",
-          "marketProbability": 0.535,
-          "marketDisagreement": false,
+          "marketFavorite": "G2",
+          "marketProbability": 0.395,
+          "marketDisagreement": true,
           "marketEdge": null,
           "meta": {
             "features": {
@@ -1132,28 +837,33 @@
         }
       ],
       "market": {
-        "favorite": "FUT",
-        "underdog": "G2",
-        "teamAProbability": 0.535,
-        "teamBProbability": 0.465,
-        "favoriteProbability": 0.535,
+        "favorite": "G2",
+        "underdog": "FUT",
+        "teamAProbability": 0.395,
+        "teamBProbability": 0.605,
+        "favoriteProbability": 0.605,
         "question": "Counter-Strike: FUT Esports vs G2 (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-fut-g2-2026-06-12",
-        "liquidity": "29984.4733",
-        "volume": "13984.995056",
-        "edgeTeamA": 0.05554263918491453,
-        "edgeTeamB": -0.05554263918491459,
-        "edgePick": 0.05554263918491453,
-        "disagreement": false
+        "liquidity": "74851.665",
+        "volume": "1192399.529439999",
+        "edgeTeamA": 0.19554263918491455,
+        "edgeTeamB": -0.19554263918491455,
+        "edgePick": 0.19554263918491455,
+        "disagreement": true
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-fut-g2",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1513133",
       "match": {
         "id": "pandascore-1513133",
         "pandaScoreId": 1513133,
-        "startTime": "2026-06-12T14:00:00Z",
+        "startTime": "2026-06-12T14:30:00Z",
         "event": "IEM - Cologne Major - Stage 3",
         "format": "bo3",
         "environment": "LAN",
@@ -1505,21 +1215,26 @@
         "favoriteProbability": 0.675,
         "question": "Counter-Strike: Team Falcons vs BetBoom Team (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-fal2-bb3-2026-06-12",
-        "liquidity": "55564.0702",
-        "volume": "25931.469387999943",
+        "liquidity": "164573.9875",
+        "volume": "201525.66796600082",
         "edgeTeamA": -0.07791442060868337,
         "edgeTeamB": 0.07791442060868331,
         "edgePick": -0.07791442060868337,
         "disagreement": false
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-falcons-betboom",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1513132",
       "match": {
         "id": "pandascore-1513132",
         "pandaScoreId": 1513132,
-        "startTime": "2026-06-12T14:00:00Z",
+        "startTime": "2026-06-12T14:30:00Z",
         "event": "IEM - Cologne Major - Stage 3",
         "format": "bo3",
         "environment": "LAN",
@@ -1871,14 +1586,19 @@
         "favoriteProbability": 0.695,
         "question": "Counter-Strike: Natus Vincere vs Legacy (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-navi-lgc-2026-06-12",
-        "liquidity": "40005.8398",
-        "volume": "23183.541073",
+        "liquidity": "170706.448",
+        "volume": "329069.0287629989",
         "edgeTeamA": -0.13397322142787482,
         "edgeTeamB": 0.13397322142787488,
         "edgePick": -0.13397322142787482,
         "disagreement": false
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-natus-vincere-legacy",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1513135",
@@ -2237,14 +1957,19 @@
         "favoriteProbability": 0.905,
         "question": "Counter-Strike: Vitality vs 9z (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-vit-9z-2026-06-12",
-        "liquidity": "56649.9867",
-        "volume": "2339.6957790000006",
+        "liquidity": "209526.9628",
+        "volume": "100447.73769199998",
         "edgeTeamA": -0.2678557644493419,
         "edgeTeamB": 0.2678557644493419,
         "edgePick": -0.2678557644493419,
         "disagreement": false
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-vitality-9z",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1513134",
@@ -2332,9 +2057,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.145,
+          "marketProbability": 0.135,
           "marketDisagreement": true,
-          "marketEdge": 0.36222949386124315
+          "marketEdge": 0.37222949386124315
         },
         {
           "modelId": "champion",
@@ -2369,9 +2094,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.855,
+          "marketProbability": 0.865,
           "marketDisagreement": false,
-          "marketEdge": -0.23350822390513004
+          "marketEdge": -0.24350822390513005
         },
         {
           "modelId": "ensemble",
@@ -2406,9 +2131,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.855,
+          "marketProbability": 0.865,
           "marketDisagreement": false,
-          "marketEdge": -0.24552974339242428
+          "marketEdge": -0.2555297433924243
         },
         {
           "modelId": "ensemble25",
@@ -2443,9 +2168,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.855,
+          "marketProbability": 0.865,
           "marketDisagreement": false,
-          "marketEdge": -0.1744245682556116
+          "marketEdge": -0.1844245682556116
         },
         {
           "modelId": "archive",
@@ -2481,9 +2206,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.855,
+          "marketProbability": 0.865,
           "marketDisagreement": false,
-          "marketEdge": -0.2534372163294635
+          "marketEdge": -0.2634372163294635
         },
         {
           "modelId": "oldprog",
@@ -2519,9 +2244,9 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.855,
+          "marketProbability": 0.865,
           "marketDisagreement": false,
-          "marketEdge": -0.33399041869574786
+          "marketEdge": -0.34399041869574787
         },
         {
           "modelId": "meta",
@@ -2555,7 +2280,7 @@
             "missing": []
           },
           "marketFavorite": "Spirit",
-          "marketProbability": 0.145,
+          "marketProbability": 0.135,
           "marketDisagreement": true,
           "marketEdge": null,
           "meta": {
@@ -2598,19 +2323,24 @@
       "market": {
         "favorite": "Spirit",
         "underdog": "Aurora",
-        "teamAProbability": 0.145,
-        "teamBProbability": 0.855,
-        "favoriteProbability": 0.855,
+        "teamAProbability": 0.135,
+        "teamBProbability": 0.865,
+        "favoriteProbability": 0.865,
         "question": "Counter-Strike: Aurora Gaming vs Spirit (BO3) - IEM Cologne Major Stage 3",
         "url": "https://polymarket.com/event/cs2-aur1-ts7-2026-06-12",
-        "liquidity": "67011.9637",
-        "volume": "6600.4465470000005",
-        "edgeTeamA": 0.36222949386124315,
-        "edgeTeamB": -0.36222949386124315,
-        "edgePick": 0.36222949386124315,
+        "liquidity": "166202.4302",
+        "volume": "111538.04379300012",
+        "edgeTeamA": 0.37222949386124315,
+        "edgeTeamB": -0.37222949386124315,
+        "edgePick": 0.37222949386124315,
         "disagreement": true
       },
-      "history": null
+      "history": {
+        "id": "2026-06-12-aurora-spirit",
+        "status": "pending",
+        "resultWinner": null,
+        "probabilityForWinner": null
+      }
     },
     {
       "id": "pandascore-1533027",
@@ -3050,9 +2780,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
-          "marketEdge": -0.0942337943163758
+          "marketEdge": -0.06423379431637577
         },
         {
           "modelId": "champion",
@@ -3087,9 +2817,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.335,
+          "marketProbability": 0.365,
           "marketDisagreement": true,
-          "marketEdge": 0.20147665789956276
+          "marketEdge": 0.1714766578995628
         },
         {
           "modelId": "ensemble",
@@ -3124,9 +2854,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
-          "marketEdge": -0.14886315897497993
+          "marketEdge": -0.1188631589749799
         },
         {
           "modelId": "ensemble25",
@@ -3161,9 +2891,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
-          "marketEdge": -0.11912188939017943
+          "marketEdge": -0.0891218893901794
         },
         {
           "modelId": "archive",
@@ -3199,9 +2929,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
-          "marketEdge": -0.14069024039510836
+          "marketEdge": -0.11069024039510833
         },
         {
           "modelId": "oldprog",
@@ -3237,9 +2967,9 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
-          "marketEdge": -0.0851937297300529
+          "marketEdge": -0.055193729730052876
         },
         {
           "modelId": "meta",
@@ -3273,7 +3003,7 @@
             "missing": []
           },
           "marketFavorite": "FaZe",
-          "marketProbability": 0.665,
+          "marketProbability": 0.635,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -3316,16 +3046,16 @@
       "market": {
         "favorite": "FaZe",
         "underdog": "TYLOO",
-        "teamAProbability": 0.665,
-        "teamBProbability": 0.335,
-        "favoriteProbability": 0.665,
+        "teamAProbability": 0.635,
+        "teamBProbability": 0.365,
+        "favoriteProbability": 0.635,
         "question": "Counter-Strike: FaZe vs TYLOO (BO1) - XSE Pro League Group Stage",
         "url": "https://polymarket.com/event/cs2-faze-tyloo-2026-07-01",
-        "liquidity": "2777.4749",
+        "liquidity": "2976.7437",
         "volume": "9.028395",
-        "edgeTeamA": -0.0942337943163758,
-        "edgeTeamB": 0.09423379431637574,
-        "edgePick": -0.0942337943163758,
+        "edgeTeamA": -0.06423379431637577,
+        "edgeTeamB": 0.06423379431637577,
+        "edgePick": -0.06423379431637577,
         "disagreement": false
       },
       "history": null
@@ -3415,10 +3145,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.06971918606246041
         },
         {
           "modelId": "champion",
@@ -3452,10 +3182,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
-          "marketDisagreement": false,
-          "marketEdge": null
+          "marketFavorite": "Monte",
+          "marketProbability": 0.45,
+          "marketDisagreement": true,
+          "marketEdge": 0.0630599468568977
         },
         {
           "modelId": "ensemble",
@@ -3489,10 +3219,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.01467976223311973
         },
         {
           "modelId": "ensemble25",
@@ -3526,10 +3256,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.08428608675533655
         },
         {
           "modelId": "archive",
@@ -3564,10 +3294,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.00015202787250823135
         },
         {
           "modelId": "oldprog",
@@ -3602,10 +3332,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.10631847396173422
         },
         {
           "modelId": "meta",
@@ -3638,8 +3368,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "Monte",
+          "marketProbability": 0.55,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -3679,7 +3409,21 @@
           }
         }
       ],
-      "market": null,
+      "market": {
+        "favorite": "Monte",
+        "underdog": "Nemesis",
+        "teamAProbability": 0.55,
+        "teamBProbability": 0.45,
+        "favoriteProbability": 0.55,
+        "question": "Counter-Strike: Monte vs Team Nemesis (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-mnte-nem-2026-07-01",
+        "liquidity": "2638.6208",
+        "volume": null,
+        "edgeTeamA": 0.06971918606246041,
+        "edgeTeamB": -0.06971918606246047,
+        "edgePick": 0.06971918606246041,
+        "disagreement": false
+      },
       "history": null
     },
     {
@@ -3767,10 +3511,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.024006751693113504
         },
         {
           "modelId": "champion",
@@ -3804,10 +3548,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.009570553481778266
         },
         {
           "modelId": "ensemble",
@@ -3841,10 +3585,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.05976468824861747
         },
         {
           "modelId": "ensemble25",
@@ -3878,10 +3622,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.015429474614261918
         },
         {
           "modelId": "archive",
@@ -3916,10 +3660,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.04113947020750042
         },
         {
           "modelId": "oldprog",
@@ -3954,10 +3698,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.0045193333242280476
         },
         {
           "modelId": "meta",
@@ -3990,8 +3734,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "9z",
+          "marketProbability": 0.63,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -4031,7 +3775,21 @@
           }
         }
       ],
-      "market": null,
+      "market": {
+        "favorite": "9z",
+        "underdog": "EYEBALLERS",
+        "teamAProbability": 0.63,
+        "teamBProbability": 0.37,
+        "favoriteProbability": 0.63,
+        "question": "Counter-Strike: 9z vs EYEBALLERS (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-9z-eye-2026-07-01",
+        "liquidity": "3714.5832",
+        "volume": "107.59",
+        "edgeTeamA": -0.024006751693113504,
+        "edgeTeamB": 0.024006751693113504,
+        "edgePick": -0.024006751693113504,
+        "disagreement": false
+      },
       "history": null
     },
     {
@@ -4119,10 +3877,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.07952308374393324
         },
         {
           "modelId": "champion",
@@ -4156,10 +3914,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.06284412754306612
         },
         {
           "modelId": "ensemble",
@@ -4193,10 +3951,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.03779534187075384
         },
         {
           "modelId": "ensemble25",
@@ -4230,10 +3988,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.01619998380331278
         },
         {
           "modelId": "archive",
@@ -4268,10 +4026,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.03369573327479325
         },
         {
           "modelId": "oldprog",
@@ -4306,10 +4064,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.09080910612663051
         },
         {
           "modelId": "meta",
@@ -4342,8 +4100,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "BetBoom",
+          "marketProbability": 0.625,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -4383,7 +4141,21 @@
           }
         }
       ],
-      "market": null,
+      "market": {
+        "favorite": "BetBoom",
+        "underdog": "SINNERS",
+        "teamAProbability": 0.625,
+        "teamBProbability": 0.375,
+        "favoriteProbability": 0.625,
+        "question": "Counter-Strike: BetBoom Team vs Sinners (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-bb3-sin2-2026-07-01",
+        "liquidity": "3745.4033",
+        "volume": null,
+        "edgeTeamA": 0.07952308374393324,
+        "edgeTeamB": -0.07952308374393324,
+        "edgePick": 0.07952308374393324,
+        "disagreement": false
+      },
       "history": null
     },
     {
@@ -4471,10 +4243,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.037033308691869715
         },
         {
           "modelId": "champion",
@@ -4508,10 +4280,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.054041742276636384
         },
         {
           "modelId": "ensemble",
@@ -4545,10 +4317,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.02073170117412948
         },
         {
           "modelId": "ensemble25",
@@ -4582,10 +4354,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.0009573074995313791
         },
         {
           "modelId": "archive",
@@ -4620,10 +4392,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": -0.00559092012632445
         },
         {
           "modelId": "oldprog",
@@ -4658,10 +4430,10 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
-          "marketEdge": null
+          "marketEdge": 0.08275415022759469
         },
         {
           "modelId": "meta",
@@ -4694,8 +4466,8 @@
             "ratio": 1,
             "missing": []
           },
-          "marketFavorite": null,
-          "marketProbability": null,
+          "marketFavorite": "PARIVISION",
+          "marketProbability": 0.615,
           "marketDisagreement": false,
           "marketEdge": null,
           "meta": {
@@ -4735,7 +4507,21 @@
           }
         }
       ],
-      "market": null,
+      "market": {
+        "favorite": "PARIVISION",
+        "underdog": "Alliance",
+        "teamAProbability": 0.615,
+        "teamBProbability": 0.385,
+        "favoriteProbability": 0.615,
+        "question": "Counter-Strike: PARIVISION vs Alliance (BO1) - XSE Pro League Group Stage",
+        "url": "https://polymarket.com/event/cs2-prv-all-2026-07-01",
+        "liquidity": "3492.5395",
+        "volume": null,
+        "edgeTeamA": 0.037033308691869715,
+        "edgeTeamB": -0.037033308691869715,
+        "edgePick": 0.037033308691869715,
+        "disagreement": false
+      },
       "history": null
     },
     {

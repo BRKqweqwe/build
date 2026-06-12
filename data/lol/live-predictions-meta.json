@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T11:45:31.744Z",
+  "generatedAt": "2026-06-12T13:40:03.344Z",
   "source": {
     "model": "static/data/trained-model-meta-picker.json",
     "predictions": {
@@ -12,124 +12,13 @@
     }
   },
   "summary": {
-    "total": 11,
-    "high": 10,
+    "total": 10,
+    "high": 9,
     "medium": 0,
     "low": 1,
     "skipped": 0
   },
   "predictions": [
-    {
-      "matchId": "lolesports-115548128963037575",
-      "match": {
-        "id": "lolesports-115548128963037575",
-        "lolEsportsId": "115548128963037575",
-        "source": "lolesports",
-        "startTime": "2026-06-12T08:00:00Z",
-        "status": "inProgress",
-        "league": "LCK",
-        "blockName": "Knockouts",
-        "bestOf": 5,
-        "teamA": "Hanwha Life Esports",
-        "teamB": "T1",
-        "teamAId": "HLE",
-        "teamBId": "T1",
-        "teamAScore": 2,
-        "teamBScore": 1,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "meta-picker",
-        "path": "static/data/trained-model-meta-picker.json",
-        "label": "MetaPicker"
-      },
-      "prediction": {
-        "favorite": "Hanwha Life Esports",
-        "probability": 0.583275,
-        "teamAProbability": 0.583275,
-        "teamBProbability": 0.416725,
-        "margin": 0.16655
-      },
-      "coverage": {
-        "teamAGames": 679,
-        "teamBGames": 532,
-        "level": "high"
-      },
-      "meta": {
-        "features": {
-          "championProbA": 0.645415,
-          "conservativeProbA": 0.645415,
-          "balancedProbA": 0.637654,
-          "accuracyProbA": 0.667881,
-          "recencyProbA": 0.696472,
-          "championConfidence": 0.645415,
-          "conservativeConfidence": 0.645415,
-          "balancedConfidence": 0.637654,
-          "accuracyConfidence": 0.667881,
-          "recencyConfidence": 0.696472,
-          "meanProbA": 0.6585674,
-          "medianProbA": 0.645415,
-          "minProbA": 0.637654,
-          "maxProbA": 0.696472,
-          "stdProbA": 0.021479494394421844,
-          "probRange": 0.058817999999999926,
-          "meanConfidence": 0.6585674,
-          "maxConfidence": 0.696472,
-          "minConfidence": 0.637654,
-          "favoriteAgreement": 5,
-          "disagreementCount": 0,
-          "majorityPickA": 1,
-          "championVsAccuracyDisagree": 0,
-          "championVsRecencyDisagree": 0,
-          "isBo1": 0,
-          "isBo3": 0,
-          "isBo5": 1,
-          "bestOf": 5,
-          "isPlayoffs": 0,
-          "isLan": 0,
-          "tournamentTier": 3,
-          "isInternationalTier": 0,
-          "isMajorTier": 1,
-          "isMinorTier": 0,
-          "coverageHigh": 1,
-          "coverageMedium": 0,
-          "coverageLow": 0
-        },
-        "sources": {
-          "champion": {
-            "modelId": "champion-match-ensemble",
-            "favorite": "Hanwha Life Esports",
-            "probability": 0.645415,
-            "teamAProbability": 0.645415
-          },
-          "conservative": {
-            "modelId": "conservative-coverage",
-            "favorite": "Hanwha Life Esports",
-            "probability": 0.645415,
-            "teamAProbability": 0.645415
-          },
-          "balanced": {
-            "modelId": "balanced-ensemble",
-            "favorite": "Hanwha Life Esports",
-            "probability": 0.637654,
-            "teamAProbability": 0.637654
-          },
-          "accuracy": {
-            "modelId": "accuracy-ensemble",
-            "favorite": "Hanwha Life Esports",
-            "probability": 0.667881,
-            "teamAProbability": 0.667881
-          },
-          "recency": {
-            "modelId": "recency-accuracy",
-            "favorite": "Hanwha Life Esports",
-            "probability": 0.696472,
-            "teamAProbability": 0.696472
-          }
-        }
-      }
-    },
     {
       "matchId": "lolesports-116520394663535894",
       "match": {
@@ -145,8 +34,8 @@
         "teamB": "Saigon Zen Esport",
         "teamAId": "DINO",
         "teamBId": "ZEN",
-        "teamAScore": 1,
-        "teamBScore": 0,
+        "teamAScore": 2,
+        "teamBScore": 2,
         "winner": null,
         "winnerTeamId": null
       },

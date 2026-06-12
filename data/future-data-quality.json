@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T22:53:21.556Z",
+  "generatedAt": "2026-06-12T13:40:00.220Z",
   "source": {
     "dataset": "static/data/hltv-dataset.json",
     "livePredictions": "static/data/live-predictions.json",
@@ -8,16 +8,14 @@
     "maxRank": 100
   },
   "summary": {
-    "matches": 18,
-    "high": 18,
+    "matches": 14,
+    "high": 14,
     "medium": 0,
     "low": 0,
-    "withAnyGaps": 4,
-    "impactedTeams": 4,
+    "withAnyGaps": 2,
+    "impactedTeams": 1,
     "gapCounts": {
-      "playerAdr": 2,
-      "playerKast": 4,
-      "recentForm": 2
+      "playerKast": 2
     }
   },
   "priorityTeams": [
@@ -33,332 +31,14 @@
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
       ]
-    },
-    {
-      "id": "12889",
-      "name": "G2 Ares",
-      "rank": 88,
-      "matches": 1,
-      "worstScore": 0.8733,
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "5378",
-      "name": "Virtus.pro",
-      "rank": 40,
-      "matches": 1,
-      "worstScore": 0.91,
-      "gaps": [
-        "playerAdr",
-        "playerKast"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "13814",
-      "name": "INOX Division",
-      "rank": 75,
-      "matches": 1,
-      "worstScore": 0.9333,
-      "gaps": [
-        "recentForm"
-      ],
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true"
-      ]
     }
   ],
   "matches": [
     {
-      "id": "pandascore-1519575",
-      "pandaScoreId": 1519575,
-      "startTime": "2026-06-12T08:00:00Z",
-      "status": "not_started",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "13617",
-        "name": "ex-RUBY",
-        "rank": 75,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "12889",
-        "name": "G2 Ares",
-        "rank": 88,
-        "score": 0.8733,
-        "label": "high",
-        "gaps": [
-          "playerAdr",
-          "playerKast",
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 3,
-          "playerKast": 3,
-          "maps": 7,
-          "recentMatches": 4,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9366,
-      "label": "high",
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "livePrediction": {
-        "pick": "ex-RUBY",
-        "probability": 0.5167,
-        "models": 7,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "G2 Ares",
-        "probability": 0.5192,
-        "agreement": "4/7"
-      },
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
-      "id": "pandascore-1513129",
-      "pandaScoreId": 1513129,
-      "startTime": "2026-06-12T09:00:00Z",
-      "status": "not_started",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "teamA": {
-        "id": "6248",
-        "name": "The MongolZ",
-        "rank": 7,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "11241",
-        "name": "B8",
-        "rank": 16,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 8,
-          "bo3Linked": true
-        }
-      },
-      "score": 1,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "The MongolZ",
-        "probability": 0.6068,
-        "models": 7,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "lean",
-        "pick": "The MongolZ",
-        "probability": 0.5924,
-        "agreement": "7/7"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1513128",
-      "pandaScoreId": 1513128,
-      "startTime": "2026-06-12T09:00:00Z",
-      "status": "not_started",
-      "event": "IEM - Cologne Major - Stage 3",
-      "format": "bo3",
-      "environment": "LAN",
-      "teamA": {
-        "id": "8297",
-        "name": "FURIA",
-        "rank": 11,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "4494",
-        "name": "MOUZ",
-        "rank": 6,
-        "score": 1,
-        "label": "high",
-        "gaps": [],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 6,
-          "bo3Linked": true
-        }
-      },
-      "score": 1,
-      "label": "high",
-      "gaps": [],
-      "livePrediction": {
-        "pick": "FURIA",
-        "probability": 0.5382,
-        "models": 7,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "MOUZ",
-        "probability": 0.5174,
-        "agreement": "4/7"
-      },
-      "recommendedCommands": []
-    },
-    {
-      "id": "pandascore-1519576",
-      "pandaScoreId": 1519576,
-      "startTime": "2026-06-12T11:00:00Z",
-      "status": "not_started",
-      "event": "CCT Europe - Series #4 - Group Stage",
-      "format": "bo3",
-      "environment": "Online",
-      "teamA": {
-        "id": "5378",
-        "name": "Virtus.pro",
-        "rank": 40,
-        "score": 0.91,
-        "label": "high",
-        "gaps": [
-          "playerAdr",
-          "playerKast"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 4,
-          "playerKast": 0,
-          "maps": 7,
-          "recentMatches": 7,
-          "bo3Linked": true
-        }
-      },
-      "teamB": {
-        "id": "13814",
-        "name": "INOX Division",
-        "rank": 75,
-        "score": 0.9333,
-        "label": "high",
-        "gaps": [
-          "recentForm"
-        ],
-        "metrics": {
-          "hltvRating": true,
-          "players": 5,
-          "playerIds": 5,
-          "playerRatings": 5,
-          "playerAdr": 5,
-          "playerKast": 5,
-          "maps": 7,
-          "recentMatches": 4,
-          "bo3Linked": true
-        }
-      },
-      "score": 0.9217,
-      "label": "high",
-      "gaps": [
-        "playerAdr",
-        "playerKast",
-        "recentForm"
-      ],
-      "livePrediction": {
-        "pick": "INOX Division",
-        "probability": 0.5461,
-        "models": 7,
-        "withMarket": true
-      },
-      "decision": {
-        "tier": "skip",
-        "pick": "Virtus.pro",
-        "probability": 0.5279,
-        "agreement": "5/7"
-      },
-      "recommendedCommands": [
-        "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
-        "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
-      ]
-    },
-    {
       "id": "pandascore-1513131",
       "pandaScoreId": 1513131,
-      "startTime": "2026-06-12T11:30:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-12T11:30:59Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -405,23 +85,23 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.6021,
+        "probability": 0.6022,
         "models": 7,
         "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.5966,
-        "agreement": "7/7"
+        "probability": 0.5842,
+        "agreement": "5/5"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1513130",
       "pandaScoreId": 1513130,
-      "startTime": "2026-06-12T11:30:00Z",
-      "status": "not_started",
+      "startTime": "2026-06-12T12:11:48Z",
+      "status": "running",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
       "environment": "LAN",
@@ -475,15 +155,15 @@
       "decision": {
         "tier": "skip",
         "pick": "FUT",
-        "probability": 0.5485,
-        "agreement": "6/7"
+        "probability": 0.534,
+        "agreement": "4/5"
       },
       "recommendedCommands": []
     },
     {
       "id": "pandascore-1513133",
       "pandaScoreId": 1513133,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
@@ -542,8 +222,8 @@
       "decision": {
         "tier": "lean",
         "pick": "Falcons",
-        "probability": 0.6287,
-        "agreement": "7/7"
+        "probability": 0.6226,
+        "agreement": "5/5"
       },
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
@@ -552,7 +232,7 @@
     {
       "id": "pandascore-1513132",
       "pandaScoreId": 1513132,
-      "startTime": "2026-06-12T14:00:00Z",
+      "startTime": "2026-06-12T14:30:00Z",
       "status": "not_started",
       "event": "IEM - Cologne Major - Stage 3",
       "format": "bo3",
@@ -605,10 +285,10 @@
         "withMarket": true
       },
       "decision": {
-        "tier": "lean",
+        "tier": "skip",
         "pick": "Natus Vincere",
-        "probability": 0.5599,
-        "agreement": "7/7"
+        "probability": 0.5457,
+        "agreement": "5/5"
       },
       "recommendedCommands": []
     },
@@ -670,8 +350,8 @@
       "decision": {
         "tier": "strong",
         "pick": "Vitality",
-        "probability": 0.6734,
-        "agreement": "7/7"
+        "probability": 0.67,
+        "agreement": "5/5"
       },
       "recommendedCommands": []
     },
@@ -733,8 +413,8 @@
       "decision": {
         "tier": "lean",
         "pick": "Spirit",
-        "probability": 0.555,
-        "agreement": "5/7"
+        "probability": 0.6012,
+        "agreement": "4/5"
       },
       "recommendedCommands": []
     },
@@ -789,15 +469,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "3DMAX",
-        "probability": 0.6063,
+        "probability": 0.6127,
         "models": 7,
         "withMarket": false
       },
       "decision": {
         "tier": "skip",
         "pick": "3DMAX",
-        "probability": 0.5332,
-        "agreement": "5/7"
+        "probability": 0.5177,
+        "agreement": "3/5"
       },
       "recommendedCommands": []
     },
@@ -852,15 +532,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "FaZe",
-        "probability": 0.5641,
+        "probability": 0.5708,
         "models": 7,
         "withMarket": true
       },
       "decision": {
-        "tier": "lean",
+        "tier": "skip",
         "pick": "FaZe",
-        "probability": 0.5513,
-        "agreement": "6/7"
+        "probability": 0.5241,
+        "agreement": "4/5"
       },
       "recommendedCommands": []
     },
@@ -915,15 +595,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "Monte",
-        "probability": 0.6133,
+        "probability": 0.6197,
         "models": 7,
-        "withMarket": false
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "Monte",
-        "probability": 0.5966,
-        "agreement": "6/7"
+        "probability": 0.5652,
+        "agreement": "4/5"
       },
       "recommendedCommands": []
     },
@@ -978,15 +658,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "9z",
-        "probability": 0.5995,
+        "probability": 0.606,
         "models": 7,
-        "withMarket": false
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "9z",
-        "probability": 0.6078,
-        "agreement": "7/7"
+        "probability": 0.61,
+        "agreement": "5/5"
       },
       "recommendedCommands": []
     },
@@ -1045,15 +725,15 @@
       ],
       "livePrediction": {
         "pick": "BetBoom",
-        "probability": 0.6989,
+        "probability": 0.7045,
         "models": 7,
-        "withMarket": false
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "BetBoom",
-        "probability": 0.6483,
-        "agreement": "7/7"
+        "probability": 0.6394,
+        "agreement": "5/5"
       },
       "recommendedCommands": [
         "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true"
@@ -1110,15 +790,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "PARIVISION",
-        "probability": 0.6459,
+        "probability": 0.652,
         "models": 7,
-        "withMarket": false
+        "withMarket": true
       },
       "decision": {
         "tier": "lean",
         "pick": "PARIVISION",
-        "probability": 0.6195,
-        "agreement": "7/7"
+        "probability": 0.6061,
+        "agreement": "5/5"
       },
       "recommendedCommands": []
     },
@@ -1173,15 +853,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "B8",
-        "probability": 0.614,
+        "probability": 0.6203,
         "models": 7,
         "withMarket": false
       },
       "decision": {
-        "tier": "lean",
+        "tier": "skip",
         "pick": "B8",
-        "probability": 0.5513,
-        "agreement": "6/7"
+        "probability": 0.52,
+        "agreement": "3/5"
       },
       "recommendedCommands": []
     },
@@ -1236,15 +916,15 @@
       "gaps": [],
       "livePrediction": {
         "pick": "BIG",
-        "probability": 0.6254,
+        "probability": 0.6317,
         "models": 7,
         "withMarket": false
       },
       "decision": {
-        "tier": "lean",
+        "tier": "skip",
         "pick": "BIG",
-        "probability": 0.563,
-        "agreement": "5/7"
+        "probability": 0.5542,
+        "agreement": "3/5"
       },
       "recommendedCommands": []
     }
@@ -1252,7 +932,6 @@
   "recommendedPipeline": [
     "pnpm collect:pandascore:fixtures -- --pages=5 --per-page=100 --max-rank=100 --max-matches=100",
     "pnpm collect:csskill:player-profiles -- --max-teams=40 --max-players=160 --refresh=true",
-    "pnpm collect:bo3 -- --max-rank=100 --max-teams=100 --refresh=true",
     "pnpm build:live-predictions -- --max-rank=100",
     "pnpm build:live-decisions",
     "pnpm build:future-data-quality"

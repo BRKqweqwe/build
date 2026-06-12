@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T11:39:16.313Z",
+  "generatedAt": "2026-06-12T13:39:59.066Z",
   "source": {
     "results": "static/data/model-results.json",
-    "rows": 28,
+    "rows": 34,
     "schemaVersion": 2,
-    "updatedAt": "2026-06-11T22:53:19.708Z"
+    "updatedAt": "2026-06-12T13:39:58.500Z"
   },
   "settings": {
     "primaryModelId": "weighted",
@@ -30,51 +30,51 @@
   },
   "overall": {
     "matches": {
-      "total": 28,
+      "total": 34,
       "resolved": 28,
-      "pending": 0,
+      "pending": 6,
       "hits": 19,
       "misses": 9,
       "accuracy": 0.678571
     },
     "modelPredictions": {
-      "total": 106,
+      "total": 142,
       "resolved": 106,
       "hits": 68,
       "misses": 38,
-      "pending": 0,
+      "pending": 36,
       "accuracy": 0.641509,
       "logLoss": 0.654329,
       "brier": 0.230898,
       "avgProbabilityForWinner": 0.525431,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 95,
+        "covered": 119,
         "resolved": 95,
         "disagreements": 16,
         "disagreementAccuracy": 0.1875,
         "agreementAccuracy": 0.734177,
-        "avgEdge": -0.029417
+        "avgEdge": -0.064736
       }
     },
     "consensus": {
-      "total": 18,
+      "total": 24,
       "resolved": 18,
       "hits": 12,
       "misses": 6,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.666667,
       "logLoss": 0.651176,
       "brier": 0.229338,
       "avgProbabilityForWinner": 0.524751,
       "avgFeatureCoverage": null,
       "market": {
-        "covered": 17,
+        "covered": 21,
         "resolved": 17,
         "disagreements": 3,
         "disagreementAccuracy": 0.333333,
         "agreementAccuracy": 0.785714,
-        "avgEdge": -0.112722
+        "avgEdge": -0.124609
       }
     }
   },
@@ -339,53 +339,53 @@
     },
     {
       "modelId": "archive",
-      "total": 15,
+      "total": 21,
       "resolved": 15,
       "hits": 11,
       "misses": 4,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.733333,
       "logLoss": 0.65897,
       "brier": 0.233144,
       "avgProbabilityForWinner": 0.522762,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 14,
+        "covered": 18,
         "resolved": 14,
         "disagreements": 0,
         "disagreementAccuracy": null,
         "agreementAccuracy": 0.785714,
-        "avgEdge": -0.138407
+        "avgEdge": -0.150937
       },
       "byConfidence": [
         {
           "key": "50-55",
-          "total": 8,
+          "total": 10,
           "resolved": 8,
           "hits": 7,
           "misses": 1,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 0.875,
           "logLoss": 0.669321,
           "brier": 0.238099,
           "avgProbabilityForWinner": 0.512455,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 7,
+            "covered": 8,
             "resolved": 7,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": -0.189836
+            "avgEdge": -0.185875
           }
         },
         {
           "key": "55-60",
-          "total": 2,
+          "total": 3,
           "resolved": 2,
           "hits": 0,
           "misses": 2,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0,
           "logLoss": 0.803065,
           "brier": 0.304755,
@@ -402,69 +402,90 @@
         },
         {
           "key": "60-65",
-          "total": 5,
+          "total": 7,
           "resolved": 5,
           "hits": 4,
           "misses": 1,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 0.8,
           "logLoss": 0.58477,
           "brier": 0.196572,
           "avgProbabilityForWinner": 0.569176,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 5,
+            "covered": 7,
             "resolved": 5,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0.8,
-            "avgEdge": -0.196002
+            "avgEdge": -0.173125
+          }
+        },
+        {
+          "key": "65+",
+          "total": 1,
+          "resolved": 0,
+          "hits": 0,
+          "misses": 0,
+          "pending": 1,
+          "accuracy": null,
+          "logLoss": null,
+          "brier": null,
+          "avgProbabilityForWinner": null,
+          "avgFeatureCoverage": 1,
+          "market": {
+            "covered": 1,
+            "resolved": 0,
+            "disagreements": 0,
+            "disagreementAccuracy": null,
+            "agreementAccuracy": null,
+            "avgEdge": -0.233463
           }
         }
       ],
       "byFormat": [
         {
           "key": "bo3",
-          "total": 15,
+          "total": 21,
           "resolved": 15,
           "hits": 11,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.733333,
           "logLoss": 0.65897,
           "brier": 0.233144,
           "avgProbabilityForWinner": 0.522762,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 14,
+            "covered": 18,
             "resolved": 14,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0.785714,
-            "avgEdge": -0.138407
+            "avgEdge": -0.150937
           }
         }
       ],
       "byTier": [
         {
           "key": "tier-1",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 6,
           "misses": 2,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.75,
           "logLoss": 0.628106,
           "brier": 0.218261,
           "avgProbabilityForWinner": 0.538331,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0.75,
-            "avgEdge": -0.031206
+            "avgEdge": -0.103602
           }
         },
         {
@@ -513,23 +534,23 @@
         },
         {
           "key": "top-20",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 6,
           "misses": 2,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.75,
           "logLoss": 0.628106,
           "brier": 0.218261,
           "avgProbabilityForWinner": 0.538331,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0.75,
-            "avgEdge": -0.031206
+            "avgEdge": -0.103602
           }
         },
         {
@@ -639,32 +660,32 @@
     },
     {
       "modelId": "champion",
-      "total": 18,
+      "total": 24,
       "resolved": 18,
       "hits": 11,
       "misses": 7,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.611111,
       "logLoss": 0.629314,
       "brier": 0.218707,
       "avgProbabilityForWinner": 0.536059,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 17,
+        "covered": 21,
         "resolved": 17,
         "disagreements": 4,
         "disagreementAccuracy": 0.25,
         "agreementAccuracy": 0.692308,
-        "avgEdge": -0.078949
+        "avgEdge": -0.109919
       },
       "byConfidence": [
         {
           "key": "50-55",
-          "total": 12,
+          "total": 14,
           "resolved": 12,
           "hits": 5,
           "misses": 7,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 0.416667,
           "logLoss": 0.688545,
           "brier": 0.247716,
@@ -681,111 +702,111 @@
         },
         {
           "key": "55-60",
-          "total": 4,
+          "total": 6,
           "resolved": 4,
           "hits": 4,
           "misses": 0,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 1,
           "logLoss": 0.553914,
           "brier": 0.18092,
           "avgProbabilityForWinner": 0.574822,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 3,
+            "covered": 5,
             "resolved": 3,
             "disagreements": 1,
             "disagreementAccuracy": 1,
             "agreementAccuracy": 1,
-            "avgEdge": 0.119017
+            "avgEdge": -0.040253
           }
         },
         {
           "key": "60-65",
-          "total": 1,
+          "total": 2,
           "resolved": 1,
           "hits": 1,
           "misses": 0,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 1,
           "logLoss": 0.473256,
           "brier": 0.142151,
           "avgProbabilityForWinner": 0.622971,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 1,
+            "covered": 2,
             "resolved": 1,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": null
+            "avgEdge": -0.243508
           }
         },
         {
           "key": "65+",
-          "total": 1,
+          "total": 2,
           "resolved": 1,
           "hits": 1,
           "misses": 0,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 1,
           "logLoss": 0.37619,
           "brier": 0.0983,
           "avgProbabilityForWinner": 0.686472,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 1,
+            "covered": 2,
             "resolved": 1,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": null
+            "avgEdge": -0.235124
           }
         }
       ],
       "byFormat": [
         {
           "key": "bo3",
-          "total": 18,
+          "total": 24,
           "resolved": 18,
           "hits": 11,
           "misses": 7,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.611111,
           "logLoss": 0.629314,
           "brier": 0.218707,
           "avgProbabilityForWinner": 0.536059,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 17,
+            "covered": 21,
             "resolved": 17,
             "disagreements": 4,
             "disagreementAccuracy": 0.25,
             "agreementAccuracy": 0.692308,
-            "avgEdge": -0.078949
+            "avgEdge": -0.109919
           }
         }
       ],
       "byTier": [
         {
           "key": "tier-1",
-          "total": 10,
+          "total": 16,
           "resolved": 10,
           "hits": 6,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.6,
           "logLoss": 0.618853,
           "brier": 0.21386,
           "avgProbabilityForWinner": 0.543081,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 10,
+            "covered": 14,
             "resolved": 10,
             "disagreements": 4,
             "disagreementAccuracy": 0.25,
             "agreementAccuracy": 0.833333,
-            "avgEdge": 0.091435
+            "avgEdge": -0.029026
           }
         },
         {
@@ -834,23 +855,23 @@
         },
         {
           "key": "top-20",
-          "total": 10,
+          "total": 16,
           "resolved": 10,
           "hits": 6,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.6,
           "logLoss": 0.618853,
           "brier": 0.21386,
           "avgProbabilityForWinner": 0.543081,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 10,
+            "covered": 14,
             "resolved": 10,
             "disagreements": 4,
             "disagreementAccuracy": 0.25,
             "agreementAccuracy": 0.833333,
-            "avgEdge": 0.091435
+            "avgEdge": -0.029026
           }
         },
         {
@@ -960,53 +981,53 @@
     },
     {
       "modelId": "ensemble",
-      "total": 15,
+      "total": 21,
       "resolved": 15,
       "hits": 9,
       "misses": 6,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.6,
       "logLoss": 0.665666,
       "brier": 0.236351,
       "avgProbabilityForWinner": 0.519559,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 14,
+        "covered": 18,
         "resolved": 14,
         "disagreements": 1,
         "disagreementAccuracy": 0,
         "agreementAccuracy": 0.692308,
-        "avgEdge": -0.121658
+        "avgEdge": -0.143162
       },
       "byConfidence": [
         {
           "key": "50-55",
-          "total": 8,
+          "total": 10,
           "resolved": 8,
           "hits": 4,
           "misses": 4,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 0.5,
           "logLoss": 0.699324,
           "brier": 0.253074,
           "avgProbabilityForWinner": 0.497498,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 9,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.571429,
-            "avgEdge": -0.101825
+            "avgEdge": -0.116343
           }
         },
         {
           "key": "55-60",
-          "total": 3,
+          "total": 4,
           "resolved": 3,
           "hits": 2,
           "misses": 1,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0.666667,
           "logLoss": 0.637953,
           "brier": 0.222759,
@@ -1023,90 +1044,90 @@
         },
         {
           "key": "60-65",
-          "total": 3,
+          "total": 5,
           "resolved": 3,
           "hits": 3,
           "misses": 0,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 1,
           "logLoss": 0.474637,
           "brier": 0.142873,
           "avgProbabilityForWinner": 0.622264,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 3,
+            "covered": 5,
             "resolved": 3,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": -0.364734
+            "avgEdge": -0.224325
           }
         },
         {
           "key": "65+",
-          "total": 1,
+          "total": 2,
           "resolved": 1,
           "hits": 0,
           "misses": 1,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0,
           "logLoss": 1.052628,
           "brier": 0.423776,
           "avgProbabilityForWinner": 0.349019,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 1,
+            "covered": 2,
             "resolved": 1,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.005981
+            "avgEdge": -0.120762
           }
         }
       ],
       "byFormat": [
         {
           "key": "bo3",
-          "total": 15,
+          "total": 21,
           "resolved": 15,
           "hits": 9,
           "misses": 6,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.6,
           "logLoss": 0.665666,
           "brier": 0.236351,
           "avgProbabilityForWinner": 0.519559,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 14,
+            "covered": 18,
             "resolved": 14,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.692308,
-            "avgEdge": -0.121658
+            "avgEdge": -0.143162
           }
         }
       ],
       "byTier": [
         {
           "key": "tier-1",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 4,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.5,
           "logLoss": 0.63186,
           "brier": 0.21994,
           "avgProbabilityForWinner": 0.535221,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.571429,
-            "avgEdge": -0.005489
+            "avgEdge": -0.095829
           }
         },
         {
@@ -1155,23 +1176,23 @@
         },
         {
           "key": "top-20",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 4,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.5,
           "logLoss": 0.63186,
           "brier": 0.21994,
           "avgProbabilityForWinner": 0.535221,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.571429,
-            "avgEdge": -0.005489
+            "avgEdge": -0.095829
           }
         },
         {
@@ -1281,23 +1302,23 @@
     },
     {
       "modelId": "ensemble25",
-      "total": 15,
+      "total": 21,
       "resolved": 15,
       "hits": 10,
       "misses": 5,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.666667,
       "logLoss": 0.678017,
       "brier": 0.242078,
       "avgProbabilityForWinner": 0.515981,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 14,
+        "covered": 18,
         "resolved": 14,
         "disagreements": 1,
         "disagreementAccuracy": 0,
         "agreementAccuracy": 0.769231,
-        "avgEdge": -0.108875
+        "avgEdge": -0.112875
       },
       "byConfidence": [
         {
@@ -1323,32 +1344,32 @@
         },
         {
           "key": "55-60",
-          "total": 3,
+          "total": 5,
           "resolved": 3,
           "hits": 3,
           "misses": 0,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 1,
           "logLoss": 0.569863,
           "brier": 0.188704,
           "avgProbabilityForWinner": 0.565614,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 3,
+            "covered": 4,
             "resolved": 3,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": -0.072608
+            "avgEdge": -0.09113
           }
         },
         {
           "key": "60-65",
-          "total": 3,
+          "total": 4,
           "resolved": 3,
           "hits": 1,
           "misses": 2,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0.333333,
           "logLoss": 0.777756,
           "brier": 0.291857,
@@ -1365,69 +1386,69 @@
         },
         {
           "key": "65+",
-          "total": 2,
+          "total": 5,
           "resolved": 2,
           "hits": 1,
           "misses": 1,
-          "pending": 0,
+          "pending": 3,
           "accuracy": 0.5,
           "logLoss": 0.770351,
           "brier": 0.285909,
           "avgProbabilityForWinner": 0.491651,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 2,
+            "covered": 5,
             "resolved": 2,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0.5,
-            "avgEdge": 0.029149
+            "avgEdge": -0.086176
           }
         }
       ],
       "byFormat": [
         {
           "key": "bo3",
-          "total": 15,
+          "total": 21,
           "resolved": 15,
           "hits": 10,
           "misses": 5,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.666667,
           "logLoss": 0.678017,
           "brier": 0.242078,
           "avgProbabilityForWinner": 0.515981,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 14,
+            "covered": 18,
             "resolved": 14,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.769231,
-            "avgEdge": -0.108875
+            "avgEdge": -0.112875
           }
         }
       ],
       "byTier": [
         {
           "key": "tier-1",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 5,
           "misses": 3,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.625,
           "logLoss": 0.655253,
           "brier": 0.231516,
           "avgProbabilityForWinner": 0.528705,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.714286,
-            "avgEdge": 0.043372
+            "avgEdge": -0.038752
           }
         },
         {
@@ -1476,23 +1497,23 @@
         },
         {
           "key": "top-20",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 5,
           "misses": 3,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.625,
           "logLoss": 0.655253,
           "brier": 0.231516,
           "avgProbabilityForWinner": 0.528705,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.714286,
-            "avgEdge": 0.043372
+            "avgEdge": -0.038752
           }
         },
         {
@@ -1602,153 +1623,153 @@
     },
     {
       "modelId": "oldprog",
-      "total": 15,
+      "total": 21,
       "resolved": 15,
       "hits": 8,
       "misses": 7,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.533333,
       "logLoss": 0.677338,
       "brier": 0.242529,
       "avgProbabilityForWinner": 0.51561,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 14,
+        "covered": 18,
         "resolved": 14,
         "disagreements": 3,
         "disagreementAccuracy": 0,
         "agreementAccuracy": 0.636364,
-        "avgEdge": 0.069487
+        "avgEdge": -0.01224
       },
       "byConfidence": [
         {
           "key": "50-55",
-          "total": 4,
+          "total": 5,
           "resolved": 4,
           "hits": 1,
           "misses": 3,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0.25,
           "logLoss": 0.716083,
           "brier": 0.261458,
           "avgProbabilityForWinner": 0.48919,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 4,
+            "covered": 5,
             "resolved": 4,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.333333,
-            "avgEdge": 0.009073
+            "avgEdge": -0.079193
           }
         },
         {
           "key": "55-60",
-          "total": 8,
+          "total": 9,
           "resolved": 8,
           "hits": 5,
           "misses": 3,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0.625,
           "logLoss": 0.690511,
           "brier": 0.248487,
           "avgProbabilityForWinner": 0.507065,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 7,
+            "covered": 8,
             "resolved": 7,
             "disagreements": 2,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.8,
-            "avgEdge": 0.105143
+            "avgEdge": 0.065055
           }
         },
         {
           "key": "60-65",
-          "total": 1,
+          "total": 4,
           "resolved": 1,
           "hits": 0,
           "misses": 1,
-          "pending": 0,
+          "pending": 3,
           "accuracy": 0,
           "logLoss": 0.975801,
           "brier": 0.388265,
           "avgProbabilityForWinner": 0.37689,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 1,
+            "covered": 2,
             "resolved": 1,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 0,
-            "avgEdge": 0.10811
+            "avgEdge": 0.032493
           }
         },
         {
           "key": "65+",
-          "total": 2,
+          "total": 3,
           "resolved": 2,
           "hits": 2,
           "misses": 0,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 1,
           "logLoss": 0.397928,
           "brier": 0.107968,
           "avgProbabilityForWinner": 0.671992,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 2,
+            "covered": 3,
             "resolved": 2,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": null
+            "avgEdge": -0.220367
           }
         }
       ],
       "byFormat": [
         {
           "key": "bo3",
-          "total": 15,
+          "total": 21,
           "resolved": 15,
           "hits": 8,
           "misses": 7,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.533333,
           "logLoss": 0.677338,
           "brier": 0.242529,
           "avgProbabilityForWinner": 0.51561,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 14,
+            "covered": 18,
             "resolved": 14,
             "disagreements": 3,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.636364,
-            "avgEdge": 0.069487
+            "avgEdge": -0.01224
           }
         }
       ],
       "byTier": [
         {
           "key": "tier-1",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 5,
           "misses": 3,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.625,
           "logLoss": 0.661423,
           "brier": 0.235007,
           "avgProbabilityForWinner": 0.527747,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.714286,
-            "avgEdge": 0.08605
+            "avgEdge": -0.044822
           }
         },
         {
@@ -1797,23 +1818,23 @@
         },
         {
           "key": "top-20",
-          "total": 8,
+          "total": 14,
           "resolved": 8,
           "hits": 5,
           "misses": 3,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.625,
           "logLoss": 0.661423,
           "brier": 0.235007,
           "avgProbabilityForWinner": 0.527747,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 8,
+            "covered": 12,
             "resolved": 8,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.714286,
-            "avgEdge": 0.08605
+            "avgEdge": -0.044822
           }
         },
         {
@@ -1923,86 +1944,86 @@
     },
     {
       "modelId": "weighted",
-      "total": 19,
+      "total": 25,
       "resolved": 19,
       "hits": 12,
       "misses": 7,
-      "pending": 0,
+      "pending": 6,
       "accuracy": 0.631579,
       "logLoss": 0.667069,
       "brier": 0.237273,
       "avgProbabilityForWinner": 0.517724,
       "avgFeatureCoverage": 1,
       "market": {
-        "covered": 18,
+        "covered": 22,
         "resolved": 18,
         "disagreements": 5,
         "disagreementAccuracy": 0.4,
         "agreementAccuracy": 0.769231,
-        "avgEdge": 0.048654
+        "avgEdge": 0.025413
       },
       "byConfidence": [
         {
           "key": "50-55",
-          "total": 10,
+          "total": 11,
           "resolved": 10,
           "hits": 6,
           "misses": 4,
-          "pending": 0,
+          "pending": 1,
           "accuracy": 0.6,
           "logLoss": 0.683328,
           "brier": 0.245099,
           "avgProbabilityForWinner": 0.50551,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 9,
+            "covered": 10,
             "resolved": 9,
             "disagreements": 3,
             "disagreementAccuracy": 0.333333,
             "agreementAccuracy": 0.833333,
-            "avgEdge": 0.017049
+            "avgEdge": 0.067789
           }
         },
         {
           "key": "55-60",
-          "total": 5,
+          "total": 8,
           "resolved": 5,
           "hits": 2,
           "misses": 3,
-          "pending": 0,
+          "pending": 3,
           "accuracy": 0.4,
           "logLoss": 0.757212,
           "brier": 0.281564,
           "avgProbabilityForWinner": 0.474807,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 5,
+            "covered": 7,
             "resolved": 5,
             "disagreements": 1,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.5,
-            "avgEdge": 0.111865
+            "avgEdge": 0.024741
           }
         },
         {
           "key": "60-65",
-          "total": 2,
+          "total": 4,
           "resolved": 2,
           "hits": 2,
           "misses": 0,
-          "pending": 0,
+          "pending": 2,
           "accuracy": 1,
           "logLoss": 0.485482,
           "brier": 0.147927,
           "avgProbabilityForWinner": 0.615422,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 2,
+            "covered": 3,
             "resolved": 2,
             "disagreements": 0,
             "disagreementAccuracy": null,
             "agreementAccuracy": 1,
-            "avgEdge": null
+            "avgEdge": -0.267856
           }
         },
         {
@@ -2051,23 +2072,23 @@
       "byFormat": [
         {
           "key": "bo3",
-          "total": 18,
+          "total": 24,
           "resolved": 18,
           "hits": 11,
           "misses": 7,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.611111,
           "logLoss": 0.667069,
           "brier": 0.237273,
           "avgProbabilityForWinner": 0.517724,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 17,
+            "covered": 21,
             "resolved": 17,
             "disagreements": 4,
             "disagreementAccuracy": 0.25,
             "agreementAccuracy": 0.769231,
-            "avgEdge": 0.048654
+            "avgEdge": 0.025413
           }
         },
         {
@@ -2095,23 +2116,23 @@
       "byTier": [
         {
           "key": "tier-1",
-          "total": 10,
+          "total": 16,
           "resolved": 10,
           "hits": 6,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.6,
           "logLoss": 0.669237,
           "brier": 0.238452,
           "avgProbabilityForWinner": 0.518926,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 10,
+            "covered": 14,
             "resolved": 10,
             "disagreements": 2,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.75,
-            "avgEdge": 0.07178
+            "avgEdge": 0.027932
           }
         },
         {
@@ -2181,23 +2202,23 @@
         },
         {
           "key": "top-20",
-          "total": 10,
+          "total": 16,
           "resolved": 10,
           "hits": 6,
           "misses": 4,
-          "pending": 0,
+          "pending": 6,
           "accuracy": 0.6,
           "logLoss": 0.669237,
           "brier": 0.238452,
           "avgProbabilityForWinner": 0.518926,
           "avgFeatureCoverage": 1,
           "market": {
-            "covered": 10,
+            "covered": 14,
             "resolved": 10,
             "disagreements": 2,
             "disagreementAccuracy": 0,
             "agreementAccuracy": 0.75,
-            "avgEdge": 0.07178
+            "avgEdge": 0.027932
           }
         },
         {
@@ -2328,86 +2349,86 @@
     }
   ],
   "consensus": {
-    "total": 18,
+    "total": 24,
     "resolved": 18,
     "hits": 12,
     "misses": 6,
-    "pending": 0,
+    "pending": 6,
     "accuracy": 0.666667,
     "logLoss": 0.651176,
     "brier": 0.229338,
     "avgProbabilityForWinner": 0.524751,
     "avgFeatureCoverage": null,
     "market": {
-      "covered": 17,
+      "covered": 21,
       "resolved": 17,
       "disagreements": 3,
       "disagreementAccuracy": 0.333333,
       "agreementAccuracy": 0.785714,
-      "avgEdge": -0.112722
+      "avgEdge": -0.124609
     },
     "byTier": [
       {
         "key": "lean",
-        "total": 6,
+        "total": 9,
         "resolved": 6,
         "hits": 4,
         "misses": 2,
-        "pending": 0,
+        "pending": 3,
         "accuracy": 0.666667,
         "logLoss": 0.646637,
         "brier": 0.227002,
         "avgProbabilityForWinner": 0.529875,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 6,
+          "covered": 8,
           "resolved": 6,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 0.666667,
-          "avgEdge": -0.132677
+          "avgEdge": -0.139032
         }
       },
       {
         "key": "skip",
-        "total": 11,
+        "total": 13,
         "resolved": 11,
         "hits": 7,
         "misses": 4,
-        "pending": 0,
+        "pending": 2,
         "accuracy": 0.636364,
         "logLoss": 0.674429,
         "brier": 0.24066,
         "avgProbabilityForWinner": 0.510087,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 10,
+          "covered": 11,
           "resolved": 10,
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": 0.857143,
-          "avgEdge": -0.096053
+          "avgEdge": -0.100896
         }
       },
       {
         "key": "strong",
-        "total": 1,
+        "total": 2,
         "resolved": 1,
         "hits": 1,
         "misses": 0,
-        "pending": 0,
+        "pending": 1,
         "accuracy": 1,
         "logLoss": 0.422638,
         "brier": 0.118807,
         "avgProbabilityForWinner": 0.655316,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 1,
+          "covered": 2,
           "resolved": 1,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.159684
+          "avgEdge": -0.197337
         }
       }
     ],
@@ -2477,76 +2498,76 @@
       },
       {
         "key": "4/5",
-        "total": 7,
+        "total": 9,
         "resolved": 7,
         "hits": 4,
         "misses": 3,
-        "pending": 0,
+        "pending": 2,
         "accuracy": 0.571429,
         "logLoss": 0.693267,
         "brier": 0.249948,
         "avgProbabilityForWinner": 0.502174,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 6,
+          "covered": 7,
           "resolved": 6,
           "disagreements": 1,
           "disagreementAccuracy": 1,
           "agreementAccuracy": 0.6,
-          "avgEdge": -0.110137
+          "avgEdge": -0.132093
         }
       },
       {
         "key": "5/5",
-        "total": 6,
+        "total": 10,
         "resolved": 6,
         "hits": 5,
         "misses": 1,
-        "pending": 0,
+        "pending": 4,
         "accuracy": 0.833333,
         "logLoss": 0.596739,
         "brier": 0.20271,
         "avgProbabilityForWinner": 0.555035,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 6,
+          "covered": 9,
           "resolved": 6,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 0.833333,
-          "avgEdge": -0.133192
+          "avgEdge": -0.137316
         }
       }
     ],
     "byConfidence": [
       {
         "key": "50-55",
-        "total": 11,
+        "total": 13,
         "resolved": 11,
         "hits": 7,
         "misses": 4,
-        "pending": 0,
+        "pending": 2,
         "accuracy": 0.636364,
         "logLoss": 0.674429,
         "brier": 0.24066,
         "avgProbabilityForWinner": 0.510087,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 10,
+          "covered": 11,
           "resolved": 10,
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": 0.857143,
-          "avgEdge": -0.096053
+          "avgEdge": -0.100896
         }
       },
       {
         "key": "55-60",
-        "total": 5,
+        "total": 6,
         "resolved": 5,
         "hits": 3,
         "misses": 2,
-        "pending": 0,
+        "pending": 1,
         "accuracy": 0.6,
         "logLoss": 0.674181,
         "brier": 0.240586,
@@ -2563,55 +2584,55 @@
       },
       {
         "key": "60-65",
-        "total": 1,
+        "total": 3,
         "resolved": 1,
         "hits": 1,
         "misses": 0,
-        "pending": 0,
+        "pending": 2,
         "accuracy": 1,
         "logLoss": 0.508918,
         "brier": 0.159085,
         "avgProbabilityForWinner": 0.601146,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 1,
+          "covered": 3,
           "resolved": 1,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.023854
+          "avgEdge": -0.11335
         }
       },
       {
         "key": "65+",
-        "total": 1,
+        "total": 2,
         "resolved": 1,
         "hits": 1,
         "misses": 0,
-        "pending": 0,
+        "pending": 1,
         "accuracy": 1,
         "logLoss": 0.422638,
         "brier": 0.118807,
         "avgProbabilityForWinner": 0.655316,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 1,
+          "covered": 2,
           "resolved": 1,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.159684
+          "avgEdge": -0.197337
         }
       }
     ],
     "byMarket": [
       {
         "key": "no-market",
-        "total": 1,
+        "total": 3,
         "resolved": 1,
         "hits": 0,
         "misses": 1,
-        "pending": 0,
+        "pending": 2,
         "accuracy": 0,
         "logLoss": 0.716274,
         "brier": 0.261561,
@@ -2649,23 +2670,23 @@
       },
       {
         "key": "with-market",
-        "total": 14,
+        "total": 18,
         "resolved": 14,
         "hits": 11,
         "misses": 3,
-        "pending": 0,
+        "pending": 4,
         "accuracy": 0.785714,
         "logLoss": 0.634042,
         "brier": 0.220865,
         "avgProbabilityForWinner": 0.534283,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 14,
+          "covered": 18,
           "resolved": 14,
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 0.785714,
-          "avgEdge": -0.154062
+          "avgEdge": -0.158744
         }
       }
     ],
@@ -2857,12 +2878,33 @@
         "agreementAccuracy": 0.666667,
         "avgEdge": 0.014712
       }
+    },
+    {
+      "key": "2026-06-12",
+      "total": 36,
+      "resolved": 0,
+      "hits": 0,
+      "misses": 0,
+      "pending": 36,
+      "accuracy": null,
+      "logLoss": null,
+      "brier": null,
+      "avgProbabilityForWinner": null,
+      "avgFeatureCoverage": 1,
+      "market": {
+        "covered": 24,
+        "resolved": 0,
+        "disagreements": 0,
+        "disagreementAccuracy": null,
+        "agreementAccuracy": null,
+        "avgEdge": -0.144203
+      }
     }
   ],
   "pairwiseDisagreements": {
-    "total": 68,
+    "total": 78,
     "resolved": 68,
-    "open": 0,
+    "open": 10,
     "byPair": [
       {
         "key": "archive_vs_champion",
@@ -3497,156 +3539,6 @@
     ],
     "recent": [
       {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "weighted",
-        "modelAPick": "Natus Vincere",
-        "modelAStatus": "miss",
-        "modelAProbability": 0.5824172437754452,
-        "modelB": "archive",
-        "modelBPick": "Spirit",
-        "modelBStatus": "hit",
-        "modelBProbability": 0.5202360048981809,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "champion",
-        "modelAPick": "Natus Vincere",
-        "modelAStatus": "miss",
-        "modelAProbability": 0.5249991634581963,
-        "modelB": "ensemble",
-        "modelBPick": "Spirit",
-        "modelBStatus": "hit",
-        "modelBProbability": 0.5346011086430141,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "champion",
-        "modelAPick": "Natus Vincere",
-        "modelAStatus": "miss",
-        "modelAProbability": 0.5249991634581963,
-        "modelB": "ensemble25",
-        "modelBPick": "Spirit",
-        "modelBStatus": "hit",
-        "modelBProbability": 0.5623920808032598,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "champion",
-        "modelAPick": "Natus Vincere",
-        "modelAStatus": "miss",
-        "modelAProbability": 0.5249991634581963,
-        "modelB": "archive",
-        "modelBPick": "Spirit",
-        "modelBStatus": "hit",
-        "modelBProbability": 0.5202360048981809,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "ensemble",
-        "modelAPick": "Spirit",
-        "modelAStatus": "hit",
-        "modelAProbability": 0.5346011086430141,
-        "modelB": "oldprog",
-        "modelBPick": "Natus Vincere",
-        "modelBStatus": "miss",
-        "modelBProbability": 0.5733228996091492,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "ensemble25",
-        "modelAPick": "Spirit",
-        "modelAStatus": "hit",
-        "modelAProbability": 0.5623920808032598,
-        "modelB": "oldprog",
-        "modelBPick": "Natus Vincere",
-        "modelBStatus": "miss",
-        "modelBProbability": 0.5733228996091492,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-natus-vincere-spirit",
-        "matchDate": "2026-06-11",
-        "match": "Natus Vincere vs Spirit",
-        "modelA": "archive",
-        "modelAPick": "Spirit",
-        "modelAStatus": "hit",
-        "modelAProbability": 0.5202360048981809,
-        "modelB": "oldprog",
-        "modelBPick": "Natus Vincere",
-        "modelBStatus": "miss",
-        "modelBProbability": 0.5733228996091492,
-        "resolved": true,
-        "winner": "Spirit"
-      },
-      {
-        "matchId": "2026-06-11-parivision-9z",
-        "matchDate": "2026-06-11",
-        "match": "PARIVISION vs 9z",
-        "modelA": "weighted",
-        "modelAPick": "PARIVISION",
-        "modelAStatus": "miss",
-        "modelAProbability": 0.5817551096333873,
-        "modelB": "champion",
-        "modelBPick": "9z",
-        "modelBStatus": "hit",
-        "modelBProbability": 0.5740174709051877,
-        "resolved": true,
-        "winner": "9z"
-      },
-      {
-        "matchId": "2026-06-11-parivision-9z",
-        "matchDate": "2026-06-11",
-        "match": "PARIVISION vs 9z",
-        "modelA": "champion",
-        "modelAPick": "9z",
-        "modelAStatus": "hit",
-        "modelAProbability": 0.5740174709051877,
-        "modelB": "ensemble",
-        "modelBPick": "PARIVISION",
-        "modelBStatus": "miss",
-        "modelBProbability": 0.5440695481134382,
-        "resolved": true,
-        "winner": "9z"
-      },
-      {
-        "matchId": "2026-06-11-parivision-9z",
-        "matchDate": "2026-06-11",
-        "match": "PARIVISION vs 9z",
-        "modelA": "champion",
-        "modelAPick": "9z",
-        "modelAStatus": "hit",
-        "modelAProbability": 0.5740174709051877,
-        "modelB": "ensemble25",
-        "modelBPick": "PARIVISION",
-        "modelBStatus": "miss",
-        "modelBProbability": 0.5286993448400198,
-        "resolved": true,
-        "winner": "9z"
-      },
-      {
         "matchId": "2026-06-11-parivision-9z",
         "matchDate": "2026-06-11",
         "match": "PARIVISION vs 9z",
@@ -3795,9 +3687,629 @@
         "modelBProbability": 0.5321007672638033,
         "resolved": true,
         "winner": "KOLESIE"
+      },
+      {
+        "matchId": "2026-06-12-aurora-spirit",
+        "matchDate": "2026-06-12",
+        "match": "Aurora vs Spirit",
+        "modelA": "weighted",
+        "modelAPick": "Aurora",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5072294938612432,
+        "modelB": "champion",
+        "modelBPick": "Spirit",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6214917760948699,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-aurora-spirit",
+        "matchDate": "2026-06-12",
+        "match": "Aurora vs Spirit",
+        "modelA": "weighted",
+        "modelAPick": "Aurora",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5072294938612432,
+        "modelB": "ensemble",
+        "modelBPick": "Spirit",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6094702566075757,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-aurora-spirit",
+        "matchDate": "2026-06-12",
+        "match": "Aurora vs Spirit",
+        "modelA": "weighted",
+        "modelAPick": "Aurora",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5072294938612432,
+        "modelB": "ensemble25",
+        "modelBPick": "Spirit",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6805754317443884,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-aurora-spirit",
+        "matchDate": "2026-06-12",
+        "match": "Aurora vs Spirit",
+        "modelA": "weighted",
+        "modelAPick": "Aurora",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5072294938612432,
+        "modelB": "archive",
+        "modelBPick": "Spirit",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6015627836705365,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-aurora-spirit",
+        "matchDate": "2026-06-12",
+        "match": "Aurora vs Spirit",
+        "modelA": "weighted",
+        "modelAPick": "Aurora",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5072294938612432,
+        "modelB": "oldprog",
+        "modelBPick": "Spirit",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.5210095813042521,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-fut-g2",
+        "matchDate": "2026-06-12",
+        "match": "FUT vs G2",
+        "modelA": "weighted",
+        "modelAPick": "FUT",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.5905426391849146,
+        "modelB": "ensemble",
+        "modelBPick": "G2",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.509601915809495,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-fut-g2",
+        "matchDate": "2026-06-12",
+        "match": "FUT vs G2",
+        "modelA": "champion",
+        "modelAPick": "FUT",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.508847536515825,
+        "modelB": "ensemble",
+        "modelBPick": "G2",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.509601915809495,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-fut-g2",
+        "matchDate": "2026-06-12",
+        "match": "FUT vs G2",
+        "modelA": "ensemble",
+        "modelAPick": "G2",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.509601915809495,
+        "modelB": "ensemble25",
+        "modelBPick": "FUT",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.572248717331767,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-fut-g2",
+        "matchDate": "2026-06-12",
+        "match": "FUT vs G2",
+        "modelA": "ensemble",
+        "modelAPick": "G2",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.509601915809495,
+        "modelB": "archive",
+        "modelBPick": "FUT",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.5081319482948812,
+        "resolved": false,
+        "winner": null
+      },
+      {
+        "matchId": "2026-06-12-fut-g2",
+        "matchDate": "2026-06-12",
+        "match": "FUT vs G2",
+        "modelA": "ensemble",
+        "modelAPick": "G2",
+        "modelAStatus": "pending",
+        "modelAProbability": 0.509601915809495,
+        "modelB": "oldprog",
+        "modelBPick": "FUT",
+        "modelBStatus": "pending",
+        "modelBProbability": 0.6008015022570901,
+        "resolved": false,
+        "winner": null
       }
     ]
   },
-  "openPicks": [],
-  "openConsensus": []
+  "openPicks": [
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "weighted",
+      "pick": "Aurora",
+      "probability": 0.5072294938612432,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": true,
+      "marketEdge": 0.37222949386124315
+    },
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "champion",
+      "pick": "Spirit",
+      "probability": 0.6214917760948699,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.24350822390513005
+    },
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "ensemble",
+      "pick": "Spirit",
+      "probability": 0.6094702566075757,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.2555297433924243
+    },
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "ensemble25",
+      "pick": "Spirit",
+      "probability": 0.6805754317443884,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.1844245682556116
+    },
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "archive",
+      "pick": "Spirit",
+      "probability": 0.6015627836705365,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.2634372163294635
+    },
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "modelId": "oldprog",
+      "pick": "Spirit",
+      "probability": 0.5210095813042521,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.34399041869574787
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "weighted",
+      "pick": "Falcons",
+      "probability": 0.5970855793913167,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.07791442060868337
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "champion",
+      "pick": "Falcons",
+      "probability": 0.5792689204165407,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.09573107958345939
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "ensemble",
+      "pick": "Falcons",
+      "probability": 0.6222897132398895,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.05271028676011058
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "ensemble25",
+      "pick": "Falcons",
+      "probability": 0.6765741534121339,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": 0.0015741534121338496
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "archive",
+      "pick": "Falcons",
+      "probability": 0.6379391488072902,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.037060851192709854
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "modelId": "oldprog",
+      "pick": "Falcons",
+      "probability": 0.6318764628122331,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.04312353718776696
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "weighted",
+      "pick": "FUT",
+      "probability": 0.5905426391849146,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "champion",
+      "pick": "FUT",
+      "probability": 0.508847536515825,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "ensemble",
+      "pick": "G2",
+      "probability": 0.509601915809495,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "ensemble25",
+      "pick": "FUT",
+      "probability": 0.572248717331767,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "archive",
+      "pick": "FUT",
+      "probability": 0.5081319482948812,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "modelId": "oldprog",
+      "pick": "FUT",
+      "probability": 0.6008015022570901,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "weighted",
+      "pick": "Natus Vincere",
+      "probability": 0.5610267785721251,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.13397322142787482
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "champion",
+      "pick": "Natus Vincere",
+      "probability": 0.5509534505634397,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.14404654943656026
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "ensemble",
+      "pick": "Natus Vincere",
+      "probability": 0.5060648915987813,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.18893510840121863
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "ensemble25",
+      "pick": "Natus Vincere",
+      "probability": 0.5853481282790933,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.10965187172090662
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "archive",
+      "pick": "Natus Vincere",
+      "probability": 0.5249698335115328,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.17003016648846714
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "modelId": "oldprog",
+      "pick": "Natus Vincere",
+      "probability": 0.5997043051672926,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.09529569483270739
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "weighted",
+      "pick": "PARIVISION",
+      "probability": 0.6021576484529793,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "champion",
+      "pick": "PARIVISION",
+      "probability": 0.5357713241069568,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "ensemble",
+      "pick": "PARIVISION",
+      "probability": 0.5642266367003262,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "ensemble25",
+      "pick": "PARIVISION",
+      "probability": 0.638189018027977,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "archive",
+      "pick": "PARIVISION",
+      "probability": 0.5804323547652044,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "modelId": "oldprog",
+      "pick": "PARIVISION",
+      "probability": 0.6305965711085594,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "weighted",
+      "pick": "Vitality",
+      "probability": 0.6371442355506581,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.2678557644493419
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "champion",
+      "pick": "Vitality",
+      "probability": 0.6698755490766979,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.23512445092330214
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "ensemble",
+      "pick": "Vitality",
+      "probability": 0.6574963169399325,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.24750368306006754
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "ensemble25",
+      "pick": "Vitality",
+      "probability": 0.7139950451543051,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.1910049548456949
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "archive",
+      "pick": "Vitality",
+      "probability": 0.6715368459800013,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.23346315401999873
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "modelId": "oldprog",
+      "pick": "Vitality",
+      "probability": 0.6846334454202154,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.2203665545797846
+    }
+  ],
+  "openConsensus": [
+    {
+      "matchId": "2026-06-12-aurora-spirit",
+      "matchDate": "2026-06-12",
+      "match": "Aurora vs Spirit",
+      "tier": "lean",
+      "agreement": "4/5",
+      "pick": "Spirit",
+      "probability": 0.6011741508512254,
+      "marketFavorite": "Spirit",
+      "marketDisagreement": false,
+      "marketEdge": -0.2638258491487746
+    },
+    {
+      "matchId": "2026-06-12-falcons-betboom",
+      "matchDate": "2026-06-12",
+      "match": "Falcons vs BetBoom",
+      "tier": "lean",
+      "agreement": "5/5",
+      "pick": "Falcons",
+      "probability": 0.6226315030534342,
+      "marketFavorite": "Falcons",
+      "marketDisagreement": false,
+      "marketEdge": -0.05236849694656587
+    },
+    {
+      "matchId": "2026-06-12-fut-g2",
+      "matchDate": "2026-06-12",
+      "match": "FUT vs G2",
+      "tier": "skip",
+      "agreement": "4/5",
+      "pick": "FUT",
+      "probability": 0.5340337851035786,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-natus-vincere-legacy",
+      "matchDate": "2026-06-12",
+      "match": "Natus Vincere vs Legacy",
+      "tier": "skip",
+      "agreement": "5/5",
+      "pick": "Natus Vincere",
+      "probability": 0.5456726165049944,
+      "marketFavorite": "Natus Vincere",
+      "marketDisagreement": false,
+      "marketEdge": -0.14932738349500552
+    },
+    {
+      "matchId": "2026-06-12-parivision-monte",
+      "matchDate": "2026-06-12",
+      "match": "PARIVISION vs Monte",
+      "tier": "lean",
+      "agreement": "5/5",
+      "pick": "PARIVISION",
+      "probability": 0.5841553964106888,
+      "marketFavorite": null,
+      "marketDisagreement": false,
+      "marketEdge": null
+    },
+    {
+      "matchId": "2026-06-12-vitality-9z",
+      "matchDate": "2026-06-12",
+      "match": "Vitality vs 9z",
+      "tier": "strong",
+      "agreement": "5/5",
+      "pick": "Vitality",
+      "probability": 0.6700095985403189,
+      "marketFavorite": "Vitality",
+      "marketDisagreement": false,
+      "marketEdge": -0.2349904014596811
+    }
+  ]
 }

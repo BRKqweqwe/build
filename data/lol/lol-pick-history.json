@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-12T11:45:32.453Z",
+  "updatedAt": "2026-06-12T13:40:04.125Z",
   "source": {
     "predictions": "static/data/live-predictions-meta.json",
     "market": "static/data/market-comparisons.json",
-    "generatedAt": "2026-06-12T11:45:31.744Z",
+    "generatedAt": "2026-06-12T13:40:03.344Z",
     "marketGeneratedAt": "2026-06-11T02:22:17.351Z",
     "results": "static/data/lolesports-schedule.json",
-    "resultsUpdatedAt": "2026-06-12T11:45:29.446Z"
+    "resultsUpdatedAt": "2026-06-12T13:40:00.947Z"
   },
   "summary": {
     "total": 175,
-    "pending": 95,
-    "resolved": 80,
-    "hits": 48,
+    "pending": 87,
+    "resolved": 88,
+    "hits": 56,
     "misses": 32,
-    "accuracy": 0.6,
-    "logLoss": 0.6676951981849777,
-    "brier": 0.23791785440585
+    "accuracy": 0.6363636363636364,
+    "logLoss": 0.6487853228520261,
+    "brier": 0.22870153948136365
   },
   "picks": [
     {
@@ -3196,18 +3196,19 @@
         "teamBGames": 763,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.55213,
       "recordedAt": "2026-06-10T16:05:41.741Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.124Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::conservative-coverage",
@@ -3232,18 +3233,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.645415,
       "recordedAt": "2026-06-10T20:54:53.225Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.124Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::adaptive-stack",
@@ -3268,18 +3270,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.635484,
       "recordedAt": "2026-06-10T20:54:53.444Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.124Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::balanced-ensemble",
@@ -3304,18 +3307,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.637654,
       "recordedAt": "2026-06-10T20:54:53.697Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.125Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::accuracy-ensemble",
@@ -3340,18 +3344,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.667881,
       "recordedAt": "2026-06-10T20:54:53.946Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.125Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::recency-accuracy",
@@ -3376,18 +3381,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.696472,
       "recordedAt": "2026-06-11T13:09:11.976Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.125Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::meta-picker",
@@ -3412,18 +3418,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.583275,
       "recordedAt": "2026-06-11T13:37:14.087Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.125Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-115548128963037575::champion-match-ensemble",
@@ -3448,18 +3455,19 @@
         "teamBGames": 532,
         "level": "high"
       },
-      "status": "pending",
-      "resultWinner": null,
-      "probabilityForWinner": null,
+      "status": "hit",
+      "resultWinner": "Hanwha Life Esports",
+      "probabilityForWinner": 0.645415,
       "recordedAt": "2026-06-12T11:34:49.551Z",
-      "resolvedAt": null,
+      "resolvedAt": "2026-06-12T13:40:04.125Z",
       "marketFavorite": "T1",
       "marketFavoriteProbability": 0.515,
       "marketTeamAProbability": 0.485,
       "marketTeamBProbability": 0.515,
       "marketDisagreement": true,
       "marketUrl": "https://polymarket.com/event/lol-hle1-t1-2026-06-12",
-      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI"
+      "marketQuestion": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Road to MSI",
+      "resultScore": "3-1"
     },
     {
       "id": "lolesports-116634566270405043::ensemble-55-45",
