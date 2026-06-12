@@ -1,0 +1,594 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-12T14:19:48.171Z",
+  "type": "logistic-regression-baseline",
+  "id": "valorant-baseline",
+  "label": "Valorant Baseline",
+  "source": {
+    "trainingDataset": "static/data/training-dataset.json",
+    "rows": 2386,
+    "trainRows": 1933,
+    "validationRows": 453,
+    "validationStart": "2026-05-01",
+    "validationEnd": null
+  },
+  "hyperparameters": {
+    "epochs": 1800,
+    "learningRate": 0.055,
+    "l2": 0.003
+  },
+  "features": [
+    "bestOf",
+    "daysSinceLastMatchA",
+    "daysSinceLastMatchB",
+    "daysSinceLastMatchDiff",
+    "eloA",
+    "eloB",
+    "eloDiff",
+    "eventTier",
+    "h2hMatches",
+    "h2hWinRateA",
+    "h2hWinRateDiff",
+    "isBo1",
+    "isBo3",
+    "isBo5",
+    "isTier1",
+    "isTier2",
+    "leagueAvgWinnerElo",
+    "leagueMatches",
+    "logDaysSinceLastMatchA",
+    "logDaysSinceLastMatchB",
+    "logPriorMatchesA",
+    "logPriorMatchesB",
+    "mapDiff10A",
+    "mapDiff10B",
+    "mapDiff10Diff",
+    "mapDiff5A",
+    "mapDiff5B",
+    "mapDiff5Diff",
+    "mapWinRateA",
+    "mapWinRateB",
+    "mapWinRateDiff",
+    "priorMapsA",
+    "priorMapsB",
+    "priorMatchesA",
+    "priorMatchesB",
+    "recencyMapDiffA",
+    "recencyMapDiffB",
+    "recencyMapDiffDiff",
+    "recencyWinA",
+    "recencyWinB",
+    "recencyWinDiff",
+    "recent10A",
+    "recent10B",
+    "recent10Diff",
+    "recent5A",
+    "recent5B",
+    "recent5Diff",
+    "teamAEloVsLeague",
+    "teamBEloVsLeague",
+    "winRateA",
+    "winRateB",
+    "winRateDiff"
+  ],
+  "intercept": 0.1327626550585641,
+  "weights": [
+    0.1327626550585641,
+    -0.0060427045580888445,
+    0.03254717858200042,
+    -0.026871653127035443,
+    0.06172463345632292,
+    0.0694259556833068,
+    -0.011894111494534641,
+    0.06615811825684514,
+    -0.04558259978940319,
+    -0.11885412226152603,
+    0.10203524035867945,
+    0.1020352403586799,
+    -0.02477254757510012,
+    -0.0820985840489922,
+    0.02264691230652447,
+    0.006123915682657439,
+    0.04921146568005968,
+    0.07003485973460076,
+    -0.04971013226078776,
+    0.012305980653371514,
+    0.03979840067006583,
+    0.32164790760600687,
+    -0.1906406954872586,
+    0.04672596382390427,
+    0.006110053143927411,
+    0.034208380431716263,
+    0.00622790443065798,
+    -0.09129211856973142,
+    0.07810284610408891,
+    0.02406811134527045,
+    -0.16680891949161733,
+    0.14895932873531567,
+    0.025025704010402872,
+    -0.09195907274986709,
+    -0.10873953594043231,
+    -0.003614511312968677,
+    0.036472402815656994,
+    -0.0628870102116637,
+    0.08359443986527997,
+    0.04264528619147572,
+    0.048409750138295744,
+    -0.002539759343108429,
+    0.10838544485863877,
+    0.11923626151515486,
+    -0.002794726440676425,
+    -0.07990574568369338,
+    -0.05735173025080943,
+    -0.022218458772693423,
+    0.045780864798542105,
+    -0.037407929192278096,
+    -0.08601545503933179,
+    0.08649742581415429,
+    -0.13812040169234568
+  ],
+  "coefficients": {
+    "bestOf": -0.0060427045580888445,
+    "daysSinceLastMatchA": 0.03254717858200042,
+    "daysSinceLastMatchB": -0.026871653127035443,
+    "daysSinceLastMatchDiff": 0.06172463345632292,
+    "eloA": 0.0694259556833068,
+    "eloB": -0.011894111494534641,
+    "eloDiff": 0.06615811825684514,
+    "eventTier": -0.04558259978940319,
+    "h2hMatches": -0.11885412226152603,
+    "h2hWinRateA": 0.10203524035867945,
+    "h2hWinRateDiff": 0.1020352403586799,
+    "isBo1": -0.02477254757510012,
+    "isBo3": -0.0820985840489922,
+    "isBo5": 0.02264691230652447,
+    "isTier1": 0.006123915682657439,
+    "isTier2": 0.04921146568005968,
+    "leagueAvgWinnerElo": 0.07003485973460076,
+    "leagueMatches": -0.04971013226078776,
+    "logDaysSinceLastMatchA": 0.012305980653371514,
+    "logDaysSinceLastMatchB": 0.03979840067006583,
+    "logPriorMatchesA": 0.32164790760600687,
+    "logPriorMatchesB": -0.1906406954872586,
+    "mapDiff10A": 0.04672596382390427,
+    "mapDiff10B": 0.006110053143927411,
+    "mapDiff10Diff": 0.034208380431716263,
+    "mapDiff5A": 0.00622790443065798,
+    "mapDiff5B": -0.09129211856973142,
+    "mapDiff5Diff": 0.07810284610408891,
+    "mapWinRateA": 0.02406811134527045,
+    "mapWinRateB": -0.16680891949161733,
+    "mapWinRateDiff": 0.14895932873531567,
+    "priorMapsA": 0.025025704010402872,
+    "priorMapsB": -0.09195907274986709,
+    "priorMatchesA": -0.10873953594043231,
+    "priorMatchesB": -0.003614511312968677,
+    "recencyMapDiffA": 0.036472402815656994,
+    "recencyMapDiffB": -0.0628870102116637,
+    "recencyMapDiffDiff": 0.08359443986527997,
+    "recencyWinA": 0.04264528619147572,
+    "recencyWinB": 0.048409750138295744,
+    "recencyWinDiff": -0.002539759343108429,
+    "recent10A": 0.10838544485863877,
+    "recent10B": 0.11923626151515486,
+    "recent10Diff": -0.002794726440676425,
+    "recent5A": -0.07990574568369338,
+    "recent5B": -0.05735173025080943,
+    "recent5Diff": -0.022218458772693423,
+    "teamAEloVsLeague": 0.045780864798542105,
+    "teamBEloVsLeague": -0.037407929192278096,
+    "winRateA": -0.08601545503933179,
+    "winRateB": 0.08649742581415429,
+    "winRateDiff": -0.13812040169234568
+  },
+  "scalers": {
+    "bestOf": {
+      "mean": 3.0351784790481116,
+      "std": 0.7248482594205726
+    },
+    "daysSinceLastMatchA": {
+      "mean": 9.075012933264356,
+      "std": 17.962225742045813
+    },
+    "daysSinceLastMatchB": {
+      "mean": 7.978272115882048,
+      "std": 16.776999495402432
+    },
+    "daysSinceLastMatchDiff": {
+      "mean": 1.0967408173823072,
+      "std": 16.775239024176063
+    },
+    "eloA": {
+      "mean": 1529.2015155872336,
+      "std": 70.28692663682922
+    },
+    "eloB": {
+      "mean": 1521.2055254118998,
+      "std": 65.59551619285597
+    },
+    "eloDiff": {
+      "mean": 7.995990175333515,
+      "std": 85.55166903281912
+    },
+    "eventTier": {
+      "mean": 1.7527159855147438,
+      "std": 0.6700287772757765
+    },
+    "h2hMatches": {
+      "mean": 0.6166580444904294,
+      "std": 0.9391589095054014
+    },
+    "h2hWinRateA": {
+      "mean": 0.5500024634789252,
+      "std": 0.2875725522114283
+    },
+    "h2hWinRateDiff": {
+      "mean": 0.05000246347892492,
+      "std": 0.2875725522114271
+    },
+    "isBo1": {
+      "mean": 0.05587170201758924,
+      "std": 0.22967380114250976
+    },
+    "isBo3": {
+      "mean": 0.8660113812726332,
+      "std": 0.3406400868642699
+    },
+    "isBo5": {
+      "mean": 0.07501293326435593,
+      "std": 0.2634122113863323
+    },
+    "isTier1": {
+      "mean": 0.3786859803414382,
+      "std": 0.4850596959491508
+    },
+    "isTier2": {
+      "mean": 0.48991205380237973,
+      "std": 0.49989822298295894
+    },
+    "leagueAvgWinnerElo": {
+      "mean": 1543.484719938623,
+      "std": 24.155149327531188
+    },
+    "leagueMatches": {
+      "mean": 518.4490429384376,
+      "std": 349.89956450521066
+    },
+    "logDaysSinceLastMatchA": {
+      "mean": 1.6513370993056344,
+      "std": 1.0044928600330612
+    },
+    "logDaysSinceLastMatchB": {
+      "mean": 1.5365566444188776,
+      "std": 0.9799570094470084
+    },
+    "logPriorMatchesA": {
+      "mean": 2.347380815243013,
+      "std": 0.7075536616558982
+    },
+    "logPriorMatchesB": {
+      "mean": 2.310035627042471,
+      "std": 0.7168871472656085
+    },
+    "mapDiff10A": {
+      "mean": 0.1660588032419379,
+      "std": 0.8172184399613597
+    },
+    "mapDiff10B": {
+      "mean": 0.07521042215817171,
+      "std": 0.7596668179951354
+    },
+    "mapDiff10Diff": {
+      "mean": 0.09084838108376637,
+      "std": 0.9805700886421814
+    },
+    "mapDiff5A": {
+      "mean": 0.14395585445766487,
+      "std": 0.917513896457351
+    },
+    "mapDiff5B": {
+      "mean": 0.07949646490774286,
+      "std": 0.8614718689870718
+    },
+    "mapDiff5Diff": {
+      "mean": 0.06445938954992227,
+      "std": 1.080111482193176
+    },
+    "mapWinRateA": {
+      "mean": 0.5328459485958005,
+      "std": 0.17133738958641487
+    },
+    "mapWinRateB": {
+      "mean": 0.5128561423521593,
+      "std": 0.1625392674518536
+    },
+    "mapWinRateDiff": {
+      "mean": 0.019989806243642314,
+      "std": 0.20969997122020256
+    },
+    "priorMapsA": {
+      "mean": 29.745990688049663,
+      "std": 22.85019797632131
+    },
+    "priorMapsB": {
+      "mean": 28.800310398344543,
+      "std": 23.66380451195913
+    },
+    "priorMatchesA": {
+      "mean": 12.282979824107604,
+      "std": 9.34331706292477
+    },
+    "priorMatchesB": {
+      "mean": 11.97309881013968,
+      "std": 9.721326605275602
+    },
+    "recencyMapDiffA": {
+      "mean": 0.1335493965651325,
+      "std": 0.7038545767000999
+    },
+    "recencyMapDiffB": {
+      "mean": 0.0908507113857559,
+      "std": 0.6640735809703437
+    },
+    "recencyMapDiffDiff": {
+      "mean": 0.04269868517937647,
+      "std": 0.8066669245167701
+    },
+    "recencyWinA": {
+      "mean": 0.5360424869819972,
+      "std": 0.23599998721805046
+    },
+    "recencyWinB": {
+      "mean": 0.5323550007381885,
+      "std": 0.22171124903127729
+    },
+    "recencyWinDiff": {
+      "mean": 0.0036874862438075777,
+      "std": 0.2632923367993928
+    },
+    "recent10A": {
+      "mean": 0.5467863917424182,
+      "std": 0.23553057042839118
+    },
+    "recent10B": {
+      "mean": 0.5238189671454031,
+      "std": 0.22073023042596732
+    },
+    "recent10Diff": {
+      "mean": 0.02296742459701591,
+      "std": 0.2830194090443809
+    },
+    "recent5A": {
+      "mean": 0.5404035178479052,
+      "std": 0.26744157620610404
+    },
+    "recent5B": {
+      "mean": 0.526082083117778,
+      "std": 0.25164204712625643
+    },
+    "recent5Diff": {
+      "mean": 0.01432143473012585,
+      "std": 0.31226341295784327
+    },
+    "teamAEloVsLeague": {
+      "mean": -14.28320435139071,
+      "std": 69.6368356694738
+    },
+    "teamBEloVsLeague": {
+      "mean": -22.279194526724172,
+      "std": 66.07965026493687
+    },
+    "winRateA": {
+      "mean": 0.5471354705696382,
+      "std": 0.22154230286270787
+    },
+    "winRateB": {
+      "mean": 0.5259545889089892,
+      "std": 0.20999097351594265
+    },
+    "winRateDiff": {
+      "mean": 0.021180881660648854,
+      "std": 0.26947315666978194
+    }
+  },
+  "metrics": {
+    "train": {
+      "rows": 1933,
+      "accuracy": 0.632178,
+      "logLoss": 0.641306,
+      "brier": 0.225274,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 893,
+          "accuracy": 0.56551,
+          "avgConfidence": 0.547872
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 630,
+          "accuracy": 0.639683,
+          "avgConfidence": 0.647691
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 332,
+          "accuracy": 0.753012,
+          "avgConfidence": 0.740651
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 73,
+          "accuracy": 0.808219,
+          "avgConfidence": 0.838904
+        },
+        {
+          "bucket": "0.9-1",
+          "rows": 5,
+          "accuracy": 1,
+          "avgConfidence": 0.91158
+        }
+      ]
+    },
+    "validation": {
+      "rows": 453,
+      "accuracy": 0.607064,
+      "logLoss": 0.679442,
+      "brier": 0.241412,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 180,
+          "accuracy": 0.544444,
+          "avgConfidence": 0.551983
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 143,
+          "accuracy": 0.636364,
+          "avgConfidence": 0.652267
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 100,
+          "accuracy": 0.66,
+          "avgConfidence": 0.7483
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 26,
+          "accuracy": 0.653846,
+          "avgConfidence": 0.834248
+        },
+        {
+          "bucket": "0.9-1",
+          "rows": 4,
+          "accuracy": 0.75,
+          "avgConfidence": 0.923091
+        }
+      ]
+    }
+  },
+  "topCoefficients": [
+    {
+      "feature": "logPriorMatchesA",
+      "weight": 0.321648,
+      "abs": 0.32164790760600687
+    },
+    {
+      "feature": "logPriorMatchesB",
+      "weight": -0.190641,
+      "abs": 0.1906406954872586
+    },
+    {
+      "feature": "mapWinRateB",
+      "weight": -0.166809,
+      "abs": 0.16680891949161733
+    },
+    {
+      "feature": "mapWinRateDiff",
+      "weight": 0.148959,
+      "abs": 0.14895932873531567
+    },
+    {
+      "feature": "winRateDiff",
+      "weight": -0.13812,
+      "abs": 0.13812040169234568
+    },
+    {
+      "feature": "recent10B",
+      "weight": 0.119236,
+      "abs": 0.11923626151515486
+    },
+    {
+      "feature": "h2hMatches",
+      "weight": -0.118854,
+      "abs": 0.11885412226152603
+    },
+    {
+      "feature": "priorMatchesA",
+      "weight": -0.10874,
+      "abs": 0.10873953594043231
+    },
+    {
+      "feature": "recent10A",
+      "weight": 0.108385,
+      "abs": 0.10838544485863877
+    },
+    {
+      "feature": "h2hWinRateDiff",
+      "weight": 0.102035,
+      "abs": 0.1020352403586799
+    },
+    {
+      "feature": "h2hWinRateA",
+      "weight": 0.102035,
+      "abs": 0.10203524035867945
+    },
+    {
+      "feature": "priorMapsB",
+      "weight": -0.091959,
+      "abs": 0.09195907274986709
+    },
+    {
+      "feature": "mapDiff5B",
+      "weight": -0.091292,
+      "abs": 0.09129211856973142
+    },
+    {
+      "feature": "winRateB",
+      "weight": 0.086497,
+      "abs": 0.08649742581415429
+    },
+    {
+      "feature": "winRateA",
+      "weight": -0.086015,
+      "abs": 0.08601545503933179
+    },
+    {
+      "feature": "recencyMapDiffDiff",
+      "weight": 0.083594,
+      "abs": 0.08359443986527997
+    },
+    {
+      "feature": "isBo3",
+      "weight": -0.082099,
+      "abs": 0.0820985840489922
+    },
+    {
+      "feature": "recent5A",
+      "weight": -0.079906,
+      "abs": 0.07990574568369338
+    },
+    {
+      "feature": "mapDiff5Diff",
+      "weight": 0.078103,
+      "abs": 0.07810284610408891
+    },
+    {
+      "feature": "leagueAvgWinnerElo",
+      "weight": 0.070035,
+      "abs": 0.07003485973460076
+    },
+    {
+      "feature": "eloA",
+      "weight": 0.069426,
+      "abs": 0.0694259556833068
+    },
+    {
+      "feature": "eloDiff",
+      "weight": 0.066158,
+      "abs": 0.06615811825684514
+    },
+    {
+      "feature": "recencyMapDiffB",
+      "weight": -0.062887,
+      "abs": 0.0628870102116637
+    },
+    {
+      "feature": "daysSinceLastMatchDiff",
+      "weight": 0.061725,
+      "abs": 0.06172463345632292
+    }
+  ]
+}

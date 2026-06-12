@@ -1,0 +1,3768 @@
+{
+  "generatedAt": "2026-06-12T14:38:08.173Z",
+  "source": {
+    "trainingDataset": "static/data/training-dataset.json",
+    "rows": 2386,
+    "validationStart": "2026-05-01",
+    "validationEnd": null,
+    "epochs": 1200,
+    "learningRate": 0.055,
+    "l2": 0.003
+  },
+  "full": {
+    "features": 52,
+    "metrics": {
+      "rows": 453,
+      "accuracy": 0.600442,
+      "logLoss": 0.67987,
+      "brier": 0.241534,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 177,
+          "accuracy": 0.531073,
+          "avgConfidence": 0.551448
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 147,
+          "accuracy": 0.632653,
+          "avgConfidence": 0.652007
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 98,
+          "accuracy": 0.663265,
+          "avgConfidence": 0.74761
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 26,
+          "accuracy": 0.653846,
+          "avgConfidence": 0.83149
+        },
+        {
+          "bucket": "0.9-1",
+          "rows": 5,
+          "accuracy": 0.6,
+          "avgConfidence": 0.918403
+        }
+      ]
+    }
+  },
+  "groups": [
+    {
+      "id": "overall_rates",
+      "label": "Win rate i map rate",
+      "featureCount": 6,
+      "features": [
+        "winRateA",
+        "winRateB",
+        "winRateDiff",
+        "mapWinRateA",
+        "mapWinRateB",
+        "mapWinRateDiff"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.68048,
+        "brier": 0.24154,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 167,
+            "accuracy": 0.520958,
+            "avgConfidence": 0.550305
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 158,
+            "accuracy": 0.64557,
+            "avgConfidence": 0.64968
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.635417,
+            "avgConfidence": 0.748372
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 28,
+            "accuracy": 0.642857,
+            "avgConfidence": 0.837286
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.923864
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.618102,
+        "logLoss": 0.658396,
+        "brier": 0.233187,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 333,
+            "accuracy": 0.594595,
+            "avgConfidence": 0.544387
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 103,
+            "accuracy": 0.669903,
+            "avgConfidence": 0.637679
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 14,
+            "accuracy": 0.714286,
+            "avgConfidence": 0.729183
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 3,
+            "accuracy": 1,
+            "avgConfidence": 0.829349
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.00061,
+        "brier": 0.000006
+      }
+    },
+    {
+      "id": "elo",
+      "label": "Elo druzyn",
+      "featureCount": 3,
+      "features": [
+        "eloA",
+        "eloB",
+        "eloDiff"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.679718,
+        "brier": 0.241513,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.55103
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 149,
+            "accuracy": 0.624161,
+            "avgConfidence": 0.652162
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.65625,
+            "avgConfidence": 0.746851
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.830558
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.917771
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.620309,
+        "logLoss": 0.679703,
+        "brier": 0.241663,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 196,
+            "accuracy": 0.602041,
+            "avgConfidence": 0.547613
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 155,
+            "accuracy": 0.664516,
+            "avgConfidence": 0.647597
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 79,
+            "accuracy": 0.56962,
+            "avgConfidence": 0.749192
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.636364,
+            "avgConfidence": 0.842694
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 1,
+            "accuracy": 1,
+            "avgConfidence": 0.915201
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": -0.000152,
+        "brier": -0.000021
+      }
+    },
+    {
+      "id": "match_format",
+      "label": "Format meczu",
+      "featureCount": 4,
+      "features": [
+        "bestOf",
+        "isBo1",
+        "isBo3",
+        "isBo5"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.677501,
+        "brier": 0.240784,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 176,
+            "accuracy": 0.551136,
+            "avgConfidence": 0.552008
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 158,
+            "accuracy": 0.613924,
+            "avgConfidence": 0.651894
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 90,
+            "accuracy": 0.655556,
+            "avgConfidence": 0.748908
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.64,
+            "avgConfidence": 0.833615
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.921411
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.551876,
+        "logLoss": 0.690328,
+        "brier": 0.248582,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 453,
+            "accuracy": 0.551876,
+            "avgConfidence": 0.532059
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": -0.002369,
+        "brier": -0.00075
+      }
+    },
+    {
+      "id": "recent_wins",
+      "label": "Ostatnie wygrane",
+      "featureCount": 9,
+      "features": [
+        "recent5A",
+        "recent5B",
+        "recent5Diff",
+        "recent10A",
+        "recent10B",
+        "recent10Diff",
+        "recencyWinA",
+        "recencyWinB",
+        "recencyWinDiff"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.678784,
+        "brier": 0.241175,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.537143,
+            "avgConfidence": 0.549505
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 154,
+            "accuracy": 0.642857,
+            "avgConfidence": 0.652126
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 93,
+            "accuracy": 0.645161,
+            "avgConfidence": 0.747134
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 27,
+            "accuracy": 0.62963,
+            "avgConfidence": 0.833406
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.919746
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.578366,
+        "logLoss": 0.668175,
+        "brier": 0.238073,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 301,
+            "accuracy": 0.528239,
+            "avgConfidence": 0.546896
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 130,
+            "accuracy": 0.669231,
+            "avgConfidence": 0.643151
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 19,
+            "accuracy": 0.684211,
+            "avgConfidence": 0.739781
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 3,
+            "accuracy": 1,
+            "avgConfidence": 0.807005
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.001086,
+        "brier": -0.000359
+      }
+    },
+    {
+      "id": "recent_maps",
+      "label": "Ostatnia roznica map",
+      "featureCount": 9,
+      "features": [
+        "mapDiff5A",
+        "mapDiff5B",
+        "mapDiff5Diff",
+        "mapDiff10A",
+        "mapDiff10B",
+        "mapDiff10Diff",
+        "recencyMapDiffA",
+        "recencyMapDiffB",
+        "recencyMapDiffDiff"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.679184,
+        "brier": 0.241727,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 187,
+            "accuracy": 0.561497,
+            "avgConfidence": 0.550676
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 139,
+            "accuracy": 0.597122,
+            "avgConfidence": 0.651843
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 104,
+            "accuracy": 0.663462,
+            "avgConfidence": 0.747389
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 21,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.843573
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 2,
+            "accuracy": 1,
+            "avgConfidence": 0.917332
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.593819,
+        "logLoss": 0.662222,
+        "brier": 0.235042,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 272,
+            "accuracy": 0.540441,
+            "avgConfidence": 0.54876
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 143,
+            "accuracy": 0.657343,
+            "avgConfidence": 0.643328
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 30,
+            "accuracy": 0.7,
+            "avgConfidence": 0.732434
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 8,
+            "accuracy": 0.875,
+            "avgConfidence": 0.834143
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.000686,
+        "brier": 0.000193
+      }
+    },
+    {
+      "id": "rest",
+      "label": "Przerwa od meczu",
+      "featureCount": 5,
+      "features": [
+        "daysSinceLastMatchA",
+        "daysSinceLastMatchB",
+        "daysSinceLastMatchDiff",
+        "logDaysSinceLastMatchA",
+        "logDaysSinceLastMatchB"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.677744,
+        "brier": 0.240541,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 176,
+            "accuracy": 0.539773,
+            "avgConfidence": 0.549776
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 151,
+            "accuracy": 0.635762,
+            "avgConfidence": 0.651969
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.656566,
+            "avgConfidence": 0.748382
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.636364,
+            "avgConfidence": 0.834842
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.8,
+            "avgConfidence": 0.921158
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.551876,
+        "logLoss": 0.688382,
+        "brier": 0.247619,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 452,
+            "accuracy": 0.553097,
+            "avgConfidence": 0.531086
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 1,
+            "accuracy": 0,
+            "avgConfidence": 0.604226
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.002126,
+        "brier": -0.000993
+      }
+    },
+    {
+      "id": "league_context",
+      "label": "Kontekst ligi",
+      "featureCount": 4,
+      "features": [
+        "leagueMatches",
+        "leagueAvgWinnerElo",
+        "teamAEloVsLeague",
+        "teamBEloVsLeague"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.681005,
+        "brier": 0.241893,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 173,
+            "accuracy": 0.554913,
+            "avgConfidence": 0.548441
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.619048,
+            "avgConfidence": 0.648511
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 104,
+            "accuracy": 0.673077,
+            "avgConfidence": 0.746246
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 24,
+            "accuracy": 0.625,
+            "avgConfidence": 0.835725
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.917129
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.680869,
+        "brier": 0.242551,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 206,
+            "accuracy": 0.582524,
+            "avgConfidence": 0.546334
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 141,
+            "accuracy": 0.617021,
+            "avgConfidence": 0.650514
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 84,
+            "accuracy": 0.654762,
+            "avgConfidence": 0.744331
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 20,
+            "accuracy": 0.55,
+            "avgConfidence": 0.840022
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 2,
+            "accuracy": 1,
+            "avgConfidence": 0.911135
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": 0.001135,
+        "brier": 0.000359
+      }
+    },
+    {
+      "id": "event_tier",
+      "label": "Tier eventu",
+      "featureCount": 3,
+      "features": [
+        "eventTier",
+        "isTier1",
+        "isTier2"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.676977,
+        "brier": 0.240332,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 164,
+            "accuracy": 0.54878,
+            "avgConfidence": 0.550173
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 160,
+            "accuracy": 0.63125,
+            "avgConfidence": 0.648702
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 100,
+            "accuracy": 0.66,
+            "avgConfidence": 0.747084
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.6,
+            "avgConfidence": 0.833323
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.919201
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.551876,
+        "logLoss": 0.688797,
+        "brier": 0.247828,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 453,
+            "accuracy": 0.551876,
+            "avgConfidence": 0.52971
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.002893,
+        "brier": -0.001202
+      }
+    },
+    {
+      "id": "sample_depth",
+      "label": "Glebokosc historii",
+      "featureCount": 6,
+      "features": [
+        "priorMatchesA",
+        "priorMatchesB",
+        "priorMapsA",
+        "priorMapsB",
+        "logPriorMatchesA",
+        "logPriorMatchesB"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.613687,
+        "logLoss": 0.676506,
+        "brier": 0.240567,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 188,
+            "accuracy": 0.574468,
+            "avgConfidence": 0.546057
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 131,
+            "accuracy": 0.671756,
+            "avgConfidence": 0.649591
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 108,
+            "accuracy": 0.583333,
+            "avgConfidence": 0.745085
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.695652,
+            "avgConfidence": 0.843432
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 1,
+            "avgConfidence": 0.937252
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.536424,
+        "logLoss": 0.7005,
+        "brier": 0.252763,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 284,
+            "accuracy": 0.514085,
+            "avgConfidence": 0.547763
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 125,
+            "accuracy": 0.568,
+            "avgConfidence": 0.642426
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 34,
+            "accuracy": 0.647059,
+            "avgConfidence": 0.739565
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 10,
+            "accuracy": 0.4,
+            "avgConfidence": 0.828156
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.013245,
+        "logLoss": -0.003364,
+        "brier": -0.000967
+      }
+    },
+    {
+      "id": "h2h",
+      "label": "Head to head",
+      "featureCount": 3,
+      "features": [
+        "h2hMatches",
+        "h2hWinRateA",
+        "h2hWinRateDiff"
+      ],
+      "full": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "without": {
+        "rows": 453,
+        "accuracy": 0.618102,
+        "logLoss": 0.675184,
+        "brier": 0.239508,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 186,
+            "accuracy": 0.55914,
+            "avgConfidence": 0.545862
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 158,
+            "accuracy": 0.683544,
+            "avgConfidence": 0.649732
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 83,
+            "accuracy": 0.60241,
+            "avgConfidence": 0.743384
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.695652,
+            "avgConfidence": 0.828795
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.913565
+          }
+        ]
+      },
+      "only": {
+        "rows": 453,
+        "accuracy": 0.562914,
+        "logLoss": 0.68729,
+        "brier": 0.246967,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 245,
+            "accuracy": 0.546939,
+            "avgConfidence": 0.535788
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 203,
+            "accuracy": 0.586207,
+            "avgConfidence": 0.638532
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 5,
+            "accuracy": 0.4,
+            "avgConfidence": 0.71631
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.01766,
+        "logLoss": -0.004686,
+        "brier": -0.002026
+      }
+    }
+  ],
+  "features": [
+    {
+      "feature": "logPriorMatchesB",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.576159,
+        "logLoss": 0.684323,
+        "brier": 0.244417,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 184,
+            "accuracy": 0.516304,
+            "avgConfidence": 0.545329
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 149,
+            "accuracy": 0.590604,
+            "avgConfidence": 0.648388
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 94,
+            "accuracy": 0.62766,
+            "avgConfidence": 0.745869
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.727273,
+            "avgConfidence": 0.836837
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.925122
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.024283,
+        "logLoss": 0.004453,
+        "brier": 0.002883
+      }
+    },
+    {
+      "feature": "priorMapsB",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.587196,
+        "logLoss": 0.681895,
+        "brier": 0.243326,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 187,
+            "accuracy": 0.529412,
+            "avgConfidence": 0.546821
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.601351,
+            "avgConfidence": 0.649623
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 91,
+            "accuracy": 0.648352,
+            "avgConfidence": 0.744752
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 24,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.832708
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 1,
+            "avgConfidence": 0.931887
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.013246,
+        "logLoss": 0.002025,
+        "brier": 0.001792
+      }
+    },
+    {
+      "feature": "mapDiff5B",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.589404,
+        "logLoss": 0.685299,
+        "brier": 0.24433,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 178,
+            "accuracy": 0.550562,
+            "avgConfidence": 0.551652
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 145,
+            "accuracy": 0.593103,
+            "avgConfidence": 0.649254
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 107,
+            "accuracy": 0.635514,
+            "avgConfidence": 0.746603
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 19,
+            "accuracy": 0.631579,
+            "avgConfidence": 0.838606
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.907141
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.011038,
+        "logLoss": 0.005429,
+        "brier": 0.002796
+      }
+    },
+    {
+      "feature": "winRateA",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.589404,
+        "logLoss": 0.685389,
+        "brier": 0.243873,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 171,
+            "accuracy": 0.520468,
+            "avgConfidence": 0.551407
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 141,
+            "accuracy": 0.609929,
+            "avgConfidence": 0.651058
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 105,
+            "accuracy": 0.647619,
+            "avgConfidence": 0.745928
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 31,
+            "accuracy": 0.677419,
+            "avgConfidence": 0.835583
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.924788
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.011038,
+        "logLoss": 0.005519,
+        "brier": 0.002339
+      }
+    },
+    {
+      "feature": "h2hMatches",
+      "group": "h2h",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.593819,
+        "logLoss": 0.684903,
+        "brier": 0.243566,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 180,
+            "accuracy": 0.522222,
+            "avgConfidence": 0.545524
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 145,
+            "accuracy": 0.627586,
+            "avgConfidence": 0.650942
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 87,
+            "accuracy": 0.678161,
+            "avgConfidence": 0.743639
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 37,
+            "accuracy": 0.594595,
+            "avgConfidence": 0.830511
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.918058
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.006623,
+        "logLoss": 0.005033,
+        "brier": 0.002032
+      }
+    },
+    {
+      "feature": "isBo3",
+      "group": "match_format",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.593819,
+        "logLoss": 0.677361,
+        "brier": 0.240487,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 170,
+            "accuracy": 0.5,
+            "avgConfidence": 0.551668
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 155,
+            "accuracy": 0.645161,
+            "avgConfidence": 0.649868
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 95,
+            "accuracy": 0.642105,
+            "avgConfidence": 0.745042
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 28,
+            "accuracy": 0.714286,
+            "avgConfidence": 0.830018
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.006623,
+        "logLoss": -0.002509,
+        "brier": -0.001047
+      }
+    },
+    {
+      "feature": "mapWinRateB",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.593819,
+        "logLoss": 0.688848,
+        "brier": 0.24595,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 179,
+            "accuracy": 0.569832,
+            "avgConfidence": 0.547537
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 155,
+            "accuracy": 0.574194,
+            "avgConfidence": 0.650815
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 93,
+            "accuracy": 0.645161,
+            "avgConfidence": 0.746885
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 24,
+            "accuracy": 0.708333,
+            "avgConfidence": 0.841706
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 2,
+            "accuracy": 0.5,
+            "avgConfidence": 0.917478
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.006623,
+        "logLoss": 0.008978,
+        "brier": 0.004416
+      }
+    },
+    {
+      "feature": "isTier2",
+      "group": "event_tier",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.596026,
+        "logLoss": 0.679003,
+        "brier": 0.241231,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.52,
+            "avgConfidence": 0.548869
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.62585,
+            "avgConfidence": 0.651844
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.673267,
+            "avgConfidence": 0.748183
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.615385,
+            "avgConfidence": 0.833381
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.925962
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.004416,
+        "logLoss": -0.000867,
+        "brier": -0.000303
+      }
+    },
+    {
+      "feature": "leagueMatches",
+      "group": "league_context",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.596026,
+        "logLoss": 0.685385,
+        "brier": 0.243588,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 168,
+            "accuracy": 0.517857,
+            "avgConfidence": 0.55152
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 153,
+            "accuracy": 0.614379,
+            "avgConfidence": 0.65056
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.701031,
+            "avgConfidence": 0.746909
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 29,
+            "accuracy": 0.586207,
+            "avgConfidence": 0.832056
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 6,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.91852
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.004416,
+        "logLoss": 0.005515,
+        "brier": 0.002054
+      }
+    },
+    {
+      "feature": "logDaysSinceLastMatchB",
+      "group": "rest",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.596026,
+        "logLoss": 0.678492,
+        "brier": 0.241002,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.508571,
+            "avgConfidence": 0.550603
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 151,
+            "accuracy": 0.649007,
+            "avgConfidence": 0.651761
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.646465,
+            "avgConfidence": 0.750352
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 24,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.835963
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.924131
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.004416,
+        "logLoss": -0.001378,
+        "brier": -0.000532
+      }
+    },
+    {
+      "feature": "logPriorMatchesA",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.683157,
+        "brier": 0.241933,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 162,
+            "accuracy": 0.5,
+            "avgConfidence": 0.550367
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 155,
+            "accuracy": 0.670968,
+            "avgConfidence": 0.648475
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 90,
+            "accuracy": 0.644444,
+            "avgConfidence": 0.744699
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 41,
+            "accuracy": 0.634146,
+            "avgConfidence": 0.834372
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.4,
+            "avgConfidence": 0.914852
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.003287,
+        "brier": 0.000399
+      }
+    },
+    {
+      "feature": "priorMatchesA",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.687165,
+        "brier": 0.24504,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.554286,
+            "avgConfidence": 0.548888
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 141,
+            "accuracy": 0.602837,
+            "avgConfidence": 0.653959
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.628866,
+            "avgConfidence": 0.746609
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 36,
+            "accuracy": 0.694444,
+            "avgConfidence": 0.834162
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.92559
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.007295,
+        "brier": 0.003506
+      }
+    },
+    {
+      "feature": "recent10Diff",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.68045,
+        "brier": 0.241703,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 176,
+            "accuracy": 0.522727,
+            "avgConfidence": 0.551305
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 145,
+            "accuracy": 0.634483,
+            "avgConfidence": 0.652447
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.663366,
+            "avgConfidence": 0.748034
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.834482
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.921656
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.00058,
+        "brier": 0.000169
+      }
+    },
+    {
+      "feature": "recent5A",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.687447,
+        "brier": 0.244688,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 169,
+            "accuracy": 0.544379,
+            "avgConfidence": 0.548626
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.643836,
+            "avgConfidence": 0.653584
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 103,
+            "accuracy": 0.61165,
+            "avgConfidence": 0.747864
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 30,
+            "accuracy": 0.633333,
+            "avgConfidence": 0.838895
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.926253
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.007577,
+        "brier": 0.003154
+      }
+    },
+    {
+      "feature": "winRateDiff",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.598234,
+        "logLoss": 0.685399,
+        "brier": 0.243422,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 160,
+            "accuracy": 0.5125,
+            "avgConfidence": 0.550753
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 137,
+            "accuracy": 0.613139,
+            "avgConfidence": 0.651015
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 113,
+            "accuracy": 0.672566,
+            "avgConfidence": 0.74535
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 37,
+            "accuracy": 0.675676,
+            "avgConfidence": 0.838025
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 6,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.932569
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0.002208,
+        "logLoss": 0.005529,
+        "brier": 0.001888
+      }
+    },
+    {
+      "feature": "bestOf",
+      "group": "match_format",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.679892,
+        "brier": 0.241543,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551432
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652018
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.747627
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.831498
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.000022,
+        "brier": 0.000009
+      }
+    },
+    {
+      "feature": "eloB",
+      "group": "elo",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.68016,
+        "brier": 0.241762,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 179,
+            "accuracy": 0.536313,
+            "avgConfidence": 0.551315
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.628378,
+            "avgConfidence": 0.652454
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.65625,
+            "avgConfidence": 0.747731
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.833974
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.920742
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.00029,
+        "brier": 0.000228
+      }
+    },
+    {
+      "feature": "eloDiff",
+      "group": "elo",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67624,
+        "brier": 0.24049,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 171,
+            "accuracy": 0.561404,
+            "avgConfidence": 0.54531
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 177,
+            "accuracy": 0.59887,
+            "avgConfidence": 0.645337
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 83,
+            "accuracy": 0.662651,
+            "avgConfidence": 0.747226
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 19,
+            "accuracy": 0.684211,
+            "avgConfidence": 0.835479
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.908682
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": -0.00363,
+        "brier": -0.001044
+      }
+    },
+    {
+      "feature": "isBo1",
+      "group": "match_format",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.67987,
+        "brier": 0.241534,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652007
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.74761
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.83149
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0,
+        "brier": 0
+      }
+    },
+    {
+      "feature": "isTier1",
+      "group": "event_tier",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.679667,
+        "brier": 0.241454,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 176,
+            "accuracy": 0.528409,
+            "avgConfidence": 0.551437
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 149,
+            "accuracy": 0.630872,
+            "avgConfidence": 0.651644
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.670103,
+            "avgConfidence": 0.747844
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.831243
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.917876
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": -0.000203,
+        "brier": -0.00008
+      }
+    },
+    {
+      "feature": "mapDiff10B",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.68,
+        "brier": 0.241603,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 178,
+            "accuracy": 0.533708,
+            "avgConfidence": 0.551716
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.652554
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.659794,
+            "avgConfidence": 0.747915
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 27,
+            "accuracy": 0.62963,
+            "avgConfidence": 0.833847
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.922413
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.00013,
+        "brier": 0.000069
+      }
+    },
+    {
+      "feature": "mapWinRateDiff",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.680131,
+        "brier": 0.24198,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 179,
+            "accuracy": 0.569832,
+            "avgConfidence": 0.548093
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 162,
+            "accuracy": 0.598765,
+            "avgConfidence": 0.644294
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 89,
+            "accuracy": 0.640449,
+            "avgConfidence": 0.745519
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.727273,
+            "avgConfidence": 0.841658
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 1,
+            "accuracy": 0,
+            "avgConfidence": 0.907957
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.000261,
+        "brier": 0.000446
+      }
+    },
+    {
+      "feature": "recencyWinDiff",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.680245,
+        "brier": 0.241675,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 178,
+            "accuracy": 0.533708,
+            "avgConfidence": 0.551725
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 145,
+            "accuracy": 0.627586,
+            "avgConfidence": 0.652757
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 100,
+            "accuracy": 0.66,
+            "avgConfidence": 0.748339
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.68,
+            "avgConfidence": 0.833934
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.919434
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.000375,
+        "brier": 0.000141
+      }
+    },
+    {
+      "feature": "recent5Diff",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.681287,
+        "brier": 0.242045,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 171,
+            "accuracy": 0.532164,
+            "avgConfidence": 0.549342
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.651659
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 102,
+            "accuracy": 0.647059,
+            "avgConfidence": 0.746726
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 28,
+            "accuracy": 0.678571,
+            "avgConfidence": 0.83481
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.923128
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.001417,
+        "brier": 0.000511
+      }
+    },
+    {
+      "feature": "teamBEloVsLeague",
+      "group": "league_context",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.600442,
+        "logLoss": 0.68025,
+        "brier": 0.242071,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 173,
+            "accuracy": 0.537572,
+            "avgConfidence": 0.546853
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 157,
+            "accuracy": 0.636943,
+            "avgConfidence": 0.647222
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.645833,
+            "avgConfidence": 0.744802
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.608696,
+            "avgConfidence": 0.833771
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.91371
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": 0,
+        "logLoss": 0.00038,
+        "brier": 0.000537
+      }
+    },
+    {
+      "feature": "daysSinceLastMatchA",
+      "group": "rest",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.678746,
+        "brier": 0.241051,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.531073,
+            "avgConfidence": 0.551188
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.636986,
+            "avgConfidence": 0.652135
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.663366,
+            "avgConfidence": 0.747953
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.64,
+            "avgConfidence": 0.834969
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.923953
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.001124,
+        "brier": -0.000483
+      }
+    },
+    {
+      "feature": "logDaysSinceLastMatchA",
+      "group": "rest",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.679236,
+        "brier": 0.241252,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.55135
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.636986,
+            "avgConfidence": 0.651632
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.653465,
+            "avgConfidence": 0.748133
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.64,
+            "avgConfidence": 0.835539
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.923593
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.000634,
+        "brier": -0.000282
+      }
+    },
+    {
+      "feature": "mapDiff10Diff",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.67863,
+        "brier": 0.241233,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.559322,
+            "avgConfidence": 0.550672
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 156,
+            "accuracy": 0.628205,
+            "avgConfidence": 0.64971
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 94,
+            "accuracy": 0.62766,
+            "avgConfidence": 0.749098
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.652174,
+            "avgConfidence": 0.835061
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.915137
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.00124,
+        "brier": -0.000301
+      }
+    },
+    {
+      "feature": "mapDiff5A",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.67978,
+        "brier": 0.241496,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.551448
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 147,
+            "accuracy": 0.632653,
+            "avgConfidence": 0.651898
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.663265,
+            "avgConfidence": 0.747525
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.831333
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918274
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.00009,
+        "brier": -0.000038
+      }
+    },
+    {
+      "feature": "mapWinRateA",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.602649,
+        "logLoss": 0.678756,
+        "brier": 0.241047,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.542857,
+            "avgConfidence": 0.550605
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 152,
+            "accuracy": 0.625,
+            "avgConfidence": 0.650948
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 95,
+            "accuracy": 0.663158,
+            "avgConfidence": 0.747433
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 27,
+            "accuracy": 0.62963,
+            "avgConfidence": 0.831793
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.920404
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.002207,
+        "logLoss": -0.001114,
+        "brier": -0.000487
+      }
+    },
+    {
+      "feature": "eloA",
+      "group": "elo",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.67293,
+        "brier": 0.23854,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 182,
+            "accuracy": 0.543956,
+            "avgConfidence": 0.552044
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 157,
+            "accuracy": 0.643312,
+            "avgConfidence": 0.649682
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 91,
+            "accuracy": 0.637363,
+            "avgConfidence": 0.750945
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 19,
+            "accuracy": 0.684211,
+            "avgConfidence": 0.835267
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.916243
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.00694,
+        "brier": -0.002994
+      }
+    },
+    {
+      "feature": "mapDiff10A",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.675801,
+        "brier": 0.239855,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 180,
+            "accuracy": 0.555556,
+            "avgConfidence": 0.551319
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 154,
+            "accuracy": 0.636364,
+            "avgConfidence": 0.651866
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 92,
+            "accuracy": 0.630435,
+            "avgConfidence": 0.750531
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.652174,
+            "avgConfidence": 0.830658
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.915772
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.004069,
+        "brier": -0.001679
+      }
+    },
+    {
+      "feature": "mapDiff5Diff",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.67735,
+        "brier": 0.240763,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 181,
+            "accuracy": 0.563536,
+            "avgConfidence": 0.550863
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 152,
+            "accuracy": 0.605263,
+            "avgConfidence": 0.646873
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.653061,
+            "avgConfidence": 0.747689
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 20,
+            "accuracy": 0.75,
+            "avgConfidence": 0.839598
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 2,
+            "accuracy": 0.5,
+            "avgConfidence": 0.907029
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.00252,
+        "brier": -0.000771
+      }
+    },
+    {
+      "feature": "priorMapsA",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.678232,
+        "brier": 0.240672,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.552733
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 150,
+            "accuracy": 0.653333,
+            "avgConfidence": 0.650466
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.635417,
+            "avgConfidence": 0.748578
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.68,
+            "avgConfidence": 0.831121
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.917909
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.001638,
+        "brier": -0.000862
+      }
+    },
+    {
+      "feature": "priorMatchesB",
+      "group": "sample_depth",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.679721,
+        "brier": 0.241838,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 180,
+            "accuracy": 0.538889,
+            "avgConfidence": 0.549237
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.662162,
+            "avgConfidence": 0.651099
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.626263,
+            "avgConfidence": 0.74764
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.636364,
+            "avgConfidence": 0.835617
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.922768
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.000149,
+        "brier": 0.000304
+      }
+    },
+    {
+      "feature": "recencyMapDiffA",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.675289,
+        "brier": 0.239633,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.551517
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 156,
+            "accuracy": 0.653846,
+            "avgConfidence": 0.650257
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 94,
+            "accuracy": 0.62766,
+            "avgConfidence": 0.749719
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.681818,
+            "avgConfidence": 0.832299
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.916204
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.004581,
+        "brier": -0.001901
+      }
+    },
+    {
+      "feature": "recencyMapDiffB",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.682778,
+        "brier": 0.243114,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 183,
+            "accuracy": 0.584699,
+            "avgConfidence": 0.550667
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 144,
+            "accuracy": 0.597222,
+            "avgConfidence": 0.652954
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.633663,
+            "avgConfidence": 0.748265
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 21,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.83696
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.909113
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": 0.002908,
+        "brier": 0.00158
+      }
+    },
+    {
+      "feature": "recencyWinA",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.676144,
+        "brier": 0.239978,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 177,
+            "accuracy": 0.536723,
+            "avgConfidence": 0.552061
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 153,
+            "accuracy": 0.653595,
+            "avgConfidence": 0.650629
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 94,
+            "accuracy": 0.638298,
+            "avgConfidence": 0.74806
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.64,
+            "avgConfidence": 0.830603
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.918703
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.003726,
+        "brier": -0.001556
+      }
+    },
+    {
+      "feature": "recencyWinB",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.679049,
+        "brier": 0.24105,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 171,
+            "accuracy": 0.532164,
+            "avgConfidence": 0.550668
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.621622,
+            "avgConfidence": 0.651673
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.69697,
+            "avgConfidence": 0.74586
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 31,
+            "accuracy": 0.612903,
+            "avgConfidence": 0.83355
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.929795
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.000821,
+        "brier": -0.000484
+      }
+    },
+    {
+      "feature": "recent10B",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.675905,
+        "brier": 0.239363,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 170,
+            "accuracy": 0.523529,
+            "avgConfidence": 0.54889
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 141,
+            "accuracy": 0.64539,
+            "avgConfidence": 0.653954
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 105,
+            "accuracy": 0.657143,
+            "avgConfidence": 0.746042
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 32,
+            "accuracy": 0.6875,
+            "avgConfidence": 0.837285
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.934137
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": -0.003965,
+        "brier": -0.002171
+      }
+    },
+    {
+      "feature": "recent5B",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.604857,
+        "logLoss": 0.681888,
+        "brier": 0.24256,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 181,
+            "accuracy": 0.558011,
+            "avgConfidence": 0.552099
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 145,
+            "accuracy": 0.634483,
+            "avgConfidence": 0.652169
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.626263,
+            "avgConfidence": 0.748104
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 23,
+            "accuracy": 0.695652,
+            "avgConfidence": 0.831797
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.91363
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.004415,
+        "logLoss": 0.002018,
+        "brier": 0.001026
+      }
+    },
+    {
+      "feature": "daysSinceLastMatchB",
+      "group": "rest",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.680535,
+        "brier": 0.24176,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 179,
+            "accuracy": 0.547486,
+            "avgConfidence": 0.551939
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.630137,
+            "avgConfidence": 0.653282
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.677083,
+            "avgConfidence": 0.747817
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 27,
+            "accuracy": 0.62963,
+            "avgConfidence": 0.831732
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.91812
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": 0.000665,
+        "brier": 0.000226
+      }
+    },
+    {
+      "feature": "daysSinceLastMatchDiff",
+      "group": "rest",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.679129,
+        "brier": 0.241064,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 178,
+            "accuracy": 0.539326,
+            "avgConfidence": 0.551449
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.630137,
+            "avgConfidence": 0.653532
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 99,
+            "accuracy": 0.676768,
+            "avgConfidence": 0.748333
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 25,
+            "accuracy": 0.68,
+            "avgConfidence": 0.832567
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.919089
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.000741,
+        "brier": -0.00047
+      }
+    },
+    {
+      "feature": "eventTier",
+      "group": "event_tier",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.677226,
+        "brier": 0.240525,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 169,
+            "accuracy": 0.538462,
+            "avgConfidence": 0.549859
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 158,
+            "accuracy": 0.632911,
+            "avgConfidence": 0.647977
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 96,
+            "accuracy": 0.677083,
+            "avgConfidence": 0.748034
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 26,
+            "accuracy": 0.615385,
+            "avgConfidence": 0.831458
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.918114
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.002644,
+        "brier": -0.001009
+      }
+    },
+    {
+      "feature": "isBo5",
+      "group": "match_format",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.678475,
+        "brier": 0.240941,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 175,
+            "accuracy": 0.537143,
+            "avgConfidence": 0.551968
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 149,
+            "accuracy": 0.644295,
+            "avgConfidence": 0.651038
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.659794,
+            "avgConfidence": 0.745913
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 27,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.829854
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.918403
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.001395,
+        "brier": -0.000593
+      }
+    },
+    {
+      "feature": "leagueAvgWinnerElo",
+      "group": "league_context",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.676033,
+        "brier": 0.2398,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 180,
+            "accuracy": 0.55,
+            "avgConfidence": 0.551083
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 152,
+            "accuracy": 0.631579,
+            "avgConfidence": 0.650269
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 84,
+            "accuracy": 0.654762,
+            "avgConfidence": 0.746107
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 33,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.828675
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.920488
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.003837,
+        "brier": -0.001734
+      }
+    },
+    {
+      "feature": "recent10A",
+      "group": "recent_wins",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.607064,
+        "logLoss": 0.672993,
+        "brier": 0.238709,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 179,
+            "accuracy": 0.558659,
+            "avgConfidence": 0.551066
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 157,
+            "accuracy": 0.636943,
+            "avgConfidence": 0.649861
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.628866,
+            "avgConfidence": 0.752397
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 17,
+            "accuracy": 0.705882,
+            "avgConfidence": 0.842156
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 3,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.918543
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.006622,
+        "logLoss": -0.006877,
+        "brier": -0.002825
+      }
+    },
+    {
+      "feature": "recencyMapDiffDiff",
+      "group": "recent_maps",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.609272,
+        "logLoss": 0.675237,
+        "brier": 0.240007,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 181,
+            "accuracy": 0.558011,
+            "avgConfidence": 0.549423
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 155,
+            "accuracy": 0.632258,
+            "avgConfidence": 0.644317
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 98,
+            "accuracy": 0.653061,
+            "avgConfidence": 0.745798
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 18,
+            "accuracy": 0.666667,
+            "avgConfidence": 0.843023
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 1,
+            "accuracy": 1,
+            "avgConfidence": 0.90839
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.00883,
+        "logLoss": -0.004633,
+        "brier": -0.001527
+      }
+    },
+    {
+      "feature": "teamAEloVsLeague",
+      "group": "league_context",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.609272,
+        "logLoss": 0.676198,
+        "brier": 0.23998,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 171,
+            "accuracy": 0.561404,
+            "avgConfidence": 0.549672
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 164,
+            "accuracy": 0.621951,
+            "avgConfidence": 0.649029
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 92,
+            "accuracy": 0.663043,
+            "avgConfidence": 0.75078
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 22,
+            "accuracy": 0.636364,
+            "avgConfidence": 0.834633
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.919089
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.00883,
+        "logLoss": -0.003672,
+        "brier": -0.001554
+      }
+    },
+    {
+      "feature": "h2hWinRateA",
+      "group": "h2h",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.611479,
+        "logLoss": 0.676381,
+        "brier": 0.240257,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 185,
+            "accuracy": 0.562162,
+            "avgConfidence": 0.550671
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.635135,
+            "avgConfidence": 0.643696
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.649485,
+            "avgConfidence": 0.74375
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 19,
+            "accuracy": 0.684211,
+            "avgConfidence": 0.82803
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.915924
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.011037,
+        "logLoss": -0.003489,
+        "brier": -0.001277
+      }
+    },
+    {
+      "feature": "h2hWinRateDiff",
+      "group": "h2h",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.611479,
+        "logLoss": 0.676381,
+        "brier": 0.240257,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 185,
+            "accuracy": 0.562162,
+            "avgConfidence": 0.550671
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 148,
+            "accuracy": 0.635135,
+            "avgConfidence": 0.643696
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 97,
+            "accuracy": 0.649485,
+            "avgConfidence": 0.74375
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 19,
+            "accuracy": 0.684211,
+            "avgConfidence": 0.82803
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 4,
+            "accuracy": 0.75,
+            "avgConfidence": 0.915924
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.011037,
+        "logLoss": -0.003489,
+        "brier": -0.001277
+      }
+    },
+    {
+      "feature": "winRateB",
+      "group": "overall_rates",
+      "permuted": {
+        "rows": 453,
+        "accuracy": 0.613687,
+        "logLoss": 0.6781,
+        "brier": 0.24045,
+        "calibration": [
+          {
+            "bucket": "0.5-0.6",
+            "rows": 169,
+            "accuracy": 0.544379,
+            "avgConfidence": 0.549933
+          },
+          {
+            "bucket": "0.6-0.7",
+            "rows": 146,
+            "accuracy": 0.657534,
+            "avgConfidence": 0.65337
+          },
+          {
+            "bucket": "0.7-0.7999999999999999",
+            "rows": 101,
+            "accuracy": 0.653465,
+            "avgConfidence": 0.746681
+          },
+          {
+            "bucket": "0.8-0.9",
+            "rows": 32,
+            "accuracy": 0.65625,
+            "avgConfidence": 0.83182
+          },
+          {
+            "bucket": "0.9-1",
+            "rows": 5,
+            "accuracy": 0.6,
+            "avgConfidence": 0.92892
+          }
+        ]
+      },
+      "gain": {
+        "accuracy": -0.013245,
+        "logLoss": -0.00177,
+        "brier": -0.001084
+      }
+    }
+  ],
+  "recommendations": {
+    "accuracyKeepGroups": [
+      "overall_rates",
+      "elo",
+      "match_format"
+    ],
+    "calibrationKeepGroups": [
+      "overall_rates",
+      "league_context"
+    ],
+    "noisyGroups": [
+      "sample_depth",
+      "recent_wins",
+      "rest",
+      "h2h",
+      "event_tier"
+    ],
+    "accuracyFeatures": [
+      "logPriorMatchesB",
+      "priorMapsB",
+      "mapDiff5B",
+      "winRateA",
+      "h2hMatches",
+      "isBo3",
+      "mapWinRateB",
+      "isTier2",
+      "leagueMatches",
+      "logDaysSinceLastMatchB",
+      "logPriorMatchesA",
+      "priorMatchesA",
+      "recent10Diff",
+      "recent5A",
+      "winRateDiff"
+    ],
+    "calibrationFeatures": [
+      "mapWinRateB",
+      "priorMatchesA",
+      "recent5A",
+      "mapDiff5B",
+      "winRateA",
+      "leagueMatches",
+      "winRateDiff",
+      "logPriorMatchesB",
+      "h2hMatches",
+      "recencyMapDiffB",
+      "priorMapsB",
+      "logPriorMatchesA",
+      "recent5B",
+      "recent5Diff",
+      "teamBEloVsLeague",
+      "daysSinceLastMatchB",
+      "recent10Diff",
+      "mapWinRateDiff",
+      "eloB",
+      "recencyWinDiff"
+    ]
+  }
+}

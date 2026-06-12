@@ -1,0 +1,2676 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-12T14:50:01.623Z",
+  "type": "logistic-regression-feature-selected",
+  "id": "valorant-accuracy",
+  "label": "Valorant Accuracy",
+  "source": {
+    "trainingDataset": "static/data/training-dataset.json",
+    "rows": 2386,
+    "trainRows": 1933,
+    "validationRows": 453,
+    "validationStart": "2026-05-01",
+    "validationEnd": null
+  },
+  "hyperparameters": {
+    "epochs": 1400,
+    "learningRate": 0.055,
+    "l2": 0.03
+  },
+  "selectedGroups": [
+    "overall_rates",
+    "elo"
+  ],
+  "features": [
+    "eloA",
+    "eloB",
+    "eloDiff",
+    "mapWinRateA",
+    "mapWinRateB",
+    "mapWinRateDiff",
+    "winRateA",
+    "winRateB",
+    "winRateDiff"
+  ],
+  "intercept": 0.13221686509231922,
+  "weights": [
+    0.13221686509231922,
+    0.11756242107188794,
+    -0.12393620051001288,
+    0.19161239632011,
+    0.08985897495084635,
+    -0.13154521923327178,
+    0.1753813582136315,
+    0.014557812204407787,
+    0.08262562344472753,
+    -0.05241881617701282
+  ],
+  "coefficients": {
+    "eloA": 0.11756242107188794,
+    "eloB": -0.12393620051001288,
+    "eloDiff": 0.19161239632011,
+    "mapWinRateA": 0.08985897495084635,
+    "mapWinRateB": -0.13154521923327178,
+    "mapWinRateDiff": 0.1753813582136315,
+    "winRateA": 0.014557812204407787,
+    "winRateB": 0.08262562344472753,
+    "winRateDiff": -0.05241881617701282
+  },
+  "scalers": {
+    "eloA": {
+      "mean": 1529.2015155872336,
+      "std": 70.28692663682922
+    },
+    "eloB": {
+      "mean": 1521.2055254118998,
+      "std": 65.59551619285597
+    },
+    "eloDiff": {
+      "mean": 7.995990175333515,
+      "std": 85.55166903281912
+    },
+    "mapWinRateA": {
+      "mean": 0.5328459485958005,
+      "std": 0.17133738958641487
+    },
+    "mapWinRateB": {
+      "mean": 0.5128561423521593,
+      "std": 0.1625392674518536
+    },
+    "mapWinRateDiff": {
+      "mean": 0.019989806243642314,
+      "std": 0.20969997122020256
+    },
+    "winRateA": {
+      "mean": 0.5471354705696382,
+      "std": 0.22154230286270787
+    },
+    "winRateB": {
+      "mean": 0.5259545889089892,
+      "std": 0.20999097351594265
+    },
+    "winRateDiff": {
+      "mean": 0.021180881660648854,
+      "std": 0.26947315666978194
+    }
+  },
+  "metrics": {
+    "train": {
+      "rows": 1933,
+      "accuracy": 0.609933,
+      "logLoss": 0.657457,
+      "brier": 0.232831,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 1153,
+          "accuracy": 0.555074,
+          "avgConfidence": 0.54838
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 560,
+          "accuracy": 0.671429,
+          "avgConfidence": 0.643032
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 193,
+          "accuracy": 0.709845,
+          "avgConfidence": 0.737295
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 26,
+          "accuracy": 0.961538,
+          "avgConfidence": 0.83672
+        },
+        {
+          "bucket": "0.9-1",
+          "rows": 1,
+          "accuracy": 1,
+          "avgConfidence": 0.901236
+        }
+      ]
+    },
+    "validation": {
+      "rows": 453,
+      "accuracy": 0.637969,
+      "logLoss": 0.665354,
+      "brier": 0.236092,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 228,
+          "accuracy": 0.635965,
+          "avgConfidence": 0.549158
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 145,
+          "accuracy": 0.627586,
+          "avgConfidence": 0.648683
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 70,
+          "accuracy": 0.642857,
+          "avgConfidence": 0.738645
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 9,
+          "accuracy": 0.777778,
+          "avgConfidence": 0.842108
+        },
+        {
+          "bucket": "0.9-1",
+          "rows": 1,
+          "accuracy": 1,
+          "avgConfidence": 0.908146
+        }
+      ]
+    }
+  },
+  "topCoefficients": [
+    {
+      "feature": "eloDiff",
+      "weight": 0.191612,
+      "abs": 0.19161239632011
+    },
+    {
+      "feature": "mapWinRateDiff",
+      "weight": 0.175381,
+      "abs": 0.1753813582136315
+    },
+    {
+      "feature": "mapWinRateB",
+      "weight": -0.131545,
+      "abs": 0.13154521923327178
+    },
+    {
+      "feature": "eloB",
+      "weight": -0.123936,
+      "abs": 0.12393620051001288
+    },
+    {
+      "feature": "eloA",
+      "weight": 0.117562,
+      "abs": 0.11756242107188794
+    },
+    {
+      "feature": "mapWinRateA",
+      "weight": 0.089859,
+      "abs": 0.08985897495084635
+    },
+    {
+      "feature": "winRateB",
+      "weight": 0.082626,
+      "abs": 0.08262562344472753
+    },
+    {
+      "feature": "winRateDiff",
+      "weight": -0.052419,
+      "abs": 0.05241881617701282
+    },
+    {
+      "feature": "winRateA",
+      "weight": 0.014558,
+      "abs": 0.014557812204407787
+    }
+  ],
+  "variant": {
+    "objective": "accuracy",
+    "selectedGroups": [
+      "overall_rates",
+      "elo"
+    ],
+    "excludedGroups": [
+      "sample_depth",
+      "recent_wins",
+      "recent_maps",
+      "rest",
+      "h2h",
+      "league_context",
+      "event_tier",
+      "match_format"
+    ],
+    "candidateSets": [
+      [
+        "sample_depth",
+        "overall_rates",
+        "recent_wins",
+        "recent_maps",
+        "elo",
+        "rest",
+        "h2h",
+        "league_context",
+        "event_tier",
+        "match_format"
+      ],
+      [
+        "overall_rates",
+        "recent_maps",
+        "elo",
+        "league_context",
+        "match_format"
+      ],
+      [
+        "overall_rates",
+        "elo",
+        "match_format"
+      ],
+      [
+        "overall_rates",
+        "league_context"
+      ],
+      [
+        "overall_rates",
+        "elo"
+      ],
+      [
+        "overall_rates",
+        "elo",
+        "league_context"
+      ],
+      [
+        "overall_rates",
+        "elo",
+        "recent_maps"
+      ],
+      [
+        "overall_rates",
+        "elo",
+        "recent_wins"
+      ],
+      [
+        "overall_rates",
+        "elo",
+        "league_context",
+        "recent_maps"
+      ]
+    ],
+    "candidates": [
+      {
+        "groups": [
+          "sample_depth",
+          "overall_rates",
+          "recent_wins",
+          "recent_maps",
+          "elo",
+          "rest",
+          "h2h",
+          "league_context",
+          "event_tier",
+          "match_format"
+        ],
+        "featureCount": 52,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.600442,
+          "logLoss": 0.680135,
+          "brier": 0.241628,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 176,
+              "accuracy": 0.534091,
+              "avgConfidence": 0.551311
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 148,
+              "accuracy": 0.628378,
+              "avgConfidence": 0.652091
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 98,
+              "accuracy": 0.663265,
+              "avgConfidence": 0.748291
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 26,
+              "accuracy": 0.653846,
+              "avgConfidence": 0.832227
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 5,
+              "accuracy": 0.6,
+              "avgConfidence": 0.919109
+            }
+          ]
+        },
+        "score": 5.96558069
+      },
+      {
+        "groups": [
+          "sample_depth",
+          "overall_rates",
+          "recent_wins",
+          "recent_maps",
+          "elo",
+          "rest",
+          "h2h",
+          "league_context",
+          "event_tier",
+          "match_format"
+        ],
+        "featureCount": 52,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.602649,
+          "logLoss": 0.679716,
+          "brier": 0.241489,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 176,
+              "accuracy": 0.534091,
+              "avgConfidence": 0.551037
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.632653,
+              "avgConfidence": 0.651161
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 100,
+              "accuracy": 0.66,
+              "avgConfidence": 0.747927
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 26,
+              "accuracy": 0.653846,
+              "avgConfidence": 0.834984
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 4,
+              "accuracy": 0.75,
+              "avgConfidence": 0.923054
+            }
+          ]
+        },
+        "score": 5.98767442
+      },
+      {
+        "groups": [
+          "sample_depth",
+          "overall_rates",
+          "recent_wins",
+          "recent_maps",
+          "elo",
+          "rest",
+          "h2h",
+          "league_context",
+          "event_tier",
+          "match_format"
+        ],
+        "featureCount": 52,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.602649,
+          "logLoss": 0.679186,
+          "brier": 0.241307,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 177,
+              "accuracy": 0.531073,
+              "avgConfidence": 0.551068
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.639456,
+              "avgConfidence": 0.651108
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 99,
+              "accuracy": 0.656566,
+              "avgConfidence": 0.747605
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 26,
+              "accuracy": 0.653846,
+              "avgConfidence": 0.833611
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 4,
+              "accuracy": 0.75,
+              "avgConfidence": 0.922163
+            }
+          ]
+        },
+        "score": 5.98770456
+      },
+      {
+        "groups": [
+          "sample_depth",
+          "overall_rates",
+          "recent_wins",
+          "recent_maps",
+          "elo",
+          "rest",
+          "h2h",
+          "league_context",
+          "event_tier",
+          "match_format"
+        ],
+        "featureCount": 52,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.602649,
+          "logLoss": 0.678445,
+          "brier": 0.241015,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 178,
+              "accuracy": 0.544944,
+              "avgConfidence": 0.550508
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 153,
+              "accuracy": 0.627451,
+              "avgConfidence": 0.651836
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 95,
+              "accuracy": 0.652632,
+              "avgConfidence": 0.747976
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.834984
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 4,
+              "accuracy": 0.75,
+              "avgConfidence": 0.917695
+            }
+          ]
+        },
+        "score": 5.98774745
+      },
+      {
+        "groups": [
+          "sample_depth",
+          "overall_rates",
+          "recent_wins",
+          "recent_maps",
+          "elo",
+          "rest",
+          "h2h",
+          "league_context",
+          "event_tier",
+          "match_format"
+        ],
+        "featureCount": 52,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.615894,
+          "logLoss": 0.676952,
+          "brier": 0.240484,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 181,
+              "accuracy": 0.59116,
+              "avgConfidence": 0.549605
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 154,
+              "accuracy": 0.61039,
+              "avgConfidence": 0.651233
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 93,
+              "accuracy": 0.655914,
+              "avgConfidence": 0.745892
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 21,
+              "accuracy": 0.666667,
+              "avgConfidence": 0.832829
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 4,
+              "accuracy": 0.75,
+              "avgConfidence": 0.91226
+            }
+          ]
+        },
+        "score": 6.12028272
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "recent_maps",
+          "elo",
+          "league_context",
+          "match_format"
+        ],
+        "featureCount": 26,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.668124,
+          "brier": 0.237307,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 200,
+              "accuracy": 0.58,
+              "avgConfidence": 0.547629
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 148,
+              "accuracy": 0.662162,
+              "avgConfidence": 0.648268
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 86,
+              "accuracy": 0.616279,
+              "avgConfidence": 0.74277
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.75,
+              "avgConfidence": 0.832409
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.930591
+            }
+          ]
+        },
+        "score": 6.18701766
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "recent_maps",
+          "elo",
+          "league_context",
+          "match_format"
+        ],
+        "featureCount": 26,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.667986,
+          "brier": 0.237242,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 200,
+              "accuracy": 0.58,
+              "avgConfidence": 0.547729
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.659864,
+              "avgConfidence": 0.64763
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 87,
+              "accuracy": 0.62069,
+              "avgConfidence": 0.742077
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.75,
+              "avgConfidence": 0.831972
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.9306
+            }
+          ]
+        },
+        "score": 6.18702586
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "recent_maps",
+          "elo",
+          "league_context",
+          "match_format"
+        ],
+        "featureCount": 26,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.667792,
+          "brier": 0.23716,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 199,
+              "accuracy": 0.577889,
+              "avgConfidence": 0.547421
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 149,
+              "accuracy": 0.66443,
+              "avgConfidence": 0.647236
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 86,
+              "accuracy": 0.616279,
+              "avgConfidence": 0.74193
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.75,
+              "avgConfidence": 0.83118
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.930085
+            }
+          ]
+        },
+        "score": 6.1870372
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "recent_maps",
+          "elo",
+          "league_context",
+          "match_format"
+        ],
+        "featureCount": 26,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.666961,
+          "brier": 0.236879,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 204,
+              "accuracy": 0.578431,
+              "avgConfidence": 0.546928
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.649007,
+              "avgConfidence": 0.64894
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 81,
+              "accuracy": 0.617284,
+              "avgConfidence": 0.740776
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 14,
+              "accuracy": 0.785714,
+              "avgConfidence": 0.830165
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.923411
+            }
+          ]
+        },
+        "score": 6.14293437
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "recent_maps",
+          "elo",
+          "league_context",
+          "match_format"
+        ],
+        "featureCount": 26,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.615894,
+          "logLoss": 0.666006,
+          "brier": 0.236513,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 208,
+              "accuracy": 0.572115,
+              "avgConfidence": 0.546706
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 156,
+              "accuracy": 0.647436,
+              "avgConfidence": 0.650212
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 74,
+              "accuracy": 0.621622,
+              "avgConfidence": 0.740803
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 12,
+              "accuracy": 0.833333,
+              "avgConfidence": 0.829264
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.917047
+            }
+          ]
+        },
+        "score": 6.12090944
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "match_format"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.669498,
+          "brier": 0.237741,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 204,
+              "accuracy": 0.612745,
+              "avgConfidence": 0.547175
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.622517,
+              "avgConfidence": 0.646467
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 80,
+              "accuracy": 0.65,
+              "avgConfidence": 0.740283
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 17,
+              "accuracy": 0.647059,
+              "avgConfidence": 0.835803
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.93027
+            }
+          ]
+        },
+        "score": 6.20901028
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "match_format"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.669387,
+          "brier": 0.237704,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 205,
+              "accuracy": 0.614634,
+              "avgConfidence": 0.547291
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 150,
+              "accuracy": 0.62,
+              "avgConfidence": 0.646578
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 81,
+              "accuracy": 0.641975,
+              "avgConfidence": 0.740599
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.6875,
+              "avgConfidence": 0.837792
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.930603
+            }
+          ]
+        },
+        "score": 6.20901657
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "match_format"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.669193,
+          "brier": 0.237637,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 205,
+              "accuracy": 0.614634,
+              "avgConfidence": 0.547079
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.622517,
+              "avgConfidence": 0.646336
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 82,
+              "accuracy": 0.646341,
+              "avgConfidence": 0.741627
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 14,
+              "accuracy": 0.642857,
+              "avgConfidence": 0.842009
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.930002
+            }
+          ]
+        },
+        "score": 6.20902761
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "match_format"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.626932,
+          "logLoss": 0.667966,
+          "brier": 0.237166,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 217,
+              "accuracy": 0.62212,
+              "avgConfidence": 0.54898
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 145,
+              "accuracy": 0.606897,
+              "avgConfidence": 0.647147
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 79,
+              "accuracy": 0.658228,
+              "avgConfidence": 0.740211
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 11,
+              "accuracy": 0.727273,
+              "avgConfidence": 0.843276
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.919552
+            }
+          ]
+        },
+        "score": 6.23117838
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "match_format"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.626932,
+          "logLoss": 0.666795,
+          "brier": 0.236721,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 221,
+              "accuracy": 0.61991,
+              "avgConfidence": 0.548509
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 149,
+              "accuracy": 0.610738,
+              "avgConfidence": 0.646372
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 74,
+              "accuracy": 0.648649,
+              "avgConfidence": 0.739287
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 8,
+              "accuracy": 0.875,
+              "avgConfidence": 0.84841
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.910203
+            }
+          ]
+        },
+        "score": 6.23124583
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "league_context"
+        ],
+        "featureCount": 10,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.668553,
+          "brier": 0.237684,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 208,
+              "accuracy": 0.600962,
+              "avgConfidence": 0.545088
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 155,
+              "accuracy": 0.606452,
+              "avgConfidence": 0.649628
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 76,
+              "accuracy": 0.657895,
+              "avgConfidence": 0.743382
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 12,
+              "accuracy": 0.75,
+              "avgConfidence": 0.842053
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.92906
+            }
+          ]
+        },
+        "score": 6.14283867
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "league_context"
+        ],
+        "featureCount": 10,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.668356,
+          "brier": 0.237605,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 208,
+              "accuracy": 0.600962,
+              "avgConfidence": 0.544975
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 155,
+              "accuracy": 0.606452,
+              "avgConfidence": 0.649247
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 76,
+              "accuracy": 0.657895,
+              "avgConfidence": 0.742744
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 12,
+              "accuracy": 0.75,
+              "avgConfidence": 0.841473
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.929235
+            }
+          ]
+        },
+        "score": 6.1428501
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "league_context"
+        ],
+        "featureCount": 10,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.667941,
+          "brier": 0.237441,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 208,
+              "accuracy": 0.600962,
+              "avgConfidence": 0.544718
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 156,
+              "accuracy": 0.608974,
+              "avgConfidence": 0.648423
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.649351,
+              "avgConfidence": 0.743044
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 10,
+              "accuracy": 0.8,
+              "avgConfidence": 0.847455
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.928056
+            }
+          ]
+        },
+        "score": 6.14287413
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "league_context"
+        ],
+        "featureCount": 10,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.665578,
+          "brier": 0.236476,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 216,
+              "accuracy": 0.601852,
+              "avgConfidence": 0.544913
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 161,
+              "accuracy": 0.627329,
+              "avgConfidence": 0.646526
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 67,
+              "accuracy": 0.641791,
+              "avgConfidence": 0.739813
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 7,
+              "accuracy": 0.857143,
+              "avgConfidence": 0.846709
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.912474
+            }
+          ]
+        },
+        "score": 6.18716158
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "league_context"
+        ],
+        "featureCount": 10,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.631347,
+          "logLoss": 0.663684,
+          "brier": 0.23567,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 236,
+              "accuracy": 0.618644,
+              "avgConfidence": 0.547691
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 155,
+              "accuracy": 0.625806,
+              "avgConfidence": 0.648685
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 53,
+              "accuracy": 0.660377,
+              "avgConfidence": 0.735017
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 8,
+              "accuracy": 0.875,
+              "avgConfidence": 0.838637
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.908956
+            }
+          ]
+        },
+        "score": 6.2755724
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo"
+        ],
+        "featureCount": 9,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.667841,
+          "brier": 0.237053,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 211,
+              "accuracy": 0.606635,
+              "avgConfidence": 0.547957
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.646259,
+              "avgConfidence": 0.648522
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.623377,
+              "avgConfidence": 0.739141
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 17,
+              "accuracy": 0.647059,
+              "avgConfidence": 0.83679
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.928364
+            }
+          ]
+        },
+        "score": 6.20910689
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo"
+        ],
+        "featureCount": 9,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.667749,
+          "brier": 0.237024,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 212,
+              "accuracy": 0.603774,
+              "avgConfidence": 0.548071
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.646259,
+              "avgConfidence": 0.649024
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.61039,
+              "avgConfidence": 0.740037
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.6875,
+              "avgConfidence": 0.838783
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.928726
+            }
+          ]
+        },
+        "score": 6.18704207
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo"
+        ],
+        "featureCount": 9,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.667579,
+          "brier": 0.236965,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 212,
+              "accuracy": 0.603774,
+              "avgConfidence": 0.547857
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 148,
+              "accuracy": 0.648649,
+              "avgConfidence": 0.648796
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 76,
+              "accuracy": 0.605263,
+              "avgConfidence": 0.73966
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.6875,
+              "avgConfidence": 0.837771
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.928137
+            }
+          ]
+        },
+        "score": 6.18705175
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo"
+        ],
+        "featureCount": 9,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.631347,
+          "logLoss": 0.666423,
+          "brier": 0.236507,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 222,
+              "accuracy": 0.626126,
+              "avgConfidence": 0.549121
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 147,
+              "accuracy": 0.619048,
+              "avgConfidence": 0.650258
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 71,
+              "accuracy": 0.647887,
+              "avgConfidence": 0.741162
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 12,
+              "accuracy": 0.75,
+              "avgConfidence": 0.839571
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.917543
+            }
+          ]
+        },
+        "score": 6.27541871
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo"
+        ],
+        "featureCount": 9,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.637969,
+          "logLoss": 0.665354,
+          "brier": 0.236092,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 228,
+              "accuracy": 0.635965,
+              "avgConfidence": 0.549158
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 145,
+              "accuracy": 0.627586,
+              "avgConfidence": 0.648683
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 70,
+              "accuracy": 0.642857,
+              "avgConfidence": 0.738645
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 9,
+              "accuracy": 0.777778,
+              "avgConfidence": 0.842108
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.908146
+            }
+          ]
+        },
+        "score": 6.34170046
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.669349,
+          "brier": 0.237985,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 207,
+              "accuracy": 0.599034,
+              "avgConfidence": 0.545317
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 152,
+              "accuracy": 0.611842,
+              "avgConfidence": 0.650257
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 78,
+              "accuracy": 0.666667,
+              "avgConfidence": 0.743038
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 13,
+              "accuracy": 0.615385,
+              "avgConfidence": 0.835132
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.920965
+            }
+          ]
+        },
+        "score": 6.14279285
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.615894,
+          "logLoss": 0.669256,
+          "brier": 0.237946,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 206,
+              "accuracy": 0.597087,
+              "avgConfidence": 0.545009
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 154,
+              "accuracy": 0.61039,
+              "avgConfidence": 0.650142
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.662338,
+              "avgConfidence": 0.743391
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 13,
+              "accuracy": 0.615385,
+              "avgConfidence": 0.834938
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.92128
+            }
+          ]
+        },
+        "score": 6.12071828
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.615894,
+          "logLoss": 0.669092,
+          "brier": 0.237879,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 207,
+              "accuracy": 0.594203,
+              "avgConfidence": 0.545169
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 153,
+              "accuracy": 0.614379,
+              "avgConfidence": 0.650033
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.662338,
+              "avgConfidence": 0.742685
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 14,
+              "accuracy": 0.642857,
+              "avgConfidence": 0.838797
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.931016
+            }
+          ]
+        },
+        "score": 6.12072782
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.668057,
+          "brier": 0.237446,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 210,
+              "accuracy": 0.604762,
+              "avgConfidence": 0.545183
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 157,
+              "accuracy": 0.605096,
+              "avgConfidence": 0.649231
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 73,
+              "accuracy": 0.671233,
+              "avgConfidence": 0.742923
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 11,
+              "accuracy": 0.818182,
+              "avgConfidence": 0.840913
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.920207
+            }
+          ]
+        },
+        "score": 6.18701823
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context"
+        ],
+        "featureCount": 13,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.667059,
+          "brier": 0.237023,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 215,
+              "accuracy": 0.604651,
+              "avgConfidence": 0.545673
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 156,
+              "accuracy": 0.615385,
+              "avgConfidence": 0.648057
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 71,
+              "accuracy": 0.661972,
+              "avgConfidence": 0.740887
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 10,
+              "accuracy": 0.8,
+              "avgConfidence": 0.847072
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.921557
+            }
+          ]
+        },
+        "score": 6.18707659
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_maps"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.613687,
+          "logLoss": 0.666436,
+          "brier": 0.236398,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 205,
+              "accuracy": 0.565854,
+              "avgConfidence": 0.548245
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 142,
+              "accuracy": 0.65493,
+              "avgConfidence": 0.648619
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 88,
+              "accuracy": 0.625,
+              "avgConfidence": 0.739376
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 15,
+              "accuracy": 0.733333,
+              "avgConfidence": 0.835842
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.916923
+            }
+          ]
+        },
+        "score": 6.09882024
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_maps"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.613687,
+          "logLoss": 0.666328,
+          "brier": 0.236352,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 203,
+              "accuracy": 0.566502,
+              "avgConfidence": 0.547781
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 143,
+              "accuracy": 0.65035,
+              "avgConfidence": 0.647212
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 89,
+              "accuracy": 0.629213,
+              "avgConfidence": 0.738663
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 15,
+              "accuracy": 0.733333,
+              "avgConfidence": 0.835395
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.917058
+            }
+          ]
+        },
+        "score": 6.09882656
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_maps"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.613687,
+          "logLoss": 0.666146,
+          "brier": 0.236282,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 203,
+              "accuracy": 0.566502,
+              "avgConfidence": 0.547703
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 143,
+              "accuracy": 0.65035,
+              "avgConfidence": 0.646592
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 89,
+              "accuracy": 0.629213,
+              "avgConfidence": 0.737983
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 15,
+              "accuracy": 0.733333,
+              "avgConfidence": 0.83439
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.916626
+            }
+          ]
+        },
+        "score": 6.09883706
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_maps"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.620309,
+          "logLoss": 0.665031,
+          "brier": 0.235899,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 215,
+              "accuracy": 0.595349,
+              "avgConfidence": 0.549105
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 141,
+              "accuracy": 0.64539,
+              "avgConfidence": 0.65071
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 81,
+              "accuracy": 0.604938,
+              "avgConfidence": 0.737509
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 14,
+              "accuracy": 0.785714,
+              "avgConfidence": 0.837184
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.914882
+            }
+          ]
+        },
+        "score": 6.16512047
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_maps"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.626932,
+          "logLoss": 0.663953,
+          "brier": 0.235502,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 218,
+              "accuracy": 0.610092,
+              "avgConfidence": 0.548413
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 148,
+              "accuracy": 0.635135,
+              "avgConfidence": 0.651026
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 73,
+              "accuracy": 0.630137,
+              "avgConfidence": 0.737362
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 13,
+              "accuracy": 0.769231,
+              "avgConfidence": 0.840263
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.921248
+            }
+          ]
+        },
+        "score": 6.23141231
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_wins"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.613687,
+          "logLoss": 0.667414,
+          "brier": 0.236931,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 209,
+              "accuracy": 0.574163,
+              "avgConfidence": 0.549028
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 149,
+              "accuracy": 0.651007,
+              "avgConfidence": 0.649231
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 73,
+              "accuracy": 0.60274,
+              "avgConfidence": 0.740295
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 19,
+              "accuracy": 0.736842,
+              "avgConfidence": 0.82554
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.914531
+            }
+          ]
+        },
+        "score": 6.09876068
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_wins"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.667485,
+          "brier": 0.236975,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 209,
+              "accuracy": 0.583732,
+              "avgConfidence": 0.549003
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.655629,
+              "avgConfidence": 0.649616
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 73,
+              "accuracy": 0.589041,
+              "avgConfidence": 0.74261
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 17,
+              "accuracy": 0.764706,
+              "avgConfidence": 0.828483
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.914762
+            }
+          ]
+        },
+        "score": 6.14290625
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_wins"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.620309,
+          "logLoss": 0.667448,
+          "brier": 0.23698,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 210,
+              "accuracy": 0.590476,
+              "avgConfidence": 0.549072
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.655629,
+              "avgConfidence": 0.64963
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 73,
+              "accuracy": 0.575342,
+              "avgConfidence": 0.743001
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.8125,
+              "avgConfidence": 0.829378
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.914098
+            }
+          ]
+        },
+        "score": 6.164978
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_wins"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.611479,
+          "logLoss": 0.665785,
+          "brier": 0.236336,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 215,
+              "accuracy": 0.572093,
+              "avgConfidence": 0.548421
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.642384,
+              "avgConfidence": 0.648538
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 74,
+              "accuracy": 0.621622,
+              "avgConfidence": 0.74262
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 12,
+              "accuracy": 0.833333,
+              "avgConfidence": 0.843121
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.92321
+            }
+          ]
+        },
+        "score": 6.07677403
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "recent_wins"
+        ],
+        "featureCount": 18,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.664692,
+          "brier": 0.235936,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 224,
+              "accuracy": 0.589286,
+              "avgConfidence": 0.548963
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 148,
+              "accuracy": 0.641892,
+              "avgConfidence": 0.648831
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 70,
+              "accuracy": 0.614286,
+              "avgConfidence": 0.739467
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 10,
+              "accuracy": 0.9,
+              "avgConfidence": 0.841119
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.913898
+            }
+          ]
+        },
+        "score": 6.14306668
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context",
+          "recent_maps"
+        ],
+        "featureCount": 22,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.0015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.66716,
+          "brier": 0.23697,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 202,
+              "accuracy": 0.589109,
+              "avgConfidence": 0.546523
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 143,
+              "accuracy": 0.664336,
+              "avgConfidence": 0.648038
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 89,
+              "accuracy": 0.595506,
+              "avgConfidence": 0.739357
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.8125,
+              "avgConfidence": 0.832471
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.929465
+            }
+          ]
+        },
+        "score": 6.2091426
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context",
+          "recent_maps"
+        ],
+        "featureCount": 22,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.003
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.667033,
+          "brier": 0.236907,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 203,
+              "accuracy": 0.591133,
+              "avgConfidence": 0.546912
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 143,
+              "accuracy": 0.657343,
+              "avgConfidence": 0.64846
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 88,
+              "accuracy": 0.602273,
+              "avgConfidence": 0.739637
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.8125,
+              "avgConfidence": 0.832063
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.929468
+            }
+          ]
+        },
+        "score": 6.20915021
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context",
+          "recent_maps"
+        ],
+        "featureCount": 22,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.07,
+          "l2": 0.005
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.624724,
+          "logLoss": 0.666848,
+          "brier": 0.236826,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 203,
+              "accuracy": 0.591133,
+              "avgConfidence": 0.546895
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 144,
+              "accuracy": 0.659722,
+              "avgConfidence": 0.648378
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 87,
+              "accuracy": 0.597701,
+              "avgConfidence": 0.739503
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 16,
+              "accuracy": 0.8125,
+              "avgConfidence": 0.831261
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.928944
+            }
+          ]
+        },
+        "score": 6.20916108
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context",
+          "recent_maps"
+        ],
+        "featureCount": 22,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.045,
+          "l2": 0.015
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.622517,
+          "logLoss": 0.665987,
+          "brier": 0.236521,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 207,
+              "accuracy": 0.589372,
+              "avgConfidence": 0.546256
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 151,
+              "accuracy": 0.662252,
+              "avgConfidence": 0.65097
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 77,
+              "accuracy": 0.584416,
+              "avgConfidence": 0.739403
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 15,
+              "accuracy": 0.8,
+              "avgConfidence": 0.827772
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 3,
+              "accuracy": 1,
+              "avgConfidence": 0.922184
+            }
+          ]
+        },
+        "score": 6.18714023
+      },
+      {
+        "groups": [
+          "overall_rates",
+          "elo",
+          "league_context",
+          "recent_maps"
+        ],
+        "featureCount": 22,
+        "hyperparameters": {
+          "epochs": 1400,
+          "learningRate": 0.055,
+          "l2": 0.03
+        },
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.618102,
+          "logLoss": 0.665046,
+          "brier": 0.236146,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 214,
+              "accuracy": 0.570093,
+              "avgConfidence": 0.546833
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 152,
+              "accuracy": 0.664474,
+              "avgConfidence": 0.652658
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 72,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.740171
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 13,
+              "accuracy": 0.846154,
+              "avgConfidence": 0.83452
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 2,
+              "accuracy": 1,
+              "avgConfidence": 0.923895
+            }
+          ]
+        },
+        "score": 6.14304478
+      }
+    ]
+  }
+}

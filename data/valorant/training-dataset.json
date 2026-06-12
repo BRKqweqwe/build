@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-12T14:19:33.304Z",
+  "source": {
+    "matches": "static/data/history-matches.json",
+    "fromDate": "2024-01-01",
+    "minPriorMatches": 2
+  },
+  "summary": {
+    "sourceMatches": 2939,
+    "rows": 2386,
+    "teams": 426,
+    "leagues": 21,
+    "earliestDate": "2025-07-29",
+    "latestDate": "2026-06-11",
+    "skippedLowPrior": 553
+  }
+}
