@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T22:42:53.047Z",
+  "generatedAt": "2026-06-12T11:35:59.576Z",
   "source": {
     "model": "static/data/trained-model-meta-picker.json",
     "predictions": {
@@ -45,38 +45,38 @@
         "label": "MetaPicker"
       },
       "prediction": {
-        "favorite": "T1",
-        "probability": 0.666381,
-        "teamAProbability": 0.333619,
-        "teamBProbability": 0.666381,
-        "margin": 0.332763
+        "favorite": "Hanwha Life Esports",
+        "probability": 0.583275,
+        "teamAProbability": 0.583275,
+        "teamBProbability": 0.416725,
+        "margin": 0.16655
       },
       "coverage": {
-        "teamAGames": 868,
-        "teamBGames": 763,
+        "teamAGames": 679,
+        "teamBGames": 532,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.55213,
-          "conservativeProbA": 0.55213,
-          "balancedProbA": 0.605871,
-          "accuracyProbA": 0.560142,
-          "recencyProbA": 0.726842,
-          "championConfidence": 0.55213,
-          "conservativeConfidence": 0.55213,
-          "balancedConfidence": 0.605871,
-          "accuracyConfidence": 0.560142,
-          "recencyConfidence": 0.726842,
-          "meanProbA": 0.599423,
-          "medianProbA": 0.560142,
-          "minProbA": 0.55213,
-          "maxProbA": 0.726842,
-          "stdProbA": 0.06677339428844395,
-          "probRange": 0.17471199999999998,
-          "meanConfidence": 0.599423,
-          "maxConfidence": 0.726842,
-          "minConfidence": 0.55213,
+          "championProbA": 0.645415,
+          "conservativeProbA": 0.645415,
+          "balancedProbA": 0.637654,
+          "accuracyProbA": 0.667881,
+          "recencyProbA": 0.696472,
+          "championConfidence": 0.645415,
+          "conservativeConfidence": 0.645415,
+          "balancedConfidence": 0.637654,
+          "accuracyConfidence": 0.667881,
+          "recencyConfidence": 0.696472,
+          "meanProbA": 0.6585674,
+          "medianProbA": 0.645415,
+          "minProbA": 0.637654,
+          "maxProbA": 0.696472,
+          "stdProbA": 0.021479494394421844,
+          "probRange": 0.058817999999999926,
+          "meanConfidence": 0.6585674,
+          "maxConfidence": 0.696472,
+          "minConfidence": 0.637654,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -98,34 +98,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Hanwha Life Esports",
-            "probability": 0.55213,
-            "teamAProbability": 0.55213
+            "probability": 0.645415,
+            "teamAProbability": 0.645415
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Hanwha Life Esports",
-            "probability": 0.55213,
-            "teamAProbability": 0.55213
+            "probability": 0.645415,
+            "teamAProbability": 0.645415
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Hanwha Life Esports",
-            "probability": 0.605871,
-            "teamAProbability": 0.605871
+            "probability": 0.637654,
+            "teamAProbability": 0.637654
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Hanwha Life Esports",
-            "probability": 0.560142,
-            "teamAProbability": 0.560142
+            "probability": 0.667881,
+            "teamAProbability": 0.667881
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Hanwha Life Esports",
-            "probability": 0.726842,
-            "teamAProbability": 0.726842
+            "probability": 0.696472,
+            "teamAProbability": 0.696472
           }
         }
       }
@@ -156,38 +156,38 @@
         "label": "MetaPicker"
       },
       "prediction": {
-        "favorite": "Saigon Zen Esport",
-        "probability": 0.636584,
-        "teamAProbability": 0.363416,
-        "teamBProbability": 0.636584,
-        "margin": 0.273167
+        "favorite": "Saigon Dino",
+        "probability": 0.56539,
+        "teamAProbability": 0.56539,
+        "teamBProbability": 0.43461,
+        "margin": 0.13078
       },
       "coverage": {
-        "teamAGames": 85,
+        "teamAGames": 63,
         "teamBGames": 0,
         "level": "low"
       },
       "meta": {
         "features": {
-          "championProbA": 0.692199,
-          "conservativeProbA": 0.586489,
-          "balancedProbA": 0.669485,
-          "accuracyProbA": 0.637286,
-          "recencyProbA": 0.707699,
-          "championConfidence": 0.692199,
-          "conservativeConfidence": 0.586489,
-          "balancedConfidence": 0.669485,
-          "accuracyConfidence": 0.637286,
-          "recencyConfidence": 0.707699,
-          "meanProbA": 0.6586316,
-          "medianProbA": 0.669485,
-          "minProbA": 0.586489,
-          "maxProbA": 0.707699,
-          "stdProbA": 0.043156380179991904,
-          "probRange": 0.12120999999999993,
-          "meanConfidence": 0.6586316,
-          "maxConfidence": 0.707699,
-          "minConfidence": 0.586489,
+          "championProbA": 0.661118,
+          "conservativeProbA": 0.572503,
+          "balancedProbA": 0.659468,
+          "accuracyProbA": 0.666266,
+          "recencyProbA": 0.673462,
+          "championConfidence": 0.661118,
+          "conservativeConfidence": 0.572503,
+          "balancedConfidence": 0.659468,
+          "accuracyConfidence": 0.666266,
+          "recencyConfidence": 0.673462,
+          "meanProbA": 0.6465634,
+          "medianProbA": 0.661118,
+          "minProbA": 0.572503,
+          "maxProbA": 0.673462,
+          "stdProbA": 0.037349792661271905,
+          "probRange": 0.10095900000000002,
+          "meanConfidence": 0.6465634,
+          "maxConfidence": 0.673462,
+          "minConfidence": 0.572503,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -209,34 +209,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Saigon Dino",
-            "probability": 0.692199,
-            "teamAProbability": 0.692199
+            "probability": 0.661118,
+            "teamAProbability": 0.661118
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Saigon Dino",
-            "probability": 0.586489,
-            "teamAProbability": 0.586489
+            "probability": 0.572503,
+            "teamAProbability": 0.572503
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Saigon Dino",
-            "probability": 0.669485,
-            "teamAProbability": 0.669485
+            "probability": 0.659468,
+            "teamAProbability": 0.659468
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Saigon Dino",
-            "probability": 0.637286,
-            "teamAProbability": 0.637286
+            "probability": 0.666266,
+            "teamAProbability": 0.666266
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Saigon Dino",
-            "probability": 0.707699,
-            "teamAProbability": 0.707699
+            "probability": 0.673462,
+            "teamAProbability": 0.673462
           }
         }
       }
@@ -268,37 +268,37 @@
       },
       "prediction": {
         "favorite": "MISA Esports",
-        "probability": 0.76682,
-        "teamAProbability": 0.23318,
-        "teamBProbability": 0.76682,
-        "margin": 0.533641
+        "probability": 0.677734,
+        "teamAProbability": 0.322266,
+        "teamBProbability": 0.677734,
+        "margin": 0.355467
       },
       "coverage": {
-        "teamAGames": 171,
-        "teamBGames": 206,
+        "teamAGames": 170,
+        "teamBGames": 187,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.306209,
-          "conservativeProbA": 0.306209,
-          "balancedProbA": 0.334739,
-          "accuracyProbA": 0.324149,
-          "recencyProbA": 0.378092,
-          "championConfidence": 0.693791,
-          "conservativeConfidence": 0.693791,
-          "balancedConfidence": 0.665261,
-          "accuracyConfidence": 0.675851,
-          "recencyConfidence": 0.621908,
-          "meanProbA": 0.32987960000000005,
-          "medianProbA": 0.324149,
-          "minProbA": 0.306209,
-          "maxProbA": 0.378092,
-          "stdProbA": 0.02646312025139892,
-          "probRange": 0.07188299999999997,
-          "meanConfidence": 0.6701204,
-          "maxConfidence": 0.693791,
-          "minConfidence": 0.621908,
+          "championProbA": 0.354097,
+          "conservativeProbA": 0.354097,
+          "balancedProbA": 0.357429,
+          "accuracyProbA": 0.344887,
+          "recencyProbA": 0.333918,
+          "championConfidence": 0.645903,
+          "conservativeConfidence": 0.645903,
+          "balancedConfidence": 0.642571,
+          "accuracyConfidence": 0.6551130000000001,
+          "recencyConfidence": 0.6660820000000001,
+          "meanProbA": 0.34888559999999996,
+          "medianProbA": 0.354097,
+          "minProbA": 0.333918,
+          "maxProbA": 0.357429,
+          "stdProbA": 0.00857117162586306,
+          "probRange": 0.023511000000000004,
+          "meanConfidence": 0.6511144,
+          "maxConfidence": 0.6660820000000001,
+          "minConfidence": 0.642571,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 0,
@@ -320,34 +320,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "MISA Esports",
-            "probability": 0.693791,
-            "teamAProbability": 0.306209
+            "probability": 0.645903,
+            "teamAProbability": 0.354097
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "MISA Esports",
-            "probability": 0.693791,
-            "teamAProbability": 0.306209
+            "probability": 0.645903,
+            "teamAProbability": 0.354097
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "MISA Esports",
-            "probability": 0.665261,
-            "teamAProbability": 0.334739
+            "probability": 0.642571,
+            "teamAProbability": 0.357429
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "MISA Esports",
-            "probability": 0.675851,
-            "teamAProbability": 0.324149
+            "probability": 0.655113,
+            "teamAProbability": 0.344887
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "MISA Esports",
-            "probability": 0.621908,
-            "teamAProbability": 0.378092
+            "probability": 0.666082,
+            "teamAProbability": 0.333918
           }
         }
       }
@@ -379,37 +379,37 @@
       },
       "prediction": {
         "favorite": "Karmine Corp Blue",
-        "probability": 0.622681,
-        "teamAProbability": 0.622681,
-        "teamBProbability": 0.377319,
-        "margin": 0.245362
+        "probability": 0.6666,
+        "teamAProbability": 0.6666,
+        "teamBProbability": 0.3334,
+        "margin": 0.3332
       },
       "coverage": {
-        "teamAGames": 259,
-        "teamBGames": 189,
+        "teamAGames": 244,
+        "teamBGames": 180,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.665459,
-          "conservativeProbA": 0.665459,
-          "balancedProbA": 0.649269,
-          "accuracyProbA": 0.637064,
-          "recencyProbA": 0.713596,
-          "championConfidence": 0.665459,
-          "conservativeConfidence": 0.665459,
-          "balancedConfidence": 0.649269,
-          "accuracyConfidence": 0.637064,
-          "recencyConfidence": 0.713596,
-          "meanProbA": 0.6661694,
-          "medianProbA": 0.665459,
-          "minProbA": 0.637064,
-          "maxProbA": 0.713596,
-          "stdProbA": 0.02601168796214503,
-          "probRange": 0.07653200000000004,
-          "meanConfidence": 0.6661694,
-          "maxConfidence": 0.713596,
-          "minConfidence": 0.637064,
+          "championProbA": 0.639901,
+          "conservativeProbA": 0.639901,
+          "balancedProbA": 0.634635,
+          "accuracyProbA": 0.65481,
+          "recencyProbA": 0.673205,
+          "championConfidence": 0.639901,
+          "conservativeConfidence": 0.639901,
+          "balancedConfidence": 0.634635,
+          "accuracyConfidence": 0.65481,
+          "recencyConfidence": 0.673205,
+          "meanProbA": 0.6484904,
+          "medianProbA": 0.639901,
+          "minProbA": 0.634635,
+          "maxProbA": 0.673205,
+          "stdProbA": 0.014073212079692412,
+          "probRange": 0.038570000000000104,
+          "meanConfidence": 0.6484904,
+          "maxConfidence": 0.673205,
+          "minConfidence": 0.634635,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -431,34 +431,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Karmine Corp Blue",
-            "probability": 0.665459,
-            "teamAProbability": 0.665459
+            "probability": 0.639901,
+            "teamAProbability": 0.639901
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Karmine Corp Blue",
-            "probability": 0.665459,
-            "teamAProbability": 0.665459
+            "probability": 0.639901,
+            "teamAProbability": 0.639901
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Karmine Corp Blue",
-            "probability": 0.649269,
-            "teamAProbability": 0.649269
+            "probability": 0.634635,
+            "teamAProbability": 0.634635
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Karmine Corp Blue",
-            "probability": 0.637064,
-            "teamAProbability": 0.637064
+            "probability": 0.65481,
+            "teamAProbability": 0.65481
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Karmine Corp Blue",
-            "probability": 0.713596,
-            "teamAProbability": 0.713596
+            "probability": 0.673205,
+            "teamAProbability": 0.673205
           }
         }
       }
@@ -490,37 +490,37 @@
       },
       "prediction": {
         "favorite": "WLGaming",
-        "probability": 0.530476,
-        "teamAProbability": 0.530476,
-        "teamBProbability": 0.469524,
-        "margin": 0.060952
+        "probability": 0.59492,
+        "teamAProbability": 0.59492,
+        "teamBProbability": 0.40508,
+        "margin": 0.18984
       },
       "coverage": {
-        "teamAGames": 159,
-        "teamBGames": 70,
+        "teamAGames": 129,
+        "teamBGames": 68,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.528802,
-          "conservativeProbA": 0.528802,
-          "balancedProbA": 0.567064,
-          "accuracyProbA": 0.57577,
-          "recencyProbA": 0.646748,
-          "championConfidence": 0.528802,
-          "conservativeConfidence": 0.528802,
-          "balancedConfidence": 0.567064,
-          "accuracyConfidence": 0.57577,
-          "recencyConfidence": 0.646748,
-          "meanProbA": 0.5694372000000001,
-          "medianProbA": 0.567064,
-          "minProbA": 0.528802,
-          "maxProbA": 0.646748,
-          "stdProbA": 0.04318595880329623,
-          "probRange": 0.117946,
-          "meanConfidence": 0.5694372000000001,
-          "maxConfidence": 0.646748,
-          "minConfidence": 0.528802,
+          "championProbA": 0.569534,
+          "conservativeProbA": 0.569534,
+          "balancedProbA": 0.564786,
+          "accuracyProbA": 0.583338,
+          "recencyProbA": 0.601008,
+          "championConfidence": 0.569534,
+          "conservativeConfidence": 0.569534,
+          "balancedConfidence": 0.564786,
+          "accuracyConfidence": 0.583338,
+          "recencyConfidence": 0.601008,
+          "meanProbA": 0.57764,
+          "medianProbA": 0.569534,
+          "minProbA": 0.564786,
+          "maxProbA": 0.601008,
+          "stdProbA": 0.013230044716477717,
+          "probRange": 0.036221999999999976,
+          "meanConfidence": 0.57764,
+          "maxConfidence": 0.601008,
+          "minConfidence": 0.564786,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -542,34 +542,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "WLGaming",
-            "probability": 0.528802,
-            "teamAProbability": 0.528802
+            "probability": 0.569534,
+            "teamAProbability": 0.569534
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "WLGaming",
-            "probability": 0.528802,
-            "teamAProbability": 0.528802
+            "probability": 0.569534,
+            "teamAProbability": 0.569534
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "WLGaming",
-            "probability": 0.567064,
-            "teamAProbability": 0.567064
+            "probability": 0.564786,
+            "teamAProbability": 0.564786
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "WLGaming",
-            "probability": 0.57577,
-            "teamAProbability": 0.57577
+            "probability": 0.583338,
+            "teamAProbability": 0.583338
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "WLGaming",
-            "probability": 0.646748,
-            "teamAProbability": 0.646748
+            "probability": 0.601008,
+            "teamAProbability": 0.601008
           }
         }
       }
@@ -601,37 +601,37 @@
       },
       "prediction": {
         "favorite": "Anubis Gaming",
-        "probability": 0.585471,
-        "teamAProbability": 0.585471,
-        "teamBProbability": 0.414529,
-        "margin": 0.170942
+        "probability": 0.677699,
+        "teamAProbability": 0.677699,
+        "teamBProbability": 0.322301,
+        "margin": 0.355399
       },
       "coverage": {
-        "teamAGames": 161,
-        "teamBGames": 190,
+        "teamAGames": 151,
+        "teamBGames": 179,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.525869,
-          "conservativeProbA": 0.525869,
-          "balancedProbA": 0.615526,
-          "accuracyProbA": 0.652783,
-          "recencyProbA": 0.712584,
-          "championConfidence": 0.525869,
-          "conservativeConfidence": 0.525869,
-          "balancedConfidence": 0.615526,
-          "accuracyConfidence": 0.652783,
-          "recencyConfidence": 0.712584,
-          "meanProbA": 0.6065262,
-          "medianProbA": 0.615526,
-          "minProbA": 0.525869,
-          "maxProbA": 0.712584,
-          "stdProbA": 0.0727737764731225,
-          "probRange": 0.18671499999999996,
-          "meanConfidence": 0.6065262,
-          "maxConfidence": 0.712584,
-          "minConfidence": 0.525869,
+          "championProbA": 0.656662,
+          "conservativeProbA": 0.656662,
+          "balancedProbA": 0.653233,
+          "accuracyProbA": 0.666665,
+          "recencyProbA": 0.67953,
+          "championConfidence": 0.656662,
+          "conservativeConfidence": 0.656662,
+          "balancedConfidence": 0.653233,
+          "accuracyConfidence": 0.666665,
+          "recencyConfidence": 0.67953,
+          "meanProbA": 0.6625504,
+          "medianProbA": 0.656662,
+          "minProbA": 0.653233,
+          "maxProbA": 0.67953,
+          "stdProbA": 0.009606218831569476,
+          "probRange": 0.026297000000000015,
+          "meanConfidence": 0.6625504,
+          "maxConfidence": 0.67953,
+          "minConfidence": 0.653233,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -653,34 +653,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Anubis Gaming",
-            "probability": 0.525869,
-            "teamAProbability": 0.525869
+            "probability": 0.656662,
+            "teamAProbability": 0.656662
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Anubis Gaming",
-            "probability": 0.525869,
-            "teamAProbability": 0.525869
+            "probability": 0.656662,
+            "teamAProbability": 0.656662
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Anubis Gaming",
-            "probability": 0.615526,
-            "teamAProbability": 0.615526
+            "probability": 0.653233,
+            "teamAProbability": 0.653233
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Anubis Gaming",
-            "probability": 0.652783,
-            "teamAProbability": 0.652783
+            "probability": 0.666665,
+            "teamAProbability": 0.666665
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Anubis Gaming",
-            "probability": 0.712584,
-            "teamAProbability": 0.712584
+            "probability": 0.67953,
+            "teamAProbability": 0.67953
           }
         }
       }
@@ -712,42 +712,42 @@
       },
       "prediction": {
         "favorite": "Gen.G Esports",
-        "probability": 0.846327,
-        "teamAProbability": 0.153673,
-        "teamBProbability": 0.846327,
-        "margin": 0.692654
+        "probability": 0.733639,
+        "teamAProbability": 0.266361,
+        "teamBProbability": 0.733639,
+        "margin": 0.467278
       },
       "coverage": {
-        "teamAGames": 812,
-        "teamBGames": 378,
+        "teamAGames": 634,
+        "teamBGames": 270,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.504951,
-          "conservativeProbA": 0.504951,
-          "balancedProbA": 0.473675,
-          "accuracyProbA": 0.393225,
-          "recencyProbA": 0.576284,
-          "championConfidence": 0.504951,
-          "conservativeConfidence": 0.504951,
-          "balancedConfidence": 0.5263249999999999,
-          "accuracyConfidence": 0.6067750000000001,
-          "recencyConfidence": 0.576284,
-          "meanProbA": 0.4906172,
-          "medianProbA": 0.504951,
-          "minProbA": 0.393225,
-          "maxProbA": 0.576284,
-          "stdProbA": 0.05919796454068333,
-          "probRange": 0.18305900000000003,
-          "meanConfidence": 0.5438572,
-          "maxConfidence": 0.6067750000000001,
-          "minConfidence": 0.504951,
+          "championProbA": 0.495018,
+          "conservativeProbA": 0.495018,
+          "balancedProbA": 0.484229,
+          "accuracyProbA": 0.527113,
+          "recencyProbA": 0.569451,
+          "championConfidence": 0.504982,
+          "conservativeConfidence": 0.504982,
+          "balancedConfidence": 0.515771,
+          "accuracyConfidence": 0.527113,
+          "recencyConfidence": 0.569451,
+          "meanProbA": 0.5141658,
+          "medianProbA": 0.495018,
+          "minProbA": 0.484229,
+          "maxProbA": 0.569451,
+          "stdProbA": 0.03115628928739751,
+          "probRange": 0.08522200000000002,
+          "meanConfidence": 0.5244598,
+          "maxConfidence": 0.569451,
+          "minConfidence": 0.504982,
           "favoriteAgreement": 3,
           "disagreementCount": 2,
-          "majorityPickA": 1,
+          "majorityPickA": 0,
           "championVsAccuracyDisagree": 1,
-          "championVsRecencyDisagree": 0,
+          "championVsRecencyDisagree": 1,
           "isBo1": 0,
           "isBo3": 0,
           "isBo5": 1,
@@ -764,34 +764,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
-            "favorite": "kt Rolster",
-            "probability": 0.504951,
-            "teamAProbability": 0.504951
+            "modelId": "champion-match-ensemble",
+            "favorite": "Gen.G Esports",
+            "probability": 0.504982,
+            "teamAProbability": 0.495018
           },
           "conservative": {
             "modelId": "conservative-coverage",
-            "favorite": "kt Rolster",
-            "probability": 0.504951,
-            "teamAProbability": 0.504951
+            "favorite": "Gen.G Esports",
+            "probability": 0.504982,
+            "teamAProbability": 0.495018
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Gen.G Esports",
-            "probability": 0.526325,
-            "teamAProbability": 0.473675
+            "probability": 0.515771,
+            "teamAProbability": 0.484229
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
-            "favorite": "Gen.G Esports",
-            "probability": 0.606775,
-            "teamAProbability": 0.393225
+            "favorite": "kt Rolster",
+            "probability": 0.527113,
+            "teamAProbability": 0.527113
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "kt Rolster",
-            "probability": 0.576284,
-            "teamAProbability": 0.576284
+            "probability": 0.569451,
+            "teamAProbability": 0.569451
           }
         }
       }
@@ -823,37 +823,37 @@
       },
       "prediction": {
         "favorite": "Rising Gaming",
-        "probability": 0.571567,
-        "teamAProbability": 0.571567,
-        "teamBProbability": 0.428433,
-        "margin": 0.143133
+        "probability": 0.636893,
+        "teamAProbability": 0.636893,
+        "teamBProbability": 0.363107,
+        "margin": 0.273786
       },
       "coverage": {
-        "teamAGames": 46,
-        "teamBGames": 45,
+        "teamAGames": 38,
+        "teamBGames": 42,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.663722,
-          "conservativeProbA": 0.663722,
-          "balancedProbA": 0.544879,
-          "accuracyProbA": 0.551849,
-          "recencyProbA": 0.611748,
-          "championConfidence": 0.663722,
-          "conservativeConfidence": 0.663722,
-          "balancedConfidence": 0.544879,
-          "accuracyConfidence": 0.551849,
-          "recencyConfidence": 0.611748,
-          "meanProbA": 0.6071840000000001,
-          "medianProbA": 0.611748,
-          "minProbA": 0.544879,
-          "maxProbA": 0.663722,
-          "stdProbA": 0.05168712844413008,
-          "probRange": 0.11884300000000003,
-          "meanConfidence": 0.6071840000000001,
-          "maxConfidence": 0.663722,
-          "minConfidence": 0.544879,
+          "championProbA": 0.625988,
+          "conservativeProbA": 0.625988,
+          "balancedProbA": 0.625956,
+          "accuracyProbA": 0.62612,
+          "recencyProbA": 0.626355,
+          "championConfidence": 0.625988,
+          "conservativeConfidence": 0.625988,
+          "balancedConfidence": 0.625956,
+          "accuracyConfidence": 0.62612,
+          "recencyConfidence": 0.626355,
+          "meanProbA": 0.6260814,
+          "medianProbA": 0.625988,
+          "minProbA": 0.625956,
+          "maxProbA": 0.626355,
+          "stdProbA": 0.00014799945945848117,
+          "probRange": 0.0003990000000000382,
+          "meanConfidence": 0.6260814,
+          "maxConfidence": 0.626355,
+          "minConfidence": 0.625956,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -875,34 +875,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Rising Gaming",
-            "probability": 0.663722,
-            "teamAProbability": 0.663722
+            "probability": 0.625988,
+            "teamAProbability": 0.625988
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Rising Gaming",
-            "probability": 0.663722,
-            "teamAProbability": 0.663722
+            "probability": 0.625988,
+            "teamAProbability": 0.625988
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Rising Gaming",
-            "probability": 0.544879,
-            "teamAProbability": 0.544879
+            "probability": 0.625956,
+            "teamAProbability": 0.625956
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Rising Gaming",
-            "probability": 0.551849,
-            "teamAProbability": 0.551849
+            "probability": 0.62612,
+            "teamAProbability": 0.62612
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Rising Gaming",
-            "probability": 0.611748,
-            "teamAProbability": 0.611748
+            "probability": 0.626355,
+            "teamAProbability": 0.626355
           }
         }
       }
@@ -933,38 +933,38 @@
         "label": "MetaPicker"
       },
       "prediction": {
-        "favorite": "Xi'an Team WE",
-        "probability": 0.518584,
-        "teamAProbability": 0.481416,
-        "teamBProbability": 0.518584,
-        "margin": 0.037168
+        "favorite": "BILIBILI GAMING",
+        "probability": 0.722096,
+        "teamAProbability": 0.722096,
+        "teamBProbability": 0.277904,
+        "margin": 0.444192
       },
       "coverage": {
-        "teamAGames": 432,
-        "teamBGames": 341,
+        "teamAGames": 303,
+        "teamBGames": 288,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.771499,
-          "conservativeProbA": 0.771499,
-          "balancedProbA": 0.739219,
-          "accuracyProbA": 0.715579,
-          "recencyProbA": 0.798957,
-          "championConfidence": 0.771499,
-          "conservativeConfidence": 0.771499,
-          "balancedConfidence": 0.739219,
-          "accuracyConfidence": 0.715579,
-          "recencyConfidence": 0.798957,
-          "meanProbA": 0.7593506000000001,
-          "medianProbA": 0.771499,
-          "minProbA": 0.715579,
-          "maxProbA": 0.798957,
-          "stdProbA": 0.028931188883970907,
-          "probRange": 0.08337800000000006,
-          "meanConfidence": 0.7593506000000001,
-          "maxConfidence": 0.798957,
-          "minConfidence": 0.715579,
+          "championProbA": 0.809853,
+          "conservativeProbA": 0.809853,
+          "balancedProbA": 0.809523,
+          "accuracyProbA": 0.810755,
+          "recencyProbA": 0.811811,
+          "championConfidence": 0.809853,
+          "conservativeConfidence": 0.809853,
+          "balancedConfidence": 0.809523,
+          "accuracyConfidence": 0.810755,
+          "recencyConfidence": 0.811811,
+          "meanProbA": 0.810359,
+          "medianProbA": 0.809853,
+          "minProbA": 0.809523,
+          "maxProbA": 0.811811,
+          "stdProbA": 0.0008337970976202516,
+          "probRange": 0.0022879999999999567,
+          "meanConfidence": 0.810359,
+          "maxConfidence": 0.811811,
+          "minConfidence": 0.809523,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -986,34 +986,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "BILIBILI GAMING",
-            "probability": 0.771499,
-            "teamAProbability": 0.771499
+            "probability": 0.809853,
+            "teamAProbability": 0.809853
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "BILIBILI GAMING",
-            "probability": 0.771499,
-            "teamAProbability": 0.771499
+            "probability": 0.809853,
+            "teamAProbability": 0.809853
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "BILIBILI GAMING",
-            "probability": 0.739219,
-            "teamAProbability": 0.739219
+            "probability": 0.809523,
+            "teamAProbability": 0.809523
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "BILIBILI GAMING",
-            "probability": 0.715579,
-            "teamAProbability": 0.715579
+            "probability": 0.810755,
+            "teamAProbability": 0.810755
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "BILIBILI GAMING",
-            "probability": 0.798957,
-            "teamAProbability": 0.798957
+            "probability": 0.811811,
+            "teamAProbability": 0.811811
           }
         }
       }
@@ -1045,37 +1045,37 @@
       },
       "prediction": {
         "favorite": "FENNEL",
-        "probability": 0.676668,
-        "teamAProbability": 0.676668,
-        "teamBProbability": 0.323332,
-        "margin": 0.353336
+        "probability": 0.674205,
+        "teamAProbability": 0.674205,
+        "teamBProbability": 0.325795,
+        "margin": 0.348409
       },
       "coverage": {
-        "teamAGames": 31,
-        "teamBGames": 46,
+        "teamAGames": 25,
+        "teamBGames": 43,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.696693,
-          "conservativeProbA": 0.696693,
-          "balancedProbA": 0.757162,
-          "accuracyProbA": 0.755649,
-          "recencyProbA": 0.737758,
-          "championConfidence": 0.696693,
-          "conservativeConfidence": 0.696693,
-          "balancedConfidence": 0.757162,
-          "accuracyConfidence": 0.755649,
-          "recencyConfidence": 0.737758,
-          "meanProbA": 0.728791,
-          "medianProbA": 0.737758,
-          "minProbA": 0.696693,
-          "maxProbA": 0.757162,
-          "stdProbA": 0.027082230713144737,
-          "probRange": 0.060468999999999995,
-          "meanConfidence": 0.728791,
-          "maxConfidence": 0.757162,
-          "minConfidence": 0.696693,
+          "championProbA": 0.656405,
+          "conservativeProbA": 0.656405,
+          "balancedProbA": 0.654055,
+          "accuracyProbA": 0.663333,
+          "recencyProbA": 0.672365,
+          "championConfidence": 0.656405,
+          "conservativeConfidence": 0.656405,
+          "balancedConfidence": 0.654055,
+          "accuracyConfidence": 0.663333,
+          "recencyConfidence": 0.672365,
+          "meanProbA": 0.6605126,
+          "medianProbA": 0.656405,
+          "minProbA": 0.654055,
+          "maxProbA": 0.672365,
+          "stdProbA": 0.0066914780908256515,
+          "probRange": 0.018309999999999937,
+          "meanConfidence": 0.6605126,
+          "maxConfidence": 0.672365,
+          "minConfidence": 0.654055,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -1097,34 +1097,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "FENNEL",
-            "probability": 0.696693,
-            "teamAProbability": 0.696693
+            "probability": 0.656405,
+            "teamAProbability": 0.656405
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "FENNEL",
-            "probability": 0.696693,
-            "teamAProbability": 0.696693
+            "probability": 0.656405,
+            "teamAProbability": 0.656405
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "FENNEL",
-            "probability": 0.757162,
-            "teamAProbability": 0.757162
+            "probability": 0.654055,
+            "teamAProbability": 0.654055
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "FENNEL",
-            "probability": 0.755649,
-            "teamAProbability": 0.755649
+            "probability": 0.663333,
+            "teamAProbability": 0.663333
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "FENNEL",
-            "probability": 0.737758,
-            "teamAProbability": 0.737758
+            "probability": 0.672365,
+            "teamAProbability": 0.672365
           }
         }
       }
@@ -1155,38 +1155,38 @@
         "label": "MetaPicker"
       },
       "prediction": {
-        "favorite": "Cloud9 Kia",
-        "probability": 0.618098,
-        "teamAProbability": 0.381902,
-        "teamBProbability": 0.618098,
-        "margin": 0.236196
+        "favorite": "Team Liquid Alienware",
+        "probability": 0.596325,
+        "teamAProbability": 0.596325,
+        "teamBProbability": 0.403675,
+        "margin": 0.192651
       },
       "coverage": {
-        "teamAGames": 268,
-        "teamBGames": 180,
+        "teamAGames": 151,
+        "teamBGames": 97,
         "level": "high"
       },
       "meta": {
         "features": {
-          "championProbA": 0.639174,
-          "conservativeProbA": 0.639174,
-          "balancedProbA": 0.646913,
-          "accuracyProbA": 0.639457,
-          "recencyProbA": 0.73324,
-          "championConfidence": 0.639174,
-          "conservativeConfidence": 0.639174,
-          "balancedConfidence": 0.646913,
-          "accuracyConfidence": 0.639457,
-          "recencyConfidence": 0.73324,
-          "meanProbA": 0.6595916,
-          "medianProbA": 0.639457,
-          "minProbA": 0.639174,
-          "maxProbA": 0.73324,
-          "stdProbA": 0.03694317966066266,
-          "probRange": 0.09406599999999998,
-          "meanConfidence": 0.6595916,
-          "maxConfidence": 0.73324,
-          "minConfidence": 0.639174,
+          "championProbA": 0.663922,
+          "conservativeProbA": 0.663922,
+          "balancedProbA": 0.658858,
+          "accuracyProbA": 0.678566,
+          "recencyProbA": 0.697177,
+          "championConfidence": 0.663922,
+          "conservativeConfidence": 0.663922,
+          "balancedConfidence": 0.658858,
+          "accuracyConfidence": 0.678566,
+          "recencyConfidence": 0.697177,
+          "meanProbA": 0.672489,
+          "medianProbA": 0.663922,
+          "minProbA": 0.658858,
+          "maxProbA": 0.697177,
+          "stdProbA": 0.013992986900587026,
+          "probRange": 0.03831899999999999,
+          "meanConfidence": 0.672489,
+          "maxConfidence": 0.697177,
+          "minConfidence": 0.658858,
           "favoriteAgreement": 5,
           "disagreementCount": 0,
           "majorityPickA": 1,
@@ -1208,34 +1208,34 @@
         },
         "sources": {
           "champion": {
-            "modelId": "ensemble-55-45",
+            "modelId": "champion-match-ensemble",
             "favorite": "Team Liquid Alienware",
-            "probability": 0.639174,
-            "teamAProbability": 0.639174
+            "probability": 0.663922,
+            "teamAProbability": 0.663922
           },
           "conservative": {
             "modelId": "conservative-coverage",
             "favorite": "Team Liquid Alienware",
-            "probability": 0.639174,
-            "teamAProbability": 0.639174
+            "probability": 0.663922,
+            "teamAProbability": 0.663922
           },
           "balanced": {
             "modelId": "balanced-ensemble",
             "favorite": "Team Liquid Alienware",
-            "probability": 0.646913,
-            "teamAProbability": 0.646913
+            "probability": 0.658858,
+            "teamAProbability": 0.658858
           },
           "accuracy": {
             "modelId": "accuracy-ensemble",
             "favorite": "Team Liquid Alienware",
-            "probability": 0.639457,
-            "teamAProbability": 0.639457
+            "probability": 0.678566,
+            "teamAProbability": 0.678566
           },
           "recency": {
             "modelId": "recency-accuracy",
             "favorite": "Team Liquid Alienware",
-            "probability": 0.73324,
-            "teamAProbability": 0.73324
+            "probability": 0.697177,
+            "teamAProbability": 0.697177
           }
         }
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T22:42:52.749Z",
+  "generatedAt": "2026-06-12T11:35:59.335Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset-match-level-league.json",
@@ -39,14 +39,14 @@
       },
       "prediction": {
         "favorite": "Hanwha Life Esports",
-        "probability": 0.726842,
-        "teamAProbability": 0.726842,
-        "teamBProbability": 0.273158,
-        "margin": 0.453684
+        "probability": 0.696472,
+        "teamAProbability": 0.696472,
+        "teamBProbability": 0.303528,
+        "margin": 0.392945
       },
       "coverage": {
-        "teamAGames": 676,
-        "teamBGames": 509,
+        "teamAGames": 679,
+        "teamBGames": 532,
         "level": "high"
       }
     },
@@ -77,13 +77,13 @@
       },
       "prediction": {
         "favorite": "Saigon Dino",
-        "probability": 0.707699,
-        "teamAProbability": 0.707699,
-        "teamBProbability": 0.292301,
-        "margin": 0.415398
+        "probability": 0.673462,
+        "teamAProbability": 0.673462,
+        "teamBProbability": 0.326538,
+        "margin": 0.346925
       },
       "coverage": {
-        "teamAGames": 61,
+        "teamAGames": 63,
         "teamBGames": 0,
         "level": "low"
       }
@@ -115,10 +115,10 @@
       },
       "prediction": {
         "favorite": "MISA Esports",
-        "probability": 0.621908,
-        "teamAProbability": 0.378092,
-        "teamBProbability": 0.621908,
-        "margin": 0.243815
+        "probability": 0.666082,
+        "teamAProbability": 0.333918,
+        "teamBProbability": 0.666082,
+        "margin": 0.332165
       },
       "coverage": {
         "teamAGames": 170,
@@ -153,14 +153,14 @@
       },
       "prediction": {
         "favorite": "Karmine Corp Blue",
-        "probability": 0.713596,
-        "teamAProbability": 0.713596,
-        "teamBProbability": 0.286404,
-        "margin": 0.427192
+        "probability": 0.673205,
+        "teamAProbability": 0.673205,
+        "teamBProbability": 0.326795,
+        "margin": 0.34641
       },
       "coverage": {
-        "teamAGames": 242,
-        "teamBGames": 184,
+        "teamAGames": 244,
+        "teamBGames": 180,
         "level": "high"
       }
     },
@@ -191,13 +191,13 @@
       },
       "prediction": {
         "favorite": "WLGaming",
-        "probability": 0.646748,
-        "teamAProbability": 0.646748,
-        "teamBProbability": 0.353252,
-        "margin": 0.293497
+        "probability": 0.601008,
+        "teamAProbability": 0.601008,
+        "teamBProbability": 0.398992,
+        "margin": 0.202016
       },
       "coverage": {
-        "teamAGames": 134,
+        "teamAGames": 129,
         "teamBGames": 68,
         "level": "high"
       }
@@ -229,10 +229,10 @@
       },
       "prediction": {
         "favorite": "Anubis Gaming",
-        "probability": 0.712584,
-        "teamAProbability": 0.712584,
-        "teamBProbability": 0.287416,
-        "margin": 0.425168
+        "probability": 0.67953,
+        "teamAProbability": 0.67953,
+        "teamBProbability": 0.32047,
+        "margin": 0.359059
       },
       "coverage": {
         "teamAGames": 151,
@@ -267,14 +267,14 @@
       },
       "prediction": {
         "favorite": "kt Rolster",
-        "probability": 0.576284,
-        "teamAProbability": 0.576284,
-        "teamBProbability": 0.423716,
-        "margin": 0.152569
+        "probability": 0.569451,
+        "teamAProbability": 0.569451,
+        "teamBProbability": 0.430549,
+        "margin": 0.138901
       },
       "coverage": {
-        "teamAGames": 615,
-        "teamBGames": 257,
+        "teamAGames": 634,
+        "teamBGames": 270,
         "level": "high"
       }
     },
@@ -305,13 +305,13 @@
       },
       "prediction": {
         "favorite": "Rising Gaming",
-        "probability": 0.611748,
-        "teamAProbability": 0.611748,
-        "teamBProbability": 0.388252,
-        "margin": 0.223497
+        "probability": 0.626355,
+        "teamAProbability": 0.626355,
+        "teamBProbability": 0.373645,
+        "margin": 0.252709
       },
       "coverage": {
-        "teamAGames": 37,
+        "teamAGames": 38,
         "teamBGames": 42,
         "level": "high"
       }
@@ -343,14 +343,14 @@
       },
       "prediction": {
         "favorite": "BILIBILI GAMING",
-        "probability": 0.798957,
-        "teamAProbability": 0.798957,
-        "teamBProbability": 0.201043,
-        "margin": 0.597915
+        "probability": 0.811811,
+        "teamAProbability": 0.811811,
+        "teamBProbability": 0.188189,
+        "margin": 0.623622
       },
       "coverage": {
-        "teamAGames": 289,
-        "teamBGames": 276,
+        "teamAGames": 303,
+        "teamBGames": 288,
         "level": "high"
       }
     },
@@ -381,13 +381,13 @@
       },
       "prediction": {
         "favorite": "FENNEL",
-        "probability": 0.737758,
-        "teamAProbability": 0.737758,
-        "teamBProbability": 0.262242,
-        "margin": 0.475517
+        "probability": 0.672365,
+        "teamAProbability": 0.672365,
+        "teamBProbability": 0.327635,
+        "margin": 0.34473
       },
       "coverage": {
-        "teamAGames": 22,
+        "teamAGames": 25,
         "teamBGames": 43,
         "level": "high"
       }
@@ -419,14 +419,14 @@
       },
       "prediction": {
         "favorite": "Team Liquid Alienware",
-        "probability": 0.73324,
-        "teamAProbability": 0.73324,
-        "teamBProbability": 0.26676,
-        "margin": 0.46648
+        "probability": 0.697177,
+        "teamAProbability": 0.697177,
+        "teamBProbability": 0.302823,
+        "margin": 0.394355
       },
       "coverage": {
-        "teamAGames": 134,
-        "teamBGames": 88,
+        "teamAGames": 151,
+        "teamBGames": 97,
         "level": "high"
       }
     }

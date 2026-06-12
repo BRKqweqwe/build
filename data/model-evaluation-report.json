@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T22:53:20.314Z",
+  "generatedAt": "2026-06-12T11:39:16.313Z",
   "source": {
     "results": "static/data/model-results.json",
     "rows": 28,
@@ -9,7 +9,14 @@
   },
   "settings": {
     "primaryModelId": "weighted",
-    "minLeaderSamples": 20
+    "minLeaderSamples": 20,
+    "decisionModels": [
+      "weighted",
+      "champion",
+      "ensemble",
+      "ensemble25",
+      "archive"
+    ]
   },
   "leader": {
     "modelId": "Cal ML",
@@ -57,9 +64,9 @@
       "misses": 6,
       "pending": 0,
       "accuracy": 0.666667,
-      "logLoss": 0.652789,
-      "brier": 0.230186,
-      "avgProbabilityForWinner": 0.523982,
+      "logLoss": 0.651176,
+      "brier": 0.229338,
+      "avgProbabilityForWinner": 0.524751,
       "avgFeatureCoverage": null,
       "market": {
         "covered": 17,
@@ -67,7 +74,7 @@
         "disagreements": 3,
         "disagreementAccuracy": 0.333333,
         "agreementAccuracy": 0.785714,
-        "avgEdge": -0.105812
+        "avgEdge": -0.112722
       }
     }
   },
@@ -2327,9 +2334,9 @@
     "misses": 6,
     "pending": 0,
     "accuracy": 0.666667,
-    "logLoss": 0.652789,
-    "brier": 0.230186,
-    "avgProbabilityForWinner": 0.523982,
+    "logLoss": 0.651176,
+    "brier": 0.229338,
+    "avgProbabilityForWinner": 0.524751,
     "avgFeatureCoverage": null,
     "market": {
       "covered": 17,
@@ -2337,49 +2344,49 @@
       "disagreements": 3,
       "disagreementAccuracy": 0.333333,
       "agreementAccuracy": 0.785714,
-      "avgEdge": -0.105812
+      "avgEdge": -0.112722
     },
     "byTier": [
       {
         "key": "lean",
-        "total": 5,
-        "resolved": 5,
-        "hits": 3,
+        "total": 6,
+        "resolved": 6,
+        "hits": 4,
         "misses": 2,
         "pending": 0,
-        "accuracy": 0.6,
-        "logLoss": 0.655428,
-        "brier": 0.231498,
-        "avgProbabilityForWinner": 0.526346,
+        "accuracy": 0.666667,
+        "logLoss": 0.646637,
+        "brier": 0.227002,
+        "avgProbabilityForWinner": 0.529875,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 5,
-          "resolved": 5,
+          "covered": 6,
+          "resolved": 6,
           "disagreements": 0,
           "disagreementAccuracy": null,
-          "agreementAccuracy": 0.6,
-          "avgEdge": -0.069469
+          "agreementAccuracy": 0.666667,
+          "avgEdge": -0.132677
         }
       },
       {
         "key": "skip",
-        "total": 12,
-        "resolved": 12,
-        "hits": 8,
+        "total": 11,
+        "resolved": 11,
+        "hits": 7,
         "misses": 4,
         "pending": 0,
-        "accuracy": 0.666667,
-        "logLoss": 0.671632,
-        "brier": 0.239263,
-        "avgProbabilityForWinner": 0.511551,
+        "accuracy": 0.636364,
+        "logLoss": 0.674429,
+        "brier": 0.24066,
+        "avgProbabilityForWinner": 0.510087,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 11,
-          "resolved": 11,
+          "covered": 10,
+          "resolved": 10,
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
-          "agreementAccuracy": 0.875,
-          "avgEdge": -0.117982
+          "agreementAccuracy": 0.857143,
+          "avgEdge": -0.096053
         }
       },
       {
@@ -2390,9 +2397,9 @@
         "misses": 0,
         "pending": 0,
         "accuracy": 1,
-        "logLoss": 0.413489,
-        "brier": 0.114691,
-        "avgProbabilityForWinner": 0.661339,
+        "logLoss": 0.422638,
+        "brier": 0.118807,
+        "avgProbabilityForWinner": 0.655316,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 1,
@@ -2400,7 +2407,7 @@
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.153661
+          "avgEdge": -0.159684
         }
       }
     ],
@@ -2448,16 +2455,16 @@
         }
       },
       {
-        "key": "3/6",
+        "key": "3/5",
         "total": 2,
         "resolved": 2,
         "hits": 1,
         "misses": 1,
         "pending": 0,
         "accuracy": 0.5,
-        "logLoss": 0.724759,
-        "brier": 0.265799,
-        "avgProbabilityForWinner": 0.484467,
+        "logLoss": 0.722324,
+        "brier": 0.264569,
+        "avgProbabilityForWinner": 0.485888,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 2,
@@ -2465,114 +2472,93 @@
           "disagreements": 1,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 1,
-          "avgEdge": 0.035052
+          "avgEdge": -0.023926
         }
       },
       {
-        "key": "4/6",
-        "total": 3,
-        "resolved": 3,
-        "hits": 2,
-        "misses": 1,
+        "key": "4/5",
+        "total": 7,
+        "resolved": 7,
+        "hits": 4,
+        "misses": 3,
         "pending": 0,
-        "accuracy": 0.666667,
-        "logLoss": 0.661262,
-        "brier": 0.234075,
-        "avgProbabilityForWinner": 0.516393,
+        "accuracy": 0.571429,
+        "logLoss": 0.693267,
+        "brier": 0.249948,
+        "avgProbabilityForWinner": 0.502174,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 2,
-          "resolved": 2,
-          "disagreements": 0,
-          "disagreementAccuracy": null,
-          "agreementAccuracy": 1,
-          "avgEdge": -0.252265
-        }
-      },
-      {
-        "key": "5/6",
-        "total": 5,
-        "resolved": 5,
-        "hits": 3,
-        "misses": 2,
-        "pending": 0,
-        "accuracy": 0.6,
-        "logLoss": 0.707597,
-        "brier": 0.257092,
-        "avgProbabilityForWinner": 0.495047,
-        "avgFeatureCoverage": null,
-        "market": {
-          "covered": 5,
-          "resolved": 5,
+          "covered": 6,
+          "resolved": 6,
           "disagreements": 1,
           "disagreementAccuracy": 1,
-          "agreementAccuracy": 0.5,
-          "avgEdge": -0.063187
+          "agreementAccuracy": 0.6,
+          "avgEdge": -0.110137
         }
       },
       {
-        "key": "6/6",
-        "total": 5,
-        "resolved": 5,
-        "hits": 4,
+        "key": "5/5",
+        "total": 6,
+        "resolved": 6,
+        "hits": 5,
         "misses": 1,
         "pending": 0,
-        "accuracy": 0.8,
-        "logLoss": 0.587139,
-        "brier": 0.198203,
-        "avgProbabilityForWinner": 0.562003,
+        "accuracy": 0.833333,
+        "logLoss": 0.596739,
+        "brier": 0.20271,
+        "avgProbabilityForWinner": 0.555035,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 5,
-          "resolved": 5,
+          "covered": 6,
+          "resolved": 6,
           "disagreements": 0,
           "disagreementAccuracy": null,
-          "agreementAccuracy": 0.8,
-          "avgEdge": -0.128
+          "agreementAccuracy": 0.833333,
+          "avgEdge": -0.133192
         }
       }
     ],
     "byConfidence": [
       {
         "key": "50-55",
-        "total": 12,
-        "resolved": 12,
-        "hits": 8,
+        "total": 11,
+        "resolved": 11,
+        "hits": 7,
         "misses": 4,
         "pending": 0,
-        "accuracy": 0.666667,
-        "logLoss": 0.671632,
-        "brier": 0.239263,
-        "avgProbabilityForWinner": 0.511551,
+        "accuracy": 0.636364,
+        "logLoss": 0.674429,
+        "brier": 0.24066,
+        "avgProbabilityForWinner": 0.510087,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 11,
-          "resolved": 11,
+          "covered": 10,
+          "resolved": 10,
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
-          "agreementAccuracy": 0.875,
-          "avgEdge": -0.117982
+          "agreementAccuracy": 0.857143,
+          "avgEdge": -0.096053
         }
       },
       {
         "key": "55-60",
-        "total": 4,
-        "resolved": 4,
-        "hits": 2,
+        "total": 5,
+        "resolved": 5,
+        "hits": 3,
         "misses": 2,
         "pending": 0,
-        "accuracy": 0.5,
-        "logLoss": 0.695592,
-        "brier": 0.251291,
-        "avgProbabilityForWinner": 0.505505,
+        "accuracy": 0.6,
+        "logLoss": 0.674181,
+        "brier": 0.240586,
+        "avgProbabilityForWinner": 0.515621,
         "avgFeatureCoverage": null,
         "market": {
-          "covered": 4,
-          "resolved": 4,
+          "covered": 5,
+          "resolved": 5,
           "disagreements": 0,
           "disagreementAccuracy": null,
-          "agreementAccuracy": 0.5,
-          "avgEdge": -0.083014
+          "agreementAccuracy": 0.6,
+          "avgEdge": -0.154441
         }
       },
       {
@@ -2583,9 +2569,9 @@
         "misses": 0,
         "pending": 0,
         "accuracy": 1,
-        "logLoss": 0.494772,
-        "brier": 0.152326,
-        "avgProbabilityForWinner": 0.60971,
+        "logLoss": 0.508918,
+        "brier": 0.159085,
+        "avgProbabilityForWinner": 0.601146,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 1,
@@ -2593,7 +2579,7 @@
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.01529
+          "avgEdge": -0.023854
         }
       },
       {
@@ -2604,9 +2590,9 @@
         "misses": 0,
         "pending": 0,
         "accuracy": 1,
-        "logLoss": 0.413489,
-        "brier": 0.114691,
-        "avgProbabilityForWinner": 0.661339,
+        "logLoss": 0.422638,
+        "brier": 0.118807,
+        "avgProbabilityForWinner": 0.655316,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 1,
@@ -2614,7 +2600,7 @@
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.153661
+          "avgEdge": -0.159684
         }
       }
     ],
@@ -2627,9 +2613,9 @@
         "misses": 1,
         "pending": 0,
         "accuracy": 0,
-        "logLoss": 0.694732,
-        "brier": 0.250792,
-        "avgProbabilityForWinner": 0.499208,
+        "logLoss": 0.716274,
+        "brier": 0.261561,
+        "avgProbabilityForWinner": 0.488569,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 0,
@@ -2648,9 +2634,9 @@
         "misses": 2,
         "pending": 0,
         "accuracy": 0.333333,
-        "logLoss": 0.692131,
-        "brier": 0.249497,
-        "avgProbabilityForWinner": 0.500786,
+        "logLoss": 0.70944,
+        "brier": 0.258136,
+        "avgProbabilityForWinner": 0.492331,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 3,
@@ -2658,7 +2644,7 @@
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": null,
-          "avgEdge": 0.102256
+          "avgEdge": 0.080201
         }
       },
       {
@@ -2669,9 +2655,9 @@
         "misses": 3,
         "pending": 0,
         "accuracy": 0.785714,
-        "logLoss": 0.641363,
-        "brier": 0.224576,
-        "avgProbabilityForWinner": 0.530722,
+        "logLoss": 0.634042,
+        "brier": 0.220865,
+        "avgProbabilityForWinner": 0.534283,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 14,
@@ -2679,7 +2665,7 @@
           "disagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 0.785714,
-          "avgEdge": -0.150398
+          "avgEdge": -0.154062
         }
       }
     ],
@@ -2687,21 +2673,21 @@
       "last5": {
         "total": 5,
         "resolved": 5,
-        "hits": 2,
-        "misses": 3,
+        "hits": 3,
+        "misses": 2,
         "pending": 0,
-        "accuracy": 0.4,
-        "logLoss": 0.683616,
-        "brier": 0.245997,
-        "avgProbabilityForWinner": 0.5107,
+        "accuracy": 0.6,
+        "logLoss": 0.666954,
+        "brier": 0.237633,
+        "avgProbabilityForWinner": 0.518313,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 5,
           "resolved": 5,
-          "disagreements": 1,
-          "disagreementAccuracy": 0,
-          "agreementAccuracy": 0.5,
-          "avgEdge": 0.001309
+          "disagreements": 0,
+          "disagreementAccuracy": null,
+          "agreementAccuracy": 0.6,
+          "avgEdge": -0.058065
         }
       },
       "last10": {
@@ -2711,9 +2697,9 @@
         "misses": 4,
         "pending": 0,
         "accuracy": 0.6,
-        "logLoss": 0.666857,
-        "brier": 0.237382,
-        "avgProbabilityForWinner": 0.518626,
+        "logLoss": 0.665592,
+        "brier": 0.236656,
+        "avgProbabilityForWinner": 0.518987,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 10,
@@ -2721,7 +2707,7 @@
           "disagreements": 1,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 0.666667,
-          "avgEdge": -0.041926
+          "avgEdge": -0.055759
         }
       },
       "last25": {
@@ -2731,9 +2717,9 @@
         "misses": 6,
         "pending": 0,
         "accuracy": 0.666667,
-        "logLoss": 0.652789,
-        "brier": 0.230186,
-        "avgProbabilityForWinner": 0.523982,
+        "logLoss": 0.651176,
+        "brier": 0.229338,
+        "avgProbabilityForWinner": 0.524751,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 17,
@@ -2741,7 +2727,7 @@
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": 0.785714,
-          "avgEdge": -0.105812
+          "avgEdge": -0.112722
         }
       },
       "last50": {
@@ -2751,9 +2737,9 @@
         "misses": 6,
         "pending": 0,
         "accuracy": 0.666667,
-        "logLoss": 0.652789,
-        "brier": 0.230186,
-        "avgProbabilityForWinner": 0.523982,
+        "logLoss": 0.651176,
+        "brier": 0.229338,
+        "avgProbabilityForWinner": 0.524751,
         "avgFeatureCoverage": null,
         "market": {
           "covered": 17,
@@ -2761,7 +2747,7 @@
           "disagreements": 3,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": 0.785714,
-          "avgEdge": -0.105812
+          "avgEdge": -0.112722
         }
       }
     }

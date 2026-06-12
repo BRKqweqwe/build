@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-11T22:48:06.728Z",
+  "generatedAt": "2026-06-12T11:35:59.875Z",
   "source": {
     "history": "static/data/lol-pick-history.json",
-    "historyUpdatedAt": "2026-06-11T22:48:06.456Z"
+    "historyUpdatedAt": "2026-06-12T11:35:59.654Z"
   },
   "summary": {
-    "total": 164,
+    "total": 175,
     "resolved": 80,
-    "pending": 84,
+    "pending": 95,
     "hits": 48,
     "misses": 32,
     "accuracy": 0.6,
     "logLoss": 0.667695,
     "brier": 0.237918,
-    "avgProbability": 0.643519,
-    "avgMargin": 0.287039,
+    "avgProbability": 0.646731,
+    "avgMargin": 0.293463,
     "market": {
-      "covered": 108,
+      "covered": 112,
       "resolved": 73,
-      "disagreements": 44,
+      "disagreements": 47,
       "resolvedDisagreements": 28,
       "disagreementAccuracy": 0.178571,
       "agreementAccuracy": 0.822222,
-      "avgEdge": 0.046276
+      "avgEdge": 0.041628
     }
   },
   "rolling": {
@@ -146,16 +146,16 @@
         "accuracy": 0.583333,
         "logLoss": 0.683721,
         "brier": 0.246526,
-        "avgProbability": 0.647953,
-        "avgMargin": 0.295906,
+        "avgProbability": 0.655943,
+        "avgMargin": 0.311886,
         "market": {
           "covered": 16,
           "resolved": 11,
-          "disagreements": 7,
+          "disagreements": 8,
           "resolvedDisagreements": 5,
           "disagreementAccuracy": 0.2,
           "agreementAccuracy": 0.833333,
-          "avgEdge": 0.043888
+          "avgEdge": 0.103411
         }
       },
       {
@@ -168,8 +168,8 @@
         "accuracy": 0.583333,
         "logLoss": 0.673494,
         "brier": 0.240376,
-        "avgProbability": 0.6196,
-        "avgMargin": 0.2392,
+        "avgProbability": 0.630796,
+        "avgMargin": 0.261592,
         "market": {
           "covered": 16,
           "resolved": 11,
@@ -177,7 +177,7 @@
           "resolvedDisagreements": 5,
           "disagreementAccuracy": 0.2,
           "agreementAccuracy": 0.833333,
-          "avgEdge": 0.018169
+          "avgEdge": 0.027703
         }
       },
       {
@@ -190,8 +190,8 @@
         "accuracy": 0.583333,
         "logLoss": 0.650578,
         "brier": 0.230814,
-        "avgProbability": 0.645344,
-        "avgMargin": 0.290688,
+        "avgProbability": 0.648241,
+        "avgMargin": 0.296482,
         "market": {
           "covered": 16,
           "resolved": 11,
@@ -199,7 +199,7 @@
           "resolvedDisagreements": 5,
           "disagreementAccuracy": 0.2,
           "agreementAccuracy": 0.833333,
-          "avgEdge": 0.041201
+          "avgEdge": 0.047668
         }
       },
       {
@@ -212,16 +212,16 @@
         "accuracy": 0.666667,
         "logLoss": 0.647086,
         "brier": 0.227151,
-        "avgProbability": 0.623128,
-        "avgMargin": 0.246256,
+        "avgProbability": 0.629898,
+        "avgMargin": 0.259797,
         "market": {
           "covered": 16,
           "resolved": 11,
-          "disagreements": 7,
+          "disagreements": 6,
           "resolvedDisagreements": 4,
           "disagreementAccuracy": 0.25,
           "agreementAccuracy": 0.857143,
-          "avgEdge": 0.044911
+          "avgEdge": 0.005312
         }
       },
       {
@@ -234,16 +234,16 @@
         "accuracy": 0.5,
         "logLoss": 0.684241,
         "brier": 0.246427,
-        "avgProbability": 0.643565,
-        "avgMargin": 0.28713,
+        "avgProbability": 0.648021,
+        "avgMargin": 0.296042,
         "market": {
           "covered": 12,
           "resolved": 7,
-          "disagreements": 3,
+          "disagreements": 4,
           "resolvedDisagreements": 2,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 0.8,
-          "avgEdge": 0.045222
+          "avgEdge": -0.015115
         }
       },
       {
@@ -256,8 +256,8 @@
         "accuracy": 0.625,
         "logLoss": 0.69458,
         "brier": 0.250106,
-        "avgProbability": 0.698962,
-        "avgMargin": 0.397924,
+        "avgProbability": 0.687939,
+        "avgMargin": 0.375879,
         "market": {
           "covered": 12,
           "resolved": 7,
@@ -265,23 +265,45 @@
           "resolvedDisagreements": 2,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 0.8,
-          "avgEdge": 0.093507
+          "avgEdge": 0.088473
+        }
+      },
+      {
+        "key": "Champion Match Ensemble",
+        "total": 11,
+        "resolved": 0,
+        "pending": 11,
+        "hits": 0,
+        "misses": 0,
+        "accuracy": null,
+        "logLoss": null,
+        "brier": null,
+        "avgProbability": 0.643608,
+        "avgMargin": 0.287215,
+        "market": {
+          "covered": 4,
+          "resolved": 0,
+          "disagreements": 2,
+          "resolvedDisagreements": 0,
+          "disagreementAccuracy": null,
+          "agreementAccuracy": null,
+          "avgEdge": -0.031457
         }
       }
     ],
     "league": [
       {
         "key": "EMEA Masters",
-        "total": 108,
+        "total": 112,
         "resolved": 73,
-        "pending": 35,
+        "pending": 39,
         "hits": 42,
         "misses": 31,
         "accuracy": 0.575342,
         "logLoss": 0.691153,
         "brier": 0.248753,
-        "avgProbability": 0.638533,
-        "avgMargin": 0.277066,
+        "avgProbability": 0.641816,
+        "avgMargin": 0.283633,
         "market": {
           "covered": 80,
           "resolved": 73,
@@ -294,16 +316,16 @@
       },
       {
         "key": "VCS",
-        "total": 14,
+        "total": 15,
         "resolved": 7,
-        "pending": 7,
+        "pending": 8,
         "hits": 6,
         "misses": 1,
         "accuracy": 0.857143,
         "logLoss": 0.42306,
         "brier": 0.124921,
-        "avgProbability": 0.66684,
-        "avgMargin": 0.333681,
+        "avgProbability": 0.657993,
+        "avgMargin": 0.315985,
         "market": {
           "covered": 0,
           "resolved": 0,
@@ -316,38 +338,38 @@
       },
       {
         "key": "LCK",
-        "total": 14,
+        "total": 16,
         "resolved": 0,
-        "pending": 14,
+        "pending": 16,
         "hits": 0,
         "misses": 0,
         "accuracy": null,
         "logLoss": null,
         "brier": null,
-        "avgProbability": 0.596192,
-        "avgMargin": 0.192385,
+        "avgProbability": 0.592788,
+        "avgMargin": 0.185576,
         "market": {
-          "covered": 14,
+          "covered": 16,
           "resolved": 0,
-          "disagreements": 9,
+          "disagreements": 11,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": null,
-          "avgEdge": 0.073335
+          "avgEdge": 0.050913
         }
       },
       {
         "key": "LJL",
-        "total": 14,
+        "total": 16,
         "resolved": 0,
-        "pending": 14,
+        "pending": 16,
         "hits": 0,
         "misses": 0,
         "accuracy": null,
         "logLoss": null,
         "brier": null,
-        "avgProbability": 0.662515,
-        "avgMargin": 0.32503,
+        "avgProbability": 0.645972,
+        "avgMargin": 0.291944,
         "market": {
           "covered": 0,
           "resolved": 0,
@@ -360,62 +382,62 @@
       },
       {
         "key": "LCS",
-        "total": 7,
+        "total": 8,
         "resolved": 0,
-        "pending": 7,
+        "pending": 8,
         "hits": 0,
         "misses": 0,
         "accuracy": null,
         "logLoss": null,
         "brier": null,
-        "avgProbability": 0.646489,
-        "avgMargin": 0.292977,
+        "avgProbability": 0.656519,
+        "avgMargin": 0.313038,
         "market": {
-          "covered": 7,
+          "covered": 8,
           "resolved": 0,
-          "disagreements": 6,
+          "disagreements": 8,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": null,
-          "avgEdge": 0.185774
+          "avgEdge": 0.211519
         }
       },
       {
         "key": "LPL",
-        "total": 7,
+        "total": 8,
         "resolved": 0,
-        "pending": 7,
+        "pending": 8,
         "hits": 0,
         "misses": 0,
         "accuracy": null,
         "logLoss": null,
         "brier": null,
-        "avgProbability": 0.727502,
-        "avgMargin": 0.455005,
+        "avgProbability": 0.794046,
+        "avgMargin": 0.588092,
         "market": {
-          "covered": 7,
+          "covered": 8,
           "resolved": 0,
-          "disagreements": 1,
+          "disagreements": 0,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": null,
-          "avgEdge": -0.076069
+          "avgEdge": -0.130954
         }
       }
     ],
     "bestOf": [
       {
         "key": "BO3",
-        "total": 122,
+        "total": 128,
         "resolved": 73,
-        "pending": 49,
+        "pending": 55,
         "hits": 42,
         "misses": 31,
         "accuracy": 0.575342,
         "logLoss": 0.691153,
         "brier": 0.248753,
-        "avgProbability": 0.641285,
-        "avgMargin": 0.28257,
+        "avgProbability": 0.642336,
+        "avgMargin": 0.284672,
         "market": {
           "covered": 80,
           "resolved": 73,
@@ -428,40 +450,40 @@
       },
       {
         "key": "BO5",
-        "total": 42,
+        "total": 47,
         "resolved": 7,
-        "pending": 35,
+        "pending": 40,
         "hits": 6,
         "misses": 1,
         "accuracy": 0.857143,
         "logLoss": 0.42306,
         "brier": 0.124921,
-        "avgProbability": 0.650009,
-        "avgMargin": 0.300019,
+        "avgProbability": 0.658703,
+        "avgMargin": 0.317405,
         "market": {
-          "covered": 28,
+          "covered": 32,
           "resolved": 0,
-          "disagreements": 16,
+          "disagreements": 19,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": null,
-          "avgEdge": 0.064094
+          "avgEdge": 0.045598
         }
       }
     ],
     "stage": [
       {
         "key": "groups",
-        "total": 108,
+        "total": 112,
         "resolved": 73,
-        "pending": 35,
+        "pending": 39,
         "hits": 42,
         "misses": 31,
         "accuracy": 0.575342,
         "logLoss": 0.691153,
         "brier": 0.248753,
-        "avgProbability": 0.638533,
-        "avgMargin": 0.277066,
+        "avgProbability": 0.641816,
+        "avgMargin": 0.283633,
         "market": {
           "covered": 80,
           "resolved": 73,
@@ -474,62 +496,62 @@
       },
       {
         "key": "playoffs",
-        "total": 56,
+        "total": 63,
         "resolved": 7,
-        "pending": 49,
+        "pending": 56,
         "hits": 6,
         "misses": 1,
         "accuracy": 0.857143,
         "logLoss": 0.42306,
         "brier": 0.124921,
-        "avgProbability": 0.653136,
-        "avgMargin": 0.306271,
+        "avgProbability": 0.655469,
+        "avgMargin": 0.310939,
         "market": {
-          "covered": 28,
+          "covered": 32,
           "resolved": 0,
-          "disagreements": 16,
+          "disagreements": 19,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": null,
-          "avgEdge": 0.064094
+          "avgEdge": 0.045598
         }
       }
     ],
     "coverage": [
       {
         "key": "high",
-        "total": 150,
+        "total": 160,
         "resolved": 73,
-        "pending": 77,
+        "pending": 87,
         "hits": 42,
         "misses": 31,
         "accuracy": 0.575342,
         "logLoss": 0.691153,
         "brier": 0.248753,
-        "avgProbability": 0.641343,
-        "avgMargin": 0.282686,
+        "avgProbability": 0.645676,
+        "avgMargin": 0.291352,
         "market": {
-          "covered": 108,
+          "covered": 112,
           "resolved": 73,
-          "disagreements": 44,
+          "disagreements": 47,
           "resolvedDisagreements": 28,
           "disagreementAccuracy": 0.178571,
           "agreementAccuracy": 0.822222,
-          "avgEdge": 0.046276
+          "avgEdge": 0.041628
         }
       },
       {
         "key": "low",
-        "total": 14,
+        "total": 15,
         "resolved": 7,
-        "pending": 7,
+        "pending": 8,
         "hits": 6,
         "misses": 1,
         "accuracy": 0.857143,
         "logLoss": 0.42306,
         "brier": 0.124921,
-        "avgProbability": 0.66684,
-        "avgMargin": 0.333681,
+        "avgProbability": 0.657993,
+        "avgMargin": 0.315985,
         "market": {
           "covered": 0,
           "resolved": 0,
@@ -544,104 +566,104 @@
     "confidence": [
       {
         "key": "70+",
-        "total": 41,
+        "total": 34,
         "resolved": 24,
-        "pending": 17,
+        "pending": 10,
         "hits": 15,
         "misses": 9,
         "accuracy": 0.625,
         "logLoss": 0.665476,
         "brier": 0.237512,
-        "avgProbability": 0.753171,
-        "avgMargin": 0.506342,
+        "avgProbability": 0.763022,
+        "avgMargin": 0.526043,
         "market": {
           "covered": 30,
           "resolved": 21,
-          "disagreements": 8,
+          "disagreements": 6,
           "resolvedDisagreements": 6,
           "disagreementAccuracy": 0.5,
           "agreementAccuracy": 0.6,
-          "avgEdge": 0.054616
+          "avgEdge": 0.030804
         }
       },
       {
         "key": "65-70",
-        "total": 35,
+        "total": 57,
         "resolved": 18,
-        "pending": 17,
+        "pending": 39,
         "hits": 13,
         "misses": 5,
         "accuracy": 0.722222,
         "logLoss": 0.598466,
         "brier": 0.20392,
-        "avgProbability": 0.675233,
-        "avgMargin": 0.350467,
+        "avgProbability": 0.670648,
+        "avgMargin": 0.341295,
         "market": {
-          "covered": 18,
+          "covered": 25,
           "resolved": 16,
-          "disagreements": 6,
+          "disagreements": 14,
           "resolvedDisagreements": 6,
           "disagreementAccuracy": 0.333333,
           "agreementAccuracy": 0.9,
-          "avgEdge": 0.071552
+          "avgEdge": 0.115102
         }
       },
       {
         "key": "50-55",
-        "total": 28,
+        "total": 23,
         "resolved": 15,
-        "pending": 13,
+        "pending": 8,
         "hits": 9,
         "misses": 6,
         "accuracy": 0.6,
         "logLoss": 0.691892,
         "brier": 0.249368,
-        "avgProbability": 0.526747,
-        "avgMargin": 0.053493,
+        "avgProbability": 0.524511,
+        "avgMargin": 0.049021,
         "market": {
           "covered": 21,
           "resolved": 15,
-          "disagreements": 10,
+          "disagreements": 8,
           "resolvedDisagreements": 6,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 1,
-          "avgEdge": 0.023707
+          "avgEdge": -0.036949
         }
       },
       {
         "key": "60-65",
-        "total": 34,
+        "total": 32,
         "resolved": 13,
-        "pending": 21,
+        "pending": 19,
         "hits": 7,
         "misses": 6,
         "accuracy": 0.538462,
         "logLoss": 0.703224,
         "brier": 0.254784,
-        "avgProbability": 0.629554,
-        "avgMargin": 0.259108,
+        "avgProbability": 0.633015,
+        "avgMargin": 0.26603,
         "market": {
-          "covered": 22,
+          "covered": 19,
           "resolved": 13,
-          "disagreements": 11,
+          "disagreements": 10,
           "resolvedDisagreements": 5,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 0.875,
-          "avgEdge": 0.064365
+          "avgEdge": 0.073124
         }
       },
       {
         "key": "55-60",
-        "total": 26,
+        "total": 29,
         "resolved": 10,
-        "pending": 16,
+        "pending": 19,
         "hits": 4,
         "misses": 6,
         "accuracy": 0.4,
         "logLoss": 0.71515,
         "brier": 0.260987,
-        "avgProbability": 0.571933,
-        "avgMargin": 0.143867,
+        "avgProbability": 0.575453,
+        "avgMargin": 0.150906,
         "market": {
           "covered": 17,
           "resolved": 8,
@@ -649,67 +671,67 @@
           "resolvedDisagreements": 5,
           "disagreementAccuracy": 0,
           "agreementAccuracy": 1,
-          "avgEdge": 0.009267
+          "avgEdge": 0.014542
         }
       }
     ],
     "market": [
       {
         "key": "model-with-market",
-        "total": 64,
+        "total": 65,
         "resolved": 45,
-        "pending": 19,
+        "pending": 20,
         "hits": 37,
         "misses": 8,
         "accuracy": 0.822222,
         "logLoss": 0.590342,
         "brier": 0.200307,
-        "avgProbability": 0.660416,
-        "avgMargin": 0.320831,
+        "avgProbability": 0.661995,
+        "avgMargin": 0.32399,
         "market": {
-          "covered": 64,
+          "covered": 65,
           "resolved": 45,
           "disagreements": 0,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 0.822222,
-          "avgEdge": -0.125131
+          "avgEdge": -0.137236
         }
       },
       {
         "key": "model-vs-market",
-        "total": 44,
+        "total": 47,
         "resolved": 28,
-        "pending": 16,
+        "pending": 19,
         "hits": 5,
         "misses": 23,
         "accuracy": 0.178571,
         "logLoss": 0.853172,
         "brier": 0.326613,
-        "avgProbability": 0.619005,
-        "avgMargin": 0.23801,
+        "avgProbability": 0.629737,
+        "avgMargin": 0.259474,
         "market": {
-          "covered": 44,
+          "covered": 47,
           "resolved": 28,
-          "disagreements": 44,
+          "disagreements": 47,
           "resolvedDisagreements": 28,
           "disagreementAccuracy": 0.178571,
           "agreementAccuracy": null,
-          "avgEdge": 0.295596
+          "avgEdge": 0.288992
         }
       },
       {
         "key": "no-market",
-        "total": 56,
+        "total": 63,
         "resolved": 7,
-        "pending": 49,
+        "pending": 56,
         "hits": 6,
         "misses": 1,
         "accuracy": 0.857143,
         "logLoss": 0.42306,
         "brier": 0.124921,
-        "avgProbability": 0.643471,
-        "avgMargin": 0.286941,
+        "avgProbability": 0.643662,
+        "avgMargin": 0.287323,
         "market": {
           "covered": 0,
           "resolved": 0,
@@ -724,46 +746,46 @@
     "pickSide": [
       {
         "key": "teamA",
-        "total": 129,
+        "total": 143,
         "resolved": 68,
-        "pending": 61,
+        "pending": 75,
         "hits": 37,
         "misses": 31,
         "accuracy": 0.544118,
         "logLoss": 0.68962,
         "brier": 0.248576,
-        "avgProbability": 0.650861,
-        "avgMargin": 0.301723,
+        "avgProbability": 0.655429,
+        "avgMargin": 0.310858,
         "market": {
-          "covered": 83,
+          "covered": 89,
           "resolved": 62,
-          "disagreements": 43,
+          "disagreements": 47,
           "resolvedDisagreements": 28,
           "disagreementAccuracy": 0.178571,
           "agreementAccuracy": 0.764706,
-          "avgEdge": 0.108293
+          "avgEdge": 0.111649
         }
       },
       {
         "key": "teamB",
-        "total": 35,
+        "total": 32,
         "resolved": 12,
-        "pending": 23,
+        "pending": 20,
         "hits": 11,
         "misses": 1,
         "accuracy": 0.916667,
         "logLoss": 0.543457,
         "brier": 0.17752,
-        "avgProbability": 0.616459,
-        "avgMargin": 0.232919,
+        "avgProbability": 0.607865,
+        "avgMargin": 0.21573,
         "market": {
-          "covered": 25,
+          "covered": 23,
           "resolved": 11,
-          "disagreements": 1,
+          "disagreements": 0,
           "resolvedDisagreements": 0,
           "disagreementAccuracy": null,
           "agreementAccuracy": 1,
-          "avgEdge": -0.159621
+          "avgEdge": -0.229324
         }
       }
     ]
@@ -786,7 +808,7 @@
         "match": "Team Liquid Alienware vs Cloud9 Kia",
         "league": "LCS",
         "pick": "Team Liquid Alienware",
-        "probability": 0.639174,
+        "probability": 0.663922,
         "marketFavorite": "Cloud9 Kia",
         "marketFavoriteProbability": 0.555
       },
@@ -796,7 +818,7 @@
         "match": "Team Liquid Alienware vs Cloud9 Kia",
         "league": "LCS",
         "pick": "Team Liquid Alienware",
-        "probability": 0.609365,
+        "probability": 0.654208,
         "marketFavorite": "Cloud9 Kia",
         "marketFavoriteProbability": 0.555
       },
@@ -806,7 +828,7 @@
         "match": "Team Liquid Alienware vs Cloud9 Kia",
         "league": "LCS",
         "pick": "Team Liquid Alienware",
-        "probability": 0.646913,
+        "probability": 0.658858,
         "marketFavorite": "Cloud9 Kia",
         "marketFavoriteProbability": 0.555
       },
@@ -816,7 +838,7 @@
         "match": "Team Liquid Alienware vs Cloud9 Kia",
         "league": "LCS",
         "pick": "Team Liquid Alienware",
-        "probability": 0.639457,
+        "probability": 0.678566,
         "marketFavorite": "Cloud9 Kia",
         "marketFavoriteProbability": 0.555
       },
@@ -826,19 +848,29 @@
         "match": "Team Liquid Alienware vs Cloud9 Kia",
         "league": "LCS",
         "pick": "Team Liquid Alienware",
-        "probability": 0.73324,
+        "probability": 0.697177,
         "marketFavorite": "Cloud9 Kia",
         "marketFavoriteProbability": 0.555
       },
       {
-        "id": "lolesports-115616219464607515::meta-picker",
-        "startTime": "2026-06-13T09:00:00Z",
-        "match": "BILIBILI GAMING vs Xi'an Team WE",
-        "league": "LPL",
-        "pick": "Xi'an Team WE",
-        "probability": 0.518584,
-        "marketFavorite": "BILIBILI GAMING",
-        "marketFavoriteProbability": 0.925
+        "id": "lolesports-115564793879469324::meta-picker",
+        "startTime": "2026-06-13T20:00:00Z",
+        "match": "Team Liquid Alienware vs Cloud9 Kia",
+        "league": "LCS",
+        "pick": "Team Liquid Alienware",
+        "probability": 0.596325,
+        "marketFavorite": "Cloud9 Kia",
+        "marketFavoriteProbability": 0.555
+      },
+      {
+        "id": "lolesports-115564793879469324::champion-match-ensemble",
+        "startTime": "2026-06-13T20:00:00Z",
+        "match": "Team Liquid Alienware vs Cloud9 Kia",
+        "league": "LCS",
+        "pick": "Team Liquid Alienware",
+        "probability": 0.663922,
+        "marketFavorite": "Cloud9 Kia",
+        "marketFavoriteProbability": 0.555
       },
       {
         "id": "lolesports-115548128963037581::ensemble-55-45",
@@ -851,12 +883,12 @@
         "marketFavoriteProbability": 0.895
       },
       {
-        "id": "lolesports-115548128963037581::conservative-coverage",
+        "id": "lolesports-115548128963037581::accuracy-ensemble",
         "startTime": "2026-06-13T06:00:00Z",
         "match": "kt Rolster vs Gen.G Esports",
         "league": "LCK",
         "pick": "kt Rolster",
-        "probability": 0.504951,
+        "probability": 0.527113,
         "marketFavorite": "Gen.G Esports",
         "marketFavoriteProbability": 0.895
       },
@@ -866,7 +898,7 @@
         "match": "kt Rolster vs Gen.G Esports",
         "league": "LCK",
         "pick": "kt Rolster",
-        "probability": 0.576284,
+        "probability": 0.569451,
         "marketFavorite": "Gen.G Esports",
         "marketFavoriteProbability": 0.895
       },
@@ -886,7 +918,7 @@
         "match": "Hanwha Life Esports vs T1",
         "league": "LCK",
         "pick": "Hanwha Life Esports",
-        "probability": 0.55213,
+        "probability": 0.645415,
         "marketFavorite": "T1",
         "marketFavoriteProbability": 0.515
       },
@@ -896,7 +928,7 @@
         "match": "Hanwha Life Esports vs T1",
         "league": "LCK",
         "pick": "Hanwha Life Esports",
-        "probability": 0.546763,
+        "probability": 0.635484,
         "marketFavorite": "T1",
         "marketFavoriteProbability": 0.515
       },
@@ -906,7 +938,7 @@
         "match": "Hanwha Life Esports vs T1",
         "league": "LCK",
         "pick": "Hanwha Life Esports",
-        "probability": 0.605871,
+        "probability": 0.637654,
         "marketFavorite": "T1",
         "marketFavoriteProbability": 0.515
       },
@@ -916,7 +948,7 @@
         "match": "Hanwha Life Esports vs T1",
         "league": "LCK",
         "pick": "Hanwha Life Esports",
-        "probability": 0.560142,
+        "probability": 0.667881,
         "marketFavorite": "T1",
         "marketFavoriteProbability": 0.515
       },
@@ -926,7 +958,27 @@
         "match": "Hanwha Life Esports vs T1",
         "league": "LCK",
         "pick": "Hanwha Life Esports",
-        "probability": 0.726842,
+        "probability": 0.696472,
+        "marketFavorite": "T1",
+        "marketFavoriteProbability": 0.515
+      },
+      {
+        "id": "lolesports-115548128963037575::meta-picker",
+        "startTime": "2026-06-12T08:00:00Z",
+        "match": "Hanwha Life Esports vs T1",
+        "league": "LCK",
+        "pick": "Hanwha Life Esports",
+        "probability": 0.583275,
+        "marketFavorite": "T1",
+        "marketFavoriteProbability": 0.515
+      },
+      {
+        "id": "lolesports-115548128963037575::champion-match-ensemble",
+        "startTime": "2026-06-12T08:00:00Z",
+        "match": "Hanwha Life Esports vs T1",
+        "league": "LCK",
+        "pick": "Hanwha Life Esports",
+        "probability": 0.645415,
         "marketFavorite": "T1",
         "marketFavoriteProbability": 0.515
       }
@@ -951,9 +1003,9 @@
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
         "pick": "Saigon Dino",
-        "probability": 0.586489,
+        "probability": 0.572503,
         "coverage": {
-          "teamAGames": 85,
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
@@ -964,9 +1016,9 @@
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
         "pick": "Saigon Dino",
-        "probability": 0.623284,
+        "probability": 0.596743,
         "coverage": {
-          "teamAGames": 85,
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
@@ -977,9 +1029,9 @@
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
         "pick": "Saigon Dino",
-        "probability": 0.669485,
+        "probability": 0.659468,
         "coverage": {
-          "teamAGames": 61,
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
@@ -990,9 +1042,9 @@
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
         "pick": "Saigon Dino",
-        "probability": 0.637286,
+        "probability": 0.666266,
         "coverage": {
-          "teamAGames": 61,
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
@@ -1003,9 +1055,9 @@
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
         "pick": "Saigon Dino",
-        "probability": 0.707699,
+        "probability": 0.673462,
         "coverage": {
-          "teamAGames": 61,
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
@@ -1015,10 +1067,23 @@
         "startTime": "2026-06-12T10:00:00Z",
         "match": "Saigon Dino vs Saigon Zen Esport",
         "league": "VCS",
-        "pick": "Saigon Zen Esport",
-        "probability": 0.636584,
+        "pick": "Saigon Dino",
+        "probability": 0.56539,
         "coverage": {
-          "teamAGames": 85,
+          "teamAGames": 63,
+          "teamBGames": 0,
+          "level": "low"
+        }
+      },
+      {
+        "id": "lolesports-116520394663535894::champion-match-ensemble",
+        "startTime": "2026-06-12T10:00:00Z",
+        "match": "Saigon Dino vs Saigon Zen Esport",
+        "league": "VCS",
+        "pick": "Saigon Dino",
+        "probability": 0.661118,
+        "coverage": {
+          "teamAGames": 63,
           "teamBGames": 0,
           "level": "low"
         }
