@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T15:41:03.672Z",
+  "generatedAt": "2026-06-12T16:50:50.371Z",
   "games": [
     {
       "id": "cs2",
@@ -148,7 +148,7 @@
           "startTime": "2026-06-12T11:30:59Z",
           "status": "running",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "PARIVISION",
           "teamB": "Monte",
           "pick": {
@@ -235,7 +235,7 @@
           "startTime": "2026-06-12T12:11:48Z",
           "status": "running",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "FUT",
           "teamB": "G2",
           "pick": {
@@ -326,7 +326,7 @@
           "startTime": "2026-06-12T14:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Falcons",
           "teamB": "BetBoom",
           "pick": {
@@ -413,7 +413,7 @@
           "startTime": "2026-06-12T14:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Natus Vincere",
           "teamB": "Legacy",
           "pick": {
@@ -502,7 +502,7 @@
           "startTime": "2026-06-12T16:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Vitality",
           "teamB": "9z",
           "pick": {
@@ -589,7 +589,7 @@
           "startTime": "2026-06-12T16:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Aurora",
           "teamB": "Spirit",
           "pick": {
@@ -676,7 +676,7 @@
           "startTime": "2026-07-01T07:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "3DMAX",
           "teamB": "Ninjas in Pyjamas",
           "pick": {
@@ -757,7 +757,7 @@
           "startTime": "2026-07-01T07:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "FaZe",
           "teamB": "TYLOO",
           "pick": {
@@ -846,7 +846,7 @@
           "startTime": "2026-07-01T08:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "Monte",
           "teamB": "Nemesis",
           "pick": {
@@ -933,7 +933,7 @@
           "startTime": "2026-07-01T08:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "9z",
           "teamB": "EYEBALLERS",
           "pick": {
@@ -1020,7 +1020,7 @@
           "startTime": "2026-07-01T09:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "BetBoom",
           "teamB": "SINNERS",
           "pick": {
@@ -1107,7 +1107,7 @@
           "startTime": "2026-07-01T09:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "PARIVISION",
           "teamB": "Alliance",
           "pick": {
@@ -1194,7 +1194,7 @@
           "startTime": "2026-07-01T10:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "B8",
           "teamB": "MIBR",
           "pick": {
@@ -1275,7 +1275,7 @@
           "startTime": "2026-07-01T10:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "BIG",
           "teamB": "Lynn Vision",
           "pick": {
@@ -1897,7 +1897,7 @@
           "startTime": "2026-06-12T08:00:00Z",
           "status": "not_started",
           "event": "CCT Europe - Series #4 - Group Stage",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "ex-RUBY",
           "teamB": "G2 Ares",
           "pick": {
@@ -1966,7 +1966,7 @@
           "startTime": "2026-06-12T09:00:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "The MongolZ",
           "teamB": "B8",
           "pick": {
@@ -2033,7 +2033,7 @@
           "startTime": "2026-06-12T09:00:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "FURIA",
           "teamB": "MOUZ",
           "pick": {
@@ -2101,7 +2101,7 @@
           "startTime": "2026-06-12T11:00:00Z",
           "status": "not_started",
           "event": "CCT Europe - Series #4 - Group Stage",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Virtus.pro",
           "teamB": "INOX Division",
           "pick": {
@@ -2168,7 +2168,7 @@
           "startTime": "2026-06-12T11:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "PARIVISION",
           "teamB": "Monte",
           "pick": {
@@ -2235,7 +2235,7 @@
           "startTime": "2026-06-12T11:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "FUT",
           "teamB": "G2",
           "pick": {
@@ -2302,7 +2302,7 @@
           "startTime": "2026-06-12T14:00:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Falcons",
           "teamB": "BetBoom",
           "pick": {
@@ -2370,7 +2370,7 @@
           "startTime": "2026-06-12T14:00:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Natus Vincere",
           "teamB": "Legacy",
           "pick": {
@@ -2437,7 +2437,7 @@
           "startTime": "2026-06-12T16:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Vitality",
           "teamB": "9z",
           "pick": {
@@ -2502,7 +2502,7 @@
           "startTime": "2026-06-12T16:30:00Z",
           "status": "not_started",
           "event": "IEM - Cologne Major - Stage 3",
-          "bestOf": null,
+          "bestOf": 3,
           "teamA": "Aurora",
           "teamB": "Spirit",
           "pick": {
@@ -2569,7 +2569,7 @@
           "startTime": "2026-07-01T07:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "3DMAX",
           "teamB": "Ninjas in Pyjamas",
           "pick": {
@@ -2628,7 +2628,7 @@
           "startTime": "2026-07-01T07:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "FaZe",
           "teamB": "TYLOO",
           "pick": {
@@ -2693,7 +2693,7 @@
           "startTime": "2026-07-01T08:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "Monte",
           "teamB": "Nemesis",
           "pick": {
@@ -2752,7 +2752,7 @@
           "startTime": "2026-07-01T08:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "9z",
           "teamB": "EYEBALLERS",
           "pick": {
@@ -2809,7 +2809,7 @@
           "startTime": "2026-07-01T09:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "BetBoom",
           "teamB": "SINNERS",
           "pick": {
@@ -2866,7 +2866,7 @@
           "startTime": "2026-07-01T09:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "PARIVISION",
           "teamB": "Alliance",
           "pick": {
@@ -2923,7 +2923,7 @@
           "startTime": "2026-07-01T10:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "B8",
           "teamB": "MIBR",
           "pick": {
@@ -2980,7 +2980,7 @@
           "startTime": "2026-07-01T10:00:00Z",
           "status": "not_started",
           "event": "XSE Pro League - Group Stage",
-          "bestOf": null,
+          "bestOf": 1,
           "teamA": "BIG",
           "teamB": "Lynn Vision",
           "pick": {
