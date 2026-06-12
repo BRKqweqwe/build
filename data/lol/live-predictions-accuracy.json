@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T11:34:50.668Z",
+  "generatedAt": "2026-06-12T11:45:31.207Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset-match-level-league.json",
@@ -19,7 +19,7 @@
         "lolEsportsId": "115548128963037575",
         "source": "lolesports",
         "startTime": "2026-06-12T08:00:00Z",
-        "status": "unstarted",
+        "status": "inProgress",
         "league": "LCK",
         "blockName": "Knockouts",
         "bestOf": 5,
@@ -27,8 +27,8 @@
         "teamB": "T1",
         "teamAId": "HLE",
         "teamBId": "T1",
-        "teamAScore": 0,
-        "teamBScore": 0,
+        "teamAScore": 2,
+        "teamBScore": 1,
         "winner": null,
         "winnerTeamId": null
       },
@@ -57,7 +57,7 @@
         "lolEsportsId": "116520394663535894",
         "source": "lolesports",
         "startTime": "2026-06-12T10:00:00Z",
-        "status": "unstarted",
+        "status": "inProgress",
         "league": "VCS",
         "blockName": "Playoffs",
         "bestOf": 5,
@@ -65,7 +65,7 @@
         "teamB": "Saigon Zen Esport",
         "teamAId": "DINO",
         "teamBId": "ZEN",
-        "teamAScore": 0,
+        "teamAScore": 1,
         "teamBScore": 0,
         "winner": null,
         "winnerTeamId": null
@@ -127,50 +127,12 @@
       }
     },
     {
-      "matchId": "lolesports-116634566270405047",
-      "match": {
-        "id": "lolesports-116634566270405047",
-        "lolEsportsId": "116634566270405047",
-        "source": "lolesports",
-        "startTime": "2026-06-12T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "Karmine Corp Blue",
-        "teamB": "Forsaken",
-        "teamAId": "KCB",
-        "teamBId": "FSK",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "accuracy-ensemble",
-        "path": "static/data/trained-model-ensemble-accuracy.json",
-        "label": "Accuracy Ensemble"
-      },
-      "prediction": {
-        "favorite": "Karmine Corp Blue",
-        "probability": 0.65481,
-        "teamAProbability": 0.65481,
-        "teamBProbability": 0.34519,
-        "margin": 0.309619
-      },
-      "coverage": {
-        "teamAGames": 244,
-        "teamBGames": 180,
-        "level": "high"
-      }
-    },
-    {
       "matchId": "lolesports-116634566270405071",
       "match": {
         "id": "lolesports-116634566270405071",
         "lolEsportsId": "116634566270405071",
         "source": "lolesports",
-        "startTime": "2026-06-12T18:00:00Z",
+        "startTime": "2026-06-12T15:00:00Z",
         "status": "unstarted",
         "league": "EMEA Masters",
         "blockName": "Groups",
@@ -199,6 +161,44 @@
       "coverage": {
         "teamAGames": 129,
         "teamBGames": 68,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405047",
+      "match": {
+        "id": "lolesports-116634566270405047",
+        "lolEsportsId": "116634566270405047",
+        "source": "lolesports",
+        "startTime": "2026-06-12T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Karmine Corp Blue",
+        "teamB": "Forsaken",
+        "teamAId": "KCB",
+        "teamBId": "FSK",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "accuracy-ensemble",
+        "path": "static/data/trained-model-ensemble-accuracy.json",
+        "label": "Accuracy Ensemble"
+      },
+      "prediction": {
+        "favorite": "Karmine Corp Blue",
+        "probability": 0.65481,
+        "teamAProbability": 0.65481,
+        "teamBProbability": 0.34519,
+        "margin": 0.309619
+      },
+      "coverage": {
+        "teamAGames": 244,
+        "teamBGames": 180,
         "level": "high"
       }
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T11:35:59.576Z",
+  "generatedAt": "2026-06-12T11:45:31.744Z",
   "source": {
     "model": "static/data/trained-model-meta-picker.json",
     "predictions": {
@@ -26,7 +26,7 @@
         "lolEsportsId": "115548128963037575",
         "source": "lolesports",
         "startTime": "2026-06-12T08:00:00Z",
-        "status": "unstarted",
+        "status": "inProgress",
         "league": "LCK",
         "blockName": "Knockouts",
         "bestOf": 5,
@@ -34,8 +34,8 @@
         "teamB": "T1",
         "teamAId": "HLE",
         "teamBId": "T1",
-        "teamAScore": 0,
-        "teamBScore": 0,
+        "teamAScore": 2,
+        "teamBScore": 1,
         "winner": null,
         "winnerTeamId": null
       },
@@ -137,7 +137,7 @@
         "lolEsportsId": "116520394663535894",
         "source": "lolesports",
         "startTime": "2026-06-12T10:00:00Z",
-        "status": "unstarted",
+        "status": "inProgress",
         "league": "VCS",
         "blockName": "Playoffs",
         "bestOf": 5,
@@ -145,7 +145,7 @@
         "teamB": "Saigon Zen Esport",
         "teamAId": "DINO",
         "teamBId": "ZEN",
-        "teamAScore": 0,
+        "teamAScore": 1,
         "teamBScore": 0,
         "winner": null,
         "winnerTeamId": null
@@ -353,123 +353,12 @@
       }
     },
     {
-      "matchId": "lolesports-116634566270405047",
-      "match": {
-        "id": "lolesports-116634566270405047",
-        "lolEsportsId": "116634566270405047",
-        "source": "lolesports",
-        "startTime": "2026-06-12T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "Karmine Corp Blue",
-        "teamB": "Forsaken",
-        "teamAId": "KCB",
-        "teamBId": "FSK",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "meta-picker",
-        "path": "static/data/trained-model-meta-picker.json",
-        "label": "MetaPicker"
-      },
-      "prediction": {
-        "favorite": "Karmine Corp Blue",
-        "probability": 0.6666,
-        "teamAProbability": 0.6666,
-        "teamBProbability": 0.3334,
-        "margin": 0.3332
-      },
-      "coverage": {
-        "teamAGames": 244,
-        "teamBGames": 180,
-        "level": "high"
-      },
-      "meta": {
-        "features": {
-          "championProbA": 0.639901,
-          "conservativeProbA": 0.639901,
-          "balancedProbA": 0.634635,
-          "accuracyProbA": 0.65481,
-          "recencyProbA": 0.673205,
-          "championConfidence": 0.639901,
-          "conservativeConfidence": 0.639901,
-          "balancedConfidence": 0.634635,
-          "accuracyConfidence": 0.65481,
-          "recencyConfidence": 0.673205,
-          "meanProbA": 0.6484904,
-          "medianProbA": 0.639901,
-          "minProbA": 0.634635,
-          "maxProbA": 0.673205,
-          "stdProbA": 0.014073212079692412,
-          "probRange": 0.038570000000000104,
-          "meanConfidence": 0.6484904,
-          "maxConfidence": 0.673205,
-          "minConfidence": 0.634635,
-          "favoriteAgreement": 5,
-          "disagreementCount": 0,
-          "majorityPickA": 1,
-          "championVsAccuracyDisagree": 0,
-          "championVsRecencyDisagree": 0,
-          "isBo1": 0,
-          "isBo3": 1,
-          "isBo5": 0,
-          "bestOf": 3,
-          "isPlayoffs": 0,
-          "isLan": 0,
-          "tournamentTier": 2,
-          "isInternationalTier": 0,
-          "isMajorTier": 0,
-          "isMinorTier": 1,
-          "coverageHigh": 1,
-          "coverageMedium": 0,
-          "coverageLow": 0
-        },
-        "sources": {
-          "champion": {
-            "modelId": "champion-match-ensemble",
-            "favorite": "Karmine Corp Blue",
-            "probability": 0.639901,
-            "teamAProbability": 0.639901
-          },
-          "conservative": {
-            "modelId": "conservative-coverage",
-            "favorite": "Karmine Corp Blue",
-            "probability": 0.639901,
-            "teamAProbability": 0.639901
-          },
-          "balanced": {
-            "modelId": "balanced-ensemble",
-            "favorite": "Karmine Corp Blue",
-            "probability": 0.634635,
-            "teamAProbability": 0.634635
-          },
-          "accuracy": {
-            "modelId": "accuracy-ensemble",
-            "favorite": "Karmine Corp Blue",
-            "probability": 0.65481,
-            "teamAProbability": 0.65481
-          },
-          "recency": {
-            "modelId": "recency-accuracy",
-            "favorite": "Karmine Corp Blue",
-            "probability": 0.673205,
-            "teamAProbability": 0.673205
-          }
-        }
-      }
-    },
-    {
       "matchId": "lolesports-116634566270405071",
       "match": {
         "id": "lolesports-116634566270405071",
         "lolEsportsId": "116634566270405071",
         "source": "lolesports",
-        "startTime": "2026-06-12T18:00:00Z",
+        "startTime": "2026-06-12T15:00:00Z",
         "status": "unstarted",
         "league": "EMEA Masters",
         "blockName": "Groups",
@@ -570,6 +459,117 @@
             "favorite": "WLGaming",
             "probability": 0.601008,
             "teamAProbability": 0.601008
+          }
+        }
+      }
+    },
+    {
+      "matchId": "lolesports-116634566270405047",
+      "match": {
+        "id": "lolesports-116634566270405047",
+        "lolEsportsId": "116634566270405047",
+        "source": "lolesports",
+        "startTime": "2026-06-12T18:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Groups",
+        "bestOf": 3,
+        "teamA": "Karmine Corp Blue",
+        "teamB": "Forsaken",
+        "teamAId": "KCB",
+        "teamBId": "FSK",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "meta-picker",
+        "path": "static/data/trained-model-meta-picker.json",
+        "label": "MetaPicker"
+      },
+      "prediction": {
+        "favorite": "Karmine Corp Blue",
+        "probability": 0.6666,
+        "teamAProbability": 0.6666,
+        "teamBProbability": 0.3334,
+        "margin": 0.3332
+      },
+      "coverage": {
+        "teamAGames": 244,
+        "teamBGames": 180,
+        "level": "high"
+      },
+      "meta": {
+        "features": {
+          "championProbA": 0.639901,
+          "conservativeProbA": 0.639901,
+          "balancedProbA": 0.634635,
+          "accuracyProbA": 0.65481,
+          "recencyProbA": 0.673205,
+          "championConfidence": 0.639901,
+          "conservativeConfidence": 0.639901,
+          "balancedConfidence": 0.634635,
+          "accuracyConfidence": 0.65481,
+          "recencyConfidence": 0.673205,
+          "meanProbA": 0.6484904,
+          "medianProbA": 0.639901,
+          "minProbA": 0.634635,
+          "maxProbA": 0.673205,
+          "stdProbA": 0.014073212079692412,
+          "probRange": 0.038570000000000104,
+          "meanConfidence": 0.6484904,
+          "maxConfidence": 0.673205,
+          "minConfidence": 0.634635,
+          "favoriteAgreement": 5,
+          "disagreementCount": 0,
+          "majorityPickA": 1,
+          "championVsAccuracyDisagree": 0,
+          "championVsRecencyDisagree": 0,
+          "isBo1": 0,
+          "isBo3": 1,
+          "isBo5": 0,
+          "bestOf": 3,
+          "isPlayoffs": 0,
+          "isLan": 0,
+          "tournamentTier": 2,
+          "isInternationalTier": 0,
+          "isMajorTier": 0,
+          "isMinorTier": 1,
+          "coverageHigh": 1,
+          "coverageMedium": 0,
+          "coverageLow": 0
+        },
+        "sources": {
+          "champion": {
+            "modelId": "champion-match-ensemble",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.639901,
+            "teamAProbability": 0.639901
+          },
+          "conservative": {
+            "modelId": "conservative-coverage",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.639901,
+            "teamAProbability": 0.639901
+          },
+          "balanced": {
+            "modelId": "balanced-ensemble",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.634635,
+            "teamAProbability": 0.634635
+          },
+          "accuracy": {
+            "modelId": "accuracy-ensemble",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.65481,
+            "teamAProbability": 0.65481
+          },
+          "recency": {
+            "modelId": "recency-accuracy",
+            "favorite": "Karmine Corp Blue",
+            "probability": 0.673205,
+            "teamAProbability": 0.673205
           }
         }
       }
