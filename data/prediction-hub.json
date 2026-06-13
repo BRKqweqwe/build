@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-13T02:44:04.824Z",
+  "generatedAt": "2026-06-13T02:58:19.691Z",
   "games": [
     {
       "id": "cs2",
@@ -9675,8 +9675,8 @@
         "strong": 23,
         "lean": 29,
         "skip": 28,
-        "withMarket": 0,
-        "marketDisagreements": 0
+        "withMarket": 7,
+        "marketDisagreements": 3
       },
       "metrics": [
         {
@@ -9722,7 +9722,16 @@
             "coverage": "high",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "FUT Esports",
+            "teamAProbability": 0.455,
+            "teamBProbability": 0.545,
+            "probability": 0.545,
+            "url": "https://polymarket.com/event/val-edg1-fut1-2026-06-13",
+            "question": "Valorant: EDward Gaming vs FUT Esports (BO3) - VCT Masters London Playoffs",
+            "edge": 0.124197,
+            "disagreement": true
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -9791,7 +9800,16 @@
             "coverage": "high",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "G2 Esports",
+            "teamAProbability": 0.825,
+            "teamBProbability": 0.175,
+            "probability": 0.825,
+            "url": "https://polymarket.com/event/val-g21-xlg-2026-06-13",
+            "question": "Valorant: G2 Esports vs XLG Gaming (BO3) - VCT Masters London Playoffs",
+            "edge": -0.161085,
+            "disagreement": false
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -9860,7 +9878,16 @@
             "coverage": "high",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "Leviatán Esports",
+            "teamAProbability": 0.56,
+            "teamBProbability": 0.44,
+            "probability": 0.56,
+            "url": "https://polymarket.com/event/val-lev1-th1-2026-06-14",
+            "question": "Valorant: Leviatán Esports vs Team Heretics (BO3) - VCT Masters London Playoffs",
+            "edge": -0.052634,
+            "disagreement": false
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -9929,7 +9956,16 @@
             "coverage": "high",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "Paper Rex",
+            "teamAProbability": 0.645,
+            "teamBProbability": 0.355,
+            "probability": 0.645,
+            "url": "https://polymarket.com/event/val-pr1-vit-2026-06-15",
+            "question": "Valorant: Paper Rex vs Team Vitality (BO3) - VCT Masters London Playoffs",
+            "edge": 0.00156,
+            "disagreement": false
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -10274,7 +10310,16 @@
             "coverage": "medium",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "BESTIA",
+            "teamAProbability": 0.37,
+            "teamBProbability": 0.63,
+            "probability": 0.63,
+            "url": "https://polymarket.com/event/val-krspar-bst1-2026-06-17",
+            "question": "Valorant: KRÜ Spark vs BESTIA (BO3) - VCL Latin America South: Regular Season",
+            "edge": -0.106366,
+            "disagreement": false
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -10688,7 +10733,16 @@
             "coverage": "medium",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "KRÜ Blaze",
+            "teamAProbability": 0.495,
+            "teamBProbability": 0.505,
+            "probability": 0.505,
+            "url": "https://polymarket.com/event/val-uw1-kru-2026-06-17",
+            "question": "Valorant: University War vs KRÜ Blaze (BO3) - VCL Latin America South: Regular Season",
+            "edge": 0.083078,
+            "disagreement": true
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
@@ -11585,7 +11639,16 @@
             "coverage": "high",
             "reasons": []
           },
-          "market": null,
+          "market": {
+            "favorite": "ShindeN",
+            "teamAProbability": 0.245,
+            "teamBProbability": 0.755,
+            "probability": 0.755,
+            "url": "https://polymarket.com/event/val-lev-shi-2026-06-18",
+            "question": "Valorant: Leviatán Academy vs ShindeN (BO3) - VCL Latin America South: Regular Season",
+            "edge": 0.284201,
+            "disagreement": true
+          },
           "models": [
             {
               "id": "valorant-temporal-calibration",
