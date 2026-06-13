@@ -1,63 +1,11 @@
 {
-  "generatedAt": "2026-06-12T14:19:55.908Z",
+  "generatedAt": "2026-06-13T02:44:03.622Z",
   "source": "pandascore",
   "statuses": [
     "running",
     "upcoming"
   ],
   "matches": [
-    {
-      "id": "pandascore-1510137",
-      "pandaScoreId": 1510137,
-      "source": "pandascore",
-      "startTime": "2026-06-12T14:06:40Z",
-      "status": "running",
-      "league": "VCT",
-      "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
-      "serie": "Masters London 2026",
-      "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
-      "tournament": "Playoffs",
-      "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
-      "bestOf": 3,
-      "teamA": "Paper Rex",
-      "teamB": "Leviatán Esports",
-      "teamAId": 128917,
-      "teamBId": 128990,
-      "teamAScore": 0,
-      "teamBScore": 0,
-      "winnerId": null,
-      "raw": {
-        "slug": "2026-06-12-63107342-4f30-45f4-8caa-48cb32d24a91",
-        "name": "Upper bracket quarterfinal 3: PR vs LEV",
-        "modifiedAt": "2026-06-12T14:06:43Z"
-      }
-    },
-    {
-      "id": "pandascore-1510140",
-      "pandaScoreId": 1510140,
-      "source": "pandascore",
-      "startTime": "2026-06-12T17:00:00Z",
-      "status": "not_started",
-      "league": "VCT",
-      "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
-      "serie": "Masters London 2026",
-      "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
-      "tournament": "Playoffs",
-      "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
-      "bestOf": 3,
-      "teamA": "Team Heretics",
-      "teamB": "Team Vitality",
-      "teamAId": 128622,
-      "teamBId": 128796,
-      "teamAScore": 0,
-      "teamBScore": 0,
-      "winnerId": null,
-      "raw": {
-        "slug": "2026-06-13-c7414747-c380-4e36-bf34-d014c314aff4",
-        "name": "Upper bracket quarterfinal 4: TH vs VIT",
-        "modifiedAt": "2026-06-11T20:29:23Z"
-      }
-    },
     {
       "id": "pandascore-1510139",
       "pandaScoreId": 1510139,
@@ -81,7 +29,7 @@
       "raw": {
         "slug": "2026-06-13-a177142f-8936-4b83-8201-39df0141117a",
         "name": "Upper bracket quarterfinal 2: EDG vs FUT",
-        "modifiedAt": "2026-06-12T06:19:28Z"
+        "modifiedAt": "2026-06-12T19:37:07Z"
       }
     },
     {
@@ -107,7 +55,59 @@
       "raw": {
         "slug": "2026-06-12-0316dea5-bbd6-4084-a5b9-af00ac26b5e5",
         "name": "Upper bracket quarterfinal 1: G2 vs XLG",
-        "modifiedAt": "2026-06-12T06:19:33Z"
+        "modifiedAt": "2026-06-12T19:51:18Z"
+      }
+    },
+    {
+      "id": "pandascore-1510150",
+      "pandaScoreId": 1510150,
+      "source": "pandascore",
+      "startTime": "2026-06-14T17:00:00Z",
+      "status": "not_started",
+      "league": "VCT",
+      "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
+      "serie": "Masters London 2026",
+      "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
+      "tournament": "Playoffs",
+      "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
+      "bestOf": 3,
+      "teamA": "Leviatán Esports",
+      "teamB": "Team Heretics",
+      "teamAId": 128990,
+      "teamBId": 128622,
+      "teamAScore": 0,
+      "teamBScore": 0,
+      "winnerId": null,
+      "raw": {
+        "slug": "leviatan-esports-2026-06-14",
+        "name": "Lower bracket round 1 match 2: LEV vs TH",
+        "modifiedAt": "2026-06-12T17:41:53Z"
+      }
+    },
+    {
+      "id": "pandascore-1510142",
+      "pandaScoreId": 1510142,
+      "source": "pandascore",
+      "startTime": "2026-06-15T17:00:00Z",
+      "status": "not_started",
+      "league": "VCT",
+      "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
+      "serie": "Masters London 2026",
+      "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
+      "tournament": "Playoffs",
+      "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
+      "bestOf": 3,
+      "teamA": "Paper Rex",
+      "teamB": "Team Vitality",
+      "teamAId": 128917,
+      "teamBId": 128796,
+      "teamAScore": 0,
+      "teamBScore": 0,
+      "winnerId": null,
+      "raw": {
+        "slug": "paper-rex-2026-06-15",
+        "name": "Upper bracket semifinal 2: PR vs VIT",
+        "modifiedAt": "2026-06-12T17:41:53Z"
       }
     },
     {
@@ -133,7 +133,7 @@
       "raw": {
         "slug": "gen-g-global-academy-vs-onside-gaming-2026-06-17",
         "name": "GEN.A vs OSG",
-        "modifiedAt": "2026-06-01T09:27:20Z"
+        "modifiedAt": "2026-06-12T21:05:36Z"
       }
     },
     {
@@ -185,7 +185,7 @@
       "raw": {
         "slug": "so-sweet-vs-dplus-2026-06-17",
         "name": "So: So:sweet vs DK",
-        "modifiedAt": "2026-06-01T09:27:20Z"
+        "modifiedAt": "2026-06-12T21:05:41Z"
       }
     },
     {

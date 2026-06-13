@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-12T13:39:24.716Z",
+  "generatedAt": "2026-06-13T02:42:52.053Z",
   "source": {
     "name": "bo3-valve-rankings",
     "apiBaseUrl": "https://api.bo3.gg/api/v2",
     "startDate": "2025-01-01",
-    "endDate": "2026-06-12",
+    "endDate": "2026-06-13",
     "perPage": 100,
     "maxPages": 5
   },
@@ -8577,7 +8577,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -8960,7 +8960,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -11500,7 +11500,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           }
         ]
@@ -18402,7 +18402,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -18691,7 +18691,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -21325,7 +21325,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           }
         ]
@@ -27992,7 +27992,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -28281,7 +28281,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -31338,7 +31338,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           }
         ]
@@ -38099,7 +38099,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -38811,7 +38811,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -41109,7 +41109,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           },
           {
@@ -47689,7 +47689,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -48307,7 +48307,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -59434,7 +59434,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -59871,7 +59871,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -60012,7 +60012,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           }
         ]
@@ -67957,7 +67957,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.33,
+            "score": 6.36,
             "countryCode": "RU"
           }
         ]
@@ -71931,7 +71931,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -72281,7 +72281,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -72563,7 +72563,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           }
         ]
@@ -76325,7 +76325,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.33,
+            "score": 6.36,
             "countryCode": "RU"
           }
         ]
@@ -85020,7 +85020,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -85060,7 +85060,7 @@
             "id": "49438",
             "nickname": "Alv",
             "slug": "alv-cs",
-            "score": 6.73,
+            "score": 6.72,
             "countryCode": "RU"
           },
           {
@@ -88500,7 +88500,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.33,
+            "score": 6.36,
             "countryCode": "RU"
           }
         ]
@@ -98276,7 +98276,7 @@
             "id": "31587",
             "nickname": "Pluto",
             "slug": "pluto-cs-go",
-            "score": 5.87,
+            "score": 5.61,
             "countryCode": "PK"
           }
         ]
@@ -100581,7 +100581,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.33,
+            "score": 6.36,
             "countryCode": "RU"
           }
         ]
@@ -113414,7 +113414,7 @@
             "id": "45611",
             "nickname": "youka",
             "slug": "youka",
-            "score": 6.33,
+            "score": 6.36,
             "countryCode": "RU"
           }
         ]
@@ -140441,7 +140441,7 @@
             "id": "53463",
             "nickname": "demente",
             "slug": "demente",
-            "score": 6.37,
+            "score": 6.38,
             "countryCode": "KZ"
           }
         ]
@@ -146111,7 +146111,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           }
         ]
@@ -152073,14 +152073,14 @@
             "id": "77875",
             "nickname": "Botpa1",
             "slug": "botpa1",
-            "score": 6.11,
+            "score": 6.13,
             "countryCode": "KZ"
           },
           {
             "id": "53463",
             "nickname": "demente",
             "slug": "demente",
-            "score": 6.37,
+            "score": 6.38,
             "countryCode": "KZ"
           },
           {
@@ -154254,7 +154254,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           },
           {
@@ -156436,7 +156436,7 @@
             "id": "35792",
             "nickname": "Kiyo",
             "slug": "kiyo",
-            "score": 5.94,
+            "score": 6,
             "countryCode": "AU"
           }
         ]
@@ -190424,7 +190424,7 @@
             "id": "38698",
             "nickname": "Signal",
             "slug": "signal",
-            "score": 5.52,
+            "score": 5.51,
             "countryCode": "US"
           }
         ]
@@ -203731,7 +203731,7 @@
             "id": "38698",
             "nickname": "Signal",
             "slug": "signal",
-            "score": 5.52,
+            "score": 5.51,
             "countryCode": "US"
           }
         ]
@@ -217435,7 +217435,7 @@
             "id": "38698",
             "nickname": "Signal",
             "slug": "signal",
-            "score": 5.52,
+            "score": 5.51,
             "countryCode": "US"
           }
         ]
@@ -228700,7 +228700,7 @@
             "id": "38698",
             "nickname": "Signal",
             "slug": "signal",
-            "score": 5.52,
+            "score": 5.51,
             "countryCode": "US"
           }
         ]
@@ -241611,7 +241611,7 @@
             "id": "53555",
             "nickname": "KralleJ",
             "slug": "krallej",
-            "score": 6.18,
+            "score": 6.2,
             "countryCode": "DK"
           }
         ]
@@ -251271,7 +251271,7 @@
             "id": "17699",
             "nickname": "mir",
             "slug": "mir",
-            "score": 6.26,
+            "score": 6.31,
             "countryCode": "RU"
           }
         ]

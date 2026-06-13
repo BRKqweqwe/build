@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T14:52:21.659Z",
+  "generatedAt": "2026-06-13T02:44:03.973Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset.json",
@@ -12,284 +12,6 @@
     "low": 8
   },
   "predictions": [
-    {
-      "matchId": "pandascore-1510137",
-      "match": {
-        "id": "pandascore-1510137",
-        "pandaScoreId": 1510137,
-        "source": "pandascore",
-        "startTime": "2026-06-12T14:06:40Z",
-        "status": "running",
-        "league": "VCT",
-        "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
-        "serie": "Masters London 2026",
-        "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
-        "tournament": "Playoffs",
-        "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
-        "bestOf": 3,
-        "teamA": "Paper Rex",
-        "teamB": "Leviatán Esports",
-        "teamAId": 128917,
-        "teamBId": 128990,
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winnerId": null,
-        "raw": {
-          "slug": "2026-06-12-63107342-4f30-45f4-8caa-48cb32d24a91",
-          "name": "Upper bracket quarterfinal 3: PR vs LEV",
-          "modifiedAt": "2026-06-12T14:06:43Z"
-        }
-      },
-      "model": {
-        "id": "valorant-accuracy",
-        "label": "Valorant Accuracy",
-        "path": "static/data/trained-model-accuracy.json",
-        "generatedAt": "2026-06-12T14:50:01.623Z",
-        "metrics": {
-          "rows": 453,
-          "accuracy": 0.637969,
-          "logLoss": 0.665354,
-          "brier": 0.236092,
-          "calibration": [
-            {
-              "bucket": "0.5-0.6",
-              "rows": 228,
-              "accuracy": 0.635965,
-              "avgConfidence": 0.549158
-            },
-            {
-              "bucket": "0.6-0.7",
-              "rows": 145,
-              "accuracy": 0.627586,
-              "avgConfidence": 0.648683
-            },
-            {
-              "bucket": "0.7-0.7999999999999999",
-              "rows": 70,
-              "accuracy": 0.642857,
-              "avgConfidence": 0.738645
-            },
-            {
-              "bucket": "0.8-0.9",
-              "rows": 9,
-              "accuracy": 0.777778,
-              "avgConfidence": 0.842108
-            },
-            {
-              "bucket": "0.9-1",
-              "rows": 1,
-              "accuracy": 1,
-              "avgConfidence": 0.908146
-            }
-          ]
-        }
-      },
-      "prediction": {
-        "favorite": "Paper Rex",
-        "probability": 0.724276,
-        "teamAProbability": 0.724276,
-        "teamBProbability": 0.275724,
-        "margin": 0.448553
-      },
-      "coverage": {
-        "teamAMatches": 44,
-        "teamBMatches": 50,
-        "level": "high"
-      },
-      "features": {
-        "priorMatchesA": 44,
-        "priorMatchesB": 50,
-        "priorMapsA": 113,
-        "priorMapsB": 131,
-        "logPriorMatchesA": 3.8066624897703196,
-        "logPriorMatchesB": 3.9318256327243257,
-        "winRateA": 0.75,
-        "winRateB": 0.6,
-        "mapWinRateA": 0.654867,
-        "mapWinRateB": 0.534351,
-        "recent5A": 0.8,
-        "recent5B": 0.4,
-        "recent10A": 0.8,
-        "recent10B": 0.5,
-        "mapDiff5A": 1.4,
-        "mapDiff5B": -0.8,
-        "mapDiff10A": 1.3,
-        "mapDiff10B": -0.4,
-        "recencyWinA": 0.908619,
-        "recencyWinB": 0.635367,
-        "recencyMapDiffA": 1.747294,
-        "recencyMapDiffB": -0.139806,
-        "eloA": 1784.88,
-        "eloB": 1597.45,
-        "eloDiff": 187.43000000000006,
-        "winRateDiff": 0.15000000000000002,
-        "mapWinRateDiff": 0.12051599999999996,
-        "recent5Diff": 0.4,
-        "recent10Diff": 0.30000000000000004,
-        "mapDiff5Diff": 2.2,
-        "mapDiff10Diff": 1.7000000000000002,
-        "recencyWinDiff": 0.27325199999999994,
-        "recencyMapDiffDiff": 1.8871,
-        "daysSinceLastMatchA": 26,
-        "daysSinceLastMatchB": 4,
-        "daysSinceLastMatchDiff": 22,
-        "logDaysSinceLastMatchA": 3.295836866004329,
-        "logDaysSinceLastMatchB": 1.6094379124341003,
-        "h2hMatches": 0,
-        "h2hWinRateA": 0.5,
-        "h2hWinRateDiff": 0,
-        "leagueMatches": 1040,
-        "leagueAvgWinnerElo": 1605.39,
-        "teamAEloVsLeague": 179.49,
-        "teamBEloVsLeague": -7.940000000000055,
-        "eventTier": 1,
-        "isTier1": 1,
-        "isTier2": 0,
-        "bestOf": 3,
-        "isBo1": 0,
-        "isBo3": 1,
-        "isBo5": 0
-      }
-    },
-    {
-      "matchId": "pandascore-1510140",
-      "match": {
-        "id": "pandascore-1510140",
-        "pandaScoreId": 1510140,
-        "source": "pandascore",
-        "startTime": "2026-06-12T17:00:00Z",
-        "status": "not_started",
-        "league": "VCT",
-        "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
-        "serie": "Masters London 2026",
-        "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
-        "tournament": "Playoffs",
-        "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
-        "bestOf": 3,
-        "teamA": "Team Heretics",
-        "teamB": "Team Vitality",
-        "teamAId": 128622,
-        "teamBId": 128796,
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winnerId": null,
-        "raw": {
-          "slug": "2026-06-13-c7414747-c380-4e36-bf34-d014c314aff4",
-          "name": "Upper bracket quarterfinal 4: TH vs VIT",
-          "modifiedAt": "2026-06-11T20:29:23Z"
-        }
-      },
-      "model": {
-        "id": "valorant-accuracy",
-        "label": "Valorant Accuracy",
-        "path": "static/data/trained-model-accuracy.json",
-        "generatedAt": "2026-06-12T14:50:01.623Z",
-        "metrics": {
-          "rows": 453,
-          "accuracy": 0.637969,
-          "logLoss": 0.665354,
-          "brier": 0.236092,
-          "calibration": [
-            {
-              "bucket": "0.5-0.6",
-              "rows": 228,
-              "accuracy": 0.635965,
-              "avgConfidence": 0.549158
-            },
-            {
-              "bucket": "0.6-0.7",
-              "rows": 145,
-              "accuracy": 0.627586,
-              "avgConfidence": 0.648683
-            },
-            {
-              "bucket": "0.7-0.7999999999999999",
-              "rows": 70,
-              "accuracy": 0.642857,
-              "avgConfidence": 0.738645
-            },
-            {
-              "bucket": "0.8-0.9",
-              "rows": 9,
-              "accuracy": 0.777778,
-              "avgConfidence": 0.842108
-            },
-            {
-              "bucket": "0.9-1",
-              "rows": 1,
-              "accuracy": 1,
-              "avgConfidence": 0.908146
-            }
-          ]
-        }
-      },
-      "prediction": {
-        "favorite": "Team Vitality",
-        "probability": 0.540246,
-        "teamAProbability": 0.459754,
-        "teamBProbability": 0.540246,
-        "margin": 0.080492
-      },
-      "coverage": {
-        "teamAMatches": 33,
-        "teamBMatches": 33,
-        "level": "high"
-      },
-      "features": {
-        "priorMatchesA": 33,
-        "priorMatchesB": 33,
-        "priorMapsA": 77,
-        "priorMapsB": 76,
-        "logPriorMatchesA": 3.5263605246161616,
-        "logPriorMatchesB": 3.5263605246161616,
-        "winRateA": 0.575758,
-        "winRateB": 0.636364,
-        "mapWinRateA": 0.558442,
-        "mapWinRateB": 0.605263,
-        "recent5A": 1,
-        "recent5B": 0.8,
-        "recent10A": 0.8,
-        "recent10B": 0.6,
-        "mapDiff5A": 1.4,
-        "mapDiff5B": 1,
-        "mapDiff10A": 0.9,
-        "mapDiff10B": 0.3,
-        "recencyWinA": 0.929027,
-        "recencyWinB": 0.802937,
-        "recencyMapDiffA": 1.090218,
-        "recencyMapDiffB": 0.848694,
-        "eloA": 1612.49,
-        "eloB": 1657.65,
-        "eloDiff": -45.16000000000008,
-        "winRateDiff": -0.06060600000000005,
-        "mapWinRateDiff": -0.046821,
-        "recent5Diff": 0.19999999999999996,
-        "recent10Diff": 0.20000000000000007,
-        "mapDiff5Diff": 0.3999999999999999,
-        "mapDiff10Diff": 0.6000000000000001,
-        "recencyWinDiff": 0.12609000000000004,
-        "recencyMapDiffDiff": 0.24152399999999996,
-        "daysSinceLastMatchA": 26,
-        "daysSinceLastMatchB": 4,
-        "daysSinceLastMatchDiff": 22,
-        "logDaysSinceLastMatchA": 3.295836866004329,
-        "logDaysSinceLastMatchB": 1.6094379124341003,
-        "h2hMatches": 0,
-        "h2hWinRateA": 0.5,
-        "h2hWinRateDiff": 0,
-        "leagueMatches": 1040,
-        "leagueAvgWinnerElo": 1605.39,
-        "teamAEloVsLeague": 7.099999999999909,
-        "teamBEloVsLeague": 52.25999999999999,
-        "eventTier": 1,
-        "isTier1": 1,
-        "isTier2": 0,
-        "bestOf": 3,
-        "isBo1": 0,
-        "isBo3": 1,
-        "isBo5": 0
-      }
-    },
     {
       "matchId": "pandascore-1510139",
       "match": {
@@ -315,7 +37,7 @@
         "raw": {
           "slug": "2026-06-13-a177142f-8936-4b83-8201-39df0141117a",
           "name": "Upper bracket quarterfinal 2: EDG vs FUT",
-          "modifiedAt": "2026-06-12T06:19:28Z"
+          "modifiedAt": "2026-06-12T19:37:07Z"
         }
       },
       "model": {
@@ -454,7 +176,7 @@
         "raw": {
           "slug": "2026-06-12-0316dea5-bbd6-4084-a5b9-af00ac26b5e5",
           "name": "Upper bracket quarterfinal 1: G2 vs XLG",
-          "modifiedAt": "2026-06-12T06:19:33Z"
+          "modifiedAt": "2026-06-12T19:51:18Z"
         }
       },
       "model": {
@@ -569,6 +291,284 @@
       }
     },
     {
+      "matchId": "pandascore-1510150",
+      "match": {
+        "id": "pandascore-1510150",
+        "pandaScoreId": 1510150,
+        "source": "pandascore",
+        "startTime": "2026-06-14T17:00:00Z",
+        "status": "not_started",
+        "league": "VCT",
+        "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
+        "serie": "Masters London 2026",
+        "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
+        "tournament": "Playoffs",
+        "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
+        "bestOf": 3,
+        "teamA": "Leviatán Esports",
+        "teamB": "Team Heretics",
+        "teamAId": 128990,
+        "teamBId": 128622,
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winnerId": null,
+        "raw": {
+          "slug": "leviatan-esports-2026-06-14",
+          "name": "Lower bracket round 1 match 2: LEV vs TH",
+          "modifiedAt": "2026-06-12T17:41:53Z"
+        }
+      },
+      "model": {
+        "id": "valorant-accuracy",
+        "label": "Valorant Accuracy",
+        "path": "static/data/trained-model-accuracy.json",
+        "generatedAt": "2026-06-12T14:50:01.623Z",
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.637969,
+          "logLoss": 0.665354,
+          "brier": 0.236092,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 228,
+              "accuracy": 0.635965,
+              "avgConfidence": 0.549158
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 145,
+              "accuracy": 0.627586,
+              "avgConfidence": 0.648683
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 70,
+              "accuracy": 0.642857,
+              "avgConfidence": 0.738645
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 9,
+              "accuracy": 0.777778,
+              "avgConfidence": 0.842108
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.908146
+            }
+          ]
+        }
+      },
+      "prediction": {
+        "favorite": "Team Heretics",
+        "probability": 0.507048,
+        "teamAProbability": 0.492952,
+        "teamBProbability": 0.507048,
+        "margin": 0.014096
+      },
+      "coverage": {
+        "teamAMatches": 50,
+        "teamBMatches": 33,
+        "level": "high"
+      },
+      "features": {
+        "priorMatchesA": 50,
+        "priorMatchesB": 33,
+        "priorMapsA": 131,
+        "priorMapsB": 77,
+        "logPriorMatchesA": 3.9318256327243257,
+        "logPriorMatchesB": 3.5263605246161616,
+        "winRateA": 0.6,
+        "winRateB": 0.575758,
+        "mapWinRateA": 0.534351,
+        "mapWinRateB": 0.558442,
+        "recent5A": 0.4,
+        "recent5B": 1,
+        "recent10A": 0.5,
+        "recent10B": 0.8,
+        "mapDiff5A": -0.8,
+        "mapDiff5B": 1.4,
+        "mapDiff10A": -0.4,
+        "mapDiff10B": 0.9,
+        "recencyWinA": 0.635367,
+        "recencyWinB": 0.929027,
+        "recencyMapDiffA": -0.139806,
+        "recencyMapDiffB": 1.090218,
+        "eloA": 1597.45,
+        "eloB": 1612.49,
+        "eloDiff": -15.039999999999964,
+        "winRateDiff": 0.024241999999999986,
+        "mapWinRateDiff": -0.024090999999999974,
+        "recent5Diff": -0.6,
+        "recent10Diff": -0.30000000000000004,
+        "mapDiff5Diff": -2.2,
+        "mapDiff10Diff": -1.3,
+        "recencyWinDiff": -0.29366000000000003,
+        "recencyMapDiffDiff": -1.230024,
+        "daysSinceLastMatchA": 6,
+        "daysSinceLastMatchB": 28,
+        "daysSinceLastMatchDiff": -22,
+        "logDaysSinceLastMatchA": 1.9459101490553132,
+        "logDaysSinceLastMatchB": 3.367295829986474,
+        "h2hMatches": 0,
+        "h2hWinRateA": 0.5,
+        "h2hWinRateDiff": 0,
+        "leagueMatches": 1040,
+        "leagueAvgWinnerElo": 1605.39,
+        "teamAEloVsLeague": -7.940000000000055,
+        "teamBEloVsLeague": 7.099999999999909,
+        "eventTier": 1,
+        "isTier1": 1,
+        "isTier2": 0,
+        "bestOf": 3,
+        "isBo1": 0,
+        "isBo3": 1,
+        "isBo5": 0
+      }
+    },
+    {
+      "matchId": "pandascore-1510142",
+      "match": {
+        "id": "pandascore-1510142",
+        "pandaScoreId": 1510142,
+        "source": "pandascore",
+        "startTime": "2026-06-15T17:00:00Z",
+        "status": "not_started",
+        "league": "VCT",
+        "leagueSlug": "valorant-vct-2021-north-america-stage-1-challengers-1",
+        "serie": "Masters London 2026",
+        "serieSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026",
+        "tournament": "Playoffs",
+        "tournamentSlug": "valorant-vct-2021-north-america-stage-1-challengers-1-masters-london-2026-playoffs",
+        "bestOf": 3,
+        "teamA": "Paper Rex",
+        "teamB": "Team Vitality",
+        "teamAId": 128917,
+        "teamBId": 128796,
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winnerId": null,
+        "raw": {
+          "slug": "paper-rex-2026-06-15",
+          "name": "Upper bracket semifinal 2: PR vs VIT",
+          "modifiedAt": "2026-06-12T17:41:53Z"
+        }
+      },
+      "model": {
+        "id": "valorant-accuracy",
+        "label": "Valorant Accuracy",
+        "path": "static/data/trained-model-accuracy.json",
+        "generatedAt": "2026-06-12T14:50:01.623Z",
+        "metrics": {
+          "rows": 453,
+          "accuracy": 0.637969,
+          "logLoss": 0.665354,
+          "brier": 0.236092,
+          "calibration": [
+            {
+              "bucket": "0.5-0.6",
+              "rows": 228,
+              "accuracy": 0.635965,
+              "avgConfidence": 0.549158
+            },
+            {
+              "bucket": "0.6-0.7",
+              "rows": 145,
+              "accuracy": 0.627586,
+              "avgConfidence": 0.648683
+            },
+            {
+              "bucket": "0.7-0.7999999999999999",
+              "rows": 70,
+              "accuracy": 0.642857,
+              "avgConfidence": 0.738645
+            },
+            {
+              "bucket": "0.8-0.9",
+              "rows": 9,
+              "accuracy": 0.777778,
+              "avgConfidence": 0.842108
+            },
+            {
+              "bucket": "0.9-1",
+              "rows": 1,
+              "accuracy": 1,
+              "avgConfidence": 0.908146
+            }
+          ]
+        }
+      },
+      "prediction": {
+        "favorite": "Paper Rex",
+        "probability": 0.650647,
+        "teamAProbability": 0.650647,
+        "teamBProbability": 0.349353,
+        "margin": 0.301294
+      },
+      "coverage": {
+        "teamAMatches": 44,
+        "teamBMatches": 33,
+        "level": "high"
+      },
+      "features": {
+        "priorMatchesA": 44,
+        "priorMatchesB": 33,
+        "priorMapsA": 113,
+        "priorMapsB": 76,
+        "logPriorMatchesA": 3.8066624897703196,
+        "logPriorMatchesB": 3.5263605246161616,
+        "winRateA": 0.75,
+        "winRateB": 0.636364,
+        "mapWinRateA": 0.654867,
+        "mapWinRateB": 0.605263,
+        "recent5A": 0.8,
+        "recent5B": 0.8,
+        "recent10A": 0.8,
+        "recent10B": 0.6,
+        "mapDiff5A": 1.4,
+        "mapDiff5B": 1,
+        "mapDiff10A": 1.3,
+        "mapDiff10B": 0.3,
+        "recencyWinA": 0.908619,
+        "recencyWinB": 0.802937,
+        "recencyMapDiffA": 1.747294,
+        "recencyMapDiffB": 0.848694,
+        "eloA": 1784.88,
+        "eloB": 1657.65,
+        "eloDiff": 127.23000000000002,
+        "winRateDiff": 0.11363599999999996,
+        "mapWinRateDiff": 0.04960399999999998,
+        "recent5Diff": 0,
+        "recent10Diff": 0.20000000000000007,
+        "mapDiff5Diff": 0.3999999999999999,
+        "mapDiff10Diff": 1,
+        "recencyWinDiff": 0.10568199999999994,
+        "recencyMapDiffDiff": 0.8986,
+        "daysSinceLastMatchA": 29,
+        "daysSinceLastMatchB": 7,
+        "daysSinceLastMatchDiff": 22,
+        "logDaysSinceLastMatchA": 3.4011973816621555,
+        "logDaysSinceLastMatchB": 2.0794415416798357,
+        "h2hMatches": 0,
+        "h2hWinRateA": 0.5,
+        "h2hWinRateDiff": 0,
+        "leagueMatches": 1040,
+        "leagueAvgWinnerElo": 1605.39,
+        "teamAEloVsLeague": 179.49,
+        "teamBEloVsLeague": 52.25999999999999,
+        "eventTier": 1,
+        "isTier1": 1,
+        "isTier2": 0,
+        "bestOf": 3,
+        "isBo1": 0,
+        "isBo3": 1,
+        "isBo5": 0
+      }
+    },
+    {
       "matchId": "pandascore-1519043",
       "match": {
         "id": "pandascore-1519043",
@@ -593,7 +593,7 @@
         "raw": {
           "slug": "gen-g-global-academy-vs-onside-gaming-2026-06-17",
           "name": "GEN.A vs OSG",
-          "modifiedAt": "2026-06-01T09:27:20Z"
+          "modifiedAt": "2026-06-12T21:05:36Z"
         }
       },
       "model": {
@@ -871,7 +871,7 @@
         "raw": {
           "slug": "so-sweet-vs-dplus-2026-06-17",
           "name": "So: So:sweet vs DK",
-          "modifiedAt": "2026-06-01T09:27:20Z"
+          "modifiedAt": "2026-06-12T21:05:41Z"
         }
       },
       "model": {

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-13T02:44:04.034Z",
+  "generatedAt": "2026-06-13T02:44:04.096Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset.json",
-    "model": "static/data/trained-model-calibrated.json"
+    "model": "static/data/trained-model-temporal-calibrated.json"
   },
   "summary": {
     "total": 80,
@@ -41,55 +41,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "EDward Gaming",
-        "probability": 0.588641,
-        "teamAProbability": 0.588641,
-        "teamBProbability": 0.411359,
-        "margin": 0.177281
+        "probability": 0.579197,
+        "teamAProbability": 0.579197,
+        "teamBProbability": 0.420803,
+        "margin": 0.158394
       },
       "coverage": {
         "teamAMatches": 36,
@@ -180,55 +174,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "G2 Esports",
-        "probability": 0.66327,
-        "teamAProbability": 0.66327,
-        "teamBProbability": 0.33673,
-        "margin": 0.326541
+        "probability": 0.663915,
+        "teamAProbability": 0.663915,
+        "teamBProbability": 0.336085,
+        "margin": 0.327829
       },
       "coverage": {
         "teamAMatches": 46,
@@ -319,55 +307,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Leviatán Esports",
-        "probability": 0.510562,
-        "teamAProbability": 0.510562,
-        "teamBProbability": 0.489438,
-        "margin": 0.021125
+        "probability": 0.507366,
+        "teamAProbability": 0.507366,
+        "teamBProbability": 0.492634,
+        "margin": 0.014731
       },
       "coverage": {
         "teamAMatches": 50,
@@ -458,55 +440,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Paper Rex",
-        "probability": 0.644177,
-        "teamAProbability": 0.644177,
-        "teamBProbability": 0.355823,
-        "margin": 0.288354
+        "probability": 0.64656,
+        "teamAProbability": 0.64656,
+        "teamBProbability": 0.35344,
+        "margin": 0.29312
       },
       "coverage": {
         "teamAMatches": 44,
@@ -597,55 +573,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ONSIDE GAMING",
-        "probability": 0.666256,
-        "teamAProbability": 0.333744,
-        "teamBProbability": 0.666256,
-        "margin": 0.332512
+        "probability": 0.612467,
+        "teamAProbability": 0.387533,
+        "teamBProbability": 0.612467,
+        "margin": 0.224933
       },
       "coverage": {
         "teamAMatches": 21,
@@ -736,55 +706,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Jade Lions",
-        "probability": 0.522647,
-        "teamAProbability": 0.477353,
-        "teamBProbability": 0.522647,
-        "margin": 0.045293
+        "favorite": "555",
+        "probability": 0.521559,
+        "teamAProbability": 0.521559,
+        "teamBProbability": 0.478441,
+        "margin": 0.043118
       },
       "coverage": {
         "teamAMatches": 10,
@@ -875,55 +839,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Dplus",
-        "probability": 0.539559,
-        "teamAProbability": 0.460441,
-        "teamBProbability": 0.539559,
-        "margin": 0.079119
+        "favorite": "So:sweet",
+        "probability": 0.504335,
+        "teamAProbability": 0.504335,
+        "teamBProbability": 0.495665,
+        "margin": 0.008671
       },
       "coverage": {
         "teamAMatches": 2,
@@ -1014,55 +972,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Sharper Esport",
-        "probability": 0.507725,
-        "teamAProbability": 0.492275,
-        "teamBProbability": 0.507725,
-        "margin": 0.015449
+        "favorite": "Fancy United",
+        "probability": 0.545034,
+        "teamAProbability": 0.545034,
+        "teamBProbability": 0.454966,
+        "margin": 0.090068
       },
       "coverage": {
         "teamAMatches": 23,
@@ -1153,55 +1105,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "BESTIA",
-        "probability": 0.566014,
-        "teamAProbability": 0.433986,
-        "teamBProbability": 0.566014,
-        "margin": 0.132028
+        "probability": 0.523634,
+        "teamAProbability": 0.476366,
+        "teamBProbability": 0.523634,
+        "margin": 0.047268
       },
       "coverage": {
         "teamAMatches": 15,
@@ -1292,55 +1238,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Pigeons",
-        "probability": 0.522579,
-        "teamAProbability": 0.477421,
-        "teamBProbability": 0.522579,
-        "margin": 0.045157
+        "favorite": "Alliance Guardians",
+        "probability": 0.513743,
+        "teamAProbability": 0.513743,
+        "teamBProbability": 0.486257,
+        "margin": 0.027485
       },
       "coverage": {
         "teamAMatches": 15,
@@ -1431,55 +1371,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Division One",
-        "probability": 0.562836,
-        "teamAProbability": 0.562836,
-        "teamBProbability": 0.437164,
-        "margin": 0.125671
+        "probability": 0.596504,
+        "teamAProbability": 0.596504,
+        "teamBProbability": 0.403496,
+        "margin": 0.193008
       },
       "coverage": {
         "teamAMatches": 15,
@@ -1570,55 +1504,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "MIBR Academy",
-        "probability": 0.673179,
-        "teamAProbability": 0.673179,
-        "teamBProbability": 0.326821,
-        "margin": 0.346359
+        "probability": 0.702668,
+        "teamAProbability": 0.702668,
+        "teamBProbability": 0.297332,
+        "margin": 0.405336
       },
       "coverage": {
         "teamAMatches": 38,
@@ -1709,55 +1637,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "TBK Esports",
-        "probability": 0.649886,
-        "teamAProbability": 0.649886,
-        "teamBProbability": 0.350114,
-        "margin": 0.299773
+        "probability": 0.685096,
+        "teamAProbability": 0.685096,
+        "teamBProbability": 0.314904,
+        "margin": 0.370191
       },
       "coverage": {
         "teamAMatches": 14,
@@ -1848,55 +1770,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "FUSION",
-        "probability": 0.501409,
-        "teamAProbability": 0.498591,
-        "teamBProbability": 0.501409,
-        "margin": 0.002819
+        "favorite": "STREAMER ARENA",
+        "probability": 0.531421,
+        "teamAProbability": 0.531421,
+        "teamBProbability": 0.468579,
+        "margin": 0.062842
       },
       "coverage": {
         "teamAMatches": 6,
@@ -1987,55 +1903,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "University War",
-        "probability": 0.522396,
-        "teamAProbability": 0.522396,
-        "teamBProbability": 0.477604,
-        "margin": 0.044792
+        "probability": 0.578078,
+        "teamAProbability": 0.578078,
+        "teamBProbability": 0.421922,
+        "margin": 0.156157
       },
       "coverage": {
         "teamAMatches": 9,
@@ -2126,55 +2036,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "ROSE",
-        "probability": 0.509621,
-        "teamAProbability": 0.490379,
-        "teamBProbability": 0.509621,
-        "margin": 0.019242
+        "favorite": "Dynamo Esports",
+        "probability": 0.516499,
+        "teamAProbability": 0.516499,
+        "teamBProbability": 0.483501,
+        "margin": 0.032998
       },
       "coverage": {
         "teamAMatches": 3,
@@ -2265,55 +2169,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "FlyQuest",
-        "probability": 0.598738,
-        "teamAProbability": 0.598738,
-        "teamBProbability": 0.401262,
-        "margin": 0.197476
+        "probability": 0.632689,
+        "teamAProbability": 0.632689,
+        "teamBProbability": 0.367311,
+        "margin": 0.265377
       },
       "coverage": {
         "teamAMatches": 10,
@@ -2404,55 +2302,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "FURIA Academy",
-        "probability": 0.528515,
-        "teamAProbability": 0.471485,
-        "teamBProbability": 0.528515,
-        "margin": 0.057031
+        "favorite": "PEEK",
+        "probability": 0.508865,
+        "teamAProbability": 0.508865,
+        "teamBProbability": 0.491135,
+        "margin": 0.01773
       },
       "coverage": {
         "teamAMatches": 16,
@@ -2543,55 +2435,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "LYON",
-        "probability": 0.873272,
-        "teamAProbability": 0.126728,
-        "teamBProbability": 0.873272,
-        "margin": 0.746544
+        "probability": 0.838532,
+        "teamAProbability": 0.161468,
+        "teamBProbability": 0.838532,
+        "margin": 0.677065
       },
       "coverage": {
         "teamAMatches": 18,
@@ -2682,55 +2568,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ARETE",
-        "probability": 0.568505,
-        "teamAProbability": 0.431495,
-        "teamBProbability": 0.568505,
-        "margin": 0.137011
+        "probability": 0.530979,
+        "teamAProbability": 0.469021,
+        "teamBProbability": 0.530979,
+        "margin": 0.061957
       },
       "coverage": {
         "teamAMatches": 2,
@@ -2821,55 +2701,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "T1 Academy",
-        "probability": 0.670721,
-        "teamAProbability": 0.329279,
-        "teamBProbability": 0.670721,
-        "margin": 0.341442
+        "probability": 0.61398,
+        "teamAProbability": 0.38602,
+        "teamBProbability": 0.61398,
+        "margin": 0.22796
       },
       "coverage": {
         "teamAMatches": 53,
@@ -2960,55 +2834,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "9z Team",
-        "probability": 0.567461,
-        "teamAProbability": 0.567461,
-        "teamBProbability": 0.432539,
-        "margin": 0.134923
+        "probability": 0.599722,
+        "teamAProbability": 0.599722,
+        "teamBProbability": 0.400278,
+        "margin": 0.199443
       },
       "coverage": {
         "teamAMatches": 25,
@@ -3099,55 +2967,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Shopify Rebellion Black",
-        "probability": 0.577604,
-        "teamAProbability": 0.577604,
-        "teamBProbability": 0.422396,
-        "margin": 0.155208
+        "probability": 0.619172,
+        "teamAProbability": 0.619172,
+        "teamBProbability": 0.380828,
+        "margin": 0.238344
       },
       "coverage": {
         "teamAMatches": 33,
@@ -3238,55 +3100,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "QoR",
-        "probability": 0.703075,
-        "teamAProbability": 0.296925,
-        "teamBProbability": 0.703075,
-        "margin": 0.406149
+        "probability": 0.651718,
+        "teamAProbability": 0.348282,
+        "teamBProbability": 0.651718,
+        "margin": 0.303437
       },
       "coverage": {
         "teamAMatches": 22,
@@ -3377,55 +3233,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "INTZ",
-        "probability": 0.529942,
-        "teamAProbability": 0.529942,
-        "teamBProbability": 0.470058,
-        "margin": 0.059885
+        "probability": 0.573359,
+        "teamAProbability": 0.573359,
+        "teamBProbability": 0.426641,
+        "margin": 0.146718
       },
       "coverage": {
         "teamAMatches": 17,
@@ -3516,55 +3366,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Team Liquid Brazil",
-        "probability": 0.533634,
-        "teamAProbability": 0.466366,
-        "teamBProbability": 0.533634,
-        "margin": 0.067268
+        "favorite": "Elevate",
+        "probability": 0.510642,
+        "teamAProbability": 0.510642,
+        "teamBProbability": 0.489358,
+        "margin": 0.021283
       },
       "coverage": {
         "teamAMatches": 15,
@@ -3655,55 +3499,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Contra",
-        "probability": 0.534456,
-        "teamAProbability": 0.465544,
-        "teamBProbability": 0.534456,
-        "margin": 0.068913
+        "favorite": "Fuego",
+        "probability": 0.517543,
+        "teamAProbability": 0.517543,
+        "teamBProbability": 0.482457,
+        "margin": 0.035087
       },
       "coverage": {
         "teamAMatches": 17,
@@ -3794,55 +3632,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "ShindeN",
-        "probability": 0.520224,
-        "teamAProbability": 0.479776,
-        "teamBProbability": 0.520224,
-        "margin": 0.040448
+        "favorite": "Leviatán Academy",
+        "probability": 0.529201,
+        "teamAProbability": 0.529201,
+        "teamBProbability": 0.470799,
+        "margin": 0.058402
       },
       "coverage": {
         "teamAMatches": 50,
@@ -3933,55 +3765,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "NRG Academy",
-        "probability": 0.658773,
-        "teamAProbability": 0.341227,
-        "teamBProbability": 0.658773,
-        "margin": 0.317547
+        "probability": 0.599572,
+        "teamAProbability": 0.400428,
+        "teamBProbability": 0.599572,
+        "margin": 0.199144
       },
       "coverage": {
         "teamAMatches": 22,
@@ -4072,55 +3898,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "M80",
-        "probability": 0.540642,
-        "teamAProbability": 0.540642,
-        "teamBProbability": 0.459358,
-        "margin": 0.081285
+        "probability": 0.595321,
+        "teamAProbability": 0.595321,
+        "teamBProbability": 0.404679,
+        "margin": 0.190642
       },
       "coverage": {
         "teamAMatches": 22,
@@ -4211,55 +4031,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "la Masia",
-        "probability": 0.641361,
-        "teamAProbability": 0.358639,
-        "teamBProbability": 0.641361,
-        "margin": 0.282722
+        "probability": 0.597249,
+        "teamAProbability": 0.402751,
+        "teamBProbability": 0.597249,
+        "margin": 0.194497
       },
       "coverage": {
         "teamAMatches": 25,
@@ -4350,55 +4164,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "LAZER",
-        "probability": 0.632408,
-        "teamAProbability": 0.367592,
-        "teamBProbability": 0.632408,
-        "margin": 0.264815
+        "probability": 0.603687,
+        "teamAProbability": 0.396313,
+        "teamBProbability": 0.603687,
+        "margin": 0.207375
       },
       "coverage": {
         "teamAMatches": 18,
@@ -4489,55 +4297,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "So:sweet",
-        "probability": 0.512475,
-        "teamAProbability": 0.487525,
-        "teamBProbability": 0.512475,
-        "margin": 0.02495
+        "favorite": "Gen.G Global Academy",
+        "probability": 0.530687,
+        "teamAProbability": 0.530687,
+        "teamBProbability": 0.469313,
+        "margin": 0.061374
       },
       "coverage": {
         "teamAMatches": 21,
@@ -4628,55 +4430,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ONSIDE GAMING",
-        "probability": 0.615615,
-        "teamAProbability": 0.615615,
-        "teamBProbability": 0.384385,
-        "margin": 0.231231
+        "probability": 0.657303,
+        "teamAProbability": 0.657303,
+        "teamBProbability": 0.342697,
+        "margin": 0.314607
       },
       "coverage": {
         "teamAMatches": 23,
@@ -4767,55 +4563,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Kiwoom DRX Academy",
-        "probability": 0.653573,
-        "teamAProbability": 0.346427,
-        "teamBProbability": 0.653573,
-        "margin": 0.307146
+        "probability": 0.611841,
+        "teamAProbability": 0.388159,
+        "teamBProbability": 0.611841,
+        "margin": 0.223682
       },
       "coverage": {
         "teamAMatches": 2,
@@ -4906,55 +4696,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "T1 Academy",
-        "probability": 0.704438,
-        "teamAProbability": 0.704438,
-        "teamBProbability": 0.295562,
-        "margin": 0.408876
+        "probability": 0.736258,
+        "teamAProbability": 0.736258,
+        "teamBProbability": 0.263742,
+        "margin": 0.472516
       },
       "coverage": {
         "teamAMatches": 61,
@@ -5045,55 +4829,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Enterprise Esports",
-        "probability": 0.778295,
-        "teamAProbability": 0.778295,
-        "teamBProbability": 0.221705,
-        "margin": 0.55659
+        "probability": 0.810724,
+        "teamAProbability": 0.810724,
+        "teamBProbability": 0.189276,
+        "margin": 0.621449
       },
       "coverage": {
         "teamAMatches": 50,
@@ -5184,55 +4962,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Beşiktaş Esports",
-        "probability": 0.525118,
-        "teamAProbability": 0.474882,
-        "teamBProbability": 0.525118,
-        "margin": 0.050235
+        "favorite": "NAVI Junior",
+        "probability": 0.528239,
+        "teamAProbability": 0.528239,
+        "teamBProbability": 0.471761,
+        "margin": 0.056479
       },
       "coverage": {
         "teamAMatches": 17,
@@ -5323,55 +5095,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": " REBORN",
-        "probability": 0.623512,
-        "teamAProbability": 0.623512,
-        "teamBProbability": 0.376488,
-        "margin": 0.247024
+        "probability": 0.674589,
+        "teamAProbability": 0.674589,
+        "teamBProbability": 0.325411,
+        "margin": 0.349178
       },
       "coverage": {
         "teamAMatches": 13,
@@ -5462,55 +5228,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "UCAM Esports Club",
-        "probability": 0.639425,
-        "teamAProbability": 0.639425,
-        "teamBProbability": 0.360575,
-        "margin": 0.278849
+        "probability": 0.676194,
+        "teamAProbability": 0.676194,
+        "teamBProbability": 0.323806,
+        "margin": 0.352387
       },
       "coverage": {
         "teamAMatches": 33,
@@ -5601,55 +5361,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Leviatán Academy",
-        "probability": 0.696544,
-        "teamAProbability": 0.303456,
-        "teamBProbability": 0.696544,
-        "margin": 0.393087
+        "probability": 0.649695,
+        "teamAProbability": 0.350305,
+        "teamBProbability": 0.649695,
+        "margin": 0.299389
       },
       "coverage": {
         "teamAMatches": 19,
@@ -5740,55 +5494,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Chivas Esports",
-        "probability": 0.650676,
-        "teamAProbability": 0.349324,
-        "teamBProbability": 0.650676,
-        "margin": 0.301352
+        "probability": 0.62333,
+        "teamAProbability": 0.37667,
+        "teamBProbability": 0.62333,
+        "margin": 0.246659
       },
       "coverage": {
         "teamAMatches": 18,
@@ -5879,55 +5627,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "KRÜ Blaze",
-        "probability": 0.53437,
-        "teamAProbability": 0.53437,
-        "teamBProbability": 0.46563,
-        "margin": 0.06874
+        "probability": 0.579701,
+        "teamAProbability": 0.579701,
+        "teamBProbability": 0.420299,
+        "margin": 0.159403
       },
       "coverage": {
         "teamAMatches": 29,
@@ -6018,55 +5760,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "LAZER",
-        "probability": 0.537321,
-        "teamAProbability": 0.462679,
-        "teamBProbability": 0.537321,
-        "margin": 0.074642
+        "probability": 0.50486,
+        "teamAProbability": 0.49514,
+        "teamBProbability": 0.50486,
+        "margin": 0.00972
       },
       "coverage": {
         "teamAMatches": 12,
@@ -6157,55 +5893,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "QT DIG∞",
-        "probability": 0.585825,
-        "teamAProbability": 0.414175,
-        "teamBProbability": 0.585825,
-        "margin": 0.17165
+        "probability": 0.537807,
+        "teamAProbability": 0.462193,
+        "teamBProbability": 0.537807,
+        "margin": 0.075613
       },
       "coverage": {
         "teamAMatches": 16,
@@ -6296,55 +6026,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Crest Gaming Zst",
-        "probability": 0.578491,
-        "teamAProbability": 0.578491,
-        "teamBProbability": 0.421509,
-        "margin": 0.156981
+        "probability": 0.619804,
+        "teamAProbability": 0.619804,
+        "teamBProbability": 0.380196,
+        "margin": 0.239609
       },
       "coverage": {
         "teamAMatches": 9,
@@ -6435,55 +6159,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "CGN Esports",
-        "probability": 0.638581,
-        "teamAProbability": 0.361419,
-        "teamBProbability": 0.638581,
-        "margin": 0.277162
+        "probability": 0.566931,
+        "teamAProbability": 0.433069,
+        "teamBProbability": 0.566931,
+        "margin": 0.133862
       },
       "coverage": {
         "teamAMatches": 44,
@@ -6574,55 +6292,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "AlQadsiah Esports",
-        "probability": 0.513349,
-        "teamAProbability": 0.486651,
-        "teamBProbability": 0.513349,
-        "margin": 0.026697
+        "favorite": "Mandatory",
+        "probability": 0.538445,
+        "teamAProbability": 0.538445,
+        "teamBProbability": 0.461555,
+        "margin": 0.076889
       },
       "coverage": {
         "teamAMatches": 42,
@@ -6713,55 +6425,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Team Liquid Academy",
-        "probability": 0.535931,
-        "teamAProbability": 0.535931,
-        "teamBProbability": 0.464069,
-        "margin": 0.071863
+        "probability": 0.591596,
+        "teamAProbability": 0.591596,
+        "teamBProbability": 0.408404,
+        "margin": 0.183192
       },
       "coverage": {
         "teamAMatches": 82,
@@ -6852,55 +6558,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "FOKUS",
-        "probability": 0.620665,
-        "teamAProbability": 0.620665,
-        "teamBProbability": 0.379335,
-        "margin": 0.24133
+        "probability": 0.662898,
+        "teamAProbability": 0.662898,
+        "teamBProbability": 0.337102,
+        "margin": 0.325797
       },
       "coverage": {
         "teamAMatches": 38,
@@ -6991,55 +6691,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ShindeN",
-        "probability": 0.599112,
-        "teamAProbability": 0.400888,
-        "teamBProbability": 0.599112,
-        "margin": 0.198224
+        "probability": 0.551909,
+        "teamAProbability": 0.448091,
+        "teamBProbability": 0.551909,
+        "margin": 0.103819
       },
       "coverage": {
         "teamAMatches": 15,
@@ -7130,55 +6824,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Fuego",
-        "probability": 0.686246,
-        "teamAProbability": 0.313754,
-        "teamBProbability": 0.686246,
-        "margin": 0.372492
+        "probability": 0.644759,
+        "teamAProbability": 0.355241,
+        "teamBProbability": 0.644759,
+        "margin": 0.289519
       },
       "coverage": {
         "teamAMatches": 6,
@@ -7269,55 +6957,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "University War",
-        "probability": 0.671124,
-        "teamAProbability": 0.328876,
-        "teamBProbability": 0.671124,
-        "margin": 0.342249
+        "probability": 0.625011,
+        "teamAProbability": 0.374989,
+        "teamBProbability": 0.625011,
+        "margin": 0.250022
       },
       "coverage": {
         "teamAMatches": 25,
@@ -7408,55 +7090,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "LYON",
-        "probability": 0.7702,
-        "teamAProbability": 0.2298,
-        "teamBProbability": 0.7702,
-        "margin": 0.540399
+        "probability": 0.716896,
+        "teamAProbability": 0.283104,
+        "teamBProbability": 0.716896,
+        "margin": 0.433793
       },
       "coverage": {
         "teamAMatches": 24,
@@ -7547,55 +7223,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Riddle",
-        "probability": 0.620989,
-        "teamAProbability": 0.620989,
-        "teamBProbability": 0.379011,
-        "margin": 0.241978
+        "probability": 0.651472,
+        "teamAProbability": 0.651472,
+        "teamBProbability": 0.348528,
+        "margin": 0.302944
       },
       "coverage": {
         "teamAMatches": 22,
@@ -7686,55 +7356,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "T1 Academy",
-        "probability": 0.535829,
-        "teamAProbability": 0.464171,
-        "teamBProbability": 0.535829,
-        "margin": 0.071658
+        "favorite": "ONSIDE GAMING",
+        "probability": 0.527988,
+        "teamAProbability": 0.527988,
+        "teamBProbability": 0.472012,
+        "margin": 0.055976
       },
       "coverage": {
         "teamAMatches": 23,
@@ -7825,55 +7489,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Fennel",
-        "probability": 0.551223,
-        "teamAProbability": 0.551223,
-        "teamBProbability": 0.448777,
-        "margin": 0.102447
+        "probability": 0.594687,
+        "teamAProbability": 0.594687,
+        "teamBProbability": 0.405313,
+        "margin": 0.189373
       },
       "coverage": {
         "teamAMatches": 22,
@@ -7964,55 +7622,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "So:sweet",
-        "probability": 0.594182,
-        "teamAProbability": 0.405818,
-        "teamBProbability": 0.594182,
-        "margin": 0.188365
+        "probability": 0.554056,
+        "teamAProbability": 0.445944,
+        "teamBProbability": 0.554056,
+        "margin": 0.108112
       },
       "coverage": {
         "teamAMatches": 11,
@@ -8103,55 +7755,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Leviatán Academy",
-        "probability": 0.500693,
-        "teamAProbability": 0.499307,
-        "teamBProbability": 0.500693,
-        "margin": 0.001385
+        "favorite": "KRÜ Blaze",
+        "probability": 0.55436,
+        "teamAProbability": 0.55436,
+        "teamBProbability": 0.44564,
+        "margin": 0.108721
       },
       "coverage": {
         "teamAMatches": 29,
@@ -8242,55 +7888,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "STREAMER ARENA",
-        "probability": 0.602012,
-        "teamAProbability": 0.602012,
-        "teamBProbability": 0.397988,
-        "margin": 0.204024
+        "probability": 0.624464,
+        "teamAProbability": 0.624464,
+        "teamBProbability": 0.375536,
+        "margin": 0.248928
       },
       "coverage": {
         "teamAMatches": 6,
@@ -8381,55 +8021,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "University War",
-        "probability": 0.624481,
-        "teamAProbability": 0.624481,
-        "teamBProbability": 0.375519,
-        "margin": 0.248963
+        "probability": 0.669586,
+        "teamAProbability": 0.669586,
+        "teamBProbability": 0.330414,
+        "margin": 0.339171
       },
       "coverage": {
         "teamAMatches": 9,
@@ -8520,55 +8154,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "LYON",
-        "probability": 0.78224,
-        "teamAProbability": 0.21776,
-        "teamBProbability": 0.78224,
-        "margin": 0.564479
+        "probability": 0.729326,
+        "teamAProbability": 0.270674,
+        "teamBProbability": 0.729326,
+        "margin": 0.458653
       },
       "coverage": {
         "teamAMatches": 17,
@@ -8659,55 +8287,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "QT DIG∞",
-        "probability": 0.513696,
-        "teamAProbability": 0.486304,
-        "teamBProbability": 0.513696,
-        "margin": 0.027391
+        "favorite": "Crest Gaming Zst",
+        "probability": 0.536894,
+        "teamAProbability": 0.536894,
+        "teamBProbability": 0.463106,
+        "margin": 0.073788
       },
       "coverage": {
         "teamAMatches": 9,
@@ -8798,55 +8420,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Dplus",
-        "probability": 0.584763,
-        "teamAProbability": 0.584763,
-        "teamBProbability": 0.415237,
-        "margin": 0.169527
+        "probability": 0.628798,
+        "teamAProbability": 0.628798,
+        "teamBProbability": 0.371202,
+        "margin": 0.257597
       },
       "coverage": {
         "teamAMatches": 19,
@@ -8937,55 +8553,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Insomnia",
-        "probability": 0.653276,
-        "teamAProbability": 0.653276,
-        "teamBProbability": 0.346724,
-        "margin": 0.306552
+        "probability": 0.681263,
+        "teamAProbability": 0.681263,
+        "teamBProbability": 0.318737,
+        "margin": 0.362526
       },
       "coverage": {
         "teamAMatches": 14,
@@ -9076,55 +8686,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Gen.G Global Academy",
-        "probability": 0.515074,
-        "teamAProbability": 0.484926,
-        "teamBProbability": 0.515074,
-        "margin": 0.030148
+        "favorite": "Kiwoom DRX Academy",
+        "probability": 0.528969,
+        "teamAProbability": 0.528969,
+        "teamBProbability": 0.471031,
+        "margin": 0.057938
       },
       "coverage": {
         "teamAMatches": 53,
@@ -9215,55 +8819,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ShindeN",
-        "probability": 0.695632,
-        "teamAProbability": 0.304368,
-        "teamBProbability": 0.695632,
-        "margin": 0.391265
+        "probability": 0.652089,
+        "teamAProbability": 0.347911,
+        "teamBProbability": 0.652089,
+        "margin": 0.304179
       },
       "coverage": {
         "teamAMatches": 19,
@@ -9354,55 +8952,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "LAZER",
-        "probability": 0.501873,
-        "teamAProbability": 0.498127,
-        "teamBProbability": 0.501873,
-        "margin": 0.003746
+        "favorite": "Chivas Esports",
+        "probability": 0.532596,
+        "teamAProbability": 0.532596,
+        "teamBProbability": 0.467404,
+        "margin": 0.065192
       },
       "coverage": {
         "teamAMatches": 18,
@@ -9493,55 +9085,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "BESTIA",
-        "probability": 0.585151,
-        "teamAProbability": 0.414849,
-        "teamBProbability": 0.585151,
-        "margin": 0.170303
+        "probability": 0.542296,
+        "teamAProbability": 0.457704,
+        "teamBProbability": 0.542296,
+        "margin": 0.084592
       },
       "coverage": {
         "teamAMatches": 25,
@@ -9632,55 +9218,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Contra",
-        "probability": 0.683031,
-        "teamAProbability": 0.683031,
-        "teamBProbability": 0.316969,
-        "margin": 0.366061
+        "probability": 0.710952,
+        "teamAProbability": 0.710952,
+        "teamBProbability": 0.289048,
+        "margin": 0.421903
       },
       "coverage": {
         "teamAMatches": 24,
@@ -9771,55 +9351,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "ONSIDE GAMING",
-        "probability": 0.735493,
-        "teamAProbability": 0.264507,
-        "teamBProbability": 0.735493,
-        "margin": 0.470985
+        "probability": 0.689476,
+        "teamAProbability": 0.310524,
+        "teamBProbability": 0.689476,
+        "margin": 0.378951
       },
       "coverage": {
         "teamAMatches": 11,
@@ -9910,55 +9484,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "T1 Academy",
-        "probability": 0.639524,
-        "teamAProbability": 0.639524,
-        "teamBProbability": 0.360476,
-        "margin": 0.279049
+        "probability": 0.678525,
+        "teamAProbability": 0.678525,
+        "teamBProbability": 0.321475,
+        "margin": 0.357049
       },
       "coverage": {
         "teamAMatches": 61,
@@ -10049,55 +9617,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "IGZIST",
-        "probability": 0.533092,
-        "teamAProbability": 0.466908,
-        "teamBProbability": 0.533092,
-        "margin": 0.066185
+        "favorite": "REJECT",
+        "probability": 0.51026,
+        "teamAProbability": 0.51026,
+        "teamBProbability": 0.48974,
+        "margin": 0.020521
       },
       "coverage": {
         "teamAMatches": 16,
@@ -10188,55 +9750,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
-        "favorite": "Kiwoom DRX Academy",
-        "probability": 0.521658,
-        "teamAProbability": 0.478342,
-        "teamBProbability": 0.521658,
-        "margin": 0.043316
+        "favorite": "Dplus",
+        "probability": 0.526438,
+        "teamAProbability": 0.526438,
+        "teamBProbability": 0.473562,
+        "margin": 0.052877
       },
       "coverage": {
         "teamAMatches": 19,
@@ -10327,55 +9883,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Gen.G Global Academy",
-        "probability": 0.648803,
-        "teamAProbability": 0.351197,
-        "teamBProbability": 0.648803,
-        "margin": 0.297605
+        "probability": 0.608004,
+        "teamAProbability": 0.391996,
+        "teamBProbability": 0.608004,
+        "margin": 0.216008
       },
       "coverage": {
         "teamAMatches": 2,
@@ -10466,55 +10016,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Fennel",
-        "probability": 0.655877,
-        "teamAProbability": 0.344123,
-        "teamBProbability": 0.655877,
-        "margin": 0.311753
+        "probability": 0.60797,
+        "teamAProbability": 0.39203,
+        "teamBProbability": 0.60797,
+        "margin": 0.215939
       },
       "coverage": {
         "teamAMatches": 22,
@@ -10605,55 +10149,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Crest Gaming Zst",
-        "probability": 0.734351,
-        "teamAProbability": 0.734351,
-        "teamBProbability": 0.265649,
-        "margin": 0.468702
+        "probability": 0.7599,
+        "teamAProbability": 0.7599,
+        "teamBProbability": 0.2401,
+        "margin": 0.5198
       },
       "coverage": {
         "teamAMatches": 9,
@@ -10744,55 +10282,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "QT DIG∞",
-        "probability": 0.533253,
-        "teamAProbability": 0.533253,
-        "teamBProbability": 0.466747,
-        "margin": 0.066507
+        "probability": 0.57743,
+        "teamAProbability": 0.57743,
+        "teamBProbability": 0.42257,
+        "margin": 0.154859
       },
       "coverage": {
         "teamAMatches": 15,
@@ -10883,55 +10415,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "Fennel",
-        "probability": 0.623692,
-        "teamAProbability": 0.376308,
-        "teamBProbability": 0.623692,
-        "margin": 0.247384
+        "probability": 0.575596,
+        "teamAProbability": 0.424404,
+        "teamBProbability": 0.575596,
+        "margin": 0.151191
       },
       "coverage": {
         "teamAMatches": 14,
@@ -11022,55 +10548,49 @@
         }
       },
       "model": {
-        "id": "valorant-calibrated",
-        "label": "Valorant Calibrated",
-        "path": "static/data/trained-model-calibrated.json",
-        "generatedAt": "2026-06-12T14:51:32.584Z",
+        "id": "valorant-temporal-calibration",
+        "label": "Valorant Temporal Calibrated",
+        "path": "static/data/trained-model-temporal-calibrated.json",
+        "generatedAt": "2026-06-12T17:04:35.595Z",
         "metrics": {
-          "rows": 453,
-          "accuracy": 0.631347,
-          "logLoss": 0.663684,
-          "brier": 0.23567,
+          "rows": 67,
+          "accuracy": 0.641791,
+          "logLoss": 0.648584,
+          "brier": 0.228554,
           "calibration": [
             {
               "bucket": "0.5-0.6",
-              "rows": 236,
-              "accuracy": 0.618644,
-              "avgConfidence": 0.547691
+              "rows": 36,
+              "accuracy": 0.611111,
+              "avgConfidence": 0.552001
             },
             {
               "bucket": "0.6-0.7",
-              "rows": 155,
-              "accuracy": 0.625806,
-              "avgConfidence": 0.648685
+              "rows": 23,
+              "accuracy": 0.652174,
+              "avgConfidence": 0.639192
             },
             {
               "bucket": "0.7-0.7999999999999999",
-              "rows": 53,
-              "accuracy": 0.660377,
-              "avgConfidence": 0.735017
+              "rows": 7,
+              "accuracy": 0.714286,
+              "avgConfidence": 0.721486
             },
             {
               "bucket": "0.8-0.9",
-              "rows": 8,
-              "accuracy": 0.875,
-              "avgConfidence": 0.838637
-            },
-            {
-              "bucket": "0.9-1",
               "rows": 1,
               "accuracy": 1,
-              "avgConfidence": 0.908956
+              "avgConfidence": 0.847053
             }
           ]
         }
       },
       "prediction": {
         "favorite": "REJECT",
-        "probability": 0.535891,
-        "teamAProbability": 0.535891,
-        "teamBProbability": 0.464109,
-        "margin": 0.071783
+        "probability": 0.57297,
+        "teamAProbability": 0.57297,
+        "teamBProbability": 0.42703,
+        "margin": 0.145941
       },
       "coverage": {
         "teamAMatches": 16,

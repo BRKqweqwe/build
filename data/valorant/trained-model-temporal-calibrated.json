@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-12T17:04:35.595Z",
+  "type": "logistic-regression-temporal-selected",
+  "id": "valorant-temporal-calibration",
+  "label": "Valorant Temporal Calibrated",
+  "source": {
+    "trainingDataset": "static/data/training-dataset.json",
+    "rows": 2386,
+    "trainRows": 2319,
+    "validationRows": 67,
+    "validationStart": "2026-06-01",
+    "validationEnd": null
+  },
+  "hyperparameters": {
+    "epochs": 1600,
+    "learningRate": 0.07,
+    "l2": 0.03
+  },
+  "selectedGroups": [
+    "overall_rates",
+    "elo"
+  ],
+  "features": [
+    "eloA",
+    "eloB",
+    "eloDiff",
+    "mapWinRateA",
+    "mapWinRateB",
+    "mapWinRateDiff",
+    "winRateA",
+    "winRateB",
+    "winRateDiff"
+  ],
+  "intercept": 0.15339013487853895,
+  "weights": [
+    0.15339013487853895,
+    0.10645136546028887,
+    -0.098926837924004,
+    0.16368480031351634,
+    0.10731925081473102,
+    -0.12129365920002665,
+    0.18110140873609465,
+    0.006902643337813188,
+    0.0592604840777212,
+    -0.04032713057255017
+  ],
+  "coefficients": {
+    "eloA": 0.10645136546028887,
+    "eloB": -0.098926837924004,
+    "eloDiff": 0.16368480031351634,
+    "mapWinRateA": 0.10731925081473102,
+    "mapWinRateB": -0.12129365920002665,
+    "mapWinRateDiff": 0.18110140873609465,
+    "winRateA": 0.006902643337813188,
+    "winRateB": 0.0592604840777212,
+    "winRateDiff": -0.04032713057255017
+  },
+  "scalers": {
+    "eloA": {
+      "mean": 1532.648746217995,
+      "std": 74.69204061866897
+    },
+    "eloB": {
+      "mean": 1524.3564165824819,
+      "std": 72.47258776611855
+    },
+    "eloDiff": {
+      "mean": 8.292329635512347,
+      "std": 92.37603997306542
+    },
+    "mapWinRateA": {
+      "mean": 0.5324733470684929,
+      "std": 0.16471659192767318
+    },
+    "mapWinRateB": {
+      "mean": 0.5148187991671641,
+      "std": 0.1573023166158324
+    },
+    "mapWinRateDiff": {
+      "mean": 0.017654547901329545,
+      "std": 0.20296382607919064
+    },
+    "winRateA": {
+      "mean": 0.5471021351532993,
+      "std": 0.21423432539815546
+    },
+    "winRateB": {
+      "mean": 0.5274609173650903,
+      "std": 0.20398263505837164
+    },
+    "winRateDiff": {
+      "mean": 0.019641217788209115,
+      "std": 0.26308161298461724
+    }
+  },
+  "metrics": {
+    "train": {
+      "rows": 2319,
+      "accuracy": 0.620526,
+      "logLoss": 0.659063,
+      "brier": 0.233519,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 1357,
+          "accuracy": 0.576271,
+          "avgConfidence": 0.547711
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 708,
+          "accuracy": 0.662429,
+          "avgConfidence": 0.642306
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 232,
+          "accuracy": 0.719828,
+          "avgConfidence": 0.735385
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 22,
+          "accuracy": 0.954545,
+          "avgConfidence": 0.836476
+        }
+      ]
+    },
+    "validation": {
+      "rows": 67,
+      "accuracy": 0.641791,
+      "logLoss": 0.648584,
+      "brier": 0.228554,
+      "calibration": [
+        {
+          "bucket": "0.5-0.6",
+          "rows": 36,
+          "accuracy": 0.611111,
+          "avgConfidence": 0.552001
+        },
+        {
+          "bucket": "0.6-0.7",
+          "rows": 23,
+          "accuracy": 0.652174,
+          "avgConfidence": 0.639192
+        },
+        {
+          "bucket": "0.7-0.7999999999999999",
+          "rows": 7,
+          "accuracy": 0.714286,
+          "avgConfidence": 0.721486
+        },
+        {
+          "bucket": "0.8-0.9",
+          "rows": 1,
+          "accuracy": 1,
+          "avgConfidence": 0.847053
+        }
+      ]
+    }
+  },
+  "topCoefficients": [
+    {
+      "feature": "mapWinRateDiff",
+      "weight": 0.181101,
+      "abs": 0.18110140873609465
+    },
+    {
+      "feature": "eloDiff",
+      "weight": 0.163685,
+      "abs": 0.16368480031351634
+    },
+    {
+      "feature": "mapWinRateB",
+      "weight": -0.121294,
+      "abs": 0.12129365920002665
+    },
+    {
+      "feature": "mapWinRateA",
+      "weight": 0.107319,
+      "abs": 0.10731925081473102
+    },
+    {
+      "feature": "eloA",
+      "weight": 0.106451,
+      "abs": 0.10645136546028887
+    },
+    {
+      "feature": "eloB",
+      "weight": -0.098927,
+      "abs": 0.098926837924004
+    },
+    {
+      "feature": "winRateB",
+      "weight": 0.05926,
+      "abs": 0.0592604840777212
+    },
+    {
+      "feature": "winRateDiff",
+      "weight": -0.040327,
+      "abs": 0.04032713057255017
+    },
+    {
+      "feature": "winRateA",
+      "weight": 0.006903,
+      "abs": 0.006902643337813188
+    }
+  ],
+  "variant": {
+    "objective": "calibration",
+    "sourceTuning": "static/data/valorant-time-tuning.json",
+    "selectedGroups": [
+      "overall_rates",
+      "elo"
+    ],
+    "timeSplitMetrics": {
+      "weighted": {
+        "accuracy": 0.623256,
+        "logLoss": 0.65753,
+        "brier": 0.232669
+      },
+      "median": {
+        "trainAccuracyGap": -0.030817
+      },
+      "splits": 8,
+      "validationRows": 1935
+    },
+    "timeSplitKey": "accuracy-core|lr=0.07|l2=0.03"
+  }
+}

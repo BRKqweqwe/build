@@ -1,207 +1,17 @@
 {
-  "generatedAt": "2026-06-12T13:40:02.146Z",
+  "generatedAt": "2026-06-13T02:43:22.932Z",
   "source": {
     "matches": "static/data/live-matches.json",
     "dataset": "static/data/training-dataset-match-level-league.json",
     "model": "static/data/trained-model-adaptive-stack.json"
   },
   "summary": {
-    "total": 10,
-    "high": 9,
+    "total": 11,
+    "high": 10,
     "medium": 0,
     "low": 1
   },
   "predictions": [
-    {
-      "matchId": "lolesports-116520394663535894",
-      "match": {
-        "id": "lolesports-116520394663535894",
-        "lolEsportsId": "116520394663535894",
-        "source": "lolesports",
-        "startTime": "2026-06-12T10:00:00Z",
-        "status": "inProgress",
-        "league": "VCS",
-        "blockName": "Playoffs",
-        "bestOf": 5,
-        "teamA": "Saigon Dino",
-        "teamB": "Saigon Zen Esport",
-        "teamAId": "DINO",
-        "teamBId": "ZEN",
-        "teamAScore": 2,
-        "teamBScore": 2,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "adaptive-stack",
-        "path": "static/data/trained-model-adaptive-stack.json",
-        "label": "Adaptive Stack"
-      },
-      "prediction": {
-        "favorite": "Saigon Dino",
-        "probability": 0.596743,
-        "teamAProbability": 0.596743,
-        "teamBProbability": 0.403257,
-        "margin": 0.193487
-      },
-      "coverage": {
-        "teamAGames": 63,
-        "teamBGames": 0,
-        "level": "low"
-      }
-    },
-    {
-      "matchId": "lolesports-116634529527091479",
-      "match": {
-        "id": "lolesports-116634529527091479",
-        "lolEsportsId": "116634529527091479",
-        "source": "lolesports",
-        "startTime": "2026-06-12T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "E Wie Einfach E-Sports",
-        "teamB": "MISA Esports",
-        "teamAId": "EWI",
-        "teamBId": "MISA",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "adaptive-stack",
-        "path": "static/data/trained-model-adaptive-stack.json",
-        "label": "Adaptive Stack"
-      },
-      "prediction": {
-        "favorite": "MISA Esports",
-        "probability": 0.715681,
-        "teamAProbability": 0.284319,
-        "teamBProbability": 0.715681,
-        "margin": 0.431361
-      },
-      "coverage": {
-        "teamAGames": 170,
-        "teamBGames": 187,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634566270405071",
-      "match": {
-        "id": "lolesports-116634566270405071",
-        "lolEsportsId": "116634566270405071",
-        "source": "lolesports",
-        "startTime": "2026-06-12T15:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "WLGaming",
-        "teamB": "G2 NORD",
-        "teamAId": "WLG",
-        "teamBId": "G2N",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "adaptive-stack",
-        "path": "static/data/trained-model-adaptive-stack.json",
-        "label": "Adaptive Stack"
-      },
-      "prediction": {
-        "favorite": "WLGaming",
-        "probability": 0.569608,
-        "teamAProbability": 0.569608,
-        "teamBProbability": 0.430392,
-        "margin": 0.139216
-      },
-      "coverage": {
-        "teamAGames": 129,
-        "teamBGames": 68,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634566270405047",
-      "match": {
-        "id": "lolesports-116634566270405047",
-        "lolEsportsId": "116634566270405047",
-        "source": "lolesports",
-        "startTime": "2026-06-12T18:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "Karmine Corp Blue",
-        "teamB": "Forsaken",
-        "teamAId": "KCB",
-        "teamBId": "FSK",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "adaptive-stack",
-        "path": "static/data/trained-model-adaptive-stack.json",
-        "label": "Adaptive Stack"
-      },
-      "prediction": {
-        "favorite": "Karmine Corp Blue",
-        "probability": 0.665139,
-        "teamAProbability": 0.665139,
-        "teamBProbability": 0.334861,
-        "margin": 0.330279
-      },
-      "coverage": {
-        "teamAGames": 244,
-        "teamBGames": 180,
-        "level": "high"
-      }
-    },
-    {
-      "matchId": "lolesports-116634566270405095",
-      "match": {
-        "id": "lolesports-116634566270405095",
-        "lolEsportsId": "116634566270405095",
-        "source": "lolesports",
-        "startTime": "2026-06-12T18:00:00Z",
-        "status": "unstarted",
-        "league": "EMEA Masters",
-        "blockName": "Groups",
-        "bestOf": 3,
-        "teamA": "Anubis Gaming",
-        "teamB": "Eintracht Spandau",
-        "teamAId": "ANB",
-        "teamBId": "EINS",
-        "teamAScore": 0,
-        "teamBScore": 0,
-        "winner": null,
-        "winnerTeamId": null
-      },
-      "model": {
-        "id": "adaptive-stack",
-        "path": "static/data/trained-model-adaptive-stack.json",
-        "label": "Adaptive Stack"
-      },
-      "prediction": {
-        "favorite": "Anubis Gaming",
-        "probability": 0.66497,
-        "teamAProbability": 0.66497,
-        "teamBProbability": 0.33503,
-        "margin": 0.32994
-      },
-      "coverage": {
-        "teamAGames": 151,
-        "teamBGames": 179,
-        "level": "high"
-      }
-    },
     {
       "matchId": "lolesports-115548128963037581",
       "match": {
@@ -317,6 +127,44 @@
       }
     },
     {
+      "matchId": "lolesports-116520394663535900",
+      "match": {
+        "id": "lolesports-116520394663535900",
+        "lolEsportsId": "116520394663535900",
+        "source": "lolesports",
+        "startTime": "2026-06-13T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Zen Esport",
+        "teamB": "Saigon Warrior",
+        "teamAId": "ZEN",
+        "teamBId": "SGW",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "Saigon Zen Esport",
+        "probability": 0.566598,
+        "teamAProbability": 0.566598,
+        "teamBProbability": 0.433402,
+        "margin": 0.133196
+      },
+      "coverage": {
+        "teamAGames": 0,
+        "teamBGames": 0,
+        "level": "low"
+      }
+    },
+    {
       "matchId": "lolesports-116453476471776170",
       "match": {
         "id": "lolesports-116453476471776170",
@@ -355,6 +203,158 @@
       }
     },
     {
+      "matchId": "lolesports-116634566263916920",
+      "match": {
+        "id": "lolesports-116634566263916920",
+        "lolEsportsId": "116634566263916920",
+        "source": "lolesports",
+        "startTime": "2026-06-13T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Quarterfinals",
+        "bestOf": 5,
+        "teamA": "UCAM Esports Club",
+        "teamB": "Karmine Corp Blue",
+        "teamAId": "UCAM",
+        "teamBId": "KCB",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "UCAM Esports Club",
+        "probability": 0.618051,
+        "teamAProbability": 0.618051,
+        "teamBProbability": 0.381949,
+        "margin": 0.236101
+      },
+      "coverage": {
+        "teamAGames": 154,
+        "teamBGames": 244,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566264113534",
+      "match": {
+        "id": "lolesports-116634566264113534",
+        "lolEsportsId": "116634566264113534",
+        "source": "lolesports",
+        "startTime": "2026-06-13T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Quarterfinals",
+        "bestOf": 5,
+        "teamA": "Solary",
+        "teamB": "G2 NORD",
+        "teamAId": "SLY",
+        "teamBId": "G2N",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "Solary",
+        "probability": 0.613376,
+        "teamAProbability": 0.613376,
+        "teamBProbability": 0.386624,
+        "margin": 0.226751
+      },
+      "coverage": {
+        "teamAGames": 164,
+        "teamBGames": 68,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566264113540",
+      "match": {
+        "id": "lolesports-116634566264113540",
+        "lolEsportsId": "116634566264113540",
+        "source": "lolesports",
+        "startTime": "2026-06-13T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Quarterfinals",
+        "bestOf": 5,
+        "teamA": "Heretics Academy",
+        "teamB": "Eintracht Spandau",
+        "teamAId": "HRTS",
+        "teamBId": "EINS",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "Heretics Academy",
+        "probability": 0.762658,
+        "teamAProbability": 0.762658,
+        "teamBProbability": 0.237342,
+        "margin": 0.525315
+      },
+      "coverage": {
+        "teamAGames": 337,
+        "teamBGames": 179,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116634566264113546",
+      "match": {
+        "id": "lolesports-116634566264113546",
+        "lolEsportsId": "116634566264113546",
+        "source": "lolesports",
+        "startTime": "2026-06-13T15:00:00Z",
+        "status": "unstarted",
+        "league": "EMEA Masters",
+        "blockName": "Quarterfinals",
+        "bestOf": 5,
+        "teamA": "Galions",
+        "teamB": "MISA Esports",
+        "teamAId": "GL",
+        "teamBId": "MISA",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "MISA Esports",
+        "probability": 0.599395,
+        "teamAProbability": 0.400605,
+        "teamBProbability": 0.599395,
+        "margin": 0.19879
+      },
+      "coverage": {
+        "teamAGames": 158,
+        "teamBGames": 187,
+        "level": "high"
+      }
+    },
+    {
       "matchId": "lolesports-115564793879469324",
       "match": {
         "id": "lolesports-115564793879469324",
@@ -389,6 +389,44 @@
       "coverage": {
         "teamAGames": 151,
         "teamBGames": 97,
+        "level": "high"
+      }
+    },
+    {
+      "matchId": "lolesports-116520394663535906",
+      "match": {
+        "id": "lolesports-116520394663535906",
+        "lolEsportsId": "116520394663535906",
+        "source": "lolesports",
+        "startTime": "2026-06-14T10:00:00Z",
+        "status": "unstarted",
+        "league": "VCS",
+        "blockName": "Playoffs",
+        "bestOf": 5,
+        "teamA": "Saigon Dino",
+        "teamB": "TP.HCM SN CyberCore Esports",
+        "teamAId": "DINO",
+        "teamBId": "SCBC",
+        "teamAScore": 0,
+        "teamBScore": 0,
+        "winner": null,
+        "winnerTeamId": null
+      },
+      "model": {
+        "id": "adaptive-stack",
+        "path": "static/data/trained-model-adaptive-stack.json",
+        "label": "Adaptive Stack"
+      },
+      "prediction": {
+        "favorite": "Saigon Dino",
+        "probability": 0.804719,
+        "teamAProbability": 0.804719,
+        "teamBProbability": 0.195281,
+        "margin": 0.609439
+      },
+      "coverage": {
+        "teamAGames": 63,
+        "teamBGames": 41,
         "level": "high"
       }
     }
